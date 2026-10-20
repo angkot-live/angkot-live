@@ -2,9 +2,6 @@
 
 | | |
 |---|---|
-| **Versi** | 0.2 (draft, stack diperbarui) |
-| **Tanggal** | 20 Oktober 2026 |
-| **Penyusun** | Raditya Rizki Raharja |
 | **Kompetisi** | Web In Action (WIA) MIA 2026, KSM Multimedia UPN Veteran Jakarta |
 | **Subtema** | Public Service Tracking |
 | **Wilayah awal** | Kota Bandung |
