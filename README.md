@@ -1,579 +1,734 @@
-# PRD: Angkot Live
+# PRD — Angkot-Live
+
+**Platform pelacakan angkot realtime & transparansi layanan transportasi publik**
 
 | | |
 |---|---|
-| **Kompetisi** | Web In Action (WIA) MIA 2026, KSM Multimedia UPN Veteran Jakarta |
-| **Subtema** | Public Service Tracking |
-| **Wilayah awal** | Kota Bandung |
-| **Platform** | Web (PWA), tanpa aplikasi native |
-
-Legenda prioritas: **P0** wajib ada saat demo, **P1** pembeda, **P2** dikerjakan kalau waktu cukup.
+| Event | Multimedia In Action (MIA) 2026 — Kategori Web Development |
+| Subtema | Public Service Tracking |
+| Versi | 0.1 (draft) |
+| Tanggal | 25 Oktober 2026 |
+| Status | Draft untuk review tim |
 
 ---
 
 ## 1. Ringkasan
 
-Angkot Live adalah aplikasi web untuk memantau posisi angkot secara real-time dan membantu penumpang menemukan angkot yang tepat menuju tujuan mereka. Posisi angkot berasal dari GPS HP pengemudi yang dikirim lewat browser. Penumpang melihat angkot bergerak di peta, memfilter berdasarkan jurusan dan radius, mencari tujuan, lalu mendapat rekomendasi angkot beserta rute yang divisualisasikan.
+Angkot-Live adalah aplikasi web (PWA) yang menampilkan posisi angkot secara realtime di peta, membantu penumpang menemukan angkot dan jurusan yang tepat, membantu pengemudi mendapat informasi penumpang di sekitar rute, serta memberi admin/instansi alat untuk memverifikasi pengemudi, mengelola trayek, dan memantau kualitas layanan.
 
-Angkot berjalan di satu rute tetap secara siklus dan **tidak menjemput penumpang**. Penumpang yang mendatangi jalur, boleh naik atau turun di titik mana pun di pinggir jalan selama dilewati rute angkot.
+Aplikasi ini **bukan** ride-hailing. Framing-nya adalah *informasi keberadaan dan transparansi layanan*, bukan pemesanan angkot.
 
-## 2. Latar belakang dan masalah
+## 2. Latar belakang & masalah
 
-Angkutan kota di Bandung tidak punya informasi layanan yang bisa diakses penumpang. Akibatnya:
+| Masalah | Dampak |
+|---|---|
+| Penumpang tidak tahu angkot mana yang lewat, kapan datang, dan jurusan mana yang menuju tujuannya | Waktu tunggu tidak pasti, penumpang beralih ke kendaraan pribadi/ojol |
+| Pengemudi tidak tahu di mana penumpang menunggu | Angkot ngetem lama atau lewat tanpa penumpang |
+| Instansi tidak punya data realtime kondisi layanan dan kelayakan kendaraan | Pengawasan lambat dan manual |
+| Tidak ada kanal pelaporan yang jelas untuk pengemudi ugal-ugalan atau fasilitas buruk | Keluhan tidak terdokumentasi dan tidak ditindaklanjuti |
 
-- Penumpang tidak tahu angkot mana yang menuju tujuannya.
-- Penumpang tidak tahu kapan angkot berikutnya lewat atau apakah angkotnya sedang beroperasi.
-- Tidak ada data layanan (jeda antar angkot, durasi ngetem) yang bisa dipakai untuk evaluasi layanan.
+## 3. Keselarasan dengan subtema
 
-Relevansi dengan subtema: aplikasi memberi transparansi status layanan publik dari sisi pengguna, dengan pelacakan yang bisa dilihat langsung oleh warga.
+Subtema **Public Service Tracking**: website untuk memantau status/progres layanan publik dengan sistem tracking yang transparan dari sisi pengguna maupun instansi.
 
-## 3. Tujuan dan non-tujuan
+| Aspek subtema | Wujud di Angkot-Live |
+|---|---|
+| Tracking layanan | Posisi, status, dan ETA angkot realtime |
+| Transparan bagi pengguna | Peta publik, status angkot, status tindak lanjut laporan |
+| Transparan bagi instansi | Dashboard admin, verifikasi dokumen, monitoring trayek dan kendaraan |
+| Partisipasi warga | Hotline pelaporan dan tracking status laporan |
+
+## 4. Tujuan & metrik keberhasilan
 
 ### Tujuan
+1. Penumpang dapat melihat angkot di sekitar dan mengetahui jurusan menuju tujuannya.
+2. Pengemudi dapat membagikan posisi/status dan melihat penumpang di area rute.
+3. Admin dapat memverifikasi pengemudi, mengelola trayek, dan memantau layanan.
+4. Layanan dapat dipertanggungjawabkan lewat laporan dan statistik publik.
 
-1. Penumpang dapat melihat posisi angkot yang sedang narik secara real-time.
-2. Penumpang dapat menemukan angkot menuju tujuan beserta titik naik, titik turun, dan jalan kaki yang harus ditempuh.
-3. Pengemudi dapat mengirim posisi hanya dengan beberapa sentuhan, tanpa perangkat tambahan.
-4. Sistem menghasilkan data layanan (headway, ngetem) yang bisa dianalisis.
-5. Seluruh alur dapat didemokan secara stabil, termasuk tanpa angkot sungguhan.
-
-### Non-tujuan (di luar scope)
-
-- Pembayaran digital (QRIS atau tarif per kilometer).
-- Portal data terbuka (Open Government Data) dan API publik.
-- Aplikasi mobile native.
-- Pemesanan atau penjemputan angkot.
-- Prediksi kepadatan berbasis AI.
-- Chat atau forum antar pengguna.
-
-### Metrik keberhasilan (target awal, untuk demo)
-
+### Metrik (untuk demo & evaluasi)
 | Metrik | Target |
 |---|---|
-| Jeda posisi dikirim sampai tampil di peta penumpang | 5 detik atau kurang |
-| Waktu hitung rekomendasi rute | 2 detik atau kurang |
-| Alur utama bisa didemokan tanpa kegagalan | 3 kali percobaan berturut-turut |
-| Cakupan trayek | 3 sampai 5 trayek dengan data akurat |
+| Latensi update posisi (pengemudi → peta penumpang) | ≤ 3 detik |
+| Interval pengiriman GPS | 3–5 detik |
+| Akurasi penempatan angkot di jalur (setelah map matching) | Titik berada pada polyline trayek |
+| Waktu dari buka aplikasi ke melihat peta | ≤ 3 detik pada jaringan 4G |
+| Alur demo end-to-end tanpa error | 100% pada skenario utama |
 
-## 4. Persona
+## 5. Persona & peran
 
-| Persona | Kebutuhan | Perangkat |
+| Peran | Deskripsi | Kebutuhan utama |
 |---|---|---|
-| **Penumpang** (mahasiswa, pekerja, warga umum) | Tahu angkot mana yang ke tujuan, kapan datang, naik di mana | HP, browser, tanpa login |
-| **Pengemudi** | Mengirim posisi dengan sentuhan minimal saat menyetir | HP di dashboard, layar menyala |
-| **Admin** (pengelola sistem) | Kelola trayek, verifikasi pengemudi, pantau armada | Laptop |
+| **Penumpang** | Warga pengguna angkot harian | Tahu angkot mana yang datang, ETA, rekomendasi jurusan, melapor |
+| **Pengemudi** | Sopir angkot terverifikasi | Lihat penumpang di rute, atur status, terima pesan, terima tip |
+| **Admin** | Petugas/instansi pengelola | Verifikasi, kelola trayek, monitoring, tindak lanjut laporan |
 
-## 5. Aturan bisnis
+## 6. Ruang lingkup & prioritas
+
+### Prioritas
+
+| Prioritas | Cakupan |
+|---|---|
+| **P0 — wajib jalan saat demo** | Auth & role, peta realtime (WebSocket), filter jurusan/radius, detail angkot + ETA, pencarian tujuan + rekomendasi jurusan langsung, mode pengemudi (kirim GPS + status), simulator GPS |
+| **P1 — nilai tambah** | Verifikasi pengemudi, CRUD trayek, monitoring admin realtime, auto-ngetem 90 detik, megat angkot, dashboard ringkas tiap role, hotline laporan + tracking status, halaman statistik publik |
+| **P2 — jika waktu cukup** | Transfer 2+ angkot, tip pengemudi, inbox, dashboard analitik lengkap, monitoring kondisi kendaraan dari dokumen, heatmap permintaan |
+
+### Di luar cakupan (out of scope)
+- Pemesanan/pembayaran angkot (bukan ride-hailing)
+- Integrasi pembayaran riil (tip dapat disimulasikan)
+- Aplikasi native Android/iOS (cukup PWA)
+- Prediksi berbasis machine learning
+
+## 7. Kebutuhan fungsional
+
+### 7.1 Autentikasi & akun
+
+| ID | Kebutuhan | Prioritas |
+|---|---|---|
+| AUTH-01 | Login/register dengan role-based access control: admin, pengemudi, penumpang | P0 |
+| AUTH-02 | Penumpang mendaftar dengan email dan nomor telepon | P0 |
+| AUTH-03 | Pengemudi mendaftar dengan data administrasi: SIM, NIK, STNK, KIR, foto kondisi mobil, jurusan | P1 |
+| AUTH-04 | Status akun pengemudi: `pending` → `disetujui` / `ditolak` (dengan alasan) | P1 |
+| AUTH-05 | Pengemudi belum terverifikasi tidak dapat tampil di peta publik | P1 |
+| AUTH-06 | Token berbasis JWT dengan refresh; sesi dapat dicabut | P0 |
+
+### 7.2 Admin
+
+| ID | Kebutuhan | Prioritas |
+|---|---|---|
+| ADM-01 | Dashboard analitik: total angkot, angkot aktif, jumlah per jurusan | P1 |
+| ADM-02 | CRUD trayek: data jurusan, rute (polyline GeoJSON), titik halte/terminal | P1 |
+| ADM-03 | Verifikasi administrasi akun pengemudi (lihat dokumen, setujui/tolak) | P1 |
+| ADM-04 | Monitoring posisi angkot realtime dengan filter radius dan jurusan | P1 |
+| ADM-05 | Monitoring kondisi kendaraan berdasarkan dokumen (masa berlaku STNK/KIR, foto) dan penanda dokumen kedaluwarsa | P2 |
+| ADM-06 | Kelola laporan masuk: ubah status (diterima → diproses → selesai) dan beri tanggapan | P1 |
+| ADM-07 | Kirim pesan ke pengemudi (masuk ke inbox) | P2 |
+
+### 7.3 Pengemudi
+
+| ID | Kebutuhan | Prioritas |
+|---|---|---|
+| DRV-01 | Mengirim GPS secara berkala selama status aktif | P0 |
+| DRV-02 | Status: `narik`, `ngetem`, `istirahat`, `offline` | P0 |
+| DRV-03 | Peta trayek interaktif; hanya menampilkan mobil sendiri dan penumpang di sekitar rute | P0 |
+| DRV-04 | Melihat penumpang yang sedang megat, hanya di area rute (halte, terminal, pinggir jalan) | P1 |
+| DRV-05 | Dashboard: kendaraan, jarak tempuh, tip | P1 |
+| DRV-06 | Inbox pesan dari sistem dan admin | P2 |
+| DRV-07 | Pop-up konfirmasi ngetem (lihat aturan bisnis BR-01) | P1 |
+| DRV-08 | Wake lock agar layar tidak mati saat bertugas | P1 |
+
+### 7.4 Penumpang
+
+| ID | Kebutuhan | Prioritas |
+|---|---|---|
+| PAX-01 | Peta trayek interaktif dengan angkot realtime | P0 |
+| PAX-02 | Status angkot: `ngetem`, `jalan`, `merayap` | P0 |
+| PAX-03 | Klik angkot → jurusan, nama pengemudi, plat nomor, ETA ke titik penumpang | P0 |
+| PAX-04 | Pencarian lokasi tujuan + rekomendasi jurusan (rute langsung) | P0 |
+| PAX-05 | Tombol "megat angkot" dengan mode otomatis (lihat BR-03) | P1 |
+| PAX-06 | Mode perjalanan setelah naik angkot | P1 |
+| PAX-07 | Hotline pelaporan di aplikasi (pengemudi ugal-ugalan, fasilitas tidak memadai) beserta tracking status laporan | P1 |
+| PAX-08 | Dashboard: jumlah naik angkot, jarak tempuh, angkot yang sering dinaiki | P2 |
+| PAX-09 | Rekomendasi perjalanan dengan transfer 2+ angkot (lihat bagian 9) | P2 |
+| PAX-10 | Memberi tip kepada pengemudi | P2 |
+
+### 7.5 Publik (tanpa login) — *rekomendasi*
+
+| ID | Kebutuhan | Prioritas |
+|---|---|---|
+| PUB-01 | Melihat peta angkot realtime dan mencari rute tanpa login | P0 |
+| PUB-02 | Halaman statistik transparansi: angkot aktif per jurusan, jumlah laporan, persentase laporan ditindaklanjuti | P1 |
+
+## 8. Aturan bisnis
 
 | ID | Aturan |
 |---|---|
-| BR-01 | Satu angkot melayani satu trayek, bergerak siklus di rute tetap. |
-| BR-02 | Angkot tidak menjemput. Titik naik dan turun adalah titik mana pun di sepanjang jalur. |
-| BR-03 | Data posisi hanya diterima dari pengemudi yang sudah diverifikasi admin dan sedang berstatus Narik. |
-| BR-04 | Lokasi dan pin penumpang hanya disimpan di perangkat penumpang dan tidak pernah dikirim ke server atau pengemudi. |
-| BR-05 | Status tugas ditentukan pengemudi, status gerak ditentukan sistem. |
+| BR-01 | **Auto-ngetem:** jika koordinat GPS pengemudi tidak berpindah (di bawah ambang jarak) selama **90 detik**, sistem menampilkan pop-up "Apakah Anda sedang ngetem?". Jika dikonfirmasi atau tidak ada respons selama T detik (ditentukan), status menjadi `ngetem`. |
+| BR-02 | **Visibilitas penumpang:** pengemudi hanya melihat penumpang yang megat pada jurusan yang sama, dalam radius tertentu, dan berada di area rute. |
+| BR-03 | **Megat angkot:** penumpang menekan tombol. Jika lokasi jauh dari area rute → mode **jalan kaki** (diarahkan ke titik rute terdekat). Jika sudah di area rute (pinggir jalan/halte/terminal) → otomatis mode **mencari pengemudi**, terlihat oleh pengemudi. |
+| BR-04 | **Mode perjalanan** aktif setelah penumpang naik angkot; posisi penumpang tidak lagi ditampilkan sebagai "menunggu". |
+| BR-05 | **Akurasi bersama:** pengemudi dan penumpang sama-sama mengirim GPS agar ETA dan pencocokan akurat. |
+| BR-06 | **Merayap (macet):** kecepatan rata-rata di bawah ambang X km/jam selama Y detik (nilai ditentukan saat uji lapangan/simulasi). |
+| BR-07 | **Angkot hilang:** tidak ada update GPS > N detik → ditandai terputus, lalu hilang dari peta publik. |
+| BR-08 | **Timeout megat:** jika tidak ada pengemudi yang merespons dalam batas waktu, permintaan kedaluwarsa; penumpang dapat membatalkan kapan saja. |
 
-### Model status angkot
+### Pemetaan status
 
-| Lapis | Status | Penentu |
-|---|---|---|
-| Tugas | Offline, Narik, Istirahat | Pengemudi (tombol) |
-| Gerak (hanya saat Narik) | Jalan, Merayap, Ngetem | Sistem (otomatis dari GPS) |
-
-Aturan deteksi gerak (nilai awal, perlu dikalibrasi di lapangan):
-
-| Status | Aturan |
+| Status pengemudi (manual/otomatis) | Tampilan ke penumpang |
 |---|---|
-| Jalan | Kecepatan rata-rata 5 km/jam atau lebih dalam jendela 90 detik |
-| Ngetem | Perpindahan posisi kurang dari 30 m selama 90 detik atau lebih |
-| Merayap | Kecepatan rendah tetapi posisi masih berpindah |
-| Perubahan status | Berlaku setelah 2 sampai 3 sampel berturut-turut (histeresis) |
+| `narik` + kecepatan normal | `jalan` |
+| `narik` + kecepatan rendah (BR-06) | `merayap` |
+| `ngetem` | `ngetem` |
+| `istirahat` / `offline` | Tidak ditampilkan |
 
-Umur data (indikator data basi):
+## 9. Rekomendasi rute & transfer
 
-| Umur data | Tampilan |
+1. **Rute langsung:** cari jurusan yang polyline-nya dekat dengan titik asal dan tujuan, dengan urutan sesuai arah trayek.
+2. **Transfer:** bila tidak ada rute langsung, cari titik transfer di mana dua trayek berdekatan (jarak jalan kaki ≤ ±150–200 m).
+3. **Algoritma:** graph berarah (directed). Node = titik sampling polyline (50–100 m). Edge = pergerakan searah trayek; edge transfer = jalan kaki antar trayek dengan penalti tunggu. Pencarian dengan Dijkstra/A*.
+4. **Batas:** maksimal 1–2 transfer.
+5. **Keluaran:** daftar leg (jalan kaki → angkot A → transfer → angkot B → jalan kaki) beserta estimasi waktu.
+
+## 10. Kebutuhan non-fungsional
+
+| Kategori | Kebutuhan |
 |---|---|
-| Kurang dari 15 detik | Normal |
-| 15 sampai 60 detik | Marker diredupkan, label "update N detik lalu" |
-| Lebih dari 60 detik | Dianggap offline (auto-offline) |
+| Performa | Update posisi ≤ 3 detik; peta tetap mulus dengan ≥ 50 marker simultan |
+| Keandalan | WebSocket auto-reconnect + indikator status koneksi |
+| Keamanan | Supabase Auth (password di-hash), JWT, RLS, validasi input, rate limit pada endpoint GPS, validasi tipe/ukuran file upload |
+| Privasi | Dokumen SIM/NIK/STNK hanya dapat diakses admin (storage privat); lokasi penumpang hanya terlihat sesuai BR-02 dan hilang saat mode berhenti |
+| Kompatibilitas | Responsif (mobile-first), PWA, browser modern |
+| Baterai | Throttling GPS, hentikan pengiriman saat offline/istirahat |
+| Aksesibilitas | Kontras warna memadai, label ikon status jelas, bukan hanya warna |
 
-## 6. Kebutuhan fungsional
+## 11. Arsitektur & tech stack
 
-### 6.1 Peta dan trayek
-
-| ID | Kebutuhan | Prioritas | Kriteria penerimaan |
-|---|---|---|---|
-| FR-01 | Peta Kota Bandung (Leaflet + OpenStreetMap) | P0 | Peta tampil dan bisa di-zoom/geser lancar di HP |
-| FR-02 | Jalur trayek berupa polyline per arah, satu warna per trayek | P0 | Jalur mengikuti jalan, bukan garis lurus antar titik |
-| FR-03 | Filter jurusan, multi-pilih | P0 | Angkot trayek yang tidak dipilih disembunyikan |
-| FR-04 | Info trayek (nama, panjang rute, jumlah angkot aktif) | P1 | Tampil di kartu info |
-
-### 6.2 Live monitoring (penumpang)
-
-| ID | Kebutuhan | Prioritas | Kriteria penerimaan |
-|---|---|---|---|
-| FR-10 | Marker angkot real-time | P0 | Update tampil maksimal 5 detik dari pengiriman, marker bergeser mulus (interpolasi) |
-| FR-11 | Arah dan status marker | P1 | Ikon berputar sesuai arah, warna berbeda untuk Jalan, Ngetem, Merayap |
-| FR-12 | Indikator data basi | P1 | Sesuai tabel umur data pada bagian 5 |
-| FR-13 | Detail angkot saat marker diklik | P1 | Tampil trayek, kecepatan, status, update terakhir |
-| FR-14 | Lokasi pengguna dari GPS browser | P0 | Hanya diproses di perangkat pengguna (BR-04) |
-
-### 6.3 Pencarian, pin, dan radius
-
-| ID | Kebutuhan | Prioritas | Kriteria penerimaan |
-|---|---|---|---|
-| FR-20 | Cari lokasi tujuan dengan autocomplete | P0 | Request ditunda 400 ms setelah ketikan terakhir |
-| FR-21 | Pin asal, default dari GPS, bisa digeser | P0 | Setelah digeser tidak lagi mengikuti GPS, tersedia tombol "kembali ke lokasi saya" |
-| FR-22 | Pin tujuan dari pencarian atau tap di peta, bisa digeser | P0 | Alamat diperbarui (reverse geocoding), rekomendasi dihitung ulang saat pin dilepas |
-| FR-23 | Filter radius 200 m sampai 3 km | P0 | Lingkaran berpusat di pin asal, hanya angkot di dalam lingkaran yang tampil |
-
-Perilaku izin lokasi:
-
-| Situasi | Perilaku |
+| Lapisan | Pilihan |
 |---|---|
-| Izin diberikan | Pin asal di posisi GPS |
-| Izin ditolak | Pin asal di pusat kota, pengguna geser atau cari sendiri |
+| Frontend | React + Vite (SPA/PWA), peta (Leaflet atau MapLibre) |
+| Backend | Go + Fiber, **modular monolith** (modul: auth, tracking, trayek, laporan, notifikasi) yang siap dipecah menjadi service |
+| Realtime | WebSocket (hub per jurusan/area) |
+| Penyimpanan posisi | In-memory (atau Redis) untuk posisi terkini; snapshot berkala ke tabel `vehicle_positions` |
+| Database | **Supabase (PostgreSQL + PostGIS)**, relational, dinormalisasi hingga 3NF; Supabase Auth + RLS untuk role |
+| File | Supabase Storage (bucket privat) untuk dokumen dan foto kendaraan |
+| Peta/geo | Geolocation API, map matching ke polyline trayek, index geospasial (PostGIS `GIST`) |
+| Demo | **Simulator GPS** yang menjalankan beberapa angkot di trayek nyata |
 
-### 6.4 Rekomendasi jurusan dan rute
+> Catatan: arsitektur awal rencana adalah microservices. Untuk skala lomba, modular monolith memberi hasil demo yang sama dengan biaya pengembangan dan debugging jauh lebih rendah.
 
-| ID | Kebutuhan | Prioritas | Kriteria penerimaan |
-|---|---|---|---|
-| FR-30 | Rekomendasi angkot langsung ke tujuan | P0 | Menampilkan trayek, titik naik, titik turun |
-| FR-31 | Visualisasi rute di peta | P0 | Segmen yang ditempuh disorot, sisanya diredupkan |
-| FR-32 | Titik naik dan turun terdekat di sepanjang jalur | P0 | Dihitung dari proyeksi pin ke polyline (BR-02) |
-| FR-33 | Jalan kaki awal dan akhir | P1 | Jarak dan garis jalan kaki tampil |
-| FR-34 | Transit satu kali | P1 | Dipakai bila tidak ada rute langsung |
-| FR-35 | Alternatif 2 sampai 3 rute | P1 | Diurutkan dari tercepat atau paling sedikit transit |
-| FR-36 | Estimasi waktu total | P1 | Jalan kaki + tunggu + naik angkot |
-
-### 6.5 Info layanan
-
-| ID | Kebutuhan | Prioritas |
-|---|---|---|
-| FR-40 | ETA angkot ke titik tertentu | P1 |
-| FR-41 | Angkot terdekat (satu tombol) | P1 |
-| FR-42 | Info titik di jalur (angkot yang lewat dan ETA) | P1 |
-| FR-43 | Status layanan trayek (banyak, sepi, belum ada) | P2 |
-| FR-44 | Lacak satu angkot | P2 |
-| FR-45 | Tempat favorit (disimpan lokal) | P2 |
-| FR-46 | Bagikan rute lewat tautan | P2 |
-
-### 6.6 Sisi pengemudi
-
-| ID | Kebutuhan | Prioritas | Kriteria penerimaan |
-|---|---|---|---|
-| FR-50 | Login pengemudi | P0 | Hanya akun terverifikasi yang bisa mengirim posisi |
-| FR-51 | Pilih trayek dan arah | P0 | Tersimpan selama sesi narik |
-| FR-52 | Tombol Mulai narik dan Selesai | P0 | Tombol besar, bisa ditekan sambil menyetir |
-| FR-53 | Tombol Istirahat | P2 | Angkot ditandai istirahat dan tidak dihitung dalam ETA |
-| FR-54 | Kirim GPS berkala | P0 | Interval 3 sampai 5 detik |
-| FR-55 | Wake Lock agar layar tetap menyala | P0 | GPS tidak mati karena layar padam |
-| FR-56 | Indikator status GPS | P1 | GPS aktif, sinyal lemah, gagal kirim |
-| FR-57 | Antrean offline | P2 | Data ditahan saat sinyal putus, dikirim ulang saat tersambung |
-
-### 6.7 Backend dan realtime
-
-| ID | Kebutuhan | Prioritas |
-|---|---|---|
-| FR-60 | Simpan posisi terbaru dan riwayat | P0 |
-| FR-61 | Broadcast realtime per trayek | P0 |
-| FR-62 | Filter akurasi GPS (buang titik akurasi buruk dan loncatan tidak wajar) | P1 |
-| FR-63 | Snap titik ke polyline trayek | P1 |
-| FR-64 | Penentu status gerak otomatis | P1 |
-| FR-65 | Auto-offline untuk angkot tanpa update | P1 |
-
-### 6.8 Analitik
-
-| ID | Kebutuhan | Prioritas |
-|---|---|---|
-| FR-70 | Headway (jeda antar angkot) per trayek per jam | P1 |
-| FR-71 | Lokasi dan durasi ngetem | P2 |
-| FR-72 | Heatmap permintaan (hanya data agregat dan anonim) | P2 |
-| FR-73 | Insight otomatis dalam bahasa awam | P2 |
-
-### 6.9 Lapor (pelengkap)
-
-| ID | Kebutuhan | Prioritas |
-|---|---|---|
-| FR-80 | Form lapor (kategori, foto, lokasi, trayek) | P1 |
-| FR-81 | Verifikasi warga | P2 |
-| FR-82 | Status tindak lanjut | P2 |
-| FR-83 | Skor akuntabilitas per trayek | P2 |
-
-### 6.10 Admin dan demo
-
-| ID | Kebutuhan | Prioritas | Kriteria penerimaan |
-|---|---|---|---|
-| FR-90 | CRUD trayek dan jalur per arah | P0 | Jalur disimpan sebagai GeoJSON |
-| FR-91 | Verifikasi akun pengemudi | P0 | Setujui atau tolak |
-| FR-92 | Monitoring semua angkot | P1 | Daftar angkot aktif beserta status |
-| FR-93 | Mode simulasi | P0 | Angkot virtual bergerak di jalur tanpa GPS asli |
-| FR-94 | PWA | P1 | Dapat dipasang di layar utama |
-
-## 7. Kebutuhan non-fungsional
-
-| Aspek | Kebutuhan |
-|---|---|
-| Performa | Peta termuat kurang dari 3 detik di jaringan seluler biasa, rekomendasi rute 2 detik atau kurang |
-| Kompatibilitas | Chrome Android untuk pengemudi (disarankan), browser modern untuk penumpang, tampilan responsif dengan prioritas mobile |
-| Keamanan | Autentikasi JWT dan middleware otorisasi per peran, hanya pengemudi terverifikasi dengan trip Narik yang boleh mengirim posisi, pembatasan laju kirim per akun, validasi Origin pada koneksi WebSocket, WSS wajib |
-| Privasi | Lokasi dan pin penumpang tetap di perangkat, analitik permintaan hanya agregat dan anonim |
-| Keandalan | Auto-offline untuk angkot tanpa update, aplikasi tetap bisa dipakai bila geocoding gagal (pin manual) |
-| Usability | Tombol halaman pengemudi besar, teks kontras tinggi, minim langkah |
-| Observabilitas | Log error pengiriman posisi dan latensi broadcast (minimal) |
-
-## 8. User flow
-
-### 8.1 Alur penumpang
-
-```mermaid
-flowchart TD
-    A(["Buka web"]) --> B{"Izin lokasi?"}
-    B -->|"Diizinkan"| C["Pin asal di posisi GPS"]
-    B -->|"Ditolak"| D["Pin asal di pusat kota, geser manual"]
-    C --> E["Lihat peta dan angkot live"]
-    D --> E
-    E --> F{"Mau apa?"}
-    F -->|"Filter"| G["Pilih jurusan dan atur radius"]
-    G --> E
-    F -->|"Cari tujuan"| H["Ketik lokasi tujuan"]
-    H --> I["Pin tujuan muncul, bisa digeser"]
-    I --> J["Sistem hitung rekomendasi"]
-    J --> K{"Ada rute?"}
-    K -->|"Langsung atau transit"| L["Tampil kartu rekomendasi"]
-    K -->|"Tidak ada"| M["Pesan: tidak ada rute, coba geser pin"]
-    M --> I
-    L --> N["Pilih kartu: rute disorot, jalan kaki, ETA"]
-    N --> O(["Jalan ke titik naik di jalur, lalu naik angkot"])
-```
-
-### 8.2 Alur pengemudi
-
-```mermaid
-flowchart TD
-    A(["Buka halaman pengemudi"]) --> B["Login"]
-    B --> C{"Akun terverifikasi?"}
-    C -->|"Belum"| D["Menunggu persetujuan admin"]
-    C -->|"Sudah"| E["Pilih trayek dan arah"]
-    E --> F["Tekan Mulai narik"]
-    F --> G["Layar dijaga menyala, GPS dikirim tiap 3 sampai 5 detik"]
-    G --> H{"Aksi pengemudi"}
-    H -->|"Istirahat"| I["Status istirahat"]
-    I -->|"Lanjut"| G
-    H -->|"Selesai"| J["Status offline, GPS berhenti"]
-    G -.->|"Tidak ada update lebih dari 60 detik"| K["Auto-offline oleh sistem"]
-```
-
-### 8.3 Alur admin
-
-```mermaid
-flowchart TD
-    A(["Login admin"]) --> B{"Pilih menu"}
-    B --> C["Verifikasi pengemudi"]
-    B --> D["Kelola trayek dan jalur"]
-    B --> E["Monitoring armada"]
-    B --> F["Mode simulasi"]
-    C --> C1["Setujui atau tolak akun"]
-    D --> D1["Tambah atau ubah GeoJSON jalur per arah"]
-    E --> E1["Lihat angkot aktif dan statusnya"]
-    F --> F1["Jalankan angkot virtual di jalur terpilih"]
-```
-
-### 8.4 Siklus status angkot
-
-```mermaid
-stateDiagram-v2
-    [*] --> Offline
-    Offline --> Narik: Mulai narik
-    Narik --> Istirahat: Istirahat
-    Istirahat --> Narik: Lanjut
-    Narik --> Offline: Selesai atau auto-offline
-    Istirahat --> Offline: Selesai atau auto-offline
-
-    state Narik {
-        [*] --> Jalan
-        Jalan --> Ngetem: Diam 90 detik atau lebih
-        Ngetem --> Jalan: Bergerak 30 m atau lebih
-        Jalan --> Merayap: Kecepatan rendah, masih berpindah
-        Merayap --> Jalan: Kecepatan naik
-    }
-```
-
-## 9. Arsitektur sistem
-
-### 9.1 Gambaran umum
+### 11.1 Diagram arsitektur sistem
 
 ```mermaid
 flowchart LR
-    subgraph Klien["Klien (Vite + React + TypeScript, PWA)"]
-        P["Web penumpang"]
-        D["Web pengemudi"]
-        A["Panel admin"]
-    end
-
-    subgraph Backend["Backend Go Fiber (alwaysdata, site tipe User program)"]
-        API["REST API: auth, trayek, admin, laporan"]
-        WS["WebSocket: /ws/driver dan /ws/live"]
-        PROC["Pemroses posisi: validasi, filter, snap, status gerak"]
-        HUB["Hub realtime in-memory: room per trayek"]
-        DB[("Database")]
-        FS["Penyimpanan file: foto laporan"]
-    end
-
-    subgraph Eksternal["Layanan eksternal"]
-        TILE["Tile OpenStreetMap"]
-        GEO["Geocoding Nominatim"]
-    end
-
-    D -->|"HTTPS: login"| API
-    A -->|"HTTPS: CRUD trayek, verifikasi"| API
-    D -->|"WSS: posisi GPS"| WS
-    WS --> PROC
-    PROC -->|"Posisi terbaru"| HUB
-    PROC -->|"Simpan riwayat secara batch"| DB
-    HUB -->|"Broadcast per trayek"| WS
-    WS -->|"WSS: update posisi"| P
-    P -->|"HTTPS: geometri trayek"| API
-    API --> DB
-    API --> FS
-    P --> TILE
-    P -->|"Cari dan reverse geocode"| GEO
+    FE["Frontend<br/>React + Vite PWA"] -->|REST| API["Backend<br/>Go Fiber"]
+    FE <-->|WebSocket| API
+    API --> DB[("Supabase<br/>PostgreSQL + PostGIS")]
+    API --> MEM[("Redis / memori<br/>posisi terkini")]
+    API --> FS[("Storage dokumen")]
+    SIM["GPS Simulator"] -->|WebSocket| API
 ```
 
-Keputusan arsitektur:
+| Komponen | Peran |
+|---|---|
+| Frontend | Satu PWA untuk penumpang, pengemudi, admin, dan halaman publik |
+| Backend | Auth, trayek, tracking, routing, laporan (modular monolith) |
+| WebSocket | Update posisi dan status secara realtime |
+| Redis / memori | Posisi terkini angkot (cepat, tanpa tulis ke database tiap titik) |
+| Supabase | PostgreSQL + PostGIS, Auth, Storage, RLS |
+| Storage dokumen | File SIM, STNK, KIR, foto (akses admin saja) |
+| GPS Simulator | Angkot virtual untuk demo |
 
-- **Satu service Go Fiber** yang menjalankan REST API dan WebSocket dalam satu proses.
-- **Hub realtime in-memory** dengan room per trayek. Untuk skala demo satu proses cukup, jadi tidak butuh Redis atau message broker. Konsekuensinya: bila proses restart, posisi terbaru hilang sampai pengemudi mengirim lagi (atau dipulihkan dari snapshot di database).
-- **Pengemudi mengirim posisi lewat WebSocket** (`/ws/driver`, wajib JWT), **penumpang subscribe lewat `/ws/live`** dengan menyebut trayek yang sedang dilihat. Saat subscribe, server mengirim snapshot posisi terkini lebih dulu, lalu update berikutnya.
-- **Pencarian rute dihitung di sisi klien** (geometri 3 sampai 5 trayek kecil dan bisa di-cache), memakai Turf.js. Backend tidak mengurus routing.
-- **Riwayat posisi disimpan secara batch**, bukan satu insert per pesan, supaya database tidak jadi bottleneck.
-- **Lokasi dan pin penumpang tidak pernah meninggalkan browser** (BR-04). Koneksi WebSocket penumpang hanya mengirim daftar trayek yang disubscribe.
-- **Deploy di alwaysdata:** berdasarkan dokumentasinya, aplikasi Go dijalankan sebagai site tipe User program dan harus listen pada IP dan port yang diberikan lewat environment (`IP` dan `PORT`). Binary dikompilasi di luar (cross-compile untuk Linux) lalu diunggah.
+## 12. Model data & ERD (Supabase / PostgreSQL)
 
-### 9.2 Aliran data posisi
+Database memakai **Supabase (PostgreSQL + PostGIS)**. Autentikasi memakai **Supabase Auth** (`auth.users` menyimpan email dan password hash), dokumen disimpan di **Supabase Storage** (bucket privat), dan akses data dibatasi per role dengan **Row Level Security (RLS)**.
 
-```mermaid
-sequenceDiagram
-    participant D as Pengemudi
-    participant WS as Fiber WebSocket
-    participant H as Hub in-memory
-    participant DB as Database
-    participant P as Penumpang
-
-    P->>WS: Connect ke /ws/live dan subscribe trayek
-    H-->>P: Snapshot posisi angkot terkini
-
-    D->>WS: Kirim posisi (lat, lng, speed, heading, accuracy, ts)
-    WS->>WS: Cek JWT, akun terverifikasi, status Narik
-    WS->>WS: Filter akurasi dan loncatan
-    WS->>WS: Snap ke polyline trayek
-    WS->>WS: Hitung kecepatan dan status gerak
-    WS->>H: Perbarui posisi terbaru di memori
-    H-->>P: Broadcast ke pelanggan trayek terkait
-    P->>P: Interpolasi dan gerakkan marker
-    WS->>DB: Simpan riwayat (batch berkala)
-```
-
-### 9.3 Aliran rekomendasi rute
-
-```mermaid
-sequenceDiagram
-    participant P as Penumpang
-    participant GEO as Nominatim
-    participant C as Cache klien
-    participant API as REST API Go
-
-    P->>GEO: Cari tujuan (ditunda 400 ms)
-    GEO-->>P: Daftar kandidat lokasi
-    P->>P: Pilih atau geser pin tujuan
-    P->>C: Geometri trayek ada di cache?
-    alt Belum ada
-        C->>API: GET geometri trayek dan arah
-        API-->>C: GeoJSON
-    end
-    C-->>P: Geometri trayek
-    P->>P: Hitung kandidat rute, jalan kaki, ETA
-    P->>P: Tampilkan kartu rekomendasi dan sorot rute
-```
-
-## 10. Model data
+### 12.1 Diagram ERD (3NF)
 
 ```mermaid
 erDiagram
-    ROUTES ||--o{ ROUTE_DIRECTIONS : memiliki
-    ROUTE_DIRECTIONS ||--o{ TRIPS : dipakai
-    USERS ||--o{ TRIPS : mengemudi
-    TRIPS ||--|| POSITIONS_LATEST : posisi_terbaru
-    TRIPS ||--o{ POSITION_HISTORY : riwayat
-    ROUTES ||--o{ REPORTS : dilaporkan
+    PROFILES ||--o| DRIVER_PROFILES : "adalah"
+    DRIVER_PROFILES ||--o{ DRIVER_DOCUMENTS : "mengunggah"
+    DRIVER_PROFILES ||--o{ VEHICLES : "mengemudikan"
+    VEHICLES ||--o{ VEHICLE_DOCUMENTS : "memiliki"
+    VEHICLES ||--o{ VEHICLE_PHOTOS : "memiliki"
+    ROUTES ||--o{ VEHICLES : "dilayani"
+    ROUTES ||--o{ ROUTE_STOPS : "memiliki"
+    VEHICLES ||--o{ VEHICLE_POSITIONS : "tercatat"
+    PROFILES ||--o{ PASSENGER_REQUESTS : "megat"
+    ROUTES ||--o{ PASSENGER_REQUESTS : "pada"
+    PROFILES ||--o{ TRIPS : "melakukan"
+    TRIPS ||--|{ TRIP_LEGS : "terdiri dari"
+    VEHICLES ||--o{ TRIP_LEGS : "dinaiki"
+    TRIP_LEGS ||--o{ TIPS : "mendapat"
+    PROFILES ||--o{ REPORTS : "membuat"
+    VEHICLES ||--o{ REPORTS : "dilaporkan"
+    REPORTS ||--|{ REPORT_UPDATES : "riwayat"
+    PROFILES ||--o{ MESSAGES : "menerima"
 
+    PROFILES {
+        uuid id PK "sama dengan auth.users.id"
+        user_role role
+        string nama
+        string telepon UK
+        boolean is_active
+        timestamptz created_at
+    }
+    DRIVER_PROFILES {
+        uuid user_id PK, FK
+        string nik_enc UK
+        verif_status status_verifikasi
+        string alasan_tolak
+        uuid verified_by FK
+        timestamptz verified_at
+        work_status status_kerja
+    }
+    DRIVER_DOCUMENTS {
+        uuid id PK
+        uuid driver_id FK
+        driver_doc_type jenis
+        string nomor_enc
+        string file_path
+        date berlaku_hingga
+    }
+    VEHICLES {
+        uuid id PK
+        uuid driver_id FK
+        uuid route_id FK
+        string plat_nomor UK
+    }
+    VEHICLE_DOCUMENTS {
+        uuid id PK
+        uuid vehicle_id FK
+        vehicle_doc_type jenis
+        string nomor_enc
+        string file_path
+        date berlaku_hingga
+    }
+    VEHICLE_PHOTOS {
+        uuid id PK
+        uuid vehicle_id FK
+        string file_path
+        timestamptz created_at
+    }
     ROUTES {
         uuid id PK
-        text code
-        text name
-        text color
-        boolean active
+        string kode UK
+        string nama
+        string warna
+        geography path
+        boolean is_active
     }
-    ROUTE_DIRECTIONS {
+    ROUTE_STOPS {
         uuid id PK
         uuid route_id FK
-        text direction
-        jsonb geometry
-        numeric length_m
+        string nama
+        stop_type jenis
+        geography lokasi
+        int urutan
     }
-    USERS {
+    VEHICLE_POSITIONS {
+        bigint id PK
+        uuid vehicle_id FK
+        geography lokasi
+        float kecepatan
+        float arah
+        timestamptz recorded_at
+    }
+    PASSENGER_REQUESTS {
         uuid id PK
-        text email
-        text password_hash
-        text full_name
-        text role
-        boolean verified
+        uuid passenger_id FK
+        uuid route_id FK
+        geography lokasi
+        request_mode mode
+        request_status status
+        timestamptz expires_at
     }
     TRIPS {
         uuid id PK
-        uuid driver_id FK
-        uuid route_direction_id FK
-        text duty_status
-        timestamptz started_at
-        timestamptz ended_at
+        uuid passenger_id FK
+        geography asal
+        geography tujuan
+        timestamptz mulai
+        timestamptz selesai
     }
-    POSITIONS_LATEST {
-        uuid trip_id PK
-        numeric lat
-        numeric lng
-        numeric speed_kmh
-        numeric heading
-        text movement_status
-        timestamptz ts
-    }
-    POSITION_HISTORY {
-        bigint id PK
+    TRIP_LEGS {
+        uuid id PK
         uuid trip_id FK
-        numeric lat
-        numeric lng
-        numeric speed_kmh
-        timestamptz ts
+        uuid vehicle_id FK
+        int urutan
+        geography naik_lokasi
+        geography turun_lokasi
+    }
+    TIPS {
+        uuid id PK
+        uuid trip_leg_id FK
+        int jumlah
+        timestamptz created_at
     }
     REPORTS {
         uuid id PK
-        uuid route_id FK
-        text category
-        text description
-        text photo_url
-        text status
+        uuid reporter_id FK
+        uuid vehicle_id FK
+        report_category kategori
+        string deskripsi
+        timestamptz created_at
+    }
+    REPORT_UPDATES {
+        uuid id PK
+        uuid report_id FK
+        uuid admin_id FK
+        report_status status
+        string tanggapan
+        timestamptz created_at
+    }
+    MESSAGES {
+        uuid id PK
+        uuid penerima_id FK
+        uuid pengirim_id FK
+        string isi
+        boolean dibaca
         timestamptz created_at
     }
 ```
 
-Catatan data:
+Relasi audit yang tidak digambar agar diagram tetap bersih (semuanya mengarah ke `PROFILES`): `driver_profiles.verified_by`, `report_updates.admin_id`, `messages.pengirim_id` (null = pesan sistem).
 
-- `ROUTE_DIRECTIONS.direction` bernilai pergi atau pulang, karena jalur tiap arah bisa berbeda.
-- `duty_status` bernilai offline, narik, atau istirahat. `movement_status` bernilai jalan, merayap, atau ngetem.
-- `POSITION_HISTORY` menjadi bahan analitik headway dan ngetem. Perlu kebijakan retensi agar tabel tidak membengkak.
-- `POSITIONS_LATEST` dipakai sebagai snapshot untuk pemulihan setelah restart. Sumber utama posisi terbaru tetap hub in-memory, disalin ke tabel ini secara berkala.
-- Geometri jalur disimpan sebagai GeoJSON (`jsonb`), sehingga ekstensi geospasial database tidak diwajibkan. Perhitungan geospasial dilakukan di Go dan di klien.
+Tipe enum PostgreSQL:
 
-## 11. Algoritma kunci
-
-### 11.1 Rekomendasi rute
-
-Untuk setiap arah trayek:
-
-1. Proyeksikan pin asal ke polyline, ambil titik terdekat sebagai kandidat titik naik. Abaikan bila jarak jalan kaki melebihi batas.
-2. Proyeksikan pin tujuan ke polyline yang sama, ambil kandidat titik turun, dengan batas yang sama.
-3. Terima kandidat hanya bila **posisi titik naik berada sebelum titik turun menurut arah rute** (urutan sepanjang polyline).
-4. Hitung biaya: jalan kaki awal + tunggu + jarak naik + jalan kaki akhir.
-5. Bila tidak ada rute langsung, cari pasangan trayek yang berpotongan atau berdekatan (jarak pindah di bawah batas) dan hitung rute dengan satu kali transit.
-6. Urutkan hasil dan tampilkan 2 sampai 3 teratas.
-
-| Parameter | Nilai awal |
+| Enum | Nilai |
 |---|---|
-| Batas jalan kaki ke titik naik atau dari titik turun | 400 m |
-| Batas jarak pindah antar trayek saat transit | 200 m |
-| Kecepatan jalan kaki | 5 km/jam |
-| Kecepatan angkot cadangan (bila data live belum ada) | 15 km/jam |
+| `user_role` | admin, pengemudi, penumpang |
+| `verif_status` | pending, disetujui, ditolak |
+| `work_status` | narik, ngetem, istirahat, offline |
+| `driver_doc_type` | SIM |
+| `vehicle_doc_type` | STNK, KIR |
+| `stop_type` | halte, terminal, titik_naik |
+| `request_mode` | jalan_kaki, mencari, perjalanan |
+| `request_status` | aktif, selesai, batal, kedaluwarsa |
+| `report_category` | ugal_ugalan, fasilitas, lainnya |
+| `report_status` | diterima, diproses, selesai |
 
-Semua nilai di atas adalah asumsi awal dan perlu dikalibrasi.
+> Pakai enum untuk himpunan nilai yang tetap dan kecil. Bila suatu saat nilainya perlu dikelola admin (misal kategori laporan), ubah jadi tabel referensi.
 
-### 11.2 ETA
+### 12.2 Penerapan normalisasi
 
-```
-ETA = sisa_jarak_sepanjang_rute / kecepatan_rata_rata_terkini + tambahan_ngetem
-```
+**1NF — nilai atomik, tanpa grup berulang**
 
-- Sisa jarak dihitung sepanjang polyline setelah titik di-snap, bukan jarak lurus.
-- Kecepatan memakai rata-rata bergerak dalam jendela sekitar 2 menit, dengan batas bawah agar tidak menghasilkan ETA tak terhingga.
-- Bila angkot sedang ngetem, tambahkan perkiraan sisa waktu ngetem dari median riwayat, atau nilai tetap bila riwayat belum ada.
+| Masalah jika tidak dinormalisasi | Solusi |
+|---|---|
+| Kolom `foto1, foto2, foto3` pada kendaraan | Tabel `vehicle_photos` (satu baris per foto) |
+| Kolom `sim, stnk, kir` sekaligus dalam satu baris | Tabel `driver_documents` dan `vehicle_documents` (satu baris per dokumen) |
+| Perjalanan yang menumpang 2 angkot disimpan di satu kolom | Tabel `trip_legs` (satu baris per angkot yang dinaiki) |
+| Rute disimpan sebagai teks koordinat | Satu kolom bertipe `geography` (nilai atomik bagi PostGIS) |
+| Riwayat status laporan dalam satu kolom | Tabel `report_updates` |
 
-### 11.3 Filter akurasi dan snap
+**2NF — tidak ada ketergantungan parsial**
 
-- Buang sampel dengan `accuracy` di atas ambang (misal 50 m).
-- Buang sampel yang menyiratkan kecepatan tidak masuk akal dibanding sampel sebelumnya.
-- Snap titik ke polyline arah yang dipilih pengemudi, lalu hitung perpindahan sepanjang rute. Proses ini berjalan di backend Go (bisa memakai pustaka geospasial seperti `paulmach/orb` atau implementasi sendiri).
+Seluruh tabel memakai primary key tunggal (`uuid`/`bigint`), sehingga ketergantungan parsial pada kunci komposit tidak mungkin terjadi. Kombinasi yang harus unik dijaga dengan `UNIQUE`, bukan PK komposit:
 
-## 12. Stack teknologi
+| Tabel | Constraint unik |
+|---|---|
+| `driver_documents` | `(driver_id, jenis)` |
+| `vehicle_documents` | `(vehicle_id, jenis)` |
+| `route_stops` | `(route_id, urutan)` |
+| `trip_legs` | `(trip_id, urutan)` |
 
-| Lapisan | Pilihan | Catatan |
+**3NF — tidak ada ketergantungan transitif**
+
+| Atribut yang sengaja **tidak** disimpan | Alasan | Cara mendapatkannya |
 |---|---|---|
-| Frontend | Vite + React + TypeScript, PWA | Keputusan final |
-| Peta | Leaflet + OpenStreetMap | Gratis, tanpa API key |
-| Geospasial klien | Turf.js | Proyeksi titik ke garis, jarak sepanjang garis |
-| Backend | Go + Fiber | Keputusan final |
-| Realtime | WebSocket (Fiber), hub in-memory | Room per trayek |
-| Autentikasi | JWT buatan sendiri di Go, hash password (bcrypt atau argon2) | Menggantikan layanan auth siap pakai |
-| Database | PostgreSQL atau MySQL dari alwaysdata | Belum dipilih (lihat pertanyaan terbuka) |
-| Hosting backend | alwaysdata, site tipe User program | Masih "kayaknya", perlu diuji sejak awal |
-| Hosting frontend | Belum diputuskan | Opsi: static site di alwaysdata atau layanan statis lain |
-| Geocoding | Nominatim (OSM) | Gratis, ada batas pemakaian |
+| Nama/kode jurusan di `vehicles` | Bergantung pada `route_id`, bukan pada kendaraan | `JOIN routes` |
+| Nama pengemudi di `vehicles` atau `trips` | Bergantung pada `driver_id` | `JOIN profiles` |
+| Email di `profiles` | Sudah ada di `auth.users` | `JOIN auth.users` |
+| `route_id` di `trip_legs` dan `reports` | Ditentukan oleh `vehicle_id` | `JOIN vehicles` |
+| Pengemudi penerima di `tips` | Ditentukan oleh `trip_leg_id → vehicle_id → driver_id` | `JOIN` berantai |
+| Status laporan saat ini di `reports` | Sama dengan status baris `report_updates` terbaru | View `report_current_status` |
+| Total jarak di `trips` / `driver_profiles` | Hasil agregasi | `SUM` dari `trip_legs` / `vehicle_positions` |
+| Status `jalan` / `merayap` di posisi | Turunan dari kecepatan dan `status_kerja` | Dihitung di backend |
 
-## 13. Rencana pengerjaan
+**Pengecualian yang disengaja**
 
-Urutan, bukan jadwal (tenggat lomba belum dimasukkan):
+| Kasus | Pertimbangan |
+|---|---|
+| `vehicle_positions` berisi banyak baris per kendaraan | Data deret waktu (histori), bukan duplikasi. Posisi terkini untuk peta tetap dari memori/Redis |
+| `passenger_requests.route_id` | Fakta pada saat megat (jurusan yang ditunggu), bukan turunan dari kendaraan |
 
-| Tahap | Isi | Keluaran |
+> Jika di kemudian hari satu pengemudi bisa berganti kendaraan atau kendaraan berganti jurusan, tambahkan tabel `vehicle_assignments (vehicle_id, driver_id, mulai, selesai)` agar riwayat tetap akurat.
+
+### 12.3 Catatan implementasi Supabase
+
+| Topik | Keputusan |
+|---|---|
+| Ekstensi | `postgis` untuk `geography`, `pgcrypto` / Vault untuk enkripsi NIK dan nomor dokumen |
+| Index | `GIST` pada `routes.path`, `route_stops.lokasi`, `vehicle_positions.lokasi`, `passenger_requests.lokasi`; B-tree pada seluruh FK dan `vehicle_positions(vehicle_id, recorded_at)` |
+| Posisi realtime | Dari WebSocket + memori; ke tabel `vehicle_positions` hanya snapshot berkala (misal tiap 10-30 detik) |
+| Pembersihan data | Job `pg_cron` menghapus `vehicle_positions` lama dan menandai `passenger_requests` kedaluwarsa |
+| RLS | Penumpang hanya melihat data sendiri; pengemudi hanya kendaraan dan penumpang di jurusannya; admin akses penuh; `driver_documents` dan `vehicle_documents` hanya admin dan pemilik |
+| Storage | Bucket privat untuk dokumen dan foto kendaraan, akses lewat signed URL |
+| View | `report_current_status` (status terbaru per laporan), `driver_stats` (jarak, jumlah trip), `public_stats` (statistik transparansi) |
+
+## 13. Antarmuka API & WebSocket (ringkas)
+
+### REST
+| Endpoint | Fungsi |
+|---|---|
+| `POST /auth/register`, `POST /auth/login`, `POST /auth/refresh` | Autentikasi |
+| `GET /routes`, `GET /routes/:id` | Daftar/detail trayek |
+| `POST/PUT/DELETE /admin/routes` | CRUD trayek |
+| `GET /admin/drivers?status=pending`, `PATCH /admin/drivers/:id/verify` | Verifikasi pengemudi |
+| `GET /search/route?from=&to=` | Rekomendasi jurusan/transfer |
+| `POST /reports`, `GET /reports/:id`, `PATCH /admin/reports/:id` | Laporan |
+| `GET /stats/public` | Statistik transparansi |
+
+### WebSocket (event)
+| Event | Arah | Isi |
 |---|---|---|
-| 1 | Data trayek, jalur, peta, dan CRUD admin | Peta menampilkan 3 sampai 5 trayek akurat |
-| 2 | Backend Go Fiber, autentikasi, WebSocket hub, halaman pengemudi, deploy awal ke alwaysdata | Posisi dari HP tampil di peta penumpang lewat WebSocket |
-| 3 | Marker live, filter jurusan, filter radius, pin asal dan tujuan | Pengalaman pantau lengkap |
-| 4 | **Mode simulasi** | Demo tidak bergantung angkot asli |
-| 5 | Pencarian tujuan dan algoritma rekomendasi rute | Rekomendasi dan visualisasi rute |
-| 6 | ETA, angkot terdekat, status gerak, filter akurasi, snap | Pembeda utama |
-| 7 | Analitik headway, form lapor, PWA, polishing | Nilai tambah |
+| `driver:position` | Pengemudi → server | lat, lng, speed, heading |
+| `driver:status` | Pengemudi → server | narik/ngetem/istirahat/offline |
+| `vehicles:update` | Server → klien | posisi + status angkot dalam area/jurusan yang di-subscribe |
+| `passenger:position` | Penumpang → server | lat, lng, mode |
+| `passengers:nearby` | Server → pengemudi | penumpang megat di area rute |
+| `ngetem:prompt` | Server → pengemudi | konfirmasi ngetem (BR-01) |
+| `message:new` | Server → pengguna | pesan inbox |
 
-Bagian paling berisiko: **algoritma rekomendasi rute** dan **pipeline realtime**. Kerjakan lebih awal, jangan ditunda ke akhir.
+## 14. Alur kerja (flowchart)
 
-## 14. Skenario demo
+### 14.1 Proses bisnis keseluruhan
 
-1. Buka peta, angkot simulasi bergerak di beberapa trayek.
-2. Filter jurusan dan atur radius, tunjukkan angkot yang tersaring.
-3. Cari tujuan, geser pin, tampilkan rekomendasi dan rute yang disorot.
-4. Buka halaman pengemudi di HP, tekan Mulai narik, tunjukkan marker asli muncul di peta.
-5. Tunjukkan status ngetem dan indikator data basi (matikan GPS HP sejenak).
-6. Tampilkan dashboard headway.
+```mermaid
+flowchart TD
+    subgraph DRV["Pengemudi"]
+        D1["Daftar + upload dokumen"]
+        D2["Set status narik, kirim GPS"]
+        D3["Lihat penumpang menunggu"]
+    end
+    subgraph ADM["Admin"]
+        A1{"Dokumen valid?"}
+        A2["Tindak lanjut laporan"]
+    end
+    subgraph SYS["Sistem"]
+        S1["Tampilkan angkot realtime di peta"]
+        S2{"Penumpang di area rute?"}
+        S3["Statistik publik diperbarui"]
+    end
+    subgraph PAX["Penumpang"]
+        P1["Cari tujuan, lihat jurusan + ETA"]
+        P2["Tekan megat"]
+        P3["Jalan kaki ke titik rute"]
+        P4["Naik angkot, mode perjalanan"]
+        P5["Selesai: beri tip atau lapor"]
+    end
 
-## 15. Risiko dan mitigasi
+    D1 --> A1
+    A1 -->|Ditolak| D1
+    A1 -->|Disetujui| D2
+    D2 --> S1
+    S1 --> P1
+    P1 --> P2
+    P2 --> S2
+    S2 -->|Belum| P3
+    P3 --> S2
+    S2 -->|Sudah| D3
+    D3 --> P4
+    P4 --> P5
+    P5 -->|Laporan| A2
+    A2 --> S3
+```
+
+### 14.2 Alur penumpang
+
+```mermaid
+flowchart TD
+    A(["Buka aplikasi"]) --> B["Lihat peta angkot realtime"]
+    B --> C["Cari tujuan"]
+    C --> D["Rekomendasi jurusan + ETA"]
+    D --> E{"Perlu transfer?"}
+    E -->|Tidak| F["Pilih angkot"]
+    E -->|Ya, P2| G["Lihat rute 2+ angkot"]
+    G --> F
+    F --> H["Tekan megat"]
+    H --> I{"Di area rute?"}
+    I -->|Tidak| J["Mode jalan kaki ke titik rute"]
+    J --> I
+    I -->|Ya| K["Mode mencari pengemudi"]
+    K --> L{"Angkot datang?"}
+    L -->|Batal atau timeout| B
+    L -->|Ya| M["Naik angkot, mode perjalanan"]
+    M --> N["Turun, trip selesai"]
+    N --> O{"Ada masalah?"}
+    O -->|Ya| P["Kirim laporan, pantau status"]
+    O -->|Tidak| Q["Beri tip, opsional"]
+    P --> R(["Selesai"])
+    Q --> R
+```
+
+### 14.3 Alur pengemudi
+
+```mermaid
+flowchart TD
+    A(["Login"]) --> B{"Akun terverifikasi?"}
+    B -->|Belum| C["Lengkapi dokumen"]
+    C --> D["Tunggu verifikasi admin"]
+    D --> B
+    B -->|Ya| E["Set status narik"]
+    E --> F["Kirim GPS + lihat penumpang menunggu"]
+    F --> G{"Diam 90 detik?"}
+    G -->|Ya| H["Pop-up: apakah ngetem?"]
+    H -->|Ya| I["Status ngetem"]
+    I --> F
+    H -->|Tidak| F
+    G -->|Tidak| J{"Selesai atau istirahat?"}
+    J -->|Belum| F
+    J -->|Istirahat| K["Status istirahat"]
+    K --> E
+    J -->|Selesai| L(["Offline"])
+```
+
+### 14.4 Alur admin
+
+```mermaid
+flowchart TD
+    A(["Login admin"]) --> B["Dashboard"]
+
+    B --> C["Verifikasi pengemudi"]
+    C --> C1{"Dokumen valid?"}
+    C1 -->|Ya| C2["Setujui"]
+    C1 -->|Tidak| C3["Tolak + alasan"]
+    C2 --> C4["Kirim pesan ke pengemudi"]
+    C3 --> C4
+
+    B --> D["Kelola trayek: tambah, ubah, hapus"]
+
+    B --> E["Monitoring realtime + filter radius / jurusan"]
+
+    B --> F["Tinjau laporan"]
+    F --> F1["Ubah status: diproses"]
+    F1 --> F2["Selesai + tanggapan"]
+    F2 --> F3["Masuk statistik publik"]
+```
+
+## 15. Rencana demo (±3 menit)
+
+| Menit | Adegan |
+|---|---|
+| 0:00 | Masalah dan nilai tambah dalam satu kalimat |
+| 0:30 | Penumpang: peta realtime → cari tujuan → rekomendasi jurusan |
+| 1:15 | Pengemudi: status, penumpang megat muncul di peta |
+| 1:45 | Admin: verifikasi pengemudi dan monitoring realtime |
+| 2:15 | Laporan penumpang → status berubah di sisi admin → terlihat di statistik publik |
+| 2:45 | Penutup: keselarasan dengan Public Service Tracking |
+
+Seluruh adegan memakai simulator GPS agar peta tidak kosong.
+
+## 16. Risiko & mitigasi
 
 | Risiko | Dampak | Mitigasi |
 |---|---|---|
-| GPS browser berhenti saat layar mati atau tab di background | Posisi tidak terkirim | PWA + Wake Lock, HP dipasang di dashboard dengan layar menyala, jelaskan batasan ini saat presentasi |
-| GPS tidak akurat atau loncat | Marker melenceng, jarak salah | Filter akurasi, snap ke polyline |
-| Data trayek salah atau tidak lengkap | Rekomendasi salah, kehilangan kredibilitas | Validasi ke lapangan atau Dishub, mulai dari 3 sampai 5 trayek |
-| Tidak ada angkot asli saat demo | Demo gagal | Mode simulasi sebagai cadangan utama |
-| Batas pemakaian Nominatim | Pencarian gagal | Debounce, cache, dan pin manual sebagai cadangan |
-| Scope terlalu besar | Fitur setengah jadi | Kerjakan P0 dulu, potong dari P2 dan modul Lapor |
-| Ambang status gerak tidak cocok | Label ngetem atau jalan keliru | Kalibrasi dengan data jalan asli sebelum dikunci |
-| Trayek serupa sudah dibuat tim lain | Kurang pembeda | Fokus pada satu kota, data lokal, ETA, dan analitik headway |
-| WebSocket di alwaysdata belum teruji | Realtime tidak jalan saat sudah dekat tenggat | Uji koneksi WSS end-to-end di awal tahap 2, siapkan cadangan (HTTP polling atau hosting lain) |
-| Batas paket gratis alwaysdata (CPU, RAM, disk, proses) belum diverifikasi | Proses dimatikan atau melambat saat demo | Cek batas paket sebelum commit, minimalkan beban (riwayat disimpan batch) |
-| State hub in-memory hilang saat proses restart | Marker angkot hilang sampai pengemudi kirim lagi | Snapshot posisi berkala ke database, klien pengemudi reconnect otomatis |
-| Autentikasi dan keamanan WebSocket dibuat sendiri | Celah akses atau penyalahgunaan | JWT dengan masa berlaku pendek, validasi Origin, pembatasan laju, WSS wajib |
+| Scope terlalu besar | Fitur setengah jadi | Kerjakan berurutan P0 → P1 → P2; bekukan fitur P2 bila mepet |
+| Data trayek tidak rapi | Rekomendasi rute salah | Rapikan trayek yang dipakai demo saja; simpan sebagai GeoJSON |
+| GPS tidak akurat/loncat | Angkot "terbang" dari jalur | Map matching ke polyline + filter kecepatan wajar |
+| Browser membatasi GPS di background | Posisi berhenti terkirim | Wake lock, peringatan "biarkan aplikasi terbuka", catat sebagai batasan |
+| Tidak ada angkot asli saat penjurian | Demo kosong | Simulator GPS |
+| Kebocoran data dokumen | Pelanggaran privasi | Storage privat, akses admin saja, validasi upload |
+| Koneksi WebSocket terputus | Peta tidak update | Auto-reconnect + indikator koneksi |
 
-## 16. Pertanyaan terbuka
+## 17. Keputusan terbuka
 
-1. Tenggat pengumpulan dan format penilaian WIA/MIA 2026 (untuk menentukan jadwal dan bobot fitur).
-2. Trayek mana yang dipilih, dan sumber data jalurnya (survei sendiri, Dishub, atau data terbuka).
-3. Nama produk final.
-4. Hosting frontend (di alwaysdata atau layanan statis lain), pilihan database (PostgreSQL atau MySQL), dan pembagian kerja bila dikerjakan dalam tim.
-5. Apakah arah pergi atau pulang dipilih manual oleh pengemudi, atau dideteksi otomatis dari pergerakan.
-6. Apakah modul Lapor ikut dikerjakan atau dikorbankan bila waktu mepet.
-7. Apakah heatmap permintaan (FR-72) perlu dikerjakan, mengingat butuh pencatatan pencarian secara anonim.
+| # | Pertanyaan | Rekomendasi sementara |
+|---|---|---|
+| 1 | Apakah tracking publik boleh tanpa login? | Boleh; login hanya untuk dashboard, laporan, tip |
+| 2 | Database | **Supabase (PostgreSQL)**, sudah diputuskan. Yang masih terbuka: backend Go memverifikasi JWT Supabase Auth, atau Go hanya dipakai untuk modul realtime dan routing |
+| 3 | Microservices atau modular monolith? | Modular monolith |
+| 4 | Ambang nilai (jarak diam, X km/jam, T detik, radius) | Tentukan lewat uji simulasi |
+| 5 | Skema tip (simulasi atau integrasi nyata)? | Simulasi untuk lomba |
+| 6 | Cakupan kota/trayek untuk demo | 2–3 trayek saja yang datanya rapi |
+
+## 18. Linimasa
+
+> Isi tanggal setelah deadline MIA dikonfirmasi. Urutan yang disarankan:
+
+| Fase | Isi |
+|---|---|
+| 1. Fondasi | Desain, ERD, auth, data trayek (GeoJSON) |
+| 2. Inti realtime | WebSocket, mode pengemudi, peta penumpang, simulator GPS (P0) |
+| 3. Fitur nilai tambah | Admin, verifikasi, megat, auto-ngetem, laporan, statistik publik (P1) |
+| 4. Polesan | Transfer rute, tip, dashboard, heatmap (P2) bila waktu cukup |
+| 5. Final | Uji end-to-end, rekam demo, dokumen dan presentasi |
+
+## 19. Struktur repository
+
+Monorepo agar frontend, backend, simulator, dan data trayek mudah disinkronkan.
+
+```text
+angkot-live/
+├── apps/
+│   ├── web/                          # Frontend: React + Vite (PWA)
+│   │   ├── public/                   # manifest.webmanifest, ikon, service worker
+│   │   ├── src/
+│   │   │   ├── app/                  # entry, router, providers, guard role
+│   │   │   ├── features/
+│   │   │   │   ├── auth/             # login, register, upload dokumen pengemudi
+│   │   │   │   ├── map/              # komponen peta, layer angkot, marker, filter
+│   │   │   │   ├── tracking/         # hook WebSocket, store posisi, status angkot
+│   │   │   │   ├── passenger/        # dashboard, megat, mode perjalanan, riwayat
+│   │   │   │   ├── driver/           # dashboard, status, penumpang sekitar, inbox
+│   │   │   │   ├── admin/            # verifikasi, CRUD trayek, monitoring, laporan
+│   │   │   │   ├── routing/          # pencarian tujuan, hasil rekomendasi, transfer
+│   │   │   │   ├── reports/          # form laporan, tracking status laporan
+│   │   │   │   └── stats/            # halaman statistik publik
+│   │   │   ├── components/           # UI bersama (button, modal, toast, badge status)
+│   │   │   ├── hooks/                # useGeolocation, useWakeLock, useWebSocket
+│   │   │   ├── lib/                  # api client, ws client, geo utils, format
+│   │   │   ├── store/                # state global (Zustand / Redux Toolkit)
+│   │   │   ├── styles/
+│   │   │   └── types/
+│   │   ├── index.html
+│   │   ├── vite.config.ts
+│   │   └── package.json
+│   │
+│   └── api/                          # Backend: Go + Fiber (modular monolith)
+│       ├── cmd/
+│       │   └── api/main.go           # entry point, wiring dependency
+│       ├── internal/
+│       │   ├── config/               # env, konfigurasi ambang (90 detik, radius, dll)
+│       │   ├── platform/
+│       │   │   ├── postgres/         # koneksi Supabase (pgx), query, transaksi
+│       │   │   ├── redis/            # opsional, cache posisi
+│       │   │   ├── ws/               # hub, client, room per jurusan
+│       │   │   └── storage/          # penyimpanan file privat + signed URL
+│       │   ├── middleware/           # JWT, RBAC, rate limit, logger, recover
+│       │   ├── auth/                 # handler, service, repository, dto
+│       │   ├── user/
+│       │   ├── driver/               # profil, dokumen, verifikasi
+│       │   ├── vehicle/
+│       │   ├── route/                # trayek + halte (CRUD, GeoJSON)
+│       │   ├── tracking/             # validasi GPS, map matching, status, ngetem
+│       │   ├── passenger/            # megat, mode, request
+│       │   ├── trip/
+│       │   ├── routing/              # graph, Dijkstra/A*, transfer, ETA
+│       │   ├── report/               # laporan + report_updates
+│       │   ├── message/              # inbox
+│       │   ├── tip/
+│       │   └── stats/                # statistik publik + dashboard
+│       ├── pkg/                      # util bersama: geo (haversine), errors, response
+│       ├── api/                      # openapi.yaml (kontrak REST)
+│       ├── go.mod
+│       └── Dockerfile
+│
+├── tools/
+│   └── simulator/                    # GPS simulator: angkot virtual di trayek nyata
+│       ├── main.go
+│       └── scenarios/                # konfigurasi skenario demo (jumlah angkot, kecepatan)
+│
+├── data/
+│   ├── routes/                       # GeoJSON per trayek (rute + halte)
+│   └── seed/                         # data awal: user admin, contoh pengemudi
+│
+├── deploy/
+│   ├── docker-compose.yml            # web, api, redis, simulator
+│   ├── nginx.conf                    # proxy HTTP + WebSocket
+│   └── .env.example
+│
+├── docs/
+│   ├── PRD.md                        # dokumen ini
+│   ├── architecture.md
+│   ├── erd.md
+│   └── demo-script.md
+│
+├── .github/workflows/                # CI: lint, test, build
+├── .gitignore
+├── Makefile                          # make dev, make seed, make simulate
+└── README.md
+```
+
+### Konvensi
+
+| Topik | Aturan |
+|---|---|
+| Struktur modul Go | Tiap modul di `internal/<modul>/` berisi `handler.go`, `service.go`, `repository.go`, `model.go`, `dto.go`; antar modul hanya lewat interface service |
+| Struktur fitur FE | Tiap fitur mandiri (komponen, hook, api, tipe) di `features/<nama>/` |
+| Kontrak API | `openapi.yaml` jadi sumber kebenaran; tipe FE dapat digenerate dari sana |
+| Branch | `main` (stabil/demo), `develop`, `feat/<nama-fitur>`, `fix/<nama>` |
+| Commit | Conventional Commits (`feat:`, `fix:`, `docs:`) |
+| Environment | Semua secret lewat `.env`, hanya `.env.example` yang di-commit |
+| Prioritas pengerjaan | Ikuti P0 → P1 → P2 pada bagian 6; modul P2 (`tip`, transfer di `routing`) boleh dikosongkan dulu |
