@@ -31,6 +31,88 @@ Angkot-Live adalah aplikasi web (PWA) yang menampilkan posisi angkot secara real
 
 ---
 
+## Cara menjalankan
+
+Prasyarat: Node.js 20+ dan npm. Tidak perlu variabel environment atau service lain.
+
+```bash
+git clone <url-repository>
+cd angkot-live/apps/web
+npm install
+npm run dev
+```
+
+Buka http://localhost:5173.
+
+**Login demo:** di `/login`, pilih peran (Penumpang / Pengemudi / Admin). Email dan password sudah terisi (`demo@angkot-live.id` / `angkot123`) dan tidak diverifikasi. Aktifkan opsi "pengemudi menunggu verifikasi" untuk mencoba gate verifikasi pengemudi.
+
+Perintah lain:
+
+```bash
+npm run build      # type-check (tsc -b) + build produksi ke dist/
+npm run preview    # jalankan hasil build
+npm run lint       # oxlint
+node scripts/shot.mjs   # screenshot semua route (dev server harus berjalan)
+```
+
+Tidak ada test runner. Screenshot ditulis ke `shots/` dalam ukuran desktop dan mobile.
+
+## Progress saat ini
+
+Legenda: **Ada** = halaman berfungsi dengan data mock · **Sebagian** = UI/alur ada, sebagian masih simulasi · **Belum** = belum dikerjakan.
+
+### Publik
+
+| Fitur (PRD) | Status | Catatan |
+|---|---|---|
+| Landing page | Ada | `/` |
+| Peta angkot realtime | Ada | `/peta`: marker bergerak tiap 3 detik (simulasi), filter trayek & radius, detail angkot + ETA |
+| Cari rute | Sebagian | `/rute`: pencarian asal/tujuan + rekomendasi langsung dan alternatif transfer (heuristik, belum graph/Dijkstra) |
+| Daftar & detail trayek | Ada | `/trayek`, `/trayek/:id` |
+| Statistik transparansi | Ada | `/statistik`: agregat dari mock + store laporan |
+| Login / register / lupa password | Sebagian | UI lengkap, autentikasi masih mock |
+
+### Penumpang
+
+| Fitur (PRD) | Status | Catatan |
+|---|---|---|
+| Peta + megat angkot | Sebagian | Alur `idle → jalan kaki → mencari → cocok` dengan timer; belum memakai GPS/WebSocket asli |
+| Perjalanan aktif | Ada | `/penumpang/perjalanan` (data mock) |
+| Dashboard & riwayat | Ada | Statistik perjalanan dan daftar trip mock |
+| Laporan + tracking status | Ada | Buat laporan, daftar, detail; status/tanggapan dari admin tersimpan di localStorage |
+| Profil & notifikasi | Ada | Ubah profil (store auth), daftar notifikasi mock |
+
+### Pengemudi
+
+| Fitur (PRD) | Status | Catatan |
+|---|---|---|
+| Peta kerja & status | Sebagian | Pilih `narik/ngetem/istirahat/offline`, GPS dan kecepatan disimulasikan |
+| Auto-ngetem 90 detik (BR-01) | Sebagian | Prompt muncul setelah diam 90 detik; belum ada default otomatis tanpa respons |
+| Onboarding dokumen | Sebagian | Stepper UI, belum ada upload/penyimpanan dokumen |
+| Status verifikasi | Sebagian | Membaca status dari auth mock |
+| Dashboard, inbox, profil | Ada | Inbox memakai store pesan yang sama dengan admin |
+
+### Admin
+
+| Fitur (PRD) | Status | Catatan |
+|---|---|---|
+| Dashboard & monitoring | Ada | Monitoring memakai posisi simulasi + filter |
+| Verifikasi pengemudi | Ada | Antrean + detail, setujui/tolak tersimpan di store demo |
+| Trayek & editor | Sebagian | Data trayek dari mock; ubah halte/status hanya di state lokal, simpan belum persisten |
+| Kendaraan | Ada | Tabel kondisi & masa berlaku dokumen (mock) |
+| Laporan | Ada | Ubah status dan tanggapan, terlihat di sisi penumpang |
+| Pesan & pengguna | Ada | Kirim pesan masuk ke inbox pengemudi; daftar pengguna mock |
+
+### Fondasi
+
+- Route guard per peran, redirect setelah login, gate verifikasi pengemudi (`src/app/router.tsx`).
+- PWA: manifest + service worker (hanya aktif di build produksi).
+- Design system dengan token warna/radius/shadow dan galeri komponen di `/dev/ui`.
+
+### Belum dikerjakan (sesuai PRD)
+
+Backend Go + Fiber, Supabase/PostgreSQL + PostGIS, JWT/RLS, WebSocket realtime, GPS asli + map matching, simulator GPS, graph routing (Dijkstra/A*) dengan batas transfer, tip pengemudi, wake lock, notifikasi push, serta test/CI.
+
 ## Struktur Repository
 
 Monorepo agar frontend, backend, simulator, dan data trayek mudah disinkronkan.

@@ -1,0 +1,132 @@
+import { Bell, LogOut, Menu, Search } from 'lucide-react'
+import { NavLink, Outlet, useNavigate } from 'react-router-dom'
+
+import { Avatar } from '@/components/ui/avatar'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Logo } from '@/components/ui/logo'
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
+import { useAuthStore } from '@/features/auth/auth-store'
+import { cn } from '@/lib/cn'
+import { adminNav, adminSecondaryNav, type NavItem } from '@/lib/navigation'
+
+function SidebarNav({ items }: { items: NavItem[] }) {
+  return (
+    <nav className="flex flex-col gap-1" aria-label="Navigasi admin">
+      {items.map((item) => (
+        <NavLink
+          key={item.to}
+          to={item.to}
+          end={item.end}
+          className={({ isActive }) =>
+            cn(
+              'flex items-center gap-3 rounded-md px-3 py-2.5 text-sm font-medium transition',
+              isActive
+                ? 'bg-brand text-white shadow-soft'
+                : 'text-ink hover:bg-muted hover:text-ink-strong',
+            )
+          }
+        >
+          <item.icon size={17} />
+          {item.label}
+        </NavLink>
+      ))}
+    </nav>
+  )
+}
+
+function SidebarContent() {
+  return (
+    <div className="flex h-full flex-col gap-6 p-4">
+      <Logo to="/admin" className="px-2" />
+      <div className="flex flex-col gap-6">
+        <SidebarNav items={adminNav} />
+        <div className="flex flex-col gap-2">
+          <p className="px-3 text-[10px] font-bold tracking-wider text-ink-soft uppercase">
+            Publik
+          </p>
+          <SidebarNav items={adminSecondaryNav} />
+        </div>
+      </div>
+      <div className="mt-auto rounded-lg bg-leaf p-3">
+        <p className="text-xs font-semibold text-brand-strong">Mode Demo</p>
+        <p className="mt-1 text-[11px] leading-relaxed text-ink">
+          Data kendaraan dan laporan disimulasikan untuk kebutuhan demo.
+        </p>
+      </div>
+    </div>
+  )
+}
+
+export function AdminShell() {
+  const user = useAuthStore((state) => state.user)
+  const logout = useAuthStore((state) => state.logout)
+  const navigate = useNavigate()
+
+  function handleLogout() {
+    logout()
+    navigate('/login')
+  }
+
+  return (
+    <div className="min-h-svh bg-canvas">
+      <aside className="fixed inset-y-0 left-0 z-30 hidden w-72 border-r border-line-soft bg-surface shadow-card lg:block">
+        <SidebarContent />
+      </aside>
+
+      <div className="lg:pl-72">
+        <header className="sticky top-0 z-20 border-b border-line-soft bg-surface/90 backdrop-blur-xl">
+          <div className="flex h-16 items-center gap-3 px-4 md:px-8">
+            <Sheet>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="lg:hidden" aria-label="Buka menu">
+                  <Menu size={20} />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="left" className="p-0">
+                <SheetHeader className="sr-only">
+                  <SheetTitle>Menu admin</SheetTitle>
+                </SheetHeader>
+                <SidebarContent />
+              </SheetContent>
+            </Sheet>
+
+            <div className="relative hidden max-w-sm flex-1 md:block">
+              <Search
+                size={16}
+                className="pointer-events-none absolute top-1/2 left-3.5 -translate-y-1/2 text-ink-soft"
+              />
+              <Input
+                placeholder="Cari trayek, pengemudi, laporan..."
+                className="h-10 pl-10"
+                aria-label="Pencarian admin"
+              />
+            </div>
+
+            <div className="ml-auto flex items-center gap-2">
+              <Button variant="soft" size="icon" aria-label="Notifikasi">
+                <Bell size={18} />
+              </Button>
+              {user ? (
+                <div className="flex items-center gap-2 rounded-md py-1 pr-2 pl-1">
+                  <Avatar name={user.name} size="sm" />
+                  <div className="hidden flex-col leading-tight sm:flex">
+                    <span className="text-xs font-semibold text-ink-strong">{user.name}</span>
+                    <span className="text-[11px] text-ink-soft">Administrator</span>
+                  </div>
+                </div>
+              ) : null}
+              <Button variant="ghost" size="icon" aria-label="Keluar" onClick={handleLogout}>
+                <LogOut size={16} />
+              </Button>
+            </div>
+          </div>
+        </header>
+
+        <main className="px-4 py-6 md:px-8 md:py-8">
+          <Outlet />
+        </main>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Angkot-Live",
+  "short_name": "Angkot-Live",
+  "description": "Lacak posisi angkot realtime, cari rute, dan pantau layanan transportasi publik.",
+  "lang": "id",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f5ef",
+  "theme_color": "#004425",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
