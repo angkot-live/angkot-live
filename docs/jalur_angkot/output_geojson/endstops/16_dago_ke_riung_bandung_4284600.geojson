@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6212119,
+          -6.8670778
+        ]
+      },
+      "properties": {
+        "id": 3373712056,
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Terminal Dago",
+        "operator": "Angkot Kota Bandung",
+        "public_transport": "stop_position",
+        "shelter": "no",
+        "kode_jalur": "4284600",
+        "folder_sumber": "route-data/geojson/4284600",
+        "kategori_data": "endstops",
+        "nomor_trayek": "16",
+        "nama_rute": "Dago → Riung Bandung",
+        "label_jalur": "16: Dago → Riung Bandung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6832703,
+          -6.9493701
+        ]
+      },
+      "properties": {
+        "id": 1664514926,
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "lit": "no",
+        "name": "Terminal Riung Bandung",
+        "public_transport": "stop_position",
+        "shelter": "no",
+        "kode_jalur": "4284600",
+        "folder_sumber": "route-data/geojson/4284600",
+        "kategori_data": "endstops",
+        "nomor_trayek": "16",
+        "nama_rute": "Dago → Riung Bandung",
+        "label_jalur": "16: Dago → Riung Bandung"
+      }
+    }
+  ]
+}

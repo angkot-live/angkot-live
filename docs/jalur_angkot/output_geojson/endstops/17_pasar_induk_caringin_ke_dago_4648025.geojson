@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5829792,
+          -6.9419021
+        ]
+      },
+      "properties": {
+        "id": 12633822769,
+        "bus": "yes",
+        "name": "Pasar Caringin",
+        "public_transport": "stop_position",
+        "kode_jalur": "4648025",
+        "folder_sumber": "route-data/geojson/4648025",
+        "kategori_data": "endstops",
+        "nomor_trayek": "17",
+        "nama_rute": "Pasar Induk Caringin → Dago",
+        "label_jalur": "17: Pasar Induk Caringin → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6212119,
+          -6.8670778
+        ]
+      },
+      "properties": {
+        "id": 3373712056,
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Terminal Dago",
+        "operator": "Angkot Kota Bandung",
+        "public_transport": "stop_position",
+        "shelter": "no",
+        "kode_jalur": "4648025",
+        "folder_sumber": "route-data/geojson/4648025",
+        "kategori_data": "endstops",
+        "nomor_trayek": "17",
+        "nama_rute": "Pasar Induk Caringin → Dago",
+        "label_jalur": "17: Pasar Induk Caringin → Dago"
+      }
+    }
+  ]
+}

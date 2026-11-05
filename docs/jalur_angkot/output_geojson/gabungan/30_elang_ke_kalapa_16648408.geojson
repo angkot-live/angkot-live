@@ -1,0 +1,1885 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5984551,
+            -6.9163007
+          ],
+          [
+            107.5986452,
+            -6.9162913
+          ],
+          [
+            107.5986682,
+            -6.9162902
+          ],
+          [
+            107.5987499,
+            -6.9162865
+          ],
+          [
+            107.5988546,
+            -6.916282
+          ],
+          [
+            107.5991941,
+            -6.9162673
+          ],
+          [
+            107.5995626,
+            -6.9162453
+          ],
+          [
+            107.599627,
+            -6.9162422
+          ],
+          [
+            107.6002509,
+            -6.9162121
+          ],
+          [
+            107.600424,
+            -6.9162116
+          ],
+          [
+            107.6005777,
+            -6.9162099
+          ],
+          [
+            107.6007548,
+            -6.9162056
+          ],
+          [
+            107.6010558,
+            -6.9162013
+          ],
+          [
+            107.6016262,
+            -6.916191
+          ],
+          [
+            107.6019595,
+            -6.9161867
+          ],
+          [
+            107.6022008,
+            -6.9161702
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567659,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5933422,
+            -6.9165053
+          ],
+          [
+            107.5934217,
+            -6.9165008
+          ],
+          [
+            107.5936045,
+            -6.9164926
+          ],
+          [
+            107.5936788,
+            -6.9164782
+          ],
+          [
+            107.5937549,
+            -6.9164536
+          ],
+          [
+            107.5942465,
+            -6.9164387
+          ],
+          [
+            107.5945745,
+            -6.91643
+          ],
+          [
+            107.5946101,
+            -6.9164366
+          ],
+          [
+            107.5946649,
+            -6.9164464
+          ],
+          [
+            107.5955033,
+            -6.9164154
+          ],
+          [
+            107.5955265,
+            -6.9164153
+          ],
+          [
+            107.5955809,
+            -6.9164123
+          ],
+          [
+            107.5958357,
+            -6.9164043
+          ],
+          [
+            107.5958592,
+            -6.9164025
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567662,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5761151,
+            -6.9132715
+          ],
+          [
+            107.5762053,
+            -6.9133088
+          ],
+          [
+            107.5762519,
+            -6.9133265
+          ],
+          [
+            107.5765322,
+            -6.9134206
+          ],
+          [
+            107.5766744,
+            -6.9134545
+          ],
+          [
+            107.5768473,
+            -6.9134956
+          ],
+          [
+            107.5771173,
+            -6.9135481
+          ],
+          [
+            107.5772702,
+            -6.9135797
+          ],
+          [
+            107.5775341,
+            -6.9136343
+          ],
+          [
+            107.5776073,
+            -6.9136496
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567680,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6041077,
+            -6.920785
+          ],
+          [
+            107.604105,
+            -6.9208199
+          ],
+          [
+            107.6040989,
+            -6.920927
+          ],
+          [
+            107.6040733,
+            -6.9214142
+          ],
+          [
+            107.6040726,
+            -6.9214269
+          ],
+          [
+            107.6040276,
+            -6.9219745
+          ],
+          [
+            107.6040208,
+            -6.9220583
+          ],
+          [
+            107.6039434,
+            -6.9230192
+          ],
+          [
+            107.6039369,
+            -6.9231152
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567721,
+        "avgspeed": "40",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045054,
+            -6.9158364
+          ],
+          [
+            107.6044945,
+            -6.9159639
+          ],
+          [
+            107.6044519,
+            -6.9164303
+          ],
+          [
+            107.6044248,
+            -6.9167276
+          ],
+          [
+            107.6044046,
+            -6.9168859
+          ],
+          [
+            107.6043842,
+            -6.9170712
+          ],
+          [
+            107.6043506,
+            -6.917436
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623316,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6054273,
+            -6.9316877
+          ],
+          [
+            107.6055016,
+            -6.9311384
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4627151,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6027081,
+            -6.91612
+          ],
+          [
+            107.6031079,
+            -6.9160834
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318104555,
+        "access": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6038778,
+            -6.9239323
+          ],
+          [
+            107.6038646,
+            -6.9241732
+          ],
+          [
+            107.6038465,
+            -6.9245138
+          ],
+          [
+            107.6037853,
+            -6.9255254
+          ],
+          [
+            107.6037807,
+            -6.9256072
+          ],
+          [
+            107.6036969,
+            -6.9271072
+          ],
+          [
+            107.6036918,
+            -6.9271992
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191410,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6036918,
+            -6.9271992
+          ],
+          [
+            107.6036329,
+            -6.9280445
+          ],
+          [
+            107.6035899,
+            -6.9285343
+          ],
+          [
+            107.6035334,
+            -6.9293987
+          ],
+          [
+            107.603525,
+            -6.9295081
+          ],
+          [
+            107.6035222,
+            -6.9295501
+          ],
+          [
+            107.6034974,
+            -6.9299465
+          ],
+          [
+            107.6034816,
+            -6.9301831
+          ],
+          [
+            107.6034721,
+            -6.9303229
+          ],
+          [
+            107.6034681,
+            -6.9303751
+          ],
+          [
+            107.6034639,
+            -6.9304346
+          ],
+          [
+            107.6033984,
+            -6.9314197
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191412,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6040093,
+            -6.9314853
+          ],
+          [
+            107.6041605,
+            -6.9315023
+          ],
+          [
+            107.6048396,
+            -6.9315985
+          ],
+          [
+            107.6054273,
+            -6.9316877
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191413,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
+        "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039369,
+            -6.9231152
+          ],
+          [
+            107.6039303,
+            -6.9231867
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318193823,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6024325,
+            -6.9161432
+          ],
+          [
+            107.6025481,
+            -6.9161309
+          ],
+          [
+            107.6027081,
+            -6.91612
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222717,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5776073,
+            -6.9136496
+          ],
+          [
+            107.5777772,
+            -6.9136868
+          ],
+          [
+            107.5779128,
+            -6.9137286
+          ],
+          [
+            107.5781891,
+            -6.9137955
+          ],
+          [
+            107.5783539,
+            -6.9138332
+          ],
+          [
+            107.5783874,
+            -6.9138419
+          ],
+          [
+            107.5785622,
+            -6.9138805
+          ],
+          [
+            107.5787762,
+            -6.9139254
+          ],
+          [
+            107.5797055,
+            -6.9141348
+          ],
+          [
+            107.579747,
+            -6.9141453
+          ],
+          [
+            107.5799521,
+            -6.9141897
+          ],
+          [
+            107.5802819,
+            -6.9142612
+          ],
+          [
+            107.5811363,
+            -6.9144571
+          ],
+          [
+            107.5811751,
+            -6.9144647
+          ],
+          [
+            107.5812252,
+            -6.914476
+          ],
+          [
+            107.5813465,
+            -6.9145043
+          ],
+          [
+            107.581465,
+            -6.9145319
+          ],
+          [
+            107.5817067,
+            -6.9145944
+          ],
+          [
+            107.5817861,
+            -6.9146158
+          ],
+          [
+            107.5822849,
+            -6.9147532
+          ],
+          [
+            107.5823112,
+            -6.9147609
+          ],
+          [
+            107.5824997,
+            -6.9148158
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318231954,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5833358,
+            -6.915074
+          ],
+          [
+            107.5835594,
+            -6.9151467
+          ],
+          [
+            107.5840232,
+            -6.9153004
+          ],
+          [
+            107.5842925,
+            -6.915391
+          ],
+          [
+            107.5852149,
+            -6.9157051
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318891916,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5858278,
+            -6.9159293
+          ],
+          [
+            107.586207,
+            -6.9160255
+          ],
+          [
+            107.5867681,
+            -6.9161031
+          ],
+          [
+            107.5869736,
+            -6.9161257
+          ],
+          [
+            107.5871337,
+            -6.9161429
+          ],
+          [
+            107.5875979,
+            -6.916198
+          ],
+          [
+            107.5884061,
+            -6.9162871
+          ],
+          [
+            107.5887476,
+            -6.9163221
+          ],
+          [
+            107.5891041,
+            -6.9163648
+          ],
+          [
+            107.5895676,
+            -6.9164212
+          ],
+          [
+            107.5900717,
+            -6.9164757
+          ],
+          [
+            107.5904668,
+            -6.9165055
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318891919,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5852149,
+            -6.9157051
+          ],
+          [
+            107.5853724,
+            -6.9157654
+          ],
+          [
+            107.5855994,
+            -6.9158493
+          ],
+          [
+            107.5858278,
+            -6.9159293
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318891920,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042799,
+            -6.9182744
+          ],
+          [
+            107.6042732,
+            -6.9184683
+          ],
+          [
+            107.6042692,
+            -6.9185844
+          ],
+          [
+            107.6042559,
+            -6.9187767
+          ],
+          [
+            107.6042335,
+            -6.9191016
+          ],
+          [
+            107.6042292,
+            -6.9191633
+          ],
+          [
+            107.6042248,
+            -6.9192265
+          ],
+          [
+            107.6042217,
+            -6.919272
+          ],
+          [
+            107.6042084,
+            -6.9194647
+          ],
+          [
+            107.6041935,
+            -6.9196695
+          ],
+          [
+            107.6041829,
+            -6.9198332
+          ],
+          [
+            107.6041173,
+            -6.9206576
+          ],
+          [
+            107.6041133,
+            -6.9207078
+          ],
+          [
+            107.6041077,
+            -6.920785
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319194429,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982102,
+            -6.9163251
+          ],
+          [
+            107.5982729,
+            -6.9163191
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331287581,
+        "avgspeed": "30",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5910563,
+            -6.9165402
+          ],
+          [
+            107.5914598,
+            -6.9165542
+          ],
+          [
+            107.5917139,
+            -6.916555
+          ],
+          [
+            107.5918426,
+            -6.9165549
+          ],
+          [
+            107.5919002,
+            -6.9165529
+          ],
+          [
+            107.5922519,
+            -6.9165451
+          ],
+          [
+            107.5925365,
+            -6.9165451
+          ],
+          [
+            107.592779,
+            -6.9165372
+          ],
+          [
+            107.5933422,
+            -6.9165053
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331287582,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5958592,
+            -6.9164025
+          ],
+          [
+            107.5959332,
+            -6.916401
+          ]
+        ]
+      },
+      "properties": {
+        "id": 556672078,
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "layer": "1",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5959332,
+            -6.916401
+          ],
+          [
+            107.5962286,
+            -6.9163962
+          ],
+          [
+            107.596307,
+            -6.9163928
+          ],
+          [
+            107.5963978,
+            -6.9163903
+          ],
+          [
+            107.596604,
+            -6.9163856
+          ],
+          [
+            107.5967032,
+            -6.9163833
+          ],
+          [
+            107.5971285,
+            -6.9163682
+          ],
+          [
+            107.597181,
+            -6.9163642
+          ],
+          [
+            107.59731,
+            -6.9163601
+          ],
+          [
+            107.5973651,
+            -6.9163555
+          ],
+          [
+            107.5974058,
+            -6.9163469
+          ],
+          [
+            107.5974798,
+            -6.9163369
+          ],
+          [
+            107.5980505,
+            -6.9163289
+          ],
+          [
+            107.5980926,
+            -6.9163279
+          ],
+          [
+            107.5982102,
+            -6.9163251
+          ]
+        ]
+      },
+      "properties": {
+        "id": 556672079,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6033984,
+            -6.9314197
+          ],
+          [
+            107.6034475,
+            -6.9314255
+          ],
+          [
+            107.6039259,
+            -6.9314772
+          ],
+          [
+            107.6040093,
+            -6.9314853
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705035119,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
+        "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6038843,
+            -6.9238302
+          ],
+          [
+            107.6038778,
+            -6.9239323
+          ]
+        ]
+      },
+      "properties": {
+        "id": 709867136,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6031079,
+            -6.9160834
+          ],
+          [
+            107.60326,
+            -6.9160638
+          ],
+          [
+            107.6040403,
+            -6.915928
+          ],
+          [
+            107.6043695,
+            -6.9158689
+          ],
+          [
+            107.6045054,
+            -6.9158364
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073719458,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6043506,
+            -6.917436
+          ],
+          [
+            107.6043216,
+            -6.9177621
+          ],
+          [
+            107.6042891,
+            -6.9181663
+          ],
+          [
+            107.6042799,
+            -6.9182744
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112059319,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5824997,
+            -6.9148158
+          ],
+          [
+            107.5825485,
+            -6.9148303
+          ],
+          [
+            107.5828858,
+            -6.9149273
+          ],
+          [
+            107.5830554,
+            -6.9149788
+          ],
+          [
+            107.5833358,
+            -6.915074
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112162084,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039303,
+            -6.9231867
+          ],
+          [
+            107.6038843,
+            -6.9238302
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1125357835,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6022008,
+            -6.9161702
+          ],
+          [
+            107.6023308,
+            -6.916154
+          ],
+          [
+            107.6024325,
+            -6.9161432
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1219022706,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5904668,
+            -6.9165055
+          ],
+          [
+            107.5910563,
+            -6.9165402
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1220577829,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982729,
+            -6.9163191
+          ],
+          [
+            107.5984551,
+            -6.9163007
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364573714,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055016,
+            -6.9311384
+          ],
+          [
+            107.6055192,
+            -6.9309578
+          ],
+          [
+            107.6055259,
+            -6.9309078
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482654,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055259,
+            -6.9309078
+          ],
+          [
+            107.605557,
+            -6.9305299
+          ],
+          [
+            107.6055585,
+            -6.9305004
+          ],
+          [
+            107.6055781,
+            -6.930239
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482655,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055781,
+            -6.930239
+          ],
+          [
+            107.6055888,
+            -6.9300028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482656,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055888,
+            -6.9300028
+          ],
+          [
+            107.6055993,
+            -6.9298025
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482657,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055993,
+            -6.9298025
+          ],
+          [
+            107.6056708,
+            -6.9290327
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482658,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6056708,
+            -6.9290327
+          ],
+          [
+            107.6057162,
+            -6.9286824
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482659,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057162,
+            -6.9286824
+          ],
+          [
+            107.6057961,
+            -6.9281235
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482660,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057961,
+            -6.9281235
+          ],
+          [
+            107.6058055,
+            -6.928016
+          ],
+          [
+            107.6058217,
+            -6.9278434
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482661,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058217,
+            -6.9278434
+          ],
+          [
+            107.6058322,
+            -6.9276428
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482662,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "ways",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5761151,
+          -6.9132715
+        ]
+      },
+      "properties": {
+        "id": 13279832767,
+        "bus": "yes",
+        "name": "Pangkalan Angkot Rajawali",
+        "public_transport": "stop_position",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "endstops",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6058322,
+          -6.9276428
+        ]
+      },
+      "properties": {
+        "id": 3374033509,
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Terminal Abdul Muis/Kebon Kalapa",
+        "public_transport": "stop_position",
+        "source": "TfB_UPIYM_2025",
+        "kode_jalur": "16648408",
+        "folder_sumber": "route-data/geojson/16648408",
+        "kategori_data": "endstops",
+        "nomor_trayek": "30",
+        "nama_rute": "Elang → Kalapa",
+        "label_jalur": "30: Elang → Kalapa"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3126 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6249331,
+            -6.9016411
+          ],
+          [
+            107.6248782,
+            -6.9017106
+          ],
+          [
+            107.6248396,
+            -6.901757
+          ],
+          [
+            107.6247716,
+            -6.9018376
+          ],
+          [
+            107.6245741,
+            -6.9020777
+          ],
+          [
+            107.6241361,
+            -6.9026107
+          ],
+          [
+            107.6235225,
+            -6.903385
+          ],
+          [
+            107.6232698,
+            -6.9036788
+          ],
+          [
+            107.6231942,
+            -6.903766
+          ],
+          [
+            107.6229107,
+            -6.9041092
+          ],
+          [
+            107.6227441,
+            -6.9043069
+          ],
+          [
+            107.622561,
+            -6.9045292
+          ],
+          [
+            107.6225407,
+            -6.9045542
+          ],
+          [
+            107.6225204,
+            -6.9045792
+          ],
+          [
+            107.6224603,
+            -6.904657
+          ],
+          [
+            107.6224003,
+            -6.9047685
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4279967,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Citarum",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221726,
+            -6.904987
+          ],
+          [
+            107.6221529,
+            -6.9050041
+          ],
+          [
+            107.6221053,
+            -6.9050457
+          ],
+          [
+            107.6220199,
+            -6.9051035
+          ],
+          [
+            107.6219281,
+            -6.9051508
+          ],
+          [
+            107.6218639,
+            -6.9051698
+          ],
+          [
+            107.621796,
+            -6.9051892
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4279968,
+        "alt_name": "Citarum",
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Citarum",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6090254,
+            -6.9139243
+          ],
+          [
+            107.6090188,
+            -6.9140707
+          ],
+          [
+            107.6090157,
+            -6.9141626
+          ],
+          [
+            107.6090099,
+            -6.9144741
+          ],
+          [
+            107.6090078,
+            -6.9145319
+          ],
+          [
+            107.609003,
+            -6.9147575
+          ],
+          [
+            107.6090004,
+            -6.9148441
+          ],
+          [
+            107.609,
+            -6.9150767
+          ],
+          [
+            107.6090001,
+            -6.9151162
+          ],
+          [
+            107.6089998,
+            -6.9151478
+          ],
+          [
+            107.6089988,
+            -6.9152244
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4569035,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
+        "destination:lanes": "Tamblong;Veteran;Sunda;Kosambi|Suniaraja;Stasiun Hall;Otista;Pasar Baru|Suniaraja;Stasiun Hall;Otista;Pasar Baru",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "motor_vehicle": "yes",
+        "name": "Jalan Braga",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6103525,
+            -6.9136021
+          ],
+          [
+            107.6100125,
+            -6.9139146
+          ],
+          [
+            107.6099856,
+            -6.9139284
+          ],
+          [
+            107.6099474,
+            -6.9139366
+          ],
+          [
+            107.6099053,
+            -6.913944
+          ],
+          [
+            107.6098104,
+            -6.9139382
+          ],
+          [
+            107.6097898,
+            -6.9139349
+          ],
+          [
+            107.6097692,
+            -6.9139315
+          ],
+          [
+            107.6096401,
+            -6.9139177
+          ],
+          [
+            107.6091737,
+            -6.9138665
+          ],
+          [
+            107.609095,
+            -6.9138574
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32388798,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Braga;Lembong;Suniaraja;Veteran|Braga;Lembong;Suniaraja;Veteran;Wastukencana;Aceh;Purnawarman;Cicendo|Wastukencana;Aceh;Purnawarman;Cicendo",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6261654,
+            -6.9011784
+          ],
+          [
+            107.6260467,
+            -6.9011405
+          ],
+          [
+            107.6258837,
+            -6.9011178
+          ],
+          [
+            107.6256026,
+            -6.9011027
+          ],
+          [
+            107.6255521,
+            -6.9011033
+          ],
+          [
+            107.6253574,
+            -6.9011085
+          ]
+        ]
+      },
+      "properties": {
+        "id": 154007027,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.621796,
+            -6.9051892
+          ],
+          [
+            107.6217085,
+            -6.9052417
+          ],
+          [
+            107.6216675,
+            -6.9052709
+          ],
+          [
+            107.6216437,
+            -6.9052879
+          ],
+          [
+            107.6215951,
+            -6.9053402
+          ],
+          [
+            107.621584,
+            -6.9053727
+          ],
+          [
+            107.621483,
+            -6.905745
+          ]
+        ]
+      },
+      "properties": {
+        "id": 154078520,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Citarum",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6144696,
+            -6.9121614
+          ],
+          [
+            107.6143524,
+            -6.9122063
+          ],
+          [
+            107.614276,
+            -6.9122351
+          ],
+          [
+            107.6142314,
+            -6.9122519
+          ],
+          [
+            107.6140321,
+            -6.912327
+          ],
+          [
+            107.6138475,
+            -6.9123969
+          ],
+          [
+            107.6138154,
+            -6.9124084
+          ],
+          [
+            107.6137534,
+            -6.9124309
+          ],
+          [
+            107.6134164,
+            -6.912564
+          ],
+          [
+            107.6132624,
+            -6.9126239
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174309310,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6144696,
+            -6.9121614
+          ],
+          [
+            107.6145774,
+            -6.9121243
+          ],
+          [
+            107.6148569,
+            -6.9120259
+          ],
+          [
+            107.6150207,
+            -6.9119682
+          ],
+          [
+            107.6153366,
+            -6.9118538
+          ],
+          [
+            107.6155622,
+            -6.911775
+          ],
+          [
+            107.615611,
+            -6.9117587
+          ],
+          [
+            107.6157377,
+            -6.9117106
+          ],
+          [
+            107.615884,
+            -6.9116657
+          ],
+          [
+            107.6160223,
+            -6.9116314
+          ],
+          [
+            107.6161546,
+            -6.9116221
+          ]
+        ]
+      },
+      "properties": {
+        "id": 202151603,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6299279,
+            -6.9064699
+          ],
+          [
+            107.6300708,
+            -6.9063971
+          ],
+          [
+            107.6302217,
+            -6.9063503
+          ],
+          [
+            107.6303214,
+            -6.9063283
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676532,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6088792,
+            -6.9162786
+          ],
+          [
+            107.6088195,
+            -6.9162932
+          ],
+          [
+            107.6088005,
+            -6.9162985
+          ],
+          [
+            107.6084574,
+            -6.9162802
+          ],
+          [
+            107.6083144,
+            -6.9162523
+          ],
+          [
+            107.6081984,
+            -6.9162109
+          ],
+          [
+            107.6080929,
+            -6.9161604
+          ],
+          [
+            107.6080175,
+            -6.9161132
+          ],
+          [
+            107.6079775,
+            -6.9160775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 235829199,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|slight_right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6354403,
+            -6.8927469
+          ],
+          [
+            107.6353255,
+            -6.8926636
+          ]
+        ]
+      },
+      "properties": {
+        "id": 242633052,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6251786,
+            -6.9013399
+          ],
+          [
+            107.6251085,
+            -6.9014218
+          ],
+          [
+            107.6250442,
+            -6.9015028
+          ],
+          [
+            107.6249331,
+            -6.9016411
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244703793,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Citarum",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6350549,
+            -6.9019378
+          ],
+          [
+            107.6348987,
+            -6.9016374
+          ],
+          [
+            107.6348128,
+            -6.9014729
+          ],
+          [
+            107.634484,
+            -6.9008227
+          ],
+          [
+            107.6343436,
+            -6.9005363
+          ],
+          [
+            107.6342539,
+            -6.9003269
+          ],
+          [
+            107.6342453,
+            -6.9003068
+          ],
+          [
+            107.634226,
+            -6.9002535
+          ],
+          [
+            107.634169,
+            -6.9000823
+          ],
+          [
+            107.6341191,
+            -6.8999094
+          ],
+          [
+            107.6340678,
+            -6.8997079
+          ],
+          [
+            107.6340457,
+            -6.8996181
+          ],
+          [
+            107.6340202,
+            -6.8994968
+          ],
+          [
+            107.6339954,
+            -6.8993522
+          ],
+          [
+            107.6339847,
+            -6.8991547
+          ],
+          [
+            107.6339826,
+            -6.8991154
+          ],
+          [
+            107.6339837,
+            -6.8989889
+          ],
+          [
+            107.6339842,
+            -6.8989336
+          ],
+          [
+            107.6339847,
+            -6.8988729
+          ],
+          [
+            107.6340079,
+            -6.8985508
+          ],
+          [
+            107.6340622,
+            -6.8982024
+          ],
+          [
+            107.634127,
+            -6.8979661
+          ],
+          [
+            107.6341816,
+            -6.8977908
+          ]
+        ]
+      },
+      "properties": {
+        "id": 294992957,
+        "destination:backward": "Simpang Asrama Pussenif",
+        "destination:forward": "Simpang Pahlawan",
+        "destination:lanes:forward": "Jalaprang;PUSDAI;Gedung Sate;Dago|Cikutra;Cimuncang;Padasuka;Cicaheum",
+        "highway": "secondary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Pahlawan",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|right",
+        "turn:lanes:forward": "through|through;right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106164,
+            -6.9099691
+          ],
+          [
+            107.6106159,
+            -6.9099991
+          ],
+          [
+            107.6106153,
+            -6.9100253
+          ],
+          [
+            107.6106014,
+            -6.9104158
+          ],
+          [
+            107.6105812,
+            -6.9108691
+          ],
+          [
+            107.6105492,
+            -6.9114267
+          ],
+          [
+            107.6105236,
+            -6.9118509
+          ],
+          [
+            107.610489,
+            -6.9122567
+          ],
+          [
+            107.6104606,
+            -6.9125904
+          ],
+          [
+            107.6104461,
+            -6.9127255
+          ],
+          [
+            107.6104424,
+            -6.9127679
+          ],
+          [
+            107.6103525,
+            -6.9136021
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742820,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
+        "destination:lanes": "Jawa;Sumatera;Sumbawa;Gudang|Tamblong;Veteran;Sunda;Kosambi|Braga;Wastukencana;Suniaraja;Purnawarman",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Merdeka",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;slight_right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.610654,
+            -6.909795
+          ],
+          [
+            107.610777,
+            -6.9097754
+          ],
+          [
+            107.6108205,
+            -6.9097714
+          ],
+          [
+            107.6109188,
+            -6.9097687
+          ],
+          [
+            107.6111566,
+            -6.9097687
+          ],
+          [
+            107.6116178,
+            -6.90977
+          ],
+          [
+            107.6117465,
+            -6.9097693
+          ],
+          [
+            107.6121344,
+            -6.9097777
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742821,
+        "cycleway:left": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "name": "Jalan Aceh",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6130444,
+            -6.9126174
+          ],
+          [
+            107.6130208,
+            -6.9125339
+          ],
+          [
+            107.6129967,
+            -6.9124653
+          ],
+          [
+            107.6129571,
+            -6.912356
+          ],
+          [
+            107.6128973,
+            -6.9122028
+          ],
+          [
+            107.6128197,
+            -6.9120187
+          ],
+          [
+            107.612748,
+            -6.9118421
+          ],
+          [
+            107.6126673,
+            -6.9116438
+          ],
+          [
+            107.6126418,
+            -6.9115626
+          ],
+          [
+            107.6125842,
+            -6.9113906
+          ],
+          [
+            107.6125692,
+            -6.9113098
+          ],
+          [
+            107.6125469,
+            -6.9111891
+          ],
+          [
+            107.6125064,
+            -6.9107865
+          ],
+          [
+            107.6124686,
+            -6.9102774
+          ],
+          [
+            107.6124452,
+            -6.9100873
+          ],
+          [
+            107.6124394,
+            -6.910028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742823,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumatra",
+        "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6161546,
+            -6.9116221
+          ],
+          [
+            107.6168641,
+            -6.9115844
+          ],
+          [
+            107.6170959,
+            -6.9115688
+          ],
+          [
+            107.617317,
+            -6.9115453
+          ],
+          [
+            107.6175732,
+            -6.9115105
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317743188,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6175732,
+            -6.9115105
+          ],
+          [
+            107.617735,
+            -6.9114851
+          ],
+          [
+            107.6179079,
+            -6.9114701
+          ],
+          [
+            107.6180518,
+            -6.9114643
+          ],
+          [
+            107.6182447,
+            -6.9114798
+          ],
+          [
+            107.6183415,
+            -6.911498
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318052005,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6275278,
+            -6.8922548
+          ],
+          [
+            107.6274597,
+            -6.8921769
+          ],
+          [
+            107.6274078,
+            -6.8920737
+          ],
+          [
+            107.6273796,
+            -6.8920151
+          ],
+          [
+            107.6273457,
+            -6.8919304
+          ],
+          [
+            107.6273274,
+            -6.8918748
+          ],
+          [
+            107.6272984,
+            -6.8917941
+          ],
+          [
+            107.6272374,
+            -6.8916259
+          ],
+          [
+            107.6270847,
+            -6.8911991
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318231942,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Sadang Serang",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6270847,
+            -6.8911991
+          ],
+          [
+            107.6266234,
+            -6.8911917
+          ],
+          [
+            107.6264954,
+            -6.8911907
+          ],
+          [
+            107.6260485,
+            -6.8911805
+          ],
+          [
+            107.6259507,
+            -6.8911768
+          ],
+          [
+            107.6256943,
+            -6.8911774
+          ],
+          [
+            107.6255278,
+            -6.8911786
+          ],
+          [
+            107.6253355,
+            -6.89118
+          ],
+          [
+            107.6252674,
+            -6.8911775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318231943,
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "name": "Jalan Terminal Sadangserang",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "6",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6195763,
+            -6.9074244
+          ],
+          [
+            107.6199255,
+            -6.9072325
+          ],
+          [
+            107.6200125,
+            -6.9071936
+          ],
+          [
+            107.620181,
+            -6.907118
+          ],
+          [
+            107.6207709,
+            -6.90686
+          ],
+          [
+            107.6209103,
+            -6.906799
+          ],
+          [
+            107.6209974,
+            -6.9066657
+          ],
+          [
+            107.6210752,
+            -6.9065485
+          ],
+          [
+            107.6211195,
+            -6.9064699
+          ],
+          [
+            107.6211584,
+            -6.9063753
+          ],
+          [
+            107.6211731,
+            -6.9063395
+          ],
+          [
+            107.6212482,
+            -6.9061432
+          ],
+          [
+            107.621261,
+            -6.906103
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318486205,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lombok",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6183415,
+            -6.911498
+          ],
+          [
+            107.6184317,
+            -6.9111664
+          ],
+          [
+            107.6184728,
+            -6.9110152
+          ],
+          [
+            107.6185744,
+            -6.9106416
+          ],
+          [
+            107.618725,
+            -6.9099806
+          ],
+          [
+            107.6187876,
+            -6.9097183
+          ],
+          [
+            107.6189494,
+            -6.9089936
+          ],
+          [
+            107.6189572,
+            -6.9089527
+          ],
+          [
+            107.618961,
+            -6.9089257
+          ],
+          [
+            107.6189711,
+            -6.9088713
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318486208,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lombok",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.630431,
+            -6.8920872
+          ],
+          [
+            107.6298288,
+            -6.8919403
+          ],
+          [
+            107.6297683,
+            -6.8919285
+          ],
+          [
+            107.6296985,
+            -6.8919132
+          ],
+          [
+            107.6296293,
+            -6.8919093
+          ],
+          [
+            107.629308,
+            -6.8919323
+          ],
+          [
+            107.6292087,
+            -6.8919395
+          ],
+          [
+            107.6290704,
+            -6.8919484
+          ],
+          [
+            107.6289765,
+            -6.8919659
+          ],
+          [
+            107.6289046,
+            -6.8920024
+          ],
+          [
+            107.6288359,
+            -6.8920618
+          ],
+          [
+            107.628749,
+            -6.8921528
+          ],
+          [
+            107.6287021,
+            -6.8921934
+          ],
+          [
+            107.6286585,
+            -6.8922207
+          ],
+          [
+            107.6286074,
+            -6.8922437
+          ],
+          [
+            107.6285425,
+            -6.8922607
+          ],
+          [
+            107.628454,
+            -6.8922707
+          ],
+          [
+            107.6282212,
+            -6.8922694
+          ],
+          [
+            107.6281388,
+            -6.8922717
+          ],
+          [
+            107.6278294,
+            -6.8922803
+          ],
+          [
+            107.6276707,
+            -6.8922676
+          ],
+          [
+            107.6275863,
+            -6.892264
+          ],
+          [
+            107.6275278,
+            -6.8922548
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318760043,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "ref": "2096",
+        "reg_ref": "22-10-2096",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "4",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6303214,
+            -6.9063283
+          ],
+          [
+            107.6303549,
+            -6.9062732
+          ],
+          [
+            107.6305171,
+            -6.9060357
+          ],
+          [
+            107.6306164,
+            -6.9059132
+          ],
+          [
+            107.6306329,
+            -6.9058904
+          ],
+          [
+            107.6312587,
+            -6.905028
+          ],
+          [
+            107.6316451,
+            -6.9044669
+          ],
+          [
+            107.6317894,
+            -6.9042688
+          ],
+          [
+            107.6320385,
+            -6.9039297
+          ],
+          [
+            107.6321582,
+            -6.903793
+          ],
+          [
+            107.6324558,
+            -6.9034531
+          ],
+          [
+            107.6329526,
+            -6.9030314
+          ],
+          [
+            107.6331455,
+            -6.9029229
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320430475,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6355463,
+            -6.8928327
+          ],
+          [
+            107.6354602,
+            -6.8931739
+          ],
+          [
+            107.6354258,
+            -6.8933137
+          ],
+          [
+            107.6353388,
+            -6.893703
+          ],
+          [
+            107.6353178,
+            -6.8937938
+          ],
+          [
+            107.6352099,
+            -6.8942649
+          ],
+          [
+            107.6351452,
+            -6.8945475
+          ],
+          [
+            107.6350337,
+            -6.8949709
+          ],
+          [
+            107.6349426,
+            -6.8953783
+          ],
+          [
+            107.6348789,
+            -6.8956164
+          ],
+          [
+            107.6347529,
+            -6.8961255
+          ],
+          [
+            107.6345969,
+            -6.8966637
+          ],
+          [
+            107.634576,
+            -6.8967506
+          ],
+          [
+            107.6344418,
+            -6.8973156
+          ],
+          [
+            107.6343816,
+            -6.8976003
+          ],
+          [
+            107.6341816,
+            -6.8977908
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320814055,
+        "destination": "Simpang Pahlawan",
+        "destination:lanes": "Cikutra;Cimuncang;Padasuka;Cicaheum|Pussenif;Supratman;Taman Pramuka;Diponegoro",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Pahlawan",
+        "oneway": "yes",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.629845,
+            -6.9065172
+          ],
+          [
+            107.6299279,
+            -6.9064699
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635686,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.629845,
+            -6.9065172
+          ],
+          [
+            107.6297558,
+            -6.9063806
+          ],
+          [
+            107.6296851,
+            -6.9062724
+          ],
+          [
+            107.6291361,
+            -6.9054318
+          ],
+          [
+            107.6286724,
+            -6.9047363
+          ],
+          [
+            107.6283588,
+            -6.9042662
+          ],
+          [
+            107.6283196,
+            -6.9042087
+          ],
+          [
+            107.6282502,
+            -6.9041003
+          ],
+          [
+            107.628213,
+            -6.904045
+          ],
+          [
+            107.6279578,
+            -6.9036524
+          ],
+          [
+            107.627865,
+            -6.9035115
+          ],
+          [
+            107.6272147,
+            -6.9025295
+          ],
+          [
+            107.6268259,
+            -6.9019313
+          ],
+          [
+            107.6265672,
+            -6.9015367
+          ],
+          [
+            107.6264463,
+            -6.9013828
+          ],
+          [
+            107.6262854,
+            -6.901239
+          ],
+          [
+            107.6261654,
+            -6.9011784
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635688,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Supratman",
+        "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "380",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6345337,
+            -6.8924399
+          ],
+          [
+            107.6344477,
+            -6.8924268
+          ],
+          [
+            107.6342792,
+            -6.8924016
+          ],
+          [
+            107.6339487,
+            -6.8923617
+          ],
+          [
+            107.6332532,
+            -6.8922846
+          ],
+          [
+            107.6326048,
+            -6.8922337
+          ],
+          [
+            107.6322674,
+            -6.8922234
+          ],
+          [
+            107.6318758,
+            -6.8922202
+          ],
+          [
+            107.6311643,
+            -6.8922471
+          ],
+          [
+            107.6310061,
+            -6.8922374
+          ],
+          [
+            107.6309022,
+            -6.8922127
+          ],
+          [
+            107.6308369,
+            -6.8921917
+          ],
+          [
+            107.6307496,
+            -6.8921635
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331287564,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "ref": "2096",
+        "reg_ref": "22-10-2096",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6059861,
+            -6.9155367
+          ],
+          [
+            107.6057907,
+            -6.9155809
+          ],
+          [
+            107.6055816,
+            -6.9156321
+          ],
+          [
+            107.6054049,
+            -6.9156698
+          ],
+          [
+            107.605226,
+            -6.9157035
+          ],
+          [
+            107.6046673,
+            -6.9158052
+          ],
+          [
+            107.6045054,
+            -6.9158364
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331559931,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073053,
+            -6.9154939
+          ],
+          [
+            107.6071157,
+            -6.9154839
+          ]
+        ]
+      },
+      "properties": {
+        "id": 552308517,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "layer": "1",
+        "maxweight:signed": "no",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6071157,
+            -6.9154839
+          ],
+          [
+            107.6069686,
+            -6.9154807
+          ],
+          [
+            107.6066681,
+            -6.915471
+          ],
+          [
+            107.6065499,
+            -6.9154703
+          ]
+        ]
+      },
+      "properties": {
+        "id": 552308518,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6189711,
+            -6.9088713
+          ],
+          [
+            107.6190026,
+            -6.9087926
+          ],
+          [
+            107.6190132,
+            -6.9087672
+          ],
+          [
+            107.6191122,
+            -6.9085311
+          ],
+          [
+            107.6194288,
+            -6.9077763
+          ],
+          [
+            107.6195179,
+            -6.9075638
+          ],
+          [
+            107.6195763,
+            -6.9074244
+          ]
+        ]
+      },
+      "properties": {
+        "id": 555588538,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lombok",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.622305,
+            -6.9048505
+          ],
+          [
+            107.6222569,
+            -6.9049031
+          ],
+          [
+            107.6221726,
+            -6.904987
+          ]
+        ]
+      },
+      "properties": {
+        "id": 556624344,
+        "alt_name": "Citarum",
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Citarum",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6332551,
+            -6.9028646
+          ],
+          [
+            107.6333952,
+            -6.9027941
+          ],
+          [
+            107.6334718,
+            -6.902753
+          ],
+          [
+            107.6337467,
+            -6.9026114
+          ],
+          [
+            107.6338639,
+            -6.9025511
+          ],
+          [
+            107.6342515,
+            -6.9023515
+          ],
+          [
+            107.6346604,
+            -6.9021409
+          ],
+          [
+            107.6348067,
+            -6.9020656
+          ],
+          [
+            107.6350549,
+            -6.9019378
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561411466,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6331455,
+            -6.9029229
+          ],
+          [
+            107.6332551,
+            -6.9028646
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561411467,
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6065499,
+            -6.9154703
+          ],
+          [
+            107.6064784,
+            -6.9154686
+          ],
+          [
+            107.6063683,
+            -6.9154661
+          ],
+          [
+            107.6059861,
+            -6.9155367
+          ]
+        ]
+      },
+      "properties": {
+        "id": 704733245,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6213811,
+            -6.9060399
+          ],
+          [
+            107.621261,
+            -6.906103
+          ]
+        ]
+      },
+      "properties": {
+        "id": 772373504,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Lombok",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.621483,
+            -6.905745
+          ],
+          [
+            107.6214436,
+            -6.9058938
+          ],
+          [
+            107.6213811,
+            -6.9060399
+          ]
+        ]
+      },
+      "properties": {
+        "id": 776672257,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Citarum",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6089865,
+            -6.9159412
+          ],
+          [
+            107.6089646,
+            -6.9160333
+          ],
+          [
+            107.608966,
+            -6.916108
+          ],
+          [
+            107.6089644,
+            -6.916155
+          ],
+          [
+            107.6089606,
+            -6.9161782
+          ],
+          [
+            107.608954,
+            -6.9162093
+          ],
+          [
+            107.6089283,
+            -6.9162468
+          ],
+          [
+            107.6088792,
+            -6.9162786
+          ]
+        ]
+      },
+      "properties": {
+        "id": 786136444,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "destination": "Suniaraja;Stasiun Hall;Otista;Pasar Baru",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Braga",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "right|right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.609095,
+            -6.9138574
+          ],
+          [
+            107.6090913,
+            -6.9138784
+          ],
+          [
+            107.6090812,
+            -6.9138972
+          ],
+          [
+            107.6090659,
+            -6.9139121
+          ],
+          [
+            107.6090466,
+            -6.9139217
+          ],
+          [
+            107.6090254,
+            -6.9139243
+          ]
+        ]
+      },
+      "properties": {
+        "id": 873379467,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination": "Braga;Lembong;Suniaraja;Veteran",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045054,
+            -6.9158364
+          ],
+          [
+            107.6045124,
+            -6.9157548
+          ],
+          [
+            107.6045273,
+            -6.915589
+          ],
+          [
+            107.604546,
+            -6.9153572
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073719459,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.610654,
+            -6.909795
+          ],
+          [
+            107.6106452,
+            -6.9098761
+          ],
+          [
+            107.6106164,
+            -6.9099691
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1079416043,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Merdeka",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6079775,
+            -6.9160775
+          ],
+          [
+            107.6079482,
+            -6.9160431
+          ],
+          [
+            107.6077131,
+            -6.915765
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110338248,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "motor_vehicle": "yes",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|through|slight_right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6132624,
+            -6.9126239
+          ],
+          [
+            107.6131903,
+            -6.912646
+          ],
+          [
+            107.613115,
+            -6.9126437
+          ],
+          [
+            107.6130444,
+            -6.9126174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110338261,
+        "avgspeed": "30",
+        "highway": "tertiary_link",
+        "lanes": "1",
+        "name": "Jalan Belitung",
+        "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6124394,
+            -6.910028
+          ],
+          [
+            107.612417,
+            -6.9099758
+          ],
+          [
+            107.6124105,
+            -6.9099613
+          ],
+          [
+            107.6123879,
+            -6.909913
+          ],
+          [
+            107.6123659,
+            -6.9098744
+          ],
+          [
+            107.6123326,
+            -6.9098375
+          ],
+          [
+            107.61229,
+            -6.909804
+          ],
+          [
+            107.6121344,
+            -6.9097777
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110338262,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Sumatra",
+        "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6307496,
+            -6.8921635
+          ],
+          [
+            107.630431,
+            -6.8920872
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111886640,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "ref": "2096",
+        "reg_ref": "22-10-2096",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6253574,
+            -6.9011085
+          ],
+          [
+            107.625327,
+            -6.90115
+          ],
+          [
+            107.6251786,
+            -6.9013399
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112041101,
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Citarum",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073939,
+            -6.915502
+          ],
+          [
+            107.6073053,
+            -6.9154939
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112059320,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6077131,
+            -6.915765
+          ],
+          [
+            107.6076272,
+            -6.9156556
+          ],
+          [
+            107.6075959,
+            -6.9156165
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112059321,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Stasiun Hall;Otista;Pasar Baru|Stasiun Bandung;Kebon Kawung;Pasir Kaliki|Wastukencana;Aceh;Purnawarman|Tamblong;Veteran;Sunda",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "motor_vehicle": "yes",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left;through|slight_right|slight_right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6075959,
+            -6.9156165
+          ],
+          [
+            107.6074889,
+            -6.9155475
+          ],
+          [
+            107.6074384,
+            -6.9155193
+          ],
+          [
+            107.6073939,
+            -6.915502
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112059322,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination:lanes": "Stasiun Hall;Otista;Pasar Baru|Stasiun Bandung;Kebon Kawung;Pasir Kaliki",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;slight_right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6089988,
+            -6.9152244
+          ],
+          [
+            107.6089979,
+            -6.9152703
+          ],
+          [
+            107.6089865,
+            -6.9159412
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211325656,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
+        "destination:lanes": "Tamblong;Veteran;Sunda;Kosambi|Suniaraja;Stasiun Hall;Otista;Pasar Baru|Suniaraja;Stasiun Hall;Otista;Pasar Baru",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "motor_vehicle": "yes",
+        "name": "Jalan Braga",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|right|right",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6355463,
+            -6.8928327
+          ],
+          [
+            107.6354403,
+            -6.8927469
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218952933,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Cikutra",
+        "ref": "10070",
+        "reg_ref": "22-10-10070",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6224003,
+            -6.9047685
+          ],
+          [
+            107.6223975,
+            -6.904795
+          ],
+          [
+            107.6223884,
+            -6.9048153
+          ],
+          [
+            107.622374,
+            -6.9048323
+          ],
+          [
+            107.6223554,
+            -6.9048445
+          ],
+          [
+            107.6223341,
+            -6.9048512
+          ],
+          [
+            107.6223195,
+            -6.9048522
+          ],
+          [
+            107.622305,
+            -6.9048505
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1219010865,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6353255,
+            -6.8926636
+          ],
+          [
+            107.6350707,
+            -6.8925301
+          ],
+          [
+            107.6350048,
+            -6.892515
+          ],
+          [
+            107.6347957,
+            -6.892481
+          ],
+          [
+            107.6345702,
+            -6.8924443
+          ],
+          [
+            107.6345337,
+            -6.8924399
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904181,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "ref": "2096",
+        "reg_ref": "22-10-2096",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6249966,
+            -6.8912645
+          ],
+          [
+            107.624996,
+            -6.8911849
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443177301,
+        "highway": "service",
+        "oneway": "yes",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.624996,
+            -6.8911849
+          ],
+          [
+            107.6252674,
+            -6.8911775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443178220,
+        "alt_name": "Jalan Terminal Sadangserang",
+        "highway": "residential",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Intan Raya",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "ways",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5629011,
+          -6.9239338
+        ]
+      },
+      "properties": {
+        "id": 1387999370,
+        "bus": "yes",
+        "name": "Puskesmas Melong Asih",
+        "public_transport": "stop_position",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "endstops",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5690228,
+          -6.9218246
+        ]
+      },
+      "properties": {
+        "id": 12809314930,
+        "bus": "yes",
+        "name": "SDN 061 Cijerah",
+        "public_transport": "stop_position",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "endstops",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5996153,
+          -6.8908128
+        ]
+      },
+      "properties": {
+        "id": 3249461526,
+        "bus": "yes",
+        "name": "Pasar Sederhana",
+        "public_transport": "stop_position",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "endstops",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    }
+  ]
+}

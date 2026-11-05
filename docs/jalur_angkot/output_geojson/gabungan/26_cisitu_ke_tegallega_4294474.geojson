@@ -1,0 +1,4292 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044417,
+            -6.9072201
+          ],
+          [
+            107.6044521,
+            -6.9072879
+          ],
+          [
+            107.604458,
+            -6.9073889
+          ],
+          [
+            107.6044748,
+            -6.9078654
+          ],
+          [
+            107.6044776,
+            -6.9079587
+          ],
+          [
+            107.6044909,
+            -6.9084617
+          ],
+          [
+            107.6044917,
+            -6.9087943
+          ],
+          [
+            107.6044683,
+            -6.9089756
+          ],
+          [
+            107.6044333,
+            -6.9091247
+          ],
+          [
+            107.6043797,
+            -6.9092856
+          ],
+          [
+            107.6043042,
+            -6.9094657
+          ],
+          [
+            107.6042851,
+            -6.9095101
+          ],
+          [
+            107.6042598,
+            -6.9095715
+          ],
+          [
+            107.6042199,
+            -6.9096823
+          ],
+          [
+            107.6041664,
+            -6.9098645
+          ],
+          [
+            107.60413,
+            -6.9100304
+          ],
+          [
+            107.6041131,
+            -6.910177
+          ],
+          [
+            107.604095,
+            -6.9104032
+          ],
+          [
+            107.6040795,
+            -6.910612
+          ],
+          [
+            107.6040749,
+            -6.9106747
+          ],
+          [
+            107.6040736,
+            -6.9106984
+          ],
+          [
+            107.6040635,
+            -6.9108642
+          ],
+          [
+            107.6040608,
+            -6.9109088
+          ],
+          [
+            107.6039986,
+            -6.911908
+          ],
+          [
+            107.6039597,
+            -6.9124977
+          ],
+          [
+            107.6039561,
+            -6.9125447
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4251274,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cicendo",
+        "oneway": "yes",
+        "ref": "369",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073865,
+            -6.9076628
+          ],
+          [
+            107.6073442,
+            -6.9076324
+          ],
+          [
+            107.6072754,
+            -6.9075859
+          ],
+          [
+            107.6071035,
+            -6.9074752
+          ],
+          [
+            107.6070242,
+            -6.9074318
+          ],
+          [
+            107.6068765,
+            -6.907351
+          ],
+          [
+            107.6066403,
+            -6.907244
+          ],
+          [
+            107.6065225,
+            -6.9072053
+          ],
+          [
+            107.6064209,
+            -6.9071852
+          ],
+          [
+            107.6062761,
+            -6.9071663
+          ],
+          [
+            107.6061572,
+            -6.9071583
+          ],
+          [
+            107.6058415,
+            -6.9071486
+          ],
+          [
+            107.6055894,
+            -6.9071347
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4256015,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Cicendo;Stasiun Bandung||Wastukencana;Tamansari;Pasteur",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044986,
+            -6.8850612
+          ],
+          [
+            107.6044348,
+            -6.8853378
+          ],
+          [
+            107.6043521,
+            -6.8856962
+          ],
+          [
+            107.6043346,
+            -6.8857678
+          ],
+          [
+            107.6042485,
+            -6.8861202
+          ],
+          [
+            107.6042216,
+            -6.8862318
+          ],
+          [
+            107.6041367,
+            -6.886589
+          ],
+          [
+            107.6041137,
+            -6.8866842
+          ],
+          [
+            107.6040712,
+            -6.8868599
+          ],
+          [
+            107.6040539,
+            -6.8869313
+          ],
+          [
+            107.6040408,
+            -6.8869867
+          ],
+          [
+            107.6039804,
+            -6.8872428
+          ],
+          [
+            107.6039534,
+            -6.8874376
+          ],
+          [
+            107.6039484,
+            -6.8877565
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567624,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981394,
+            -6.9147779
+          ],
+          [
+            107.5981365,
+            -6.9148374
+          ],
+          [
+            107.5981359,
+            -6.91495
+          ],
+          [
+            107.5981514,
+            -6.9151141
+          ],
+          [
+            107.5981684,
+            -6.9152126
+          ],
+          [
+            107.5981841,
+            -6.9153059
+          ],
+          [
+            107.5982121,
+            -6.9155148
+          ],
+          [
+            107.5982179,
+            -6.9155581
+          ],
+          [
+            107.5982323,
+            -6.9156913
+          ],
+          [
+            107.5982633,
+            -6.916131
+          ],
+          [
+            107.5982691,
+            -6.91619
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567653,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6019305,
+            -6.9125353
+          ],
+          [
+            107.601745,
+            -6.9125245
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567655,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5984551,
+            -6.9163007
+          ],
+          [
+            107.5986452,
+            -6.9162913
+          ],
+          [
+            107.5986682,
+            -6.9162902
+          ],
+          [
+            107.5987499,
+            -6.9162865
+          ],
+          [
+            107.5988546,
+            -6.916282
+          ],
+          [
+            107.5991941,
+            -6.9162673
+          ],
+          [
+            107.5995626,
+            -6.9162453
+          ],
+          [
+            107.599627,
+            -6.9162422
+          ],
+          [
+            107.6002509,
+            -6.9162121
+          ],
+          [
+            107.600424,
+            -6.9162116
+          ],
+          [
+            107.6005777,
+            -6.9162099
+          ],
+          [
+            107.6007548,
+            -6.9162056
+          ],
+          [
+            107.6010558,
+            -6.9162013
+          ],
+          [
+            107.6016262,
+            -6.916191
+          ],
+          [
+            107.6019595,
+            -6.9161867
+          ],
+          [
+            107.6022008,
+            -6.9161702
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567659,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6022008,
+            -6.9161702
+          ],
+          [
+            107.6022729,
+            -6.916808
+          ],
+          [
+            107.6022556,
+            -6.9173444
+          ],
+          [
+            107.6022525,
+            -6.9178836
+          ],
+          [
+            107.6022521,
+            -6.9179396
+          ],
+          [
+            107.6022483,
+            -6.9184762
+          ],
+          [
+            107.6022467,
+            -6.9192771
+          ],
+          [
+            107.6022018,
+            -6.9198269
+          ],
+          [
+            107.6021414,
+            -6.9205072
+          ],
+          [
+            107.6021366,
+            -6.9205489
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4627139,
+        "avgspeed": "15",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dulatip",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6056014,
+            -6.8835569
+          ],
+          [
+            107.6055332,
+            -6.8835045
+          ],
+          [
+            107.6054534,
+            -6.883418
+          ],
+          [
+            107.6054157,
+            -6.8833846
+          ],
+          [
+            107.6053401,
+            -6.8833426
+          ],
+          [
+            107.6052627,
+            -6.8833281
+          ],
+          [
+            107.6051401,
+            -6.8833246
+          ],
+          [
+            107.6050556,
+            -6.8833278
+          ],
+          [
+            107.6049833,
+            -6.8833306
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4698220,
+        "avgspeed": "30",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6116944,
+            -6.8862782
+          ],
+          [
+            107.6116791,
+            -6.8858918
+          ],
+          [
+            107.6116314,
+            -6.8855076
+          ],
+          [
+            107.6116067,
+            -6.8853721
+          ],
+          [
+            107.6115779,
+            -6.8852374
+          ],
+          [
+            107.6115555,
+            -6.8851472
+          ],
+          [
+            107.6115374,
+            -6.8850743
+          ],
+          [
+            107.6115252,
+            -6.88503
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4910295,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6112551,
+            -6.8838023
+          ],
+          [
+            107.6114331,
+            -6.8840638
+          ],
+          [
+            107.6116232,
+            -6.8843045
+          ],
+          [
+            107.6116649,
+            -6.8843573
+          ],
+          [
+            107.611792,
+            -6.8845208
+          ],
+          [
+            107.6119456,
+            -6.8847402
+          ],
+          [
+            107.6119523,
+            -6.8847487
+          ]
+        ]
+      },
+      "properties": {
+        "id": 28410794,
+        "avgspeed": "15",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sangkuriang",
+        "oneway": "no",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "smoothness:date": "2024-11-02",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981313,
+            -6.9141206
+          ],
+          [
+            107.5981201,
+            -6.9145111
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32360546,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.611701,
+            -6.8828661
+          ],
+          [
+            107.6117077,
+            -6.8828184
+          ],
+          [
+            107.6117825,
+            -6.8821307
+          ],
+          [
+            107.6118283,
+            -6.8815703
+          ],
+          [
+            107.6118541,
+            -6.881353
+          ],
+          [
+            107.6118579,
+            -6.881312
+          ],
+          [
+            107.6118711,
+            -6.8811977
+          ],
+          [
+            107.6119188,
+            -6.8808305
+          ],
+          [
+            107.6119319,
+            -6.8807324
+          ],
+          [
+            107.6119486,
+            -6.8806069
+          ],
+          [
+            107.6119908,
+            -6.8803427
+          ],
+          [
+            107.6120386,
+            -6.8799575
+          ],
+          [
+            107.6120709,
+            -6.8796668
+          ]
+        ]
+      },
+      "properties": {
+        "id": 127343945,
+        "avgspeed": "15",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Cisitu Lama",
+        "oneway": "no",
+        "parking:both": "no",
+        "ref": "2121",
+        "reg_ref": "22-10-2121",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "smoothness:date": "2024-11-02",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6049833,
+            -6.8833306
+          ],
+          [
+            107.6049259,
+            -6.8833663
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153306178,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113963,
+            -6.8848321
+          ],
+          [
+            107.6113446,
+            -6.8848052
+          ],
+          [
+            107.6112344,
+            -6.8847532
+          ],
+          [
+            107.6106937,
+            -6.8845224
+          ],
+          [
+            107.6105207,
+            -6.8844699
+          ],
+          [
+            107.6102659,
+            -6.8844619
+          ],
+          [
+            107.6099548,
+            -6.8845045
+          ],
+          [
+            107.6096208,
+            -6.884582
+          ],
+          [
+            107.6091599,
+            -6.8847557
+          ],
+          [
+            107.608953,
+            -6.8848337
+          ],
+          [
+            107.6087276,
+            -6.8849119
+          ],
+          [
+            107.6086777,
+            -6.8849287
+          ],
+          [
+            107.6086137,
+            -6.8849345
+          ],
+          [
+            107.6085359,
+            -6.8849159
+          ],
+          [
+            107.6083984,
+            -6.8848437
+          ],
+          [
+            107.6082242,
+            -6.8847452
+          ],
+          [
+            107.6080413,
+            -6.8846429
+          ],
+          [
+            107.6079766,
+            -6.8846017
+          ],
+          [
+            107.6079042,
+            -6.8845857
+          ],
+          [
+            107.6078245,
+            -6.8845753
+          ],
+          [
+            107.6077048,
+            -6.8845833
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153340105,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "no",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6049259,
+            -6.8833663
+          ],
+          [
+            107.6048893,
+            -6.8834678
+          ],
+          [
+            107.6048738,
+            -6.8835107
+          ],
+          [
+            107.6047793,
+            -6.8839055
+          ],
+          [
+            107.6046925,
+            -6.8842883
+          ],
+          [
+            107.6046192,
+            -6.884589
+          ],
+          [
+            107.6045738,
+            -6.8847525
+          ],
+          [
+            107.6045446,
+            -6.8848576
+          ],
+          [
+            107.6044986,
+            -6.8850612
+          ]
+        ]
+      },
+      "properties": {
+        "id": 166687310,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6077048,
+            -6.8845833
+          ],
+          [
+            107.6073923,
+            -6.8846118
+          ]
+        ]
+      },
+      "properties": {
+        "id": 168549935,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Siliwangi",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073923,
+            -6.8846118
+          ],
+          [
+            107.6072525,
+            -6.8846315
+          ],
+          [
+            107.6071679,
+            -6.8846428
+          ],
+          [
+            107.6071009,
+            -6.8846521
+          ],
+          [
+            107.6068836,
+            -6.8846722
+          ],
+          [
+            107.6068454,
+            -6.8846748
+          ],
+          [
+            107.6067435,
+            -6.8846483
+          ],
+          [
+            107.6065328,
+            -6.8845462
+          ],
+          [
+            107.6062473,
+            -6.8843143
+          ],
+          [
+            107.6061478,
+            -6.8842309
+          ],
+          [
+            107.6058912,
+            -6.8839573
+          ],
+          [
+            107.6057249,
+            -6.8837247
+          ],
+          [
+            107.6056396,
+            -6.8836088
+          ],
+          [
+            107.6056014,
+            -6.8835569
+          ]
+        ]
+      },
+      "properties": {
+        "id": 168549936,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055894,
+            -6.9071347
+          ],
+          [
+            107.6053829,
+            -6.907135
+          ]
+        ]
+      },
+      "properties": {
+        "id": 168569217,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Cicendo;Stasiun Bandung||Wastukencana;Tamansari;Pasteur",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "layer": "1",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6128493,
+            -6.8851146
+          ],
+          [
+            107.612879,
+            -6.8852017
+          ],
+          [
+            107.6128972,
+            -6.8852747
+          ],
+          [
+            107.6129012,
+            -6.885391
+          ]
+        ]
+      },
+      "properties": {
+        "id": 192917040,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumur Bandung",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6025309,
+            -6.9236743
+          ],
+          [
+            107.6020521,
+            -6.92362
+          ],
+          [
+            107.6019153,
+            -6.9236021
+          ],
+          [
+            107.6017833,
+            -6.9235892
+          ],
+          [
+            107.6012031,
+            -6.9235159
+          ],
+          [
+            107.6006406,
+            -6.9234513
+          ],
+          [
+            107.6003736,
+            -6.9234238
+          ],
+          [
+            107.6003445,
+            -6.9234206
+          ],
+          [
+            107.5998033,
+            -6.923361
+          ],
+          [
+            107.5996381,
+            -6.9233422
+          ],
+          [
+            107.5992575,
+            -6.9232997
+          ],
+          [
+            107.5988422,
+            -6.9232778
+          ],
+          [
+            107.5987982,
+            -6.9232714
+          ],
+          [
+            107.5986744,
+            -6.9232626
+          ]
+        ]
+      },
+      "properties": {
+        "id": 215583979,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Kalipah Apo",
+        "ref": "4103",
+        "reg_ref": "22-10-4103",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042016,
+            -6.9003842
+          ],
+          [
+            107.604264,
+            -6.9008715
+          ]
+        ]
+      },
+      "properties": {
+        "id": 247060527,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6041803,
+            -6.900144
+          ],
+          [
+            107.6041813,
+            -6.9001579
+          ],
+          [
+            107.604189,
+            -6.9002755
+          ],
+          [
+            107.6041992,
+            -6.9003596
+          ],
+          [
+            107.6042016,
+            -6.9003842
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292274154,
+        "avgspeed": "30",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "primary",
+        "horse": "no",
+        "lanes": "4",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.604369,
+            -6.9041823
+          ],
+          [
+            107.6043878,
+            -6.9042234
+          ],
+          [
+            107.6044168,
+            -6.9042582
+          ],
+          [
+            107.604454,
+            -6.9042842
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292668612,
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "destination": "Tamansari;Purnawarman;Merdeka",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.604454,
+            -6.9042842
+          ],
+          [
+            107.6045194,
+            -6.9042857
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292668641,
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6075644,
+            -6.9054686
+          ],
+          [
+            107.607609,
+            -6.9055867
+          ],
+          [
+            107.6076511,
+            -6.9057161
+          ],
+          [
+            107.6076853,
+            -6.905845
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292668837,
+        "alt_name": "Jalan Wastukencana",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6032271,
+            -6.9338577
+          ],
+          [
+            107.6031562,
+            -6.9338509
+          ],
+          [
+            107.6027695,
+            -6.9338128
+          ]
+        ]
+      },
+      "properties": {
+        "id": 306163524,
+        "access": "private",
+        "bus": "designated",
+        "highway": "service",
+        "oneway": "yes",
+        "service": "driveway",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6129012,
+            -6.885391
+          ],
+          [
+            107.6127803,
+            -6.8855865
+          ],
+          [
+            107.6127322,
+            -6.8856716
+          ],
+          [
+            107.6127217,
+            -6.8856909
+          ],
+          [
+            107.6126028,
+            -6.8859095
+          ],
+          [
+            107.6124501,
+            -6.886114
+          ],
+          [
+            107.6124063,
+            -6.8861467
+          ],
+          [
+            107.6123476,
+            -6.8861609
+          ],
+          [
+            107.6120373,
+            -6.8862094
+          ],
+          [
+            107.6120097,
+            -6.886218
+          ],
+          [
+            107.6119852,
+            -6.8862298
+          ],
+          [
+            107.611879,
+            -6.8863036
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318054780,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumur Bandung",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
+        "sidewalk:both": "separate",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039484,
+            -6.8877565
+          ],
+          [
+            107.6039743,
+            -6.8881464
+          ],
+          [
+            107.6039772,
+            -6.8881744
+          ],
+          [
+            107.6039991,
+            -6.8883924
+          ],
+          [
+            107.6040179,
+            -6.8885512
+          ],
+          [
+            107.6040214,
+            -6.8885821
+          ],
+          [
+            107.6040236,
+            -6.8886013
+          ],
+          [
+            107.6040387,
+            -6.8887215
+          ],
+          [
+            107.6040455,
+            -6.8887679
+          ],
+          [
+            107.6041808,
+            -6.8898823
+          ],
+          [
+            107.604194,
+            -6.8899911
+          ],
+          [
+            107.6041992,
+            -6.8900884
+          ],
+          [
+            107.6042179,
+            -6.8906239
+          ],
+          [
+            107.6042285,
+            -6.8909117
+          ],
+          [
+            107.6042314,
+            -6.8912099
+          ],
+          [
+            107.6042338,
+            -6.8914499
+          ],
+          [
+            107.6042355,
+            -6.8916244
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318054782,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6038778,
+            -6.9239323
+          ],
+          [
+            107.6038646,
+            -6.9241732
+          ],
+          [
+            107.6038465,
+            -6.9245138
+          ],
+          [
+            107.6037853,
+            -6.9255254
+          ],
+          [
+            107.6037807,
+            -6.9256072
+          ],
+          [
+            107.6036969,
+            -6.9271072
+          ],
+          [
+            107.6036918,
+            -6.9271992
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191410,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6036918,
+            -6.9271992
+          ],
+          [
+            107.6036329,
+            -6.9280445
+          ],
+          [
+            107.6035899,
+            -6.9285343
+          ],
+          [
+            107.6035334,
+            -6.9293987
+          ],
+          [
+            107.603525,
+            -6.9295081
+          ],
+          [
+            107.6035222,
+            -6.9295501
+          ],
+          [
+            107.6034974,
+            -6.9299465
+          ],
+          [
+            107.6034816,
+            -6.9301831
+          ],
+          [
+            107.6034721,
+            -6.9303229
+          ],
+          [
+            107.6034681,
+            -6.9303751
+          ],
+          [
+            107.6034639,
+            -6.9304346
+          ],
+          [
+            107.6033984,
+            -6.9314197
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191412,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6121636,
+            -6.8850192
+          ],
+          [
+            107.6122735,
+            -6.885036
+          ],
+          [
+            107.6125035,
+            -6.8850711
+          ],
+          [
+            107.6126057,
+            -6.8850867
+          ],
+          [
+            107.6127212,
+            -6.8851043
+          ],
+          [
+            107.6128493,
+            -6.8851146
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222714,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6021366,
+            -6.9205489
+          ],
+          [
+            107.6020691,
+            -6.9205405
+          ],
+          [
+            107.601895,
+            -6.920521
+          ],
+          [
+            107.6018084,
+            -6.9205114
+          ],
+          [
+            107.6012359,
+            -6.9204443
+          ],
+          [
+            107.6009589,
+            -6.9204087
+          ],
+          [
+            107.6006504,
+            -6.9203693
+          ],
+          [
+            107.6005045,
+            -6.9203533
+          ],
+          [
+            107.5998017,
+            -6.9202729
+          ],
+          [
+            107.5997457,
+            -6.9202665
+          ],
+          [
+            107.5985234,
+            -6.9201237
+          ],
+          [
+            107.5984985,
+            -6.9201204
+          ],
+          [
+            107.5983366,
+            -6.920102
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222718,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5984717,
+            -6.9214196
+          ],
+          [
+            107.5984828,
+            -6.9215649
+          ],
+          [
+            107.5985679,
+            -6.9225334
+          ],
+          [
+            107.5985764,
+            -6.9225957
+          ],
+          [
+            107.598583,
+            -6.9226401
+          ],
+          [
+            107.5986598,
+            -6.9231557
+          ],
+          [
+            107.5986613,
+            -6.9231659
+          ],
+          [
+            107.5986744,
+            -6.9232626
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222719,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Astana Anyar",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6033984,
+            -6.9314197
+          ],
+          [
+            107.6033222,
+            -6.9324354
+          ],
+          [
+            107.6033078,
+            -6.9326292
+          ],
+          [
+            107.603267,
+            -6.9332705
+          ],
+          [
+            107.6032353,
+            -6.9337195
+          ],
+          [
+            107.6032271,
+            -6.9338577
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222722,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039496,
+            -6.8971371
+          ],
+          [
+            107.6039675,
+            -6.8974513
+          ],
+          [
+            107.6040028,
+            -6.8978417
+          ],
+          [
+            107.6040588,
+            -6.8985578
+          ],
+          [
+            107.6040773,
+            -6.8988321
+          ],
+          [
+            107.6040857,
+            -6.8989874
+          ],
+          [
+            107.6040897,
+            -6.899022
+          ],
+          [
+            107.6041494,
+            -6.8996569
+          ],
+          [
+            107.6041726,
+            -6.9000527
+          ],
+          [
+            107.6041743,
+            -6.9000737
+          ],
+          [
+            107.6041803,
+            -6.900144
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319083569,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042355,
+            -6.8916244
+          ],
+          [
+            107.6042345,
+            -6.8917434
+          ],
+          [
+            107.6042347,
+            -6.8922554
+          ],
+          [
+            107.6042213,
+            -6.8925111
+          ],
+          [
+            107.6041814,
+            -6.8929367
+          ],
+          [
+            107.6041718,
+            -6.8930371
+          ],
+          [
+            107.6041704,
+            -6.8930508
+          ],
+          [
+            107.6041675,
+            -6.8930723
+          ],
+          [
+            107.6041636,
+            -6.893105
+          ],
+          [
+            107.6041399,
+            -6.8936073
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319083572,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.604907,
+            -6.904268
+          ],
+          [
+            107.6050035,
+            -6.9041885
+          ],
+          [
+            107.6051531,
+            -6.9040927
+          ],
+          [
+            107.605225,
+            -6.9040549
+          ],
+          [
+            107.6052645,
+            -6.9040341
+          ],
+          [
+            107.605369,
+            -6.9039986
+          ],
+          [
+            107.6054495,
+            -6.9039862
+          ],
+          [
+            107.6055461,
+            -6.9039795
+          ],
+          [
+            107.6056396,
+            -6.9039773
+          ],
+          [
+            107.6058035,
+            -6.9039995
+          ],
+          [
+            107.6059967,
+            -6.9040381
+          ],
+          [
+            107.6061616,
+            -6.9040807
+          ],
+          [
+            107.606306,
+            -6.9041384
+          ],
+          [
+            107.6063615,
+            -6.9041606
+          ],
+          [
+            107.6065841,
+            -6.9042698
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321030145,
+        "alt_name": "Jalan Wastukencana",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.604264,
+            -6.9008715
+          ],
+          [
+            107.6042787,
+            -6.9010952
+          ],
+          [
+            107.6042858,
+            -6.9012975
+          ],
+          [
+            107.6043224,
+            -6.9023437
+          ],
+          [
+            107.6043266,
+            -6.9027188
+          ],
+          [
+            107.6043559,
+            -6.9036874
+          ],
+          [
+            107.6043657,
+            -6.9040669
+          ],
+          [
+            107.6043665,
+            -6.9040981
+          ],
+          [
+            107.604369,
+            -6.9041823
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321034670,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "3",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6076516,
+            -6.9060628
+          ],
+          [
+            107.607682,
+            -6.9063009
+          ],
+          [
+            107.6076926,
+            -6.9064512
+          ],
+          [
+            107.6076908,
+            -6.9066043
+          ],
+          [
+            107.6076724,
+            -6.9068066
+          ],
+          [
+            107.6076183,
+            -6.907233
+          ],
+          [
+            107.6075667,
+            -6.9075563
+          ],
+          [
+            107.6075461,
+            -6.9076136
+          ],
+          [
+            107.6074993,
+            -6.9076457
+          ],
+          [
+            107.6073865,
+            -6.9076628
+          ]
+        ]
+      },
+      "properties": {
+        "id": 418942006,
+        "alt_name": "Jalan Wastukencana",
+        "avgspeed": "25",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6053829,
+            -6.907135
+          ],
+          [
+            107.6051824,
+            -6.9071438
+          ],
+          [
+            107.6051387,
+            -6.9071446
+          ],
+          [
+            107.6045501,
+            -6.9071569
+          ],
+          [
+            107.6045,
+            -6.907158
+          ]
+        ]
+      },
+      "properties": {
+        "id": 418942771,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Cicendo;Stasiun Bandung||Wastukencana;Tamansari;Pasteur",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6026719,
+            -6.923693
+          ],
+          [
+            107.6025309,
+            -6.9236743
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561409640,
+        "bridge": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Kalipah Apo",
+        "ref": "4103",
+        "reg_ref": "22-10-4103",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6038843,
+            -6.9238302
+          ],
+          [
+            107.6034842,
+            -6.923785
+          ],
+          [
+            107.6027975,
+            -6.9237048
+          ],
+          [
+            107.6026719,
+            -6.923693
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561409643,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Kalipah Apo",
+        "ref": "4103",
+        "reg_ref": "22-10-4103",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6077246,
+            -6.9060495
+          ],
+          [
+            107.6076516,
+            -6.9060628
+          ]
+        ]
+      },
+      "properties": {
+        "id": 691215817,
+        "highway": "primary_link",
+        "lanes": "2",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039561,
+            -6.9125447
+          ],
+          [
+            107.603934,
+            -6.912602
+          ],
+          [
+            107.6039133,
+            -6.9126367
+          ],
+          [
+            107.603885,
+            -6.9126611
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705056733,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Cicendo",
+        "oneway": "yes",
+        "ref": "369",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982527,
+            -6.912368
+          ],
+          [
+            107.5981712,
+            -6.9123893
+          ],
+          [
+            107.5981013,
+            -6.9124336
+          ],
+          [
+            107.5980813,
+            -6.9124536
+          ],
+          [
+            107.5980631,
+            -6.9124827
+          ],
+          [
+            107.5980572,
+            -6.9125176
+          ],
+          [
+            107.5980576,
+            -6.912581
+          ],
+          [
+            107.5980619,
+            -6.912679
+          ],
+          [
+            107.5980673,
+            -6.9127983
+          ],
+          [
+            107.5980682,
+            -6.9128159
+          ],
+          [
+            107.5980735,
+            -6.9128984
+          ],
+          [
+            107.5980862,
+            -6.9131496
+          ],
+          [
+            107.5980866,
+            -6.9131574
+          ],
+          [
+            107.5980924,
+            -6.9133033
+          ],
+          [
+            107.5980951,
+            -6.9133446
+          ],
+          [
+            107.5980899,
+            -6.9133886
+          ],
+          [
+            107.5980724,
+            -6.9134153
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705122544,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6038843,
+            -6.9238302
+          ],
+          [
+            107.6038778,
+            -6.9239323
+          ]
+        ]
+      },
+      "properties": {
+        "id": 709867136,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6041399,
+            -6.8936073
+          ],
+          [
+            107.6040966,
+            -6.8943213
+          ],
+          [
+            107.6040947,
+            -6.8943366
+          ],
+          [
+            107.6040642,
+            -6.8945463
+          ],
+          [
+            107.6040533,
+            -6.8946215
+          ],
+          [
+            107.6040475,
+            -6.8946762
+          ],
+          [
+            107.6040253,
+            -6.8948583
+          ],
+          [
+            107.6040077,
+            -6.8950101
+          ],
+          [
+            107.6040043,
+            -6.8950495
+          ],
+          [
+            107.6040014,
+            -6.895093
+          ],
+          [
+            107.6039768,
+            -6.8955786
+          ],
+          [
+            107.6039637,
+            -6.8957293
+          ]
+        ]
+      },
+      "properties": {
+        "id": 771226338,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.611879,
+            -6.8863036
+          ],
+          [
+            107.6118315,
+            -6.8863082
+          ],
+          [
+            107.6117844,
+            -6.8863056
+          ],
+          [
+            107.6117382,
+            -6.8862955
+          ],
+          [
+            107.6116944,
+            -6.8862782
+          ]
+        ]
+      },
+      "properties": {
+        "id": 826455952,
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Sumur Bandung",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039637,
+            -6.8957293
+          ],
+          [
+            107.6039485,
+            -6.8958668
+          ],
+          [
+            107.6039451,
+            -6.8959031
+          ],
+          [
+            107.6039338,
+            -6.8960782
+          ],
+          [
+            107.6039314,
+            -6.8961372
+          ],
+          [
+            107.6039298,
+            -6.896266
+          ],
+          [
+            107.603945,
+            -6.8970293
+          ],
+          [
+            107.6039453,
+            -6.8970466
+          ],
+          [
+            107.6039496,
+            -6.8971371
+          ]
+        ]
+      },
+      "properties": {
+        "id": 826460867,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981201,
+            -6.9145111
+          ],
+          [
+            107.5981205,
+            -6.9145443
+          ]
+        ]
+      },
+      "properties": {
+        "id": 826844097,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981205,
+            -6.9145443
+          ],
+          [
+            107.5981401,
+            -6.9145877
+          ],
+          [
+            107.5981422,
+            -6.9146201
+          ],
+          [
+            107.5981394,
+            -6.9147779
+          ]
+        ]
+      },
+      "properties": {
+        "id": 858014180,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045,
+            -6.907158
+          ],
+          [
+            107.6044996,
+            -6.907174
+          ],
+          [
+            107.6044946,
+            -6.9071893
+          ],
+          [
+            107.6044854,
+            -6.9072025
+          ],
+          [
+            107.6044728,
+            -6.9072125
+          ],
+          [
+            107.6044578,
+            -6.9072185
+          ],
+          [
+            107.6044417,
+            -6.9072201
+          ]
+        ]
+      },
+      "properties": {
+        "id": 873382133,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "369;371",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.607556,
+            -6.9054463
+          ],
+          [
+            107.6075644,
+            -6.9054686
+          ]
+        ]
+      },
+      "properties": {
+        "id": 995208890,
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6119523,
+            -6.8847487
+          ],
+          [
+            107.6119617,
+            -6.8847611
+          ],
+          [
+            107.6121636,
+            -6.8850192
+          ]
+        ]
+      },
+      "properties": {
+        "id": 995489579,
+        "avgspeed": "15",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sangkuriang",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6047378,
+            -6.9043028
+          ],
+          [
+            107.604907,
+            -6.904268
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1113178484,
+        "alt_name": "Jalan Wastukencana",
+        "avgspeed": "25",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045194,
+            -6.9042857
+          ],
+          [
+            107.6045928,
+            -6.9042871
+          ],
+          [
+            107.6046289,
+            -6.9042878
+          ],
+          [
+            107.6047378,
+            -6.9043028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1113178486,
+        "alt_name": "Jalan Wastukencana",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6074587,
+            -6.9052269
+          ],
+          [
+            107.607556,
+            -6.9054463
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1160465561,
+        "alt_name": "Jalan Wastukencana",
+        "bridge": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.603885,
+            -6.9126611
+          ],
+          [
+            107.6038515,
+            -6.9126567
+          ],
+          [
+            107.6036069,
+            -6.9126444
+          ],
+          [
+            107.6032433,
+            -6.9126176
+          ],
+          [
+            107.6029824,
+            -6.9125986
+          ],
+          [
+            107.6029303,
+            -6.9125954
+          ],
+          [
+            107.6027169,
+            -6.9125813
+          ],
+          [
+            107.6024779,
+            -6.9125651
+          ],
+          [
+            107.6023535,
+            -6.9125612
+          ],
+          [
+            107.6022742,
+            -6.9125566
+          ],
+          [
+            107.6020122,
+            -6.91254
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374707,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6020122,
+            -6.91254
+          ],
+          [
+            107.6019305,
+            -6.9125353
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374708,
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980758,
+            -6.9134531
+          ],
+          [
+            107.5981284,
+            -6.913989
+          ],
+          [
+            107.5981313,
+            -6.9140657
+          ],
+          [
+            107.5981313,
+            -6.9141206
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374723,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980724,
+            -6.9134153
+          ],
+          [
+            107.5980758,
+            -6.9134531
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374724,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6115252,
+            -6.88503
+          ],
+          [
+            107.6114877,
+            -6.8849719
+          ],
+          [
+            107.6114403,
+            -6.8848984
+          ],
+          [
+            107.6113963,
+            -6.8848321
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1220953660,
+        "avgspeed": "30",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6076853,
+            -6.905845
+          ],
+          [
+            107.6077246,
+            -6.9060495
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1220953662,
+        "alt_name": "Jalan Wastukencana",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6070138,
+            -6.9046
+          ],
+          [
+            107.6071411,
+            -6.9047305
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227244444,
+        "alt_name": "Jalan Wastukencana",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6071411,
+            -6.9047305
+          ],
+          [
+            107.607265,
+            -6.9048943
+          ],
+          [
+            107.607283,
+            -6.9049195
+          ],
+          [
+            107.6074067,
+            -6.905129
+          ],
+          [
+            107.6074587,
+            -6.9052269
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227244445,
+        "alt_name": "Jalan Wastukencana",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6069187,
+            -6.9045127
+          ],
+          [
+            107.6070138,
+            -6.9046
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1240055291,
+        "alt_name": "Jalan Wastukencana",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6065841,
+            -6.9042698
+          ],
+          [
+            107.6067222,
+            -6.904359
+          ],
+          [
+            107.6068568,
+            -6.9044553
+          ],
+          [
+            107.6069187,
+            -6.9045127
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1240055292,
+        "alt_name": "Jalan Wastukencana",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5983366,
+            -6.920102
+          ],
+          [
+            107.5983407,
+            -6.92014
+          ],
+          [
+            107.5983508,
+            -6.9202439
+          ],
+          [
+            107.5983525,
+            -6.9202632
+          ],
+          [
+            107.5984122,
+            -6.9208607
+          ],
+          [
+            107.5984181,
+            -6.9209178
+          ],
+          [
+            107.5984299,
+            -6.9210083
+          ],
+          [
+            107.5984615,
+            -6.9213127
+          ],
+          [
+            107.5984717,
+            -6.9214196
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1280657095,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Astana Anyar",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982691,
+            -6.91619
+          ],
+          [
+            107.5982712,
+            -6.9162489
+          ],
+          [
+            107.5982716,
+            -6.9162705
+          ],
+          [
+            107.5982729,
+            -6.9163191
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364573713,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982729,
+            -6.9163191
+          ],
+          [
+            107.5984551,
+            -6.9163007
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364573714,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6112551,
+            -6.8838023
+          ],
+          [
+            107.6112535,
+            -6.883481
+          ],
+          [
+            107.611252,
+            -6.8833768
+          ],
+          [
+            107.6112548,
+            -6.8830029
+          ],
+          [
+            107.6112619,
+            -6.8829663
+          ],
+          [
+            107.6112735,
+            -6.8829376
+          ],
+          [
+            107.6112957,
+            -6.8829184
+          ],
+          [
+            107.6116443,
+            -6.8828865
+          ],
+          [
+            107.6116796,
+            -6.8828761
+          ],
+          [
+            107.611701,
+            -6.8828661
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1388833166,
+        "avgspeed": "15",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Cisitu Lama",
+        "oneway": "no",
+        "parking:both": "no",
+        "ref": "2121",
+        "reg_ref": "22-10-2121",
+        "sidewalk:both": "separate",
+        "smoothness": "intermediate",
+        "smoothness:date": "2024-11-02",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6006435,
+            -6.9124749
+          ],
+          [
+            107.6002224,
+            -6.9124495
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399243,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6002224,
+            -6.9124495
+          ],
+          [
+            107.6000202,
+            -6.912439
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399244,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6000202,
+            -6.912439
+          ],
+          [
+            107.5993874,
+            -6.9123994
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399245,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5993874,
+            -6.9123994
+          ],
+          [
+            107.5990408,
+            -6.912374
+          ],
+          [
+            107.5990132,
+            -6.912372
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399246,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5990132,
+            -6.912372
+          ],
+          [
+            107.5982527,
+            -6.912368
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399247,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601745,
+            -6.9125245
+          ],
+          [
+            107.601624,
+            -6.9125174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399248,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601624,
+            -6.9125174
+          ],
+          [
+            107.6015636,
+            -6.9125139
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399249,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6015636,
+            -6.9125139
+          ],
+          [
+            107.6010547,
+            -6.9124917
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399250,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6010547,
+            -6.9124917
+          ],
+          [
+            107.6009674,
+            -6.9124878
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399251,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6009674,
+            -6.9124878
+          ],
+          [
+            107.6007223,
+            -6.9124771
+          ],
+          [
+            107.6006435,
+            -6.9124749
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399252,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "ways",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6120709,
+          -6.8796668
+        ]
+      },
+      "properties": {
+        "id": 11313188130,
+        "bus": "yes",
+        "name": "Pusdiklat Geologi Cisitu",
+        "public_transport": "stop_position",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "endstops",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6027695,
+          -6.9338128
+        ]
+      },
+      "properties": {
+        "id": 3246190447,
+        "bus": "yes",
+        "name": "Terminal Tegallega",
+        "public_transport": "stop_position",
+        "kode_jalur": "4294474",
+        "folder_sumber": "route-data/geojson/4294474",
+        "kategori_data": "endstops",
+        "nomor_trayek": "26",
+        "nama_rute": "Cisitu → Tegallega",
+        "label_jalur": "26: Cisitu → Tegallega"
+      }
+    }
+  ]
+}

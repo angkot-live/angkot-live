@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6027695,
+          -6.9338128
+        ]
+      },
+      "properties": {
+        "id": 3246190447,
+        "bus": "yes",
+        "name": "Terminal Tegallega",
+        "public_transport": "stop_position",
+        "kode_jalur": "16646484",
+        "folder_sumber": "route-data/geojson/16646484",
+        "kategori_data": "endstops",
+        "nomor_trayek": "26",
+        "nama_rute": "Tegallega → Cisitu",
+        "label_jalur": "26: Tegallega → Cisitu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6120709,
+          -6.8796668
+        ]
+      },
+      "properties": {
+        "id": 11313188130,
+        "bus": "yes",
+        "name": "Pusdiklat Geologi Cisitu",
+        "public_transport": "stop_position",
+        "kode_jalur": "16646484",
+        "folder_sumber": "route-data/geojson/16646484",
+        "kategori_data": "endstops",
+        "nomor_trayek": "26",
+        "nama_rute": "Tegallega → Cisitu",
+        "label_jalur": "26: Tegallega → Cisitu"
+      }
+    }
+  ]
+}

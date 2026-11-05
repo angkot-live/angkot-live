@@ -1,0 +1,3015 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6079412,
+            -6.9065104
+          ],
+          [
+            107.6081981,
+            -6.9065975
+          ],
+          [
+            107.6083321,
+            -6.9066257
+          ],
+          [
+            107.6092299,
+            -6.9067838
+          ],
+          [
+            107.6093359,
+            -6.9068089
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4255981,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway": "lane",
+        "cycleway:lane": "exclusive",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6071931,
+            -6.9145156
+          ],
+          [
+            107.6072105,
+            -6.9144549
+          ],
+          [
+            107.6072378,
+            -6.9143977
+          ],
+          [
+            107.6072741,
+            -6.9143458
+          ],
+          [
+            107.6073185,
+            -6.9143005
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623313,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "slight_right",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6075641,
+            -6.9142136
+          ],
+          [
+            107.6078626,
+            -6.9140606
+          ],
+          [
+            107.607935,
+            -6.9140241
+          ],
+          [
+            107.6079799,
+            -6.9140014
+          ],
+          [
+            107.6081711,
+            -6.9139136
+          ],
+          [
+            107.6082715,
+            -6.9138902
+          ],
+          [
+            107.6087543,
+            -6.9138526
+          ],
+          [
+            107.6088925,
+            -6.9138457
+          ],
+          [
+            107.6089516,
+            -6.913844
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623315,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
+        "destination:lanes": "Wastukencana;Aceh;Merdeka;Purnawarman|Wastukencana;Aceh;Merdeka;Purnawarman;Braga;Lembong;Suniaraja;Veteran|Braga;Lembong;Suniaraja;Veteran",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045889,
+            -6.9148224
+          ],
+          [
+            107.6045944,
+            -6.9147921
+          ],
+          [
+            107.6046031,
+            -6.9147807
+          ],
+          [
+            107.6046151,
+            -6.914765
+          ],
+          [
+            107.6046317,
+            -6.9147543
+          ],
+          [
+            107.6046427,
+            -6.9147472
+          ],
+          [
+            107.6046716,
+            -6.9147379
+          ],
+          [
+            107.6047205,
+            -6.914736
+          ],
+          [
+            107.6053917,
+            -6.9148138
+          ],
+          [
+            107.6063544,
+            -6.9149336
+          ],
+          [
+            107.6064066,
+            -6.9149399
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4627123,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Stasiun Timur",
+        "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.604546,
+            -6.9153572
+          ],
+          [
+            107.6045814,
+            -6.9149387
+          ],
+          [
+            107.6045889,
+            -6.9148224
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4627124,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6124649,
+            -6.9003362
+          ],
+          [
+            107.6125313,
+            -6.9002122
+          ],
+          [
+            107.6126167,
+            -6.9000448
+          ],
+          [
+            107.6126386,
+            -6.9000031
+          ],
+          [
+            107.6126645,
+            -6.899934
+          ],
+          [
+            107.6126882,
+            -6.8998169
+          ],
+          [
+            107.6127091,
+            -6.8995197
+          ],
+          [
+            107.6127127,
+            -6.8994564
+          ],
+          [
+            107.6127234,
+            -6.8992285
+          ],
+          [
+            107.6127283,
+            -6.8991254
+          ],
+          [
+            107.6127289,
+            -6.8990723
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153699092,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "limited",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6076596,
+            -6.9080052
+          ],
+          [
+            107.607639,
+            -6.907824
+          ],
+          [
+            107.6076363,
+            -6.9078044
+          ],
+          [
+            107.607628,
+            -6.9077457
+          ],
+          [
+            107.6076248,
+            -6.9076459
+          ],
+          [
+            107.6076283,
+            -6.9075371
+          ],
+          [
+            107.6076451,
+            -6.9074166
+          ],
+          [
+            107.6076711,
+            -6.9072113
+          ],
+          [
+            107.60775,
+            -6.9066685
+          ],
+          [
+            107.6077691,
+            -6.9065879
+          ],
+          [
+            107.6078013,
+            -6.9065451
+          ],
+          [
+            107.6078292,
+            -6.9065262
+          ],
+          [
+            107.6078734,
+            -6.9065166
+          ],
+          [
+            107.6079412,
+            -6.9065104
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676392,
+        "alt_name": "Jalan Wastukencana",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6088855,
+            -6.9102984
+          ],
+          [
+            107.6088445,
+            -6.9102299
+          ],
+          [
+            107.6087639,
+            -6.910086
+          ],
+          [
+            107.608484,
+            -6.9095465
+          ],
+          [
+            107.6083912,
+            -6.9093671
+          ]
+        ]
+      },
+      "properties": {
+        "id": 235830733,
+        "alt_name": "Jalan Wastukencana",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6083912,
+            -6.9093671
+          ],
+          [
+            107.6082885,
+            -6.9092058
+          ],
+          [
+            107.6082341,
+            -6.9091403
+          ],
+          [
+            107.608135,
+            -6.9090242
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292668884,
+        "alt_name": "Jalan Wastukencana",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6127289,
+            -6.8990723
+          ],
+          [
+            107.6127424,
+            -6.8988496
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318053623,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6127424,
+            -6.8988496
+          ],
+          [
+            107.6127774,
+            -6.8984395
+          ],
+          [
+            107.6127783,
+            -6.8984238
+          ],
+          [
+            107.6127987,
+            -6.8980229
+          ],
+          [
+            107.6128028,
+            -6.8978964
+          ],
+          [
+            107.6128066,
+            -6.89762
+          ],
+          [
+            107.6128105,
+            -6.897515
+          ],
+          [
+            107.6128151,
+            -6.8973491
+          ],
+          [
+            107.6128176,
+            -6.8972655
+          ],
+          [
+            107.6128221,
+            -6.8970784
+          ],
+          [
+            107.6128708,
+            -6.895905
+          ],
+          [
+            107.6128953,
+            -6.8955087
+          ],
+          [
+            107.612944,
+            -6.8948069
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318053627,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.61305,
+            -6.8934554
+          ],
+          [
+            107.6130728,
+            -6.8931444
+          ],
+          [
+            107.6131128,
+            -6.8926642
+          ],
+          [
+            107.6131302,
+            -6.8924018
+          ],
+          [
+            107.613173,
+            -6.8918457
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318231946,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6093359,
+            -6.9068089
+          ],
+          [
+            107.6094718,
+            -6.9068328
+          ],
+          [
+            107.6096165,
+            -6.9068537
+          ],
+          [
+            107.6097643,
+            -6.906873
+          ],
+          [
+            107.6103896,
+            -6.9069656
+          ],
+          [
+            107.6104091,
+            -6.9069683
+          ],
+          [
+            107.6105769,
+            -6.9069872
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318231949,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway": "lane",
+        "cycleway:lane": "exclusive",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.608135,
+            -6.9090242
+          ],
+          [
+            107.6079856,
+            -6.9088682
+          ],
+          [
+            107.6079388,
+            -6.9087953
+          ],
+          [
+            107.6078779,
+            -6.9086773
+          ],
+          [
+            107.6078276,
+            -6.9085634
+          ],
+          [
+            107.6077911,
+            -6.9084463
+          ],
+          [
+            107.6076596,
+            -6.9080052
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318233616,
+        "alt_name": "Jalan Wastukencana",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Cicendo;Tamansari;Pasteur||Riau;Purnawarman;Merdeka;Juanda",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left;slight_right|slight_right",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6090309,
+            -6.9137833
+          ],
+          [
+            107.6090355,
+            -6.9136767
+          ],
+          [
+            107.609036,
+            -6.9135295
+          ],
+          [
+            107.6090452,
+            -6.9130028
+          ],
+          [
+            107.6090502,
+            -6.9127472
+          ],
+          [
+            107.6090523,
+            -6.9126675
+          ],
+          [
+            107.6090858,
+            -6.9111585
+          ],
+          [
+            107.6090891,
+            -6.9110401
+          ],
+          [
+            107.6090928,
+            -6.9109499
+          ],
+          [
+            107.6090952,
+            -6.910906
+          ],
+          [
+            107.6090943,
+            -6.9108169
+          ],
+          [
+            107.6090871,
+            -6.9107051
+          ],
+          [
+            107.6090715,
+            -6.9106208
+          ],
+          [
+            107.609044,
+            -6.9105515
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318479413,
+        "alt_name": "Jalan Wastukencana",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "exclusive",
+        "destination:lanes": "Purnawarman;Cicendo|Purnawarman;Cicendo|Aceh;Jawa",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|slight_right",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6070945,
+            -6.9151362
+          ],
+          [
+            107.6071194,
+            -6.9149776
+          ],
+          [
+            107.6071865,
+            -6.9145473
+          ],
+          [
+            107.6071931,
+            -6.9145156
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318670707,
+        "avgspeed": "30",
+        "destination:lanes": "Gedung Pakuan;Kebon Kawung;Stasiun Bandung;Pasir Kaliki|Braga;Wastukencana;Aceh;Merdeka",
+        "highway": "primary",
+        "lanes": "2",
+        "maxheight": "3.2",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "sharp_left|slight_right",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6132839,
+            -6.8905794
+          ],
+          [
+            107.6133126,
+            -6.8903268
+          ],
+          [
+            107.6133442,
+            -6.8900471
+          ],
+          [
+            107.6133933,
+            -6.8896716
+          ],
+          [
+            107.6134295,
+            -6.8893965
+          ],
+          [
+            107.613446,
+            -6.8892558
+          ],
+          [
+            107.6134757,
+            -6.8890239
+          ],
+          [
+            107.6135042,
+            -6.888736
+          ],
+          [
+            107.6135073,
+            -6.8886992
+          ],
+          [
+            107.6135194,
+            -6.8885543
+          ],
+          [
+            107.6135364,
+            -6.8883093
+          ],
+          [
+            107.6135395,
+            -6.888223
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318729558,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.612944,
+            -6.8948069
+          ],
+          [
+            107.6129656,
+            -6.8944678
+          ],
+          [
+            107.612982,
+            -6.8942326
+          ],
+          [
+            107.6130211,
+            -6.8937711
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318729559,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6089516,
+            -6.913844
+          ],
+          [
+            107.6089581,
+            -6.9138231
+          ],
+          [
+            107.6089707,
+            -6.9138051
+          ],
+          [
+            107.6089882,
+            -6.9137917
+          ],
+          [
+            107.6090089,
+            -6.9137842
+          ],
+          [
+            107.6090309,
+            -6.9137833
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318896304,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination": "Wastukencana;Aceh;Merdeka;Purnawarman",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114071,
+            -6.9028334
+          ],
+          [
+            107.611542,
+            -6.9025041
+          ],
+          [
+            107.6115965,
+            -6.9023665
+          ],
+          [
+            107.6117985,
+            -6.9018784
+          ],
+          [
+            107.6118395,
+            -6.901786
+          ],
+          [
+            107.6120925,
+            -6.9011541
+          ],
+          [
+            107.6121483,
+            -6.9010258
+          ],
+          [
+            107.6122218,
+            -6.9008623
+          ],
+          [
+            107.6123433,
+            -6.9005887
+          ],
+          [
+            107.6124276,
+            -6.9004073
+          ],
+          [
+            107.6124649,
+            -6.9003362
+          ]
+        ]
+      },
+      "properties": {
+        "id": 616105503,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "limited",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6137119,
+            -6.8851905
+          ],
+          [
+            107.6137266,
+            -6.8850771
+          ],
+          [
+            107.6137322,
+            -6.8850395
+          ],
+          [
+            107.6137459,
+            -6.8849567
+          ],
+          [
+            107.6138089,
+            -6.884725
+          ],
+          [
+            107.6138679,
+            -6.8845059
+          ],
+          [
+            107.613882,
+            -6.8844449
+          ]
+        ]
+      },
+      "properties": {
+        "id": 616110138,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6158143,
+            -6.8816134
+          ],
+          [
+            107.615901,
+            -6.8813322
+          ],
+          [
+            107.6159307,
+            -6.8812332
+          ],
+          [
+            107.6159569,
+            -6.8811413
+          ],
+          [
+            107.6159994,
+            -6.8809912
+          ],
+          [
+            107.6161219,
+            -6.8805516
+          ],
+          [
+            107.6161668,
+            -6.8803793
+          ],
+          [
+            107.6162759,
+            -6.8800049
+          ],
+          [
+            107.6163156,
+            -6.8798494
+          ],
+          [
+            107.6164246,
+            -6.8794377
+          ],
+          [
+            107.6165054,
+            -6.8791283
+          ],
+          [
+            107.6165531,
+            -6.8789436
+          ],
+          [
+            107.6165935,
+            -6.8787871
+          ],
+          [
+            107.6166093,
+            -6.878728
+          ],
+          [
+            107.6166707,
+            -6.8785163
+          ],
+          [
+            107.6167998,
+            -6.8780829
+          ],
+          [
+            107.6168402,
+            -6.8779952
+          ],
+          [
+            107.6168774,
+            -6.8779264
+          ],
+          [
+            107.6169544,
+            -6.8778124
+          ],
+          [
+            107.6170262,
+            -6.8777247
+          ],
+          [
+            107.6171251,
+            -6.8775949
+          ],
+          [
+            107.6172852,
+            -6.8773874
+          ],
+          [
+            107.6173071,
+            -6.8773552
+          ],
+          [
+            107.6173842,
+            -6.8772498
+          ],
+          [
+            107.6178533,
+            -6.8766301
+          ],
+          [
+            107.6178704,
+            -6.8766086
+          ],
+          [
+            107.6180347,
+            -6.8763814
+          ],
+          [
+            107.6181264,
+            -6.8762622
+          ],
+          [
+            107.6182425,
+            -6.8761012
+          ],
+          [
+            107.6183604,
+            -6.8759161
+          ],
+          [
+            107.6184672,
+            -6.8757254
+          ],
+          [
+            107.6184938,
+            -6.8756737
+          ],
+          [
+            107.6185822,
+            -6.8755055
+          ],
+          [
+            107.6186615,
+            -6.8753453
+          ],
+          [
+            107.6188141,
+            -6.8749961
+          ],
+          [
+            107.6188846,
+            -6.874828
+          ],
+          [
+            107.6190216,
+            -6.8745002
+          ],
+          [
+            107.619128,
+            -6.8742454
+          ]
+        ]
+      },
+      "properties": {
+        "id": 680350632,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6199224,
+            -6.8719041
+          ],
+          [
+            107.6199571,
+            -6.8715521
+          ],
+          [
+            107.6199613,
+            -6.8714974
+          ],
+          [
+            107.6199693,
+            -6.8713535
+          ],
+          [
+            107.6200017,
+            -6.8710233
+          ],
+          [
+            107.6200117,
+            -6.870949
+          ],
+          [
+            107.6200253,
+            -6.8708815
+          ],
+          [
+            107.6200394,
+            -6.8708195
+          ],
+          [
+            107.6200659,
+            -6.8707046
+          ]
+        ]
+      },
+      "properties": {
+        "id": 686055353,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "destination": "Elos;Terminal Dago;Citra Green;Jajaway",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6136013,
+            -6.8868145
+          ],
+          [
+            107.6136033,
+            -6.886672
+          ],
+          [
+            107.6136079,
+            -6.8865214
+          ],
+          [
+            107.6136179,
+            -6.8863619
+          ],
+          [
+            107.6136448,
+            -6.886018
+          ],
+          [
+            107.6136837,
+            -6.8855287
+          ],
+          [
+            107.6136924,
+            -6.8854191
+          ],
+          [
+            107.613697,
+            -6.885366
+          ],
+          [
+            107.6136997,
+            -6.8853299
+          ],
+          [
+            107.6137073,
+            -6.8852448
+          ]
+        ]
+      },
+      "properties": {
+        "id": 701751828,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6105772,
+            -6.906739
+          ],
+          [
+            107.61058,
+            -6.906459
+          ],
+          [
+            107.6105888,
+            -6.9058778
+          ],
+          [
+            107.610597,
+            -6.9054937
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705051196,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.606909,
+            -6.9153005
+          ],
+          [
+            107.6070035,
+            -6.9152646
+          ],
+          [
+            107.6070659,
+            -6.9152151
+          ],
+          [
+            107.6070945,
+            -6.9151362
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705419524,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Stasiun Timur",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6132006,
+            -6.891496
+          ],
+          [
+            107.6132493,
+            -6.8909453
+          ],
+          [
+            107.6132839,
+            -6.8905794
+          ]
+        ]
+      },
+      "properties": {
+        "id": 771523487,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.619128,
+            -6.8742454
+          ],
+          [
+            107.6191643,
+            -6.8741571
+          ],
+          [
+            107.6191817,
+            -6.874115
+          ],
+          [
+            107.6193538,
+            -6.8737093
+          ],
+          [
+            107.6193995,
+            -6.8735894
+          ],
+          [
+            107.6194689,
+            -6.873427
+          ],
+          [
+            107.6195839,
+            -6.8731592
+          ],
+          [
+            107.6197015,
+            -6.8728401
+          ],
+          [
+            107.6197219,
+            -6.8727859
+          ],
+          [
+            107.6197462,
+            -6.8727215
+          ],
+          [
+            107.6197938,
+            -6.8725787
+          ],
+          [
+            107.6198709,
+            -6.8723137
+          ],
+          [
+            107.6198864,
+            -6.87224
+          ],
+          [
+            107.6198987,
+            -6.872166
+          ],
+          [
+            107.6199035,
+            -6.8721317
+          ],
+          [
+            107.6199224,
+            -6.8719041
+          ]
+        ]
+      },
+      "properties": {
+        "id": 896795067,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "destination": "Elos;Terminal Dago;Citra Green;Jajaway",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106453,
+            -6.9048172
+          ],
+          [
+            107.6106757,
+            -6.9047009
+          ],
+          [
+            107.610708,
+            -6.9045998
+          ],
+          [
+            107.6108549,
+            -6.9041933
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1001386103,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "limited",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6130211,
+            -6.8937711
+          ],
+          [
+            107.6130318,
+            -6.8936687
+          ],
+          [
+            107.61305,
+            -6.8934554
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1061811409,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.609044,
+            -6.9105515
+          ],
+          [
+            107.6088855,
+            -6.9102984
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073714003,
+        "alt_name": "Jalan Wastukencana",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6137073,
+            -6.8852448
+          ],
+          [
+            107.6137119,
+            -6.8851905
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073714005,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6209442,
+            -6.866704
+          ],
+          [
+            107.6209483,
+            -6.8668113
+          ],
+          [
+            107.6209351,
+            -6.8668623
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073721512,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.620569,
+            -6.8684751
+          ],
+          [
+            107.6205719,
+            -6.8682321
+          ],
+          [
+            107.6205739,
+            -6.8680595
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1109681931,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6135889,
+            -6.8873815
+          ],
+          [
+            107.6135927,
+            -6.8872329
+          ],
+          [
+            107.6135981,
+            -6.8870016
+          ],
+          [
+            107.6136013,
+            -6.8868145
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110010670,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6105769,
+            -6.9069872
+          ],
+          [
+            107.6105757,
+            -6.9068302
+          ],
+          [
+            107.6105772,
+            -6.906739
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110323029,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6064066,
+            -6.9149399
+          ],
+          [
+            107.6065239,
+            -6.9149519
+          ],
+          [
+            107.6066003,
+            -6.9149924
+          ],
+          [
+            107.6066521,
+            -6.9150384
+          ],
+          [
+            107.6067855,
+            -6.9152656
+          ],
+          [
+            107.6068306,
+            -6.9152963
+          ],
+          [
+            107.606909,
+            -6.9153005
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112309539,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Stasiun Timur",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6108549,
+            -6.9041933
+          ],
+          [
+            107.611062,
+            -6.9036685
+          ],
+          [
+            107.6112178,
+            -6.9033077
+          ],
+          [
+            107.6114071,
+            -6.9028334
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112333858,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "limited",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6135395,
+            -6.888223
+          ],
+          [
+            107.6135495,
+            -6.8880297
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1196779875,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6135495,
+            -6.8880297
+          ],
+          [
+            107.6135787,
+            -6.887513
+          ],
+          [
+            107.6135889,
+            -6.8873815
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1196779876,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6200659,
+            -6.8707046
+          ],
+          [
+            107.6201119,
+            -6.8705153
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1201759730,
+        "cycleway": "lane",
+        "destination": "Elos;Terminal Dago;Citra Green;Jajaway",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6201119,
+            -6.8705153
+          ],
+          [
+            107.6201919,
+            -6.8702373
+          ],
+          [
+            107.6202138,
+            -6.8701726
+          ],
+          [
+            107.620227,
+            -6.8701301
+          ],
+          [
+            107.6202478,
+            -6.8700662
+          ],
+          [
+            107.6202853,
+            -6.8699517
+          ],
+          [
+            107.6203081,
+            -6.8698878
+          ],
+          [
+            107.6203459,
+            -6.8697953
+          ],
+          [
+            107.6203864,
+            -6.8696825
+          ],
+          [
+            107.6204978,
+            -6.8693725
+          ],
+          [
+            107.620524,
+            -6.8692766
+          ],
+          [
+            107.6205569,
+            -6.8691528
+          ],
+          [
+            107.6205668,
+            -6.8690885
+          ],
+          [
+            107.6205683,
+            -6.8690243
+          ],
+          [
+            107.6205723,
+            -6.8689584
+          ],
+          [
+            107.6205696,
+            -6.8688931
+          ],
+          [
+            107.620569,
+            -6.8684751
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1201759732,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "destination": "Elos;Terminal Dago;Citra Green;Jajaway",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6141003,
+            -6.8837869
+          ],
+          [
+            107.6141339,
+            -6.8837382
+          ],
+          [
+            107.6141748,
+            -6.8836814
+          ],
+          [
+            107.614271,
+            -6.8835894
+          ],
+          [
+            107.6145333,
+            -6.8833182
+          ],
+          [
+            107.6149531,
+            -6.8828137
+          ],
+          [
+            107.6151252,
+            -6.8825877
+          ],
+          [
+            107.6153854,
+            -6.8822612
+          ],
+          [
+            107.6156462,
+            -6.8818987
+          ],
+          [
+            107.6157866,
+            -6.8816978
+          ],
+          [
+            107.6158143,
+            -6.8816134
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1222414522,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "sidewalk": "left",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613173,
+            -6.8918457
+          ],
+          [
+            107.6132006,
+            -6.891496
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225948676,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.610597,
+            -6.9054937
+          ],
+          [
+            107.6106015,
+            -6.9052683
+          ],
+          [
+            107.6106083,
+            -6.905043
+          ],
+          [
+            107.6106453,
+            -6.9048172
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225950503,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073185,
+            -6.9143005
+          ],
+          [
+            107.6073396,
+            -6.9142915
+          ],
+          [
+            107.6073918,
+            -6.9142744
+          ],
+          [
+            107.607494,
+            -6.9142383
+          ],
+          [
+            107.6075641,
+            -6.9142136
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1232501592,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Wastukencana;Aceh;Merdeka;Purnawarman||Braga;Lembong;Suniaraja;Veteran",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6209351,
+            -6.8668623
+          ],
+          [
+            107.6212402,
+            -6.8669638
+          ],
+          [
+            107.6212512,
+            -6.8669765
+          ],
+          [
+            107.6212498,
+            -6.8669935
+          ],
+          [
+            107.6212119,
+            -6.8670778
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1384239546,
+        "highway": "service",
+        "name": "Terminal Dago",
+        "oneway": "yes",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6205739,
+            -6.8680595
+          ],
+          [
+            107.6206005,
+            -6.867828
+          ],
+          [
+            107.6206139,
+            -6.8677494
+          ],
+          [
+            107.6206394,
+            -6.8676482
+          ],
+          [
+            107.6208039,
+            -6.867019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208039,
+            -6.867019
+          ],
+          [
+            107.6208337,
+            -6.8669052
+          ],
+          [
+            107.6208647,
+            -6.8667867
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532575,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208647,
+            -6.8667867
+          ],
+          [
+            107.6209156,
+            -6.8667269
+          ],
+          [
+            107.6209442,
+            -6.866704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532576,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613882,
+            -6.8844449
+          ],
+          [
+            107.6138984,
+            -6.8843845
+          ],
+          [
+            107.6139865,
+            -6.884078
+          ],
+          [
+            107.6140439,
+            -6.8838946
+          ],
+          [
+            107.6140576,
+            -6.8838685
+          ],
+          [
+            107.614076,
+            -6.8838333
+          ],
+          [
+            107.6141003,
+            -6.8837869
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421456574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4292372",
+        "folder_sumber": "route-data/geojson/4292372",
+        "kategori_data": "ways",
+        "nomor_trayek": "09",
+        "nama_rute": "Stasiun Hall → Dago",
+        "label_jalur": "09: Stasiun Hall → Dago"
+      }
+    }
+  ]
+}

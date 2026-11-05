@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6562486,
+          -6.9024172
+        ]
+      },
+      "properties": {
+        "id": 11291524413,
+        "bus": "yes",
+        "name": "Terminal Angkot Cicaheum",
+        "public_transport": "stop_position",
+        "kode_jalur": "4291189",
+        "folder_sumber": "route-data/geojson/4291189",
+        "kategori_data": "endstops",
+        "nomor_trayek": "06",
+        "nama_rute": "Cicaheum → Ciroyom",
+        "label_jalur": "06: Cicaheum → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5890644,
+          -6.914151
+        ]
+      },
+      "properties": {
+        "id": 3244745033,
+        "bus": "yes",
+        "name": "Stasiun Ciroyom",
+        "public_transport": "stop_position",
+        "kode_jalur": "4291189",
+        "folder_sumber": "route-data/geojson/4291189",
+        "kategori_data": "endstops",
+        "nomor_trayek": "06",
+        "nama_rute": "Cicaheum → Ciroyom",
+        "label_jalur": "06: Cicaheum → Ciroyom"
+      }
+    }
+  ]
+}

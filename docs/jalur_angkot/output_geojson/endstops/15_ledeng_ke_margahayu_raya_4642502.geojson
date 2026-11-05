@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5951942,
+          -6.85933
+        ]
+      },
+      "properties": {
+        "id": 11711070002,
+        "bus": "yes",
+        "name": "Terminal Ledeng",
+        "public_transport": "stop_position",
+        "kode_jalur": "4642502",
+        "folder_sumber": "route-data/geojson/4642502",
+        "kategori_data": "endstops",
+        "nomor_trayek": "15",
+        "nama_rute": "Ledeng → Margahayu Raya",
+        "label_jalur": "15: Ledeng → Margahayu Raya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6626652,
+          -6.9465292
+        ]
+      },
+      "properties": {
+        "id": 3874166202,
+        "bus": "yes",
+        "name": "Terminal Margahayu Raya",
+        "public_transport": "stop_position",
+        "kode_jalur": "4642502",
+        "folder_sumber": "route-data/geojson/4642502",
+        "kategori_data": "endstops",
+        "nomor_trayek": "15",
+        "nama_rute": "Ledeng → Margahayu Raya",
+        "label_jalur": "15: Ledeng → Margahayu Raya"
+      }
+    }
+  ]
+}

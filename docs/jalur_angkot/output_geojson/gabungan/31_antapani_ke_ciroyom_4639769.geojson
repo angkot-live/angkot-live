@@ -1,0 +1,5679 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044417,
+            -6.9072201
+          ],
+          [
+            107.6044521,
+            -6.9072879
+          ],
+          [
+            107.604458,
+            -6.9073889
+          ],
+          [
+            107.6044748,
+            -6.9078654
+          ],
+          [
+            107.6044776,
+            -6.9079587
+          ],
+          [
+            107.6044909,
+            -6.9084617
+          ],
+          [
+            107.6044917,
+            -6.9087943
+          ],
+          [
+            107.6044683,
+            -6.9089756
+          ],
+          [
+            107.6044333,
+            -6.9091247
+          ],
+          [
+            107.6043797,
+            -6.9092856
+          ],
+          [
+            107.6043042,
+            -6.9094657
+          ],
+          [
+            107.6042851,
+            -6.9095101
+          ],
+          [
+            107.6042598,
+            -6.9095715
+          ],
+          [
+            107.6042199,
+            -6.9096823
+          ],
+          [
+            107.6041664,
+            -6.9098645
+          ],
+          [
+            107.60413,
+            -6.9100304
+          ],
+          [
+            107.6041131,
+            -6.910177
+          ],
+          [
+            107.604095,
+            -6.9104032
+          ],
+          [
+            107.6040795,
+            -6.910612
+          ],
+          [
+            107.6040749,
+            -6.9106747
+          ],
+          [
+            107.6040736,
+            -6.9106984
+          ],
+          [
+            107.6040635,
+            -6.9108642
+          ],
+          [
+            107.6040608,
+            -6.9109088
+          ],
+          [
+            107.6039986,
+            -6.911908
+          ],
+          [
+            107.6039597,
+            -6.9124977
+          ],
+          [
+            107.6039561,
+            -6.9125447
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4251274,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cicendo",
+        "oneway": "yes",
+        "ref": "369",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073865,
+            -6.9076628
+          ],
+          [
+            107.6073442,
+            -6.9076324
+          ],
+          [
+            107.6072754,
+            -6.9075859
+          ],
+          [
+            107.6071035,
+            -6.9074752
+          ],
+          [
+            107.6070242,
+            -6.9074318
+          ],
+          [
+            107.6068765,
+            -6.907351
+          ],
+          [
+            107.6066403,
+            -6.907244
+          ],
+          [
+            107.6065225,
+            -6.9072053
+          ],
+          [
+            107.6064209,
+            -6.9071852
+          ],
+          [
+            107.6062761,
+            -6.9071663
+          ],
+          [
+            107.6061572,
+            -6.9071583
+          ],
+          [
+            107.6058415,
+            -6.9071486
+          ],
+          [
+            107.6055894,
+            -6.9071347
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4256015,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Cicendo;Stasiun Bandung||Wastukencana;Tamansari;Pasteur",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982527,
+            -6.912368
+          ],
+          [
+            107.5981735,
+            -6.9123668
+          ],
+          [
+            107.5980964,
+            -6.9123486
+          ],
+          [
+            107.5980334,
+            -6.9123085
+          ],
+          [
+            107.5979805,
+            -6.912262
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567652,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6019305,
+            -6.9125353
+          ],
+          [
+            107.601745,
+            -6.9125245
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567655,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6103525,
+            -6.9136021
+          ],
+          [
+            107.6100125,
+            -6.9139146
+          ],
+          [
+            107.6099856,
+            -6.9139284
+          ],
+          [
+            107.6099474,
+            -6.9139366
+          ],
+          [
+            107.6099053,
+            -6.913944
+          ],
+          [
+            107.6098104,
+            -6.9139382
+          ],
+          [
+            107.6097898,
+            -6.9139349
+          ],
+          [
+            107.6097692,
+            -6.9139315
+          ],
+          [
+            107.6096401,
+            -6.9139177
+          ],
+          [
+            107.6091737,
+            -6.9138665
+          ],
+          [
+            107.609095,
+            -6.9138574
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32388798,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Braga;Lembong;Suniaraja;Veteran|Braga;Lembong;Suniaraja;Veteran;Wastukencana;Aceh;Purnawarman;Cicendo|Wastukencana;Aceh;Purnawarman;Cicendo",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055894,
+            -6.9071347
+          ],
+          [
+            107.6053829,
+            -6.907135
+          ]
+        ]
+      },
+      "properties": {
+        "id": 168569217,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Cicendo;Stasiun Bandung||Wastukencana;Tamansari;Pasteur",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "layer": "1",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6183415,
+            -6.911498
+          ],
+          [
+            107.6184125,
+            -6.9117345
+          ],
+          [
+            107.6185017,
+            -6.911999
+          ],
+          [
+            107.6186497,
+            -6.9124658
+          ],
+          [
+            107.6187336,
+            -6.9127767
+          ],
+          [
+            107.6187655,
+            -6.9128924
+          ],
+          [
+            107.6187806,
+            -6.9130123
+          ],
+          [
+            107.6188063,
+            -6.9134962
+          ],
+          [
+            107.6188506,
+            -6.915098
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174269782,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Bangka",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6188506,
+            -6.915098
+          ],
+          [
+            107.618959,
+            -6.9151242
+          ],
+          [
+            107.6190377,
+            -6.9151433
+          ],
+          [
+            107.6191903,
+            -6.9151802
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174269804,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "parking:both": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6144696,
+            -6.9121614
+          ],
+          [
+            107.6143524,
+            -6.9122063
+          ],
+          [
+            107.614276,
+            -6.9122351
+          ],
+          [
+            107.6142314,
+            -6.9122519
+          ],
+          [
+            107.6140321,
+            -6.912327
+          ],
+          [
+            107.6138475,
+            -6.9123969
+          ],
+          [
+            107.6138154,
+            -6.9124084
+          ],
+          [
+            107.6137534,
+            -6.9124309
+          ],
+          [
+            107.6134164,
+            -6.912564
+          ],
+          [
+            107.6132624,
+            -6.9126239
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174309310,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975328,
+            -6.9064531
+          ],
+          [
+            107.5972812,
+            -6.9064634
+          ],
+          [
+            107.5971648,
+            -6.9064676
+          ],
+          [
+            107.5970224,
+            -6.9064779
+          ],
+          [
+            107.5968205,
+            -6.9064928
+          ]
+        ]
+      },
+      "properties": {
+        "id": 190605650,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5976288,
+            -6.9073749
+          ],
+          [
+            107.5975909,
+            -6.9072507
+          ],
+          [
+            107.597581,
+            -6.9071682
+          ],
+          [
+            107.5975322,
+            -6.9065723
+          ],
+          [
+            107.5975328,
+            -6.9064531
+          ]
+        ]
+      },
+      "properties": {
+        "id": 190605653,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "destination": "Pasir Kaliki;Padjadjaran;Pasteur",
+        "destination:lanes": "Husein Sastranegara;Andir;Garuda|Sukajadi;RSHS;Pasteur;Djundjunan|Sukajadi;RSHS;Pasteur;Djundjunan",
+        "destination:ref:lanes": "248|",
+        "highway": "primary",
+        "lanes": "3",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "372",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6144696,
+            -6.9121614
+          ],
+          [
+            107.6145774,
+            -6.9121243
+          ],
+          [
+            107.6148569,
+            -6.9120259
+          ],
+          [
+            107.6150207,
+            -6.9119682
+          ],
+          [
+            107.6153366,
+            -6.9118538
+          ],
+          [
+            107.6155622,
+            -6.911775
+          ],
+          [
+            107.615611,
+            -6.9117587
+          ],
+          [
+            107.6157377,
+            -6.9117106
+          ],
+          [
+            107.615884,
+            -6.9116657
+          ],
+          [
+            107.6160223,
+            -6.9116314
+          ],
+          [
+            107.6161546,
+            -6.9116221
+          ]
+        ]
+      },
+      "properties": {
+        "id": 202151603,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6088855,
+            -6.9102984
+          ],
+          [
+            107.6088445,
+            -6.9102299
+          ],
+          [
+            107.6087639,
+            -6.910086
+          ],
+          [
+            107.608484,
+            -6.9095465
+          ],
+          [
+            107.6083912,
+            -6.9093671
+          ]
+        ]
+      },
+      "properties": {
+        "id": 235830733,
+        "alt_name": "Jalan Wastukencana",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6348552,
+            -6.9143329
+          ],
+          [
+            107.6348313,
+            -6.9143399
+          ],
+          [
+            107.6347873,
+            -6.9143636
+          ],
+          [
+            107.6347627,
+            -6.9143996
+          ],
+          [
+            107.6347483,
+            -6.9144516
+          ],
+          [
+            107.6347173,
+            -6.914512
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244799598,
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Sukabumi",
+        "oneway": "yes",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5979469,
+            -6.9117824
+          ],
+          [
+            107.5979313,
+            -6.9116207
+          ]
+        ]
+      },
+      "properties": {
+        "id": 257227476,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "372",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6083912,
+            -6.9093671
+          ],
+          [
+            107.6082885,
+            -6.9092058
+          ],
+          [
+            107.6082341,
+            -6.9091403
+          ],
+          [
+            107.608135,
+            -6.9090242
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292668884,
+        "alt_name": "Jalan Wastukencana",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.634419,
+            -6.9161223
+          ],
+          [
+            107.6344004,
+            -6.9162388
+          ],
+          [
+            107.6343511,
+            -6.9164827
+          ],
+          [
+            107.6342682,
+            -6.916856
+          ],
+          [
+            107.634252,
+            -6.9169288
+          ],
+          [
+            107.6342422,
+            -6.9169744
+          ],
+          [
+            107.6342207,
+            -6.9170356
+          ],
+          [
+            107.6341961,
+            -6.9170831
+          ]
+        ]
+      },
+      "properties": {
+        "id": 301544694,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106164,
+            -6.9099691
+          ],
+          [
+            107.6106159,
+            -6.9099991
+          ],
+          [
+            107.6106153,
+            -6.9100253
+          ],
+          [
+            107.6106014,
+            -6.9104158
+          ],
+          [
+            107.6105812,
+            -6.9108691
+          ],
+          [
+            107.6105492,
+            -6.9114267
+          ],
+          [
+            107.6105236,
+            -6.9118509
+          ],
+          [
+            107.610489,
+            -6.9122567
+          ],
+          [
+            107.6104606,
+            -6.9125904
+          ],
+          [
+            107.6104461,
+            -6.9127255
+          ],
+          [
+            107.6104424,
+            -6.9127679
+          ],
+          [
+            107.6103525,
+            -6.9136021
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742820,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
+        "destination:lanes": "Jawa;Sumatera;Sumbawa;Gudang|Tamblong;Veteran;Sunda;Kosambi|Braga;Wastukencana;Suniaraja;Purnawarman",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Merdeka",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;slight_right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.610654,
+            -6.909795
+          ],
+          [
+            107.610777,
+            -6.9097754
+          ],
+          [
+            107.6108205,
+            -6.9097714
+          ],
+          [
+            107.6109188,
+            -6.9097687
+          ],
+          [
+            107.6111566,
+            -6.9097687
+          ],
+          [
+            107.6116178,
+            -6.90977
+          ],
+          [
+            107.6117465,
+            -6.9097693
+          ],
+          [
+            107.6121344,
+            -6.9097777
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742821,
+        "cycleway:left": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "name": "Jalan Aceh",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6130444,
+            -6.9126174
+          ],
+          [
+            107.6130208,
+            -6.9125339
+          ],
+          [
+            107.6129967,
+            -6.9124653
+          ],
+          [
+            107.6129571,
+            -6.912356
+          ],
+          [
+            107.6128973,
+            -6.9122028
+          ],
+          [
+            107.6128197,
+            -6.9120187
+          ],
+          [
+            107.612748,
+            -6.9118421
+          ],
+          [
+            107.6126673,
+            -6.9116438
+          ],
+          [
+            107.6126418,
+            -6.9115626
+          ],
+          [
+            107.6125842,
+            -6.9113906
+          ],
+          [
+            107.6125692,
+            -6.9113098
+          ],
+          [
+            107.6125469,
+            -6.9111891
+          ],
+          [
+            107.6125064,
+            -6.9107865
+          ],
+          [
+            107.6124686,
+            -6.9102774
+          ],
+          [
+            107.6124452,
+            -6.9100873
+          ],
+          [
+            107.6124394,
+            -6.910028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742823,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumatra",
+        "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6161546,
+            -6.9116221
+          ],
+          [
+            107.6168641,
+            -6.9115844
+          ],
+          [
+            107.6170959,
+            -6.9115688
+          ],
+          [
+            107.617317,
+            -6.9115453
+          ],
+          [
+            107.6175732,
+            -6.9115105
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317743188,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6175732,
+            -6.9115105
+          ],
+          [
+            107.617735,
+            -6.9114851
+          ],
+          [
+            107.6179079,
+            -6.9114701
+          ],
+          [
+            107.6180518,
+            -6.9114643
+          ],
+          [
+            107.6182447,
+            -6.9114798
+          ],
+          [
+            107.6183415,
+            -6.911498
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318052005,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6313458,
+            -6.9186198
+          ],
+          [
+            107.6312891,
+            -6.9184991
+          ],
+          [
+            107.6312618,
+            -6.9184409
+          ],
+          [
+            107.6312506,
+            -6.9184177
+          ],
+          [
+            107.6307984,
+            -6.9174779
+          ],
+          [
+            107.6307188,
+            -6.9173125
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318053628,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Laswi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "377",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.608135,
+            -6.9090242
+          ],
+          [
+            107.6079856,
+            -6.9088682
+          ],
+          [
+            107.6079388,
+            -6.9087953
+          ],
+          [
+            107.6078779,
+            -6.9086773
+          ],
+          [
+            107.6078276,
+            -6.9085634
+          ],
+          [
+            107.6077911,
+            -6.9084463
+          ],
+          [
+            107.6076596,
+            -6.9080052
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318233616,
+        "alt_name": "Jalan Wastukencana",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Cicendo;Tamansari;Pasteur||Riau;Purnawarman;Merdeka;Juanda",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left;slight_right|slight_right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6090309,
+            -6.9137833
+          ],
+          [
+            107.6090355,
+            -6.9136767
+          ],
+          [
+            107.609036,
+            -6.9135295
+          ],
+          [
+            107.6090452,
+            -6.9130028
+          ],
+          [
+            107.6090502,
+            -6.9127472
+          ],
+          [
+            107.6090523,
+            -6.9126675
+          ],
+          [
+            107.6090858,
+            -6.9111585
+          ],
+          [
+            107.6090891,
+            -6.9110401
+          ],
+          [
+            107.6090928,
+            -6.9109499
+          ],
+          [
+            107.6090952,
+            -6.910906
+          ],
+          [
+            107.6090943,
+            -6.9108169
+          ],
+          [
+            107.6090871,
+            -6.9107051
+          ],
+          [
+            107.6090715,
+            -6.9106208
+          ],
+          [
+            107.609044,
+            -6.9105515
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318479413,
+        "alt_name": "Jalan Wastukencana",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "exclusive",
+        "destination:lanes": "Purnawarman;Cicendo|Purnawarman;Cicendo|Aceh;Jawa",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|slight_right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6453416,
+            -6.9135173
+          ],
+          [
+            107.6453033,
+            -6.9135399
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320512105,
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6474297,
+            -6.913244
+          ],
+          [
+            107.6474111,
+            -6.9132465
+          ],
+          [
+            107.6471064,
+            -6.9132911
+          ],
+          [
+            107.6457985,
+            -6.9134589
+          ],
+          [
+            107.6453416,
+            -6.9135173
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320512106,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6512126,
+            -6.9127667
+          ],
+          [
+            107.6503632,
+            -6.912873
+          ],
+          [
+            107.6497949,
+            -6.912944
+          ],
+          [
+            107.6494126,
+            -6.9129917
+          ],
+          [
+            107.6492727,
+            -6.9130091
+          ],
+          [
+            107.6491215,
+            -6.9130283
+          ],
+          [
+            107.6488638,
+            -6.9130605
+          ],
+          [
+            107.6477309,
+            -6.9132022
+          ],
+          [
+            107.6476418,
+            -6.9132133
+          ],
+          [
+            107.6475828,
+            -6.9132227
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320512108,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6439222,
+            -6.9137511
+          ],
+          [
+            107.6438747,
+            -6.9137574
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320512398,
+        "destination": "Ahmad Yani;Sukabumi;Supratman;Riau",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;reverse",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6551627,
+            -6.912521
+          ],
+          [
+            107.6541857,
+            -6.9124638
+          ],
+          [
+            107.6541033,
+            -6.9124625
+          ],
+          [
+            107.653817,
+            -6.9124678
+          ],
+          [
+            107.6535357,
+            -6.9124879
+          ],
+          [
+            107.6535199,
+            -6.9124899
+          ],
+          [
+            107.6529787,
+            -6.9125497
+          ],
+          [
+            107.6520929,
+            -6.9126555
+          ],
+          [
+            107.6520306,
+            -6.9126628
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320513351,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6591355,
+            -6.9174008
+          ],
+          [
+            107.6591977,
+            -6.9174025
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320513353,
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Jalan Purwakarta",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6591977,
+            -6.9174025
+          ],
+          [
+            107.6592266,
+            -6.9174037
+          ],
+          [
+            107.6599721,
+            -6.9174367
+          ],
+          [
+            107.6603586,
+            -6.9174516
+          ],
+          [
+            107.6603956,
+            -6.917453
+          ],
+          [
+            107.6604897,
+            -6.9174583
+          ],
+          [
+            107.6606673,
+            -6.9174703
+          ],
+          [
+            107.6607151,
+            -6.9174748
+          ],
+          [
+            107.6609947,
+            -6.9174917
+          ],
+          [
+            107.6611066,
+            -6.9175005
+          ],
+          [
+            107.661177,
+            -6.9175124
+          ],
+          [
+            107.6612216,
+            -6.9175017
+          ],
+          [
+            107.6612744,
+            -6.9174841
+          ],
+          [
+            107.6614652,
+            -6.9173398
+          ],
+          [
+            107.6615039,
+            -6.9173068
+          ],
+          [
+            107.6616718,
+            -6.9171787
+          ],
+          [
+            107.6619867,
+            -6.916927
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320513354,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Purwakarta",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "width": "4",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6636353,
+            -6.9172206
+          ],
+          [
+            107.6636633,
+            -6.9172021
+          ],
+          [
+            107.6638688,
+            -6.9170395
+          ],
+          [
+            107.664087,
+            -6.9168901
+          ],
+          [
+            107.6645052,
+            -6.9165695
+          ],
+          [
+            107.6645923,
+            -6.9165043
+          ],
+          [
+            107.6647108,
+            -6.9164166
+          ],
+          [
+            107.6647953,
+            -6.9163528
+          ],
+          [
+            107.6653484,
+            -6.9159206
+          ],
+          [
+            107.6654081,
+            -6.9158727
+          ],
+          [
+            107.6654561,
+            -6.9158164
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320517562,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cibatu",
+        "ref": "5076",
+        "reg_ref": "22-10-5076",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6636353,
+            -6.9172206
+          ],
+          [
+            107.6634793,
+            -6.9173422
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320517563,
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Cibatu",
+        "ref": "5076",
+        "reg_ref": "22-10-5076",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6634642,
+            -6.9173545
+          ],
+          [
+            107.6627276,
+            -6.9178987
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320517564,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cibatu",
+        "ref": "5076",
+        "reg_ref": "22-10-5076",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6374221,
+            -6.9145133
+          ],
+          [
+            107.6374071,
+            -6.9145151
+          ],
+          [
+            107.6373588,
+            -6.9145209
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320616149,
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6375505,
+            -6.9144979
+          ],
+          [
+            107.6374221,
+            -6.9145133
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320616150,
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6300893,
+            -6.9160089
+          ],
+          [
+            107.6300221,
+            -6.9159647
+          ],
+          [
+            107.6299556,
+            -6.9159377
+          ],
+          [
+            107.6299427,
+            -6.9159345
+          ],
+          [
+            107.6298859,
+            -6.9159206
+          ],
+          [
+            107.6298144,
+            -6.9159137
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321072381,
+        "destination": "Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika",
+        "highway": "primary_link",
+        "lanes": "1",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "turn": "slight_left",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6417884,
+            -6.9139622
+          ],
+          [
+            107.641697,
+            -6.9139738
+          ],
+          [
+            107.6414919,
+            -6.9139937
+          ],
+          [
+            107.641334,
+            -6.9140119
+          ],
+          [
+            107.6412274,
+            -6.9140241
+          ],
+          [
+            107.6410877,
+            -6.9140393
+          ],
+          [
+            107.6409956,
+            -6.9140515
+          ],
+          [
+            107.6405312,
+            -6.9141105
+          ],
+          [
+            107.6404431,
+            -6.9141209
+          ],
+          [
+            107.6403048,
+            -6.9141385
+          ],
+          [
+            107.6402144,
+            -6.914148
+          ],
+          [
+            107.6399554,
+            -6.914178
+          ],
+          [
+            107.6398939,
+            -6.914186
+          ],
+          [
+            107.6397497,
+            -6.9142026
+          ],
+          [
+            107.6394855,
+            -6.9142369
+          ],
+          [
+            107.6393217,
+            -6.9142593
+          ],
+          [
+            107.6391686,
+            -6.914281
+          ],
+          [
+            107.6390956,
+            -6.9142912
+          ],
+          [
+            107.6389363,
+            -6.9143117
+          ],
+          [
+            107.6388474,
+            -6.9143228
+          ],
+          [
+            107.6386441,
+            -6.9143525
+          ],
+          [
+            107.6385822,
+            -6.9143614
+          ],
+          [
+            107.6385215,
+            -6.9143724
+          ],
+          [
+            107.6384678,
+            -6.9143807
+          ],
+          [
+            107.6381956,
+            -6.9144188
+          ],
+          [
+            107.6379503,
+            -6.9144499
+          ],
+          [
+            107.6378321,
+            -6.9144641
+          ],
+          [
+            107.6377113,
+            -6.9144786
+          ],
+          [
+            107.6376149,
+            -6.9144902
+          ],
+          [
+            107.6375655,
+            -6.9144961
+          ],
+          [
+            107.6375505,
+            -6.9144979
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330594960,
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "oneway:conditional": "no @ (16:00-06:00)",
+        "sidewalk:both": "separate",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6373588,
+            -6.9145209
+          ],
+          [
+            107.6371438,
+            -6.9145467
+          ],
+          [
+            107.6369043,
+            -6.9145755
+          ],
+          [
+            107.6368147,
+            -6.9145887
+          ],
+          [
+            107.636513,
+            -6.914633
+          ],
+          [
+            107.6362469,
+            -6.9146627
+          ],
+          [
+            107.6362076,
+            -6.9146671
+          ],
+          [
+            107.6361335,
+            -6.9146647
+          ],
+          [
+            107.6360082,
+            -6.9146453
+          ],
+          [
+            107.6357903,
+            -6.914575
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635689,
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|through|through|slight_right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6290208,
+            -6.9162728
+          ],
+          [
+            107.6289251,
+            -6.9163216
+          ],
+          [
+            107.6287077,
+            -6.9164366
+          ],
+          [
+            107.6286077,
+            -6.9164897
+          ],
+          [
+            107.6284319,
+            -6.9165831
+          ],
+          [
+            107.6281138,
+            -6.9167518
+          ],
+          [
+            107.6274434,
+            -6.9171135
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330853613,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "4",
+        "mapillary": "1466903270562717",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5979313,
+            -6.9116207
+          ],
+          [
+            107.5979188,
+            -6.9114098
+          ],
+          [
+            107.5978086,
+            -6.909947
+          ],
+          [
+            107.5978015,
+            -6.9098566
+          ],
+          [
+            107.5977774,
+            -6.9094546
+          ],
+          [
+            107.5977427,
+            -6.9089045
+          ],
+          [
+            107.5976909,
+            -6.9082042
+          ],
+          [
+            107.5976849,
+            -6.9081059
+          ],
+          [
+            107.5976772,
+            -6.9080121
+          ],
+          [
+            107.5976288,
+            -6.9073749
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330853616,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "372",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5979805,
+            -6.912262
+          ],
+          [
+            107.5979469,
+            -6.9117824
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330853618,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "372",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6655035,
+            -6.9157094
+          ],
+          [
+            107.6655828,
+            -6.9153647
+          ],
+          [
+            107.6656787,
+            -6.9149413
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330855368,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cibatu",
+        "ref": "5076",
+        "reg_ref": "22-10-5076",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6619867,
+            -6.916927
+          ],
+          [
+            107.6623671,
+            -6.9174298
+          ],
+          [
+            107.6624718,
+            -6.9175748
+          ],
+          [
+            107.6625408,
+            -6.9176667
+          ],
+          [
+            107.6626119,
+            -6.9177626
+          ],
+          [
+            107.6626746,
+            -6.9178348
+          ],
+          [
+            107.6626991,
+            -6.9178691
+          ],
+          [
+            107.6627276,
+            -6.9178987
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330855369,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kuningan",
+        "ref": "5222",
+        "reg_ref": "22-10-5222",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6551627,
+            -6.912521
+          ],
+          [
+            107.6551351,
+            -6.912935
+          ],
+          [
+            107.6550806,
+            -6.9138293
+          ],
+          [
+            107.655052,
+            -6.9143921
+          ],
+          [
+            107.6550155,
+            -6.9147421
+          ],
+          [
+            107.655,
+            -6.9148126
+          ],
+          [
+            107.6549919,
+            -6.9148374
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330855371,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Subang",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6591355,
+            -6.9174008
+          ],
+          [
+            107.6590955,
+            -6.9174004
+          ],
+          [
+            107.6585042,
+            -6.9173735
+          ],
+          [
+            107.6584676,
+            -6.9173721
+          ],
+          [
+            107.657555,
+            -6.9173304
+          ],
+          [
+            107.6570184,
+            -6.9173067
+          ],
+          [
+            107.6563666,
+            -6.9172779
+          ],
+          [
+            107.6562732,
+            -6.9172738
+          ],
+          [
+            107.6560398,
+            -6.9172635
+          ],
+          [
+            107.6559513,
+            -6.9172249
+          ],
+          [
+            107.655734,
+            -6.9170923
+          ],
+          [
+            107.6555204,
+            -6.9169619
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330855373,
+        "highway": "tertiary",
+        "name": "Jalan Purwakarta",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6437464,
+            -6.9137765
+          ],
+          [
+            107.6436788,
+            -6.9137868
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330976390,
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6076596,
+            -6.9080052
+          ],
+          [
+            107.607602,
+            -6.9079117
+          ],
+          [
+            107.607563,
+            -6.9078579
+          ],
+          [
+            107.607537,
+            -6.907823
+          ],
+          [
+            107.607465,
+            -6.9077399
+          ],
+          [
+            107.6073865,
+            -6.9076628
+          ]
+        ]
+      },
+      "properties": {
+        "id": 340400262,
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6520306,
+            -6.9126628
+          ],
+          [
+            107.6518998,
+            -6.9126808
+          ]
+        ]
+      },
+      "properties": {
+        "id": 414435676,
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "maxweight:signed": "no",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6053829,
+            -6.907135
+          ],
+          [
+            107.6051824,
+            -6.9071438
+          ],
+          [
+            107.6051387,
+            -6.9071446
+          ],
+          [
+            107.6045501,
+            -6.9071569
+          ],
+          [
+            107.6045,
+            -6.907158
+          ]
+        ]
+      },
+      "properties": {
+        "id": 418942771,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Cicendo;Stasiun Bandung||Wastukencana;Tamansari;Pasteur",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5959262,
+            -6.9065893
+          ],
+          [
+            107.5952568,
+            -6.9066609
+          ],
+          [
+            107.595037,
+            -6.9066943
+          ],
+          [
+            107.5945793,
+            -6.9067595
+          ],
+          [
+            107.5945435,
+            -6.9067649
+          ],
+          [
+            107.5942472,
+            -6.906822
+          ],
+          [
+            107.5941987,
+            -6.9068309
+          ],
+          [
+            107.594084,
+            -6.9068527
+          ],
+          [
+            107.5937537,
+            -6.9069123
+          ],
+          [
+            107.5936226,
+            -6.9069359
+          ],
+          [
+            107.5930436,
+            -6.9070358
+          ]
+        ]
+      },
+      "properties": {
+        "id": 556612636,
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Pajajaran",
+        "oneway": "no",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5920701,
+            -6.9071489
+          ],
+          [
+            107.5918373,
+            -6.9071242
+          ],
+          [
+            107.5916612,
+            -6.9071113
+          ],
+          [
+            107.5915994,
+            -6.9071068
+          ],
+          [
+            107.5913085,
+            -6.9070897
+          ],
+          [
+            107.5911224,
+            -6.9070825
+          ]
+        ]
+      },
+      "properties": {
+        "id": 556612637,
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Pajajaran",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5906383,
+            -6.9070791
+          ],
+          [
+            107.5904897,
+            -6.9070683
+          ],
+          [
+            107.5902528,
+            -6.9070511
+          ],
+          [
+            107.5892287,
+            -6.9069531
+          ],
+          [
+            107.5890575,
+            -6.9069317
+          ],
+          [
+            107.5889568,
+            -6.9069197
+          ],
+          [
+            107.5888977,
+            -6.9069111
+          ],
+          [
+            107.5887781,
+            -6.9068994
+          ],
+          [
+            107.5886037,
+            -6.906884
+          ],
+          [
+            107.5883918,
+            -6.9068594
+          ],
+          [
+            107.588209,
+            -6.9068423
+          ]
+        ]
+      },
+      "properties": {
+        "id": 557541304,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "width": "5",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6298144,
+            -6.9159137
+          ],
+          [
+            107.6295503,
+            -6.9160568
+          ],
+          [
+            107.629412,
+            -6.9161317
+          ],
+          [
+            107.6291688,
+            -6.9162635
+          ],
+          [
+            107.6290984,
+            -6.9162777
+          ],
+          [
+            107.6290208,
+            -6.9162728
+          ]
+        ]
+      },
+      "properties": {
+        "id": 558974784,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6451943,
+            -6.9135557
+          ],
+          [
+            107.6451485,
+            -6.9135638
+          ],
+          [
+            107.6439222,
+            -6.9137511
+          ]
+        ]
+      },
+      "properties": {
+        "id": 559019368,
+        "destination": "Kiaracondong;Babakan Sari;Binong|Ahmad Yani;Sukabumi;Supratman;Riau",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through;reverse",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6422876,
+            -6.9139498
+          ],
+          [
+            107.6421252,
+            -6.9139589
+          ],
+          [
+            107.6417884,
+            -6.9139622
+          ]
+        ]
+      },
+      "properties": {
+        "id": 559019369,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6549689,
+            -6.9148878
+          ],
+          [
+            107.6548107,
+            -6.9151758
+          ],
+          [
+            107.6546119,
+            -6.9154864
+          ],
+          [
+            107.654416,
+            -6.9158215
+          ],
+          [
+            107.6542065,
+            -6.9161598
+          ]
+        ]
+      },
+      "properties": {
+        "id": 559314096,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Subang",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6549919,
+            -6.9148374
+          ],
+          [
+            107.6549689,
+            -6.9148878
+          ]
+        ]
+      },
+      "properties": {
+        "id": 559314098,
+        "bridge": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Subang",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6634642,
+            -6.9173545
+          ],
+          [
+            107.6634793,
+            -6.9173422
+          ]
+        ]
+      },
+      "properties": {
+        "id": 682822049,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cibatu",
+        "ref": "5076",
+        "reg_ref": "22-10-5076",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6542065,
+            -6.9161598
+          ],
+          [
+            107.6546575,
+            -6.9164351
+          ],
+          [
+            107.6548801,
+            -6.9165709
+          ],
+          [
+            107.6550268,
+            -6.9166605
+          ],
+          [
+            107.6555204,
+            -6.9169619
+          ]
+        ]
+      },
+      "properties": {
+        "id": 685814603,
+        "highway": "tertiary",
+        "name": "Jalan Purwakarta",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039561,
+            -6.9125447
+          ],
+          [
+            107.603934,
+            -6.912602
+          ],
+          [
+            107.6039133,
+            -6.9126367
+          ],
+          [
+            107.603885,
+            -6.9126611
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705056733,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Cicendo",
+        "oneway": "yes",
+        "ref": "369",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5968205,
+            -6.9064928
+          ],
+          [
+            107.5966166,
+            -6.906518
+          ],
+          [
+            107.5964032,
+            -6.9065473
+          ],
+          [
+            107.5961119,
+            -6.9066005
+          ],
+          [
+            107.5960526,
+            -6.9066041
+          ],
+          [
+            107.5959951,
+            -6.9065992
+          ],
+          [
+            107.5959262,
+            -6.9065893
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705122542,
+        "destination": "Husein Sastranegara;Andir;Garuda",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6659285,
+            -6.915304
+          ],
+          [
+            107.6659888,
+            -6.9151531
+          ],
+          [
+            107.666023,
+            -6.9150753
+          ],
+          [
+            107.6660397,
+            -6.9150232
+          ]
+        ]
+      },
+      "properties": {
+        "id": 808666178,
+        "highway": "service",
+        "oneway": "yes",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6273307,
+            -6.9171455
+          ],
+          [
+            107.6273466,
+            -6.9171703
+          ],
+          [
+            107.6273636,
+            -6.9171968
+          ]
+        ]
+      },
+      "properties": {
+        "id": 818384091,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6475828,
+            -6.9132227
+          ],
+          [
+            107.6474297,
+            -6.913244
+          ]
+        ]
+      },
+      "properties": {
+        "id": 824490739,
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6453033,
+            -6.9135399
+          ],
+          [
+            107.6451943,
+            -6.9135557
+          ]
+        ]
+      },
+      "properties": {
+        "id": 824490740,
+        "bridge": "yes",
+        "bridge:name": "Jalan Layang Jaksa Agung R. Soeprapto",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "1",
+        "layer": "1",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6429791,
+            -6.9138756
+          ],
+          [
+            107.6422876,
+            -6.9139498
+          ]
+        ]
+      },
+      "properties": {
+        "id": 841362077,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6436788,
+            -6.9137868
+          ],
+          [
+            107.643606,
+            -6.9137967
+          ],
+          [
+            107.6435259,
+            -6.9138067
+          ],
+          [
+            107.6434317,
+            -6.9138202
+          ]
+        ]
+      },
+      "properties": {
+        "id": 841362078,
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jakarta",
+        "oneway": "yes",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6438747,
+            -6.9137574
+          ],
+          [
+            107.6437931,
+            -6.9137693
+          ],
+          [
+            107.6437464,
+            -6.9137765
+          ]
+        ]
+      },
+      "properties": {
+        "id": 841362080,
+        "destination": "Ahmad Yani;Sukabumi;Supratman;Riau",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "turn": "through",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6307188,
+            -6.9173125
+          ],
+          [
+            107.6306282,
+            -6.9171247
+          ],
+          [
+            107.6301434,
+            -6.916119
+          ],
+          [
+            107.6300893,
+            -6.9160089
+          ]
+        ]
+      },
+      "properties": {
+        "id": 868603519,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika|Riau;Aceh;Taman Pramuka;Ciliwung|Supratman;Cicadas;Cicaheum",
+        "destination:ref:lanes": "||378",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Laswi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "377",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through|right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6357903,
+            -6.914575
+          ],
+          [
+            107.6357337,
+            -6.9145811
+          ],
+          [
+            107.6356898,
+            -6.9145768
+          ],
+          [
+            107.6356137,
+            -6.9145582
+          ],
+          [
+            107.6354322,
+            -6.914512
+          ],
+          [
+            107.6352266,
+            -6.9144508
+          ],
+          [
+            107.6348552,
+            -6.9143329
+          ]
+        ]
+      },
+      "properties": {
+        "id": 872152156,
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.609095,
+            -6.9138574
+          ],
+          [
+            107.6090912,
+            -6.913831
+          ],
+          [
+            107.6090777,
+            -6.9138078
+          ],
+          [
+            107.6090567,
+            -6.9137911
+          ],
+          [
+            107.6090309,
+            -6.9137833
+          ]
+        ]
+      },
+      "properties": {
+        "id": 873379466,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination": "Wastukencana;Aceh;Merdeka;Purnawarman",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6045,
+            -6.907158
+          ],
+          [
+            107.6044996,
+            -6.907174
+          ],
+          [
+            107.6044946,
+            -6.9071893
+          ],
+          [
+            107.6044854,
+            -6.9072025
+          ],
+          [
+            107.6044728,
+            -6.9072125
+          ],
+          [
+            107.6044578,
+            -6.9072185
+          ],
+          [
+            107.6044417,
+            -6.9072201
+          ]
+        ]
+      },
+      "properties": {
+        "id": 873382133,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "369;371",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6347173,
+            -6.914512
+          ],
+          [
+            107.634483,
+            -6.9157469
+          ],
+          [
+            107.6344729,
+            -6.9158077
+          ],
+          [
+            107.634447,
+            -6.9159625
+          ]
+        ]
+      },
+      "properties": {
+        "id": 986595380,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5906641,
+            -6.907081
+          ],
+          [
+            107.5906383,
+            -6.9070791
+          ]
+        ]
+      },
+      "properties": {
+        "id": 992188904,
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5911224,
+            -6.9070825
+          ],
+          [
+            107.5910022,
+            -6.9071149
+          ],
+          [
+            107.5906641,
+            -6.907081
+          ]
+        ]
+      },
+      "properties": {
+        "id": 992188905,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6339445,
+            -6.9173179
+          ],
+          [
+            107.6337948,
+            -6.9174252
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1064244371,
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.634447,
+            -6.9159625
+          ],
+          [
+            107.634419,
+            -6.9161223
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1064247852,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.609044,
+            -6.9105515
+          ],
+          [
+            107.6088855,
+            -6.9102984
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073714003,
+        "alt_name": "Jalan Wastukencana",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.610654,
+            -6.909795
+          ],
+          [
+            107.6106452,
+            -6.9098761
+          ],
+          [
+            107.6106164,
+            -6.9099691
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1079416043,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Merdeka",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6132624,
+            -6.9126239
+          ],
+          [
+            107.6131903,
+            -6.912646
+          ],
+          [
+            107.613115,
+            -6.9126437
+          ],
+          [
+            107.6130444,
+            -6.9126174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110338261,
+        "avgspeed": "30",
+        "highway": "tertiary_link",
+        "lanes": "1",
+        "name": "Jalan Belitung",
+        "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6124394,
+            -6.910028
+          ],
+          [
+            107.612417,
+            -6.9099758
+          ],
+          [
+            107.6124105,
+            -6.9099613
+          ],
+          [
+            107.6123879,
+            -6.909913
+          ],
+          [
+            107.6123659,
+            -6.9098744
+          ],
+          [
+            107.6123326,
+            -6.9098375
+          ],
+          [
+            107.61229,
+            -6.909804
+          ],
+          [
+            107.6121344,
+            -6.9097777
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110338262,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Sumatra",
+        "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6341961,
+            -6.9170831
+          ],
+          [
+            107.6340932,
+            -6.917204
+          ],
+          [
+            107.6339445,
+            -6.9173179
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111616658,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.603885,
+            -6.9126611
+          ],
+          [
+            107.6038515,
+            -6.9126567
+          ],
+          [
+            107.6036069,
+            -6.9126444
+          ],
+          [
+            107.6032433,
+            -6.9126176
+          ],
+          [
+            107.6029824,
+            -6.9125986
+          ],
+          [
+            107.6029303,
+            -6.9125954
+          ],
+          [
+            107.6027169,
+            -6.9125813
+          ],
+          [
+            107.6024779,
+            -6.9125651
+          ],
+          [
+            107.6023535,
+            -6.9125612
+          ],
+          [
+            107.6022742,
+            -6.9125566
+          ],
+          [
+            107.6020122,
+            -6.91254
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374707,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6020122,
+            -6.91254
+          ],
+          [
+            107.6019305,
+            -6.9125353
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374708,
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5930436,
+            -6.9070358
+          ],
+          [
+            107.592893,
+            -6.9070548
+          ],
+          [
+            107.5928538,
+            -6.9070598
+          ],
+          [
+            107.5926825,
+            -6.9070846
+          ],
+          [
+            107.5925401,
+            -6.9070991
+          ],
+          [
+            107.5923942,
+            -6.9071118
+          ],
+          [
+            107.592239,
+            -6.9071272
+          ],
+          [
+            107.5920701,
+            -6.9071489
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218966648,
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Pajajaran",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6313572,
+            -6.9186866
+          ],
+          [
+            107.6313458,
+            -6.9186198
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225789973,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Ahmad Yani;Riau;Kosambi|Ahmad Yani;Riau;Kosambi|Ahmad Yani;Cicadas;Kiaracondong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Laswi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "377",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6314582,
+            -6.9186505
+          ],
+          [
+            107.6313572,
+            -6.9186866
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225789974,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "turn:lanes": "through|through",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6320827,
+            -6.9183023
+          ],
+          [
+            107.6320334,
+            -6.9183683
+          ],
+          [
+            107.6315787,
+            -6.9185925
+          ],
+          [
+            107.6314582,
+            -6.9186505
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225789975,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "oneway": "yes",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|right",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6337948,
+            -6.9174252
+          ],
+          [
+            107.6337656,
+            -6.9174454
+          ],
+          [
+            107.6330451,
+            -6.9178143
+          ],
+          [
+            107.6324739,
+            -6.9181019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225789976,
+        "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6654561,
+            -6.9158164
+          ],
+          [
+            107.6654841,
+            -6.9157646
+          ],
+          [
+            107.6655035,
+            -6.9157094
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1263079211,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cibatu",
+        "ref": "5076",
+        "reg_ref": "22-10-5076",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6660397,
+            -6.9150232
+          ],
+          [
+            107.6658787,
+            -6.9149864
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1263079213,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "width": "5",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6658787,
+            -6.9149864
+          ],
+          [
+            107.6656787,
+            -6.9149413
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1280239536,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "width": "5",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6274434,
+            -6.9171135
+          ],
+          [
+            107.6274142,
+            -6.9171591
+          ],
+          [
+            107.6273636,
+            -6.9171968
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1280245515,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6434317,
+            -6.9138202
+          ],
+          [
+            107.6429791,
+            -6.9138756
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1296453736,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6191903,
+            -6.9151802
+          ],
+          [
+            107.6193043,
+            -6.9152077
+          ],
+          [
+            107.6193915,
+            -6.9152288
+          ],
+          [
+            107.6194468,
+            -6.9152422
+          ],
+          [
+            107.6196923,
+            -6.9153016
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389907,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "parking:both": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6196923,
+            -6.9153016
+          ],
+          [
+            107.6210127,
+            -6.9156209
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389908,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "parking:both": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6210127,
+            -6.9156209
+          ],
+          [
+            107.6212044,
+            -6.9156673
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389909,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6212044,
+            -6.9156673
+          ],
+          [
+            107.621498,
+            -6.9157384
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389910,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.621498,
+            -6.9157384
+          ],
+          [
+            107.6221708,
+            -6.9159011
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389911,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221708,
+            -6.9159011
+          ],
+          [
+            107.6222472,
+            -6.9159196
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389912,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6222472,
+            -6.9159196
+          ],
+          [
+            107.6225707,
+            -6.9159978
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389913,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6225707,
+            -6.9159978
+          ],
+          [
+            107.6226711,
+            -6.9160221
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389914,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6226711,
+            -6.9160221
+          ],
+          [
+            107.6229727,
+            -6.916095
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389915,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6229727,
+            -6.916095
+          ],
+          [
+            107.6234972,
+            -6.9162219
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389916,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6234972,
+            -6.9162219
+          ],
+          [
+            107.6238525,
+            -6.9163079
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389917,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6238525,
+            -6.9163079
+          ],
+          [
+            107.6244453,
+            -6.9164512
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389918,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6244453,
+            -6.9164512
+          ],
+          [
+            107.6255424,
+            -6.9167166
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389919,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6255424,
+            -6.9167166
+          ],
+          [
+            107.6259467,
+            -6.9168185
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389920,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6259467,
+            -6.9168185
+          ],
+          [
+            107.6262609,
+            -6.9168904
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389921,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262609,
+            -6.9168904
+          ],
+          [
+            107.6266404,
+            -6.9169823
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389922,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6266404,
+            -6.9169823
+          ],
+          [
+            107.6270406,
+            -6.917079
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389923,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6270406,
+            -6.917079
+          ],
+          [
+            107.6273307,
+            -6.9171455
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389924,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6006435,
+            -6.9124749
+          ],
+          [
+            107.6002224,
+            -6.9124495
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399243,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6002224,
+            -6.9124495
+          ],
+          [
+            107.6000202,
+            -6.912439
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399244,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6000202,
+            -6.912439
+          ],
+          [
+            107.5993874,
+            -6.9123994
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399245,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5993874,
+            -6.9123994
+          ],
+          [
+            107.5990408,
+            -6.912374
+          ],
+          [
+            107.5990132,
+            -6.912372
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399246,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5990132,
+            -6.912372
+          ],
+          [
+            107.5982527,
+            -6.912368
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399247,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601745,
+            -6.9125245
+          ],
+          [
+            107.601624,
+            -6.9125174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399248,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601624,
+            -6.9125174
+          ],
+          [
+            107.6015636,
+            -6.9125139
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399249,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6015636,
+            -6.9125139
+          ],
+          [
+            107.6010547,
+            -6.9124917
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399250,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6010547,
+            -6.9124917
+          ],
+          [
+            107.6009674,
+            -6.9124878
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399251,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6009674,
+            -6.9124878
+          ],
+          [
+            107.6007223,
+            -6.9124771
+          ],
+          [
+            107.6006435,
+            -6.9124749
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399252,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6518998,
+            -6.9126808
+          ],
+          [
+            107.6518089,
+            -6.9126922
+          ],
+          [
+            107.6516097,
+            -6.9127171
+          ],
+          [
+            107.6512126,
+            -6.9127667
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1501285695,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6324739,
+            -6.9181019
+          ],
+          [
+            107.6322059,
+            -6.9182368
+          ],
+          [
+            107.6321219,
+            -6.9182791
+          ],
+          [
+            107.6320827,
+            -6.9183023
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1562416254,
+        "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "ways",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6659285,
+          -6.915304
+        ]
+      },
+      "properties": {
+        "id": 3270445565,
+        "bus": "yes",
+        "name": "Terminal Antapani",
+        "public_transport": "stop_position",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "endstops",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.588209,
+          -6.9068423
+        ]
+      },
+      "properties": {
+        "id": 3377329064,
+        "bus": "yes",
+        "name": "Husein Pajajaran",
+        "public_transport": "stop_position",
+        "kode_jalur": "4639769",
+        "folder_sumber": "route-data/geojson/4639769",
+        "kategori_data": "endstops",
+        "nomor_trayek": "31",
+        "nama_rute": "Antapani → Ciroyom",
+        "label_jalur": "31: Antapani → Ciroyom"
+      }
+    }
+  ]
+}

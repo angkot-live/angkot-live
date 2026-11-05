@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6099669,
+          -6.899504
+        ]
+      },
+      "properties": {
+        "id": 13243220021,
+        "bus": "yes",
+        "name": "Baltos",
+        "public_transport": "stop_position",
+        "kode_jalur": "16644061",
+        "folder_sumber": "route-data/geojson/16644061",
+        "kategori_data": "endstops",
+        "nomor_trayek": "18",
+        "nama_rute": "Dipatiukur → Panghegar Permai",
+        "label_jalur": "18: Dipatiukur → Panghegar Permai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6835707,
+          -6.9237417
+        ]
+      },
+      "properties": {
+        "id": 3251007192,
+        "bus": "yes",
+        "name": "Pangkalan Angkot Panghegar",
+        "public_transport": "stop_position",
+        "kode_jalur": "16644061",
+        "folder_sumber": "route-data/geojson/16644061",
+        "kategori_data": "endstops",
+        "nomor_trayek": "18",
+        "nama_rute": "Dipatiukur → Panghegar Permai",
+        "label_jalur": "18: Dipatiukur → Panghegar Permai"
+      }
+    }
+  ]
+}

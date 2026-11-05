@@ -1,0 +1,4709 @@
+{
+  "total_jalur": 82,
+  "total_fitur_ways": 6857,
+  "total_fitur_endstops": 172,
+  "total_fitur_gabungan": 7029,
+  "daftar_jalur": [
+    {
+      "kode_jalur": "3415464",
+      "nomor_trayek": "01A",
+      "nama_rute": "Abdul Muis → Cicaheum via Binong",
+      "label_jalur": "01A: Abdul Muis → Cicaheum via Binong",
+      "nama_file": "01A_abdul_muis_ke_cicaheum_via_binong_3415464.geojson",
+      "jumlah_fitur_ways": 108,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 110,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 11291524413,
+          "name": "Terminal Angkot Cicaheum",
+          "lat": -6.9024172,
+          "lng": 107.6562486
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8977908,
+        "south": -6.9343972,
+        "east": 107.6572943,
+        "west": 107.6058322
+      },
+      "center_gmaps": {
+        "lat": -6.916094,
+        "lng": 107.6315632
+      },
+      "jalan_dilalui": [
+        "Jalan PH. H. Mustofa",
+        "Jalan Turangga",
+        "Jalan Mochammad Ramdhan",
+        "Jalan Jenderal Gatot Subroto",
+        "Jalan Balonggede",
+        "Jalan Kyai Haji Ahmad Dahlan",
+        "Jalan Brigjend. Katamso",
+        "Jalan Supratman",
+        "Jalan Pungkur",
+        "Jalan Palasari",
+        "Jalan Lodaya",
+        "Jalan Pahlawan",
+        "Jalan Lauk Emas",
+        "Jalan Dewi Sartika",
+        "Jalan R.A.A. Martanegara",
+        "Jalan Sadakeling",
+        "Jalan Jakarta",
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Lapang Supratman",
+        "Jalan Kautamaan Istri",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Cikuray",
+        "Jalan Karapitan"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/01A_abdul_muis_ke_cicaheum_via_binong_3415464.geojson",
+        "ways": "output_geojson/ways/01A_abdul_muis_ke_cicaheum_via_binong_3415464.geojson",
+        "endstops": "output_geojson/endstops/01A_abdul_muis_ke_cicaheum_via_binong_3415464.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4635390",
+      "nomor_trayek": "01A",
+      "nama_rute": "Cicaheum → Abdul Muis via Binong",
+      "label_jalur": "01A: Cicaheum → Abdul Muis via Binong",
+      "nama_file": "01A_cicaheum_ke_abdul_muis_via_binong_4635390.geojson",
+      "jumlah_fitur_ways": 133,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 135,
+      "endstops_gmaps": [
+        {
+          "id": 11291524413,
+          "name": "Terminal Angkot Cicaheum",
+          "lat": -6.9024172,
+          "lng": 107.6562486
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8928327,
+        "south": -6.9384219,
+        "east": 107.6562486,
+        "west": 107.6054273
+      },
+      "center_gmaps": {
+        "lat": -6.9156273,
+        "lng": 107.630838
+      },
+      "jalan_dilalui": [
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Dewi Sartika",
+        "Jalan Mohammad Toha",
+        "Jalan R.A.A. Martanegara",
+        "Jalan Turangga",
+        "Jalan PH. H. Mustofa",
+        "Jalan Gajah",
+        "Jalan Jenderal Gatot Subroto",
+        "Jalan Brigjend. Katamso",
+        "Jalan Gurame",
+        "Jalan Sadakeling",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Palasari",
+        "Jalan Lodaya",
+        "Jalan Pahlawan",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Supratman",
+        "Jalan Cikutra",
+        "Jalan BKR",
+        "Jalan Mochammad Ramdhan",
+        "Jalan Kyai Haji Ahmad Dahlan",
+        "Jalan Buah Batu"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/01A_cicaheum_ke_abdul_muis_via_binong_4635390.geojson",
+        "ways": "output_geojson/ways/01A_cicaheum_ke_abdul_muis_via_binong_4635390.geojson",
+        "endstops": "output_geojson/endstops/01A_cicaheum_ke_abdul_muis_via_binong_4635390.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4636155",
+      "nomor_trayek": "01B",
+      "nama_rute": "Abdul Muis → Cicaheum via Aceh",
+      "label_jalur": "01B: Abdul Muis → Cicaheum via Aceh",
+      "nama_file": "01B_abdul_muis_ke_cicaheum_via_aceh_4636155.geojson",
+      "jumlah_fitur_ways": 71,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 73,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 11291524413,
+          "name": "Terminal Angkot Cicaheum",
+          "lat": -6.9024172,
+          "lng": 107.6562486
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8927469,
+        "south": -6.9325064,
+        "east": 107.6572943,
+        "west": 107.6058322
+      },
+      "center_gmaps": {
+        "lat": -6.9126266,
+        "lng": 107.6315632
+      },
+      "jalan_dilalui": [
+        "Jalan Taman Pramuka",
+        "Jalan Karapitan",
+        "Jalan Mochammad Ramdhan",
+        "Jalan PH. H. Mustofa",
+        "Jalan Balonggede",
+        "Jalan Lombok",
+        "Jalan Cendana",
+        "Jalan Sumbawa",
+        "Jalan Brigjend. Katamso",
+        "Jalan Pahlawan",
+        "Jalan Pungkur",
+        "Jalan Aceh",
+        "Jalan Dewi Sartika",
+        "Jalan Banda",
+        "Jalan Belitung",
+        "Jalan Cikutra",
+        "Jalan Supratman",
+        "Jalan Kautamaan Istri",
+        "Jalan Aceh 108",
+        "Jalan Sunda",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Lapang Supratman"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/01B_abdul_muis_ke_cicaheum_via_aceh_4636155.geojson",
+        "ways": "output_geojson/ways/01B_abdul_muis_ke_cicaheum_via_aceh_4636155.geojson",
+        "endstops": "output_geojson/endstops/01B_abdul_muis_ke_cicaheum_via_aceh_4636155.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4635842",
+      "nomor_trayek": "01B",
+      "nama_rute": "Cicaheum → Abdul Muis via Aceh",
+      "label_jalur": "01B: Cicaheum → Abdul Muis via Aceh",
+      "nama_file": "01B_cicaheum_ke_abdul_muis_via_aceh_4635842.geojson",
+      "jumlah_fitur_ways": 66,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 68,
+      "endstops_gmaps": [
+        {
+          "id": 11291524413,
+          "name": "Terminal Angkot Cicaheum",
+          "lat": -6.9024172,
+          "lng": 107.6562486
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8977908,
+        "south": -6.93245,
+        "east": 107.6562486,
+        "west": 107.6054273
+      },
+      "center_gmaps": {
+        "lat": -6.9151204,
+        "lng": 107.630838
+      },
+      "jalan_dilalui": [
+        "Jalan Dewi Sartika",
+        "Jalan PH. H. Mustofa",
+        "Jalan Lengkong Besar",
+        "Jalan Brigjend. Katamso",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Tamblong",
+        "Jalan Sumatra",
+        "Jalan Cendana",
+        "Jalan Belitung",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Lapang Supratman",
+        "Jalan Laksamana Laut Raden Eddy Martadinata",
+        "Jalan Pahlawan",
+        "Jalan Aceh",
+        "Jalan Supratman",
+        "Jalan Lombok",
+        "Jalan Taman Pramuka"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/01B_cicaheum_ke_abdul_muis_via_aceh_4635842.geojson",
+        "ways": "output_geojson/ways/01B_cicaheum_ke_abdul_muis_via_aceh_4635842.geojson",
+        "endstops": "output_geojson/endstops/01B_cicaheum_ke_abdul_muis_via_aceh_4635842.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4643111",
+      "nomor_trayek": "02",
+      "nama_rute": "Abdul Muis → Dago",
+      "label_jalur": "02: Abdul Muis → Dago",
+      "nama_file": "02_abdul_muis_ke_dago_4643111.geojson",
+      "jumlah_fitur_ways": 81,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 83,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 3373712056,
+          "name": "Terminal Dago",
+          "lat": -6.8670778,
+          "lng": 107.6212119
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.866704,
+        "south": -6.9325064,
+        "east": 107.6212512,
+        "west": 107.6058322
+      },
+      "center_gmaps": {
+        "lat": -6.8996052,
+        "lng": 107.6135417
+      },
+      "jalan_dilalui": [
+        "Jalan Karapitan",
+        "Jalan Mochammad Ramdhan",
+        "Jalan Seram",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Balonggede",
+        "Jalan Belitung",
+        "Jalan Sumbawa",
+        "Jalan Pungkur",
+        "Jalan Aceh",
+        "Jalan Sumatra",
+        "Jalan Dewi Sartika",
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Kautamaan Istri",
+        "Jalan Sunda",
+        "Terminal Dago"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/02_abdul_muis_ke_dago_4643111.geojson",
+        "ways": "output_geojson/ways/02_abdul_muis_ke_dago_4643111.geojson",
+        "endstops": "output_geojson/endstops/02_abdul_muis_ke_dago_4643111.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4643109",
+      "nomor_trayek": "02",
+      "nama_rute": "Dago → Abdul Muis",
+      "label_jalur": "02: Dago → Abdul Muis",
+      "nama_file": "02_dago_ke_abdul_muis_4643109.geojson",
+      "jumlah_fitur_ways": 83,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 85,
+      "endstops_gmaps": [
+        {
+          "id": 13373645677,
+          "name": "Resor Dago Pakar",
+          "lat": -6.8651759,
+          "lng": 107.6263618
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8632302,
+        "south": -6.93245,
+        "east": 107.626435,
+        "west": 107.6054273
+      },
+      "center_gmaps": {
+        "lat": -6.8978401,
+        "lng": 107.6159311
+      },
+      "jalan_dilalui": [
+        "Jalan Merdeka",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Hasanudin",
+        "Jalan Dipatiukur",
+        "Jalan Dewi Sartika",
+        "Jalan Lengkong Besar",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Tamblong",
+        "Jalan Sumatra",
+        "Jalan Belitung",
+        "Jalan Kalimantan",
+        "Jalan Aceh",
+        "Jalan Raya Golf",
+        "Jalan Raya Dago Resort"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/02_dago_ke_abdul_muis_4643109.geojson",
+        "ways": "output_geojson/ways/02_dago_ke_abdul_muis_4643109.geojson",
+        "endstops": "output_geojson/endstops/02_dago_ke_abdul_muis_4643109.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4308300",
+      "nomor_trayek": "03",
+      "nama_rute": "Abdul Muis → Ledeng",
+      "label_jalur": "03: Abdul Muis → Ledeng",
+      "nama_file": "03_abdul_muis_ke_ledeng_4308300.geojson",
+      "jumlah_fitur_ways": 107,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 109,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 11711070002,
+          "name": "Terminal Ledeng",
+          "lat": -6.85933,
+          "lng": 107.5951942
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8589109,
+        "south": -6.9325064,
+        "east": 107.6184091,
+        "west": 107.593506
+      },
+      "center_gmaps": {
+        "lat": -6.8957086,
+        "lng": 107.6059575
+      },
+      "jalan_dilalui": [
+        "Jalan Merdeka",
+        "Jalan Pajajaran",
+        "Jalan Cihampelas",
+        "Jalan Raden Adipati Aria Wiranatakusumah",
+        "Jalan Pasir Kaliki",
+        "Jalan Sukajadi",
+        "Jalan Karapitan",
+        "Jalan Mochammad Ramdhan",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Pasteur",
+        "Jalan Balonggede",
+        "Jalan Lombok",
+        "Jalan Sumbawa",
+        "Jalan Banda",
+        "Jalan Wastukancana",
+        "Jalan Abdul Rivai",
+        "Jalan Pungkur",
+        "Jalan Dokter Djunjunan",
+        "Jalan Dewi Sartika",
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Dr. Setiabudi",
+        "Jalan Kautamaan Istri",
+        "Jalan Sunda",
+        "Jalan HOS. Cokroaminoto"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/03_abdul_muis_ke_ledeng_4308300.geojson",
+        "ways": "output_geojson/ways/03_abdul_muis_ke_ledeng_4308300.geojson",
+        "endstops": "output_geojson/endstops/03_abdul_muis_ke_ledeng_4308300.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4636013",
+      "nomor_trayek": "03",
+      "nama_rute": "Ledeng → Abdul Muis",
+      "label_jalur": "03: Ledeng → Abdul Muis",
+      "nama_file": "03_ledeng_ke_abdul_muis_4636013.geojson",
+      "jumlah_fitur_ways": 87,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 89,
+      "endstops_gmaps": [
+        {
+          "id": 11711070002,
+          "name": "Terminal Ledeng",
+          "lat": -6.85933,
+          "lng": 107.5951942
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.85933,
+        "south": -6.93245,
+        "east": 107.6144696,
+        "west": 107.593506
+      },
+      "center_gmaps": {
+        "lat": -6.89589,
+        "lng": 107.6039878
+      },
+      "jalan_dilalui": [
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Purnawarman",
+        "Jalan Cihampelas",
+        "Jalan Dewi Sartika",
+        "Jalan Lengkong Besar",
+        "Jalan Dr. Setiabudi",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Tamblong",
+        "Jalan Sumatra",
+        "Jalan Belitung",
+        "Jalan Kalimantan",
+        "Jalan Wastukancana",
+        "Jalan Wastukencana",
+        "Jalan Aceh"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/03_ledeng_ke_abdul_muis_4636013.geojson",
+        "ways": "output_geojson/ways/03_ledeng_ke_abdul_muis_4636013.geojson",
+        "endstops": "output_geojson/endstops/03_ledeng_ke_abdul_muis_4636013.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4294191",
+      "nomor_trayek": "04",
+      "nama_rute": "Abdul Muis → Elang",
+      "label_jalur": "04: Abdul Muis → Elang",
+      "nama_file": "04_abdul_muis_ke_elang_4294191.geojson",
+      "jumlah_fitur_ways": 30,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 32,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 6442840898,
+          "name": "Simpang Holis Soekarno Hatta",
+          "lat": -6.923662,
+          "lng": 107.5751042
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9205293,
+        "south": -6.9314197,
+        "east": 107.6059454,
+        "west": 107.5751042
+      },
+      "center_gmaps": {
+        "lat": -6.9259745,
+        "lng": 107.5905248
+      },
+      "jalan_dilalui": [
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Pagarsih Barat",
+        "Jalan Suryani Dalam",
+        "Jalan Panjunan",
+        "Jalan Kopo",
+        "Jalan Pungkur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Astana Anyar",
+        "Jalan Suryani",
+        "Jalan Nana Rohana",
+        "Jalan Holis",
+        "Jalan Pasir Koja",
+        "Jalan Dewi Sartika"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/04_abdul_muis_ke_elang_4294191.geojson",
+        "ways": "output_geojson/ways/04_abdul_muis_ke_elang_4294191.geojson",
+        "endstops": "output_geojson/endstops/04_abdul_muis_ke_elang_4294191.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4647871",
+      "nomor_trayek": "04",
+      "nama_rute": "Elang → Abdul Muis",
+      "label_jalur": "04: Elang → Abdul Muis",
+      "nama_file": "04_elang_ke_abdul_muis_4647871.geojson",
+      "jumlah_fitur_ways": 31,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 33,
+      "endstops_gmaps": [
+        {
+          "id": 6442840898,
+          "name": "Simpang Holis Soekarno Hatta",
+          "lat": -6.923662,
+          "lng": 107.5751042
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9205293,
+        "south": -6.9316877,
+        "east": 107.6058322,
+        "west": 107.5751042
+      },
+      "center_gmaps": {
+        "lat": -6.9261085,
+        "lng": 107.5904682
+      },
+      "jalan_dilalui": [
+        "Jalan Dewi Sartika",
+        "Jalan Pagarsih Barat",
+        "Jalan Suryani Dalam",
+        "Jalan Kalipah Apo",
+        "Jalan Otto Iskandardinata",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Suryani",
+        "Jalan Nana Rohana",
+        "Jalan Holis"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/04_elang_ke_abdul_muis_4647871.geojson",
+        "ways": "output_geojson/ways/04_elang_ke_abdul_muis_4647871.geojson",
+        "endstops": "output_geojson/endstops/04_elang_ke_abdul_muis_4647871.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4291047",
+      "nomor_trayek": "05",
+      "nama_rute": "Cicaheum → Ledeng",
+      "label_jalur": "05: Cicaheum → Ledeng",
+      "nama_file": "05_cicaheum_ke_ledeng_4291047.geojson",
+      "jumlah_fitur_ways": 118,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 120,
+      "endstops_gmaps": [
+        {
+          "id": 11291524413,
+          "name": "Terminal Angkot Cicaheum",
+          "lat": -6.9024172,
+          "lng": 107.6562486
+        },
+        {
+          "id": 11711070002,
+          "name": "Terminal Ledeng",
+          "lat": -6.85933,
+          "lng": 107.5951942
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8589109,
+        "south": -6.9065172,
+        "east": 107.6562486,
+        "west": 107.593506
+      },
+      "center_gmaps": {
+        "lat": -6.882714,
+        "lng": 107.6248773
+      },
+      "jalan_dilalui": [
+        "Jalan Sulanjana",
+        "Jalan Cihampelas",
+        "Jalan Diponegoro",
+        "Jalan Sukajadi",
+        "Jalan Tamansari",
+        "Jalan Jurang",
+        "Jalan Lamping",
+        "Jalan Sukamaju",
+        "Jalan PH. H. Mustofa",
+        "Jalan Siliwangi",
+        "Jalan Surapati",
+        "Jalan Aria Jipang",
+        "Jalan Brigjend. Katamso",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Pahlawan",
+        "Jalan Sentot Alibasyah",
+        "Jalan Dr. Setiabudi",
+        "Jalan Supratman",
+        "Jalan Boscha"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/05_cicaheum_ke_ledeng_4291047.geojson",
+        "ways": "output_geojson/ways/05_cicaheum_ke_ledeng_4291047.geojson",
+        "endstops": "output_geojson/endstops/05_cicaheum_ke_ledeng_4291047.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4637081",
+      "nomor_trayek": "05",
+      "nama_rute": "Ledeng → Cicaheum",
+      "label_jalur": "05: Ledeng → Cicaheum",
+      "nama_file": "05_ledeng_ke_cicaheum_4637081.geojson",
+      "jumlah_fitur_ways": 95,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 97,
+      "endstops_gmaps": [
+        {
+          "id": 11711070002,
+          "name": "Terminal Ledeng",
+          "lat": -6.85933,
+          "lng": 107.5951942
+        },
+        {
+          "id": 11291524413,
+          "name": "Terminal Angkot Cicaheum",
+          "lat": -6.9024172,
+          "lng": 107.6562486
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.85933,
+        "south": -6.9064699,
+        "east": 107.6572943,
+        "west": 107.593506
+      },
+      "center_gmaps": {
+        "lat": -6.8829,
+        "lng": 107.6254002
+      },
+      "jalan_dilalui": [
+        "Jalan Sentot Alibasyah",
+        "Jalan Siliwangi",
+        "Jalan Tamansari",
+        "Jalan PH. H. Mustofa",
+        "Jalan Surapati",
+        "Jalan Cikapayang",
+        "Jalan Dr. Setiabudi",
+        "Jalan Cihampelas",
+        "Jalan Sumur Bandung",
+        "Jalan Brigjend. Katamso",
+        "Jalan Diponegoro",
+        "Jalan Supratman",
+        "Jalan Pahlawan",
+        "Jalan Jenderal Ahmad Yani"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/05_ledeng_ke_cicaheum_4637081.geojson",
+        "ways": "output_geojson/ways/05_ledeng_ke_cicaheum_4637081.geojson",
+        "endstops": "output_geojson/endstops/05_ledeng_ke_cicaheum_4637081.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4291189",
+      "nomor_trayek": "06",
+      "nama_rute": "Cicaheum → Ciroyom",
+      "label_jalur": "06: Cicaheum → Ciroyom",
+      "nama_file": "06_cicaheum_ke_ciroyom_4291189.geojson",
+      "jumlah_fitur_ways": 123,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 125,
+      "endstops_gmaps": [
+        {
+          "id": 11291524413,
+          "name": "Terminal Angkot Cicaheum",
+          "lat": -6.9024172,
+          "lng": 107.6562486
+        },
+        {
+          "id": 3244745033,
+          "name": "Stasiun Ciroyom",
+          "lat": -6.914151,
+          "lng": 107.5890644
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8833246,
+        "south": -6.914151,
+        "east": 107.6562486,
+        "west": 107.5860543
+      },
+      "center_gmaps": {
+        "lat": -6.8987378,
+        "lng": 107.6211514
+      },
+      "jalan_dilalui": [
+        "Jalan Cihampelas",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Aruna",
+        "Jalan PH. H. Mustofa",
+        "Jalan Surapati",
+        "Jalan Siliwangi",
+        "Jalan Sederhana",
+        "Jalan Tamansari",
+        "Jalan Pasir Kaliki",
+        "Jalan Pasteur",
+        "Jalan Prabudimuntur",
+        "Jalan Penata Yudha",
+        "Jalan Profesor Christiaan Eijkman",
+        "Jalan Pajajaran",
+        "Jalan Dipatiukur",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Prabu Dimuntur",
+        "Jalan Sumur Bandung",
+        "Jalan Arjuna",
+        "Jalan Layang Ciroyom",
+        "Jalan Ciroyom"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/06_cicaheum_ke_ciroyom_4291189.geojson",
+        "ways": "output_geojson/ways/06_cicaheum_ke_ciroyom_4291189.geojson",
+        "endstops": "output_geojson/endstops/06_cicaheum_ke_ciroyom_4291189.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4637686",
+      "nomor_trayek": "06",
+      "nama_rute": "Ciroyom → Cicaheum",
+      "label_jalur": "06: Ciroyom → Cicaheum",
+      "nama_file": "06_ciroyom_ke_cicaheum_4637686.geojson",
+      "jumlah_fitur_ways": 128,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 130,
+      "endstops_gmaps": [
+        {
+          "id": 3244745033,
+          "name": "Stasiun Ciroyom",
+          "lat": -6.914151,
+          "lng": 107.5890644
+        },
+        {
+          "id": 11291524413,
+          "name": "Terminal Angkot Cicaheum",
+          "lat": -6.9024172,
+          "lng": 107.6562486
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8808747,
+        "south": -6.9145084,
+        "east": 107.6572943,
+        "west": 107.5860543
+      },
+      "center_gmaps": {
+        "lat": -6.8976915,
+        "lng": 107.6216743
+      },
+      "jalan_dilalui": [
+        "Jalan Dursasana",
+        "Jalan Aruna",
+        "Jalan Pasir Kaliki",
+        "Jalan Sukajadi",
+        "Jalan Siliwangi",
+        "Jalan Dipatiukur",
+        "Jalan Ciroyom",
+        "Jalan Sukamaju",
+        "Jalan Karangsari",
+        "Jalan Sederhana",
+        "Jalan PH. H. Mustofa",
+        "Jalan Dr. Setiabudi",
+        "Jalan Cihampelas",
+        "Jalan Surapati",
+        "Jalan Singaperbangsa",
+        "Jalan Astina",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Wirayuda Barat",
+        "Jalan Pajajaran",
+        "Jalan Arjuna",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Layang Ciroyom"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/06_ciroyom_ke_cicaheum_4637686.geojson",
+        "ways": "output_geojson/ways/06_ciroyom_ke_cicaheum_4637686.geojson",
+        "endstops": "output_geojson/endstops/06_ciroyom_ke_cicaheum_4637686.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4308485",
+      "nomor_trayek": "07",
+      "nama_rute": "Gasibu → Derwati",
+      "label_jalur": "07: Gasibu → Derwati",
+      "nama_file": "07_gasibu_ke_derwati_4308485.geojson",
+      "jumlah_fitur_ways": 102,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 104,
+      "endstops_gmaps": [
+        {
+          "id": 1666155324,
+          "name": "Lapangan Gasibu A",
+          "lat": -6.9011743,
+          "lng": 107.6199195
+        },
+        {
+          "id": 2518053983,
+          "name": "Simpang Derwati",
+          "lat": -6.9667195,
+          "lng": 107.6866274
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9010164,
+        "south": -6.9667195,
+        "east": 107.6868117,
+        "west": 107.6199195
+      },
+      "center_gmaps": {
+        "lat": -6.9338679,
+        "lng": 107.6533656
+      },
+      "jalan_dilalui": [
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Terusan Kiara Condong",
+        "Jalan Derwati",
+        "Jalan Diponegoro",
+        "Jalan Supratman",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Marga Cinta",
+        "Marga Cinta",
+        "Jalan Letnan Jenderal Ibrahim Adjie",
+        "Jalan Gedebage Selatan"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/07_gasibu_ke_derwati_4308485.geojson",
+        "ways": "output_geojson/ways/07_gasibu_ke_derwati_4308485.geojson",
+        "endstops": "output_geojson/endstops/07_gasibu_ke_derwati_4308485.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4648328",
+      "nomor_trayek": "07",
+      "nama_rute": "Derwati → Gasibu",
+      "label_jalur": "07: Derwati → Gasibu",
+      "nama_file": "07_derwati_ke_gasibu_4648328.geojson",
+      "jumlah_fitur_ways": 129,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 131,
+      "endstops_gmaps": [
+        {
+          "id": 2518053983,
+          "name": "Simpang Derwati",
+          "lat": -6.9667195,
+          "lng": 107.6866274
+        },
+        {
+          "id": 1666155324,
+          "name": "Lapangan Gasibu A",
+          "lat": -6.9011743,
+          "lng": 107.6199195
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8994321,
+        "south": -6.9667195,
+        "east": 107.6868117,
+        "west": 107.6192514
+      },
+      "center_gmaps": {
+        "lat": -6.9330758,
+        "lng": 107.6530316
+      },
+      "jalan_dilalui": [
+        "Jalan Terusan Kiara Condong",
+        "Jalan Derwati",
+        "Jalan Diponegoro",
+        "Jalan Supratman",
+        "Jalan Marga Cinta",
+        "Marga Cinta",
+        "Jalan Sentot Alibasyah",
+        "Jalan Jakarta",
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Lapang Supratman",
+        "Jalan Letnan Jenderal Ibrahim Adjie",
+        "Jalan Gedebage Selatan"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/07_derwati_ke_gasibu_4648328.geojson",
+        "ways": "output_geojson/ways/07_derwati_ke_gasibu_4648328.geojson",
+        "endstops": "output_geojson/endstops/07_derwati_ke_gasibu_4648328.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4308486",
+      "nomor_trayek": "08",
+      "nama_rute": "Kiara Artha → Leuwipanjang",
+      "label_jalur": "08: Kiara Artha → Leuwipanjang",
+      "nama_file": "08_kiara_artha_ke_leuwipanjang_4308486.geojson",
+      "jumlah_fitur_ways": 79,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 81,
+      "endstops_gmaps": [
+        {
+          "id": 12633822765,
+          "name": "Seberang Kiara Artha",
+          "lat": -6.9146708,
+          "lng": 107.6438226
+        },
+        {
+          "id": 11295303565,
+          "name": "Leuwipanjang Soekarno Hatta",
+          "lat": -6.9468277,
+          "lng": 107.5934341
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9146708,
+        "south": -6.9495692,
+        "east": 107.6445583,
+        "west": 107.5903989
+      },
+      "center_gmaps": {
+        "lat": -6.93212,
+        "lng": 107.6174786
+      },
+      "jalan_dilalui": [
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Soekarno-Hatta",
+        "Jalan Letnan Jenderal Ibrahim Adjie"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/08_kiara_artha_ke_leuwipanjang_4308486.geojson",
+        "ways": "output_geojson/ways/08_kiara_artha_ke_leuwipanjang_4308486.geojson",
+        "endstops": "output_geojson/endstops/08_kiara_artha_ke_leuwipanjang_4308486.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4649692",
+      "nomor_trayek": "08",
+      "nama_rute": "Leuwipanjang → Kiara Artha",
+      "label_jalur": "08: Leuwipanjang → Kiara Artha",
+      "nama_file": "08_leuwipanjang_ke_kiara_artha_4649692.geojson",
+      "jumlah_fitur_ways": 71,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 73,
+      "endstops_gmaps": [
+        {
+          "id": 11295303565,
+          "name": "Leuwipanjang Soekarno Hatta",
+          "lat": -6.9468277,
+          "lng": 107.5934341
+        },
+        {
+          "id": 12633822765,
+          "name": "Seberang Kiara Artha",
+          "lat": -6.9146708,
+          "lng": 107.6438226
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.913624,
+        "south": -6.9494645,
+        "east": 107.6444657,
+        "west": 107.5934341
+      },
+      "center_gmaps": {
+        "lat": -6.9315442,
+        "lng": 107.6189499
+      },
+      "jalan_dilalui": [
+        "Jalan Soekarno-Hatta",
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Terusan Jakarta"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/08_leuwipanjang_ke_kiara_artha_4649692.geojson",
+        "ways": "output_geojson/ways/08_leuwipanjang_ke_kiara_artha_4649692.geojson",
+        "endstops": "output_geojson/endstops/08_leuwipanjang_ke_kiara_artha_4649692.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4292372",
+      "nomor_trayek": "09",
+      "nama_rute": "Stasiun Hall → Dago",
+      "label_jalur": "09: Stasiun Hall → Dago",
+      "nama_file": "09_stasiun_hall_ke_dago_4292372.geojson",
+      "jumlah_fitur_ways": 51,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 54,
+      "endstops_gmaps": [
+        {
+          "id": 11262097619,
+          "name": "Stasiun Timur",
+          "lat": -6.9153572,
+          "lng": 107.604546
+        },
+        {
+          "id": 3373712056,
+          "name": "Terminal Dago",
+          "lat": -6.8670778,
+          "lng": 107.6212119
+        },
+        {
+          "id": 12819940048,
+          "name": "Taman Budaya",
+          "lat": -6.8682321,
+          "lng": 107.6205719
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.866704,
+        "south": -6.9153572,
+        "east": 107.6212512,
+        "west": 107.604546
+      },
+      "center_gmaps": {
+        "lat": -6.8910306,
+        "lng": 107.6128986
+      },
+      "jalan_dilalui": [
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Stasiun Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Wastukancana",
+        "Terminal Dago"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/09_stasiun_hall_ke_dago_4292372.geojson",
+        "ways": "output_geojson/ways/09_stasiun_hall_ke_dago_4292372.geojson",
+        "endstops": "output_geojson/endstops/09_stasiun_hall_ke_dago_4292372.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4642250",
+      "nomor_trayek": "09",
+      "nama_rute": "Dago → Stasiun Hall",
+      "label_jalur": "09: Dago → Stasiun Hall",
+      "nama_file": "09_dago_ke_stasiun_hall_4642250.geojson",
+      "jumlah_fitur_ways": 47,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 49,
+      "endstops_gmaps": [
+        {
+          "id": 3373712056,
+          "name": "Terminal Dago",
+          "lat": -6.8670778,
+          "lng": 107.6212119
+        },
+        {
+          "id": 11262097619,
+          "name": "Stasiun Timur",
+          "lat": -6.9153572,
+          "lng": 107.604546
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8670778,
+        "south": -6.9162985,
+        "east": 107.6212119,
+        "west": 107.6045054
+      },
+      "center_gmaps": {
+        "lat": -6.8916882,
+        "lng": 107.6128586
+      },
+      "jalan_dilalui": [
+        "Jalan Merdeka",
+        "Jalan Braga",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Suniaraja",
+        "Terminal Dago",
+        "Jalan Otto Iskandardinata"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/09_dago_ke_stasiun_hall_4642250.geojson",
+        "ways": "output_geojson/ways/09_dago_ke_stasiun_hall_4642250.geojson",
+        "endstops": "output_geojson/endstops/09_dago_ke_stasiun_hall_4642250.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4425938",
+      "nomor_trayek": "10",
+      "nama_rute": "Stasiun Hall → Sadang Serang",
+      "label_jalur": "10: Stasiun Hall → Sadang Serang",
+      "nama_file": "10_stasiun_hall_ke_sadang_serang_4425938.geojson",
+      "jumlah_fitur_ways": 57,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 59,
+      "endstops_gmaps": [
+        {
+          "id": 11262097619,
+          "name": "Stasiun Timur",
+          "lat": -6.9153572,
+          "lng": 107.604546
+        },
+        {
+          "id": 3252929646,
+          "name": "Terminal Sadang Serang",
+          "lat": -6.8912645,
+          "lng": 107.6249966
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8911768,
+        "south": -6.9204334,
+        "east": 107.6353255,
+        "west": 107.604546
+      },
+      "center_gmaps": {
+        "lat": -6.9058051,
+        "lng": 107.6199357
+      },
+      "jalan_dilalui": [
+        "Jalan Lembong",
+        "Jalan Braga",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Stasiun Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Citarum",
+        "Jalan Lombok",
+        "Jalan Sumbawa",
+        "Jalan Brigjend. Katamso",
+        "Jalan Veteran",
+        "Jalan Diponegoro",
+        "Jalan Supratman",
+        "Jalan Pahlawan",
+        "Jalan Banda",
+        "Jalan Belitung",
+        "Jalan Sadang Serang",
+        "Jalan Terminal Sadangserang",
+        "Jalan Cikutra Barat",
+        "Jalan Taman Citarum",
+        "Jalan Sunda",
+        "Jalan Intan Raya"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/10_stasiun_hall_ke_sadang_serang_4425938.geojson",
+        "ways": "output_geojson/ways/10_stasiun_hall_ke_sadang_serang_4425938.geojson",
+        "endstops": "output_geojson/endstops/10_stasiun_hall_ke_sadang_serang_4425938.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4642211",
+      "nomor_trayek": "10",
+      "nama_rute": "Sadang Serang → Stasiun Hall",
+      "label_jalur": "10: Sadang Serang → Stasiun Hall",
+      "nama_file": "10_sadang_serang_ke_stasiun_hall_4642211.geojson",
+      "jumlah_fitur_ways": 56,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 58,
+      "endstops_gmaps": [
+        {
+          "id": 3252929646,
+          "name": "Terminal Sadang Serang",
+          "lat": -6.8912645,
+          "lng": 107.6249966
+        },
+        {
+          "id": 11262097619,
+          "name": "Stasiun Timur",
+          "lat": -6.9153572,
+          "lng": 107.604546
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8911768,
+        "south": -6.9162985,
+        "east": 107.6355463,
+        "west": 107.6045054
+      },
+      "center_gmaps": {
+        "lat": -6.9037377,
+        "lng": 107.6200258
+      },
+      "jalan_dilalui": [
+        "Jalan Citarum",
+        "Jalan Braga",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Diponegoro",
+        "Jalan Belitung",
+        "Jalan Brigjend. Katamso",
+        "Jalan Suniaraja",
+        "Jalan Cikutra Barat",
+        "Jalan Pahlawan",
+        "Jalan Merdeka",
+        "Jalan Aceh",
+        "Jalan Sumatra",
+        "Jalan Sadang Serang",
+        "Jalan Terminal Sadangserang",
+        "Jalan Lombok",
+        "Jalan Supratman",
+        "Jalan Otto Iskandardinata",
+        "Jalan Cikutra",
+        "Jalan Intan Raya"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/10_sadang_serang_ke_stasiun_hall_4642211.geojson",
+        "ways": "output_geojson/ways/10_sadang_serang_ke_stasiun_hall_4642211.geojson",
+        "endstops": "output_geojson/endstops/10_sadang_serang_ke_stasiun_hall_4642211.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4430737",
+      "nomor_trayek": "11A",
+      "nama_rute": "Ciumbuleuit → Sederhana",
+      "label_jalur": "11A: Ciumbuleuit → Sederhana",
+      "nama_file": "11A_ciumbuleuit_ke_sederhana_4430737.geojson",
+      "jumlah_fitur_ways": 19,
+      "jumlah_fitur_endstops": 1,
+      "jumlah_fitur_gabungan": 20,
+      "endstops_gmaps": [
+        {
+          "id": 319706142,
+          "name": "RSAU dr. Salamun",
+          "lat": -6.8635418,
+          "lng": 107.6049689
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8635418,
+        "south": -6.8962722,
+        "east": 107.6061583,
+        "west": 107.5987172
+      },
+      "center_gmaps": {
+        "lat": -6.879907,
+        "lng": 107.6024378
+      },
+      "jalan_dilalui": [
+        "Jalan Cihampelas",
+        "Jalan Sampurna",
+        "Jalan Makmur",
+        "Jalan Profesor Christiaan Eijkman",
+        "Jalan Bapa Husen",
+        "Jalan Siliwangi",
+        "Jalan Ciumbuleuit",
+        "Jalan Sederhana"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/11A_ciumbuleuit_ke_sederhana_4430737.geojson",
+        "ways": "output_geojson/ways/11A_ciumbuleuit_ke_sederhana_4430737.geojson",
+        "endstops": "output_geojson/endstops/11A_ciumbuleuit_ke_sederhana_4430737.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4802256",
+      "nomor_trayek": "11A",
+      "nama_rute": "Sederhana → Ciumbuleuit",
+      "label_jalur": "11A: Sederhana → Ciumbuleuit",
+      "nama_file": "11A_sederhana_ke_ciumbuleuit_4802256.geojson",
+      "jumlah_fitur_ways": 31,
+      "jumlah_fitur_endstops": 1,
+      "jumlah_fitur_gabungan": 32,
+      "endstops_gmaps": [
+        {
+          "id": 319706142,
+          "name": "RSAU dr. Salamun",
+          "lat": -6.8635418,
+          "lng": 107.6049689
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8635418,
+        "south": -6.8961604,
+        "east": 107.6060767,
+        "west": 107.5963984
+      },
+      "center_gmaps": {
+        "lat": -6.8798511,
+        "lng": 107.6012376
+      },
+      "jalan_dilalui": [
+        "Jalan Sukajadi",
+        "Jalan Sukamaju",
+        "Jalan Karangsari",
+        "Jalan Sederhana",
+        "Jalan Dr. Setiabudi",
+        "Jalan Cihampelas",
+        "Jalan Ciumbuleuit",
+        "Jalan Profesor Christiaan Eijkman"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/11A_sederhana_ke_ciumbuleuit_4802256.geojson",
+        "ways": "output_geojson/ways/11A_sederhana_ke_ciumbuleuit_4802256.geojson",
+        "endstops": "output_geojson/endstops/11A_sederhana_ke_ciumbuleuit_4802256.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4802257",
+      "nomor_trayek": "11B",
+      "nama_rute": "Ciumbuleuit → Stasiun Hall",
+      "label_jalur": "11B: Ciumbuleuit → Stasiun Hall",
+      "nama_file": "11B_ciumbuleuit_ke_stasiun_hall_4802257.geojson",
+      "jumlah_fitur_ways": 67,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 69,
+      "endstops_gmaps": [
+        {
+          "id": 3462094658,
+          "name": "UNPAR",
+          "lat": -6.8753147,
+          "lng": 107.6044647
+        },
+        {
+          "id": 1013407725,
+          "name": "Stasiun Hall",
+          "lat": -6.9161432,
+          "lng": 107.6024325
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8635418,
+        "south": -6.9163191,
+        "east": 107.6061583,
+        "west": 107.5974523
+      },
+      "center_gmaps": {
+        "lat": -6.8899304,
+        "lng": 107.6018053
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Pajajaran",
+        "Jalan Cihampelas",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Kebon Kawung",
+        "Jalan Kebon Jati",
+        "Jalan Pasteur",
+        "Jalan Siliwangi",
+        "Jalan Ciumbuleuit",
+        "Jalan Suniaraja"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/11B_ciumbuleuit_ke_stasiun_hall_4802257.geojson",
+        "ways": "output_geojson/ways/11B_ciumbuleuit_ke_stasiun_hall_4802257.geojson",
+        "endstops": "output_geojson/endstops/11B_ciumbuleuit_ke_stasiun_hall_4802257.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4802258",
+      "nomor_trayek": "11B",
+      "nama_rute": "Stasiun Hall → Ciumbuleuit",
+      "label_jalur": "11B: Stasiun Hall → Ciumbuleuit",
+      "nama_file": "11B_stasiun_hall_ke_ciumbuleuit_4802258.geojson",
+      "jumlah_fitur_ways": 73,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 75,
+      "endstops_gmaps": [
+        {
+          "id": 1013407725,
+          "name": "Stasiun Hall",
+          "lat": -6.9161432,
+          "lng": 107.6024325
+        },
+        {
+          "id": 319706142,
+          "name": "RSAU dr. Salamun",
+          "lat": -6.8635418,
+          "lng": 107.6049689
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8635418,
+        "south": -6.9161432,
+        "east": 107.6090952,
+        "west": 107.5963984
+      },
+      "center_gmaps": {
+        "lat": -6.8898425,
+        "lng": 107.6027468
+      },
+      "jalan_dilalui": [
+        "Jalan Pajajaran",
+        "Jalan Cihampelas",
+        "Jalan Raden Adipati Aria Wiranatakusumah",
+        "Jalan Pasir Kaliki",
+        "Jalan Sukajadi",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Karangsari",
+        "Jalan Stasiun Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Dr. Setiabudi",
+        "Jalan Pasteur",
+        "Jalan Ciumbuleuit",
+        "Jalan Wastukancana",
+        "Jalan Abdul Rivai",
+        "Jalan Dokter Djunjunan",
+        "Jalan Suniaraja",
+        "Jalan HOS. Cokroaminoto"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/11B_stasiun_hall_ke_ciumbuleuit_4802258.geojson",
+        "ways": "output_geojson/ways/11B_stasiun_hall_ke_ciumbuleuit_4802258.geojson",
+        "endstops": "output_geojson/endstops/11B_stasiun_hall_ke_ciumbuleuit_4802258.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16634809",
+      "nomor_trayek": "12",
+      "nama_rute": "Stasiun Hall → Gedebage",
+      "label_jalur": "12: Stasiun Hall → Gedebage",
+      "nama_file": "12_stasiun_hall_ke_gedebage_16634809.geojson",
+      "jumlah_fitur_ways": 108,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 110,
+      "endstops_gmaps": [
+        {
+          "id": 1013407725,
+          "name": "Stasiun Hall",
+          "lat": -6.9161432,
+          "lng": 107.6024325
+        },
+        {
+          "id": 3780800108,
+          "name": "Pasar Induk Gedebage",
+          "lat": -6.9364151,
+          "lng": 107.6972019
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9160834,
+        "south": -6.9478818,
+        "east": 107.6972019,
+        "west": 107.6024325
+      },
+      "center_gmaps": {
+        "lat": -6.9319826,
+        "lng": 107.6498172
+      },
+      "jalan_dilalui": [
+        "Jalan Otto Iskandardinata",
+        "Jalan Banceuy",
+        "Jalan Pasar Barat",
+        "Jalan Pasar Selatan",
+        "Jalan ABC",
+        "Jalan Talaga Bodas",
+        "Jalan Alun-alun Timur",
+        "Jalan Malabar",
+        "Jalan Naripan",
+        "Jalan Kliningan",
+        "Jalan Palasari",
+        "Jalan Soekarno-Hatta",
+        "Jalan Jenderal Gatot Subroto",
+        "Jalan Reog",
+        "Jalan Karawitan",
+        "Jalan Suniaraja",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Dalem Kaum",
+        "Jalan Asia Afrika",
+        "Jalan Pelajar Pejuang 45",
+        "Jalan R.A.A. Martanegara",
+        "Soekarno Hatta Frontage Boulevard",
+        "Jalan Buah Batu",
+        "Jalan Kepatihan",
+        "Jalan Dewi Sartika"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/12_stasiun_hall_ke_gedebage_16634809.geojson",
+        "ways": "output_geojson/ways/12_stasiun_hall_ke_gedebage_16634809.geojson",
+        "endstops": "output_geojson/endstops/12_stasiun_hall_ke_gedebage_16634809.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4433069",
+      "nomor_trayek": "12",
+      "nama_rute": "Gedebage → Stasiun Hall",
+      "label_jalur": "12: Gedebage → Stasiun Hall",
+      "nama_file": "12_gedebage_ke_stasiun_hall_4433069.geojson",
+      "jumlah_fitur_ways": 155,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 157,
+      "endstops_gmaps": [
+        {
+          "id": 3780800108,
+          "name": "Pasar Induk Gedebage",
+          "lat": -6.9364151,
+          "lng": 107.6972019
+        },
+        {
+          "id": 1013407725,
+          "name": "Stasiun Hall",
+          "lat": -6.9161432,
+          "lng": 107.6024325
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9097687,
+        "south": -6.9481055,
+        "east": 107.6972019,
+        "west": 107.5980572
+      },
+      "center_gmaps": {
+        "lat": -6.9289371,
+        "lng": 107.6476296
+      },
+      "jalan_dilalui": [
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Kebon Kawung",
+        "Jalan Kebon Jati",
+        "Jalan Malabar",
+        "Jalan Braga",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Talaga Bodas",
+        "Jalan R.A.A. Martanegara",
+        "Jalan Terusan Halimun",
+        "Jalan Karawitan",
+        "Jalan Belitung",
+        "Jalan Sumbawa",
+        "Jalan Kliningan",
+        "Jalan Maskumambang",
+        "Jalan Palasari",
+        "Jalan Suniaraja",
+        "Jalan Merdeka",
+        "Jalan Aceh",
+        "Jalan Sumatra",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Pelajar Pejuang 45",
+        "Jalan Soekarno-Hatta",
+        "Jalan Kebon Jukut",
+        "Soekarno Hatta Frontage Boulevard",
+        "Jalan Sunda",
+        "Jalan Buah Batu",
+        "Jalan Otto Iskandardinata"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/12_gedebage_ke_stasiun_hall_4433069.geojson",
+        "ways": "output_geojson/ways/12_gedebage_ke_stasiun_hall_4433069.geojson",
+        "endstops": "output_geojson/endstops/12_gedebage_ke_stasiun_hall_4433069.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4420962",
+      "nomor_trayek": "13",
+      "nama_rute": "Stasiun Hall → Sarijadi",
+      "label_jalur": "13: Stasiun Hall → Sarijadi",
+      "nama_file": "13_stasiun_hall_ke_sarijadi_4420962.geojson",
+      "jumlah_fitur_ways": 63,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 65,
+      "endstops_gmaps": [
+        {
+          "id": 1013407725,
+          "name": "Stasiun Hall",
+          "lat": -6.9161432,
+          "lng": 107.6024325
+        },
+        {
+          "id": 29357430,
+          "name": "Simpang Sarimanah Sariasih",
+          "lat": -6.8763392,
+          "lng": 107.578232
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8763392,
+        "south": -6.9161432,
+        "east": 107.6071931,
+        "west": 107.5742747
+      },
+      "center_gmaps": {
+        "lat": -6.8962412,
+        "lng": 107.5907339
+      },
+      "jalan_dilalui": [
+        "Jalan Kebon Kawung",
+        "Jalan Prof. Dr. Surya Soemantri",
+        "Jalan Lemah Neundeut",
+        "Jalan Stasiun Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Sariwangi",
+        "Jalan Sarimanis",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Suniaraja",
+        "Jalan Dr. Djunjunan",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Sarimanah",
+        "Jalan Kebon Jukut",
+        "Jalan Aceh"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/13_stasiun_hall_ke_sarijadi_4420962.geojson",
+        "ways": "output_geojson/ways/13_stasiun_hall_ke_sarijadi_4420962.geojson",
+        "endstops": "output_geojson/endstops/13_stasiun_hall_ke_sarijadi_4420962.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4650417",
+      "nomor_trayek": "13",
+      "nama_rute": "Sarijadi → Stasiun Hall",
+      "label_jalur": "13: Sarijadi → Stasiun Hall",
+      "nama_file": "13_sarijadi_ke_stasiun_hall_4650417.geojson",
+      "jumlah_fitur_ways": 67,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 69,
+      "endstops_gmaps": [
+        {
+          "id": 29357430,
+          "name": "Simpang Sarimanah Sariasih",
+          "lat": -6.8763392,
+          "lng": 107.578232
+        },
+        {
+          "id": 1013407725,
+          "name": "Stasiun Hall",
+          "lat": -6.9161432,
+          "lng": 107.6024325
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8763392,
+        "south": -6.9163191,
+        "east": 107.6044917,
+        "west": 107.5742747
+      },
+      "center_gmaps": {
+        "lat": -6.8963291,
+        "lng": 107.5893832
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Pajajaran",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Kebon Kawung",
+        "Jalan Kebon Jati",
+        "Jalan Terusan Prof. Dr. Ir. Sutami",
+        "Jalan Sariwangi",
+        "Jalan Sarimanis",
+        "Jalan Prof. Dr. Surya Soemantri",
+        "Jalan Dr. Djunjunan",
+        "Jalan Lemah Neundeut",
+        "Jalan Sarimanah",
+        "Jalan Dokter Djundjunan Setiakusumah",
+        "Jalan Suniaraja"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/13_sarijadi_ke_stasiun_hall_4650417.geojson",
+        "ways": "output_geojson/ways/13_sarijadi_ke_stasiun_hall_4650417.geojson",
+        "endstops": "output_geojson/endstops/13_sarijadi_ke_stasiun_hall_4650417.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4420961",
+      "nomor_trayek": "14",
+      "nama_rute": "Stasiun Hall → Gunung Batu",
+      "label_jalur": "14: Stasiun Hall → Gunung Batu",
+      "nama_file": "14_stasiun_hall_ke_gunung_batu_4420961.geojson",
+      "jumlah_fitur_ways": 64,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 66,
+      "endstops_gmaps": [
+        {
+          "id": 1013407725,
+          "name": "Stasiun Hall",
+          "lat": -6.9161432,
+          "lng": 107.6024325
+        },
+        {
+          "id": 3250402136,
+          "name": "Gunung Batu",
+          "lat": -6.8875315,
+          "lng": 107.5672467
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8875315,
+        "south": -6.9161432,
+        "east": 107.6090952,
+        "west": 107.5666744
+      },
+      "center_gmaps": {
+        "lat": -6.9018373,
+        "lng": 107.5878848
+      },
+      "jalan_dilalui": [
+        "Jalan Pajajaran",
+        "Jalan Cihampelas",
+        "Jalan Doktor Louis Otten",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Stasiun Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Gunung Batu",
+        "Jalan Sukaraja II",
+        "Jalan Dakota",
+        "Overpass Gunung Batu",
+        "Jalan Sukaraja",
+        "Jalan Pasteur",
+        "Jalan Wastukancana",
+        "Jalan dr. Cipto",
+        "Jalan Abdul Rivai",
+        "Jalan Dokter Djunjunan",
+        "Jalan Suniaraja",
+        "Jalan Dr. Djunjunan",
+        "Jalan Dokter Gunawan Mangunkusumo",
+        "Bundaran Rajiman"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/14_stasiun_hall_ke_gunung_batu_4420961.geojson",
+        "ways": "output_geojson/ways/14_stasiun_hall_ke_gunung_batu_4420961.geojson",
+        "endstops": "output_geojson/endstops/14_stasiun_hall_ke_gunung_batu_4420961.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4649813",
+      "nomor_trayek": "14",
+      "nama_rute": "Gunung Batu → Stasiun Hall",
+      "label_jalur": "14: Gunung Batu → Stasiun Hall",
+      "nama_file": "14_gunung_batu_ke_stasiun_hall_4649813.geojson",
+      "jumlah_fitur_ways": 80,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 82,
+      "endstops_gmaps": [
+        {
+          "id": 3250402136,
+          "name": "Gunung Batu",
+          "lat": -6.8875315,
+          "lng": 107.5672467
+        },
+        {
+          "id": 1013407725,
+          "name": "Stasiun Hall",
+          "lat": -6.9161432,
+          "lng": 107.6024325
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8875315,
+        "south": -6.9163191,
+        "east": 107.6077246,
+        "west": 107.5666744
+      },
+      "center_gmaps": {
+        "lat": -6.9019253,
+        "lng": 107.5871995
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Pajajaran",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Kebon Kawung",
+        "Jalan Kebon Jati",
+        "Jalan Gunung Batu",
+        "Jalan Sukaraja II",
+        "Jalan Dakota",
+        "Overpass Gunung Batu",
+        "Jalan Sukaraja",
+        "Jalan Cihampelas",
+        "Jalan Dr. Djunjunan",
+        "Jalan Pasteur",
+        "Jalan Wastukencana",
+        "Jalan Wastukancana",
+        "Jalan Dokter Djundjunan Setiakusumah",
+        "Jalan Prof. Dr. Surya Soemantri",
+        "Jalan Suniaraja"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/14_gunung_batu_ke_stasiun_hall_4649813.geojson",
+        "ways": "output_geojson/ways/14_gunung_batu_ke_stasiun_hall_4649813.geojson",
+        "endstops": "output_geojson/endstops/14_gunung_batu_ke_stasiun_hall_4649813.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4432470",
+      "nomor_trayek": "15",
+      "nama_rute": "Margahayu Raya → Ledeng",
+      "label_jalur": "15: Margahayu Raya → Ledeng",
+      "nama_file": "15_margahayu_raya_ke_ledeng_4432470.geojson",
+      "jumlah_fitur_ways": 138,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 140,
+      "endstops_gmaps": [
+        {
+          "id": 3874166202,
+          "name": "Terminal Margahayu Raya",
+          "lat": -6.9465292,
+          "lng": 107.6626652
+        },
+        {
+          "id": 11711070002,
+          "name": "Terminal Ledeng",
+          "lat": -6.85933,
+          "lng": 107.5951942
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8589109,
+        "south": -6.9465348,
+        "east": 107.6638999,
+        "west": 107.593506
+      },
+      "center_gmaps": {
+        "lat": -6.9027228,
+        "lng": 107.628703
+      },
+      "jalan_dilalui": [
+        "Jalan Merdeka",
+        "Jalan Pajajaran",
+        "Jalan Cihampelas",
+        "Jalan Raden Adipati Aria Wiranatakusumah",
+        "Jalan Pasir Kaliki",
+        "Jalan Sukajadi",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Layang Kiaracondong",
+        "Jalan Pasteur",
+        "Jalan Cendana",
+        "Jalan Wastukancana",
+        "Jalan Supratman",
+        "Jalan Abdul Rivai",
+        "Jalan Dokter Djunjunan",
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Dr. Setiabudi",
+        "Jalan Jakarta",
+        "Jalan Soekarno-Hatta",
+        "Jalan Lapang Supratman",
+        "Jalan Taman Pramuka",
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Rancabolang",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Letnan Jenderal Ibrahim Adjie"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/15_margahayu_raya_ke_ledeng_4432470.geojson",
+        "ways": "output_geojson/ways/15_margahayu_raya_ke_ledeng_4432470.geojson",
+        "endstops": "output_geojson/endstops/15_margahayu_raya_ke_ledeng_4432470.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4642502",
+      "nomor_trayek": "15",
+      "nama_rute": "Ledeng → Margahayu Raya",
+      "label_jalur": "15: Ledeng → Margahayu Raya",
+      "nama_file": "15_ledeng_ke_margahayu_raya_4642502.geojson",
+      "jumlah_fitur_ways": 142,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 144,
+      "endstops_gmaps": [
+        {
+          "id": 11711070002,
+          "name": "Terminal Ledeng",
+          "lat": -6.85933,
+          "lng": 107.5951942
+        },
+        {
+          "id": 3874166202,
+          "name": "Terminal Margahayu Raya",
+          "lat": -6.9465292,
+          "lng": 107.6626652
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.85933,
+        "south": -6.9465914,
+        "east": 107.6726353,
+        "west": 107.593506
+      },
+      "center_gmaps": {
+        "lat": -6.9029607,
+        "lng": 107.6330707
+      },
+      "jalan_dilalui": [
+        "Jalan L.L. RE. Martadinata",
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Taman Pramuka",
+        "Jalan Cemara",
+        "Jalan Dokter Setiabudi",
+        "Jalan Jurang",
+        "Jalan Makmur",
+        "Jalan Sederhana",
+        "Jalan Profesor Christiaan Eijkman",
+        "Jalan Layang Kiaracondong",
+        "Jalan Dr. Setiabudi",
+        "Jalan Cendana",
+        "Jalan Lapang Supratman",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Cihampelas",
+        "Jalan Wastukencana",
+        "Jalan Wastukancana",
+        "Jalan Supratman",
+        "Jalan Soekarno-Hatta",
+        "Jalan Rancabolang",
+        "Jalan Raden Adipati Aria Wiranatakusumah"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/15_ledeng_ke_margahayu_raya_4642502.geojson",
+        "ways": "output_geojson/ways/15_ledeng_ke_margahayu_raya_4642502.geojson",
+        "endstops": "output_geojson/endstops/15_ledeng_ke_margahayu_raya_4642502.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4634057",
+      "nomor_trayek": "16",
+      "nama_rute": "Riung Bandung → Dago",
+      "label_jalur": "16: Riung Bandung → Dago",
+      "nama_file": "16_riung_bandung_ke_dago_4634057.geojson",
+      "jumlah_fitur_ways": 160,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 162,
+      "endstops_gmaps": [
+        {
+          "id": 1664514926,
+          "name": "Terminal Riung Bandung",
+          "lat": -6.9493701,
+          "lng": 107.6832703
+        },
+        {
+          "id": 3373712056,
+          "name": "Terminal Dago",
+          "lat": -6.8670778,
+          "lng": 107.6212119
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.866704,
+        "south": -6.9493701,
+        "east": 107.6837521,
+        "west": 107.6129308
+      },
+      "center_gmaps": {
+        "lat": -6.9080371,
+        "lng": 107.6483415
+      },
+      "jalan_dilalui": [
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Surapati",
+        "Jalan Aria Jipang",
+        "Jalan Riung Hegar Raya",
+        "Jalan Riung Arum",
+        "Jalan Riung Tineung",
+        "Jalan Riung Subur",
+        "Jalan Menado",
+        "Jalan Anggrek",
+        "Jalan Patrakomala",
+        "Jalan Banda",
+        "Jalan Penata Yudha",
+        "Jalan Dipatiukur",
+        "Jalan Sukabumi",
+        "Jalan Cipamokolan",
+        "Jalan Riung Mungpulung Raya",
+        "Jalan Belitung",
+        "Jalan Diponegoro",
+        "Jalan Laswi",
+        "Jalan Prabu Dimuntur",
+        "Jalan Jakarta",
+        "Jalan Soekarno-Hatta",
+        "Jalan H. Ibrahim Adjie",
+        "Soekarno Hatta Frontage Boulevard",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Siliwangi",
+        "Jalan Cilamaya",
+        "Jalan Kamuning",
+        "Jalan Letnan Jenderal Ibrahim Adjie",
+        "Jalan Riung Mulya I",
+        "Terminal Dago"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/16_riung_bandung_ke_dago_4634057.geojson",
+        "ways": "output_geojson/ways/16_riung_bandung_ke_dago_4634057.geojson",
+        "endstops": "output_geojson/endstops/16_riung_bandung_ke_dago_4634057.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4284600",
+      "nomor_trayek": "16",
+      "nama_rute": "Dago → Riung Bandung",
+      "label_jalur": "16: Dago → Riung Bandung",
+      "nama_file": "16_dago_ke_riung_bandung_4284600.geojson",
+      "jumlah_fitur_ways": 172,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 174,
+      "endstops_gmaps": [
+        {
+          "id": 3373712056,
+          "name": "Terminal Dago",
+          "lat": -6.8670778,
+          "lng": 107.6212119
+        },
+        {
+          "id": 1664514926,
+          "name": "Terminal Riung Bandung",
+          "lat": -6.9493701,
+          "lng": 107.6832703
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8670778,
+        "south": -6.9494445,
+        "east": 107.6881638,
+        "west": 107.6137886
+      },
+      "center_gmaps": {
+        "lat": -6.9082611,
+        "lng": 107.6509762
+      },
+      "jalan_dilalui": [
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Citarum",
+        "Jalan Sentot Alibasyah",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Dipatiukur",
+        "Jalan Surapati",
+        "Jalan Riung Hegar Raya",
+        "Jalan Riung Arum",
+        "Jalan Riung Tineung",
+        "Jalan Riung Mungpulung Raya",
+        "Jalan Riung Mungpulung II",
+        "Jalan Penata Yudha",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Soekarno-Hatta",
+        "Jalan Cipamokolan",
+        "Soekarno Hatta Frontage Boulevard",
+        "Jalan Diponegoro",
+        "Terminal Dago"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/16_dago_ke_riung_bandung_4284600.geojson",
+        "ways": "output_geojson/ways/16_dago_ke_riung_bandung_4284600.geojson",
+        "endstops": "output_geojson/endstops/16_dago_ke_riung_bandung_4284600.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4648025",
+      "nomor_trayek": "17",
+      "nama_rute": "Pasar Induk Caringin → Dago",
+      "label_jalur": "17: Pasar Induk Caringin → Dago",
+      "nama_file": "17_pasar_induk_caringin_ke_dago_4648025.geojson",
+      "jumlah_fitur_ways": 135,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 137,
+      "endstops_gmaps": [
+        {
+          "id": 12633822769,
+          "name": "Pasar Caringin",
+          "lat": -6.9419021,
+          "lng": 107.5829792
+        },
+        {
+          "id": 3373712056,
+          "name": "Terminal Dago",
+          "lat": -6.8670778,
+          "lng": 107.6212119
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8632302,
+        "south": -6.9419021,
+        "east": 107.6345337,
+        "west": 107.575943
+      },
+      "center_gmaps": {
+        "lat": -6.9025662,
+        "lng": 107.6052384
+      },
+      "jalan_dilalui": [
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Purnawarman",
+        "Jalan Cihampelas",
+        "Jalan Kebon Jati",
+        "Jalan Arjuna",
+        "Jalan Ciroyom Timur",
+        "Jalan Ciroyom Barat",
+        "Jalan Surapati",
+        "Jalan Cikapayang",
+        "Jalan Cikondang",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Rereng Adumanis",
+        "Jalan Batik Kumeli",
+        "Jalan Tamansari",
+        "Jalan Cigadung Raya Tengah",
+        "Jalan Sawunggaling",
+        "Jalan Andir",
+        "Jalan Jamika",
+        "Jalan Wastukancana",
+        "Jalan Pajajaran",
+        "Jalan Hariangbanga",
+        "Jalan Cigadung Raya Barat",
+        "Jalan Cigadung Raya Timur",
+        "Jalan Rajawali Timur",
+        "Jalan Terusan Pasir Koja",
+        "Jalan Soekarno-Hatta",
+        "Jalan Raya Golf",
+        "Jalan Cikutra Barat",
+        "Jalan Jalaprang",
+        "Jalan Rereng Wulung",
+        "Jalan Sido Mukti",
+        "Jalan Rangga Gadang",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Jendral Sudirman",
+        "Jalan Ciroyom",
+        "Terminal Dago"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/17_pasar_induk_caringin_ke_dago_4648025.geojson",
+        "ways": "output_geojson/ways/17_pasar_induk_caringin_ke_dago_4648025.geojson",
+        "endstops": "output_geojson/endstops/17_pasar_induk_caringin_ke_dago_4648025.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4423238",
+      "nomor_trayek": "17",
+      "nama_rute": "Dago → Pasar Induk Caringin",
+      "label_jalur": "17: Dago → Pasar Induk Caringin",
+      "nama_file": "17_dago_ke_pasar_induk_caringin_4423238.geojson",
+      "jumlah_fitur_ways": 163,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 166,
+      "endstops_gmaps": [
+        {
+          "id": 3373712056,
+          "name": "Terminal Dago",
+          "lat": -6.8670778,
+          "lng": 107.6212119
+        },
+        {
+          "id": 12626357399,
+          "name": "Pasar Induk Caringin",
+          "lat": -6.9419015,
+          "lng": 107.5831212
+        },
+        {
+          "id": 12633822769,
+          "name": "Pasar Caringin",
+          "lat": -6.9419021,
+          "lng": 107.5829792
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8632302,
+        "south": -6.9469287,
+        "east": 107.6355463,
+        "west": 107.5761216
+      },
+      "center_gmaps": {
+        "lat": -6.9050795,
+        "lng": 107.605834
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Tamansari",
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Purnawarman",
+        "Jalan Pajajaran",
+        "Jalan Kebon Kawung",
+        "Jalan Arjuna",
+        "Jalan Andir",
+        "Jalan Cikondang",
+        "Jalan Surapati",
+        "Jalan Prabudimuntur",
+        "Jalan Cigadung Raya Tengah",
+        "Jalan Sawunggaling",
+        "Jalan Harian Banga",
+        "Jalan Rangga Gadang",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Jamika",
+        "Jalan Cikutra Barat",
+        "Jalan Cikapayang",
+        "Jalan Babakan Ciparay",
+        "Jalan Prabu Dimuntur",
+        "Jalan Soekarno-Hatta",
+        "Jalan Wastukancana",
+        "Jalan Cigadung Raya Barat",
+        "Jalan Cigadung Raya Timur",
+        "Jalan Rajawali Timur",
+        "Jalan Jendral Sudirman",
+        "Jalan Ciroyom",
+        "Jalan Peta",
+        "Jalan Terusan Pasir Koja",
+        "Jalan Raya Golf",
+        "Jalan Pahlawan",
+        "Jalan Kyai Haji Wahid Hasyim",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Waringin",
+        "Terminal Dago",
+        "Jalan Caringin",
+        "Jalan Pasir Koja",
+        "Jalan Dago Elos III",
+        "Jalan Cikutra",
+        "Jalan Layang Ciroyom",
+        "Jalan Kebon Jati"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/17_dago_ke_pasar_induk_caringin_4423238.geojson",
+        "ways": "output_geojson/ways/17_dago_ke_pasar_induk_caringin_4423238.geojson",
+        "endstops": "output_geojson/endstops/17_dago_ke_pasar_induk_caringin_4423238.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4422442",
+      "nomor_trayek": "18",
+      "nama_rute": "Panghegar Permai → Dipatiukur",
+      "label_jalur": "18: Panghegar Permai → Dipatiukur",
+      "nama_file": "18_panghegar_permai_ke_dipatiukur_4422442.geojson",
+      "jumlah_fitur_ways": 104,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 106,
+      "endstops_gmaps": [
+        {
+          "id": 3251007192,
+          "name": "Pangkalan Angkot Panghegar",
+          "lat": -6.9237417,
+          "lng": 107.6835707
+        },
+        {
+          "id": 13243220021,
+          "name": "Baltos",
+          "lat": -6.899504,
+          "lng": 107.6099669
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.899504,
+        "south": -6.9237775,
+        "east": 107.6853357,
+        "west": 107.6099669
+      },
+      "center_gmaps": {
+        "lat": -6.9116408,
+        "lng": 107.6476513
+      },
+      "jalan_dilalui": [
+        "Jalan Sulanjana",
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Diponegoro",
+        "Jalan Citarum",
+        "Jalan Cisanggarung",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Sukabumi",
+        "Jalan Laswi",
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Cicukang",
+        "Jalan Abdul Haris Nasution",
+        "Jalan Cisaranten Kulon",
+        "Jalan Jakarta",
+        "Jalan Taman Citarum",
+        "Jalan Cilamaya",
+        "Jalan Hayam Wuruk"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/18_panghegar_permai_ke_dipatiukur_4422442.geojson",
+        "ways": "output_geojson/ways/18_panghegar_permai_ke_dipatiukur_4422442.geojson",
+        "endstops": "output_geojson/endstops/18_panghegar_permai_ke_dipatiukur_4422442.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16644061",
+      "nomor_trayek": "18",
+      "nama_rute": "Dipatiukur → Panghegar Permai",
+      "label_jalur": "18: Dipatiukur → Panghegar Permai",
+      "nama_file": "18_dipatiukur_ke_panghegar_permai_16644061.geojson",
+      "jumlah_fitur_ways": 93,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 95,
+      "endstops_gmaps": [
+        {
+          "id": 13243220021,
+          "name": "Baltos",
+          "lat": -6.899504,
+          "lng": 107.6099669
+        },
+        {
+          "id": 3251007192,
+          "name": "Pangkalan Angkot Panghegar",
+          "lat": -6.9237417,
+          "lng": 107.6835707
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8994722,
+        "south": -6.9237417,
+        "east": 107.6853357,
+        "west": 107.6076853
+      },
+      "center_gmaps": {
+        "lat": -6.9116069,
+        "lng": 107.6465105
+      },
+      "jalan_dilalui": [
+        "Jalan Tamansari",
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Sumatra",
+        "Jalan Sawunggaling",
+        "Jalan Harian Banga",
+        "Jalan Rangga Gadang",
+        "Jalan Belitung",
+        "Jalan Banda",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Veteran",
+        "Jalan Wastukancana",
+        "Jalan Cicukang",
+        "Jalan Abdul Haris Nasution",
+        "Jalan Cisaranten Kulon",
+        "Jalan Anthorium",
+        "Jalan Sulanjana"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/18_dipatiukur_ke_panghegar_permai_16644061.geojson",
+        "ways": "output_geojson/ways/18_dipatiukur_ke_panghegar_permai_16644061.geojson",
+        "endstops": "output_geojson/endstops/18_dipatiukur_ke_panghegar_permai_16644061.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16644123",
+      "nomor_trayek": "19",
+      "nama_rute": "Ciroyom → Sarijadi",
+      "label_jalur": "19: Ciroyom → Sarijadi",
+      "nama_file": "19_ciroyom_ke_sarijadi_16644123.geojson",
+      "jumlah_fitur_ways": 76,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 78,
+      "endstops_gmaps": [
+        {
+          "id": 3244745033,
+          "name": "Stasiun Ciroyom",
+          "lat": -6.914151,
+          "lng": 107.5890644
+        },
+        {
+          "id": 1585594342,
+          "name": "Pasar Cibogo Sarijadi",
+          "lat": -6.8826498,
+          "lng": 107.5751448
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8679915,
+        "south": -6.9145084,
+        "east": 107.5975343,
+        "west": 107.5747201
+      },
+      "center_gmaps": {
+        "lat": -6.8912499,
+        "lng": 107.5861272
+      },
+      "jalan_dilalui": [
+        "Jalan Dursasana",
+        "Jalan Aruna",
+        "Jalan Sindang Sirna",
+        "Jalan Pasir Kaliki",
+        "Jalan Sukajadi",
+        "Jalan Sari Endah Baru",
+        "Jalan Ciroyom",
+        "Jalan Simpang Sukaresmi",
+        "Jalan Sariasih",
+        "Jalan Cipedes Atas",
+        "Jalan Sarimanah",
+        "Jalan Geger Kalong Hilir",
+        "Jalan Astina",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Sarijadi Raya",
+        "Jalan Bungur",
+        "Jalan Lembah Sukaresmi",
+        "Jalan Pajajaran",
+        "Jalan Arjuna",
+        "Jalan Layang Ciroyom",
+        "Jalan Perintis",
+        "Jalan Sariwangi"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/19_ciroyom_ke_sarijadi_16644123.geojson",
+        "ways": "output_geojson/ways/19_ciroyom_ke_sarijadi_16644123.geojson",
+        "endstops": "output_geojson/endstops/19_ciroyom_ke_sarijadi_16644123.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16644124",
+      "nomor_trayek": "19",
+      "nama_rute": "Sarijadi → Ciroyom",
+      "label_jalur": "19: Sarijadi → Ciroyom",
+      "nama_file": "19_sarijadi_ke_ciroyom_16644124.geojson",
+      "jumlah_fitur_ways": 91,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 93,
+      "endstops_gmaps": [
+        {
+          "id": 1585594342,
+          "name": "Pasar Cibogo Sarijadi",
+          "lat": -6.8826498,
+          "lng": 107.5751448
+        },
+        {
+          "id": 3244745033,
+          "name": "Stasiun Ciroyom",
+          "lat": -6.914151,
+          "lng": 107.5890644
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8679072,
+        "south": -6.914151,
+        "east": 107.6021691,
+        "west": 107.5751448
+      },
+      "center_gmaps": {
+        "lat": -6.8910291,
+        "lng": 107.588657
+      },
+      "jalan_dilalui": [
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Aruna",
+        "Jalan Sindang Sirna",
+        "Jalan Sirna Galih",
+        "Jalan Dokter Setiabudi",
+        "Jalan Jurang",
+        "Jalan Lamping",
+        "Jalan Makmur",
+        "Jalan Profesor Christiaan Eijkman",
+        "Jalan Karangsari",
+        "Jalan Sederhana",
+        "Jalan Sariasih",
+        "Jalan Cipedes Atas",
+        "Jalan Sarimanah",
+        "Jalan Sarijadi Raya",
+        "Jalan Pasir Kaliki",
+        "Jalan Pasteur",
+        "Jalan Geger Kalong Hilir",
+        "Jalan Pajajaran",
+        "Jalan Raden Adipati Aria Wiranatakusumah",
+        "Jalan Sariwangi",
+        "Jalan Arjuna",
+        "Jalan Dr. Setiabudi",
+        "Jalan Layang Ciroyom",
+        "Jalan Ciroyom"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/19_sarijadi_ke_ciroyom_16644124.geojson",
+        "ways": "output_geojson/ways/19_sarijadi_ke_ciroyom_16644124.geojson",
+        "endstops": "output_geojson/endstops/19_sarijadi_ke_ciroyom_16644124.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4650909",
+      "nomor_trayek": "20",
+      "nama_rute": "Ciroyom → Bumi Asri",
+      "label_jalur": "20: Ciroyom → Bumi Asri",
+      "nama_file": "20_ciroyom_ke_bumi_asri_4650909.geojson",
+      "jumlah_fitur_ways": 36,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 38,
+      "endstops_gmaps": [
+        {
+          "id": 3244745033,
+          "name": "Stasiun Ciroyom",
+          "lat": -6.914151,
+          "lng": 107.5890644
+        },
+        {
+          "id": 3385219353,
+          "name": "Terminal Bumi Asri",
+          "lat": -6.9324632,
+          "lng": 107.5508272
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9081626,
+        "south": -6.9328637,
+        "east": 107.5890644,
+        "west": 107.5508272
+      },
+      "center_gmaps": {
+        "lat": -6.9205131,
+        "lng": 107.5699458
+      },
+      "jalan_dilalui": [
+        "Jalan Ciroyom",
+        "Jalan Gempol Sari",
+        "Jalan Bojong Raya",
+        "Jalan Soekarno-Hatta",
+        "Jalan Garuda",
+        "Jalan Gempol",
+        "Jalan Jendral Sudirman",
+        "Jalan Raya Cijerah",
+        "Jalan Dirgantara Raya",
+        "Jalan Arjuna",
+        "Jalan Dirgantara",
+        "Jalan Holis",
+        "Bunderan Cibeureum"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/20_ciroyom_ke_bumi_asri_4650909.geojson",
+        "ways": "output_geojson/ways/20_ciroyom_ke_bumi_asri_4650909.geojson",
+        "endstops": "output_geojson/endstops/20_ciroyom_ke_bumi_asri_4650909.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4650925",
+      "nomor_trayek": "20",
+      "nama_rute": "Bumi Asri → Ciroyom",
+      "label_jalur": "20: Bumi Asri → Ciroyom",
+      "nama_file": "20_bumi_asri_ke_ciroyom_4650925.geojson",
+      "jumlah_fitur_ways": 40,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 42,
+      "endstops_gmaps": [
+        {
+          "id": 3385219353,
+          "name": "Terminal Bumi Asri",
+          "lat": -6.9324632,
+          "lng": 107.5508272
+        },
+        {
+          "id": 3244745033,
+          "name": "Stasiun Ciroyom",
+          "lat": -6.914151,
+          "lng": 107.5890644
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9127619,
+        "south": -6.9328637,
+        "east": 107.5890718,
+        "west": 107.550756
+      },
+      "center_gmaps": {
+        "lat": -6.9228128,
+        "lng": 107.5699139
+      },
+      "jalan_dilalui": [
+        "Jalan Rajawali Timur",
+        "Jalan Elang",
+        "Jalan Ciroyom Timur",
+        "Jalan Ciroyom Barat",
+        "Jalan Gempol Sari",
+        "Jalan Bojong Raya",
+        "Jalan Gempol",
+        "Jalan Raya Cijerah",
+        "Jalan Soekarno-Hatta",
+        "Jalan Dirgantara Raya",
+        "Jalan Holis",
+        "Bunderan Cibeureum",
+        "Jalan Ciroyom",
+        "Jalan Dirgantara",
+        "Jalan Arjuna"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/20_bumi_asri_ke_ciroyom_4650925.geojson",
+        "ways": "output_geojson/ways/20_bumi_asri_ke_ciroyom_4650925.geojson",
+        "endstops": "output_geojson/endstops/20_bumi_asri_ke_ciroyom_4650925.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16644187",
+      "nomor_trayek": "21",
+      "nama_rute": "Ciroyom → Cikudapateuh",
+      "label_jalur": "21: Ciroyom → Cikudapateuh",
+      "nama_file": "21_ciroyom_ke_cikudapateuh_16644187.geojson",
+      "jumlah_fitur_ways": 90,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 93,
+      "endstops_gmaps": [
+        {
+          "id": 11735239268,
+          "name": "SMA Trinitas",
+          "lat": -6.916555,
+          "lng": 107.5917139
+        },
+        {
+          "id": 13279832767,
+          "name": "Pangkalan Angkot Rajawali",
+          "lat": -6.9132715,
+          "lng": 107.5761151
+        },
+        {
+          "id": 12637510528,
+          "name": "Stasiun Cikudapateuh",
+          "lat": -6.9189956,
+          "lng": 107.6258024
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9132715,
+        "south": -6.9377203,
+        "east": 107.6313572,
+        "west": 107.5761151
+      },
+      "center_gmaps": {
+        "lat": -6.9254959,
+        "lng": 107.6037362
+      },
+      "jalan_dilalui": [
+        "Jalan Kebon Jati",
+        "Jalan Rajawali Timur",
+        "Jalan Gardujati",
+        "Jalan Mochammad Ramdhan",
+        "Jalan Terusan Halimun",
+        "Jalan Malabar",
+        "Jalan Kembang Sapatu",
+        "Jalan Kyai Haji Ahmad Dahlan",
+        "Jalan Palasari",
+        "Jalan Panjunan",
+        "Jalan Jenderal Gatot Subroto",
+        "Jalan Kyai Haji Wahid Hasyim",
+        "Jalan Lauk Emas",
+        "Jalan Laswi",
+        "Jalan Astana Anyar",
+        "Jalan Sadakeling",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan BKR",
+        "Jalan Peta",
+        "Jalan Karapitan"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/21_ciroyom_ke_cikudapateuh_16644187.geojson",
+        "ways": "output_geojson/ways/21_ciroyom_ke_cikudapateuh_16644187.geojson",
+        "endstops": "output_geojson/endstops/21_ciroyom_ke_cikudapateuh_16644187.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16644335",
+      "nomor_trayek": "21",
+      "nama_rute": "Cikudapateuh → Ciroyom",
+      "label_jalur": "21: Cikudapateuh → Ciroyom",
+      "nama_file": "21_cikudapateuh_ke_ciroyom_16644335.geojson",
+      "jumlah_fitur_ways": 89,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 92,
+      "endstops_gmaps": [
+        {
+          "id": 12637510528,
+          "name": "Stasiun Cikudapateuh",
+          "lat": -6.9189956,
+          "lng": 107.6258024
+        },
+        {
+          "id": 11711326972,
+          "name": "Plaza Telkom Rajawali",
+          "lat": -6.9129722,
+          "lng": 107.5753653
+        },
+        {
+          "id": 13279832767,
+          "name": "Pangkalan Angkot Rajawali",
+          "lat": -6.9132715,
+          "lng": 107.5761151
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9106219,
+        "south": -6.9378255,
+        "east": 107.6258024,
+        "west": 107.5692724
+      },
+      "center_gmaps": {
+        "lat": -6.9242237,
+        "lng": 107.5975374
+      },
+      "jalan_dilalui": [
+        "Jalan Jendral Sudirman",
+        "Jalan Samoja Dalam",
+        "Jalan Malabar",
+        "Jalan Gajah",
+        "Jalan Kembang Sapatu",
+        "Jalan Gurame",
+        "Jalan Sadakeling",
+        "Jalan Terate",
+        "Jalan Cibadak",
+        "Jalan Palasari",
+        "Jalan Kopo",
+        "Jalan Kyai Haji Wahid Hasyim",
+        "Jalan Astana Anyar",
+        "Jalan Rajawali Barat",
+        "Jalan BKR",
+        "Jalan Peta",
+        "Jalan Mochammad Ramdhan",
+        "Jalan Pasir Koja",
+        "Jalan Kyai Haji Ahmad Dahlan",
+        "Jalan Buah Batu",
+        "Bunderan Cibeureum",
+        "Jalan Rajawali Timur"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/21_cikudapateuh_ke_ciroyom_16644335.geojson",
+        "ways": "output_geojson/ways/21_cikudapateuh_ke_ciroyom_16644335.geojson",
+        "endstops": "output_geojson/endstops/21_cikudapateuh_ke_ciroyom_16644335.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4652571",
+      "nomor_trayek": "22",
+      "nama_rute": "Kalapa → Buah Batu",
+      "label_jalur": "22: Kalapa → Buah Batu",
+      "nama_file": "22_kalapa_ke_buah_batu_4652571.geojson",
+      "jumlah_fitur_ways": 67,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 69,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 6609327003,
+          "name": "Cipagalo",
+          "lat": -6.9657162,
+          "lng": 107.6379086
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9224144,
+        "south": -6.9657162,
+        "east": 107.6395984,
+        "west": 107.6058322
+      },
+      "center_gmaps": {
+        "lat": -6.9440653,
+        "lng": 107.6227153
+      },
+      "jalan_dilalui": [
+        "Jalan Kyai Haji Ahmad Dahlan",
+        "Jalan Lengkong Besar",
+        "Jalan Dalem Kaum",
+        "Jalan Cikawao",
+        "Jalan Buah Batu",
+        "Jalan Dewi Sartika",
+        "Jalan Pelajar Pejuang 45",
+        "Jalan Sadakeling"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/22_kalapa_ke_buah_batu_4652571.geojson",
+        "ways": "output_geojson/ways/22_kalapa_ke_buah_batu_4652571.geojson",
+        "endstops": "output_geojson/endstops/22_kalapa_ke_buah_batu_4652571.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4652619",
+      "nomor_trayek": "22",
+      "nama_rute": "Buah Batu → Kalapa",
+      "label_jalur": "22: Buah Batu → Kalapa",
+      "nama_file": "22_buah_batu_ke_kalapa_4652619.geojson",
+      "jumlah_fitur_ways": 59,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 61,
+      "endstops_gmaps": [
+        {
+          "id": 6609327003,
+          "name": "Cipagalo",
+          "lat": -6.9657162,
+          "lng": 107.6379086
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9273306,
+        "south": -6.9657162,
+        "east": 107.6395155,
+        "west": 107.6054273
+      },
+      "center_gmaps": {
+        "lat": -6.9465234,
+        "lng": 107.6224714
+      },
+      "jalan_dilalui": [
+        "Jalan Dewi Sartika",
+        "Jalan Buah Batu",
+        "Jalan Lengkong Besar",
+        "Jalan Gurame",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Sadakeling",
+        "Jalan Cikawao",
+        "Jalan Karapitan"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/22_buah_batu_ke_kalapa_4652619.geojson",
+        "ways": "output_geojson/ways/22_buah_batu_ke_kalapa_4652619.geojson",
+        "endstops": "output_geojson/endstops/22_buah_batu_ke_kalapa_4652619.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4652511",
+      "nomor_trayek": "22",
+      "nama_rute": "Kalapa → Sukajadi",
+      "label_jalur": "22: Kalapa → Sukajadi",
+      "nama_file": "22_kalapa_ke_sukajadi_4652511.geojson",
+      "jumlah_fitur_ways": 98,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 100,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 29357939,
+          "name": "Junction 8 Sukajadi",
+          "lat": -6.8840134,
+          "lng": 107.596703
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8840134,
+        "south": -6.9276428,
+        "east": 107.6076488,
+        "west": 107.5963989
+      },
+      "center_gmaps": {
+        "lat": -6.9058281,
+        "lng": 107.6020238
+      },
+      "jalan_dilalui": [
+        "Jalan Cihampelas",
+        "Jalan Doktor Louis Otten",
+        "Jalan Kebon Kawung",
+        "Jalan Pasir Kaliki",
+        "Jalan Sukajadi",
+        "Jalan Sukamaju",
+        "Jalan Sederhana",
+        "Jalan Stasiun Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Banceuy",
+        "Jalan Alun-alun Timur",
+        "Jalan Pasteur",
+        "Jalan dr. Cipto",
+        "Jalan Abdul Rivai",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Dokter Djunjunan",
+        "Jalan Dewi Sartika",
+        "Jalan Pajajaran",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Dalem Kaum",
+        "Jalan Asia Afrika",
+        "Jalan Kebon Jukut",
+        "Jalan Suniaraja",
+        "Jalan Aceh",
+        "Jalan Dokter Gunawan Mangunkusumo",
+        "Bundaran Rajiman",
+        "Jalan Cemara"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/22_kalapa_ke_sukajadi_4652511.geojson",
+        "ways": "output_geojson/ways/22_kalapa_ke_sukajadi_4652511.geojson",
+        "endstops": "output_geojson/endstops/22_kalapa_ke_sukajadi_4652511.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4652460",
+      "nomor_trayek": "22",
+      "nama_rute": "Sukajadi → Kalapa",
+      "label_jalur": "22: Sukajadi → Kalapa",
+      "nama_file": "22_sukajadi_ke_kalapa_4652460.geojson",
+      "jumlah_fitur_ways": 93,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 95,
+      "endstops_gmaps": [
+        {
+          "id": 29357939,
+          "name": "Junction 8 Sukajadi",
+          "lat": -6.8840134,
+          "lng": 107.596703
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8836144,
+        "south": -6.93245,
+        "east": 107.6131443,
+        "west": 107.596703
+      },
+      "center_gmaps": {
+        "lat": -6.9080322,
+        "lng": 107.6049237
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Pajajaran",
+        "Jalan Lembong",
+        "Jalan Braga",
+        "Jalan Cemara",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Dewi Sartika",
+        "Jalan Lengkong Besar",
+        "Jalan Sederhana",
+        "Jalan Kebon Jukut",
+        "Jalan Pasir Kaliki",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Tamblong",
+        "Jalan Cihampelas",
+        "Jalan Profesor Christiaan Eijkman",
+        "Jalan Pasteur",
+        "Jalan Wastukencana",
+        "Jalan Wastukancana",
+        "Jalan Raden Adipati Aria Wiranatakusumah",
+        "Jalan Aceh",
+        "Jalan Otto Iskandardinata"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/22_sukajadi_ke_kalapa_4652460.geojson",
+        "ways": "output_geojson/ways/22_sukajadi_ke_kalapa_4652460.geojson",
+        "endstops": "output_geojson/endstops/22_sukajadi_ke_kalapa_4652460.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4425899",
+      "nomor_trayek": "23",
+      "nama_rute": "Sederhana → Cijerah",
+      "label_jalur": "23: Sederhana → Cijerah",
+      "nama_file": "23_sederhana_ke_cijerah_4425899.geojson",
+      "jumlah_fitur_ways": 71,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 74,
+      "endstops_gmaps": [
+        {
+          "id": 29379371,
+          "name": "Makmur",
+          "lat": -6.8941794,
+          "lng": 107.5989838
+        },
+        {
+          "id": 3249461526,
+          "name": "Pasar Sederhana",
+          "lat": -6.8908128,
+          "lng": 107.5996153
+        },
+        {
+          "id": 1387999370,
+          "name": "Puskesmas Melong Asih",
+          "lat": -6.9239338,
+          "lng": 107.5629011
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8908128,
+        "south": -6.928252,
+        "east": 107.6010655,
+        "west": 107.5628894
+      },
+      "center_gmaps": {
+        "lat": -6.9095324,
+        "lng": 107.5819775
+      },
+      "jalan_dilalui": [
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Jendral Sudirman",
+        "Jalan Makmur",
+        "Jalan Profesor Christiaan Eijkman",
+        "Jalan Sederhana",
+        "Jalan Melong Raya",
+        "Jalan Pasir Kaliki",
+        "Jalan Pasteur",
+        "Jalan Pajajaran",
+        "Jalan Abdul Rahman Saleh",
+        "Jalan Garuda",
+        "Jalan Raya Cijerah",
+        "Bunderan Cibeureum",
+        "Jalan Layang Nurtanio"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/23_sederhana_ke_cijerah_4425899.geojson",
+        "ways": "output_geojson/ways/23_sederhana_ke_cijerah_4425899.geojson",
+        "endstops": "output_geojson/endstops/23_sederhana_ke_cijerah_4425899.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4645553",
+      "nomor_trayek": "23",
+      "nama_rute": "Cijerah → Sederhana",
+      "label_jalur": "23: Cijerah → Sederhana",
+      "nama_file": "23_cijerah_ke_sederhana_4645553.geojson",
+      "jumlah_fitur_ways": 55,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 58,
+      "endstops_gmaps": [
+        {
+          "id": 1387999370,
+          "name": "Puskesmas Melong Asih",
+          "lat": -6.9239338,
+          "lng": 107.5629011
+        },
+        {
+          "id": 12809314930,
+          "name": "SDN 061 Cijerah",
+          "lat": -6.9218246,
+          "lng": 107.5690228
+        },
+        {
+          "id": 3249461526,
+          "name": "Pasar Sederhana",
+          "lat": -6.8908128,
+          "lng": 107.5996153
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8908128,
+        "south": -6.927185,
+        "east": 107.5996153,
+        "west": 107.5628894
+      },
+      "center_gmaps": {
+        "lat": -6.9089989,
+        "lng": 107.5812523
+      },
+      "jalan_dilalui": [
+        "Jalan Dursasana",
+        "Jalan Rajawali Timur",
+        "Jalan Pasir Kaliki",
+        "Jalan Sederhana",
+        "Jalan Astina",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Abdul Rahman Saleh",
+        "Jalan Garuda",
+        "Jalan Raya Cijerah",
+        "Jalan Rajawali Barat",
+        "Jalan Jendral Sudirman",
+        "Jalan Melong Raya",
+        "Jalan Pajajaran",
+        "Jalan Layang Nurtanio"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/23_cijerah_ke_sederhana_4645553.geojson",
+        "ways": "output_geojson/ways/23_cijerah_ke_sederhana_4645553.geojson",
+        "endstops": "output_geojson/endstops/23_cijerah_ke_sederhana_4645553.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4321908",
+      "nomor_trayek": "24",
+      "nama_rute": "Sederhana → Cimindi",
+      "label_jalur": "24: Sederhana → Cimindi",
+      "nama_file": "24_sederhana_ke_cimindi_4321908.geojson",
+      "jumlah_fitur_ways": 43,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 45,
+      "endstops_gmaps": [
+        {
+          "id": 3249461526,
+          "name": "Pasar Sederhana",
+          "lat": -6.8908128,
+          "lng": 107.5996153
+        },
+        {
+          "id": 1666231924,
+          "name": "Pangkalan Angkot Cimindi",
+          "lat": -6.8953145,
+          "lng": 107.5602213
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8888476,
+        "south": -6.9001213,
+        "east": 107.6009465,
+        "west": 107.5602213
+      },
+      "center_gmaps": {
+        "lat": -6.8944845,
+        "lng": 107.5805839
+      },
+      "jalan_dilalui": [
+        "Jalan Sukagalih",
+        "Jalan Makmur",
+        "Jalan Profesor Christiaan Eijkman",
+        "Jalan Sederhana",
+        "Jalan Gunung Batu",
+        "Jalan Sukaraja II",
+        "Jalan Dakota",
+        "Jalan Sukaraja",
+        "Jalan Dr. Djunjunan",
+        "Jalan Cipedes Selatan",
+        "Jalan Suka Mulya",
+        "Jalan Sukajadi"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/24_sederhana_ke_cimindi_4321908.geojson",
+        "ways": "output_geojson/ways/24_sederhana_ke_cimindi_4321908.geojson",
+        "endstops": "output_geojson/endstops/24_sederhana_ke_cimindi_4321908.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4649915",
+      "nomor_trayek": "24",
+      "nama_rute": "Cimindi → Sederhana",
+      "label_jalur": "24: Cimindi → Sederhana",
+      "nama_file": "24_cimindi_ke_sederhana_4649915.geojson",
+      "jumlah_fitur_ways": 39,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 41,
+      "endstops_gmaps": [
+        {
+          "id": 1666231924,
+          "name": "Pangkalan Angkot Cimindi",
+          "lat": -6.8953145,
+          "lng": 107.5602213
+        },
+        {
+          "id": 3249461526,
+          "name": "Pasar Sederhana",
+          "lat": -6.8908128,
+          "lng": 107.5996153
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8836144,
+        "south": -6.8953152,
+        "east": 107.6011799,
+        "west": 107.5602213
+      },
+      "center_gmaps": {
+        "lat": -6.8894648,
+        "lng": 107.5807006
+      },
+      "jalan_dilalui": [
+        "Jalan Sukajadi",
+        "Jalan Sukagalih",
+        "Jalan Jurang",
+        "Jalan Sederhana",
+        "Jalan Gunung Batu",
+        "Jalan Sukaraja II",
+        "Jalan Dakota",
+        "Jalan Sukaraja",
+        "Jalan Cemara",
+        "Jalan Dr. Djunjunan",
+        "Jalan Cipedes Selatan",
+        "Jalan Suka Mulya",
+        "Jalan Prof. Dr. Surya Soemantri"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/24_cimindi_ke_sederhana_4649915.geojson",
+        "ways": "output_geojson/ways/24_cimindi_ke_sederhana_4649915.geojson",
+        "endstops": "output_geojson/endstops/24_cimindi_ke_sederhana_4649915.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16645492",
+      "nomor_trayek": "25",
+      "nama_rute": "Ciwastra → Cipamokolan",
+      "label_jalur": "25: Ciwastra → Cipamokolan",
+      "nama_file": "25_ciwastra_ke_cipamokolan_16645492.geojson",
+      "jumlah_fitur_ways": 24,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 26,
+      "endstops_gmaps": [
+        {
+          "id": 2258306743,
+          "name": "Pasar Ciwastra",
+          "lat": -6.9611563,
+          "lng": 107.6664238
+        },
+        {
+          "id": 13064974005,
+          "name": "Bulog Kancab Bandung",
+          "lat": -6.9389794,
+          "lng": 107.6773057
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9389794,
+        "south": -6.9640624,
+        "east": 107.6776648,
+        "west": 107.6664238
+      },
+      "center_gmaps": {
+        "lat": -6.9515209,
+        "lng": 107.6720443
+      },
+      "jalan_dilalui": [
+        "Jalan Cipamokolan",
+        "Marga Cinta",
+        "Jalan Derwati",
+        "Jalan Marga Cinta"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/25_ciwastra_ke_cipamokolan_16645492.geojson",
+        "ways": "output_geojson/ways/25_ciwastra_ke_cipamokolan_16645492.geojson",
+        "endstops": "output_geojson/endstops/25_ciwastra_ke_cipamokolan_16645492.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16645493",
+      "nomor_trayek": "25",
+      "nama_rute": "Cipamokolan → Ciwastra",
+      "label_jalur": "25: Cipamokolan → Ciwastra",
+      "nama_file": "25_cipamokolan_ke_ciwastra_16645493.geojson",
+      "jumlah_fitur_ways": 24,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 26,
+      "endstops_gmaps": [
+        {
+          "id": 13064974005,
+          "name": "Bulog Kancab Bandung",
+          "lat": -6.9389794,
+          "lng": 107.6773057
+        },
+        {
+          "id": 2258306743,
+          "name": "Pasar Ciwastra",
+          "lat": -6.9611563,
+          "lng": 107.6664238
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9389794,
+        "south": -6.9640624,
+        "east": 107.6776648,
+        "west": 107.6664238
+      },
+      "center_gmaps": {
+        "lat": -6.9515209,
+        "lng": 107.6720443
+      },
+      "jalan_dilalui": [
+        "Jalan Cipamokolan",
+        "Marga Cinta",
+        "Jalan Derwati",
+        "Jalan Marga Cinta"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/25_cipamokolan_ke_ciwastra_16645493.geojson",
+        "ways": "output_geojson/ways/25_cipamokolan_ke_ciwastra_16645493.geojson",
+        "endstops": "output_geojson/endstops/25_cipamokolan_ke_ciwastra_16645493.geojson"
+      }
+    },
+    {
+      "kode_jalur": "19452155",
+      "nomor_trayek": "25",
+      "nama_rute": "Cisaranten Kulon → Ujungberung",
+      "label_jalur": "25: Cisaranten Kulon → Ujungberung",
+      "nama_file": "25_cisaranten_kulon_ke_ujungberung_19452155.geojson",
+      "jumlah_fitur_ways": 28,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 30,
+      "endstops_gmaps": [
+        {
+          "id": 13064974006,
+          "name": "STMIK Jabar",
+          "lat": -6.9377802,
+          "lng": 107.6773616
+        },
+        {
+          "id": 11079993716,
+          "name": "Terminal Ujungberung",
+          "lat": -6.9140461,
+          "lng": 107.7028132
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9069314,
+        "south": -6.9377802,
+        "east": 107.7028236,
+        "west": 107.6773616
+      },
+      "center_gmaps": {
+        "lat": -6.9223558,
+        "lng": 107.6900926
+      },
+      "jalan_dilalui": [
+        "Jalan Cicukang",
+        "Jalan Cisaranten Kulon",
+        "Jalan Abdul Haris Nasution"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/25_cisaranten_kulon_ke_ujungberung_19452155.geojson",
+        "ways": "output_geojson/ways/25_cisaranten_kulon_ke_ujungberung_19452155.geojson",
+        "endstops": "output_geojson/endstops/25_cisaranten_kulon_ke_ujungberung_19452155.geojson"
+      }
+    },
+    {
+      "kode_jalur": "19452156",
+      "nomor_trayek": "25",
+      "nama_rute": "Ujungberung → Cisaranten Kulon",
+      "label_jalur": "25: Ujungberung → Cisaranten Kulon",
+      "nama_file": "25_ujungberung_ke_cisaranten_kulon_19452156.geojson",
+      "jumlah_fitur_ways": 28,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 30,
+      "endstops_gmaps": [
+        {
+          "id": 11079993716,
+          "name": "Terminal Ujungberung",
+          "lat": -6.9140461,
+          "lng": 107.7028132
+        },
+        {
+          "id": 13064974006,
+          "name": "STMIK Jabar",
+          "lat": -6.9377802,
+          "lng": 107.6773616
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9069314,
+        "south": -6.9377802,
+        "east": 107.7032497,
+        "west": 107.6773616
+      },
+      "center_gmaps": {
+        "lat": -6.9223558,
+        "lng": 107.6903056
+      },
+      "jalan_dilalui": [
+        "Jalan Cicukang",
+        "Jalan Cisaranten Kulon",
+        "Jalan Abdul Haris Nasution"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/25_ujungberung_ke_cisaranten_kulon_19452156.geojson",
+        "ways": "output_geojson/ways/25_ujungberung_ke_cisaranten_kulon_19452156.geojson",
+        "endstops": "output_geojson/endstops/25_ujungberung_ke_cisaranten_kulon_19452156.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4294474",
+      "nomor_trayek": "26",
+      "nama_rute": "Cisitu → Tegallega",
+      "label_jalur": "26: Cisitu → Tegallega",
+      "nama_file": "26_cisitu_ke_tegallega_4294474.geojson",
+      "jumlah_fitur_ways": 81,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 83,
+      "endstops_gmaps": [
+        {
+          "id": 11313188130,
+          "name": "Pusdiklat Geologi Cisitu",
+          "lat": -6.8796668,
+          "lng": 107.6120709
+        },
+        {
+          "id": 3246190447,
+          "name": "Terminal Tegallega",
+          "lat": -6.9338128,
+          "lng": 107.6027695
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8796668,
+        "south": -6.9338577,
+        "east": 107.6129012,
+        "west": 107.5980572
+      },
+      "center_gmaps": {
+        "lat": -6.9067622,
+        "lng": 107.6054792
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Pajajaran",
+        "Jalan Cihampelas",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Kebon Kawung",
+        "Jalan Kebon Jati",
+        "Jalan Dulatip",
+        "Jalan Siliwangi",
+        "Jalan Tamansari",
+        "Jalan Sangkuriang",
+        "Jalan Cisitu Lama",
+        "Jalan Sumur Bandung",
+        "Jalan Kalipah Apo",
+        "Jalan Wastukencana",
+        "Jalan Wastukancana",
+        "Jalan Otto Iskandardinata",
+        "Jalan Jendral Sudirman",
+        "Jalan Astana Anyar"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/26_cisitu_ke_tegallega_4294474.geojson",
+        "ways": "output_geojson/ways/26_cisitu_ke_tegallega_4294474.geojson",
+        "endstops": "output_geojson/endstops/26_cisitu_ke_tegallega_4294474.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16646484",
+      "nomor_trayek": "26",
+      "nama_rute": "Tegallega → Cisitu",
+      "label_jalur": "26: Tegallega → Cisitu",
+      "nama_file": "26_tegallega_ke_cisitu_16646484.geojson",
+      "jumlah_fitur_ways": 99,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 101,
+      "endstops_gmaps": [
+        {
+          "id": 3246190447,
+          "name": "Terminal Tegallega",
+          "lat": -6.9338128,
+          "lng": 107.6027695
+        },
+        {
+          "id": 11313188130,
+          "name": "Pusdiklat Geologi Cisitu",
+          "lat": -6.8796668,
+          "lng": 107.6120709
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8796668,
+        "south": -6.9338128,
+        "east": 107.6120709,
+        "west": 107.5976232
+      },
+      "center_gmaps": {
+        "lat": -6.9067398,
+        "lng": 107.6048471
+      },
+      "jalan_dilalui": [
+        "Jalan Cihampelas",
+        "Jalan Kebon Kawung",
+        "Jalan Kebon Jati",
+        "Jalan Gardujati",
+        "Jalan Tamansari",
+        "Jalan Stasiun Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Sangkuriang",
+        "Jalan Cisitu Lama",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Suniaraja",
+        "Jalan Astana Anyar",
+        "Jalan Siliwangi",
+        "Jalan Pajajaran",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Wastukancana",
+        "Jalan Kebon Jukut",
+        "Jalan Aceh"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/26_tegallega_ke_cisitu_16646484.geojson",
+        "ways": "output_geojson/ways/26_tegallega_ke_cisitu_16646484.geojson",
+        "endstops": "output_geojson/endstops/26_tegallega_ke_cisitu_16646484.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4425956",
+      "nomor_trayek": "27",
+      "nama_rute": "Cijerah → Ciwastra → Derwati",
+      "label_jalur": "27: Cijerah → Ciwastra → Derwati",
+      "nama_file": "27_cijerah_ke_ciwastra_ke_derwati_4425956.geojson",
+      "jumlah_fitur_ways": 120,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 122,
+      "endstops_gmaps": [
+        {
+          "id": 3115112896,
+          "name": "Mesjid Jami Al Hamidah Cibolerang",
+          "lat": -6.9487566,
+          "lng": 107.565655
+        },
+        {
+          "id": 2518053983,
+          "name": "Simpang Derwati",
+          "lat": -6.9667195,
+          "lng": 107.6866274
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9334761,
+        "south": -6.9667195,
+        "east": 107.6868117,
+        "west": 107.565655
+      },
+      "center_gmaps": {
+        "lat": -6.9500978,
+        "lng": 107.6262334
+      },
+      "jalan_dilalui": [
+        "Jalan Marga Cinta",
+        "Jalan Derwati",
+        "Jalan Kyai Haji Wahid Hasyim",
+        "Jalan Pelajar Pejuang 45",
+        "Jalan Buah Batu",
+        "Marga Cinta",
+        "Jalan Cibolerang",
+        "Jalan Babakan Ciparay",
+        "Jalan Soekarno-Hatta",
+        "Jalan Peta",
+        "Jalan BKR",
+        "Jalan Caringin",
+        "Jalan Gedebage Selatan"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/27_cijerah_ke_ciwastra_ke_derwati_4425956.geojson",
+        "ways": "output_geojson/ways/27_cijerah_ke_ciwastra_ke_derwati_4425956.geojson",
+        "endstops": "output_geojson/endstops/27_cijerah_ke_ciwastra_ke_derwati_4425956.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16646697",
+      "nomor_trayek": "27",
+      "nama_rute": "Derwati → Ciwastra → Cijerah",
+      "label_jalur": "27: Derwati → Ciwastra → Cijerah",
+      "nama_file": "27_derwati_ke_ciwastra_ke_cijerah_16646697.geojson",
+      "jumlah_fitur_ways": 106,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 108,
+      "endstops_gmaps": [
+        {
+          "id": 2518053983,
+          "name": "Simpang Derwati",
+          "lat": -6.9667195,
+          "lng": 107.6866274
+        },
+        {
+          "id": 3115112896,
+          "name": "Mesjid Jami Al Hamidah Cibolerang",
+          "lat": -6.9487566,
+          "lng": 107.565655
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9371274,
+        "south": -6.9667195,
+        "east": 107.6868117,
+        "west": 107.565655
+      },
+      "center_gmaps": {
+        "lat": -6.9519234,
+        "lng": 107.6262334
+      },
+      "jalan_dilalui": [
+        "Jalan Terusan Kiara Condong",
+        "Jalan Derwati",
+        "Jalan BKR",
+        "Jalan Marga Cinta",
+        "Marga Cinta",
+        "Jalan Cibolerang",
+        "Jalan Kyai Haji Wahid Hasyim",
+        "Jalan Peta",
+        "Jalan Buah Batu",
+        "Jalan Soekarno-Hatta",
+        "Jalan Leuwi Panjang",
+        "Jalan Gedebage Selatan"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/27_derwati_ke_ciwastra_ke_cijerah_16646697.geojson",
+        "ways": "output_geojson/ways/27_derwati_ke_ciwastra_ke_cijerah_16646697.geojson",
+        "endstops": "output_geojson/endstops/27_derwati_ke_ciwastra_ke_cijerah_16646697.geojson"
+      }
+    },
+    {
+      "kode_jalur": "5517528",
+      "nomor_trayek": "28",
+      "nama_rute": "Elang → Gedebage → Ujungberung",
+      "label_jalur": "28: Elang → Gedebage → Ujungberung",
+      "nama_file": "28_elang_ke_gedebage_ke_ujungberung_5517528.geojson",
+      "jumlah_fitur_ways": 113,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 115,
+      "endstops_gmaps": [
+        {
+          "id": 12013198354,
+          "name": "Terminal Elang Damri",
+          "lat": -6.9144895,
+          "lng": 107.5753136
+        },
+        {
+          "id": 12638331186,
+          "name": "RSUD Ujungberung",
+          "lat": -6.9158662,
+          "lng": 107.6992861
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.913142,
+        "south": -6.9494645,
+        "east": 107.6992861,
+        "west": 107.5753136
+      },
+      "center_gmaps": {
+        "lat": -6.9313033,
+        "lng": 107.6372999
+      },
+      "jalan_dilalui": [
+        "Jalan Rajawali Timur",
+        "Jalan Pasir Salam",
+        "Jalan Otto Iskandardinata",
+        "Jalan Sriwijaya",
+        "Jalan Jamika",
+        "Jalan Soekarno-Hatta",
+        "Jalan Pungkur",
+        "Jalan Garuda",
+        "Jalan Jendral Sudirman",
+        "Jalan Pasir Koja",
+        "Jalan BKR",
+        "Soekarno Hatta Frontage Boulevard",
+        "Jalan Rumah Sakit",
+        "Jalan Peta",
+        "Jalan Kembar Timur II",
+        "Jalan Pasirluyu Timur",
+        "Jalan Pasirluyu Barat",
+        "Jalan Kembar Timur Raya",
+        "Jalan Kembar Timur I",
+        "Jalan Kembar VIII",
+        "Jalan Elang"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/28_elang_ke_gedebage_ke_ujungberung_5517528.geojson",
+        "ways": "output_geojson/ways/28_elang_ke_gedebage_ke_ujungberung_5517528.geojson",
+        "endstops": "output_geojson/endstops/28_elang_ke_gedebage_ke_ujungberung_5517528.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16648201",
+      "nomor_trayek": "28",
+      "nama_rute": "Ujungberung → Gedebage → Elang",
+      "label_jalur": "28: Ujungberung → Gedebage → Elang",
+      "nama_file": "28_ujungberung_ke_gedebage_ke_elang_16648201.geojson",
+      "jumlah_fitur_ways": 117,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 119,
+      "endstops_gmaps": [
+        {
+          "id": 12638331186,
+          "name": "RSUD Ujungberung",
+          "lat": -6.9158662,
+          "lng": 107.6992861
+        },
+        {
+          "id": 12013198354,
+          "name": "Terminal Elang Damri",
+          "lat": -6.9144895,
+          "lng": 107.5753136
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9144895,
+        "south": -6.9495692,
+        "east": 107.6992861,
+        "west": 107.5744371
+      },
+      "center_gmaps": {
+        "lat": -6.9320294,
+        "lng": 107.6368616
+      },
+      "jalan_dilalui": [
+        "Jalan Elang",
+        "Jalan Otto Iskandardinata",
+        "Jalan Pasir Salam",
+        "Jalan Panjunan",
+        "Jalan Jendral Sudirman",
+        "Jalan Kopo",
+        "Jalan Astana Anyar",
+        "Jalan Jamika",
+        "Jalan Soekarno-Hatta",
+        "Jalan BKR",
+        "Jalan Peta",
+        "Jalan Rumah Sakit",
+        "Bunderan Cibeureum",
+        "Jalan Pasir Koja",
+        "Soekarno Hatta Frontage Boulevard",
+        "Jalan Pasirluyu Barat",
+        "Jalan Pasirluyu Timur"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/28_ujungberung_ke_gedebage_ke_elang_16648201.geojson",
+        "ways": "output_geojson/ways/28_ujungberung_ke_gedebage_ke_elang_16648201.geojson",
+        "endstops": "output_geojson/endstops/28_ujungberung_ke_gedebage_ke_elang_16648201.geojson"
+      }
+    },
+    {
+      "kode_jalur": "18771773",
+      "nomor_trayek": "29",
+      "nama_rute": "Mengger → Soekarno Hatta (Mengger → Kalapa)",
+      "label_jalur": "29: Mengger → Soekarno Hatta (Mengger → Kalapa)",
+      "nama_file": "29_mengger_ke_soekarno_hatta_mengger_ke_kalapa_18771773.geojson",
+      "jumlah_fitur_ways": 29,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 31,
+      "endstops_gmaps": [
+        {
+          "id": 14050080720,
+          "name": "SD Negeri Dayeuhkolot 08, 09, 12",
+          "lat": -6.9840869,
+          "lng": 107.6290533
+        },
+        {
+          "id": 2744242982,
+          "name": "Titik Pemberhentian",
+          "lat": -6.949255,
+          "lng": 107.6213965
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.949255,
+        "south": -6.9840869,
+        "east": 107.6344088,
+        "west": 107.6213965
+      },
+      "center_gmaps": {
+        "lat": -6.966671,
+        "lng": 107.6279027
+      },
+      "jalan_dilalui": [
+        "Jalan Sukabirus",
+        "Jalan Sukapura",
+        "Jalan Menger Hilir",
+        "Jalan Sukaati",
+        "Jalan Soekarno-Hatta",
+        "Jalan Menger Tengah"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/29_mengger_ke_soekarno_hatta_mengger_ke_kalapa_18771773.geojson",
+        "ways": "output_geojson/ways/29_mengger_ke_soekarno_hatta_mengger_ke_kalapa_18771773.geojson",
+        "endstops": "output_geojson/endstops/29_mengger_ke_soekarno_hatta_mengger_ke_kalapa_18771773.geojson"
+      }
+    },
+    {
+      "kode_jalur": "18771772",
+      "nomor_trayek": "29",
+      "nama_rute": "Soekarno Hatta → Mengger (Kalapa → Mengger)",
+      "label_jalur": "29: Soekarno Hatta → Mengger (Kalapa → Mengger)",
+      "nama_file": "29_soekarno_hatta_ke_mengger_kalapa_ke_mengger_18771772.geojson",
+      "jumlah_fitur_ways": 43,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 45,
+      "endstops_gmaps": [
+        {
+          "id": 2744242982,
+          "name": "Titik Pemberhentian",
+          "lat": -6.949255,
+          "lng": 107.6213965
+        },
+        {
+          "id": 14050080720,
+          "name": "SD Negeri Dayeuhkolot 08, 09, 12",
+          "lat": -6.9840869,
+          "lng": 107.6290533
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9490241,
+        "south": -6.9840869,
+        "east": 107.6344088,
+        "west": 107.619664
+      },
+      "center_gmaps": {
+        "lat": -6.9665555,
+        "lng": 107.6270364
+      },
+      "jalan_dilalui": [
+        "Jalan Sukapura",
+        "Jalan Sukabirus",
+        "Jalan Menger Hilir",
+        "Jalan Soekarno-Hatta",
+        "Jalan Sukaati",
+        "Jalan Menger Tengah",
+        "Jalan Waas"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/29_soekarno_hatta_ke_mengger_kalapa_ke_mengger_18771772.geojson",
+        "ways": "output_geojson/ways/29_soekarno_hatta_ke_mengger_kalapa_ke_mengger_18771772.geojson",
+        "endstops": "output_geojson/endstops/29_soekarno_hatta_ke_mengger_kalapa_ke_mengger_18771772.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16650514",
+      "nomor_trayek": "30",
+      "nama_rute": "Cicadas → Kalapa",
+      "label_jalur": "30: Cicadas → Kalapa",
+      "nama_file": "30_cicadas_ke_kalapa_16650514.geojson",
+      "jumlah_fitur_ways": 104,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 106,
+      "endstops_gmaps": [
+        {
+          "id": 3248969440,
+          "name": "BTM",
+          "lat": -6.9113592,
+          "lng": 107.6435055
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9113592,
+        "south": -6.9392541,
+        "east": 107.6445583,
+        "west": 107.6054273
+      },
+      "center_gmaps": {
+        "lat": -6.9253066,
+        "lng": 107.6249928
+      },
+      "jalan_dilalui": [
+        "Jalan Dewi Sartika",
+        "Jalan Burangrang",
+        "Jalan Jenderal Gatot Subroto",
+        "Jalan Lengkong Besar",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Cikawao",
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Sadakeling",
+        "Jalan Talaga Bodas"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/30_cicadas_ke_kalapa_16650514.geojson",
+        "ways": "output_geojson/ways/30_cicadas_ke_kalapa_16650514.geojson",
+        "endstops": "output_geojson/endstops/30_cicadas_ke_kalapa_16650514.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16650513",
+      "nomor_trayek": "30",
+      "nama_rute": "Kalapa → Cicadas",
+      "label_jalur": "30: Kalapa → Cicadas",
+      "nama_file": "30_kalapa_ke_cicadas_16650513.geojson",
+      "jumlah_fitur_ways": 88,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 90,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 3248969440,
+          "name": "BTM",
+          "lat": -6.9113592,
+          "lng": 107.6435055
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9088325,
+        "south": -6.9317573,
+        "east": 107.6444657,
+        "west": 107.6058322
+      },
+      "center_gmaps": {
+        "lat": -6.9202949,
+        "lng": 107.6251489
+      },
+      "jalan_dilalui": [
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Burangrang",
+        "Jalan Lengkong Besar",
+        "Jalan Jenderal Gatot Subroto",
+        "Jalan Dalem Kaum",
+        "Jalan Cikawao",
+        "Jalan Dewi Sartika",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Jakarta",
+        "Jalan Sadakeling"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/30_kalapa_ke_cicadas_16650513.geojson",
+        "ways": "output_geojson/ways/30_kalapa_ke_cicadas_16650513.geojson",
+        "endstops": "output_geojson/endstops/30_kalapa_ke_cicadas_16650513.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16648408",
+      "nomor_trayek": "30",
+      "nama_rute": "Elang → Kalapa",
+      "label_jalur": "30: Elang → Kalapa",
+      "nama_file": "30_elang_ke_kalapa_16648408.geojson",
+      "jumlah_fitur_ways": 39,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 41,
+      "endstops_gmaps": [
+        {
+          "id": 13279832767,
+          "name": "Pangkalan Angkot Rajawali",
+          "lat": -6.9132715,
+          "lng": 107.5761151
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9132715,
+        "south": -6.9316877,
+        "east": 107.6058322,
+        "west": 107.5761151
+      },
+      "center_gmaps": {
+        "lat": -6.9224796,
+        "lng": 107.5909736
+      },
+      "jalan_dilalui": [
+        "Jalan Kebon Jati",
+        "Jalan Rajawali Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Dewi Sartika",
+        "Jalan Suniaraja",
+        "Jalan Ibu Inggit Ganarsih"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/30_elang_ke_kalapa_16648408.geojson",
+        "ways": "output_geojson/ways/30_elang_ke_kalapa_16648408.geojson",
+        "endstops": "output_geojson/endstops/30_elang_ke_kalapa_16648408.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16650512",
+      "nomor_trayek": "30",
+      "nama_rute": "Kalapa → Elang",
+      "label_jalur": "30: Kalapa → Elang",
+      "nama_file": "30_kalapa_ke_elang_16650512.geojson",
+      "jumlah_fitur_ways": 79,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 82,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 11711326972,
+          "name": "Plaza Telkom Rajawali",
+          "lat": -6.9129722,
+          "lng": 107.5753653
+        },
+        {
+          "id": 13279832767,
+          "name": "Pangkalan Angkot Rajawali",
+          "lat": -6.9132715,
+          "lng": 107.5761151
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9064531,
+        "south": -6.9276428,
+        "east": 107.6076488,
+        "west": 107.5729282
+      },
+      "center_gmaps": {
+        "lat": -6.917048,
+        "lng": 107.5902885
+      },
+      "jalan_dilalui": [
+        "Jalan Kebon Kawung",
+        "Jalan Aruna",
+        "Jalan Kasuari",
+        "Jalan Dadali",
+        "Jalan Stasiun Timur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Banceuy",
+        "Jalan Alun-alun Timur",
+        "Jalan Pajajaran",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Garuda",
+        "Jalan Dewi Sartika",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Ciroyom",
+        "Jalan Dalem Kaum",
+        "Jalan Asia Afrika",
+        "Jalan Rajawali Barat",
+        "Jalan Kebon Jukut",
+        "Jalan Suniaraja",
+        "Jalan Aceh",
+        "Jalan Arjuna",
+        "Jalan Layang Ciroyom",
+        "Jalan Rajawali Timur"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/30_kalapa_ke_elang_16650512.geojson",
+        "ways": "output_geojson/ways/30_kalapa_ke_elang_16650512.geojson",
+        "endstops": "output_geojson/endstops/30_kalapa_ke_elang_16650512.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4639769",
+      "nomor_trayek": "31",
+      "nama_rute": "Antapani → Ciroyom",
+      "label_jalur": "31: Antapani → Ciroyom",
+      "nama_file": "31_antapani_ke_ciroyom_4639769.geojson",
+      "jumlah_fitur_ways": 126,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 128,
+      "endstops_gmaps": [
+        {
+          "id": 3270445565,
+          "name": "Terminal Antapani",
+          "lat": -6.915304,
+          "lng": 107.6659285
+        },
+        {
+          "id": 3377329064,
+          "name": "Husein Pajajaran",
+          "lat": -6.9068423,
+          "lng": 107.588209
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9064531,
+        "south": -6.9186866,
+        "east": 107.6660397,
+        "west": 107.588209
+      },
+      "center_gmaps": {
+        "lat": -6.9125699,
+        "lng": 107.6271244
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Pajajaran",
+        "Jalan Kebon Kawung",
+        "Jalan Perintis Kemerdekaan",
+        "Jalan Bangka",
+        "Jalan Gudang Utara",
+        "Jalan Belitung",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Wastukancana",
+        "Jalan Sukabumi",
+        "Jalan Merdeka",
+        "Jalan Aceh",
+        "Jalan Sumatra",
+        "Jalan Laswi",
+        "Jalan Terusan Jakarta",
+        "Jalan Purwakarta",
+        "Jalan Cibatu",
+        "Jalan Jakarta",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Kuningan",
+        "Jalan Subang"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/31_antapani_ke_ciroyom_4639769.geojson",
+        "ways": "output_geojson/ways/31_antapani_ke_ciroyom_4639769.geojson",
+        "endstops": "output_geojson/endstops/31_antapani_ke_ciroyom_4639769.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4639770",
+      "nomor_trayek": "31",
+      "nama_rute": "Ciroyom → Antapani",
+      "label_jalur": "31: Ciroyom → Antapani",
+      "nama_file": "31_ciroyom_ke_antapani_4639770.geojson",
+      "jumlah_fitur_ways": 125,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 127,
+      "endstops_gmaps": [
+        {
+          "id": 3377329064,
+          "name": "Husein Pajajaran",
+          "lat": -6.9068423,
+          "lng": 107.588209
+        },
+        {
+          "id": 3270445565,
+          "name": "Terminal Antapani",
+          "lat": -6.915304,
+          "lng": 107.6659285
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9039773,
+        "south": -6.9178987,
+        "east": 107.6659285,
+        "west": 107.5876614
+      },
+      "center_gmaps": {
+        "lat": -6.910938,
+        "lng": 107.626795
+      },
+      "jalan_dilalui": [
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Purnawarman",
+        "Jalan Pajajaran",
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Cihampelas",
+        "Jalan Terusan Jakarta",
+        "Jalan Bangka",
+        "Jalan Gudang Utara",
+        "Jalan Kalimantan",
+        "Jalan Belitung",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Wastukancana",
+        "Jalan Subang",
+        "Jalan Aceh",
+        "Jalan Purwakarta",
+        "Jalan Cibatu",
+        "Jalan Kuningan"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/31_ciroyom_ke_antapani_4639770.geojson",
+        "ways": "output_geojson/ways/31_ciroyom_ke_antapani_4639770.geojson",
+        "endstops": "output_geojson/endstops/31_ciroyom_ke_antapani_4639770.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16650576",
+      "nomor_trayek": "32",
+      "nama_rute": "Cicadas → Cibiru → Panyileukan",
+      "label_jalur": "32: Cicadas → Cibiru → Panyileukan",
+      "nama_file": "32_cicadas_ke_cibiru_ke_panyileukan_16650576.geojson",
+      "jumlah_fitur_ways": 98,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 101,
+      "endstops_gmaps": [
+        {
+          "id": 3248969440,
+          "name": "BTM",
+          "lat": -6.9113592,
+          "lng": 107.6435055
+        },
+        {
+          "id": 12633822765,
+          "name": "Seberang Kiara Artha",
+          "lat": -6.9146708,
+          "lng": 107.6438226
+        },
+        {
+          "id": 10991362712,
+          "name": "Pangkalan Angkot Bumi Panyileukan",
+          "lat": -6.9466584,
+          "lng": 107.712912
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9113592,
+        "south": -6.9466743,
+        "east": 107.7179412,
+        "west": 107.6419467
+      },
+      "center_gmaps": {
+        "lat": -6.9290167,
+        "lng": 107.6799439
+      },
+      "jalan_dilalui": [
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Soekarno-Hatta",
+        "Soekarno Hatta Frontage Boulevard",
+        "Jalan Raya Bumi Panyileukan",
+        "Jalan Raya Panyileukan",
+        "Bunderan Cibiru"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/32_cicadas_ke_cibiru_ke_panyileukan_16650576.geojson",
+        "ways": "output_geojson/ways/32_cicadas_ke_cibiru_ke_panyileukan_16650576.geojson",
+        "endstops": "output_geojson/endstops/32_cicadas_ke_cibiru_ke_panyileukan_16650576.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16650577",
+      "nomor_trayek": "32",
+      "nama_rute": "Panyileukan → Cicadas",
+      "label_jalur": "32: Panyileukan → Cicadas",
+      "nama_file": "32_panyileukan_ke_cicadas_16650577.geojson",
+      "jumlah_fitur_ways": 96,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 99,
+      "endstops_gmaps": [
+        {
+          "id": 10991362712,
+          "name": "Pangkalan Angkot Bumi Panyileukan",
+          "lat": -6.9466584,
+          "lng": 107.712912
+        },
+        {
+          "id": 3248969440,
+          "name": "BTM",
+          "lat": -6.9113592,
+          "lng": 107.6435055
+        },
+        {
+          "id": 11735248694,
+          "name": "Jembar Awi Bitung",
+          "lat": -6.9107061,
+          "lng": 107.6395509
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9088325,
+        "south": -6.9466743,
+        "east": 107.7152034,
+        "west": 107.6344341
+      },
+      "center_gmaps": {
+        "lat": -6.9277534,
+        "lng": 107.6748187
+      },
+      "jalan_dilalui": [
+        "Jalan H. Ibrahim Adjie",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Jakarta",
+        "Jalan Soekarno-Hatta",
+        "Soekarno Hatta Frontage Boulevard",
+        "Jalan Raya Bumi Panyileukan",
+        "Jalan Raya Panyileukan",
+        "Jalan Letnan Jenderal Ibrahim Adjie"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/32_panyileukan_ke_cicadas_16650577.geojson",
+        "ways": "output_geojson/ways/32_panyileukan_ke_cicadas_16650577.geojson",
+        "endstops": "output_geojson/endstops/32_panyileukan_ke_cicadas_16650577.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4422550",
+      "nomor_trayek": "33",
+      "nama_rute": "Gedebage → Simpang Dago",
+      "label_jalur": "33: Gedebage → Simpang Dago",
+      "nama_file": "33_gedebage_ke_simpang_dago_4422550.geojson",
+      "jumlah_fitur_ways": 80,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 82,
+      "endstops_gmaps": [
+        {
+          "id": 3780800108,
+          "name": "Pasar Induk Gedebage",
+          "lat": -6.9364151,
+          "lng": 107.6972019
+        },
+        {
+          "id": 12637472327,
+          "name": "Surya Kencana",
+          "lat": -6.8948409,
+          "lng": 107.6144033
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8928327,
+        "south": -6.9364151,
+        "east": 107.6993906,
+        "west": 107.6139831
+      },
+      "center_gmaps": {
+        "lat": -6.9146239,
+        "lng": 107.6566868
+      },
+      "jalan_dilalui": [
+        "Jalan Merak",
+        "Jalan Dederuk",
+        "Jalan PH. H. Mustofa",
+        "Jalan Surapati",
+        "Jalan Haji Hasan",
+        "Jalan Penata Yudha",
+        "Jalan Kyai Gede Utama",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Dipatiukur",
+        "Jalan Cikutra",
+        "Jalan Abdul Haris Nasution",
+        "Jalan Pahlawan",
+        "Jalan Rumah Sakit",
+        "Jalan Japati",
+        "Jalan Puter",
+        "Jalan Wirayuda Timur",
+        "Jalan Hasanudin"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/33_gedebage_ke_simpang_dago_4422550.geojson",
+        "ways": "output_geojson/ways/33_gedebage_ke_simpang_dago_4422550.geojson",
+        "endstops": "output_geojson/endstops/33_gedebage_ke_simpang_dago_4422550.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4642924",
+      "nomor_trayek": "33",
+      "nama_rute": "Simpang Dago → Gedebage",
+      "label_jalur": "33: Simpang Dago → Gedebage",
+      "nama_file": "33_simpang_dago_ke_gedebage_4642924.geojson",
+      "jumlah_fitur_ways": 78,
+      "jumlah_fitur_endstops": 3,
+      "jumlah_fitur_gabungan": 81,
+      "endstops_gmaps": [
+        {
+          "id": 12637472327,
+          "name": "Surya Kencana",
+          "lat": -6.8948409,
+          "lng": 107.6144033
+        },
+        {
+          "id": 3780800108,
+          "name": "Pasar Induk Gedebage",
+          "lat": -6.9364151,
+          "lng": 107.6972019
+        },
+        {
+          "id": 11047579524,
+          "name": "UPTD Laboratorium Lingkungan Hidup",
+          "lat": -6.9074116,
+          "lng": 107.6864696
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.894833,
+        "south": -6.9364151,
+        "east": 107.6993906,
+        "west": 107.6144033
+      },
+      "center_gmaps": {
+        "lat": -6.915624,
+        "lng": 107.656897
+      },
+      "jalan_dilalui": [
+        "Jalan PH. H. Mustofa",
+        "Jalan Surapati",
+        "Jalan Pagergunung",
+        "Jalan Penata Yudha",
+        "Jalan Dipatiukur",
+        "Jalan Abdul Haris Nasution",
+        "Jalan Rumah Sakit",
+        "Jalan Jenderal Ahmad Yani",
+        "Jalan Hasanudin"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/33_simpang_dago_ke_gedebage_4642924.geojson",
+        "ways": "output_geojson/ways/33_simpang_dago_ke_gedebage_4642924.geojson",
+        "endstops": "output_geojson/endstops/33_simpang_dago_ke_gedebage_4642924.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4646137",
+      "nomor_trayek": "34",
+      "nama_rute": "Caringin → Sadang Serang",
+      "label_jalur": "34: Caringin → Sadang Serang",
+      "nama_file": "34_caringin_ke_sadang_serang_4646137.geojson",
+      "jumlah_fitur_ways": 125,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 127,
+      "endstops_gmaps": [
+        {
+          "id": 7484309659,
+          "name": "Barat Simpang Kopo Caringin",
+          "lat": -6.9467105,
+          "lng": 107.5879339
+        },
+        {
+          "id": 3252929646,
+          "name": "Terminal Sadang Serang",
+          "lat": -6.8912645,
+          "lng": 107.6249966
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8816134,
+        "south": -6.9467105,
+        "east": 107.6270847,
+        "west": 107.5657238
+      },
+      "center_gmaps": {
+        "lat": -6.914162,
+        "lng": 107.5964043
+      },
+      "jalan_dilalui": [
+        "Jalan dr. Rajiman",
+        "Jalan Dursasana",
+        "Jalan Rajawali Timur",
+        "Jalan Bojong Raya",
+        "Jalan Holis",
+        "Jalan Tubagus Ismail",
+        "Jalan Ganesha",
+        "Jalan Tamansari",
+        "Jalan Astina",
+        "Jalan Abdul Rivai",
+        "Jalan Abdul Rahman Saleh",
+        "Jalan Garuda",
+        "Jalan Wastukencana",
+        "Jalan Caringin",
+        "Jalan Raya Cijerah",
+        "Jalan Terminal Sadangserang",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Rajawali Barat",
+        "Jalan Wastukancana",
+        "Jalan Jendral Sudirman",
+        "Jalan Sadang Serang",
+        "Jalan Pajajaran",
+        "Bundaran Rajiman",
+        "Jalan Intan Raya",
+        "Jalan Layang Nurtanio"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/34_caringin_ke_sadang_serang_4646137.geojson",
+        "ways": "output_geojson/ways/34_caringin_ke_sadang_serang_4646137.geojson",
+        "endstops": "output_geojson/endstops/34_caringin_ke_sadang_serang_4646137.geojson"
+      }
+    },
+    {
+      "kode_jalur": "4294473",
+      "nomor_trayek": "34",
+      "nama_rute": "Sadang Serang → Caringin",
+      "label_jalur": "34: Sadang Serang → Caringin",
+      "nama_file": "34_sadang_serang_ke_caringin_4294473.geojson",
+      "jumlah_fitur_ways": 134,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 136,
+      "endstops_gmaps": [
+        {
+          "id": 3252929646,
+          "name": "Terminal Sadang Serang",
+          "lat": -6.8912645,
+          "lng": 107.6249966
+        },
+        {
+          "id": 7484309659,
+          "name": "Barat Simpang Kopo Caringin",
+          "lat": -6.9467105,
+          "lng": 107.5879339
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.883455,
+        "south": -6.9469287,
+        "east": 107.6252675,
+        "west": 107.5657238
+      },
+      "center_gmaps": {
+        "lat": -6.9151918,
+        "lng": 107.5954957
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Tamansari",
+        "Jalan L.L. RE. Martadinata",
+        "Jalan Purnawarman",
+        "Jalan Pajajaran",
+        "Jalan Kebon Kawung",
+        "Jalan Jendral Sudirman",
+        "Jalan Ir. H. Djuanda",
+        "Jalan Bojong Raya",
+        "Jalan Holis",
+        "Jalan Tubagus Ismail",
+        "Jalan Cikapayang",
+        "Jalan Sadang Tengah",
+        "Jalan Sawunggaling",
+        "Jalan Harian Banga",
+        "Jalan Rangga Gadang",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Siliwangi",
+        "Jalan Abdul Rahman Saleh",
+        "Jalan Garuda",
+        "Jalan Caringin",
+        "Jalan Babakan Ciparay",
+        "Jalan Sumur Bandung",
+        "Jalan Raya Cijerah",
+        "Jalan Soekarno-Hatta",
+        "Jalan Wastukancana",
+        "Jalan Sadang Serang",
+        "Jalan Kyai Haji Wahid Hasyim",
+        "Bunderan Cibeureum",
+        "Jalan Intan Raya",
+        "Jalan Layang Nurtanio"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/34_sadang_serang_ke_caringin_4294473.geojson",
+        "ways": "output_geojson/ways/34_sadang_serang_ke_caringin_4294473.geojson",
+        "endstops": "output_geojson/endstops/34_sadang_serang_ke_caringin_4294473.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16677494",
+      "nomor_trayek": "35",
+      "nama_rute": "Cibaduyut → Kalapa",
+      "label_jalur": "35: Cibaduyut → Kalapa",
+      "nama_file": "35_cibaduyut_ke_kalapa_16677494.geojson",
+      "jumlah_fitur_ways": 51,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 53,
+      "endstops_gmaps": [
+        {
+          "id": 11338633720,
+          "name": "Terminal Cibaduyut",
+          "lat": -6.9617658,
+          "lng": 107.5937757
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9276428,
+        "south": -6.9617658,
+        "east": 107.606653,
+        "west": 107.5870069
+      },
+      "center_gmaps": {
+        "lat": -6.9447043,
+        "lng": 107.59683
+      },
+      "jalan_dilalui": [
+        "Jalan Dewi Sartika",
+        "Jalan Mohammad Toha",
+        "Jalan Raya Cibaduyut",
+        "Jalan Keluar Terminal Leuwipanjang",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Peta",
+        "Jalan Kyai Haji Wahid Hasyim",
+        "Jalur Bus AKDP Terminal Leuwipanjang",
+        "Jalan Leuwi Panjang",
+        "Jalur Masuk Bus",
+        "Jalur Bus AKDP"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/35_cibaduyut_ke_kalapa_16677494.geojson",
+        "ways": "output_geojson/ways/35_cibaduyut_ke_kalapa_16677494.geojson",
+        "endstops": "output_geojson/endstops/35_cibaduyut_ke_kalapa_16677494.geojson"
+      }
+    },
+    {
+      "kode_jalur": "5517546",
+      "nomor_trayek": "35",
+      "nama_rute": "Kalapa → Cibaduyut",
+      "label_jalur": "35: Kalapa → Cibaduyut",
+      "nama_file": "35_kalapa_ke_cibaduyut_5517546.geojson",
+      "jumlah_fitur_ways": 27,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 29,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 11338633720,
+          "name": "Terminal Cibaduyut",
+          "lat": -6.9617658,
+          "lng": 107.5937757
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.9271992,
+        "south": -6.9617658,
+        "east": 107.6059454,
+        "west": 107.5930924
+      },
+      "center_gmaps": {
+        "lat": -6.9444825,
+        "lng": 107.5995189
+      },
+      "jalan_dilalui": [
+        "Jalan Otto Iskandardinata",
+        "Jalan Raya Cibaduyut",
+        "Jalan Pungkur",
+        "Jalan Peta",
+        "Jalan Leuwi Panjang",
+        "Jalan Dewi Sartika"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/35_kalapa_ke_cibaduyut_5517546.geojson",
+        "ways": "output_geojson/ways/35_kalapa_ke_cibaduyut_5517546.geojson",
+        "endstops": "output_geojson/endstops/35_kalapa_ke_cibaduyut_5517546.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16677558",
+      "nomor_trayek": "35",
+      "nama_rute": "Kalapa → Karangsetra",
+      "label_jalur": "35: Kalapa → Karangsetra",
+      "nama_file": "35_kalapa_ke_karangsetra_16677558.geojson",
+      "jumlah_fitur_ways": 60,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 62,
+      "endstops_gmaps": [
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        },
+        {
+          "id": 12634504453,
+          "name": "Karangsetra Waterland",
+          "lat": -6.8790317,
+          "lng": 107.5951798
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8778535,
+        "south": -6.9314197,
+        "east": 107.6059454,
+        "west": 107.5951569
+      },
+      "center_gmaps": {
+        "lat": -6.9046366,
+        "lng": 107.6005512
+      },
+      "jalan_dilalui": [
+        "Jalan Gardujati",
+        "Jalan Pasir Kaliki",
+        "Jalan Sukajadi",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Sindang Sirna",
+        "Jalan Pungkur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Astana Anyar",
+        "Jalan Dewi Sartika",
+        "Jalan Sirna Galih"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/35_kalapa_ke_karangsetra_16677558.geojson",
+        "ways": "output_geojson/ways/35_kalapa_ke_karangsetra_16677558.geojson",
+        "endstops": "output_geojson/endstops/35_kalapa_ke_karangsetra_16677558.geojson"
+      }
+    },
+    {
+      "kode_jalur": "16677557",
+      "nomor_trayek": "35",
+      "nama_rute": "Karangsetra → Kalapa",
+      "label_jalur": "35: Karangsetra → Kalapa",
+      "nama_file": "35_karangsetra_ke_kalapa_16677557.geojson",
+      "jumlah_fitur_ways": 101,
+      "jumlah_fitur_endstops": 2,
+      "jumlah_fitur_gabungan": 103,
+      "endstops_gmaps": [
+        {
+          "id": 12634504453,
+          "name": "Karangsetra Waterland",
+          "lat": -6.8790317,
+          "lng": 107.5951798
+        },
+        {
+          "id": 3374033509,
+          "name": "Terminal Abdul Muis/Kebon Kalapa",
+          "lat": -6.9276428,
+          "lng": 107.6058322
+        }
+      ],
+      "bounds_gmaps": {
+        "north": -6.8790317,
+        "south": -6.9316877,
+        "east": 107.6058322,
+        "west": 107.5951798
+      },
+      "center_gmaps": {
+        "lat": -6.9053597,
+        "lng": 107.600506
+      },
+      "jalan_dilalui": [
+        "Jalan Cicendo",
+        "Jalan Pajajaran",
+        "Jalan HOS. Cokroaminoto",
+        "Jalan Kebon Kawung",
+        "Jalan Kebon Jati",
+        "Jalan Sirna Galih",
+        "Jalan Cemara",
+        "Jalan Dokter Setiabudi",
+        "Jalan Jurang",
+        "Jalan Makmur",
+        "Jalan Profesor Christiaan Eijkman",
+        "Jalan Karangsari",
+        "Jalan Sederhana",
+        "Jalan Dulatip",
+        "Jalan Dewi Sartika",
+        "Jalan Pasir Kaliki",
+        "Jalan Pasteur",
+        "Jalan Pungkur",
+        "Jalan Otto Iskandardinata",
+        "Jalan Ibu Inggit Ganarsih",
+        "Jalan Astana Anyar",
+        "Jalan Jendral Sudirman",
+        "Jalan Raden Adipati Aria Wiranatakusumah",
+        "Jalan Dr. Setiabudi"
+      ],
+      "files": {
+        "gabungan": "output_geojson/gabungan/35_karangsetra_ke_kalapa_16677557.geojson",
+        "ways": "output_geojson/ways/35_karangsetra_ke_kalapa_16677557.geojson",
+        "endstops": "output_geojson/endstops/35_karangsetra_ke_kalapa_16677557.geojson"
+      }
+    }
+  ]
+}

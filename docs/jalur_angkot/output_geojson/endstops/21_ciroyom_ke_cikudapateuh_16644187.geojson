@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5917139,
+          -6.916555
+        ]
+      },
+      "properties": {
+        "id": 11735239268,
+        "bus": "yes",
+        "name": "SMA Trinitas",
+        "public_transport": "stop_position",
+        "kode_jalur": "16644187",
+        "folder_sumber": "route-data/geojson/16644187",
+        "kategori_data": "endstops",
+        "nomor_trayek": "21",
+        "nama_rute": "Ciroyom → Cikudapateuh",
+        "label_jalur": "21: Ciroyom → Cikudapateuh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5761151,
+          -6.9132715
+        ]
+      },
+      "properties": {
+        "id": 13279832767,
+        "bus": "yes",
+        "name": "Pangkalan Angkot Rajawali",
+        "public_transport": "stop_position",
+        "kode_jalur": "16644187",
+        "folder_sumber": "route-data/geojson/16644187",
+        "kategori_data": "endstops",
+        "nomor_trayek": "21",
+        "nama_rute": "Ciroyom → Cikudapateuh",
+        "label_jalur": "21: Ciroyom → Cikudapateuh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6258024,
+          -6.9189956
+        ]
+      },
+      "properties": {
+        "id": 12637510528,
+        "bus": "yes",
+        "name": "Stasiun Cikudapateuh",
+        "public_transport": "stop_position",
+        "kode_jalur": "16644187",
+        "folder_sumber": "route-data/geojson/16644187",
+        "kategori_data": "endstops",
+        "nomor_trayek": "21",
+        "nama_rute": "Ciroyom → Cikudapateuh",
+        "label_jalur": "21: Ciroyom → Cikudapateuh"
+      }
+    }
+  ]
+}

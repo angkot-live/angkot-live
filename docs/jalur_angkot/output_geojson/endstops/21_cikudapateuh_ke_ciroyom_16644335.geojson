@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6258024,
+          -6.9189956
+        ]
+      },
+      "properties": {
+        "id": 12637510528,
+        "bus": "yes",
+        "name": "Stasiun Cikudapateuh",
+        "public_transport": "stop_position",
+        "kode_jalur": "16644335",
+        "folder_sumber": "route-data/geojson/16644335",
+        "kategori_data": "endstops",
+        "nomor_trayek": "21",
+        "nama_rute": "Cikudapateuh → Ciroyom",
+        "label_jalur": "21: Cikudapateuh → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5753653,
+          -6.9129722
+        ]
+      },
+      "properties": {
+        "id": 11711326972,
+        "bus": "yes",
+        "name": "Plaza Telkom Rajawali",
+        "public_transport": "stop_position",
+        "kode_jalur": "16644335",
+        "folder_sumber": "route-data/geojson/16644335",
+        "kategori_data": "endstops",
+        "nomor_trayek": "21",
+        "nama_rute": "Cikudapateuh → Ciroyom",
+        "label_jalur": "21: Cikudapateuh → Ciroyom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5761151,
+          -6.9132715
+        ]
+      },
+      "properties": {
+        "id": 13279832767,
+        "bus": "yes",
+        "name": "Pangkalan Angkot Rajawali",
+        "public_transport": "stop_position",
+        "kode_jalur": "16644335",
+        "folder_sumber": "route-data/geojson/16644335",
+        "kategori_data": "endstops",
+        "nomor_trayek": "21",
+        "nama_rute": "Cikudapateuh → Ciroyom",
+        "label_jalur": "21: Cikudapateuh → Ciroyom"
+      }
+    }
+  ]
+}

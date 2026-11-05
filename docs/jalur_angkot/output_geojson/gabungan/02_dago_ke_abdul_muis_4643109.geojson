@@ -1,0 +1,4568 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106377,
+            -6.9069919
+          ],
+          [
+            107.6106352,
+            -6.9070989
+          ],
+          [
+            107.6106494,
+            -6.9075604
+          ],
+          [
+            107.610662,
+            -6.908124
+          ],
+          [
+            107.610666,
+            -6.9084915
+          ],
+          [
+            107.6106694,
+            -6.9088197
+          ],
+          [
+            107.6106685,
+            -6.9088817
+          ],
+          [
+            107.6106745,
+            -6.9090787
+          ],
+          [
+            107.6106708,
+            -6.9093054
+          ],
+          [
+            107.6106596,
+            -6.9096428
+          ],
+          [
+            107.6106582,
+            -6.909665
+          ],
+          [
+            107.610654,
+            -6.909795
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4251272,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight:signed": "no",
+        "name": "Jalan Merdeka",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6126165,
+            -6.9002542
+          ],
+          [
+            107.6125459,
+            -6.9003815
+          ],
+          [
+            107.6124172,
+            -6.9006199
+          ],
+          [
+            107.6122964,
+            -6.900873
+          ],
+          [
+            107.6121855,
+            -6.9011085
+          ],
+          [
+            107.6121507,
+            -6.9011874
+          ],
+          [
+            107.6120809,
+            -6.901358
+          ],
+          [
+            107.6120092,
+            -6.9015283
+          ],
+          [
+            107.6118987,
+            -6.9018178
+          ],
+          [
+            107.6118633,
+            -6.9019088
+          ],
+          [
+            107.611839,
+            -6.901967
+          ],
+          [
+            107.6116554,
+            -6.9024192
+          ],
+          [
+            107.6116146,
+            -6.9025169
+          ],
+          [
+            107.6114719,
+            -6.9028605
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4569037,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.614544,
+            -6.883455
+          ],
+          [
+            107.6142403,
+            -6.8837915
+          ],
+          [
+            107.6141828,
+            -6.8838787
+          ],
+          [
+            107.6141263,
+            -6.8840166
+          ],
+          [
+            107.6140088,
+            -6.8843693
+          ],
+          [
+            107.6139972,
+            -6.884404
+          ],
+          [
+            107.6138191,
+            -6.8850594
+          ],
+          [
+            107.6138172,
+            -6.8850668
+          ],
+          [
+            107.6138091,
+            -6.8850978
+          ],
+          [
+            107.6137886,
+            -6.8852066
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4569043,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6160516,
+            -6.8948686
+          ],
+          [
+            107.6157544,
+            -6.8948594
+          ],
+          [
+            107.6154198,
+            -6.8948516
+          ],
+          [
+            107.6153201,
+            -6.8948492
+          ],
+          [
+            107.6149218,
+            -6.8948399
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623282,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
+        "parking:both": "on_kerb",
+        "parking:both:orientation": "perpendicular",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6179955,
+            -6.8925877
+          ],
+          [
+            107.6180206,
+            -6.89264
+          ],
+          [
+            107.6180283,
+            -6.8926971
+          ],
+          [
+            107.6180394,
+            -6.8934141
+          ],
+          [
+            107.6180405,
+            -6.8934568
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623302,
+        "avgspeed": "15",
+        "destination": "Simpang Cikapayang",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6054273,
+            -6.9316877
+          ],
+          [
+            107.6055016,
+            -6.9311384
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4627151,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.612647,
+            -6.9262231
+          ],
+          [
+            107.6128857,
+            -6.926502
+          ],
+          [
+            107.6130005,
+            -6.9266412
+          ],
+          [
+            107.6130714,
+            -6.926733
+          ],
+          [
+            107.6131037,
+            -6.9268116
+          ],
+          [
+            107.6131248,
+            -6.9268697
+          ],
+          [
+            107.6131331,
+            -6.9269146
+          ],
+          [
+            107.6131443,
+            -6.9269688
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4637738,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "Jalan Lengkong Besar",
+        "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6129597,
+            -6.9294789
+          ],
+          [
+            107.6129328,
+            -6.9297497
+          ]
+        ]
+      },
+      "properties": {
+        "id": 105231309,
+        "bridge": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "layer": "1",
+        "name": "Jalan Lengkong Besar",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6129328,
+            -6.9297497
+          ],
+          [
+            107.6129278,
+            -6.9297903
+          ],
+          [
+            107.6128864,
+            -6.930269
+          ],
+          [
+            107.612861,
+            -6.9304102
+          ],
+          [
+            107.6128137,
+            -6.9306736
+          ],
+          [
+            107.6127761,
+            -6.9307702
+          ],
+          [
+            107.6126488,
+            -6.9309625
+          ],
+          [
+            107.6124017,
+            -6.9313355
+          ]
+        ]
+      },
+      "properties": {
+        "id": 105231312,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "Jalan Lengkong Besar",
+        "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6206417,
+            -6.8684727
+          ],
+          [
+            107.620646,
+            -6.8686285
+          ],
+          [
+            107.6206519,
+            -6.8688422
+          ],
+          [
+            107.6206514,
+            -6.8688958
+          ],
+          [
+            107.620651,
+            -6.8690356
+          ],
+          [
+            107.6206454,
+            -6.8691155
+          ],
+          [
+            107.6206364,
+            -6.8691703
+          ],
+          [
+            107.6205911,
+            -6.8693319
+          ],
+          [
+            107.620462,
+            -6.8697081
+          ],
+          [
+            107.6204257,
+            -6.8698198
+          ],
+          [
+            107.6202974,
+            -6.8702073
+          ],
+          [
+            107.620229,
+            -6.8704137
+          ],
+          [
+            107.6201882,
+            -6.8705599
+          ]
+        ]
+      },
+      "properties": {
+        "id": 159457434,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.606653,
+            -6.9318519
+          ],
+          [
+            107.6067033,
+            -6.9318589
+          ],
+          [
+            107.6067675,
+            -6.9318679
+          ],
+          [
+            107.6071921,
+            -6.9319271
+          ],
+          [
+            107.6072028,
+            -6.9319286
+          ],
+          [
+            107.6074894,
+            -6.9319668
+          ],
+          [
+            107.607795,
+            -6.9320075
+          ],
+          [
+            107.6084036,
+            -6.9320886
+          ],
+          [
+            107.6094967,
+            -6.9322343
+          ],
+          [
+            107.6095721,
+            -6.9322443
+          ],
+          [
+            107.6100523,
+            -6.9323083
+          ],
+          [
+            107.6106978,
+            -6.9323912
+          ],
+          [
+            107.6112601,
+            -6.93245
+          ],
+          [
+            107.6113455,
+            -6.9324444
+          ],
+          [
+            107.6114263,
+            -6.9324291
+          ]
+        ]
+      },
+      "properties": {
+        "id": 166336046,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
+        "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6127815,
+            -6.9179662
+          ],
+          [
+            107.6126586,
+            -6.918004
+          ],
+          [
+            107.6125556,
+            -6.9180605
+          ],
+          [
+            107.6124982,
+            -6.9181294
+          ],
+          [
+            107.6124801,
+            -6.9181686
+          ],
+          [
+            107.6124707,
+            -6.9182046
+          ],
+          [
+            107.6124572,
+            -6.9182764
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174269784,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Tamblong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6122092,
+            -6.9201091
+          ],
+          [
+            107.6121953,
+            -6.9202135
+          ],
+          [
+            107.612155,
+            -6.9205282
+          ],
+          [
+            107.6121207,
+            -6.9208351
+          ],
+          [
+            107.6120718,
+            -6.9213137
+          ],
+          [
+            107.6120281,
+            -6.9216096
+          ],
+          [
+            107.6120154,
+            -6.9217245
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174269805,
+        "avgspeed": "30",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "destination:lanes": "Lengkong;Karapitan|Pungkur;Karapitan;Inggit Ganarsih|Gedung Merdeka;Alun Alun;Otista;Sudirman",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Tamblong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6135654,
+            -6.9171914
+          ],
+          [
+            107.6135267,
+            -6.9173995
+          ],
+          [
+            107.6134884,
+            -6.9175076
+          ],
+          [
+            107.6134611,
+            -6.9175513
+          ],
+          [
+            107.6133877,
+            -6.9176597
+          ],
+          [
+            107.6132116,
+            -6.9178221
+          ],
+          [
+            107.6131121,
+            -6.917873
+          ],
+          [
+            107.6130287,
+            -6.9179018
+          ],
+          [
+            107.6127986,
+            -6.9179585
+          ],
+          [
+            107.6127815,
+            -6.9179662
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174269821,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "Jalan Sumatra",
+        "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "surface": "asphalt",
+        "turn:lanes": "sharp_left|slight_right|slight_right",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6120154,
+            -6.9217245
+          ],
+          [
+            107.6120004,
+            -6.9218318
+          ],
+          [
+            107.6119659,
+            -6.922102
+          ],
+          [
+            107.6119291,
+            -6.9224047
+          ],
+          [
+            107.6119134,
+            -6.9225354
+          ],
+          [
+            107.6118585,
+            -6.9230332
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174269832,
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "Jalan Lengkong Besar",
+        "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6139552,
+            -6.9149332
+          ],
+          [
+            107.6139821,
+            -6.9147604
+          ],
+          [
+            107.6139894,
+            -6.9147065
+          ],
+          [
+            107.6139967,
+            -6.9146525
+          ],
+          [
+            107.6140009,
+            -6.9145513
+          ],
+          [
+            107.6139982,
+            -6.9145008
+          ],
+          [
+            107.6139915,
+            -6.9144408
+          ],
+          [
+            107.6139902,
+            -6.9144289
+          ],
+          [
+            107.6139734,
+            -6.9143683
+          ],
+          [
+            107.6139539,
+            -6.914317
+          ],
+          [
+            107.61384,
+            -6.9141333
+          ],
+          [
+            107.6137642,
+            -6.9140077
+          ],
+          [
+            107.6137233,
+            -6.9139398
+          ],
+          [
+            107.6135925,
+            -6.9137192
+          ],
+          [
+            107.6135325,
+            -6.913618
+          ],
+          [
+            107.6135126,
+            -6.9135895
+          ],
+          [
+            107.6134268,
+            -6.9134665
+          ],
+          [
+            107.6133515,
+            -6.9133639
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174309305,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumatra",
+        "oneway": "no",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6144696,
+            -6.9121614
+          ],
+          [
+            107.6143524,
+            -6.9122063
+          ],
+          [
+            107.614276,
+            -6.9122351
+          ],
+          [
+            107.6142314,
+            -6.9122519
+          ],
+          [
+            107.6140321,
+            -6.912327
+          ],
+          [
+            107.6138475,
+            -6.9123969
+          ],
+          [
+            107.6138154,
+            -6.9124084
+          ],
+          [
+            107.6137534,
+            -6.9124309
+          ],
+          [
+            107.6134164,
+            -6.912564
+          ],
+          [
+            107.6132624,
+            -6.9126239
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174309310,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6180243,
+            -6.8939028
+          ],
+          [
+            107.6180053,
+            -6.8939499
+          ],
+          [
+            107.6178924,
+            -6.8941229
+          ],
+          [
+            107.6178302,
+            -6.8942182
+          ],
+          [
+            107.6177817,
+            -6.8942718
+          ],
+          [
+            107.6176835,
+            -6.8943336
+          ]
+        ]
+      },
+      "properties": {
+        "id": 175071632,
+        "access": "yes",
+        "bicycle": "yes",
+        "destination": "Simpang Cikapayang",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6137886,
+            -6.8852066
+          ],
+          [
+            107.6139251,
+            -6.885243
+          ],
+          [
+            107.6139482,
+            -6.8852493
+          ],
+          [
+            107.6140041,
+            -6.8852714
+          ],
+          [
+            107.6142554,
+            -6.885351
+          ],
+          [
+            107.6143025,
+            -6.885397
+          ]
+        ]
+      },
+      "properties": {
+        "id": 175071635,
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Dipatiukur",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6139066,
+            -6.9105285
+          ],
+          [
+            107.6140031,
+            -6.9107992
+          ],
+          [
+            107.6143276,
+            -6.9117506
+          ],
+          [
+            107.6144234,
+            -6.9120239
+          ],
+          [
+            107.6144696,
+            -6.9121614
+          ]
+        ]
+      },
+      "properties": {
+        "id": 177627670,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Kalimantan",
+        "oneway": "yes",
+        "ref": "2192",
+        "reg_ref": "22-10-2192",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6143025,
+            -6.885397
+          ],
+          [
+            107.6144095,
+            -6.8854607
+          ],
+          [
+            107.6144244,
+            -6.8854715
+          ],
+          [
+            107.6144864,
+            -6.8855164
+          ],
+          [
+            107.6145427,
+            -6.885571
+          ],
+          [
+            107.6146308,
+            -6.8856691
+          ],
+          [
+            107.6146614,
+            -6.8857145
+          ],
+          [
+            107.6147051,
+            -6.8858155
+          ],
+          [
+            107.6148464,
+            -6.8862613
+          ],
+          [
+            107.6148507,
+            -6.8862747
+          ],
+          [
+            107.6148713,
+            -6.8863397
+          ],
+          [
+            107.6149493,
+            -6.8865743
+          ],
+          [
+            107.6149671,
+            -6.8866267
+          ],
+          [
+            107.6150918,
+            -6.8870114
+          ],
+          [
+            107.6151092,
+            -6.8870641
+          ],
+          [
+            107.6152037,
+            -6.8873511
+          ],
+          [
+            107.6152406,
+            -6.8874631
+          ],
+          [
+            107.6152794,
+            -6.8875681
+          ],
+          [
+            107.6156977,
+            -6.8886991
+          ]
+        ]
+      },
+      "properties": {
+        "id": 192917041,
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.610654,
+            -6.909795
+          ],
+          [
+            107.610777,
+            -6.9097754
+          ],
+          [
+            107.6108205,
+            -6.9097714
+          ],
+          [
+            107.6109188,
+            -6.9097687
+          ],
+          [
+            107.6111566,
+            -6.9097687
+          ],
+          [
+            107.6116178,
+            -6.90977
+          ],
+          [
+            107.6117465,
+            -6.9097693
+          ],
+          [
+            107.6121344,
+            -6.9097777
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742821,
+        "cycleway:left": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "name": "Jalan Aceh",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6132624,
+            -6.9126239
+          ],
+          [
+            107.6132209,
+            -6.9126652
+          ],
+          [
+            107.6131878,
+            -6.9127127
+          ],
+          [
+            107.6131654,
+            -6.9127661
+          ],
+          [
+            107.6131547,
+            -6.9128228
+          ],
+          [
+            107.6131561,
+            -6.9128806
+          ],
+          [
+            107.6131733,
+            -6.9129717
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742824,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Sumatra",
+        "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6054273,
+            -6.9316877
+          ],
+          [
+            107.6059974,
+            -6.9317627
+          ],
+          [
+            107.6060299,
+            -6.9317669
+          ],
+          [
+            107.6064523,
+            -6.9318239
+          ],
+          [
+            107.606653,
+            -6.9318519
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742826,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
+        "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6126151,
+            -6.9098105
+          ],
+          [
+            107.6127279,
+            -6.909855
+          ],
+          [
+            107.6131518,
+            -6.9100607
+          ],
+          [
+            107.6137485,
+            -6.9103432
+          ],
+          [
+            107.6137788,
+            -6.9103556
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317743189,
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Aceh",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "yes",
+        "width": "4",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6159191,
+            -6.8816593
+          ],
+          [
+            107.6158852,
+            -6.8817296
+          ],
+          [
+            107.6158704,
+            -6.8817604
+          ],
+          [
+            107.6158262,
+            -6.8818469
+          ],
+          [
+            107.6156301,
+            -6.8821206
+          ],
+          [
+            107.6154895,
+            -6.8822866
+          ],
+          [
+            107.6153236,
+            -6.8825023
+          ],
+          [
+            107.6150295,
+            -6.8828849
+          ],
+          [
+            107.6150052,
+            -6.8829165
+          ],
+          [
+            107.614544,
+            -6.883455
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318231944,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6178188,
+            -6.8923923
+          ],
+          [
+            107.6179955,
+            -6.8925877
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318729557,
+        "bicycle": "yes",
+        "destination": "Simpang Cikapayang",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613998,
+            -6.8948395
+          ],
+          [
+            107.6134856,
+            -6.8948285
+          ],
+          [
+            107.6134343,
+            -6.8948263
+          ],
+          [
+            107.6133011,
+            -6.8948223
+          ],
+          [
+            107.6130874,
+            -6.8948127
+          ],
+          [
+            107.6130082,
+            -6.8948099
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318732962,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "destination:backward": "Ganesha;Institut Teknologi Bandung",
+        "destination:forward": "Universitas Padjadjaran;Adipati Ukur",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6130082,
+            -6.8948099
+          ],
+          [
+            107.612998,
+            -6.894936
+          ],
+          [
+            107.6129593,
+            -6.8955265
+          ],
+          [
+            107.6129333,
+            -6.8959108
+          ],
+          [
+            107.6128872,
+            -6.8972709
+          ],
+          [
+            107.6128835,
+            -6.8974296
+          ],
+          [
+            107.6128823,
+            -6.8975184
+          ],
+          [
+            107.6128793,
+            -6.8976563
+          ],
+          [
+            107.6128708,
+            -6.8979813
+          ],
+          [
+            107.6128502,
+            -6.8984279
+          ],
+          [
+            107.6128496,
+            -6.8984434
+          ],
+          [
+            107.6128476,
+            -6.8985302
+          ],
+          [
+            107.6128372,
+            -6.8987211
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318732963,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114263,
+            -6.9324291
+          ],
+          [
+            107.6115743,
+            -6.9323207
+          ],
+          [
+            107.6119021,
+            -6.9320223
+          ],
+          [
+            107.6121586,
+            -6.9316762
+          ],
+          [
+            107.6122593,
+            -6.9315442
+          ],
+          [
+            107.6124017,
+            -6.9313355
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318899762,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
+        "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6128191,
+            -6.899075
+          ],
+          [
+            107.6128173,
+            -6.899127
+          ],
+          [
+            107.6128108,
+            -6.8992342
+          ],
+          [
+            107.6127947,
+            -6.8995138
+          ],
+          [
+            107.6127715,
+            -6.8998296
+          ],
+          [
+            107.6127474,
+            -6.8999589
+          ],
+          [
+            107.6127265,
+            -6.90003
+          ],
+          [
+            107.6127066,
+            -6.9000784
+          ],
+          [
+            107.6126165,
+            -6.9002542
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319191950,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6180405,
+            -6.8934568
+          ],
+          [
+            107.6180406,
+            -6.8934879
+          ],
+          [
+            107.6180471,
+            -6.8937485
+          ],
+          [
+            107.6180433,
+            -6.8938273
+          ],
+          [
+            107.6180243,
+            -6.8939028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330996293,
+        "avgspeed": "15",
+        "destination": "Simpang Cikapayang",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613137,
+            -6.9274559
+          ],
+          [
+            107.6131272,
+            -6.9275689
+          ],
+          [
+            107.6130412,
+            -6.9283504
+          ],
+          [
+            107.6129922,
+            -6.9290293
+          ],
+          [
+            107.6129813,
+            -6.9291796
+          ],
+          [
+            107.6129684,
+            -6.9293583
+          ],
+          [
+            107.6129608,
+            -6.9294632
+          ],
+          [
+            107.6129597,
+            -6.9294789
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331562848,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "Jalan Lengkong Besar",
+        "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6118585,
+            -6.9230332
+          ],
+          [
+            107.6118166,
+            -6.9234656
+          ],
+          [
+            107.6117934,
+            -6.9237378
+          ],
+          [
+            107.611746,
+            -6.9242192
+          ],
+          [
+            107.6117142,
+            -6.9246889
+          ],
+          [
+            107.6117081,
+            -6.9247371
+          ],
+          [
+            107.6117028,
+            -6.9248556
+          ],
+          [
+            107.6117078,
+            -6.9249159
+          ],
+          [
+            107.6117224,
+            -6.9249903
+          ],
+          [
+            107.6117513,
+            -6.925068
+          ],
+          [
+            107.6117998,
+            -6.9251562
+          ],
+          [
+            107.6118687,
+            -6.9252698
+          ],
+          [
+            107.6119571,
+            -6.9254045
+          ],
+          [
+            107.6120282,
+            -6.9254956
+          ],
+          [
+            107.6120768,
+            -6.9255532
+          ],
+          [
+            107.6121706,
+            -6.9256697
+          ],
+          [
+            107.6126055,
+            -6.9261738
+          ],
+          [
+            107.6126274,
+            -6.9261996
+          ],
+          [
+            107.612647,
+            -6.9262231
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331562849,
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "Jalan Lengkong Besar",
+        "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6176835,
+            -6.8943336
+          ],
+          [
+            107.6175117,
+            -6.8946008
+          ],
+          [
+            107.6174318,
+            -6.8947388
+          ]
+        ]
+      },
+      "properties": {
+        "id": 340400259,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6258308,
+            -6.8633515
+          ],
+          [
+            107.6257288,
+            -6.8633156
+          ],
+          [
+            107.6254359,
+            -6.863256
+          ],
+          [
+            107.6253225,
+            -6.8632383
+          ],
+          [
+            107.6252469,
+            -6.863233
+          ],
+          [
+            107.62521,
+            -6.8632302
+          ],
+          [
+            107.6251572,
+            -6.8632365
+          ],
+          [
+            107.6251102,
+            -6.8632411
+          ],
+          [
+            107.6250315,
+            -6.863261
+          ],
+          [
+            107.6249591,
+            -6.86329
+          ],
+          [
+            107.6249041,
+            -6.8633221
+          ],
+          [
+            107.6248069,
+            -6.8633788
+          ],
+          [
+            107.6246534,
+            -6.8634784
+          ],
+          [
+            107.6245821,
+            -6.8635247
+          ],
+          [
+            107.6243344,
+            -6.8637055
+          ],
+          [
+            107.6242332,
+            -6.8637903
+          ],
+          [
+            107.6241992,
+            -6.8638187
+          ],
+          [
+            107.6241423,
+            -6.8638781
+          ],
+          [
+            107.624106,
+            -6.8639295
+          ],
+          [
+            107.624031,
+            -6.8640482
+          ],
+          [
+            107.6239435,
+            -6.8642353
+          ],
+          [
+            107.6238875,
+            -6.8643595
+          ],
+          [
+            107.623866,
+            -6.8643922
+          ],
+          [
+            107.6238634,
+            -6.8643961
+          ],
+          [
+            107.6238384,
+            -6.8644167
+          ]
+        ]
+      },
+      "properties": {
+        "id": 358799393,
+        "alt_name": "Jalan Dago",
+        "destination:backward": "Pakar;Resort;Golf;Cigadung",
+        "destination:forward": "Jajaway;Giri;Elos;Simpang",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "no",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6137788,
+            -6.9103556
+          ],
+          [
+            107.613845,
+            -6.9104133
+          ],
+          [
+            107.6139066,
+            -6.9105285
+          ]
+        ]
+      },
+      "properties": {
+        "id": 555588512,
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Kalimantan",
+        "oneway": "yes",
+        "ref": "2192",
+        "reg_ref": "22-10-2192",
+        "surface": "asphalt",
+        "width": "6",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6139552,
+            -6.9149332
+          ],
+          [
+            107.6138375,
+            -6.9156373
+          ],
+          [
+            107.6138145,
+            -6.9157591
+          ],
+          [
+            107.6138075,
+            -6.9157964
+          ],
+          [
+            107.6137957,
+            -6.9158688
+          ],
+          [
+            107.6137272,
+            -6.9162973
+          ],
+          [
+            107.6137087,
+            -6.9163993
+          ],
+          [
+            107.6135654,
+            -6.9171914
+          ]
+        ]
+      },
+      "properties": {
+        "id": 555601275,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumatra",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6210315,
+            -6.8664175
+          ],
+          [
+            107.6209571,
+            -6.8666587
+          ],
+          [
+            107.6209442,
+            -6.866704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 566883405,
+        "alt_name": "Jalan Dago",
+        "destination:backward": "Citra Green;Jajaway;Giri;Pakar",
+        "destination:forward": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221956,
+            -6.8652281
+          ],
+          [
+            107.6219105,
+            -6.8654294
+          ],
+          [
+            107.6216825,
+            -6.8655422
+          ],
+          [
+            107.6214718,
+            -6.8656235
+          ],
+          [
+            107.6213783,
+            -6.8656843
+          ],
+          [
+            107.6213318,
+            -6.8657216
+          ],
+          [
+            107.6212724,
+            -6.8657895
+          ],
+          [
+            107.6212138,
+            -6.8658951
+          ],
+          [
+            107.6211687,
+            -6.8659986
+          ],
+          [
+            107.6211032,
+            -6.8661989
+          ],
+          [
+            107.6210315,
+            -6.8664175
+          ]
+        ]
+      },
+      "properties": {
+        "id": 568085148,
+        "alt_name": "Jalan Dago",
+        "destination:backward": "Jajaway;Giri;Pakar;Resort",
+        "destination:forward": "Elos;Pojok;Tubagus Ismail;Simpang",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221956,
+            -6.8652281
+          ],
+          [
+            107.6223016,
+            -6.8651835
+          ],
+          [
+            107.6225451,
+            -6.8650353
+          ],
+          [
+            107.6230386,
+            -6.8647116
+          ],
+          [
+            107.6231641,
+            -6.8646661
+          ],
+          [
+            107.6233288,
+            -6.8645823
+          ],
+          [
+            107.6234072,
+            -6.8645128
+          ],
+          [
+            107.6234335,
+            -6.8644926
+          ],
+          [
+            107.6235083,
+            -6.8644733
+          ],
+          [
+            107.623615,
+            -6.864456
+          ],
+          [
+            107.6236863,
+            -6.86445
+          ],
+          [
+            107.6237802,
+            -6.8644351
+          ],
+          [
+            107.6238384,
+            -6.8644167
+          ]
+        ]
+      },
+      "properties": {
+        "id": 568085149,
+        "alt_name": "Jalan Dago",
+        "destination:backward": "Jajaway;Giri;Elos;Pojok",
+        "destination:forward": "Pakar;Resort;Golf;Cigadung",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "no",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6128372,
+            -6.8987211
+          ],
+          [
+            107.6128334,
+            -6.8988469
+          ]
+        ]
+      },
+      "properties": {
+        "id": 616108404,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6199983,
+            -6.8719092
+          ],
+          [
+            107.6199795,
+            -6.8721593
+          ],
+          [
+            107.6199654,
+            -6.8722691
+          ],
+          [
+            107.619948,
+            -6.8723443
+          ],
+          [
+            107.6198876,
+            -6.8725481
+          ],
+          [
+            107.6198713,
+            -6.8726033
+          ],
+          [
+            107.6198254,
+            -6.8727448
+          ],
+          [
+            107.6198038,
+            -6.8728123
+          ],
+          [
+            107.6197916,
+            -6.8728486
+          ],
+          [
+            107.6197552,
+            -6.8729452
+          ],
+          [
+            107.6196503,
+            -6.8732035
+          ],
+          [
+            107.6196077,
+            -6.8733034
+          ],
+          [
+            107.6195678,
+            -6.8734013
+          ],
+          [
+            107.6195237,
+            -6.8735097
+          ],
+          [
+            107.6194406,
+            -6.8737125
+          ],
+          [
+            107.6193653,
+            -6.8738941
+          ],
+          [
+            107.619258,
+            -6.8741499
+          ],
+          [
+            107.6192547,
+            -6.8741558
+          ],
+          [
+            107.6192025,
+            -6.8742729
+          ]
+        ]
+      },
+      "properties": {
+        "id": 686055352,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6128334,
+            -6.8988469
+          ],
+          [
+            107.6128191,
+            -6.899075
+          ]
+        ]
+      },
+      "properties": {
+        "id": 701735268,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6131733,
+            -6.9129717
+          ],
+          [
+            107.6132641,
+            -6.9131737
+          ],
+          [
+            107.6132994,
+            -6.9132491
+          ],
+          [
+            107.6133515,
+            -6.9133639
+          ]
+        ]
+      },
+      "properties": {
+        "id": 703831331,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumatra",
+        "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106627,
+            -6.9054976
+          ],
+          [
+            107.6106503,
+            -6.9058775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705051197,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6107033,
+            -6.9048304
+          ],
+          [
+            107.6106686,
+            -6.9050483
+          ],
+          [
+            107.6106661,
+            -6.9052611
+          ],
+          [
+            107.6106627,
+            -6.9054976
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705051198,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6168134,
+            -6.8905914
+          ],
+          [
+            107.6169111,
+            -6.890724
+          ],
+          [
+            107.6169359,
+            -6.8907603
+          ],
+          [
+            107.6170495,
+            -6.8909264
+          ],
+          [
+            107.61713,
+            -6.8910441
+          ],
+          [
+            107.617163,
+            -6.8910925
+          ],
+          [
+            107.6174351,
+            -6.8916075
+          ],
+          [
+            107.6174672,
+            -6.8916726
+          ],
+          [
+            107.6175776,
+            -6.8918986
+          ],
+          [
+            107.6177262,
+            -6.8922028
+          ],
+          [
+            107.6177764,
+            -6.8923055
+          ]
+        ]
+      },
+      "properties": {
+        "id": 777626648,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6166228,
+            -6.8903248
+          ],
+          [
+            107.6166372,
+            -6.8903228
+          ],
+          [
+            107.6166517,
+            -6.890328
+          ],
+          [
+            107.6166706,
+            -6.8903452
+          ],
+          [
+            107.6167537,
+            -6.8904642
+          ],
+          [
+            107.6168098,
+            -6.8905555
+          ],
+          [
+            107.6168134,
+            -6.8905914
+          ]
+        ]
+      },
+      "properties": {
+        "id": 777626649,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "1",
+        "name": "Jalan Dipatiukur",
+        "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.61235,
+            -6.918793
+          ],
+          [
+            107.6123364,
+            -6.9189576
+          ],
+          [
+            107.6122952,
+            -6.9194549
+          ],
+          [
+            107.6122402,
+            -6.9198677
+          ],
+          [
+            107.6122212,
+            -6.9200158
+          ],
+          [
+            107.6122183,
+            -6.920038
+          ],
+          [
+            107.6122118,
+            -6.9200856
+          ],
+          [
+            107.6122092,
+            -6.9201091
+          ]
+        ]
+      },
+      "properties": {
+        "id": 797845080,
+        "avgspeed": "30",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Asia Afrika;Alun Alun;Lengkong;Sudirman|Braga",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Tamblong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|right",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6109154,
+            -6.9042184
+          ],
+          [
+            107.610768,
+            -6.9046048
+          ],
+          [
+            107.6107382,
+            -6.9047096
+          ],
+          [
+            107.6107033,
+            -6.9048304
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1001386104,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6209351,
+            -6.8668623
+          ],
+          [
+            107.620889,
+            -6.8670356
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073721511,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6209442,
+            -6.866704
+          ],
+          [
+            107.6209483,
+            -6.8668113
+          ],
+          [
+            107.6209351,
+            -6.8668623
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073721512,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208429,
+            -6.8672088
+          ],
+          [
+            107.6207501,
+            -6.8675619
+          ],
+          [
+            107.6207137,
+            -6.8676929
+          ],
+          [
+            107.6206807,
+            -6.8678426
+          ],
+          [
+            107.6206511,
+            -6.8680596
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1109681932,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6121344,
+            -6.9097777
+          ],
+          [
+            107.6122207,
+            -6.9097673
+          ],
+          [
+            107.6122697,
+            -6.9097633
+          ],
+          [
+            107.6123913,
+            -6.909767
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110338263,
+        "cycleway:left": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Aceh",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114719,
+            -6.9028605
+          ],
+          [
+            107.611283,
+            -6.9033295
+          ],
+          [
+            107.6111215,
+            -6.9036893
+          ],
+          [
+            107.6109154,
+            -6.9042184
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112333857,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6201882,
+            -6.8705599
+          ],
+          [
+            107.6201463,
+            -6.8707238
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1201759733,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6201463,
+            -6.8707238
+          ],
+          [
+            107.6201056,
+            -6.870897
+          ],
+          [
+            107.6200895,
+            -6.8709736
+          ],
+          [
+            107.6200821,
+            -6.8710443
+          ],
+          [
+            107.6200784,
+            -6.8710758
+          ],
+          [
+            107.6200722,
+            -6.8711405
+          ],
+          [
+            107.6199983,
+            -6.8719092
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1201759734,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6192025,
+            -6.8742729
+          ],
+          [
+            107.6190947,
+            -6.8745294
+          ],
+          [
+            107.6187714,
+            -6.8753042
+          ],
+          [
+            107.6186574,
+            -6.8755473
+          ],
+          [
+            107.6185567,
+            -6.8757269
+          ],
+          [
+            107.6184188,
+            -6.875975
+          ],
+          [
+            107.6181983,
+            -6.8763036
+          ],
+          [
+            107.6181247,
+            -6.8764036
+          ],
+          [
+            107.6178937,
+            -6.8767176
+          ],
+          [
+            107.6178585,
+            -6.8767684
+          ],
+          [
+            107.6178022,
+            -6.8768497
+          ],
+          [
+            107.6174657,
+            -6.8773191
+          ],
+          [
+            107.6173296,
+            -6.8774811
+          ],
+          [
+            107.617015,
+            -6.8778557
+          ],
+          [
+            107.6169789,
+            -6.8779148
+          ],
+          [
+            107.6168786,
+            -6.8781163
+          ],
+          [
+            107.6168505,
+            -6.878201
+          ],
+          [
+            107.6167607,
+            -6.8785482
+          ],
+          [
+            107.6167343,
+            -6.8786478
+          ],
+          [
+            107.616662,
+            -6.8789171
+          ],
+          [
+            107.6164799,
+            -6.8795713
+          ],
+          [
+            107.6164021,
+            -6.8798727
+          ],
+          [
+            107.61635,
+            -6.8800793
+          ],
+          [
+            107.6162461,
+            -6.8804798
+          ],
+          [
+            107.6161028,
+            -6.8810181
+          ],
+          [
+            107.6160326,
+            -6.8812603
+          ],
+          [
+            107.6159337,
+            -6.881602
+          ],
+          [
+            107.6159191,
+            -6.8816593
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1201759737,
+        "alt_name": "Jalan Dago",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6123913,
+            -6.909767
+          ],
+          [
+            107.612472,
+            -6.9097787
+          ],
+          [
+            107.6126151,
+            -6.9098105
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218954353,
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Aceh",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "yes",
+        "width": "4",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6131443,
+            -6.9269688
+          ],
+          [
+            107.613137,
+            -6.9274559
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1220673725,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "Jalan Lengkong Besar",
+        "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6149218,
+            -6.8948399
+          ],
+          [
+            107.6148696,
+            -6.8948387
+          ],
+          [
+            107.6146258,
+            -6.894833
+          ],
+          [
+            107.6144033,
+            -6.8948409
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1222381629,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
+        "parking:left": "no",
+        "parking:right": "half_on_kerb",
+        "parking:right:orientation": "parallel",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6144033,
+            -6.8948409
+          ],
+          [
+            107.6143207,
+            -6.8948409
+          ],
+          [
+            107.613998,
+            -6.8948395
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1222381635,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "destination:backward": "Ganesha;Institut Teknologi Bandung",
+        "destination:forward": "Universitas Padjadjaran;Adipati Ukur",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
+        "parking:both": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106398,
+            -6.9067368
+          ],
+          [
+            107.6106394,
+            -6.9068332
+          ],
+          [
+            107.6106377,
+            -6.9069919
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225950502,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6177764,
+            -6.8923055
+          ],
+          [
+            107.6178188,
+            -6.8923923
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1263496577,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.620889,
+            -6.8670356
+          ],
+          [
+            107.6208429,
+            -6.8672088
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1279857972,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6124572,
+            -6.9182764
+          ],
+          [
+            107.6124385,
+            -6.9184149
+          ],
+          [
+            107.6124059,
+            -6.9186557
+          ],
+          [
+            107.6123835,
+            -6.9187317
+          ],
+          [
+            107.61235,
+            -6.918793
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1306065412,
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Tamblong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055016,
+            -6.9311384
+          ],
+          [
+            107.6055192,
+            -6.9309578
+          ],
+          [
+            107.6055259,
+            -6.9309078
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482654,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055259,
+            -6.9309078
+          ],
+          [
+            107.605557,
+            -6.9305299
+          ],
+          [
+            107.6055585,
+            -6.9305004
+          ],
+          [
+            107.6055781,
+            -6.930239
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482655,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055781,
+            -6.930239
+          ],
+          [
+            107.6055888,
+            -6.9300028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482656,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055888,
+            -6.9300028
+          ],
+          [
+            107.6055993,
+            -6.9298025
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482657,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055993,
+            -6.9298025
+          ],
+          [
+            107.6056708,
+            -6.9290327
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482658,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6056708,
+            -6.9290327
+          ],
+          [
+            107.6057162,
+            -6.9286824
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482659,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057162,
+            -6.9286824
+          ],
+          [
+            107.6057961,
+            -6.9281235
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482660,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057961,
+            -6.9281235
+          ],
+          [
+            107.6058055,
+            -6.928016
+          ],
+          [
+            107.6058217,
+            -6.9278434
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482661,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058217,
+            -6.9278434
+          ],
+          [
+            107.6058322,
+            -6.9276428
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482662,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6206511,
+            -6.8680596
+          ],
+          [
+            107.6206417,
+            -6.8684727
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532577,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6156977,
+            -6.8886991
+          ],
+          [
+            107.6158021,
+            -6.8889815
+          ],
+          [
+            107.6158539,
+            -6.889097
+          ],
+          [
+            107.6158888,
+            -6.8891749
+          ],
+          [
+            107.6160343,
+            -6.8894728
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1388852430,
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6160343,
+            -6.8894728
+          ],
+          [
+            107.6165653,
+            -6.8902412
+          ],
+          [
+            107.616618,
+            -6.8903175
+          ],
+          [
+            107.6166228,
+            -6.8903248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1388852431,
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6174318,
+            -6.8947388
+          ],
+          [
+            107.6166325,
+            -6.894853
+          ],
+          [
+            107.6160516,
+            -6.8948686
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1390136500,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106503,
+            -6.9058775
+          ],
+          [
+            107.610641,
+            -6.9065625
+          ],
+          [
+            107.6106398,
+            -6.9067368
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393609,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262609,
+            -6.865122
+          ],
+          [
+            107.6262916,
+            -6.8650403
+          ],
+          [
+            107.6263111,
+            -6.8649746
+          ],
+          [
+            107.6263279,
+            -6.8649158
+          ],
+          [
+            107.6263417,
+            -6.8648466
+          ],
+          [
+            107.626382,
+            -6.8646377
+          ],
+          [
+            107.6264262,
+            -6.8642856
+          ],
+          [
+            107.626435,
+            -6.8642052
+          ],
+          [
+            107.6264343,
+            -6.8641271
+          ],
+          [
+            107.6264245,
+            -6.8640062
+          ],
+          [
+            107.6264061,
+            -6.8639
+          ],
+          [
+            107.6263699,
+            -6.8638378
+          ],
+          [
+            107.6263361,
+            -6.8637902
+          ],
+          [
+            107.6261766,
+            -6.8636324
+          ],
+          [
+            107.6259528,
+            -6.8634381
+          ],
+          [
+            107.6258308,
+            -6.8633515
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1458243357,
+        "highway": "tertiary",
+        "name": "Jalan Raya Golf",
+        "oneway": "no",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262609,
+            -6.865122
+          ],
+          [
+            107.6263618,
+            -6.8651759
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1458243358,
+        "highway": "unclassified",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan Raya Dago Resort",
+        "surface": "asphalt",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "ways",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6263618,
+          -6.8651759
+        ]
+      },
+      "properties": {
+        "id": 13373645677,
+        "bus": "yes",
+        "name": "Resor Dago Pakar",
+        "public_transport": "stop_position",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "endstops",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6058322,
+          -6.9276428
+        ]
+      },
+      "properties": {
+        "id": 3374033509,
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Terminal Abdul Muis/Kebon Kalapa",
+        "public_transport": "stop_position",
+        "source": "TfB_UPIYM_2025",
+        "kode_jalur": "4643109",
+        "folder_sumber": "route-data/geojson/4643109",
+        "kategori_data": "endstops",
+        "nomor_trayek": "02",
+        "nama_rute": "Dago → Abdul Muis",
+        "label_jalur": "02: Dago → Abdul Muis"
+      }
+    }
+  ]
+}

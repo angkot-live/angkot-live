@@ -1,0 +1,5427 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193443,
+            -6.89924
+          ],
+          [
+            107.6193467,
+            -6.8993194
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4569020,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "ref": "387",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113963,
+            -6.8848321
+          ],
+          [
+            107.611608,
+            -6.8849268
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623277,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.608451,
+            -6.8938318
+          ],
+          [
+            107.60846,
+            -6.8936532
+          ],
+          [
+            107.6084558,
+            -6.8936249
+          ],
+          [
+            107.608426,
+            -6.8935213
+          ],
+          [
+            107.6083698,
+            -6.8933258
+          ],
+          [
+            107.6082212,
+            -6.8928049
+          ],
+          [
+            107.6081093,
+            -6.8923018
+          ],
+          [
+            107.6080495,
+            -6.8919857
+          ],
+          [
+            107.6080235,
+            -6.8916304
+          ],
+          [
+            107.6080495,
+            -6.8905569
+          ],
+          [
+            107.6080694,
+            -6.8898018
+          ],
+          [
+            107.6080711,
+            -6.8897574
+          ],
+          [
+            107.6081,
+            -6.8890127
+          ],
+          [
+            107.6080995,
+            -6.8888308
+          ],
+          [
+            107.6080995,
+            -6.8888141
+          ],
+          [
+            107.6080994,
+            -6.8887943
+          ],
+          [
+            107.6080994,
+            -6.8887783
+          ],
+          [
+            107.6081,
+            -6.8887636
+          ],
+          [
+            107.6081192,
+            -6.8883781
+          ],
+          [
+            107.6081595,
+            -6.8881431
+          ],
+          [
+            107.6082549,
+            -6.887912
+          ],
+          [
+            107.6083288,
+            -6.8878339
+          ],
+          [
+            107.6084586,
+            -6.8877649
+          ],
+          [
+            107.609232,
+            -6.8877401
+          ],
+          [
+            107.6093376,
+            -6.8877372
+          ],
+          [
+            107.6099421,
+            -6.8877204
+          ],
+          [
+            107.6103013,
+            -6.8876989
+          ],
+          [
+            107.6103445,
+            -6.8876924
+          ],
+          [
+            107.6104398,
+            -6.8876632
+          ],
+          [
+            107.610522,
+            -6.8876297
+          ],
+          [
+            107.6113304,
+            -6.8872945
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623278,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6370818,
+            -6.8984481
+          ],
+          [
+            107.637183,
+            -6.8984713
+          ],
+          [
+            107.6373036,
+            -6.8984993
+          ],
+          [
+            107.63734,
+            -6.8985077
+          ],
+          [
+            107.6374067,
+            -6.8985235
+          ],
+          [
+            107.6375247,
+            -6.8985515
+          ],
+          [
+            107.6376569,
+            -6.8985829
+          ],
+          [
+            107.6378565,
+            -6.8986302
+          ],
+          [
+            107.6379062,
+            -6.898642
+          ],
+          [
+            107.6379805,
+            -6.8986596
+          ],
+          [
+            107.6380614,
+            -6.8986788
+          ],
+          [
+            107.6382004,
+            -6.8987117
+          ],
+          [
+            107.6383016,
+            -6.8987357
+          ],
+          [
+            107.6385967,
+            -6.8988043
+          ],
+          [
+            107.6389496,
+            -6.8988893
+          ],
+          [
+            107.6392578,
+            -6.8989624
+          ],
+          [
+            107.6394338,
+            -6.8990042
+          ],
+          [
+            107.639528,
+            -6.8990264
+          ],
+          [
+            107.639689,
+            -6.8990635
+          ],
+          [
+            107.6397992,
+            -6.8990899
+          ],
+          [
+            107.6398962,
+            -6.8991138
+          ],
+          [
+            107.6399762,
+            -6.8991322
+          ],
+          [
+            107.640051,
+            -6.8991472
+          ],
+          [
+            107.6404383,
+            -6.8992417
+          ],
+          [
+            107.6405323,
+            -6.8992646
+          ],
+          [
+            107.6407134,
+            -6.8993075
+          ],
+          [
+            107.6407662,
+            -6.89932
+          ],
+          [
+            107.6408435,
+            -6.8993384
+          ],
+          [
+            107.6412764,
+            -6.899441
+          ],
+          [
+            107.641347,
+            -6.8994578
+          ],
+          [
+            107.6415516,
+            -6.8995076
+          ],
+          [
+            107.6416085,
+            -6.8995205
+          ],
+          [
+            107.6416794,
+            -6.8995366
+          ],
+          [
+            107.6416949,
+            -6.8995403
+          ],
+          [
+            107.6417385,
+            -6.8995506
+          ],
+          [
+            107.6417839,
+            -6.8995613
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4627223,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "destination:backward": "Simpang Pahlawan",
+        "destination:forward": "Simpang Cikutra",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan PH. H. Mustofa",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6132841,
+            -6.8988423
+          ],
+          [
+            107.6135004,
+            -6.898852
+          ],
+          [
+            107.6140011,
+            -6.8988575
+          ],
+          [
+            107.6147331,
+            -6.8988511
+          ],
+          [
+            107.615213,
+            -6.8988527
+          ],
+          [
+            107.6156959,
+            -6.8989008
+          ],
+          [
+            107.6158827,
+            -6.8989216
+          ],
+          [
+            107.6160286,
+            -6.8989397
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4632671,
+        "avgspeed": "30",
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6096733,
+            -6.898062
+          ],
+          [
+            107.609686,
+            -6.8980649
+          ],
+          [
+            107.6098477,
+            -6.8981018
+          ],
+          [
+            107.610121,
+            -6.8982089
+          ],
+          [
+            107.6102355,
+            -6.8982538
+          ],
+          [
+            107.6106335,
+            -6.8984212
+          ],
+          [
+            107.6107567,
+            -6.8984695
+          ],
+          [
+            107.6111644,
+            -6.8986221
+          ],
+          [
+            107.6115705,
+            -6.8987489
+          ],
+          [
+            107.6116278,
+            -6.8987668
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4633273,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cikapayang",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.600512,
+            -6.8825853
+          ],
+          [
+            107.6006286,
+            -6.8826207
+          ],
+          [
+            107.6008076,
+            -6.8826833
+          ],
+          [
+            107.6009948,
+            -6.8827158
+          ],
+          [
+            107.6012097,
+            -6.8827404
+          ],
+          [
+            107.6013166,
+            -6.8827564
+          ],
+          [
+            107.601438,
+            -6.882774
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4698221,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.643667,
+            -6.8999883
+          ],
+          [
+            107.6437562,
+            -6.9000026
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32360437,
+        "alt_name": "Jalan Suci",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan PH. H. Mustofa",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6437562,
+            -6.9000026
+          ],
+          [
+            107.6437845,
+            -6.9000071
+          ],
+          [
+            107.6438196,
+            -6.9000127
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32360440,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5977931,
+            -6.8782315
+          ],
+          [
+            107.597931,
+            -6.8785445
+          ],
+          [
+            107.5980445,
+            -6.8788022
+          ],
+          [
+            107.5980688,
+            -6.8788573
+          ],
+          [
+            107.5981465,
+            -6.8790417
+          ],
+          [
+            107.5981885,
+            -6.8791416
+          ],
+          [
+            107.5983115,
+            -6.8793952
+          ],
+          [
+            107.5983643,
+            -6.8795042
+          ],
+          [
+            107.5985332,
+            -6.8798525
+          ],
+          [
+            107.5985364,
+            -6.8798582
+          ],
+          [
+            107.5985525,
+            -6.8798922
+          ],
+          [
+            107.5985829,
+            -6.879955
+          ],
+          [
+            107.598747,
+            -6.8802981
+          ],
+          [
+            107.5987865,
+            -6.8803658
+          ],
+          [
+            107.5988461,
+            -6.8804679
+          ],
+          [
+            107.5989984,
+            -6.8807227
+          ],
+          [
+            107.5990764,
+            -6.8808677
+          ],
+          [
+            107.5990993,
+            -6.8809102
+          ],
+          [
+            107.5991857,
+            -6.8810641
+          ],
+          [
+            107.5993479,
+            -6.8813024
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153284261,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042802,
+            -6.8845469
+          ],
+          [
+            107.6043838,
+            -6.884563
+          ],
+          [
+            107.6044603,
+            -6.8845564
+          ],
+          [
+            107.6045313,
+            -6.884531
+          ],
+          [
+            107.6045769,
+            -6.8844938
+          ],
+          [
+            107.6046117,
+            -6.8844392
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153305903,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "ref": "249",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6049395,
+            -6.8832608
+          ],
+          [
+            107.6049967,
+            -6.8832539
+          ],
+          [
+            107.6050515,
+            -6.8832563
+          ],
+          [
+            107.6052149,
+            -6.8832636
+          ],
+          [
+            107.6053363,
+            -6.8832825
+          ],
+          [
+            107.6053996,
+            -6.8833005
+          ],
+          [
+            107.6054702,
+            -6.8833511
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153305906,
+        "avgspeed": "30",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6096024,
+            -6.8976029
+          ],
+          [
+            107.6096043,
+            -6.8975557
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153315566,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113963,
+            -6.8848321
+          ],
+          [
+            107.6113446,
+            -6.8848052
+          ],
+          [
+            107.6112344,
+            -6.8847532
+          ],
+          [
+            107.6106937,
+            -6.8845224
+          ],
+          [
+            107.6105207,
+            -6.8844699
+          ],
+          [
+            107.6102659,
+            -6.8844619
+          ],
+          [
+            107.6099548,
+            -6.8845045
+          ],
+          [
+            107.6096208,
+            -6.884582
+          ],
+          [
+            107.6091599,
+            -6.8847557
+          ],
+          [
+            107.608953,
+            -6.8848337
+          ],
+          [
+            107.6087276,
+            -6.8849119
+          ],
+          [
+            107.6086777,
+            -6.8849287
+          ],
+          [
+            107.6086137,
+            -6.8849345
+          ],
+          [
+            107.6085359,
+            -6.8849159
+          ],
+          [
+            107.6083984,
+            -6.8848437
+          ],
+          [
+            107.6082242,
+            -6.8847452
+          ],
+          [
+            107.6080413,
+            -6.8846429
+          ],
+          [
+            107.6079766,
+            -6.8846017
+          ],
+          [
+            107.6079042,
+            -6.8845857
+          ],
+          [
+            107.6078245,
+            -6.8845753
+          ],
+          [
+            107.6077048,
+            -6.8845833
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153340105,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "no",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6164572,
+            -6.8990452
+          ],
+          [
+            107.6177545,
+            -6.8992474
+          ],
+          [
+            107.6179645,
+            -6.899261
+          ],
+          [
+            107.6181289,
+            -6.8992635
+          ],
+          [
+            107.6184335,
+            -6.8992562
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153517384,
+        "avgspeed": "30",
+        "destination": "Gasibu;Jalaprang;Pahlawan;Cicaheum",
+        "highway": "trunk",
+        "lanes": "3",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6077048,
+            -6.8845833
+          ],
+          [
+            107.6073923,
+            -6.8846118
+          ]
+        ]
+      },
+      "properties": {
+        "id": 168549935,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Siliwangi",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6073923,
+            -6.8846118
+          ],
+          [
+            107.6072525,
+            -6.8846315
+          ],
+          [
+            107.6071679,
+            -6.8846428
+          ],
+          [
+            107.6071009,
+            -6.8846521
+          ],
+          [
+            107.6068836,
+            -6.8846722
+          ],
+          [
+            107.6068454,
+            -6.8846748
+          ],
+          [
+            107.6067435,
+            -6.8846483
+          ],
+          [
+            107.6065328,
+            -6.8845462
+          ],
+          [
+            107.6062473,
+            -6.8843143
+          ],
+          [
+            107.6061478,
+            -6.8842309
+          ],
+          [
+            107.6058912,
+            -6.8839573
+          ],
+          [
+            107.6057249,
+            -6.8837247
+          ],
+          [
+            107.6056396,
+            -6.8836088
+          ],
+          [
+            107.6056014,
+            -6.8835569
+          ]
+        ]
+      },
+      "properties": {
+        "id": 168549936,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6128493,
+            -6.8851146
+          ],
+          [
+            107.612879,
+            -6.8852017
+          ],
+          [
+            107.6128972,
+            -6.8852747
+          ],
+          [
+            107.6129012,
+            -6.885391
+          ]
+        ]
+      },
+      "properties": {
+        "id": 192917040,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumur Bandung",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6299279,
+            -6.9064699
+          ],
+          [
+            107.6300708,
+            -6.9063971
+          ],
+          [
+            107.6302217,
+            -6.9063503
+          ],
+          [
+            107.6303214,
+            -6.9063283
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676532,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5958267,
+            -6.874066
+          ],
+          [
+            107.5958839,
+            -6.8741085
+          ],
+          [
+            107.5959235,
+            -6.8741451
+          ],
+          [
+            107.5959994,
+            -6.8742507
+          ],
+          [
+            107.5960416,
+            -6.8743074
+          ],
+          [
+            107.596108,
+            -6.8744075
+          ],
+          [
+            107.5961314,
+            -6.8744453
+          ],
+          [
+            107.5962142,
+            -6.8745818
+          ],
+          [
+            107.5962411,
+            -6.8746244
+          ],
+          [
+            107.5962673,
+            -6.8746659
+          ],
+          [
+            107.5963577,
+            -6.8748045
+          ],
+          [
+            107.5964184,
+            -6.8748932
+          ],
+          [
+            107.5965371,
+            -6.8750912
+          ],
+          [
+            107.5966847,
+            -6.8753563
+          ],
+          [
+            107.5967496,
+            -6.8754896
+          ],
+          [
+            107.5967556,
+            -6.8755022
+          ],
+          [
+            107.5968567,
+            -6.8756963
+          ],
+          [
+            107.5969251,
+            -6.8757837
+          ],
+          [
+            107.5972243,
+            -6.8760098
+          ],
+          [
+            107.5973752,
+            -6.876119
+          ],
+          [
+            107.5974155,
+            -6.8761599
+          ],
+          [
+            107.59745,
+            -6.8762097
+          ],
+          [
+            107.5974932,
+            -6.8762915
+          ],
+          [
+            107.5975265,
+            -6.8763939
+          ],
+          [
+            107.5975398,
+            -6.8764616
+          ],
+          [
+            107.5975472,
+            -6.8765469
+          ],
+          [
+            107.597546,
+            -6.8766334
+          ],
+          [
+            107.5975168,
+            -6.8767863
+          ],
+          [
+            107.5975056,
+            -6.8768315
+          ],
+          [
+            107.59747,
+            -6.8769861
+          ],
+          [
+            107.5974504,
+            -6.877112
+          ],
+          [
+            107.5974554,
+            -6.877208
+          ],
+          [
+            107.5974773,
+            -6.8773209
+          ],
+          [
+            107.5975476,
+            -6.8775669
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676585,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6253576,
+            -6.9010411
+          ],
+          [
+            107.6256046,
+            -6.9010365
+          ],
+          [
+            107.6259572,
+            -6.9010164
+          ],
+          [
+            107.6261054,
+            -6.901032
+          ],
+          [
+            107.6261791,
+            -6.9010486
+          ],
+          [
+            107.6262773,
+            -6.9010795
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244703787,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "ref": "381",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262773,
+            -6.9010795
+          ],
+          [
+            107.6263699,
+            -6.9011304
+          ],
+          [
+            107.6264269,
+            -6.9011824
+          ],
+          [
+            107.6264718,
+            -6.9012333
+          ],
+          [
+            107.6265757,
+            -6.9013649
+          ],
+          [
+            107.6266563,
+            -6.9014902
+          ],
+          [
+            107.626915,
+            -6.9018846
+          ],
+          [
+            107.6273065,
+            -6.9024786
+          ],
+          [
+            107.6277159,
+            -6.9031136
+          ],
+          [
+            107.6282963,
+            -6.9039806
+          ],
+          [
+            107.6283353,
+            -6.9040429
+          ],
+          [
+            107.6284046,
+            -6.9041512
+          ],
+          [
+            107.6284431,
+            -6.9042079
+          ],
+          [
+            107.6287631,
+            -6.9046886
+          ],
+          [
+            107.6292288,
+            -6.9053923
+          ],
+          [
+            107.6297187,
+            -6.9061543
+          ],
+          [
+            107.6298346,
+            -6.9063292
+          ],
+          [
+            107.6299279,
+            -6.9064699
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244703790,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Supratman",
+        "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "380",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6350549,
+            -6.9019378
+          ],
+          [
+            107.6348987,
+            -6.9016374
+          ],
+          [
+            107.6348128,
+            -6.9014729
+          ],
+          [
+            107.634484,
+            -6.9008227
+          ],
+          [
+            107.6343436,
+            -6.9005363
+          ],
+          [
+            107.6342539,
+            -6.9003269
+          ],
+          [
+            107.6342453,
+            -6.9003068
+          ],
+          [
+            107.634226,
+            -6.9002535
+          ],
+          [
+            107.634169,
+            -6.9000823
+          ],
+          [
+            107.6341191,
+            -6.8999094
+          ],
+          [
+            107.6340678,
+            -6.8997079
+          ],
+          [
+            107.6340457,
+            -6.8996181
+          ],
+          [
+            107.6340202,
+            -6.8994968
+          ],
+          [
+            107.6339954,
+            -6.8993522
+          ],
+          [
+            107.6339847,
+            -6.8991547
+          ],
+          [
+            107.6339826,
+            -6.8991154
+          ],
+          [
+            107.6339837,
+            -6.8989889
+          ],
+          [
+            107.6339842,
+            -6.8989336
+          ],
+          [
+            107.6339847,
+            -6.8988729
+          ],
+          [
+            107.6340079,
+            -6.8985508
+          ],
+          [
+            107.6340622,
+            -6.8982024
+          ],
+          [
+            107.634127,
+            -6.8979661
+          ],
+          [
+            107.6341816,
+            -6.8977908
+          ]
+        ]
+      },
+      "properties": {
+        "id": 294992957,
+        "destination:backward": "Simpang Asrama Pussenif",
+        "destination:forward": "Simpang Pahlawan",
+        "destination:lanes:forward": "Jalaprang;PUSDAI;Gedung Sate;Dago|Cikutra;Cimuncang;Padasuka;Cicaheum",
+        "highway": "secondary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Pahlawan",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|right",
+        "turn:lanes:forward": "through|through;right",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6160286,
+            -6.8989397
+          ],
+          [
+            107.6160918,
+            -6.8989527
+          ],
+          [
+            107.6161796,
+            -6.8989698
+          ],
+          [
+            107.6163593,
+            -6.8990187
+          ],
+          [
+            107.6164572,
+            -6.8990452
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318051977,
+        "avgspeed": "30",
+        "destination": "Gasibu;Jalaprang;Pahlawan;Cicaheum",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6127424,
+            -6.8988496
+          ],
+          [
+            107.6128334,
+            -6.8988469
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318053626,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cikapayang",
+        "oneway": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6129012,
+            -6.885391
+          ],
+          [
+            107.6127803,
+            -6.8855865
+          ],
+          [
+            107.6127322,
+            -6.8856716
+          ],
+          [
+            107.6127217,
+            -6.8856909
+          ],
+          [
+            107.6126028,
+            -6.8859095
+          ],
+          [
+            107.6124501,
+            -6.886114
+          ],
+          [
+            107.6124063,
+            -6.8861467
+          ],
+          [
+            107.6123476,
+            -6.8861609
+          ],
+          [
+            107.6120373,
+            -6.8862094
+          ],
+          [
+            107.6120097,
+            -6.886218
+          ],
+          [
+            107.6119852,
+            -6.8862298
+          ],
+          [
+            107.611879,
+            -6.8863036
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318054780,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Sumur Bandung",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
+        "sidewalk:both": "separate",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5947487,
+            -6.8601046
+          ],
+          [
+            107.5947415,
+            -6.8601534
+          ],
+          [
+            107.5947299,
+            -6.8602278
+          ],
+          [
+            107.5946876,
+            -6.860499
+          ],
+          [
+            107.5946834,
+            -6.8605895
+          ],
+          [
+            107.594682,
+            -6.8607123
+          ],
+          [
+            107.594691,
+            -6.8607829
+          ],
+          [
+            107.5947113,
+            -6.8608802
+          ],
+          [
+            107.5947543,
+            -6.8609845
+          ],
+          [
+            107.5947885,
+            -6.8610543
+          ],
+          [
+            107.5948338,
+            -6.861136
+          ],
+          [
+            107.5948731,
+            -6.8611888
+          ],
+          [
+            107.5949141,
+            -6.8612418
+          ],
+          [
+            107.595009,
+            -6.861346
+          ],
+          [
+            107.5950885,
+            -6.8614258
+          ],
+          [
+            107.5951733,
+            -6.8614881
+          ],
+          [
+            107.595248,
+            -6.861538
+          ],
+          [
+            107.5954158,
+            -6.8616512
+          ],
+          [
+            107.5955484,
+            -6.8617416
+          ],
+          [
+            107.5958307,
+            -6.8619379
+          ],
+          [
+            107.5959866,
+            -6.8620463
+          ],
+          [
+            107.5961672,
+            -6.8621719
+          ],
+          [
+            107.5961991,
+            -6.8622073
+          ],
+          [
+            107.5962242,
+            -6.8622608
+          ],
+          [
+            107.5962237,
+            -6.8623248
+          ],
+          [
+            107.5962141,
+            -6.862385
+          ],
+          [
+            107.5961999,
+            -6.8624213
+          ],
+          [
+            107.5960469,
+            -6.8627747
+          ],
+          [
+            107.5959257,
+            -6.8629855
+          ],
+          [
+            107.5958359,
+            -6.8630694
+          ],
+          [
+            107.5957803,
+            -6.8631238
+          ],
+          [
+            107.5957352,
+            -6.8631536
+          ],
+          [
+            107.5956823,
+            -6.8631776
+          ],
+          [
+            107.5955819,
+            -6.8632153
+          ],
+          [
+            107.594751,
+            -6.8634425
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318054785,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6184335,
+            -6.8992562
+          ],
+          [
+            107.6189635,
+            -6.8992333
+          ],
+          [
+            107.6190223,
+            -6.899231
+          ],
+          [
+            107.6190829,
+            -6.8992313
+          ],
+          [
+            107.6192777,
+            -6.8992377
+          ],
+          [
+            107.6193443,
+            -6.89924
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318102033,
+        "avgspeed": "30",
+        "destination": "Jalaprang;Pahlawan;Cikutra;Cicaheum",
+        "destination:lanes": "PUSDAI;Jalaprang;Pahlawan|Diponegoro;Gedung Sate;Citarum|Diponegoro;Gedung Sate;Citarum",
+        "highway": "trunk",
+        "lanes": "3",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|right|right",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601438,
+            -6.882774
+          ],
+          [
+            107.6015569,
+            -6.8827985
+          ],
+          [
+            107.6017237,
+            -6.8828213
+          ],
+          [
+            107.6021029,
+            -6.8828925
+          ],
+          [
+            107.6023609,
+            -6.8829555
+          ],
+          [
+            107.6024888,
+            -6.8829949
+          ],
+          [
+            107.6025819,
+            -6.8830235
+          ],
+          [
+            107.6029936,
+            -6.8831527
+          ],
+          [
+            107.6030454,
+            -6.88317
+          ],
+          [
+            107.603268,
+            -6.883261
+          ],
+          [
+            107.6033875,
+            -6.8833091
+          ],
+          [
+            107.6034531,
+            -6.8833355
+          ],
+          [
+            107.6035506,
+            -6.8833918
+          ],
+          [
+            107.6036432,
+            -6.8834648
+          ],
+          [
+            107.6037953,
+            -6.8836394
+          ],
+          [
+            107.6039104,
+            -6.8837975
+          ],
+          [
+            107.6039405,
+            -6.8838513
+          ],
+          [
+            107.6040202,
+            -6.8839936
+          ],
+          [
+            107.6042133,
+            -6.8843933
+          ],
+          [
+            107.6042213,
+            -6.8844117
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318102560,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6121636,
+            -6.8850192
+          ],
+          [
+            107.6122735,
+            -6.885036
+          ],
+          [
+            107.6125035,
+            -6.8850711
+          ],
+          [
+            107.6126057,
+            -6.8850867
+          ],
+          [
+            107.6127212,
+            -6.8851043
+          ],
+          [
+            107.6128493,
+            -6.8851146
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222714,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6117833,
+            -6.8849494
+          ],
+          [
+            107.6121636,
+            -6.8850192
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222715,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.611608,
+            -6.8849268
+          ],
+          [
+            107.6116644,
+            -6.8849341
+          ],
+          [
+            107.6117833,
+            -6.8849494
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222716,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6434139,
+            -6.8999482
+          ],
+          [
+            107.6435297,
+            -6.8999663
+          ],
+          [
+            107.6436124,
+            -6.8999796
+          ],
+          [
+            107.643667,
+            -6.8999883
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318481954,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6438196,
+            -6.9000127
+          ],
+          [
+            107.6439328,
+            -6.9000256
+          ],
+          [
+            107.643984,
+            -6.9000314
+          ],
+          [
+            107.6442214,
+            -6.9000581
+          ],
+          [
+            107.6446479,
+            -6.9001485
+          ],
+          [
+            107.6446782,
+            -6.9001599
+          ],
+          [
+            107.6448952,
+            -6.9002413
+          ],
+          [
+            107.6449808,
+            -6.9002743
+          ],
+          [
+            107.6452068,
+            -6.9003719
+          ],
+          [
+            107.6452442,
+            -6.900388
+          ],
+          [
+            107.6452841,
+            -6.9004052
+          ],
+          [
+            107.6453987,
+            -6.9004547
+          ],
+          [
+            107.6455117,
+            -6.9005103
+          ],
+          [
+            107.6455998,
+            -6.9005537
+          ],
+          [
+            107.6457674,
+            -6.9006362
+          ],
+          [
+            107.6458421,
+            -6.900673
+          ],
+          [
+            107.6461092,
+            -6.9008033
+          ],
+          [
+            107.6461914,
+            -6.9008434
+          ],
+          [
+            107.6463329,
+            -6.9009168
+          ],
+          [
+            107.6464296,
+            -6.900967
+          ],
+          [
+            107.6469046,
+            -6.9012136
+          ],
+          [
+            107.6469293,
+            -6.9012264
+          ],
+          [
+            107.6474504,
+            -6.9014584
+          ],
+          [
+            107.6477192,
+            -6.901552
+          ],
+          [
+            107.6478569,
+            -6.9015852
+          ],
+          [
+            107.6480152,
+            -6.9016027
+          ],
+          [
+            107.6481316,
+            -6.9016115
+          ],
+          [
+            107.6484583,
+            -6.9016362
+          ],
+          [
+            107.6485627,
+            -6.9016441
+          ],
+          [
+            107.6490533,
+            -6.9016812
+          ],
+          [
+            107.6491826,
+            -6.901691
+          ],
+          [
+            107.6497732,
+            -6.9017359
+          ],
+          [
+            107.6500375,
+            -6.9017541
+          ],
+          [
+            107.650317,
+            -6.9017942
+          ],
+          [
+            107.6505985,
+            -6.9018158
+          ],
+          [
+            107.65075,
+            -6.9018006
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320405968,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6303214,
+            -6.9063283
+          ],
+          [
+            107.6303549,
+            -6.9062732
+          ],
+          [
+            107.6305171,
+            -6.9060357
+          ],
+          [
+            107.6306164,
+            -6.9059132
+          ],
+          [
+            107.6306329,
+            -6.9058904
+          ],
+          [
+            107.6312587,
+            -6.905028
+          ],
+          [
+            107.6316451,
+            -6.9044669
+          ],
+          [
+            107.6317894,
+            -6.9042688
+          ],
+          [
+            107.6320385,
+            -6.9039297
+          ],
+          [
+            107.6321582,
+            -6.903793
+          ],
+          [
+            107.6324558,
+            -6.9034531
+          ],
+          [
+            107.6329526,
+            -6.9030314
+          ],
+          [
+            107.6331455,
+            -6.9029229
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320430475,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6199195,
+            -6.9011743
+          ],
+          [
+            107.6208401,
+            -6.9011493
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330592460,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6054702,
+            -6.8833511
+          ],
+          [
+            107.6055036,
+            -6.8833821
+          ],
+          [
+            107.60553,
+            -6.883426
+          ],
+          [
+            107.605542,
+            -6.8834446
+          ],
+          [
+            107.6055809,
+            -6.8835005
+          ],
+          [
+            107.6056014,
+            -6.8835569
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330713250,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193536,
+            -6.8995642
+          ],
+          [
+            107.6193611,
+            -6.8998371
+          ],
+          [
+            107.6193648,
+            -6.89993
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331309153,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193648,
+            -6.89993
+          ],
+          [
+            107.6193767,
+            -6.9002364
+          ],
+          [
+            107.6194077,
+            -6.9010307
+          ],
+          [
+            107.6194103,
+            -6.9010674
+          ],
+          [
+            107.619419,
+            -6.9011883
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331309154,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6048818,
+            -6.8832929
+          ],
+          [
+            107.6049395,
+            -6.8832608
+          ]
+        ]
+      },
+      "properties": {
+        "id": 339026889,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6508611,
+            -6.9018087
+          ],
+          [
+            107.6511076,
+            -6.9018211
+          ],
+          [
+            107.6512496,
+            -6.9018282
+          ],
+          [
+            107.6514575,
+            -6.9018387
+          ],
+          [
+            107.6521919,
+            -6.901873
+          ],
+          [
+            107.6522785,
+            -6.9018762
+          ],
+          [
+            107.6525276,
+            -6.9018908
+          ],
+          [
+            107.6526167,
+            -6.9018971
+          ],
+          [
+            107.6528084,
+            -6.9019067
+          ]
+        ]
+      },
+      "properties": {
+        "id": 414435678,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6572534,
+            -6.9022149
+          ],
+          [
+            107.657269,
+            -6.9022844
+          ],
+          [
+            107.6572735,
+            -6.9023547
+          ],
+          [
+            107.6572781,
+            -6.9023809
+          ],
+          [
+            107.6572814,
+            -6.9024322
+          ],
+          [
+            107.6572943,
+            -6.9027453
+          ],
+          [
+            107.6572785,
+            -6.9027776
+          ],
+          [
+            107.6572637,
+            -6.9027902
+          ],
+          [
+            107.6572377,
+            -6.9027953
+          ],
+          [
+            107.6562671,
+            -6.9028353
+          ],
+          [
+            107.6562486,
+            -6.9024172
+          ]
+        ]
+      },
+      "properties": {
+        "id": 558964691,
+        "highway": "service",
+        "motor_vehicle": "destination",
+        "oneway": "yes",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6561365,
+            -6.9020684
+          ],
+          [
+            107.6561617,
+            -6.9020693
+          ],
+          [
+            107.6564574,
+            -6.9021108
+          ],
+          [
+            107.6566343,
+            -6.9021236
+          ],
+          [
+            107.6567969,
+            -6.9021302
+          ]
+        ]
+      },
+      "properties": {
+        "id": 558964693,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "turn:lanes": "through|through;right",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6567969,
+            -6.9021302
+          ],
+          [
+            107.6571681,
+            -6.9021368
+          ]
+        ]
+      },
+      "properties": {
+        "id": 558964695,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "turn:lanes": "left;through|through;right",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6528084,
+            -6.9019067
+          ],
+          [
+            107.6529821,
+            -6.9018754
+          ],
+          [
+            107.6534283,
+            -6.9019038
+          ],
+          [
+            107.6535715,
+            -6.9019129
+          ],
+          [
+            107.6536634,
+            -6.9019188
+          ],
+          [
+            107.6540692,
+            -6.901949
+          ],
+          [
+            107.6545235,
+            -6.9019873
+          ],
+          [
+            107.6548916,
+            -6.9020103
+          ],
+          [
+            107.6551205,
+            -6.9020246
+          ]
+        ]
+      },
+      "properties": {
+        "id": 558964699,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "yes",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6332551,
+            -6.9028646
+          ],
+          [
+            107.6333952,
+            -6.9027941
+          ],
+          [
+            107.6334718,
+            -6.902753
+          ],
+          [
+            107.6337467,
+            -6.9026114
+          ],
+          [
+            107.6338639,
+            -6.9025511
+          ],
+          [
+            107.6342515,
+            -6.9023515
+          ],
+          [
+            107.6346604,
+            -6.9021409
+          ],
+          [
+            107.6348067,
+            -6.9020656
+          ],
+          [
+            107.6350549,
+            -6.9019378
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561411466,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6331455,
+            -6.9029229
+          ],
+          [
+            107.6332551,
+            -6.9028646
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561411467,
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.611879,
+            -6.8863036
+          ],
+          [
+            107.6118097,
+            -6.8863918
+          ],
+          [
+            107.6117483,
+            -6.8864856
+          ],
+          [
+            107.6116943,
+            -6.8865813
+          ],
+          [
+            107.6116819,
+            -6.8865997
+          ],
+          [
+            107.6116475,
+            -6.8866461
+          ]
+        ]
+      },
+      "properties": {
+        "id": 567658695,
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Sumur Bandung",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6096024,
+            -6.8976029
+          ],
+          [
+            107.6095964,
+            -6.8977261
+          ]
+        ]
+      },
+      "properties": {
+        "id": 621040852,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5951942,
+            -6.85933
+          ],
+          [
+            107.5951855,
+            -6.8593963
+          ],
+          [
+            107.5951822,
+            -6.8594053
+          ],
+          [
+            107.5951748,
+            -6.8594103
+          ],
+          [
+            107.5948433,
+            -6.8593552
+          ]
+        ]
+      },
+      "properties": {
+        "id": 621050897,
+        "highway": "service",
+        "oneway": "yes",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113304,
+            -6.8872945
+          ],
+          [
+            107.6114034,
+            -6.8871911
+          ],
+          [
+            107.611494,
+            -6.8870741
+          ],
+          [
+            107.6115384,
+            -6.8870061
+          ]
+        ]
+      },
+      "properties": {
+        "id": 621093830,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5940961,
+            -6.8651081
+          ],
+          [
+            107.5940723,
+            -6.8653071
+          ],
+          [
+            107.5940489,
+            -6.8655021
+          ],
+          [
+            107.5940436,
+            -6.8655555
+          ],
+          [
+            107.5939941,
+            -6.866016
+          ],
+          [
+            107.59398,
+            -6.8661473
+          ],
+          [
+            107.5939484,
+            -6.8664124
+          ],
+          [
+            107.5939402,
+            -6.8664718
+          ],
+          [
+            107.5939135,
+            -6.8666897
+          ],
+          [
+            107.593824,
+            -6.8674042
+          ],
+          [
+            107.5937888,
+            -6.8677009
+          ],
+          [
+            107.5937561,
+            -6.8679333
+          ],
+          [
+            107.5937127,
+            -6.8682235
+          ],
+          [
+            107.5937093,
+            -6.8682462
+          ],
+          [
+            107.593703,
+            -6.868294
+          ],
+          [
+            107.5936933,
+            -6.8683616
+          ],
+          [
+            107.5936592,
+            -6.8686283
+          ],
+          [
+            107.5936527,
+            -6.8686846
+          ],
+          [
+            107.5936366,
+            -6.868816
+          ],
+          [
+            107.5936184,
+            -6.8689604
+          ],
+          [
+            107.5936057,
+            -6.869061
+          ],
+          [
+            107.5935721,
+            -6.8693613
+          ],
+          [
+            107.5935632,
+            -6.8694388
+          ],
+          [
+            107.5935337,
+            -6.8696955
+          ],
+          [
+            107.5935252,
+            -6.8697698
+          ],
+          [
+            107.5935167,
+            -6.8698675
+          ],
+          [
+            107.5935096,
+            -6.8699573
+          ],
+          [
+            107.593506,
+            -6.8701005
+          ],
+          [
+            107.5935249,
+            -6.8704256
+          ]
+        ]
+      },
+      "properties": {
+        "id": 708711416,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "40",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6551205,
+            -6.9020246
+          ],
+          [
+            107.6551401,
+            -6.9020243
+          ],
+          [
+            107.6552301,
+            -6.9020294
+          ],
+          [
+            107.6553398,
+            -6.9020357
+          ]
+        ]
+      },
+      "properties": {
+        "id": 734028484,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "oneway": "yes",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6249276,
+            -6.9010477
+          ],
+          [
+            107.6251195,
+            -6.9010442
+          ],
+          [
+            107.6252968,
+            -6.9010429
+          ]
+        ]
+      },
+      "properties": {
+        "id": 970620695,
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "ref": "381",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6122413,
+            -6.8988516
+          ],
+          [
+            107.6124765,
+            -6.8988513
+          ],
+          [
+            107.6125697,
+            -6.8988512
+          ],
+          [
+            107.6125995,
+            -6.8988514
+          ],
+          [
+            107.6127424,
+            -6.8988496
+          ]
+        ]
+      },
+      "properties": {
+        "id": 988307414,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cikapayang",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.612079,
+            -6.8988384
+          ],
+          [
+            107.6122413,
+            -6.8988516
+          ]
+        ]
+      },
+      "properties": {
+        "id": 988307415,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cikapayang",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193467,
+            -6.8993194
+          ],
+          [
+            107.6193483,
+            -6.8994321
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1000979252,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.594751,
+            -6.8634425
+          ],
+          [
+            107.5946342,
+            -6.8634956
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1030698156,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6115384,
+            -6.8870061
+          ],
+          [
+            107.6116475,
+            -6.8866461
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1079396132,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6128334,
+            -6.8988469
+          ],
+          [
+            107.6130623,
+            -6.8988431
+          ],
+          [
+            107.6131081,
+            -6.8988419
+          ],
+          [
+            107.6132841,
+            -6.8988423
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1079472307,
+        "avgspeed": "30",
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975476,
+            -6.8775669
+          ],
+          [
+            107.5976126,
+            -6.8777607
+          ],
+          [
+            107.5976714,
+            -6.8779208
+          ],
+          [
+            107.5977931,
+            -6.8782315
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112114707,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6116278,
+            -6.8987668
+          ],
+          [
+            107.6117839,
+            -6.898802
+          ],
+          [
+            107.6120472,
+            -6.8988327
+          ],
+          [
+            107.612079,
+            -6.8988384
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1127468683,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cikapayang",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6557405,
+            -6.9020533
+          ],
+          [
+            107.6561365,
+            -6.9020684
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1193893100,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6341816,
+            -6.8977908
+          ],
+          [
+            107.6343318,
+            -6.8978054
+          ],
+          [
+            107.6344445,
+            -6.8978256
+          ],
+          [
+            107.6345958,
+            -6.8978604
+          ],
+          [
+            107.6349905,
+            -6.8979512
+          ],
+          [
+            107.6353023,
+            -6.8980235
+          ],
+          [
+            107.6357319,
+            -6.8981263
+          ],
+          [
+            107.6358307,
+            -6.8981511
+          ],
+          [
+            107.6360412,
+            -6.8982085
+          ],
+          [
+            107.6360827,
+            -6.8982198
+          ],
+          [
+            107.6361323,
+            -6.8982307
+          ],
+          [
+            107.6362093,
+            -6.8982483
+          ],
+          [
+            107.6363508,
+            -6.8982807
+          ],
+          [
+            107.6365297,
+            -6.8983213
+          ],
+          [
+            107.6367332,
+            -6.8983675
+          ],
+          [
+            107.6369176,
+            -6.8984093
+          ],
+          [
+            107.6369418,
+            -6.8984148
+          ],
+          [
+            107.6369918,
+            -6.8984267
+          ],
+          [
+            107.6370818,
+            -6.8984481
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1198544273,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "destination:backward": "Simpang Pahlawan",
+        "destination:forward": "Simpang Cikutra",
+        "destination:lanes:backward": "Pussenif;Supratman;Taman Pramuka;Diponegoro|Taman Makam Pahlawan;Cikutra;Cigadung;Sadang Serang",
+        "destination:lanes:forward": "ITENAS|",
+        "highway": "trunk",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan PH. H. Mustofa",
+        "turn:lanes:backward": "left;slight_left|slight_left;right",
+        "turn:lanes:forward": "left;through|through",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6095795,
+            -6.8979008
+          ],
+          [
+            107.6095922,
+            -6.8979707
+          ],
+          [
+            107.6096191,
+            -6.8980197
+          ],
+          [
+            107.6096733,
+            -6.898062
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1206588580,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "primary_link",
+        "oneway": "yes",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5993479,
+            -6.8813024
+          ],
+          [
+            107.5994309,
+            -6.8814326
+          ],
+          [
+            107.5994716,
+            -6.8814891
+          ],
+          [
+            107.5996471,
+            -6.8817279
+          ],
+          [
+            107.5996965,
+            -6.881795
+          ],
+          [
+            107.6000907,
+            -6.8822275
+          ],
+          [
+            107.6001689,
+            -6.8823036
+          ],
+          [
+            107.6003584,
+            -6.8824654
+          ],
+          [
+            107.600512,
+            -6.8825853
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218966651,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.619419,
+            -6.9011883
+          ],
+          [
+            107.6195383,
+            -6.9011835
+          ],
+          [
+            107.6199195,
+            -6.9011743
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218970842,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6252968,
+            -6.9010429
+          ],
+          [
+            107.6253576,
+            -6.9010411
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1219011435,
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "ref": "381",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5936179,
+            -6.8707823
+          ],
+          [
+            107.5937463,
+            -6.8711539
+          ],
+          [
+            107.5937922,
+            -6.8712782
+          ],
+          [
+            107.593895,
+            -6.8715029
+          ],
+          [
+            107.5940693,
+            -6.8717924
+          ],
+          [
+            107.5944136,
+            -6.8722322
+          ],
+          [
+            107.5948065,
+            -6.8727176
+          ],
+          [
+            107.5949802,
+            -6.8729249
+          ],
+          [
+            107.5951113,
+            -6.8730936
+          ],
+          [
+            107.5955371,
+            -6.8736221
+          ],
+          [
+            107.5956623,
+            -6.8737793
+          ],
+          [
+            107.5956814,
+            -6.8738055
+          ],
+          [
+            107.5956912,
+            -6.8738171
+          ],
+          [
+            107.5957307,
+            -6.8738828
+          ],
+          [
+            107.5957592,
+            -6.8739356
+          ],
+          [
+            107.5957878,
+            -6.8739884
+          ],
+          [
+            107.5958267,
+            -6.874066
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1223297639,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.65075,
+            -6.9018006
+          ],
+          [
+            107.6508611,
+            -6.9018087
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227688992,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6046117,
+            -6.8844392
+          ],
+          [
+            107.6047937,
+            -6.8836231
+          ],
+          [
+            107.6048307,
+            -6.8834525
+          ],
+          [
+            107.6048509,
+            -6.8833592
+          ],
+          [
+            107.6048818,
+            -6.8832929
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1228056285,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5935249,
+            -6.8704256
+          ],
+          [
+            107.5936179,
+            -6.8707823
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1228093028,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6417839,
+            -6.8995613
+          ],
+          [
+            107.6420026,
+            -6.8996132
+          ],
+          [
+            107.6420884,
+            -6.8996335
+          ],
+          [
+            107.6421976,
+            -6.8996594
+          ],
+          [
+            107.6422944,
+            -6.8996824
+          ],
+          [
+            107.6424647,
+            -6.8997229
+          ],
+          [
+            107.6426735,
+            -6.8997726
+          ],
+          [
+            107.64279,
+            -6.8998003
+          ],
+          [
+            107.642932,
+            -6.8998339
+          ],
+          [
+            107.6429728,
+            -6.8998436
+          ],
+          [
+            107.6431044,
+            -6.8998716
+          ],
+          [
+            107.6434139,
+            -6.8999482
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1243260036,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "destination:backward": "Simpang Pahlawan",
+        "destination:forward": "Simpang Cikutra",
+        "destination:lanes:backward": "Sekepanjang|",
+        "destination:lanes:forward": "Bojongkoneng;Pasir Leutik;Mekar Saluyu|Rumah Sakit Santo Yusuf;Cicadas;Kiaracondong",
+        "highway": "trunk",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan PH. H. Mustofa",
+        "turn:lanes:backward": "left;through|through",
+        "turn:lanes:forward": "left;through|through;right",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6095964,
+            -6.8977261
+          ],
+          [
+            107.6095907,
+            -6.8977903
+          ],
+          [
+            107.609583,
+            -6.8978619
+          ],
+          [
+            107.6095795,
+            -6.8979008
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1244068453,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6096043,
+            -6.8975557
+          ],
+          [
+            107.6096138,
+            -6.8972132
+          ],
+          [
+            107.6096181,
+            -6.8970719
+          ],
+          [
+            107.6096252,
+            -6.8968375
+          ],
+          [
+            107.6096228,
+            -6.89681
+          ],
+          [
+            107.6096158,
+            -6.8967239
+          ],
+          [
+            107.6095891,
+            -6.8965712
+          ],
+          [
+            107.6095531,
+            -6.8963864
+          ],
+          [
+            107.6095485,
+            -6.896363
+          ],
+          [
+            107.6095093,
+            -6.8962232
+          ],
+          [
+            107.6094951,
+            -6.8961724
+          ],
+          [
+            107.6094398,
+            -6.8959853
+          ],
+          [
+            107.6093504,
+            -6.8957793
+          ],
+          [
+            107.6089556,
+            -6.8950833
+          ],
+          [
+            107.6088926,
+            -6.8949846
+          ],
+          [
+            107.6088287,
+            -6.8948846
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1244068454,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5948433,
+            -6.8593552
+          ],
+          [
+            107.5948312,
+            -6.8594241
+          ],
+          [
+            107.5948088,
+            -6.859551
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1258718409,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5948052,
+            -6.8595708
+          ],
+          [
+            107.594757,
+            -6.8600369
+          ],
+          [
+            107.5947527,
+            -6.8600724
+          ],
+          [
+            107.5947487,
+            -6.8601046
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1258718410,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5948088,
+            -6.859551
+          ],
+          [
+            107.5948052,
+            -6.8595708
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1258718411,
+        "alt_name": "Jalan Dokter Setiabudhi",
+        "avgspeed": "40",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Dr. Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "short_name": "Jalan Dr. Setiabudhi",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6571681,
+            -6.9021368
+          ],
+          [
+            107.6572534,
+            -6.9022149
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1279015054,
+        "highway": "service",
+        "oneway": "yes",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193483,
+            -6.8994321
+          ],
+          [
+            107.6193491,
+            -6.8994587
+          ],
+          [
+            107.6193536,
+            -6.8995642
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1384732951,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5946342,
+            -6.8634956
+          ],
+          [
+            107.594575,
+            -6.8635338
+          ],
+          [
+            107.5945119,
+            -6.8636016
+          ],
+          [
+            107.594469,
+            -6.8636686
+          ],
+          [
+            107.5943936,
+            -6.8638479
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429001950,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "no",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5943936,
+            -6.8638479
+          ],
+          [
+            107.5943935,
+            -6.8639227
+          ],
+          [
+            107.594376,
+            -6.8640132
+          ],
+          [
+            107.5942986,
+            -6.8642872
+          ],
+          [
+            107.5942475,
+            -6.8644965
+          ],
+          [
+            107.594221,
+            -6.8646108
+          ],
+          [
+            107.5941843,
+            -6.8648198
+          ],
+          [
+            107.5941464,
+            -6.8650627
+          ],
+          [
+            107.5940961,
+            -6.8651081
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429001952,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6553398,
+            -6.9020357
+          ],
+          [
+            107.6555577,
+            -6.9020453
+          ],
+          [
+            107.6557405,
+            -6.9020533
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1430454716,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "oneway": "yes",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208401,
+            -6.9011493
+          ],
+          [
+            107.6213033,
+            -6.9011378
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389956,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6213033,
+            -6.9011378
+          ],
+          [
+            107.6216766,
+            -6.9011285
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389957,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6216766,
+            -6.9011285
+          ],
+          [
+            107.6221254,
+            -6.9011174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389958,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221254,
+            -6.9011174
+          ],
+          [
+            107.6224081,
+            -6.9011103
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389959,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6224081,
+            -6.9011103
+          ],
+          [
+            107.6234934,
+            -6.9010834
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389960,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6234934,
+            -6.9010834
+          ],
+          [
+            107.6236693,
+            -6.901079
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389961,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6236693,
+            -6.901079
+          ],
+          [
+            107.6238119,
+            -6.9010754
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389962,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6238119,
+            -6.9010754
+          ],
+          [
+            107.6241876,
+            -6.9010661
+          ],
+          [
+            107.6246942,
+            -6.9010535
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389963,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6246942,
+            -6.9010535
+          ],
+          [
+            107.6249276,
+            -6.9010477
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389964,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042611,
+            -6.884503
+          ],
+          [
+            107.6042802,
+            -6.8845469
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1466015977,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042213,
+            -6.8844117
+          ],
+          [
+            107.6042611,
+            -6.884503
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1466015978,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6088287,
+            -6.8948846
+          ],
+          [
+            107.6087143,
+            -6.8947151
+          ],
+          [
+            107.6086646,
+            -6.8946314
+          ],
+          [
+            107.6086077,
+            -6.8945355
+          ],
+          [
+            107.6085721,
+            -6.8944755
+          ],
+          [
+            107.6085446,
+            -6.8944122
+          ],
+          [
+            107.6085108,
+            -6.8943345
+          ],
+          [
+            107.6084937,
+            -6.8942855
+          ],
+          [
+            107.6084661,
+            -6.8942039
+          ],
+          [
+            107.6084541,
+            -6.894096
+          ],
+          [
+            107.6084513,
+            -6.8939744
+          ],
+          [
+            107.608451,
+            -6.8938318
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1540167893,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4637081",
+        "folder_sumber": "route-data/geojson/4637081",
+        "kategori_data": "ways",
+        "nomor_trayek": "05",
+        "nama_rute": "Ledeng → Cicaheum",
+        "label_jalur": "05: Ledeng → Cicaheum"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5879339,
+          -6.9467105
+        ]
+      },
+      "properties": {
+        "id": 7484309659,
+        "bus": "yes",
+        "name": "Barat Simpang Kopo Caringin",
+        "public_transport": "stop_position",
+        "kode_jalur": "4646137",
+        "folder_sumber": "route-data/geojson/4646137",
+        "kategori_data": "endstops",
+        "nomor_trayek": "34",
+        "nama_rute": "Caringin → Sadang Serang",
+        "label_jalur": "34: Caringin → Sadang Serang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6249966,
+          -6.8912645
+        ]
+      },
+      "properties": {
+        "id": 3252929646,
+        "bus": "yes",
+        "name": "Terminal Sadang Serang",
+        "public_transport": "stop_position",
+        "kode_jalur": "4646137",
+        "folder_sumber": "route-data/geojson/4646137",
+        "kategori_data": "endstops",
+        "nomor_trayek": "34",
+        "nama_rute": "Caringin → Sadang Serang",
+        "label_jalur": "34: Caringin → Sadang Serang"
+      }
+    }
+  ]
+}

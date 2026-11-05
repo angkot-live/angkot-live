@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5951942,
+          -6.85933
+        ]
+      },
+      "properties": {
+        "id": 11711070002,
+        "bus": "yes",
+        "name": "Terminal Ledeng",
+        "public_transport": "stop_position",
+        "kode_jalur": "4636013",
+        "folder_sumber": "route-data/geojson/4636013",
+        "kategori_data": "endstops",
+        "nomor_trayek": "03",
+        "nama_rute": "Ledeng → Abdul Muis",
+        "label_jalur": "03: Ledeng → Abdul Muis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6058322,
+          -6.9276428
+        ]
+      },
+      "properties": {
+        "id": 3374033509,
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Terminal Abdul Muis/Kebon Kalapa",
+        "public_transport": "stop_position",
+        "source": "TfB_UPIYM_2025",
+        "kode_jalur": "4636013",
+        "folder_sumber": "route-data/geojson/4636013",
+        "kategori_data": "endstops",
+        "nomor_trayek": "03",
+        "nama_rute": "Ledeng → Abdul Muis",
+        "label_jalur": "03: Ledeng → Abdul Muis"
+      }
+    }
+  ]
+}

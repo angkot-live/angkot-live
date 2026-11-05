@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6249966,
+          -6.8912645
+        ]
+      },
+      "properties": {
+        "id": 3252929646,
+        "bus": "yes",
+        "name": "Terminal Sadang Serang",
+        "public_transport": "stop_position",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "endstops",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.604546,
+          -6.9153572
+        ]
+      },
+      "properties": {
+        "id": 11262097619,
+        "bus": "yes",
+        "name": "Stasiun Timur",
+        "public_transport": "stop_position",
+        "kode_jalur": "4642211",
+        "folder_sumber": "route-data/geojson/4642211",
+        "kategori_data": "endstops",
+        "nomor_trayek": "10",
+        "nama_rute": "Sadang Serang → Stasiun Hall",
+        "label_jalur": "10: Sadang Serang → Stasiun Hall"
+      }
+    }
+  ]
+}

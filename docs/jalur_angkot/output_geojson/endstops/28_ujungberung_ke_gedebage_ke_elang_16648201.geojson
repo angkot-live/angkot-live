@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6992861,
+          -6.9158662
+        ]
+      },
+      "properties": {
+        "id": 12638331186,
+        "bus": "yes",
+        "name": "RSUD Ujungberung",
+        "public_transport": "stop_position",
+        "kode_jalur": "16648201",
+        "folder_sumber": "route-data/geojson/16648201",
+        "kategori_data": "endstops",
+        "nomor_trayek": "28",
+        "nama_rute": "Ujungberung → Gedebage → Elang",
+        "label_jalur": "28: Ujungberung → Gedebage → Elang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5753136,
+          -6.9144895
+        ]
+      },
+      "properties": {
+        "id": 12013198354,
+        "bus": "yes",
+        "name": "Terminal Elang Damri",
+        "public_transport": "stop_position",
+        "kode_jalur": "16648201",
+        "folder_sumber": "route-data/geojson/16648201",
+        "kategori_data": "endstops",
+        "nomor_trayek": "28",
+        "nama_rute": "Ujungberung → Gedebage → Elang",
+        "label_jalur": "28: Ujungberung → Gedebage → Elang"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2921 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982824,
+            -6.9187314
+          ],
+          [
+            107.5983085,
+            -6.9194279
+          ],
+          [
+            107.5983096,
+            -6.9194582
+          ],
+          [
+            107.5983293,
+            -6.919971
+          ],
+          [
+            107.5983308,
+            -6.92001
+          ],
+          [
+            107.5983366,
+            -6.920102
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567705,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Gardujati",
+        "name:ja": "ガルドゥジャティ通り",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.597321,
+            -6.898017
+          ],
+          [
+            107.5973143,
+            -6.897839
+          ],
+          [
+            107.5973006,
+            -6.8973077
+          ],
+          [
+            107.5972936,
+            -6.8969114
+          ],
+          [
+            107.5972895,
+            -6.8968371
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623260,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5967323,
+            -6.8873957
+          ],
+          [
+            107.5967238,
+            -6.8872476
+          ],
+          [
+            107.5967027,
+            -6.8868139
+          ],
+          [
+            107.5967016,
+            -6.8867916
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623261,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "note": "trial for bi-direction will last until 23 Nov 2023",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6033984,
+            -6.9314197
+          ],
+          [
+            107.6023617,
+            -6.9312985
+          ],
+          [
+            107.6020014,
+            -6.9312415
+          ],
+          [
+            107.6017942,
+            -6.9312076
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4637788,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
+        "oneway": "yes",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980296,
+            -6.9131529
+          ],
+          [
+            107.5980155,
+            -6.9128993
+          ],
+          [
+            107.5980004,
+            -6.9126452
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32360540,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981313,
+            -6.9141206
+          ],
+          [
+            107.5981201,
+            -6.9145111
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32360546,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5965234,
+            -6.8840238
+          ],
+          [
+            107.5965088,
+            -6.8836453
+          ],
+          [
+            107.5965062,
+            -6.8835624
+          ],
+          [
+            107.596503,
+            -6.8834688
+          ],
+          [
+            107.5964741,
+            -6.8826331
+          ],
+          [
+            107.5964702,
+            -6.8825274
+          ],
+          [
+            107.5964601,
+            -6.8821498
+          ],
+          [
+            107.5964542,
+            -6.8820032
+          ],
+          [
+            107.596444,
+            -6.8817861
+          ],
+          [
+            107.5964302,
+            -6.8814833
+          ],
+          [
+            107.5964257,
+            -6.8813836
+          ],
+          [
+            107.5964243,
+            -6.8813611
+          ],
+          [
+            107.5963984,
+            -6.8809341
+          ]
+        ]
+      },
+      "properties": {
+        "id": 152949024,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "note": "trial for bi-direction will last until 23 Nov 2023",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5976288,
+            -6.9073749
+          ],
+          [
+            107.5975909,
+            -6.9072507
+          ],
+          [
+            107.597581,
+            -6.9071682
+          ],
+          [
+            107.5975322,
+            -6.9065723
+          ],
+          [
+            107.5975328,
+            -6.9064531
+          ]
+        ]
+      },
+      "properties": {
+        "id": 190605653,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "destination": "Pasir Kaliki;Padjadjaran;Pasteur",
+        "destination:lanes": "Husein Sastranegara;Andir;Garuda|Sukajadi;RSHS;Pasteur;Djundjunan|Sukajadi;RSHS;Pasteur;Djundjunan",
+        "destination:ref:lanes": "248|",
+        "highway": "primary",
+        "lanes": "3",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "372",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975495,
+            -6.9063779
+          ],
+          [
+            107.5975567,
+            -6.9063376
+          ],
+          [
+            107.5975619,
+            -6.9063034
+          ],
+          [
+            107.59755,
+            -6.9058209
+          ],
+          [
+            107.5975392,
+            -6.9055076
+          ],
+          [
+            107.5975466,
+            -6.9054505
+          ],
+          [
+            107.5975702,
+            -6.9053954
+          ]
+        ]
+      },
+      "properties": {
+        "id": 190605655,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982102,
+            -6.9163251
+          ],
+          [
+            107.5982087,
+            -6.9161927
+          ],
+          [
+            107.5982045,
+            -6.9161384
+          ],
+          [
+            107.5981715,
+            -6.9156959
+          ],
+          [
+            107.598156,
+            -6.9155614
+          ],
+          [
+            107.5981533,
+            -6.9155424
+          ],
+          [
+            107.5981204,
+            -6.9153156
+          ],
+          [
+            107.5981054,
+            -6.9152242
+          ],
+          [
+            107.5980922,
+            -6.9151108
+          ],
+          [
+            107.5980776,
+            -6.9149475
+          ],
+          [
+            107.5980911,
+            -6.9146113
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676441,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5962548,
+            -6.8783299
+          ],
+          [
+            107.595762,
+            -6.8778535
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676491,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sindang Sirna",
+        "oneway": "yes",
+        "ref": "1331",
+        "reg_ref": "22-10-1331",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5974073,
+            -6.9013528
+          ],
+          [
+            107.5973841,
+            -6.9009013
+          ],
+          [
+            107.597381,
+            -6.9007859
+          ],
+          [
+            107.5973772,
+            -6.900662
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676540,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "cycleway:both": "no",
+        "destination": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973503,
+            -6.8989275
+          ],
+          [
+            107.5973395,
+            -6.8985629
+          ],
+          [
+            107.5973325,
+            -6.8983576
+          ],
+          [
+            107.5973274,
+            -6.898195
+          ],
+          [
+            107.5973223,
+            -6.8980478
+          ],
+          [
+            107.597321,
+            -6.898017
+          ]
+        ]
+      },
+      "properties": {
+        "id": 247064779,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5979469,
+            -6.9117824
+          ],
+          [
+            107.5979313,
+            -6.9116207
+          ]
+        ]
+      },
+      "properties": {
+        "id": 257227476,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "372",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6059454,
+            -6.9273849
+          ],
+          [
+            107.6050539,
+            -6.9273113
+          ],
+          [
+            107.6049045,
+            -6.927299
+          ],
+          [
+            107.6047838,
+            -6.9272891
+          ],
+          [
+            107.6042912,
+            -6.9272485
+          ],
+          [
+            107.6038271,
+            -6.9272103
+          ],
+          [
+            107.6037294,
+            -6.9272023
+          ],
+          [
+            107.6036918,
+            -6.9271992
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742828,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Pungkur",
+        "ref": "3494",
+        "reg_ref": "22-10-3494",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6036918,
+            -6.9271992
+          ],
+          [
+            107.6036329,
+            -6.9280445
+          ],
+          [
+            107.6035899,
+            -6.9285343
+          ],
+          [
+            107.6035334,
+            -6.9293987
+          ],
+          [
+            107.603525,
+            -6.9295081
+          ],
+          [
+            107.6035222,
+            -6.9295501
+          ],
+          [
+            107.6034974,
+            -6.9299465
+          ],
+          [
+            107.6034816,
+            -6.9301831
+          ],
+          [
+            107.6034721,
+            -6.9303229
+          ],
+          [
+            107.6034681,
+            -6.9303751
+          ],
+          [
+            107.6034639,
+            -6.9304346
+          ],
+          [
+            107.6033984,
+            -6.9314197
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191412,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6017942,
+            -6.9312076
+          ],
+          [
+            107.6017766,
+            -6.9311868
+          ],
+          [
+            107.6014884,
+            -6.9308457
+          ],
+          [
+            107.6013919,
+            -6.9307438
+          ],
+          [
+            107.601334,
+            -6.9306827
+          ],
+          [
+            107.6012628,
+            -6.9306121
+          ],
+          [
+            107.6012254,
+            -6.9305749
+          ],
+          [
+            107.6011214,
+            -6.930478
+          ],
+          [
+            107.6008741,
+            -6.9302699
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191414,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Astana Anyar",
+        "oneway": "yes",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6007743,
+            -6.9300052
+          ],
+          [
+            107.6007602,
+            -6.9298949
+          ],
+          [
+            107.6007454,
+            -6.9296679
+          ],
+          [
+            107.6007387,
+            -6.9296054
+          ],
+          [
+            107.6007351,
+            -6.9295707
+          ],
+          [
+            107.600717,
+            -6.9293977
+          ],
+          [
+            107.6006985,
+            -6.9292319
+          ],
+          [
+            107.6006731,
+            -6.9290234
+          ],
+          [
+            107.600612,
+            -6.9288685
+          ],
+          [
+            107.6005919,
+            -6.9288192
+          ],
+          [
+            107.6005121,
+            -6.9286235
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191415,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Astana Anyar",
+        "oneway:conditional": "yes @ (05:00-12:00)",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5986744,
+            -6.9232626
+          ],
+          [
+            107.598693,
+            -6.9233336
+          ],
+          [
+            107.5987003,
+            -6.9233666
+          ],
+          [
+            107.5987418,
+            -6.9235419
+          ],
+          [
+            107.5987785,
+            -6.9236837
+          ],
+          [
+            107.5988393,
+            -6.9239196
+          ],
+          [
+            107.5989872,
+            -6.9243261
+          ],
+          [
+            107.5990381,
+            -6.9244659
+          ],
+          [
+            107.5991575,
+            -6.9247939
+          ],
+          [
+            107.5992769,
+            -6.9251219
+          ],
+          [
+            107.5995204,
+            -6.9258084
+          ],
+          [
+            107.5995293,
+            -6.9258336
+          ],
+          [
+            107.5996933,
+            -6.9262957
+          ],
+          [
+            107.5997325,
+            -6.9263959
+          ],
+          [
+            107.599866,
+            -6.9267377
+          ],
+          [
+            107.5999192,
+            -6.9268738
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191416,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Astana Anyar",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5984717,
+            -6.9214196
+          ],
+          [
+            107.5984828,
+            -6.9215649
+          ],
+          [
+            107.5985679,
+            -6.9225334
+          ],
+          [
+            107.5985764,
+            -6.9225957
+          ],
+          [
+            107.598583,
+            -6.9226401
+          ],
+          [
+            107.5986598,
+            -6.9231557
+          ],
+          [
+            107.5986613,
+            -6.9231659
+          ],
+          [
+            107.5986744,
+            -6.9232626
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222719,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Astana Anyar",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5967016,
+            -6.8867916
+          ],
+          [
+            107.5964324,
+            -6.88604
+          ],
+          [
+            107.5964113,
+            -6.8859394
+          ],
+          [
+            107.5963989,
+            -6.8858417
+          ],
+          [
+            107.5964138,
+            -6.8856254
+          ],
+          [
+            107.5964457,
+            -6.8854301
+          ],
+          [
+            107.5965693,
+            -6.8848932
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318478986,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5965291,
+            -6.8842065
+          ],
+          [
+            107.5965234,
+            -6.8840238
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318538778,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "oneway": "yes",
+        "ref": "249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973566,
+            -6.9002078
+          ],
+          [
+            107.5973521,
+            -6.9001109
+          ],
+          [
+            107.5973452,
+            -6.8999212
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318670701,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975116,
+            -6.9035067
+          ],
+          [
+            107.5974908,
+            -6.9034505
+          ],
+          [
+            107.5974789,
+            -6.9033926
+          ],
+          [
+            107.5974727,
+            -6.9033217
+          ],
+          [
+            107.5974521,
+            -6.9026867
+          ],
+          [
+            107.5974311,
+            -6.9019145
+          ],
+          [
+            107.5974213,
+            -6.9017168
+          ],
+          [
+            107.597414,
+            -6.9015643
+          ],
+          [
+            107.5974073,
+            -6.9013528
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330736325,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "destination": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5979313,
+            -6.9116207
+          ],
+          [
+            107.5979188,
+            -6.9114098
+          ],
+          [
+            107.5978086,
+            -6.909947
+          ],
+          [
+            107.5978015,
+            -6.9098566
+          ],
+          [
+            107.5977774,
+            -6.9094546
+          ],
+          [
+            107.5977427,
+            -6.9089045
+          ],
+          [
+            107.5976909,
+            -6.9082042
+          ],
+          [
+            107.5976849,
+            -6.9081059
+          ],
+          [
+            107.5976772,
+            -6.9080121
+          ],
+          [
+            107.5976288,
+            -6.9073749
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330853616,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "372",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5979805,
+            -6.912262
+          ],
+          [
+            107.5979469,
+            -6.9117824
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330853618,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "372",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975328,
+            -6.9064531
+          ],
+          [
+            107.5975429,
+            -6.906405
+          ],
+          [
+            107.5975495,
+            -6.9063779
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330853621,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5972816,
+            -6.8966817
+          ],
+          [
+            107.5972787,
+            -6.8966241
+          ],
+          [
+            107.5972616,
+            -6.8963456
+          ],
+          [
+            107.5972601,
+            -6.8962772
+          ],
+          [
+            107.5972557,
+            -6.8962319
+          ],
+          [
+            107.597252,
+            -6.8961231
+          ],
+          [
+            107.5972487,
+            -6.8960662
+          ],
+          [
+            107.5972328,
+            -6.8957942
+          ],
+          [
+            107.5972172,
+            -6.8955656
+          ],
+          [
+            107.5971842,
+            -6.8950939
+          ],
+          [
+            107.5971773,
+            -6.8950042
+          ],
+          [
+            107.5971398,
+            -6.8945401
+          ],
+          [
+            107.5971049,
+            -6.8940789
+          ],
+          [
+            107.5970982,
+            -6.8939774
+          ],
+          [
+            107.5970769,
+            -6.893622
+          ],
+          [
+            107.5970644,
+            -6.8934134
+          ],
+          [
+            107.5970391,
+            -6.8930157
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331415856,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "note": "trial for bi-direction will last until 23 Nov 2023",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5969097,
+            -6.8902486
+          ],
+          [
+            107.5969052,
+            -6.8900717
+          ],
+          [
+            107.5969028,
+            -6.8899793
+          ],
+          [
+            107.5969032,
+            -6.8898955
+          ],
+          [
+            107.596901,
+            -6.8897159
+          ],
+          [
+            107.5968858,
+            -6.8894176
+          ],
+          [
+            107.5968696,
+            -6.889221
+          ],
+          [
+            107.5968625,
+            -6.8891028
+          ],
+          [
+            107.5968398,
+            -6.888674
+          ],
+          [
+            107.5968348,
+            -6.8885657
+          ],
+          [
+            107.5968303,
+            -6.8885035
+          ],
+          [
+            107.5968078,
+            -6.8882126
+          ],
+          [
+            107.5967817,
+            -6.8879179
+          ],
+          [
+            107.5967633,
+            -6.8877297
+          ],
+          [
+            107.5967526,
+            -6.887631
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331415857,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "name:en": "Sukajadi Avenue",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975702,
+            -6.9053954
+          ],
+          [
+            107.5975685,
+            -6.9053623
+          ],
+          [
+            107.5975647,
+            -6.9052979
+          ],
+          [
+            107.5975641,
+            -6.9052785
+          ],
+          [
+            107.5975561,
+            -6.9050098
+          ],
+          [
+            107.5975537,
+            -6.9049333
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331425545,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "destination:lanes:forward": "Pasteur;RSHS;Sukajadi;Djundjunan|Otten;Nijland;Curie;Abdul Rivai",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "no",
+        "surface": "asphalt",
+        "turn:lanes:forward": "through|through;right",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5965693,
+            -6.8848932
+          ],
+          [
+            107.5965291,
+            -6.8842065
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331558798,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.598224,
+            -6.9170874
+          ],
+          [
+            107.5982101,
+            -6.9164481
+          ],
+          [
+            107.5982092,
+            -6.9164103
+          ],
+          [
+            107.5982102,
+            -6.9163251
+          ]
+        ]
+      },
+      "properties": {
+        "id": 492887588,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Gardujati",
+        "name:ja": "ガルドゥジャティ通り",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6008741,
+            -6.9302699
+          ],
+          [
+            107.6008268,
+            -6.9301487
+          ],
+          [
+            107.6007743,
+            -6.9300052
+          ]
+        ]
+      },
+      "properties": {
+        "id": 555024265,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Astana Anyar",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973772,
+            -6.900662
+          ],
+          [
+            107.5973654,
+            -6.9003949
+          ]
+        ]
+      },
+      "properties": {
+        "id": 590735036,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "destination:lanes": "Sukajadi;RSHS|Cihampelas;Cipaganti;Pasupati;Cikapayang",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;right",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6005121,
+            -6.9286235
+          ],
+          [
+            107.6004015,
+            -6.9283347
+          ],
+          [
+            107.6003256,
+            -6.9280843
+          ],
+          [
+            107.6002646,
+            -6.9279252
+          ],
+          [
+            107.6001956,
+            -6.9277355
+          ],
+          [
+            107.5999523,
+            -6.9269769
+          ],
+          [
+            107.5999192,
+            -6.9268738
+          ]
+        ]
+      },
+      "properties": {
+        "id": 704521315,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Astana Anyar",
+        "oneway:conditional": "yes @ (05:00-12:00)",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5970391,
+            -6.8930157
+          ],
+          [
+            107.5970212,
+            -6.8924855
+          ],
+          [
+            107.596988,
+            -6.8919756
+          ],
+          [
+            107.5969852,
+            -6.8919419
+          ],
+          [
+            107.5969612,
+            -6.8915359
+          ],
+          [
+            107.5969542,
+            -6.8914244
+          ],
+          [
+            107.5969493,
+            -6.8913097
+          ],
+          [
+            107.5969393,
+            -6.8910002
+          ],
+          [
+            107.5969258,
+            -6.8906657
+          ],
+          [
+            107.5969183,
+            -6.8904777
+          ],
+          [
+            107.5969097,
+            -6.8902486
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705084226,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "note": "trial for bi-direction will last until 23 Nov 2023",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975537,
+            -6.9049333
+          ],
+          [
+            107.5975448,
+            -6.904529
+          ],
+          [
+            107.5975406,
+            -6.9043005
+          ],
+          [
+            107.5975343,
+            -6.9039924
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705096867,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "destination:lanes:forward": "Pasteur;RSHS;Sukajadi;Djundjunan|Otten;Nijland;Curie;Abdul Rivai",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "turn:lanes:forward": "through|through;right",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980004,
+            -6.9126452
+          ],
+          [
+            107.5979867,
+            -6.9123682
+          ],
+          [
+            107.5979845,
+            -6.9123202
+          ],
+          [
+            107.5979805,
+            -6.912262
+          ]
+        ]
+      },
+      "properties": {
+        "id": 709885813,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5967526,
+            -6.887631
+          ],
+          [
+            107.5967323,
+            -6.8873957
+          ]
+        ]
+      },
+      "properties": {
+        "id": 733188498,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "note": "trial for bi-direction will last until 23 Nov 2023",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981201,
+            -6.9145111
+          ],
+          [
+            107.5981205,
+            -6.9145443
+          ]
+        ]
+      },
+      "properties": {
+        "id": 826844097,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982595,
+            -6.9181989
+          ],
+          [
+            107.5982308,
+            -6.9180616
+          ],
+          [
+            107.5982278,
+            -6.9178847
+          ],
+          [
+            107.5982246,
+            -6.9176091
+          ],
+          [
+            107.598224,
+            -6.9170874
+          ]
+        ]
+      },
+      "properties": {
+        "id": 827364210,
+        "avgspeed": "30",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Gardujati",
+        "name:ja": "ガルドゥジャティ通り",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980911,
+            -6.9146113
+          ],
+          [
+            107.5980937,
+            -6.9145881
+          ],
+          [
+            107.5981205,
+            -6.9145443
+          ]
+        ]
+      },
+      "properties": {
+        "id": 858014181,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973654,
+            -6.9003949
+          ],
+          [
+            107.5973566,
+            -6.9002078
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1074810489,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "destination": "Pajajaran;Husein Sastranegara;Cicendo;Stasiun Bandung",
+        "destination:symbol": ";airport;;train_station",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "249",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980758,
+            -6.9134531
+          ],
+          [
+            107.5981284,
+            -6.913989
+          ],
+          [
+            107.5981313,
+            -6.9140657
+          ],
+          [
+            107.5981313,
+            -6.9141206
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374723,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980724,
+            -6.9134153
+          ],
+          [
+            107.5980758,
+            -6.9134531
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374724,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980724,
+            -6.9134153
+          ],
+          [
+            107.5980457,
+            -6.9133719
+          ],
+          [
+            107.5980366,
+            -6.9133217
+          ],
+          [
+            107.598033,
+            -6.9132616
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374725,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.598033,
+            -6.9132616
+          ],
+          [
+            107.5980296,
+            -6.9131529
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374726,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975343,
+            -6.9039924
+          ],
+          [
+            107.5975116,
+            -6.9035067
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1199401349,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "destination:lanes:backward": "Otten;Nijland;Curie;Abdul Rivai|Padjadjaran;Cicendo;Andir",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "no",
+        "parking:both": "on_kerb",
+        "parking:both:orientation": "perpendicular",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5963984,
+            -6.8809341
+          ],
+          [
+            107.5963847,
+            -6.8806684
+          ],
+          [
+            107.5963806,
+            -6.8805716
+          ],
+          [
+            107.596369,
+            -6.8802996
+          ],
+          [
+            107.5963356,
+            -6.8796695
+          ],
+          [
+            107.5963312,
+            -6.8795732
+          ],
+          [
+            107.5963111,
+            -6.8792113
+          ],
+          [
+            107.5962832,
+            -6.8787501
+          ],
+          [
+            107.5962548,
+            -6.8783299
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218966652,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukajadi",
+        "note": "trial for bi-direction will last until 23 Nov 2023",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-12K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5972895,
+            -6.8968371
+          ],
+          [
+            107.5972816,
+            -6.8966817
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227408892,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058386,
+            -6.9275637
+          ],
+          [
+            107.6058453,
+            -6.9274973
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1268179834,
+        "avgspeed": "25",
+        "covered": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058453,
+            -6.9274973
+          ],
+          [
+            107.6058559,
+            -6.9274746
+          ],
+          [
+            107.605878,
+            -6.9274596
+          ],
+          [
+            107.6059082,
+            -6.9274425
+          ],
+          [
+            107.6059305,
+            -6.9274223
+          ],
+          [
+            107.6059373,
+            -6.9274102
+          ],
+          [
+            107.6059454,
+            -6.9273849
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1268179835,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5983366,
+            -6.920102
+          ],
+          [
+            107.5983407,
+            -6.92014
+          ],
+          [
+            107.5983508,
+            -6.9202439
+          ],
+          [
+            107.5983525,
+            -6.9202632
+          ],
+          [
+            107.5984122,
+            -6.9208607
+          ],
+          [
+            107.5984181,
+            -6.9209178
+          ],
+          [
+            107.5984299,
+            -6.9210083
+          ],
+          [
+            107.5984615,
+            -6.9213127
+          ],
+          [
+            107.5984717,
+            -6.9214196
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1280657095,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Astana Anyar",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982824,
+            -6.9187314
+          ],
+          [
+            107.5982807,
+            -6.9186924
+          ],
+          [
+            107.5982595,
+            -6.9181989
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1298359648,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Gardujati",
+        "name:ja": "ガルドゥジャティ通り",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.595762,
+            -6.8778535
+          ],
+          [
+            107.5956102,
+            -6.878024
+          ],
+          [
+            107.5954945,
+            -6.8781633
+          ],
+          [
+            107.5952688,
+            -6.878474
+          ],
+          [
+            107.5952214,
+            -6.8785531
+          ],
+          [
+            107.5951778,
+            -6.8786152
+          ],
+          [
+            107.5951569,
+            -6.8786717
+          ],
+          [
+            107.5951588,
+            -6.8787715
+          ],
+          [
+            107.5951687,
+            -6.8788937
+          ],
+          [
+            107.5951798,
+            -6.8790317
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364363781,
+        "avgspeed": "15",
+        "highway": "residential",
+        "name": "Jalan Sirna Galih",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973572,
+            -6.8990747
+          ],
+          [
+            107.5973543,
+            -6.8990234
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383555898,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973543,
+            -6.8990234
+          ],
+          [
+            107.5973503,
+            -6.8989275
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383555899,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973452,
+            -6.8999212
+          ],
+          [
+            107.5973408,
+            -6.8998291
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383555900,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973408,
+            -6.8998291
+          ],
+          [
+            107.5973293,
+            -6.8994991
+          ],
+          [
+            107.5973312,
+            -6.8994022
+          ],
+          [
+            107.5973423,
+            -6.8991445
+          ],
+          [
+            107.5973572,
+            -6.8990747
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383555901,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058322,
+            -6.9276428
+          ],
+          [
+            107.6058386,
+            -6.9275637
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385362166,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "16677558",
+        "folder_sumber": "route-data/geojson/16677558",
+        "kategori_data": "ways",
+        "nomor_trayek": "35",
+        "nama_rute": "Kalapa → Karangsetra",
+        "label_jalur": "35: Kalapa → Karangsetra"
+      }
+    }
+  ]
+}

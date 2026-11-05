@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.712912,
+          -6.9466584
+        ]
+      },
+      "properties": {
+        "id": 10991362712,
+        "bus": "yes",
+        "name": "Pangkalan Angkot Bumi Panyileukan",
+        "public_transport": "stop_position",
+        "kode_jalur": "16650577",
+        "folder_sumber": "route-data/geojson/16650577",
+        "kategori_data": "endstops",
+        "nomor_trayek": "32",
+        "nama_rute": "Panyileukan → Cicadas",
+        "label_jalur": "32: Panyileukan → Cicadas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6435055,
+          -6.9113592
+        ]
+      },
+      "properties": {
+        "id": 3248969440,
+        "bus": "yes",
+        "name": "BTM",
+        "public_transport": "stop_position",
+        "kode_jalur": "16650577",
+        "folder_sumber": "route-data/geojson/16650577",
+        "kategori_data": "endstops",
+        "nomor_trayek": "32",
+        "nama_rute": "Panyileukan → Cicadas",
+        "label_jalur": "32: Panyileukan → Cicadas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6395509,
+          -6.9107061
+        ]
+      },
+      "properties": {
+        "id": 11735248694,
+        "bus": "yes",
+        "name": "Jembar Awi Bitung",
+        "public_transport": "stop_position",
+        "kode_jalur": "16650577",
+        "folder_sumber": "route-data/geojson/16650577",
+        "kategori_data": "endstops",
+        "nomor_trayek": "32",
+        "nama_rute": "Panyileukan → Cicadas",
+        "label_jalur": "32: Panyileukan → Cicadas"
+      }
+    }
+  ]
+}

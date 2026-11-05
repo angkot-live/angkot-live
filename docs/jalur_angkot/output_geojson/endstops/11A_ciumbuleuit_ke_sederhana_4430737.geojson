@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6049689,
+          -6.8635418
+        ]
+      },
+      "properties": {
+        "id": 319706142,
+        "bus": "yes",
+        "name": "RSAU dr. Salamun",
+        "public_transport": "stop_position",
+        "kode_jalur": "4430737",
+        "folder_sumber": "route-data/geojson/4430737",
+        "kategori_data": "endstops",
+        "nomor_trayek": "11A",
+        "nama_rute": "Ciumbuleuit → Sederhana",
+        "label_jalur": "11A: Ciumbuleuit → Sederhana"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.565655,
+          -6.9487566
+        ]
+      },
+      "properties": {
+        "id": 3115112896,
+        "bus": "yes",
+        "name": "Mesjid Jami Al Hamidah Cibolerang",
+        "public_transport": "stop_position",
+        "kode_jalur": "4425956",
+        "folder_sumber": "route-data/geojson/4425956",
+        "kategori_data": "endstops",
+        "nomor_trayek": "27",
+        "nama_rute": "Cijerah → Ciwastra → Derwati",
+        "label_jalur": "27: Cijerah → Ciwastra → Derwati"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6866274,
+          -6.9667195
+        ]
+      },
+      "properties": {
+        "id": 2518053983,
+        "bus": "yes",
+        "name": "Simpang Derwati",
+        "public_transport": "stop_position",
+        "kode_jalur": "4425956",
+        "folder_sumber": "route-data/geojson/4425956",
+        "kategori_data": "endstops",
+        "nomor_trayek": "27",
+        "nama_rute": "Cijerah → Ciwastra → Derwati",
+        "label_jalur": "27: Cijerah → Ciwastra → Derwati"
+      }
+    }
+  ]
+}

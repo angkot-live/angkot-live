@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5890644,
+          -6.914151
+        ]
+      },
+      "properties": {
+        "id": 3244745033,
+        "bus": "yes",
+        "name": "Stasiun Ciroyom",
+        "public_transport": "stop_position",
+        "kode_jalur": "4650909",
+        "folder_sumber": "route-data/geojson/4650909",
+        "kategori_data": "endstops",
+        "nomor_trayek": "20",
+        "nama_rute": "Ciroyom → Bumi Asri",
+        "label_jalur": "20: Ciroyom → Bumi Asri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5508272,
+          -6.9324632
+        ]
+      },
+      "properties": {
+        "id": 3385219353,
+        "bus": "yes",
+        "name": "Terminal Bumi Asri",
+        "public_transport": "stop_position",
+        "kode_jalur": "4650909",
+        "folder_sumber": "route-data/geojson/4650909",
+        "kategori_data": "endstops",
+        "nomor_trayek": "20",
+        "nama_rute": "Ciroyom → Bumi Asri",
+        "label_jalur": "20: Ciroyom → Bumi Asri"
+      }
+    }
+  ]
+}

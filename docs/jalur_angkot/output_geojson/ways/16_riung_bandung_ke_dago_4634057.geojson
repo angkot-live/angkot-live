@@ -1,0 +1,7661 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.629839,
+            -6.9154679
+          ],
+          [
+            107.629593,
+            -6.9148704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4280039,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6132841,
+            -6.8988423
+          ],
+          [
+            107.6135004,
+            -6.898852
+          ],
+          [
+            107.6140011,
+            -6.8988575
+          ],
+          [
+            107.6147331,
+            -6.8988511
+          ],
+          [
+            107.615213,
+            -6.8988527
+          ],
+          [
+            107.6156959,
+            -6.8989008
+          ],
+          [
+            107.6158827,
+            -6.8989216
+          ],
+          [
+            107.6160286,
+            -6.8989397
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4632671,
+        "avgspeed": "30",
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6162456,
+            -6.8994129
+          ],
+          [
+            107.6162311,
+            -6.8992765
+          ],
+          [
+            107.616211,
+            -6.89922
+          ],
+          [
+            107.6161677,
+            -6.8991816
+          ],
+          [
+            107.6158534,
+            -6.8991356
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4632680,
+        "avgspeed": "20",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Aria Jipang",
+        "oneway": "yes",
+        "ref": "386",
+        "reg_ref": "22-00-386K",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.677192,
+            -6.9416616
+          ],
+          [
+            107.6782266,
+            -6.9417703
+          ],
+          [
+            107.6785776,
+            -6.9418388
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153807427,
+        "highway": "unclassified",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6792646,
+            -6.9427221
+          ],
+          [
+            107.6797581,
+            -6.9428597
+          ],
+          [
+            107.6803622,
+            -6.9430091
+          ],
+          [
+            107.6815966,
+            -6.943348
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153807720,
+        "highway": "unclassified",
+        "name": "Jalan Riung Hegar Raya",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6837521,
+            -6.9459801
+          ],
+          [
+            107.6837165,
+            -6.9462838
+          ],
+          [
+            107.6837125,
+            -6.9463178
+          ],
+          [
+            107.6836756,
+            -6.9466331
+          ],
+          [
+            107.6836432,
+            -6.9469092
+          ],
+          [
+            107.683611,
+            -6.947184
+          ],
+          [
+            107.6835798,
+            -6.9474498
+          ],
+          [
+            107.6835467,
+            -6.9477319
+          ],
+          [
+            107.6835105,
+            -6.9480408
+          ],
+          [
+            107.6834795,
+            -6.9483048
+          ],
+          [
+            107.6834453,
+            -6.9485962
+          ],
+          [
+            107.6834124,
+            -6.9488768
+          ],
+          [
+            107.6833792,
+            -6.9491598
+          ],
+          [
+            107.6833617,
+            -6.9493086
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153812749,
+        "highway": "unclassified",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6815966,
+            -6.943348
+          ],
+          [
+            107.6816066,
+            -6.9434115
+          ],
+          [
+            107.68161,
+            -6.9434388
+          ],
+          [
+            107.6815761,
+            -6.9436359
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153812752,
+        "highway": "unclassified",
+        "name": "Jalan Riung Arum",
+        "name:en": "Riung Arum Way",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6815761,
+            -6.9436359
+          ],
+          [
+            107.6819663,
+            -6.9436312
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153812753,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6826775,
+            -6.9451829
+          ],
+          [
+            107.6827714,
+            -6.9443687
+          ],
+          [
+            107.6828611,
+            -6.9435796
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153812853,
+        "highway": "unclassified",
+        "name": "Jalan Riung Subur",
+        "name:en": "Riung Subur Way",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6206308,
+            -6.9114044
+          ],
+          [
+            107.6205353,
+            -6.9114297
+          ],
+          [
+            107.620429,
+            -6.9114781
+          ],
+          [
+            107.6203316,
+            -6.9115426
+          ],
+          [
+            107.6202457,
+            -6.9116215
+          ],
+          [
+            107.6201734,
+            -6.9117128
+          ],
+          [
+            107.6201165,
+            -6.9118143
+          ],
+          [
+            107.6200763,
+            -6.9119234
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174269822,
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Menado",
+        "parking:both": "no",
+        "ref": "2243",
+        "reg_ref": "22-10-2243",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6276409,
+            -6.9133915
+          ],
+          [
+            107.62749,
+            -6.9135012
+          ],
+          [
+            107.627082,
+            -6.91382
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174303681,
+        "highway": "tertiary",
+        "name": "Jalan Anggrek",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6206308,
+            -6.9114044
+          ],
+          [
+            107.6214129,
+            -6.911649
+          ],
+          [
+            107.6214507,
+            -6.9116716
+          ],
+          [
+            107.6214775,
+            -6.9116969
+          ],
+          [
+            107.6215084,
+            -6.9117582
+          ],
+          [
+            107.6215272,
+            -6.9118008
+          ],
+          [
+            107.6215473,
+            -6.91185
+          ],
+          [
+            107.6215838,
+            -6.9119057
+          ],
+          [
+            107.6216157,
+            -6.9119339
+          ],
+          [
+            107.6216623,
+            -6.9119501
+          ],
+          [
+            107.6230669,
+            -6.912295
+          ],
+          [
+            107.6237531,
+            -6.9124638
+          ],
+          [
+            107.6239395,
+            -6.9125098
+          ],
+          [
+            107.6257882,
+            -6.9129582
+          ],
+          [
+            107.626394,
+            -6.9131135
+          ],
+          [
+            107.6267142,
+            -6.9132049
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174303682,
+        "highway": "tertiary",
+        "name": "Jalan Patrakomala",
+        "ref": "2287",
+        "reg_ref": "22-10-2287",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6174121,
+            -6.9091524
+          ],
+          [
+            107.6174191,
+            -6.9091885
+          ],
+          [
+            107.6175806,
+            -6.9100152
+          ],
+          [
+            107.6176084,
+            -6.9105947
+          ],
+          [
+            107.6176179,
+            -6.9109987
+          ],
+          [
+            107.617621,
+            -6.9111089
+          ],
+          [
+            107.6176121,
+            -6.9113263
+          ],
+          [
+            107.6175997,
+            -6.9114
+          ],
+          [
+            107.6175864,
+            -6.9114556
+          ],
+          [
+            107.6175732,
+            -6.9115105
+          ]
+        ]
+      },
+      "properties": {
+        "id": 175069458,
+        "highway": "tertiary",
+        "name": "Jalan Banda",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.616019,
+            -6.8975661
+          ],
+          [
+            107.6160824,
+            -6.8976971
+          ],
+          [
+            107.6161206,
+            -6.8977917
+          ],
+          [
+            107.6161489,
+            -6.8978851
+          ],
+          [
+            107.6161542,
+            -6.8979225
+          ],
+          [
+            107.6161572,
+            -6.8979434
+          ],
+          [
+            107.6161675,
+            -6.8980166
+          ],
+          [
+            107.6161662,
+            -6.8981131
+          ],
+          [
+            107.6161577,
+            -6.8981816
+          ],
+          [
+            107.6161352,
+            -6.898308
+          ]
+        ]
+      },
+      "properties": {
+        "id": 175071657,
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6143025,
+            -6.885397
+          ],
+          [
+            107.6144095,
+            -6.8854607
+          ],
+          [
+            107.6144244,
+            -6.8854715
+          ],
+          [
+            107.6144864,
+            -6.8855164
+          ],
+          [
+            107.6145427,
+            -6.885571
+          ],
+          [
+            107.6146308,
+            -6.8856691
+          ],
+          [
+            107.6146614,
+            -6.8857145
+          ],
+          [
+            107.6147051,
+            -6.8858155
+          ],
+          [
+            107.6148464,
+            -6.8862613
+          ],
+          [
+            107.6148507,
+            -6.8862747
+          ],
+          [
+            107.6148713,
+            -6.8863397
+          ],
+          [
+            107.6149493,
+            -6.8865743
+          ],
+          [
+            107.6149671,
+            -6.8866267
+          ],
+          [
+            107.6150918,
+            -6.8870114
+          ],
+          [
+            107.6151092,
+            -6.8870641
+          ],
+          [
+            107.6152037,
+            -6.8873511
+          ],
+          [
+            107.6152406,
+            -6.8874631
+          ],
+          [
+            107.6152794,
+            -6.8875681
+          ],
+          [
+            107.6156977,
+            -6.8886991
+          ]
+        ]
+      },
+      "properties": {
+        "id": 192917041,
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6276409,
+            -6.9133915
+          ],
+          [
+            107.6278171,
+            -6.913287
+          ],
+          [
+            107.6280006,
+            -6.9131527
+          ],
+          [
+            107.6284968,
+            -6.9127644
+          ],
+          [
+            107.6286154,
+            -6.9126809
+          ]
+        ]
+      },
+      "properties": {
+        "id": 243453323,
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan Anggrek",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6165969,
+            -6.9051579
+          ],
+          [
+            107.6165924,
+            -6.9050355
+          ],
+          [
+            107.6165897,
+            -6.9049615
+          ],
+          [
+            107.6165878,
+            -6.9048284
+          ],
+          [
+            107.6165959,
+            -6.9046607
+          ],
+          [
+            107.616616,
+            -6.9045169
+          ],
+          [
+            107.6166415,
+            -6.9043891
+          ],
+          [
+            107.6166779,
+            -6.9042651
+          ],
+          [
+            107.6167329,
+            -6.9041285
+          ],
+          [
+            107.6167925,
+            -6.9040062
+          ],
+          [
+            107.6168345,
+            -6.9039336
+          ],
+          [
+            107.6168812,
+            -6.903853
+          ],
+          [
+            107.6169413,
+            -6.903757
+          ],
+          [
+            107.6170079,
+            -6.9036643
+          ],
+          [
+            107.6170696,
+            -6.9035832
+          ],
+          [
+            107.6171189,
+            -6.903519
+          ],
+          [
+            107.6171748,
+            -6.9034463
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244792412,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Banda",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6348552,
+            -6.9143329
+          ],
+          [
+            107.6348313,
+            -6.9143399
+          ],
+          [
+            107.6347873,
+            -6.9143636
+          ],
+          [
+            107.6347627,
+            -6.9143996
+          ],
+          [
+            107.6347483,
+            -6.9144516
+          ],
+          [
+            107.6347173,
+            -6.914512
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244799598,
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Sukabumi",
+        "oneway": "yes",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6295758,
+            -6.9147576
+          ],
+          [
+            107.6294559,
+            -6.914423
+          ],
+          [
+            107.6292504,
+            -6.9137992
+          ],
+          [
+            107.6291718,
+            -6.9135678
+          ],
+          [
+            107.6291409,
+            -6.913501
+          ],
+          [
+            107.6291311,
+            -6.9134798
+          ],
+          [
+            107.6291076,
+            -6.9134288
+          ],
+          [
+            107.6290892,
+            -6.913389
+          ],
+          [
+            107.6290686,
+            -6.9133503
+          ],
+          [
+            107.6289845,
+            -6.913192
+          ],
+          [
+            107.6288644,
+            -6.9130163
+          ],
+          [
+            107.628731,
+            -6.9128285
+          ],
+          [
+            107.6286968,
+            -6.9127848
+          ],
+          [
+            107.6286154,
+            -6.9126809
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244802256,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.629593,
+            -6.9148704
+          ],
+          [
+            107.6295758,
+            -6.9147576
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244802258,
+        "alt_name": "Jalan Riau",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6170441,
+            -6.9074272
+          ],
+          [
+            107.6169984,
+            -6.9072231
+          ],
+          [
+            107.6169383,
+            -6.9069549
+          ],
+          [
+            107.6169289,
+            -6.9069128
+          ],
+          [
+            107.6168804,
+            -6.9066956
+          ],
+          [
+            107.6168148,
+            -6.9064212
+          ],
+          [
+            107.6168082,
+            -6.9063958
+          ],
+          [
+            107.6167834,
+            -6.9062973
+          ],
+          [
+            107.6167588,
+            -6.9062016
+          ]
+        ]
+      },
+      "properties": {
+        "id": 263441149,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Banda",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.634419,
+            -6.9161223
+          ],
+          [
+            107.6344004,
+            -6.9162388
+          ],
+          [
+            107.6343511,
+            -6.9164827
+          ],
+          [
+            107.6342682,
+            -6.916856
+          ],
+          [
+            107.634252,
+            -6.9169288
+          ],
+          [
+            107.6342422,
+            -6.9169744
+          ],
+          [
+            107.6342207,
+            -6.9170356
+          ],
+          [
+            107.6341961,
+            -6.9170831
+          ]
+        ]
+      },
+      "properties": {
+        "id": 301544694,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.677192,
+            -6.9416616
+          ],
+          [
+            107.6772242,
+            -6.9409563
+          ],
+          [
+            107.6772327,
+            -6.9407701
+          ],
+          [
+            107.6772455,
+            -6.9404904
+          ],
+          [
+            107.6772511,
+            -6.9403669
+          ],
+          [
+            107.6772585,
+            -6.9402045
+          ],
+          [
+            107.677261,
+            -6.9401488
+          ],
+          [
+            107.6772716,
+            -6.9399169
+          ],
+          [
+            107.6772804,
+            -6.9397242
+          ],
+          [
+            107.6772888,
+            -6.9395406
+          ],
+          [
+            107.6772921,
+            -6.9393925
+          ],
+          [
+            107.6772935,
+            -6.9393623
+          ],
+          [
+            107.6772997,
+            -6.9391553
+          ],
+          [
+            107.6773057,
+            -6.9389794
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318051988,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Cipamokolan",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6792646,
+            -6.9427221
+          ],
+          [
+            107.6791957,
+            -6.9427015
+          ],
+          [
+            107.67913,
+            -6.9426794
+          ],
+          [
+            107.679036,
+            -6.9426538
+          ],
+          [
+            107.6788887,
+            -6.9426017
+          ],
+          [
+            107.6787101,
+            -6.9424105
+          ],
+          [
+            107.67862,
+            -6.9422264
+          ],
+          [
+            107.6785573,
+            -6.9420378
+          ],
+          [
+            107.6785551,
+            -6.9419277
+          ],
+          [
+            107.6785776,
+            -6.9418388
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318051989,
+        "highway": "unclassified",
+        "name": "Jalan Riung Hegar Raya",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6829443,
+            -6.9452145
+          ],
+          [
+            107.6829007,
+            -6.9455341
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318051995,
+        "highway": "unclassified",
+        "name": "Jalan Riung Mungpulung Raya",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6175732,
+            -6.9115105
+          ],
+          [
+            107.617735,
+            -6.9114851
+          ],
+          [
+            107.6179079,
+            -6.9114701
+          ],
+          [
+            107.6180518,
+            -6.9114643
+          ],
+          [
+            107.6182447,
+            -6.9114798
+          ],
+          [
+            107.6183415,
+            -6.911498
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318052005,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6150711,
+            -6.9006334
+          ],
+          [
+            107.6154093,
+            -6.900922
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318052007,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "ref": "381",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6313458,
+            -6.9186198
+          ],
+          [
+            107.6312891,
+            -6.9184991
+          ],
+          [
+            107.6312618,
+            -6.9184409
+          ],
+          [
+            107.6312506,
+            -6.9184177
+          ],
+          [
+            107.6307984,
+            -6.9174779
+          ],
+          [
+            107.6307188,
+            -6.9173125
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318053628,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Laswi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "377",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6158534,
+            -6.8991356
+          ],
+          [
+            107.6148451,
+            -6.8991266
+          ],
+          [
+            107.6136829,
+            -6.8990999
+          ],
+          [
+            107.6131076,
+            -6.8990838
+          ],
+          [
+            107.6130507,
+            -6.8990822
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318054779,
+        "bicycle": "yes",
+        "destination": "Cikapayang;Dago;Tamansari",
+        "destination:lanes": "Dago;Tamansari;Merdeka|Dago;Adipati Ukur;Siliwangi",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Prabu Dimuntur",
+        "name:en": "Prabu Dimuntur Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right;reverse",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6168823,
+            -6.8955917
+          ],
+          [
+            107.6166188,
+            -6.8959561
+          ],
+          [
+            107.6162817,
+            -6.8963301
+          ],
+          [
+            107.6159883,
+            -6.8966062
+          ],
+          [
+            107.6155865,
+            -6.8969383
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318100669,
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6183415,
+            -6.911498
+          ],
+          [
+            107.6186071,
+            -6.9115608
+          ],
+          [
+            107.6193124,
+            -6.9117349
+          ],
+          [
+            107.6200763,
+            -6.9119234
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318486207,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Belitung",
+        "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6174318,
+            -6.8947388
+          ],
+          [
+            107.6172839,
+            -6.8949841
+          ],
+          [
+            107.617258,
+            -6.8950233
+          ],
+          [
+            107.6172155,
+            -6.8950876
+          ],
+          [
+            107.6168823,
+            -6.8955917
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318729556,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6159798,
+            -6.9013693
+          ],
+          [
+            107.6163648,
+            -6.901357
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320423244,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6374221,
+            -6.9145133
+          ],
+          [
+            107.6374071,
+            -6.9145151
+          ],
+          [
+            107.6373588,
+            -6.9145209
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320616149,
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6375505,
+            -6.9144979
+          ],
+          [
+            107.6374221,
+            -6.9145133
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320616150,
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6437064,
+            -6.9141291
+          ],
+          [
+            107.64364,
+            -6.9139376
+          ],
+          [
+            107.6436192,
+            -6.9139023
+          ],
+          [
+            107.6436004,
+            -6.9138803
+          ],
+          [
+            107.6435804,
+            -6.9138673
+          ],
+          [
+            107.6435595,
+            -6.9138537
+          ],
+          [
+            107.6434317,
+            -6.9138202
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320617422,
+        "destination": "Pasteur",
+        "highway": "primary_link",
+        "lanes": "1",
+        "oneway": "yes",
+        "sidewalk": "left",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6741648,
+            -6.9384751
+          ],
+          [
+            107.674107,
+            -6.9384791
+          ],
+          [
+            107.6737845,
+            -6.9385017
+          ],
+          [
+            107.6729122,
+            -6.9385626
+          ],
+          [
+            107.672835,
+            -6.938568
+          ],
+          [
+            107.6727474,
+            -6.9385742
+          ],
+          [
+            107.672515,
+            -6.9385833
+          ],
+          [
+            107.6716586,
+            -6.9386448
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320618829,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6528653,
+            -6.94202
+          ],
+          [
+            107.652718,
+            -6.9420676
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320650440,
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6162456,
+            -6.8994129
+          ],
+          [
+            107.6162134,
+            -6.8994493
+          ],
+          [
+            107.6160568,
+            -6.8995735
+          ],
+          [
+            107.615847,
+            -6.8997551
+          ],
+          [
+            107.6156875,
+            -6.8999054
+          ],
+          [
+            107.6154024,
+            -6.9002108
+          ],
+          [
+            107.6153734,
+            -6.9002409
+          ],
+          [
+            107.6150711,
+            -6.9006334
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321031842,
+        "avgspeed": "20",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "tertiary",
+        "name": "Jalan Aria Jipang",
+        "ref": "386",
+        "reg_ref": "22-00-386K",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6444657,
+            -6.9265517
+          ],
+          [
+            107.6444244,
+            -6.9252812
+          ],
+          [
+            107.6444061,
+            -6.9246399
+          ],
+          [
+            107.6443982,
+            -6.9245298
+          ],
+          [
+            107.6443956,
+            -6.9244413
+          ],
+          [
+            107.6443928,
+            -6.9243799
+          ],
+          [
+            107.6443899,
+            -6.9243186
+          ],
+          [
+            107.644388,
+            -6.924264
+          ],
+          [
+            107.6443857,
+            -6.9242173
+          ],
+          [
+            107.6443827,
+            -6.9241638
+          ],
+          [
+            107.6443757,
+            -6.9240244
+          ],
+          [
+            107.6443679,
+            -6.9238694
+          ],
+          [
+            107.6443617,
+            -6.9237462
+          ],
+          [
+            107.6443436,
+            -6.9232255
+          ],
+          [
+            107.6443266,
+            -6.9228161
+          ],
+          [
+            107.6443166,
+            -6.9225944
+          ],
+          [
+            107.6442979,
+            -6.9222722
+          ],
+          [
+            107.6442877,
+            -6.9220961
+          ],
+          [
+            107.6442701,
+            -6.9217938
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321083506,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6417884,
+            -6.9139622
+          ],
+          [
+            107.641697,
+            -6.9139738
+          ],
+          [
+            107.6414919,
+            -6.9139937
+          ],
+          [
+            107.641334,
+            -6.9140119
+          ],
+          [
+            107.6412274,
+            -6.9140241
+          ],
+          [
+            107.6410877,
+            -6.9140393
+          ],
+          [
+            107.6409956,
+            -6.9140515
+          ],
+          [
+            107.6405312,
+            -6.9141105
+          ],
+          [
+            107.6404431,
+            -6.9141209
+          ],
+          [
+            107.6403048,
+            -6.9141385
+          ],
+          [
+            107.6402144,
+            -6.914148
+          ],
+          [
+            107.6399554,
+            -6.914178
+          ],
+          [
+            107.6398939,
+            -6.914186
+          ],
+          [
+            107.6397497,
+            -6.9142026
+          ],
+          [
+            107.6394855,
+            -6.9142369
+          ],
+          [
+            107.6393217,
+            -6.9142593
+          ],
+          [
+            107.6391686,
+            -6.914281
+          ],
+          [
+            107.6390956,
+            -6.9142912
+          ],
+          [
+            107.6389363,
+            -6.9143117
+          ],
+          [
+            107.6388474,
+            -6.9143228
+          ],
+          [
+            107.6386441,
+            -6.9143525
+          ],
+          [
+            107.6385822,
+            -6.9143614
+          ],
+          [
+            107.6385215,
+            -6.9143724
+          ],
+          [
+            107.6384678,
+            -6.9143807
+          ],
+          [
+            107.6381956,
+            -6.9144188
+          ],
+          [
+            107.6379503,
+            -6.9144499
+          ],
+          [
+            107.6378321,
+            -6.9144641
+          ],
+          [
+            107.6377113,
+            -6.9144786
+          ],
+          [
+            107.6376149,
+            -6.9144902
+          ],
+          [
+            107.6375655,
+            -6.9144961
+          ],
+          [
+            107.6375505,
+            -6.9144979
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330594960,
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "oneway:conditional": "no @ (16:00-06:00)",
+        "sidewalk:both": "separate",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6373588,
+            -6.9145209
+          ],
+          [
+            107.6371438,
+            -6.9145467
+          ],
+          [
+            107.6369043,
+            -6.9145755
+          ],
+          [
+            107.6368147,
+            -6.9145887
+          ],
+          [
+            107.636513,
+            -6.914633
+          ],
+          [
+            107.6362469,
+            -6.9146627
+          ],
+          [
+            107.6362076,
+            -6.9146671
+          ],
+          [
+            107.6361335,
+            -6.9146647
+          ],
+          [
+            107.6360082,
+            -6.9146453
+          ],
+          [
+            107.6357903,
+            -6.914575
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635689,
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|through|through|slight_right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6300893,
+            -6.9160089
+          ],
+          [
+            107.6300294,
+            -6.9158899
+          ],
+          [
+            107.6299922,
+            -6.9158161
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330853617,
+        "avgspeed": "30",
+        "destination:lanes": "Riau;Aceh;Taman Pramuka;Ciliwung|Riau;Aceh;Taman Pramuka;Ciliwung|Supratman;Cicadas;Cicaheum",
+        "destination:ref:lanes": "||378",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Laswi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "377",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6638999,
+            -6.9392127
+          ],
+          [
+            107.6633094,
+            -6.9392635
+          ],
+          [
+            107.6632438,
+            -6.9392691
+          ],
+          [
+            107.6629584,
+            -6.9393017
+          ],
+          [
+            107.6628909,
+            -6.9393103
+          ],
+          [
+            107.662636,
+            -6.9393368
+          ],
+          [
+            107.6624379,
+            -6.9393635
+          ],
+          [
+            107.662399,
+            -6.9393684
+          ],
+          [
+            107.6619105,
+            -6.9394464
+          ],
+          [
+            107.6617801,
+            -6.9394686
+          ],
+          [
+            107.6614189,
+            -6.9395381
+          ],
+          [
+            107.6608708,
+            -6.9396579
+          ],
+          [
+            107.6607458,
+            -6.9396857
+          ],
+          [
+            107.6603815,
+            -6.9397667
+          ],
+          [
+            107.6601823,
+            -6.9398122
+          ],
+          [
+            107.6600955,
+            -6.939832
+          ],
+          [
+            107.6599232,
+            -6.9398697
+          ],
+          [
+            107.6598099,
+            -6.939893
+          ],
+          [
+            107.6596714,
+            -6.9399267
+          ],
+          [
+            107.659479,
+            -6.9399734
+          ],
+          [
+            107.6593929,
+            -6.9399935
+          ],
+          [
+            107.6591964,
+            -6.9400441
+          ],
+          [
+            107.6590642,
+            -6.9400797
+          ],
+          [
+            107.6583047,
+            -6.9403106
+          ],
+          [
+            107.6581816,
+            -6.9403488
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330967899,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6644206,
+            -6.9391582
+          ],
+          [
+            107.6638999,
+            -6.9392127
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330976391,
+        "destination": "Rancabolang;Margahayu Raya Barat|",
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|through",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6420981,
+            -6.9411497
+          ],
+          [
+            107.6421015,
+            -6.9410976
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331404490,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6176835,
+            -6.8943336
+          ],
+          [
+            107.6177104,
+            -6.8942378
+          ],
+          [
+            107.6177564,
+            -6.8941579
+          ],
+          [
+            107.6178531,
+            -6.8940151
+          ],
+          [
+            107.6178962,
+            -6.8939401
+          ],
+          [
+            107.6179191,
+            -6.893871
+          ],
+          [
+            107.6179139,
+            -6.8934868
+          ],
+          [
+            107.6179108,
+            -6.8934136
+          ],
+          [
+            107.6179071,
+            -6.8932726
+          ],
+          [
+            107.6178942,
+            -6.8927885
+          ],
+          [
+            107.6178794,
+            -6.8926864
+          ],
+          [
+            107.6178188,
+            -6.8923923
+          ]
+        ]
+      },
+      "properties": {
+        "id": 334857874,
+        "destination": "Sekeloa;Simpang Dago",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6176835,
+            -6.8943336
+          ],
+          [
+            107.6175117,
+            -6.8946008
+          ],
+          [
+            107.6174318,
+            -6.8947388
+          ]
+        ]
+      },
+      "properties": {
+        "id": 340400259,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6743512,
+            -6.9384618
+          ],
+          [
+            107.6741648,
+            -6.9384751
+          ]
+        ]
+      },
+      "properties": {
+        "id": 554760152,
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "maxweight:signed": "no",
+        "motorcycle": "designated",
+        "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6697839,
+            -6.9387813
+          ],
+          [
+            107.6697193,
+            -6.9387856
+          ],
+          [
+            107.6695923,
+            -6.9387942
+          ]
+        ]
+      },
+      "properties": {
+        "id": 554760196,
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6661888,
+            -6.9390351
+          ],
+          [
+            107.6660894,
+            -6.9390435
+          ],
+          [
+            107.6659791,
+            -6.9390528
+          ],
+          [
+            107.6657041,
+            -6.9390692
+          ],
+          [
+            107.665207,
+            -6.939108
+          ],
+          [
+            107.6650224,
+            -6.9391212
+          ],
+          [
+            107.664853,
+            -6.9391334
+          ],
+          [
+            107.66465,
+            -6.9391438
+          ],
+          [
+            107.6644206,
+            -6.9391582
+          ]
+        ]
+      },
+      "properties": {
+        "id": 554760197,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6422876,
+            -6.9139498
+          ],
+          [
+            107.6421252,
+            -6.9139589
+          ],
+          [
+            107.6417884,
+            -6.9139622
+          ]
+        ]
+      },
+      "properties": {
+        "id": 559019369,
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6137119,
+            -6.8851905
+          ],
+          [
+            107.6137266,
+            -6.8850771
+          ],
+          [
+            107.6137322,
+            -6.8850395
+          ],
+          [
+            107.6137459,
+            -6.8849567
+          ],
+          [
+            107.6138089,
+            -6.884725
+          ],
+          [
+            107.6138679,
+            -6.8845059
+          ],
+          [
+            107.613882,
+            -6.8844449
+          ]
+        ]
+      },
+      "properties": {
+        "id": 616110138,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6158143,
+            -6.8816134
+          ],
+          [
+            107.615901,
+            -6.8813322
+          ],
+          [
+            107.6159307,
+            -6.8812332
+          ],
+          [
+            107.6159569,
+            -6.8811413
+          ],
+          [
+            107.6159994,
+            -6.8809912
+          ],
+          [
+            107.6161219,
+            -6.8805516
+          ],
+          [
+            107.6161668,
+            -6.8803793
+          ],
+          [
+            107.6162759,
+            -6.8800049
+          ],
+          [
+            107.6163156,
+            -6.8798494
+          ],
+          [
+            107.6164246,
+            -6.8794377
+          ],
+          [
+            107.6165054,
+            -6.8791283
+          ],
+          [
+            107.6165531,
+            -6.8789436
+          ],
+          [
+            107.6165935,
+            -6.8787871
+          ],
+          [
+            107.6166093,
+            -6.878728
+          ],
+          [
+            107.6166707,
+            -6.8785163
+          ],
+          [
+            107.6167998,
+            -6.8780829
+          ],
+          [
+            107.6168402,
+            -6.8779952
+          ],
+          [
+            107.6168774,
+            -6.8779264
+          ],
+          [
+            107.6169544,
+            -6.8778124
+          ],
+          [
+            107.6170262,
+            -6.8777247
+          ],
+          [
+            107.6171251,
+            -6.8775949
+          ],
+          [
+            107.6172852,
+            -6.8773874
+          ],
+          [
+            107.6173071,
+            -6.8773552
+          ],
+          [
+            107.6173842,
+            -6.8772498
+          ],
+          [
+            107.6178533,
+            -6.8766301
+          ],
+          [
+            107.6178704,
+            -6.8766086
+          ],
+          [
+            107.6180347,
+            -6.8763814
+          ],
+          [
+            107.6181264,
+            -6.8762622
+          ],
+          [
+            107.6182425,
+            -6.8761012
+          ],
+          [
+            107.6183604,
+            -6.8759161
+          ],
+          [
+            107.6184672,
+            -6.8757254
+          ],
+          [
+            107.6184938,
+            -6.8756737
+          ],
+          [
+            107.6185822,
+            -6.8755055
+          ],
+          [
+            107.6186615,
+            -6.8753453
+          ],
+          [
+            107.6188141,
+            -6.8749961
+          ],
+          [
+            107.6188846,
+            -6.874828
+          ],
+          [
+            107.6190216,
+            -6.8745002
+          ],
+          [
+            107.619128,
+            -6.8742454
+          ]
+        ]
+      },
+      "properties": {
+        "id": 680350632,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6199224,
+            -6.8719041
+          ],
+          [
+            107.6199571,
+            -6.8715521
+          ],
+          [
+            107.6199613,
+            -6.8714974
+          ],
+          [
+            107.6199693,
+            -6.8713535
+          ],
+          [
+            107.6200017,
+            -6.8710233
+          ],
+          [
+            107.6200117,
+            -6.870949
+          ],
+          [
+            107.6200253,
+            -6.8708815
+          ],
+          [
+            107.6200394,
+            -6.8708195
+          ],
+          [
+            107.6200659,
+            -6.8707046
+          ]
+        ]
+      },
+      "properties": {
+        "id": 686055353,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "destination": "Elos;Terminal Dago;Citra Green;Jajaway",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6143025,
+            -6.885397
+          ],
+          [
+            107.614244,
+            -6.8854002
+          ],
+          [
+            107.6141397,
+            -6.8853692
+          ]
+        ]
+      },
+      "properties": {
+        "id": 706568154,
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Dipatiukur",
+        "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6170441,
+            -6.9074272
+          ],
+          [
+            107.617382,
+            -6.9090114
+          ],
+          [
+            107.6174034,
+            -6.9091114
+          ],
+          [
+            107.6174121,
+            -6.9091524
+          ]
+        ]
+      },
+      "properties": {
+        "id": 724203303,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Banda",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6441408,
+            -6.9193272
+          ],
+          [
+            107.6441381,
+            -6.9192711
+          ],
+          [
+            107.644128,
+            -6.9190672
+          ],
+          [
+            107.6440855,
+            -6.9185996
+          ],
+          [
+            107.6440727,
+            -6.9184616
+          ],
+          [
+            107.6440177,
+            -6.9178882
+          ],
+          [
+            107.6438994,
+            -6.916833
+          ],
+          [
+            107.6438819,
+            -6.9165842
+          ],
+          [
+            107.6438696,
+            -6.9164357
+          ],
+          [
+            107.6438628,
+            -6.916367
+          ],
+          [
+            107.6438444,
+            -6.9161586
+          ],
+          [
+            107.6438277,
+            -6.9159687
+          ],
+          [
+            107.6438209,
+            -6.9158898
+          ],
+          [
+            107.6437252,
+            -6.9148646
+          ],
+          [
+            107.6437224,
+            -6.9148349
+          ],
+          [
+            107.6437294,
+            -6.9147964
+          ],
+          [
+            107.6437472,
+            -6.9147194
+          ],
+          [
+            107.643757,
+            -6.9146763
+          ]
+        ]
+      },
+      "properties": {
+        "id": 764042517,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6431304,
+            -6.9317573
+          ],
+          [
+            107.6431586,
+            -6.9317203
+          ],
+          [
+            107.6435367,
+            -6.9312959
+          ],
+          [
+            107.6437964,
+            -6.9309966
+          ],
+          [
+            107.6438483,
+            -6.9308789
+          ],
+          [
+            107.643882,
+            -6.9307183
+          ],
+          [
+            107.6439463,
+            -6.9299218
+          ]
+        ]
+      },
+      "properties": {
+        "id": 775437750,
+        "destination:lanes": "Pasar Kiaracondong;Stasiun Kiaracondong;Babakan Sari|Terusan Jakarta;Cicadas;Antapani",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6168134,
+            -6.8905914
+          ],
+          [
+            107.6167811,
+            -6.8905771
+          ],
+          [
+            107.6166296,
+            -6.8903696
+          ],
+          [
+            107.6166223,
+            -6.8903544
+          ],
+          [
+            107.6166188,
+            -6.8903399
+          ],
+          [
+            107.6166228,
+            -6.8903248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 777626647,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "1",
+        "name": "Jalan Dipatiukur",
+        "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6168134,
+            -6.8905914
+          ],
+          [
+            107.6169111,
+            -6.890724
+          ],
+          [
+            107.6169359,
+            -6.8907603
+          ],
+          [
+            107.6170495,
+            -6.8909264
+          ],
+          [
+            107.61713,
+            -6.8910441
+          ],
+          [
+            107.617163,
+            -6.8910925
+          ],
+          [
+            107.6174351,
+            -6.8916075
+          ],
+          [
+            107.6174672,
+            -6.8916726
+          ],
+          [
+            107.6175776,
+            -6.8918986
+          ],
+          [
+            107.6177262,
+            -6.8922028
+          ],
+          [
+            107.6177764,
+            -6.8923055
+          ]
+        ]
+      },
+      "properties": {
+        "id": 777626648,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425801,
+            -6.9344518
+          ],
+          [
+            107.6426419,
+            -6.934114
+          ],
+          [
+            107.6427034,
+            -6.9338245
+          ],
+          [
+            107.6427458,
+            -6.9336408
+          ],
+          [
+            107.6428114,
+            -6.9333527
+          ],
+          [
+            107.6428453,
+            -6.9332036
+          ],
+          [
+            107.6429329,
+            -6.9327429
+          ],
+          [
+            107.6429396,
+            -6.932706
+          ],
+          [
+            107.6430775,
+            -6.9319479
+          ]
+        ]
+      },
+      "properties": {
+        "id": 777643289,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6137795,
+            -6.8852589
+          ],
+          [
+            107.6137073,
+            -6.8852448
+          ]
+        ]
+      },
+      "properties": {
+        "id": 826486237,
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6439463,
+            -6.9299218
+          ],
+          [
+            107.6439317,
+            -6.9298097
+          ],
+          [
+            107.6439344,
+            -6.929653
+          ],
+          [
+            107.6439464,
+            -6.9294702
+          ],
+          [
+            107.6439645,
+            -6.9293351
+          ],
+          [
+            107.6439922,
+            -6.9291998
+          ],
+          [
+            107.6440965,
+            -6.9289532
+          ],
+          [
+            107.6441455,
+            -6.9288288
+          ],
+          [
+            107.64417,
+            -6.9287415
+          ],
+          [
+            107.6442064,
+            -6.9286091
+          ],
+          [
+            107.6442254,
+            -6.9284438
+          ],
+          [
+            107.6442374,
+            -6.9283107
+          ],
+          [
+            107.6442459,
+            -6.9279591
+          ],
+          [
+            107.6442567,
+            -6.9277157
+          ],
+          [
+            107.6442828,
+            -6.9275461
+          ],
+          [
+            107.6443294,
+            -6.9273645
+          ],
+          [
+            107.644384,
+            -6.9272085
+          ],
+          [
+            107.6444091,
+            -6.9271102
+          ],
+          [
+            107.6444251,
+            -6.9270482
+          ],
+          [
+            107.6444287,
+            -6.9270343
+          ]
+        ]
+      },
+      "properties": {
+        "id": 833784557,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6429791,
+            -6.9138756
+          ],
+          [
+            107.6422876,
+            -6.9139498
+          ]
+        ]
+      },
+      "properties": {
+        "id": 841362077,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6307188,
+            -6.9173125
+          ],
+          [
+            107.6306282,
+            -6.9171247
+          ],
+          [
+            107.6301434,
+            -6.916119
+          ],
+          [
+            107.6300893,
+            -6.9160089
+          ]
+        ]
+      },
+      "properties": {
+        "id": 868603519,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika|Riau;Aceh;Taman Pramuka;Ciliwung|Supratman;Cicadas;Cicaheum",
+        "destination:ref:lanes": "||378",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Laswi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "377",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through|right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6357903,
+            -6.914575
+          ],
+          [
+            107.6357337,
+            -6.9145811
+          ],
+          [
+            107.6356898,
+            -6.9145768
+          ],
+          [
+            107.6356137,
+            -6.9145582
+          ],
+          [
+            107.6354322,
+            -6.914512
+          ],
+          [
+            107.6352266,
+            -6.9144508
+          ],
+          [
+            107.6348552,
+            -6.9143329
+          ]
+        ]
+      },
+      "properties": {
+        "id": 872152156,
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.652718,
+            -6.9420676
+          ],
+          [
+            107.6526919,
+            -6.9420765
+          ],
+          [
+            107.6517577,
+            -6.9423758
+          ],
+          [
+            107.6516814,
+            -6.9423995
+          ],
+          [
+            107.6512581,
+            -6.9425328
+          ],
+          [
+            107.6511346,
+            -6.9425676
+          ],
+          [
+            107.6509225,
+            -6.942639
+          ],
+          [
+            107.6507484,
+            -6.9426922
+          ],
+          [
+            107.6506763,
+            -6.9427159
+          ],
+          [
+            107.6504686,
+            -6.942788
+          ],
+          [
+            107.6503749,
+            -6.9428159
+          ],
+          [
+            107.6502455,
+            -6.9428592
+          ],
+          [
+            107.6500236,
+            -6.9429302
+          ],
+          [
+            107.6497773,
+            -6.9430058
+          ],
+          [
+            107.6494863,
+            -6.9431026
+          ],
+          [
+            107.6493065,
+            -6.9431604
+          ],
+          [
+            107.648989,
+            -6.9432624
+          ],
+          [
+            107.6486814,
+            -6.9433594
+          ],
+          [
+            107.6484748,
+            -6.9434245
+          ]
+        ]
+      },
+      "properties": {
+        "id": 872159811,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.619128,
+            -6.8742454
+          ],
+          [
+            107.6191643,
+            -6.8741571
+          ],
+          [
+            107.6191817,
+            -6.874115
+          ],
+          [
+            107.6193538,
+            -6.8737093
+          ],
+          [
+            107.6193995,
+            -6.8735894
+          ],
+          [
+            107.6194689,
+            -6.873427
+          ],
+          [
+            107.6195839,
+            -6.8731592
+          ],
+          [
+            107.6197015,
+            -6.8728401
+          ],
+          [
+            107.6197219,
+            -6.8727859
+          ],
+          [
+            107.6197462,
+            -6.8727215
+          ],
+          [
+            107.6197938,
+            -6.8725787
+          ],
+          [
+            107.6198709,
+            -6.8723137
+          ],
+          [
+            107.6198864,
+            -6.87224
+          ],
+          [
+            107.6198987,
+            -6.872166
+          ],
+          [
+            107.6199035,
+            -6.8721317
+          ],
+          [
+            107.6199224,
+            -6.8719041
+          ]
+        ]
+      },
+      "properties": {
+        "id": 896795067,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "destination": "Elos;Terminal Dago;Citra Green;Jajaway",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.641837,
+            -6.9453875
+          ],
+          [
+            107.6418425,
+            -6.9452679
+          ],
+          [
+            107.6418558,
+            -6.9449238
+          ]
+        ]
+      },
+      "properties": {
+        "id": 910307912,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423431,
+            -6.9453982
+          ],
+          [
+            107.6420622,
+            -6.9455002
+          ],
+          [
+            107.6419711,
+            -6.9455318
+          ],
+          [
+            107.6419126,
+            -6.9455527
+          ]
+        ]
+      },
+      "properties": {
+        "id": 910307913,
+        "destination:lanes": "Buahbatu;Mohammad Toha;Cibaduyut;Leuwipanjang|Buahbatu;Mohammad Toha;Cibaduyut;Leuwipanjang|Buahbatu;Mohammad Toha;Cibaduyut;Leuwipanjang|Binong;Gatot Subroto;Kiaracondong;Cicadas|Binong;Gatot Subroto;Kiaracondong;Cicadas",
+        "destination:ref:lanes": "11|11|11||",
+        "highway": "trunk",
+        "lanes": "5",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through|right|right;reverse",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6419126,
+            -6.9455527
+          ],
+          [
+            107.6418208,
+            -6.9455841
+          ]
+        ]
+      },
+      "properties": {
+        "id": 910308871,
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6347173,
+            -6.914512
+          ],
+          [
+            107.634483,
+            -6.9157469
+          ],
+          [
+            107.6344729,
+            -6.9158077
+          ],
+          [
+            107.634447,
+            -6.9159625
+          ]
+        ]
+      },
+      "properties": {
+        "id": 986595380,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6758204,
+            -6.9383501
+          ],
+          [
+            107.6756654,
+            -6.9383636
+          ],
+          [
+            107.6754266,
+            -6.9383807
+          ],
+          [
+            107.6744722,
+            -6.9384488
+          ],
+          [
+            107.6743512,
+            -6.9384618
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1012770223,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6170291,
+            -6.9032627
+          ],
+          [
+            107.6170003,
+            -6.9032181
+          ],
+          [
+            107.6169661,
+            -6.9031402
+          ],
+          [
+            107.6169446,
+            -6.9030523
+          ],
+          [
+            107.6169308,
+            -6.9028954
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1043672190,
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Cilamaya",
+        "oneway": "yes",
+        "ref": "382",
+        "reg_ref": "22-00-382K",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6339445,
+            -6.9173179
+          ],
+          [
+            107.6337948,
+            -6.9174252
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1064244371,
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.634447,
+            -6.9159625
+          ],
+          [
+            107.634419,
+            -6.9161223
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1064247852,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6137073,
+            -6.8852448
+          ],
+          [
+            107.6137119,
+            -6.8851905
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073714005,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "ref": "2182",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6209442,
+            -6.866704
+          ],
+          [
+            107.6209483,
+            -6.8668113
+          ],
+          [
+            107.6209351,
+            -6.8668623
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073721512,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6832794,
+            -6.9493063
+          ],
+          [
+            107.6832703,
+            -6.9493701
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1075050209,
+        "highway": "service",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6155865,
+            -6.8969383
+          ],
+          [
+            107.616019,
+            -6.8975661
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1079472292,
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6130507,
+            -6.8990822
+          ],
+          [
+            107.6129909,
+            -6.8990718
+          ],
+          [
+            107.6129463,
+            -6.8990311
+          ],
+          [
+            107.6129308,
+            -6.8989728
+          ],
+          [
+            107.6129556,
+            -6.8989156
+          ],
+          [
+            107.6129902,
+            -6.89889
+          ],
+          [
+            107.6130429,
+            -6.8988772
+          ],
+          [
+            107.6131341,
+            -6.8988745
+          ],
+          [
+            107.6131975,
+            -6.8988744
+          ],
+          [
+            107.6132233,
+            -6.8988692
+          ],
+          [
+            107.6132555,
+            -6.8988522
+          ],
+          [
+            107.6132841,
+            -6.8988423
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1079472305,
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
+        "highway": "primary_link",
+        "lanes": "1",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "reverse",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.620569,
+            -6.8684751
+          ],
+          [
+            107.6205719,
+            -6.8682321
+          ],
+          [
+            107.6205739,
+            -6.8680595
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1109681931,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.643757,
+            -6.9146763
+          ],
+          [
+            107.6437064,
+            -6.9141291
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110034426,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6430775,
+            -6.9319479
+          ],
+          [
+            107.6431304,
+            -6.9317573
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111175793,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6341961,
+            -6.9170831
+          ],
+          [
+            107.6340932,
+            -6.917204
+          ],
+          [
+            107.6339445,
+            -6.9173179
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111616658,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6171748,
+            -6.9034463
+          ],
+          [
+            107.6170291,
+            -6.9032627
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112041095,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Cilamaya",
+        "oneway": "yes",
+        "ref": "382",
+        "reg_ref": "22-00-382K",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6169308,
+            -6.9028954
+          ],
+          [
+            107.6169204,
+            -6.9026169
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112041096,
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Cilamaya",
+        "oneway": "yes",
+        "ref": "382",
+        "reg_ref": "22-00-382K",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6169204,
+            -6.9026169
+          ],
+          [
+            107.6169036,
+            -6.9020191
+          ],
+          [
+            107.6168987,
+            -6.9017889
+          ],
+          [
+            107.6168927,
+            -6.9015054
+          ],
+          [
+            107.6168907,
+            -6.9013406
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112041097,
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Cilamaya",
+        "oneway": "yes",
+        "ref": "382",
+        "reg_ref": "22-00-382K",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6141397,
+            -6.8853692
+          ],
+          [
+            107.6139313,
+            -6.8853133
+          ],
+          [
+            107.6139191,
+            -6.88531
+          ],
+          [
+            107.6137795,
+            -6.8852589
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1175800874,
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Dipatiukur",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.627082,
+            -6.91382
+          ],
+          [
+            107.6267213,
+            -6.9133198
+          ],
+          [
+            107.6267078,
+            -6.9132642
+          ],
+          [
+            107.6267142,
+            -6.9132049
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1179695707,
+        "highway": "tertiary",
+        "name": "Jalan Kamuning",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6299922,
+            -6.9158161
+          ],
+          [
+            107.6299627,
+            -6.9157488
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1193682143,
+        "alt_name": "Jalan Laksamana Laut Raden Eddy Martadinata",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Laswi",
+        "oneway": "yes",
+        "ref": "377",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425818,
+            -6.9453091
+          ],
+          [
+            107.6425069,
+            -6.9453371
+          ],
+          [
+            107.6424447,
+            -6.9453603
+          ],
+          [
+            107.6423431,
+            -6.9453982
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1194502664,
+        "highway": "trunk",
+        "lanes": "5",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|through|through;slight_right|slight_left;through|through",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6418208,
+            -6.9455841
+          ],
+          [
+            107.641837,
+            -6.9453875
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1195150412,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Letnan Jenderal Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6200659,
+            -6.8707046
+          ],
+          [
+            107.6201119,
+            -6.8705153
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1201759730,
+        "cycleway": "lane",
+        "destination": "Elos;Terminal Dago;Citra Green;Jajaway",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6201119,
+            -6.8705153
+          ],
+          [
+            107.6201919,
+            -6.8702373
+          ],
+          [
+            107.6202138,
+            -6.8701726
+          ],
+          [
+            107.620227,
+            -6.8701301
+          ],
+          [
+            107.6202478,
+            -6.8700662
+          ],
+          [
+            107.6202853,
+            -6.8699517
+          ],
+          [
+            107.6203081,
+            -6.8698878
+          ],
+          [
+            107.6203459,
+            -6.8697953
+          ],
+          [
+            107.6203864,
+            -6.8696825
+          ],
+          [
+            107.6204978,
+            -6.8693725
+          ],
+          [
+            107.620524,
+            -6.8692766
+          ],
+          [
+            107.6205569,
+            -6.8691528
+          ],
+          [
+            107.6205668,
+            -6.8690885
+          ],
+          [
+            107.6205683,
+            -6.8690243
+          ],
+          [
+            107.6205723,
+            -6.8689584
+          ],
+          [
+            107.6205696,
+            -6.8688931
+          ],
+          [
+            107.620569,
+            -6.8684751
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1201759732,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "destination": "Elos;Terminal Dago;Citra Green;Jajaway",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6674513,
+            -6.9389439
+          ],
+          [
+            107.6670598,
+            -6.9389755
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211500898,
+        "destination:lanes": "Metro;Tata Surya|",
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|through;slight_right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6670598,
+            -6.9389755
+          ],
+          [
+            107.6669878,
+            -6.9389807
+          ],
+          [
+            107.6667412,
+            -6.9389975
+          ],
+          [
+            107.6666545,
+            -6.9390034
+          ],
+          [
+            107.6661888,
+            -6.9390351
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211500899,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;slight_right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6695923,
+            -6.9387942
+          ],
+          [
+            107.6695635,
+            -6.9387964
+          ],
+          [
+            107.6693301,
+            -6.9388162
+          ],
+          [
+            107.6691592,
+            -6.9388254
+          ],
+          [
+            107.668446,
+            -6.9388764
+          ],
+          [
+            107.6674513,
+            -6.9389439
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211500900,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6712568,
+            -6.9386784
+          ],
+          [
+            107.6711633,
+            -6.9386849
+          ],
+          [
+            107.6710428,
+            -6.9386933
+          ],
+          [
+            107.6702958,
+            -6.9387456
+          ],
+          [
+            107.6701179,
+            -6.938758
+          ],
+          [
+            107.6698405,
+            -6.9387773
+          ],
+          [
+            107.6697839,
+            -6.9387813
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211500902,
+        "destination:lanes": "Inspeksi Cidurian|",
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6716586,
+            -6.9386448
+          ],
+          [
+            107.6712568,
+            -6.9386784
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211500903,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "reverse;through|none",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6773321,
+            -6.938247
+          ],
+          [
+            107.6768401,
+            -6.9382789
+          ],
+          [
+            107.6758204,
+            -6.9383501
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211500905,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;slight_right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6484748,
+            -6.9434245
+          ],
+          [
+            107.6481243,
+            -6.9435349
+          ],
+          [
+            107.6478515,
+            -6.9436201
+          ],
+          [
+            107.6470185,
+            -6.9438874
+          ],
+          [
+            107.6467958,
+            -6.9439589
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211520779,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "sharp_left;through|through",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6467958,
+            -6.9439589
+          ],
+          [
+            107.6467103,
+            -6.9439855
+          ],
+          [
+            107.646481,
+            -6.944058
+          ],
+          [
+            107.6462516,
+            -6.9441305
+          ],
+          [
+            107.6457814,
+            -6.9442984
+          ],
+          [
+            107.6456229,
+            -6.9443522
+          ],
+          [
+            107.6443264,
+            -6.944777
+          ],
+          [
+            107.6441008,
+            -6.9448492
+          ],
+          [
+            107.6430334,
+            -6.9451909
+          ],
+          [
+            107.6430108,
+            -6.9451987
+          ],
+          [
+            107.6428275,
+            -6.9452621
+          ],
+          [
+            107.6427636,
+            -6.9452838
+          ],
+          [
+            107.6425818,
+            -6.9453091
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211520780,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6420316,
+            -6.942186
+          ],
+          [
+            107.6420981,
+            -6.9411497
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1214813654,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6418558,
+            -6.9449238
+          ],
+          [
+            107.6418826,
+            -6.9445066
+          ],
+          [
+            107.6418944,
+            -6.9443088
+          ],
+          [
+            107.641916,
+            -6.9439862
+          ],
+          [
+            107.6419543,
+            -6.9433902
+          ],
+          [
+            107.6419747,
+            -6.943072
+          ],
+          [
+            107.6419842,
+            -6.9429242
+          ],
+          [
+            107.6419879,
+            -6.9428669
+          ],
+          [
+            107.6419915,
+            -6.9428096
+          ],
+          [
+            107.641994,
+            -6.9427705
+          ],
+          [
+            107.6420316,
+            -6.942186
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1214813655,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6444287,
+            -6.9270343
+          ],
+          [
+            107.6444385,
+            -6.9269855
+          ],
+          [
+            107.6444491,
+            -6.9269381
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218950989,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6441491,
+            -6.9195253
+          ],
+          [
+            107.6441456,
+            -6.9194414
+          ],
+          [
+            107.6441408,
+            -6.9193272
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1219003629,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6161352,
+            -6.898308
+          ],
+          [
+            107.6160286,
+            -6.8989397
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1222381634,
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6141003,
+            -6.8837869
+          ],
+          [
+            107.6141339,
+            -6.8837382
+          ],
+          [
+            107.6141748,
+            -6.8836814
+          ],
+          [
+            107.614271,
+            -6.8835894
+          ],
+          [
+            107.6145333,
+            -6.8833182
+          ],
+          [
+            107.6149531,
+            -6.8828137
+          ],
+          [
+            107.6151252,
+            -6.8825877
+          ],
+          [
+            107.6153854,
+            -6.8822612
+          ],
+          [
+            107.6156462,
+            -6.8818987
+          ],
+          [
+            107.6157866,
+            -6.8816978
+          ],
+          [
+            107.6158143,
+            -6.8816134
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1222414522,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "sidewalk": "left",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6442126,
+            -6.9206082
+          ],
+          [
+            107.6441491,
+            -6.9195253
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1224496605,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6442701,
+            -6.9217938
+          ],
+          [
+            107.6442126,
+            -6.9206082
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1224496607,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6444491,
+            -6.9269381
+          ],
+          [
+            107.6444587,
+            -6.9268515
+          ],
+          [
+            107.6444641,
+            -6.9267038
+          ],
+          [
+            107.6444657,
+            -6.9265517
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1224496608,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6313572,
+            -6.9186866
+          ],
+          [
+            107.6313458,
+            -6.9186198
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225789973,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Ahmad Yani;Riau;Kosambi|Ahmad Yani;Riau;Kosambi|Ahmad Yani;Cicadas;Kiaracondong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Laswi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "377",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6314582,
+            -6.9186505
+          ],
+          [
+            107.6313572,
+            -6.9186866
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225789974,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "turn:lanes": "through|through",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6320827,
+            -6.9183023
+          ],
+          [
+            107.6320334,
+            -6.9183683
+          ],
+          [
+            107.6315787,
+            -6.9185925
+          ],
+          [
+            107.6314582,
+            -6.9186505
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225789975,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sukabumi",
+        "oneway": "yes",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6337948,
+            -6.9174252
+          ],
+          [
+            107.6337656,
+            -6.9174454
+          ],
+          [
+            107.6330451,
+            -6.9178143
+          ],
+          [
+            107.6324739,
+            -6.9181019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225789976,
+        "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6167588,
+            -6.9062016
+          ],
+          [
+            107.616684,
+            -6.9060651
+          ],
+          [
+            107.616622,
+            -6.905419
+          ],
+          [
+            107.6165969,
+            -6.9051579
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227462190,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Banda",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6581816,
+            -6.9403488
+          ],
+          [
+            107.6580268,
+            -6.9403972
+          ],
+          [
+            107.6574144,
+            -6.9405885
+          ],
+          [
+            107.6570876,
+            -6.9406892
+          ],
+          [
+            107.6569693,
+            -6.9407256
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1231740045,
+        "destination:lanes": "|Samsat;Kiaracondong",
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;slight_right",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6569693,
+            -6.9407256
+          ],
+          [
+            107.656476,
+            -6.9408865
+          ],
+          [
+            107.6553771,
+            -6.9412355
+          ],
+          [
+            107.6552333,
+            -6.9412812
+          ],
+          [
+            107.6550225,
+            -6.9413467
+          ],
+          [
+            107.6549551,
+            -6.9413695
+          ],
+          [
+            107.6545674,
+            -6.9414926
+          ],
+          [
+            107.6543541,
+            -6.9415587
+          ],
+          [
+            107.6540745,
+            -6.9416413
+          ],
+          [
+            107.6538424,
+            -6.9417141
+          ],
+          [
+            107.653803,
+            -6.9417283
+          ],
+          [
+            107.6533322,
+            -6.9418748
+          ],
+          [
+            107.6529256,
+            -6.9420012
+          ],
+          [
+            107.6528653,
+            -6.94202
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1231740046,
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6828602,
+            -6.94586
+          ],
+          [
+            107.6829007,
+            -6.9455341
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1236532144,
+        "highway": "unclassified",
+        "name": "Jalan Riung Mungpulung Raya",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6837521,
+            -6.9459801
+          ],
+          [
+            107.6836004,
+            -6.94596
+          ],
+          [
+            107.6828602,
+            -6.94586
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1236532146,
+        "highway": "unclassified",
+        "name": "Jalan Riung Mulya I",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6177764,
+            -6.8923055
+          ],
+          [
+            107.6178188,
+            -6.8923923
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1263496577,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6434317,
+            -6.9138202
+          ],
+          [
+            107.6429791,
+            -6.9138756
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1296453736,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6829443,
+            -6.9452145
+          ],
+          [
+            107.6826775,
+            -6.9451829
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1333763339,
+        "highway": "unclassified",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6833617,
+            -6.9493086
+          ],
+          [
+            107.6832794,
+            -6.9493063
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1365630273,
+        "highway": "service",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6422207,
+            -6.9392406
+          ],
+          [
+            107.6422369,
+            -6.9389882
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929701,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6422369,
+            -6.9389882
+          ],
+          [
+            107.642268,
+            -6.9385032
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929702,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.642268,
+            -6.9385032
+          ],
+          [
+            107.6422737,
+            -6.9384148
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929703,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6422737,
+            -6.9384148
+          ],
+          [
+            107.6422771,
+            -6.9383619
+          ],
+          [
+            107.6422805,
+            -6.938309
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929704,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6422805,
+            -6.938309
+          ],
+          [
+            107.6423103,
+            -6.9378452
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929705,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423103,
+            -6.9378452
+          ],
+          [
+            107.6423303,
+            -6.9375325
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929706,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423303,
+            -6.9375325
+          ],
+          [
+            107.6423524,
+            -6.9371895
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929707,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423524,
+            -6.9371895
+          ],
+          [
+            107.6423606,
+            -6.9370607
+          ],
+          [
+            107.6423875,
+            -6.9366422
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929708,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423875,
+            -6.9366422
+          ],
+          [
+            107.6424206,
+            -6.9362218
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929709,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6424206,
+            -6.9362218
+          ],
+          [
+            107.642469,
+            -6.9354704
+          ],
+          [
+            107.6424796,
+            -6.9353265
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929710,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6424796,
+            -6.9353265
+          ],
+          [
+            107.6424964,
+            -6.9351047
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929711,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6424964,
+            -6.9351047
+          ],
+          [
+            107.6425262,
+            -6.9348226
+          ],
+          [
+            107.6425372,
+            -6.9347467
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929712,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425372,
+            -6.9347467
+          ],
+          [
+            107.6425801,
+            -6.9344518
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929713,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6421015,
+            -6.9410976
+          ],
+          [
+            107.6421202,
+            -6.9408049
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929714,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6421202,
+            -6.9408049
+          ],
+          [
+            107.6421234,
+            -6.9407557
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929715,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6421234,
+            -6.9407557
+          ],
+          [
+            107.6421688,
+            -6.9400483
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929716,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6421688,
+            -6.9400483
+          ],
+          [
+            107.6421744,
+            -6.9399607
+          ],
+          [
+            107.6421789,
+            -6.9398908
+          ],
+          [
+            107.6422207,
+            -6.9392406
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929717,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6164318,
+            -6.9013546
+          ],
+          [
+            107.6167683,
+            -6.9013466
+          ],
+          [
+            107.6168907,
+            -6.9013406
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1384127083,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6163648,
+            -6.901357
+          ],
+          [
+            107.6164318,
+            -6.9013546
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1384127084,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6209351,
+            -6.8668623
+          ],
+          [
+            107.6212402,
+            -6.8669638
+          ],
+          [
+            107.6212512,
+            -6.8669765
+          ],
+          [
+            107.6212498,
+            -6.8669935
+          ],
+          [
+            107.6212119,
+            -6.8670778
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1384239546,
+        "highway": "service",
+        "name": "Terminal Dago",
+        "oneway": "yes",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6205739,
+            -6.8680595
+          ],
+          [
+            107.6206005,
+            -6.867828
+          ],
+          [
+            107.6206139,
+            -6.8677494
+          ],
+          [
+            107.6206394,
+            -6.8676482
+          ],
+          [
+            107.6208039,
+            -6.867019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208039,
+            -6.867019
+          ],
+          [
+            107.6208337,
+            -6.8669052
+          ],
+          [
+            107.6208647,
+            -6.8667867
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532575,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208647,
+            -6.8667867
+          ],
+          [
+            107.6209156,
+            -6.8667269
+          ],
+          [
+            107.6209442,
+            -6.866704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532576,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6156977,
+            -6.8886991
+          ],
+          [
+            107.6158021,
+            -6.8889815
+          ],
+          [
+            107.6158539,
+            -6.889097
+          ],
+          [
+            107.6158888,
+            -6.8891749
+          ],
+          [
+            107.6160343,
+            -6.8894728
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1388852430,
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6160343,
+            -6.8894728
+          ],
+          [
+            107.6165653,
+            -6.8902412
+          ],
+          [
+            107.616618,
+            -6.8903175
+          ],
+          [
+            107.6166228,
+            -6.8903248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1388852431,
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613882,
+            -6.8844449
+          ],
+          [
+            107.6138984,
+            -6.8843845
+          ],
+          [
+            107.6139865,
+            -6.884078
+          ],
+          [
+            107.6140439,
+            -6.8838946
+          ],
+          [
+            107.6140576,
+            -6.8838685
+          ],
+          [
+            107.614076,
+            -6.8838333
+          ],
+          [
+            107.6141003,
+            -6.8837869
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421456574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6773057,
+            -6.9389794
+          ],
+          [
+            107.6773072,
+            -6.9389357
+          ],
+          [
+            107.677312,
+            -6.9387582
+          ],
+          [
+            107.6773321,
+            -6.938247
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421703094,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Cipamokolan",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.682605,
+            -6.9435781
+          ],
+          [
+            107.6828611,
+            -6.9435796
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998719,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6823032,
+            -6.9436031
+          ],
+          [
+            107.682605,
+            -6.9435781
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998720,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6819663,
+            -6.9436312
+          ],
+          [
+            107.6823032,
+            -6.9436031
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998721,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6154093,
+            -6.900922
+          ],
+          [
+            107.6155959,
+            -6.9010813
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1545094387,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "ref": "381",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6155959,
+            -6.9010813
+          ],
+          [
+            107.6159798,
+            -6.9013693
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1545094388,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "ref": "381",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6299627,
+            -6.9157488
+          ],
+          [
+            107.629917,
+            -6.9156449
+          ],
+          [
+            107.629839,
+            -6.9154679
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1547640547,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway": "no",
+        "cycleway:left:lane": "exclusive",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6324739,
+            -6.9181019
+          ],
+          [
+            107.6322059,
+            -6.9182368
+          ],
+          [
+            107.6321219,
+            -6.9182791
+          ],
+          [
+            107.6320827,
+            -6.9183023
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1562416254,
+        "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
+        "surface": "asphalt",
+        "kode_jalur": "4634057",
+        "folder_sumber": "route-data/geojson/4634057",
+        "kategori_data": "ways",
+        "nomor_trayek": "16",
+        "nama_rute": "Riung Bandung → Dago",
+        "label_jalur": "16: Riung Bandung → Dago"
+      }
+    }
+  ]
+}

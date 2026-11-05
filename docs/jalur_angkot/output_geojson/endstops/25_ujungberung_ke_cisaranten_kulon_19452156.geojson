@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7028132,
+          -6.9140461
+        ]
+      },
+      "properties": {
+        "id": 11079993716,
+        "bus": "yes",
+        "name": "Terminal Ujungberung",
+        "public_transport": "stop_position",
+        "share_taxi": "yes",
+        "kode_jalur": "19452156",
+        "folder_sumber": "route-data/geojson/19452156",
+        "kategori_data": "endstops",
+        "nomor_trayek": "25",
+        "nama_rute": "Ujungberung → Cisaranten Kulon",
+        "label_jalur": "25: Ujungberung → Cisaranten Kulon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6773616,
+          -6.9377802
+        ]
+      },
+      "properties": {
+        "id": 13064974006,
+        "bus": "yes",
+        "name": "STMIK Jabar",
+        "public_transport": "stop_position",
+        "kode_jalur": "19452156",
+        "folder_sumber": "route-data/geojson/19452156",
+        "kategori_data": "endstops",
+        "nomor_trayek": "25",
+        "nama_rute": "Ujungberung → Cisaranten Kulon",
+        "label_jalur": "25: Ujungberung → Cisaranten Kulon"
+      }
+    }
+  ]
+}

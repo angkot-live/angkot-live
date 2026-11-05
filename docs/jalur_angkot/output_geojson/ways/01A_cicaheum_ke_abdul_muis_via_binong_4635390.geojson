@@ -1,0 +1,6522 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6430381,
+            -6.9088519
+          ],
+          [
+            107.6430734,
+            -6.9088371
+          ],
+          [
+            107.6430931,
+            -6.9088341
+          ],
+          [
+            107.6431223,
+            -6.9088325
+          ],
+          [
+            107.6431581,
+            -6.9088428
+          ],
+          [
+            107.6431794,
+            -6.9088613
+          ],
+          [
+            107.6431982,
+            -6.9088983
+          ],
+          [
+            107.6432051,
+            -6.9089444
+          ],
+          [
+            107.6432227,
+            -6.9090441
+          ],
+          [
+            107.6432642,
+            -6.9093078
+          ],
+          [
+            107.6432776,
+            -6.9093765
+          ],
+          [
+            107.6433224,
+            -6.9094595
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4279691,
+        "destination": "Jakarta;Antapani;Kiaracondong;Binong",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "name:en": "Ibrahim Adjie Avenue",
+        "note": "Cicadas",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "turn:lanes": "slight_left;through|through",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6054273,
+            -6.9316877
+          ],
+          [
+            107.6055016,
+            -6.9311384
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4627151,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6062717,
+            -6.9369192
+          ],
+          [
+            107.6062734,
+            -6.9368359
+          ],
+          [
+            107.6062967,
+            -6.9365546
+          ],
+          [
+            107.6063142,
+            -6.9363593
+          ],
+          [
+            107.6063233,
+            -6.9362301
+          ],
+          [
+            107.6063417,
+            -6.936014
+          ],
+          [
+            107.6064406,
+            -6.9346805
+          ],
+          [
+            107.6064535,
+            -6.9345182
+          ],
+          [
+            107.6064952,
+            -6.9339342
+          ],
+          [
+            107.606542,
+            -6.9332805
+          ],
+          [
+            107.6065448,
+            -6.9332508
+          ],
+          [
+            107.6065614,
+            -6.9329988
+          ],
+          [
+            107.6065733,
+            -6.9328659
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4637789,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mohammad Toha",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6259726,
+            -6.9327273
+          ],
+          [
+            107.6258219,
+            -6.93268
+          ],
+          [
+            107.6258093,
+            -6.9326685
+          ],
+          [
+            107.625745,
+            -6.9326113
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4637821,
+        "alt_name": "Jalan Martanegara",
+        "avgspeed": "30",
+        "designation": "city_road",
+        "destination:lanes": "Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
+        "destination:ref:lanes": "|376",
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan R.A.A. Martanegara",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "3395",
+        "sidewalk:left": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "slight_right|right",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6348227,
+            -6.9321233
+          ],
+          [
+            107.6349144,
+            -6.9317675
+          ],
+          [
+            107.6349593,
+            -6.9315874
+          ],
+          [
+            107.6349787,
+            -6.9315093
+          ],
+          [
+            107.6349977,
+            -6.9314343
+          ],
+          [
+            107.6350129,
+            -6.931374
+          ],
+          [
+            107.6350713,
+            -6.9311431
+          ],
+          [
+            107.6350864,
+            -6.931084
+          ],
+          [
+            107.6351532,
+            -6.9308208
+          ],
+          [
+            107.6352273,
+            -6.9305365
+          ],
+          [
+            107.6353063,
+            -6.9302285
+          ],
+          [
+            107.635324,
+            -6.930155
+          ],
+          [
+            107.6353583,
+            -6.9300131
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4639547,
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "ref": "3686",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.643667,
+            -6.8999883
+          ],
+          [
+            107.6437562,
+            -6.9000026
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32360437,
+        "alt_name": "Jalan Suci",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan PH. H. Mustofa",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6437562,
+            -6.9000026
+          ],
+          [
+            107.6437845,
+            -6.9000071
+          ],
+          [
+            107.6438196,
+            -6.9000127
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32360440,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6220155,
+            -6.9328922
+          ],
+          [
+            107.621867,
+            -6.9330399
+          ],
+          [
+            107.6218522,
+            -6.9330545
+          ],
+          [
+            107.6211343,
+            -6.9337683
+          ],
+          [
+            107.6206148,
+            -6.9342423
+          ],
+          [
+            107.6203926,
+            -6.9344451
+          ],
+          [
+            107.6203546,
+            -6.9344794
+          ]
+        ]
+      },
+      "properties": {
+        "id": 48494953,
+        "access": "yes",
+        "avgspeed": "20",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "lanes": "2",
+        "name": "Jalan Gajah",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.636589,
+            -6.9279454
+          ],
+          [
+            107.6366637,
+            -6.9279864
+          ],
+          [
+            107.6366923,
+            -6.9280016
+          ],
+          [
+            107.6368005,
+            -6.9280587
+          ],
+          [
+            107.6370469,
+            -6.9281952
+          ],
+          [
+            107.6373057,
+            -6.9283272
+          ],
+          [
+            107.6374286,
+            -6.9283966
+          ],
+          [
+            107.6377538,
+            -6.928582
+          ],
+          [
+            107.6380006,
+            -6.92873
+          ],
+          [
+            107.6380529,
+            -6.9287646
+          ],
+          [
+            107.6381119,
+            -6.9288006
+          ],
+          [
+            107.6381689,
+            -6.9288432
+          ],
+          [
+            107.6382687,
+            -6.9289281
+          ],
+          [
+            107.6384491,
+            -6.9290817
+          ],
+          [
+            107.6386831,
+            -6.9293013
+          ],
+          [
+            107.6389116,
+            -6.9295348
+          ],
+          [
+            107.6391119,
+            -6.9297496
+          ]
+        ]
+      },
+      "properties": {
+        "id": 102775942,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6303214,
+            -6.9063283
+          ],
+          [
+            107.630142,
+            -6.9066836
+          ],
+          [
+            107.6301314,
+            -6.9067199
+          ],
+          [
+            107.6301227,
+            -6.9067812
+          ]
+        ]
+      },
+      "properties": {
+        "id": 154075950,
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6175412,
+            -6.9315347
+          ],
+          [
+            107.6174985,
+            -6.9315204
+          ],
+          [
+            107.6173962,
+            -6.9314981
+          ],
+          [
+            107.6170341,
+            -6.9315116
+          ],
+          [
+            107.6165812,
+            -6.9315286
+          ],
+          [
+            107.616226,
+            -6.9315515
+          ],
+          [
+            107.6158997,
+            -6.9315603
+          ]
+        ]
+      },
+      "properties": {
+        "id": 166336042,
+        "access": "yes",
+        "avgspeed": "20",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Gurame",
+        "oneway": "yes",
+        "ref": "3209",
+        "reg_ref": "22-10-3209",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6178994,
+            -6.9318561
+          ],
+          [
+            107.6177935,
+            -6.9317529
+          ],
+          [
+            107.6175412,
+            -6.9315347
+          ]
+        ]
+      },
+      "properties": {
+        "id": 166336050,
+        "avgspeed": "40",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sadakeling",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6439028,
+            -6.93096
+          ],
+          [
+            107.6438759,
+            -6.9310003
+          ],
+          [
+            107.6438506,
+            -6.9310446
+          ],
+          [
+            107.6432353,
+            -6.9317493
+          ],
+          [
+            107.6432062,
+            -6.9317921
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676620,
+        "destination:lanes": "Pindad;Universitas Jenderal Ahmad Yani|Terusan Kiaracondong;Soekarno Hatta|Gatot Subroto;Terusan Kiaracondong;Soekarno Hatta",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6562379,
+            -6.9021633
+          ],
+          [
+            107.6561678,
+            -6.9021519
+          ],
+          [
+            107.6560981,
+            -6.9021454
+          ],
+          [
+            107.6557174,
+            -6.902134
+          ]
+        ]
+      },
+      "properties": {
+        "id": 239944112,
+        "avgspeed": "30",
+        "destination:lanes": "Cicadas|Padasuka;Cikutra",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "turn:lanes": "slight_left;through|through",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6343755,
+            -6.9133841
+          ],
+          [
+            107.6344369,
+            -6.9133475
+          ],
+          [
+            107.6344903,
+            -6.913351
+          ],
+          [
+            107.6345359,
+            -6.9133508
+          ],
+          [
+            107.6346004,
+            -6.9133622
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244799594,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.622434,
+            -6.9309756
+          ],
+          [
+            107.6223798,
+            -6.9311705
+          ],
+          [
+            107.6222917,
+            -6.9314875
+          ],
+          [
+            107.6221815,
+            -6.9318636
+          ],
+          [
+            107.6220445,
+            -6.9323308
+          ],
+          [
+            107.6219116,
+            -6.9328188
+          ]
+        ]
+      },
+      "properties": {
+        "id": 255029936,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Palasari",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.622434,
+            -6.9309756
+          ],
+          [
+            107.6226407,
+            -6.931064
+          ],
+          [
+            107.6227405,
+            -6.9311066
+          ],
+          [
+            107.6228866,
+            -6.9311691
+          ],
+          [
+            107.6229314,
+            -6.9311882
+          ],
+          [
+            107.6229672,
+            -6.9312035
+          ],
+          [
+            107.6233795,
+            -6.9313797
+          ],
+          [
+            107.6234448,
+            -6.9314076
+          ],
+          [
+            107.6240705,
+            -6.931675
+          ],
+          [
+            107.6241025,
+            -6.9316887
+          ],
+          [
+            107.6243775,
+            -6.9318062
+          ],
+          [
+            107.6244842,
+            -6.9318518
+          ],
+          [
+            107.6246625,
+            -6.9319336
+          ],
+          [
+            107.625024,
+            -6.9320993
+          ],
+          [
+            107.6252034,
+            -6.9321877
+          ]
+        ]
+      },
+      "properties": {
+        "id": 255029938,
+        "avgspeed": "20",
+        "destination:forward": "Simpang Martanegara",
+        "destination:ref:lanes": "Palasari",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lodaya",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6350549,
+            -6.9019378
+          ],
+          [
+            107.6348987,
+            -6.9016374
+          ],
+          [
+            107.6348128,
+            -6.9014729
+          ],
+          [
+            107.634484,
+            -6.9008227
+          ],
+          [
+            107.6343436,
+            -6.9005363
+          ],
+          [
+            107.6342539,
+            -6.9003269
+          ],
+          [
+            107.6342453,
+            -6.9003068
+          ],
+          [
+            107.634226,
+            -6.9002535
+          ],
+          [
+            107.634169,
+            -6.9000823
+          ],
+          [
+            107.6341191,
+            -6.8999094
+          ],
+          [
+            107.6340678,
+            -6.8997079
+          ],
+          [
+            107.6340457,
+            -6.8996181
+          ],
+          [
+            107.6340202,
+            -6.8994968
+          ],
+          [
+            107.6339954,
+            -6.8993522
+          ],
+          [
+            107.6339847,
+            -6.8991547
+          ],
+          [
+            107.6339826,
+            -6.8991154
+          ],
+          [
+            107.6339837,
+            -6.8989889
+          ],
+          [
+            107.6339842,
+            -6.8989336
+          ],
+          [
+            107.6339847,
+            -6.8988729
+          ],
+          [
+            107.6340079,
+            -6.8985508
+          ],
+          [
+            107.6340622,
+            -6.8982024
+          ],
+          [
+            107.634127,
+            -6.8979661
+          ],
+          [
+            107.6341816,
+            -6.8977908
+          ]
+        ]
+      },
+      "properties": {
+        "id": 294992957,
+        "destination:backward": "Simpang Asrama Pussenif",
+        "destination:forward": "Simpang Pahlawan",
+        "destination:lanes:forward": "Jalaprang;PUSDAI;Gedung Sate;Dago|Cikutra;Cimuncang;Padasuka;Cicaheum",
+        "highway": "secondary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Pahlawan",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|right",
+        "turn:lanes:forward": "through|through;right",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6054273,
+            -6.9316877
+          ],
+          [
+            107.6059974,
+            -6.9317627
+          ],
+          [
+            107.6060299,
+            -6.9317669
+          ],
+          [
+            107.6064523,
+            -6.9318239
+          ],
+          [
+            107.606653,
+            -6.9318519
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742826,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
+        "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6301227,
+            -6.9067812
+          ],
+          [
+            107.6302159,
+            -6.9069194
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318100674,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Supratman",
+        "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "380",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6374263,
+            -6.9118346
+          ],
+          [
+            107.6376746,
+            -6.9117059
+          ],
+          [
+            107.6380463,
+            -6.9115125
+          ],
+          [
+            107.6381052,
+            -6.9114812
+          ],
+          [
+            107.6384087,
+            -6.9113142
+          ],
+          [
+            107.6385292,
+            -6.9112521
+          ],
+          [
+            107.6386772,
+            -6.911175
+          ],
+          [
+            107.6388085,
+            -6.9111044
+          ],
+          [
+            107.6393511,
+            -6.9108148
+          ],
+          [
+            107.6394945,
+            -6.9107372
+          ],
+          [
+            107.6395509,
+            -6.9107061
+          ],
+          [
+            107.6397159,
+            -6.9106143
+          ],
+          [
+            107.6397829,
+            -6.9105782
+          ],
+          [
+            107.6399162,
+            -6.9105033
+          ],
+          [
+            107.6402409,
+            -6.9103278
+          ],
+          [
+            107.64053,
+            -6.9101769
+          ],
+          [
+            107.6407412,
+            -6.9100688
+          ],
+          [
+            107.641164,
+            -6.9098457
+          ],
+          [
+            107.641445,
+            -6.9096983
+          ],
+          [
+            107.6415409,
+            -6.9096449
+          ],
+          [
+            107.6416706,
+            -6.9095775
+          ],
+          [
+            107.6417659,
+            -6.9095225
+          ],
+          [
+            107.6418156,
+            -6.9094919
+          ],
+          [
+            107.641865,
+            -6.9094557
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318481950,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Cikutra;Cicaheum;Ujungberung|Cikutra;Cicaheum;Ujungberung|Antapani;Kiaracondong;Binong;Samsat|Antapani;Kiaracondong;Binong;Samsat",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6434139,
+            -6.8999482
+          ],
+          [
+            107.6434217,
+            -6.8997196
+          ],
+          [
+            107.6434549,
+            -6.8991739
+          ],
+          [
+            107.6434681,
+            -6.898935
+          ],
+          [
+            107.6435097,
+            -6.898742
+          ],
+          [
+            107.6435525,
+            -6.8985615
+          ],
+          [
+            107.6436372,
+            -6.8981766
+          ],
+          [
+            107.6437015,
+            -6.8978073
+          ],
+          [
+            107.6437076,
+            -6.897601
+          ],
+          [
+            107.6437058,
+            -6.897312
+          ],
+          [
+            107.6437035,
+            -6.897111
+          ],
+          [
+            107.6437025,
+            -6.8970495
+          ],
+          [
+            107.6436943,
+            -6.8969435
+          ],
+          [
+            107.6436921,
+            -6.8969266
+          ],
+          [
+            107.6436524,
+            -6.8965534
+          ],
+          [
+            107.6436342,
+            -6.896441
+          ],
+          [
+            107.6435679,
+            -6.8961026
+          ],
+          [
+            107.6435506,
+            -6.8960192
+          ],
+          [
+            107.6435276,
+            -6.8959381
+          ],
+          [
+            107.643499,
+            -6.8958715
+          ],
+          [
+            107.6432943,
+            -6.8956408
+          ],
+          [
+            107.6431331,
+            -6.895462
+          ],
+          [
+            107.6429808,
+            -6.8952929
+          ],
+          [
+            107.6428455,
+            -6.8951583
+          ],
+          [
+            107.6427374,
+            -6.8950706
+          ],
+          [
+            107.6426791,
+            -6.8950441
+          ],
+          [
+            107.6426248,
+            -6.8950198
+          ],
+          [
+            107.6424752,
+            -6.8949628
+          ],
+          [
+            107.6424044,
+            -6.8949233
+          ],
+          [
+            107.6421034,
+            -6.8947164
+          ],
+          [
+            107.6420237,
+            -6.8946702
+          ],
+          [
+            107.6418224,
+            -6.8945447
+          ],
+          [
+            107.6417526,
+            -6.8945076
+          ],
+          [
+            107.6416085,
+            -6.8944254
+          ],
+          [
+            107.6413356,
+            -6.8943003
+          ],
+          [
+            107.6410661,
+            -6.8941877
+          ],
+          [
+            107.6407715,
+            -6.8940762
+          ],
+          [
+            107.6406612,
+            -6.8940394
+          ],
+          [
+            107.6406201,
+            -6.8940267
+          ],
+          [
+            107.6405739,
+            -6.8940123
+          ],
+          [
+            107.6404773,
+            -6.8939836
+          ],
+          [
+            107.640386,
+            -6.8939565
+          ],
+          [
+            107.6403262,
+            -6.8939387
+          ],
+          [
+            107.6402494,
+            -6.8939183
+          ],
+          [
+            107.6401385,
+            -6.8938889
+          ],
+          [
+            107.6400311,
+            -6.8938604
+          ],
+          [
+            107.6398267,
+            -6.8938086
+          ],
+          [
+            107.6397463,
+            -6.8937882
+          ],
+          [
+            107.6388995,
+            -6.8936636
+          ],
+          [
+            107.6386049,
+            -6.8936628
+          ],
+          [
+            107.6383538,
+            -6.8936579
+          ],
+          [
+            107.638193,
+            -6.8936616
+          ],
+          [
+            107.6379264,
+            -6.8936719
+          ],
+          [
+            107.6374363,
+            -6.8936549
+          ],
+          [
+            107.6369595,
+            -6.8936268
+          ],
+          [
+            107.636805,
+            -6.8936194
+          ],
+          [
+            107.6366349,
+            -6.8936199
+          ],
+          [
+            107.6365779,
+            -6.8936129
+          ],
+          [
+            107.6365221,
+            -6.8936046
+          ],
+          [
+            107.6364354,
+            -6.893582
+          ],
+          [
+            107.6362947,
+            -6.8935452
+          ],
+          [
+            107.6362109,
+            -6.8935076
+          ],
+          [
+            107.6361203,
+            -6.8934628
+          ],
+          [
+            107.6360198,
+            -6.8933698
+          ],
+          [
+            107.6359833,
+            -6.8933186
+          ],
+          [
+            107.635927,
+            -6.8932157
+          ],
+          [
+            107.6358519,
+            -6.8930963
+          ],
+          [
+            107.6357918,
+            -6.8930311
+          ],
+          [
+            107.635692,
+            -6.8929468
+          ],
+          [
+            107.6356272,
+            -6.8928924
+          ],
+          [
+            107.6355463,
+            -6.8928327
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318481953,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Cikutra",
+        "ref": "10070",
+        "reg_ref": "22-10-10070",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6434139,
+            -6.8999482
+          ],
+          [
+            107.6435297,
+            -6.8999663
+          ],
+          [
+            107.6436124,
+            -6.8999796
+          ],
+          [
+            107.643667,
+            -6.8999883
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318481954,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6090371,
+            -6.9377023
+          ],
+          [
+            107.6089837,
+            -6.9377027
+          ],
+          [
+            107.6088735,
+            -6.9376992
+          ],
+          [
+            107.6084233,
+            -6.9376849
+          ],
+          [
+            107.6081426,
+            -6.937676
+          ],
+          [
+            107.6074822,
+            -6.9376551
+          ],
+          [
+            107.6067777,
+            -6.9376327
+          ],
+          [
+            107.6064422,
+            -6.9376269
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318482268,
+        "cycleway:both": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6061651,
+            -6.9376173
+          ],
+          [
+            107.6061748,
+            -6.9375256
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318482269,
+        "avgspeed": "30",
+        "designation": "provincial_road",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Mohammad Toha",
+        "oneway": "yes",
+        "ref": "161",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6307097,
+            -6.9076768
+          ],
+          [
+            107.630978,
+            -6.9080863
+          ],
+          [
+            107.6310763,
+            -6.9082368
+          ],
+          [
+            107.6323234,
+            -6.9101643
+          ],
+          [
+            107.6324181,
+            -6.910307
+          ],
+          [
+            107.6331886,
+            -6.911499
+          ],
+          [
+            107.63341,
+            -6.9118283
+          ],
+          [
+            107.633699,
+            -6.9122228
+          ],
+          [
+            107.6341589,
+            -6.9129789
+          ],
+          [
+            107.6343465,
+            -6.9133337
+          ],
+          [
+            107.6343563,
+            -6.9133508
+          ],
+          [
+            107.6343755,
+            -6.9133841
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318486204,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Supratman",
+        "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
+        "oneway": "yes",
+        "ref": "380",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6435055,
+            -6.9113592
+          ],
+          [
+            107.6435255,
+            -6.9115834
+          ],
+          [
+            107.6435572,
+            -6.9119253
+          ],
+          [
+            107.6435846,
+            -6.9122429
+          ],
+          [
+            107.6436146,
+            -6.9125869
+          ],
+          [
+            107.6436356,
+            -6.9128822
+          ],
+          [
+            107.6436422,
+            -6.9130175
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318490791,
+        "destination:lanes": "Purwakarta;Antapani;Arcamanik|Kiaracondong;Babakan Sari;Binong|Jakarta;Ahmad Yani;Supratman;Riau",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "name:en": "Ibrahim Adjie Avenue",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left;slight_right|slight_right",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.641865,
+            -6.9094557
+          ],
+          [
+            107.641886,
+            -6.9094523
+          ],
+          [
+            107.6419246,
+            -6.9094416
+          ],
+          [
+            107.6420289,
+            -6.9093976
+          ],
+          [
+            107.6421602,
+            -6.9093246
+          ],
+          [
+            107.6427522,
+            -6.9090058
+          ],
+          [
+            107.6430381,
+            -6.9088519
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318729566,
+        "avgspeed": "30",
+        "destination": "Jakarta;Antapani;Kiaracondong;Binong",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "right|right",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6098898,
+            -6.9371008
+          ],
+          [
+            107.6105128,
+            -6.9366557
+          ],
+          [
+            107.6106178,
+            -6.9365806
+          ],
+          [
+            107.6107189,
+            -6.9365083
+          ],
+          [
+            107.611406,
+            -6.9359826
+          ],
+          [
+            107.6115373,
+            -6.9358756
+          ],
+          [
+            107.6119898,
+            -6.9355068
+          ],
+          [
+            107.6123682,
+            -6.9351648
+          ],
+          [
+            107.6127563,
+            -6.9348062
+          ],
+          [
+            107.613029,
+            -6.9345354
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318899764,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6302159,
+            -6.9069194
+          ],
+          [
+            107.6307097,
+            -6.9076768
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319178849,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Supratman",
+        "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "380",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6272158,
+            -6.9330278
+          ],
+          [
+            107.6277229,
+            -6.9331834
+          ],
+          [
+            107.6277833,
+            -6.9331991
+          ],
+          [
+            107.6278437,
+            -6.9332148
+          ],
+          [
+            107.6282092,
+            -6.9333101
+          ],
+          [
+            107.6288528,
+            -6.9334603
+          ],
+          [
+            107.6290573,
+            -6.933508
+          ],
+          [
+            107.6292413,
+            -6.933555
+          ],
+          [
+            107.6297626,
+            -6.9336792
+          ],
+          [
+            107.6306127,
+            -6.9338832
+          ],
+          [
+            107.6310515,
+            -6.9339821
+          ],
+          [
+            107.6313521,
+            -6.9340498
+          ],
+          [
+            107.6314371,
+            -6.9340689
+          ],
+          [
+            107.6321764,
+            -6.9342353
+          ],
+          [
+            107.6325931,
+            -6.9343034
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319195727,
+        "alt_name": "Jalan Martanegara",
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan R.A.A. Martanegara",
+        "parking:both": "no",
+        "ref": "3395",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6438196,
+            -6.9000127
+          ],
+          [
+            107.6439328,
+            -6.9000256
+          ],
+          [
+            107.643984,
+            -6.9000314
+          ],
+          [
+            107.6442214,
+            -6.9000581
+          ],
+          [
+            107.6446479,
+            -6.9001485
+          ],
+          [
+            107.6446782,
+            -6.9001599
+          ],
+          [
+            107.6448952,
+            -6.9002413
+          ],
+          [
+            107.6449808,
+            -6.9002743
+          ],
+          [
+            107.6452068,
+            -6.9003719
+          ],
+          [
+            107.6452442,
+            -6.900388
+          ],
+          [
+            107.6452841,
+            -6.9004052
+          ],
+          [
+            107.6453987,
+            -6.9004547
+          ],
+          [
+            107.6455117,
+            -6.9005103
+          ],
+          [
+            107.6455998,
+            -6.9005537
+          ],
+          [
+            107.6457674,
+            -6.9006362
+          ],
+          [
+            107.6458421,
+            -6.900673
+          ],
+          [
+            107.6461092,
+            -6.9008033
+          ],
+          [
+            107.6461914,
+            -6.9008434
+          ],
+          [
+            107.6463329,
+            -6.9009168
+          ],
+          [
+            107.6464296,
+            -6.900967
+          ],
+          [
+            107.6469046,
+            -6.9012136
+          ],
+          [
+            107.6469293,
+            -6.9012264
+          ],
+          [
+            107.6474504,
+            -6.9014584
+          ],
+          [
+            107.6477192,
+            -6.901552
+          ],
+          [
+            107.6478569,
+            -6.9015852
+          ],
+          [
+            107.6480152,
+            -6.9016027
+          ],
+          [
+            107.6481316,
+            -6.9016115
+          ],
+          [
+            107.6484583,
+            -6.9016362
+          ],
+          [
+            107.6485627,
+            -6.9016441
+          ],
+          [
+            107.6490533,
+            -6.9016812
+          ],
+          [
+            107.6491826,
+            -6.901691
+          ],
+          [
+            107.6497732,
+            -6.9017359
+          ],
+          [
+            107.6500375,
+            -6.9017541
+          ],
+          [
+            107.650317,
+            -6.9017942
+          ],
+          [
+            107.6505985,
+            -6.9018158
+          ],
+          [
+            107.65075,
+            -6.9018006
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320405968,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6303214,
+            -6.9063283
+          ],
+          [
+            107.6303549,
+            -6.9062732
+          ],
+          [
+            107.6305171,
+            -6.9060357
+          ],
+          [
+            107.6306164,
+            -6.9059132
+          ],
+          [
+            107.6306329,
+            -6.9058904
+          ],
+          [
+            107.6312587,
+            -6.905028
+          ],
+          [
+            107.6316451,
+            -6.9044669
+          ],
+          [
+            107.6317894,
+            -6.9042688
+          ],
+          [
+            107.6320385,
+            -6.9039297
+          ],
+          [
+            107.6321582,
+            -6.903793
+          ],
+          [
+            107.6324558,
+            -6.9034531
+          ],
+          [
+            107.6329526,
+            -6.9030314
+          ],
+          [
+            107.6331455,
+            -6.9029229
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320430475,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6355463,
+            -6.8928327
+          ],
+          [
+            107.6354602,
+            -6.8931739
+          ],
+          [
+            107.6354258,
+            -6.8933137
+          ],
+          [
+            107.6353388,
+            -6.893703
+          ],
+          [
+            107.6353178,
+            -6.8937938
+          ],
+          [
+            107.6352099,
+            -6.8942649
+          ],
+          [
+            107.6351452,
+            -6.8945475
+          ],
+          [
+            107.6350337,
+            -6.8949709
+          ],
+          [
+            107.6349426,
+            -6.8953783
+          ],
+          [
+            107.6348789,
+            -6.8956164
+          ],
+          [
+            107.6347529,
+            -6.8961255
+          ],
+          [
+            107.6345969,
+            -6.8966637
+          ],
+          [
+            107.634576,
+            -6.8967506
+          ],
+          [
+            107.6344418,
+            -6.8973156
+          ],
+          [
+            107.6343816,
+            -6.8976003
+          ],
+          [
+            107.6341816,
+            -6.8977908
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320814055,
+        "destination": "Simpang Pahlawan",
+        "destination:lanes": "Cikutra;Cimuncang;Padasuka;Cicaheum|Pussenif;Supratman;Taman Pramuka;Diponegoro",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Pahlawan",
+        "oneway": "yes",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6438226,
+            -6.9146708
+          ],
+          [
+            107.6438437,
+            -6.9147294
+          ],
+          [
+            107.6438723,
+            -6.914798
+          ],
+          [
+            107.6438831,
+            -6.9148336
+          ],
+          [
+            107.6439045,
+            -6.9150739
+          ],
+          [
+            107.6440253,
+            -6.916433
+          ],
+          [
+            107.6440375,
+            -6.9165764
+          ],
+          [
+            107.6440449,
+            -6.9166642
+          ],
+          [
+            107.6441162,
+            -6.9172833
+          ],
+          [
+            107.644141,
+            -6.9175403
+          ],
+          [
+            107.6441549,
+            -6.9176854
+          ],
+          [
+            107.644212,
+            -6.9182934
+          ],
+          [
+            107.6442283,
+            -6.9184491
+          ],
+          [
+            107.6442687,
+            -6.9190528
+          ],
+          [
+            107.6442705,
+            -6.9192677
+          ],
+          [
+            107.6442746,
+            -6.9193256
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321083498,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6445424,
+            -6.9270467
+          ],
+          [
+            107.6444912,
+            -6.9272363
+          ],
+          [
+            107.6444424,
+            -6.9274017
+          ],
+          [
+            107.6444279,
+            -6.9274506
+          ],
+          [
+            107.6444038,
+            -6.9275926
+          ],
+          [
+            107.644402,
+            -6.927627
+          ],
+          [
+            107.6443783,
+            -6.9280916
+          ],
+          [
+            107.64437,
+            -6.9282935
+          ],
+          [
+            107.6443634,
+            -6.9285036
+          ],
+          [
+            107.6443474,
+            -6.928643
+          ],
+          [
+            107.6443394,
+            -6.9286861
+          ],
+          [
+            107.6443233,
+            -6.9287433
+          ],
+          [
+            107.6442857,
+            -6.9288498
+          ],
+          [
+            107.6442384,
+            -6.9289634
+          ],
+          [
+            107.6441972,
+            -6.9290624
+          ],
+          [
+            107.6441596,
+            -6.9291707
+          ],
+          [
+            107.6441188,
+            -6.9293169
+          ],
+          [
+            107.6440799,
+            -6.9296313
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321083502,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6440799,
+            -6.9296313
+          ],
+          [
+            107.6440629,
+            -6.929751
+          ],
+          [
+            107.6440564,
+            -6.9298343
+          ],
+          [
+            107.6440268,
+            -6.9299221
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321083504,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6437464,
+            -6.9137765
+          ],
+          [
+            107.6437495,
+            -6.9138071
+          ],
+          [
+            107.6437714,
+            -6.9141195
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635690,
+        "destination": "Kiaracondong;Babakan Sari;Binong",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6427137,
+            -6.9344704
+          ],
+          [
+            107.6427025,
+            -6.9345445
+          ],
+          [
+            107.642669,
+            -6.9347772
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635691,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6220155,
+            -6.9328922
+          ],
+          [
+            107.6219116,
+            -6.9328188
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635696,
+        "access": "yes",
+        "alt_name": "Jalan Banteng",
+        "avgspeed": "15",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Kyai Haji Ahmad Dahlan",
+        "name:etymology:wikidata": "Q4695300",
+        "name:etymology:wikipedia": "id:Ahmad Dahlan",
+        "oneway": "no",
+        "ref": "3981",
+        "reg_ref": "22-10-3981",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6203546,
+            -6.9344794
+          ],
+          [
+            107.6196129,
+            -6.9336813
+          ],
+          [
+            107.6194953,
+            -6.9335548
+          ],
+          [
+            107.6191727,
+            -6.9332024
+          ],
+          [
+            107.6187265,
+            -6.9327149
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635697,
+        "access": "yes",
+        "avgspeed": "40",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "3096",
+        "reg_ref": "22-10-3096",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6156957,
+            -6.9316439
+          ],
+          [
+            107.6155918,
+            -6.9317325
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635698,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6158997,
+            -6.9315603
+          ],
+          [
+            107.6156957,
+            -6.9316439
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330635699,
+        "access": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6437162,
+            -6.9134484
+          ],
+          [
+            107.6437256,
+            -6.9135412
+          ],
+          [
+            107.6437311,
+            -6.913624
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330976387,
+        "destination": "Kiaracondong;Babakan Sari;Binong",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6433703,
+            -6.9099716
+          ],
+          [
+            107.6434142,
+            -6.9104391
+          ],
+          [
+            107.6434287,
+            -6.9105814
+          ],
+          [
+            107.6434818,
+            -6.9111241
+          ],
+          [
+            107.6434906,
+            -6.9112086
+          ],
+          [
+            107.6435055,
+            -6.9113592
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330996291,
+        "destination": "Jakarta;Antapani;Kiaracondong;Binong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "name:en": "Ibrahim Adjie Avenue",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "width": "8",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6064422,
+            -6.9376269
+          ],
+          [
+            107.6063387,
+            -6.9376239
+          ],
+          [
+            107.6063086,
+            -6.937624
+          ],
+          [
+            107.6062424,
+            -6.9376212
+          ]
+        ]
+      },
+      "properties": {
+        "id": 340403799,
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6508611,
+            -6.9018087
+          ],
+          [
+            107.6511076,
+            -6.9018211
+          ],
+          [
+            107.6512496,
+            -6.9018282
+          ],
+          [
+            107.6514575,
+            -6.9018387
+          ],
+          [
+            107.6521919,
+            -6.901873
+          ],
+          [
+            107.6522785,
+            -6.9018762
+          ],
+          [
+            107.6525276,
+            -6.9018908
+          ],
+          [
+            107.6526167,
+            -6.9018971
+          ],
+          [
+            107.6528084,
+            -6.9019067
+          ]
+        ]
+      },
+      "properties": {
+        "id": 414435678,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6550496,
+            -6.9021051
+          ],
+          [
+            107.6548848,
+            -6.9020918
+          ],
+          [
+            107.6544663,
+            -6.902058
+          ],
+          [
+            107.6544249,
+            -6.9020547
+          ],
+          [
+            107.6539164,
+            -6.9020071
+          ],
+          [
+            107.6536574,
+            -6.901985
+          ],
+          [
+            107.6535575,
+            -6.9019799
+          ],
+          [
+            107.653422,
+            -6.9019707
+          ],
+          [
+            107.6532778,
+            -6.9019616
+          ],
+          [
+            107.6531598,
+            -6.9019541
+          ],
+          [
+            107.6531268,
+            -6.901952
+          ],
+          [
+            107.6529794,
+            -6.9019446
+          ],
+          [
+            107.6528084,
+            -6.9019067
+          ]
+        ]
+      },
+      "properties": {
+        "id": 558964700,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6436422,
+            -6.9130175
+          ],
+          [
+            107.6436753,
+            -6.9130915
+          ],
+          [
+            107.6437162,
+            -6.9134484
+          ]
+        ]
+      },
+      "properties": {
+        "id": 559019362,
+        "destination:lanes": "Purwakarta;Antapani;Arcamanik|Kiaracondong;Babakan Sari;Binong",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "turn:lanes": "slight_left;through|through",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6437311,
+            -6.913624
+          ],
+          [
+            107.6437464,
+            -6.9137765
+          ]
+        ]
+      },
+      "properties": {
+        "id": 559019370,
+        "destination": "Kiaracondong;Babakan Sari;Binong",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6404257,
+            -6.9307319
+          ],
+          [
+            107.6405374,
+            -6.9307832
+          ]
+        ]
+      },
+      "properties": {
+        "id": 559375359,
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6332551,
+            -6.9028646
+          ],
+          [
+            107.6333952,
+            -6.9027941
+          ],
+          [
+            107.6334718,
+            -6.902753
+          ],
+          [
+            107.6337467,
+            -6.9026114
+          ],
+          [
+            107.6338639,
+            -6.9025511
+          ],
+          [
+            107.6342515,
+            -6.9023515
+          ],
+          [
+            107.6346604,
+            -6.9021409
+          ],
+          [
+            107.6348067,
+            -6.9020656
+          ],
+          [
+            107.6350549,
+            -6.9019378
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561411466,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6331455,
+            -6.9029229
+          ],
+          [
+            107.6332551,
+            -6.9028646
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561411467,
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6095438,
+            -6.9373552
+          ],
+          [
+            107.609273,
+            -6.9375521
+          ],
+          [
+            107.6092493,
+            -6.9375678
+          ],
+          [
+            107.6091826,
+            -6.9376215
+          ]
+        ]
+      },
+      "properties": {
+        "id": 620544852,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "turn:lanes": "slight_right|slight_right",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6096949,
+            -6.9372179
+          ],
+          [
+            107.6097668,
+            -6.9371763
+          ],
+          [
+            107.6098898,
+            -6.9371008
+          ]
+        ]
+      },
+      "properties": {
+        "id": 620544853,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6061748,
+            -6.9375256
+          ],
+          [
+            107.6061856,
+            -6.9374395
+          ]
+        ]
+      },
+      "properties": {
+        "id": 620544861,
+        "avgspeed": "30",
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mohammad Toha",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6187265,
+            -6.9327149
+          ],
+          [
+            107.6183506,
+            -6.9323042
+          ],
+          [
+            107.6180578,
+            -6.9320136
+          ]
+        ]
+      },
+      "properties": {
+        "id": 701752685,
+        "access": "yes",
+        "avgspeed": "40",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "3096",
+        "reg_ref": "22-10-3096",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6062104,
+            -6.9372527
+          ],
+          [
+            107.606234,
+            -6.9369923
+          ],
+          [
+            107.606247,
+            -6.9369443
+          ],
+          [
+            107.6062717,
+            -6.9369192
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705036950,
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mohammad Toha",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.636589,
+            -6.9279454
+          ],
+          [
+            107.6364857,
+            -6.9279186
+          ],
+          [
+            107.6364159,
+            -6.9278948
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705716118,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6155918,
+            -6.9317325
+          ],
+          [
+            107.6154429,
+            -6.9319192
+          ]
+        ]
+      },
+      "properties": {
+        "id": 713671780,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6154429,
+            -6.9319192
+          ],
+          [
+            107.6152764,
+            -6.9321366
+          ]
+        ]
+      },
+      "properties": {
+        "id": 713671781,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Mochammad Ramdhan",
+        "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6152764,
+            -6.9321366
+          ],
+          [
+            107.6150937,
+            -6.9323576
+          ],
+          [
+            107.6149248,
+            -6.9325064
+          ]
+        ]
+      },
+      "properties": {
+        "id": 713671782,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6405374,
+            -6.9307832
+          ],
+          [
+            107.6405609,
+            -6.9307935
+          ],
+          [
+            107.6410724,
+            -6.9309989
+          ]
+        ]
+      },
+      "properties": {
+        "id": 716018248,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6443896,
+            -6.9217882
+          ],
+          [
+            107.6443919,
+            -6.9218887
+          ],
+          [
+            107.6443943,
+            -6.9219902
+          ],
+          [
+            107.6444041,
+            -6.9221685
+          ],
+          [
+            107.6444121,
+            -6.9223151
+          ],
+          [
+            107.6444146,
+            -6.9223743
+          ],
+          [
+            107.6444283,
+            -6.9226929
+          ],
+          [
+            107.6444333,
+            -6.9228101
+          ],
+          [
+            107.6444683,
+            -6.923615
+          ],
+          [
+            107.6444747,
+            -6.9237792
+          ],
+          [
+            107.6444796,
+            -6.9238675
+          ],
+          [
+            107.6444839,
+            -6.9239857
+          ],
+          [
+            107.6444856,
+            -6.9240344
+          ],
+          [
+            107.644489,
+            -6.9241129
+          ],
+          [
+            107.6444912,
+            -6.9241923
+          ],
+          [
+            107.6444934,
+            -6.9242551
+          ],
+          [
+            107.6444962,
+            -6.9243006
+          ],
+          [
+            107.6444992,
+            -6.9243583
+          ],
+          [
+            107.6445077,
+            -6.9245514
+          ]
+        ]
+      },
+      "properties": {
+        "id": 764042515,
+        "destination:lanes": "Stasiun Kiaracondong|none",
+        "destination:symbol:lanes": "train_station|none",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6393128,
+            -6.9299564
+          ],
+          [
+            107.6396736,
+            -6.9302614
+          ],
+          [
+            107.6398164,
+            -6.9303695
+          ],
+          [
+            107.6399577,
+            -6.9304643
+          ],
+          [
+            107.6399986,
+            -6.9304871
+          ],
+          [
+            107.6402197,
+            -6.9306103
+          ],
+          [
+            107.6403778,
+            -6.9307025
+          ],
+          [
+            107.6404257,
+            -6.9307319
+          ]
+        ]
+      },
+      "properties": {
+        "id": 769225842,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425801,
+            -6.9344518
+          ],
+          [
+            107.6426419,
+            -6.934114
+          ],
+          [
+            107.6427034,
+            -6.9338245
+          ],
+          [
+            107.6427458,
+            -6.9336408
+          ],
+          [
+            107.6428114,
+            -6.9333527
+          ],
+          [
+            107.6428453,
+            -6.9332036
+          ],
+          [
+            107.6429329,
+            -6.9327429
+          ],
+          [
+            107.6429396,
+            -6.932706
+          ],
+          [
+            107.6430775,
+            -6.9319479
+          ]
+        ]
+      },
+      "properties": {
+        "id": 777643289,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6431681,
+            -6.9319855
+          ],
+          [
+            107.6431128,
+            -6.9323147
+          ],
+          [
+            107.6430129,
+            -6.9328814
+          ],
+          [
+            107.6429901,
+            -6.9330002
+          ],
+          [
+            107.642925,
+            -6.9333619
+          ],
+          [
+            107.642917,
+            -6.9333993
+          ],
+          [
+            107.6428038,
+            -6.9339301
+          ],
+          [
+            107.642777,
+            -6.9341002
+          ],
+          [
+            107.6427137,
+            -6.9344704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 777643290,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6445077,
+            -6.9245514
+          ],
+          [
+            107.6445444,
+            -6.9258791
+          ],
+          [
+            107.6445485,
+            -6.9264733
+          ],
+          [
+            107.6445501,
+            -6.92655
+          ]
+        ]
+      },
+      "properties": {
+        "id": 833784556,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.642669,
+            -6.9347772
+          ],
+          [
+            107.6426593,
+            -6.9348787
+          ],
+          [
+            107.6426205,
+            -6.9352851
+          ],
+          [
+            107.6425875,
+            -6.9357551
+          ]
+        ]
+      },
+      "properties": {
+        "id": 841357790,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6091826,
+            -6.9376215
+          ],
+          [
+            107.6091524,
+            -6.9377062
+          ]
+        ]
+      },
+      "properties": {
+        "id": 850759907,
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6256715,
+            -6.9325087
+          ],
+          [
+            107.6256353,
+            -6.9324624
+          ],
+          [
+            107.6255977,
+            -6.9324167
+          ],
+          [
+            107.6255464,
+            -6.9323768
+          ],
+          [
+            107.625349,
+            -6.932288
+          ],
+          [
+            107.6253065,
+            -6.9322663
+          ],
+          [
+            107.6252506,
+            -6.9322109
+          ]
+        ]
+      },
+      "properties": {
+        "id": 962137062,
+        "avgspeed": "20",
+        "destination": "Palasari",
+        "foot": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lodaya",
+        "oneway": "yes",
+        "parking:both": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.625745,
+            -6.9326113
+          ],
+          [
+            107.6256715,
+            -6.9325087
+          ]
+        ]
+      },
+      "properties": {
+        "id": 991848812,
+        "alt_name": "Jalan Martanegara",
+        "designation": "city_road",
+        "destination": "Palasari;Burangrang;Karapitan",
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan R.A.A. Martanegara",
+        "oneway": "yes",
+        "ref": "3395",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6445501,
+            -6.92655
+          ],
+          [
+            107.6445534,
+            -6.9267027
+          ],
+          [
+            107.6445583,
+            -6.9269338
+          ],
+          [
+            107.6445578,
+            -6.9269546
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1000985865,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6062424,
+            -6.9376212
+          ],
+          [
+            107.6061651,
+            -6.9376173
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073713996,
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6433224,
+            -6.9094595
+          ],
+          [
+            107.6433364,
+            -6.9096111
+          ],
+          [
+            107.6433703,
+            -6.9099716
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111154134,
+        "destination": "Jakarta;Antapani;Kiaracondong;Binong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "name:en": "Ibrahim Adjie Avenue",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6338825,
+            -6.9343972
+          ],
+          [
+            107.6339321,
+            -6.9342955
+          ],
+          [
+            107.6339467,
+            -6.9342632
+          ],
+          [
+            107.6340607,
+            -6.9339893
+          ],
+          [
+            107.6341116,
+            -6.9338668
+          ],
+          [
+            107.6342774,
+            -6.9335348
+          ],
+          [
+            107.6345227,
+            -6.9330865
+          ],
+          [
+            107.6345527,
+            -6.9330294
+          ],
+          [
+            107.6346375,
+            -6.9328351
+          ],
+          [
+            107.6346984,
+            -6.9326057
+          ],
+          [
+            107.6348134,
+            -6.9321597
+          ],
+          [
+            107.6348227,
+            -6.9321233
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111159975,
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "ref": "3686",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6430775,
+            -6.9319479
+          ],
+          [
+            107.6430693,
+            -6.9318688
+          ],
+          [
+            107.6430376,
+            -6.9317959
+          ],
+          [
+            107.6429853,
+            -6.9317358
+          ],
+          [
+            107.6429171,
+            -6.9316942
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111175792,
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6392228,
+            -6.9298629
+          ],
+          [
+            107.6393128,
+            -6.9299564
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111187883,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6391119,
+            -6.9297496
+          ],
+          [
+            107.6392228,
+            -6.9298629
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111187885,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.642413,
+            -6.9384219
+          ],
+          [
+            107.6422737,
+            -6.9384148
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111191266,
+        "highway": "service",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6180578,
+            -6.9320136
+          ],
+          [
+            107.6179937,
+            -6.9319531
+          ],
+          [
+            107.6178994,
+            -6.9318561
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1113391604,
+        "access": "yes",
+        "avgspeed": "40",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sadakeling",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613029,
+            -6.9345354
+          ],
+          [
+            107.6138283,
+            -6.9337409
+          ],
+          [
+            107.6140614,
+            -6.9334915
+          ],
+          [
+            107.6140869,
+            -6.9334648
+          ],
+          [
+            107.6141189,
+            -6.9334348
+          ],
+          [
+            107.6144619,
+            -6.9330455
+          ],
+          [
+            107.6145008,
+            -6.933004
+          ],
+          [
+            107.6149248,
+            -6.9325064
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1113396469,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6429171,
+            -6.9316942
+          ],
+          [
+            107.6424224,
+            -6.9315043
+          ],
+          [
+            107.6421481,
+            -6.9314016
+          ],
+          [
+            107.6421162,
+            -6.9313798
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1125130017,
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6414267,
+            -6.9311304
+          ],
+          [
+            107.6414678,
+            -6.9311453
+          ],
+          [
+            107.641579,
+            -6.9311846
+          ],
+          [
+            107.6418972,
+            -6.9313006
+          ],
+          [
+            107.6419659,
+            -6.9313255
+          ],
+          [
+            107.6421162,
+            -6.9313798
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1125130018,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6432062,
+            -6.9317921
+          ],
+          [
+            107.6431867,
+            -6.9318739
+          ],
+          [
+            107.6431681,
+            -6.9319855
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1125130019,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6414267,
+            -6.9311304
+          ],
+          [
+            107.6414092,
+            -6.9311365
+          ],
+          [
+            107.641402,
+            -6.9311363
+          ],
+          [
+            107.6411045,
+            -6.931019
+          ],
+          [
+            107.6410919,
+            -6.9310135
+          ],
+          [
+            107.6410724,
+            -6.9309989
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1164043263,
+        "avgspeed": "30",
+        "highway": "primary",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6440268,
+            -6.9299221
+          ],
+          [
+            107.6439942,
+            -6.930364
+          ],
+          [
+            107.6439839,
+            -6.9305023
+          ],
+          [
+            107.6439701,
+            -6.93069
+          ],
+          [
+            107.6439499,
+            -6.9308422
+          ],
+          [
+            107.6439028,
+            -6.93096
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1189071990,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6557174,
+            -6.902134
+          ],
+          [
+            107.6553391,
+            -6.9021168
+          ],
+          [
+            107.6552235,
+            -6.9021121
+          ],
+          [
+            107.6550496,
+            -6.9021051
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1193893092,
+        "avgspeed": "30",
+        "destination": "Padasuka;Cikutra;Surapati;Gedung Sate",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "oneway": "yes",
+        "turn:lanes": "through|through",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262334,
+            -6.9327732
+          ],
+          [
+            107.6261306,
+            -6.9327646
+          ],
+          [
+            107.6259726,
+            -6.9327273
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211273257,
+        "alt_name": "Jalan Martanegara",
+        "avgspeed": "30",
+        "designation": "city_road",
+        "destination": "Simpang Martanegara",
+        "destination:lanes": "Buahbatu;BKR;Tegallega|Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
+        "destination:ref:lanes": "376||376",
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Jalan R.A.A. Martanegara",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "3395",
+        "sidewalk:left": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_right|right",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6096949,
+            -6.9372179
+          ],
+          [
+            107.6096179,
+            -6.9373029
+          ],
+          [
+            107.6095438,
+            -6.9373552
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211277641,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mochammad Ramdhan",
+        "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
+        "surface": "asphalt",
+        "turn:lanes": "sharp_left;through|through",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6562486,
+            -6.9024172
+          ],
+          [
+            107.6562434,
+            -6.9023005
+          ],
+          [
+            107.6562379,
+            -6.9021633
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218584481,
+        "highway": "service",
+        "motor_vehicle": "destination",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6445578,
+            -6.9269546
+          ],
+          [
+            107.6445567,
+            -6.926968
+          ],
+          [
+            107.6445547,
+            -6.9269854
+          ],
+          [
+            107.6445424,
+            -6.9270467
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218949667,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6325931,
+            -6.9343034
+          ],
+          [
+            107.632626,
+            -6.9342645
+          ],
+          [
+            107.6326614,
+            -6.9342515
+          ],
+          [
+            107.6327072,
+            -6.9342443
+          ],
+          [
+            107.6327216,
+            -6.934244
+          ],
+          [
+            107.6336699,
+            -6.93437
+          ],
+          [
+            107.6337971,
+            -6.934385
+          ],
+          [
+            107.6338825,
+            -6.9343972
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1220201482,
+        "alt_name": "Jalan Martanegara",
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan R.A.A. Martanegara",
+        "parking:left": "no",
+        "parking:right": "on_kerb",
+        "parking:right:orientation": "perpendicular",
+        "ref": "3395",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262334,
+            -6.9327732
+          ],
+          [
+            107.6264059,
+            -6.9328203
+          ],
+          [
+            107.626494,
+            -6.9328449
+          ],
+          [
+            107.6266861,
+            -6.9328918
+          ],
+          [
+            107.6267628,
+            -6.9329091
+          ],
+          [
+            107.6272158,
+            -6.9330278
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1220202125,
+        "alt_name": "Jalan Martanegara",
+        "avgspeed": "30",
+        "designation": "city_road",
+        "destination:backward": "Simpang Martanegara",
+        "destination:forward": "Turangga",
+        "destination:lanes:backward": "Buahbatu;BKR;Tegallega|Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
+        "destination:lanes:forward": "Turangga;Reog|Solontongan;Kliningan",
+        "destination:ref:lanes:backward": "376||376",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan R.A.A. Martanegara",
+        "parking:both": "no",
+        "ref": "3395",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "turn:lanes:backward": "slight_left|slight_right|right",
+        "turn:lanes:forward": "through|right",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6061856,
+            -6.9374395
+          ],
+          [
+            107.6061929,
+            -6.9373823
+          ],
+          [
+            107.6062104,
+            -6.9372527
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1222515152,
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mohammad Toha",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6091524,
+            -6.9377062
+          ],
+          [
+            107.6090371,
+            -6.9377023
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1222524019,
+        "cycleway:both": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6443516,
+            -6.9207973
+          ],
+          [
+            107.6443896,
+            -6.9217882
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1224496604,
+        "destination:lanes": "Stasiun Kiaracondong|none",
+        "destination:symbol:lanes": "train_station|none",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6442841,
+            -6.9195309
+          ],
+          [
+            107.6442909,
+            -6.9196178
+          ],
+          [
+            107.6443002,
+            -6.919736
+          ],
+          [
+            107.6443116,
+            -6.9199696
+          ],
+          [
+            107.6443516,
+            -6.9207973
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1224496606,
+        "destination:lanes": "Stasiun Kiaracondong|none",
+        "destination:symbol:lanes": "train_station|none",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.65075,
+            -6.9018006
+          ],
+          [
+            107.6508611,
+            -6.9018087
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227688992,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "no",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6437714,
+            -6.9141195
+          ],
+          [
+            107.643797,
+            -6.914395
+          ],
+          [
+            107.6438226,
+            -6.9146708
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364319040,
+        "destination": "Kiaracondong;Babakan Sari;Binong",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055016,
+            -6.9311384
+          ],
+          [
+            107.6055192,
+            -6.9309578
+          ],
+          [
+            107.6055259,
+            -6.9309078
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482654,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055259,
+            -6.9309078
+          ],
+          [
+            107.605557,
+            -6.9305299
+          ],
+          [
+            107.6055585,
+            -6.9305004
+          ],
+          [
+            107.6055781,
+            -6.930239
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482655,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055781,
+            -6.930239
+          ],
+          [
+            107.6055888,
+            -6.9300028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482656,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055888,
+            -6.9300028
+          ],
+          [
+            107.6055993,
+            -6.9298025
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482657,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055993,
+            -6.9298025
+          ],
+          [
+            107.6056708,
+            -6.9290327
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482658,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6056708,
+            -6.9290327
+          ],
+          [
+            107.6057162,
+            -6.9286824
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482659,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057162,
+            -6.9286824
+          ],
+          [
+            107.6057961,
+            -6.9281235
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482660,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057961,
+            -6.9281235
+          ],
+          [
+            107.6058055,
+            -6.928016
+          ],
+          [
+            107.6058217,
+            -6.9278434
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482661,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058217,
+            -6.9278434
+          ],
+          [
+            107.6058322,
+            -6.9276428
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482662,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6422737,
+            -6.9384148
+          ],
+          [
+            107.6422771,
+            -6.9383619
+          ],
+          [
+            107.6422805,
+            -6.938309
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929704,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6422805,
+            -6.938309
+          ],
+          [
+            107.6423103,
+            -6.9378452
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929705,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423103,
+            -6.9378452
+          ],
+          [
+            107.6423303,
+            -6.9375325
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929706,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423303,
+            -6.9375325
+          ],
+          [
+            107.6423524,
+            -6.9371895
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929707,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423524,
+            -6.9371895
+          ],
+          [
+            107.6423606,
+            -6.9370607
+          ],
+          [
+            107.6423875,
+            -6.9366422
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929708,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6423875,
+            -6.9366422
+          ],
+          [
+            107.6424206,
+            -6.9362218
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929709,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6424206,
+            -6.9362218
+          ],
+          [
+            107.642469,
+            -6.9354704
+          ],
+          [
+            107.6424796,
+            -6.9353265
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929710,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6424796,
+            -6.9353265
+          ],
+          [
+            107.6424964,
+            -6.9351047
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929711,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6424964,
+            -6.9351047
+          ],
+          [
+            107.6425262,
+            -6.9348226
+          ],
+          [
+            107.6425372,
+            -6.9347467
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929712,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425372,
+            -6.9347467
+          ],
+          [
+            107.6425801,
+            -6.9344518
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929713,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425875,
+            -6.9357551
+          ],
+          [
+            107.6425567,
+            -6.9361925
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929718,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425567,
+            -6.9361925
+          ],
+          [
+            107.6425277,
+            -6.9366887
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929719,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425277,
+            -6.9366887
+          ],
+          [
+            107.6425236,
+            -6.9367591
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929720,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6425236,
+            -6.9367591
+          ],
+          [
+            107.6425052,
+            -6.9370363
+          ],
+          [
+            107.6425031,
+            -6.937068
+          ],
+          [
+            107.6424944,
+            -6.9371984
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929721,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6424944,
+            -6.9371984
+          ],
+          [
+            107.6424637,
+            -6.9376027
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929722,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6424637,
+            -6.9376027
+          ],
+          [
+            107.6424362,
+            -6.9380472
+          ],
+          [
+            107.642413,
+            -6.9384219
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383929723,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6252034,
+            -6.9321877
+          ],
+          [
+            107.6252506,
+            -6.9322109
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424097017,
+        "avgspeed": "20",
+        "destination:forward": "Simpang Martanegara",
+        "destination:ref:lanes": "Palasari",
+        "foot": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lodaya",
+        "parking:both": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6364159,
+            -6.9278948
+          ],
+          [
+            107.635966,
+            -6.9276578
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396338,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6353583,
+            -6.9300131
+          ],
+          [
+            107.6354405,
+            -6.9296823
+          ],
+          [
+            107.6354571,
+            -6.9296186
+          ],
+          [
+            107.6355016,
+            -6.9294512
+          ],
+          [
+            107.6355097,
+            -6.9294192
+          ],
+          [
+            107.6355448,
+            -6.9292849
+          ],
+          [
+            107.6355557,
+            -6.9292433
+          ],
+          [
+            107.6355813,
+            -6.9291539
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888855,
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "ref": "3686",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6355813,
+            -6.9291539
+          ],
+          [
+            107.6356061,
+            -6.9290657
+          ],
+          [
+            107.6357588,
+            -6.9285046
+          ],
+          [
+            107.6358294,
+            -6.9281885
+          ],
+          [
+            107.6359524,
+            -6.9277105
+          ],
+          [
+            107.635966,
+            -6.9276578
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888857,
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "ref": "3686",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6442746,
+            -6.9193256
+          ],
+          [
+            107.6442841,
+            -6.9195309
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1476755142,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6065733,
+            -6.9328659
+          ],
+          [
+            107.6065797,
+            -6.9327947
+          ],
+          [
+            107.6066451,
+            -6.9319531
+          ],
+          [
+            107.606653,
+            -6.9318519
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1547321025,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mohammad Toha",
+        "surface": "asphalt",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6373187,
+            -6.9118909
+          ],
+          [
+            107.6374263,
+            -6.9118346
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1561000463,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Cikutra;Cicaheum;Ujungberung|Cikutra;Cicaheum;Ujungberung|Antapani;Kiaracondong;Binong;Samsat|Antapani;Kiaracondong;Binong;Samsat",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6346004,
+            -6.9133622
+          ],
+          [
+            107.6348701,
+            -6.9132101
+          ],
+          [
+            107.6350944,
+            -6.9130848
+          ],
+          [
+            107.6360221,
+            -6.9125878
+          ],
+          [
+            107.6362555,
+            -6.9124665
+          ],
+          [
+            107.6363636,
+            -6.912405
+          ],
+          [
+            107.6365694,
+            -6.9123013
+          ],
+          [
+            107.6367997,
+            -6.9121741
+          ],
+          [
+            107.6368611,
+            -6.91214
+          ],
+          [
+            107.6370716,
+            -6.9120251
+          ],
+          [
+            107.6372585,
+            -6.9119218
+          ],
+          [
+            107.6373187,
+            -6.9118909
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1561000464,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Cikutra;Cicaheum;Ujungberung|Cikutra;Cicaheum;Ujungberung|Antapani;Kiaracondong;Binong;Samsat|Antapani;Kiaracondong;Binong;Samsat",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8",
+        "kode_jalur": "4635390",
+        "folder_sumber": "route-data/geojson/4635390",
+        "kategori_data": "ways",
+        "nomor_trayek": "01A",
+        "nama_rute": "Cicaheum → Abdul Muis via Binong",
+        "label_jalur": "01A: Cicaheum → Abdul Muis via Binong"
+      }
+    }
+  ]
+}

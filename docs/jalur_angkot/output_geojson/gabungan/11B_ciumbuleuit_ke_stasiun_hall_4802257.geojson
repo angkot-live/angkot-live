@@ -1,0 +1,3591 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044417,
+            -6.9072201
+          ],
+          [
+            107.6044521,
+            -6.9072879
+          ],
+          [
+            107.604458,
+            -6.9073889
+          ],
+          [
+            107.6044748,
+            -6.9078654
+          ],
+          [
+            107.6044776,
+            -6.9079587
+          ],
+          [
+            107.6044909,
+            -6.9084617
+          ],
+          [
+            107.6044917,
+            -6.9087943
+          ],
+          [
+            107.6044683,
+            -6.9089756
+          ],
+          [
+            107.6044333,
+            -6.9091247
+          ],
+          [
+            107.6043797,
+            -6.9092856
+          ],
+          [
+            107.6043042,
+            -6.9094657
+          ],
+          [
+            107.6042851,
+            -6.9095101
+          ],
+          [
+            107.6042598,
+            -6.9095715
+          ],
+          [
+            107.6042199,
+            -6.9096823
+          ],
+          [
+            107.6041664,
+            -6.9098645
+          ],
+          [
+            107.60413,
+            -6.9100304
+          ],
+          [
+            107.6041131,
+            -6.910177
+          ],
+          [
+            107.604095,
+            -6.9104032
+          ],
+          [
+            107.6040795,
+            -6.910612
+          ],
+          [
+            107.6040749,
+            -6.9106747
+          ],
+          [
+            107.6040736,
+            -6.9106984
+          ],
+          [
+            107.6040635,
+            -6.9108642
+          ],
+          [
+            107.6040608,
+            -6.9109088
+          ],
+          [
+            107.6039986,
+            -6.911908
+          ],
+          [
+            107.6039597,
+            -6.9124977
+          ],
+          [
+            107.6039561,
+            -6.9125447
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4251274,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cicendo",
+        "oneway": "yes",
+        "ref": "369",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5976387,
+            -6.9064293
+          ],
+          [
+            107.5977572,
+            -6.906505
+          ],
+          [
+            107.5978766,
+            -6.9065641
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4256037,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6044986,
+            -6.8850612
+          ],
+          [
+            107.6044348,
+            -6.8853378
+          ],
+          [
+            107.6043521,
+            -6.8856962
+          ],
+          [
+            107.6043346,
+            -6.8857678
+          ],
+          [
+            107.6042485,
+            -6.8861202
+          ],
+          [
+            107.6042216,
+            -6.8862318
+          ],
+          [
+            107.6041367,
+            -6.886589
+          ],
+          [
+            107.6041137,
+            -6.8866842
+          ],
+          [
+            107.6040712,
+            -6.8868599
+          ],
+          [
+            107.6040539,
+            -6.8869313
+          ],
+          [
+            107.6040408,
+            -6.8869867
+          ],
+          [
+            107.6039804,
+            -6.8872428
+          ],
+          [
+            107.6039534,
+            -6.8874376
+          ],
+          [
+            107.6039484,
+            -6.8877565
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567624,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5976101,
+            -6.9055012
+          ],
+          [
+            107.5976119,
+            -6.9055512
+          ],
+          [
+            107.5976179,
+            -6.9058357
+          ],
+          [
+            107.5976349,
+            -6.9062206
+          ],
+          [
+            107.5976387,
+            -6.9064293
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567635,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:lanes": "Dr. Cipto;Cicendo;Cihampelas|Husein Sastranegara;Andir;Garuda",
+        "destination:ref:lanes": "371|248",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|right",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981394,
+            -6.9147779
+          ],
+          [
+            107.5981365,
+            -6.9148374
+          ],
+          [
+            107.5981359,
+            -6.91495
+          ],
+          [
+            107.5981514,
+            -6.9151141
+          ],
+          [
+            107.5981684,
+            -6.9152126
+          ],
+          [
+            107.5981841,
+            -6.9153059
+          ],
+          [
+            107.5982121,
+            -6.9155148
+          ],
+          [
+            107.5982179,
+            -6.9155581
+          ],
+          [
+            107.5982323,
+            -6.9156913
+          ],
+          [
+            107.5982633,
+            -6.916131
+          ],
+          [
+            107.5982691,
+            -6.91619
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567653,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6019305,
+            -6.9125353
+          ],
+          [
+            107.601745,
+            -6.9125245
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567655,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5984551,
+            -6.9163007
+          ],
+          [
+            107.5986452,
+            -6.9162913
+          ],
+          [
+            107.5986682,
+            -6.9162902
+          ],
+          [
+            107.5987499,
+            -6.9162865
+          ],
+          [
+            107.5988546,
+            -6.916282
+          ],
+          [
+            107.5991941,
+            -6.9162673
+          ],
+          [
+            107.5995626,
+            -6.9162453
+          ],
+          [
+            107.599627,
+            -6.9162422
+          ],
+          [
+            107.6002509,
+            -6.9162121
+          ],
+          [
+            107.600424,
+            -6.9162116
+          ],
+          [
+            107.6005777,
+            -6.9162099
+          ],
+          [
+            107.6007548,
+            -6.9162056
+          ],
+          [
+            107.6010558,
+            -6.9162013
+          ],
+          [
+            107.6016262,
+            -6.916191
+          ],
+          [
+            107.6019595,
+            -6.9161867
+          ],
+          [
+            107.6022008,
+            -6.9161702
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567659,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981313,
+            -6.9141206
+          ],
+          [
+            107.5981201,
+            -6.9145111
+          ]
+        ]
+      },
+      "properties": {
+        "id": 32360546,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6035222,
+            -6.9004061
+          ],
+          [
+            107.6032079,
+            -6.9003993
+          ],
+          [
+            107.6028919,
+            -6.9003836
+          ],
+          [
+            107.6025913,
+            -6.9003714
+          ],
+          [
+            107.6024256,
+            -6.9003662
+          ],
+          [
+            107.6023659,
+            -6.9003639
+          ],
+          [
+            107.602324,
+            -6.9003628
+          ],
+          [
+            107.602282,
+            -6.9003617
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153175500,
+        "alt_name": "Jalan Pasteur",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pasteur",
+        "name:en": "Pasteur Avenue",
+        "official_name": "Jalan Pasteur",
+        "oneway": "yes",
+        "short_name": "Jalan dr. Pasteur",
+        "surface": "asphalt",
+        "turn:lanes": "through|through",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982442,
+            -6.9003802
+          ],
+          [
+            107.597773,
+            -6.9003861
+          ],
+          [
+            107.5977337,
+            -6.9003863
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153180024,
+        "alt_name": "Jalan Pasteur",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Pasteur",
+        "name:en": "Pasteur Avenue",
+        "official_name": "Jalan Pasteur",
+        "oneway": "yes",
+        "short_name": "Jalan dr. Pasteur",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through;right",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6049833,
+            -6.8833306
+          ],
+          [
+            107.6049259,
+            -6.8833663
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153306178,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Siliwangi",
+        "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6049259,
+            -6.8833663
+          ],
+          [
+            107.6048893,
+            -6.8834678
+          ],
+          [
+            107.6048738,
+            -6.8835107
+          ],
+          [
+            107.6047793,
+            -6.8839055
+          ],
+          [
+            107.6046925,
+            -6.8842883
+          ],
+          [
+            107.6046192,
+            -6.884589
+          ],
+          [
+            107.6045738,
+            -6.8847525
+          ],
+          [
+            107.6045446,
+            -6.8848576
+          ],
+          [
+            107.6044986,
+            -6.8850612
+          ]
+        ]
+      },
+      "properties": {
+        "id": 166687310,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975702,
+            -6.9053954
+          ],
+          [
+            107.5976013,
+            -6.9054493
+          ],
+          [
+            107.5976101,
+            -6.9055012
+          ]
+        ]
+      },
+      "properties": {
+        "id": 190605660,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:lanes": "Dr. Cipto;Cicendo;Cihampelas|Husein Sastranegara;Andir;Garuda",
+        "destination:ref:lanes": "371|248",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|right",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6034949,
+            -6.8795381
+          ],
+          [
+            107.6035171,
+            -6.8794245
+          ],
+          [
+            107.6035209,
+            -6.8794092
+          ],
+          [
+            107.6035601,
+            -6.8792532
+          ],
+          [
+            107.6037148,
+            -6.8786367
+          ],
+          [
+            107.6038662,
+            -6.877964
+          ],
+          [
+            107.6039379,
+            -6.8776363
+          ],
+          [
+            107.6039494,
+            -6.8775789
+          ],
+          [
+            107.6040125,
+            -6.8773172
+          ],
+          [
+            107.6040268,
+            -6.8772555
+          ],
+          [
+            107.6041216,
+            -6.8768172
+          ],
+          [
+            107.6041476,
+            -6.8766913
+          ],
+          [
+            107.6041899,
+            -6.8765079
+          ],
+          [
+            107.6041979,
+            -6.876473
+          ],
+          [
+            107.6042432,
+            -6.8762898
+          ],
+          [
+            107.6042824,
+            -6.8761062
+          ],
+          [
+            107.6043513,
+            -6.8758194
+          ],
+          [
+            107.604438,
+            -6.8754322
+          ],
+          [
+            107.6044647,
+            -6.8753147
+          ],
+          [
+            107.6045233,
+            -6.8750312
+          ],
+          [
+            107.604611,
+            -6.8746597
+          ],
+          [
+            107.6046227,
+            -6.8746106
+          ],
+          [
+            107.6046798,
+            -6.8743741
+          ],
+          [
+            107.6047041,
+            -6.8742672
+          ],
+          [
+            107.6048246,
+            -6.8736699
+          ],
+          [
+            107.6048709,
+            -6.873397
+          ],
+          [
+            107.6049339,
+            -6.8731165
+          ],
+          [
+            107.6049868,
+            -6.8728913
+          ],
+          [
+            107.6050002,
+            -6.8728342
+          ],
+          [
+            107.6050544,
+            -6.872627
+          ],
+          [
+            107.6050972,
+            -6.8724542
+          ],
+          [
+            107.6051692,
+            -6.8721462
+          ],
+          [
+            107.6052416,
+            -6.8718629
+          ],
+          [
+            107.6053805,
+            -6.8711463
+          ],
+          [
+            107.6054104,
+            -6.870969
+          ],
+          [
+            107.6054945,
+            -6.8705769
+          ],
+          [
+            107.6055874,
+            -6.8701871
+          ],
+          [
+            107.6058073,
+            -6.8692127
+          ],
+          [
+            107.6058517,
+            -6.8689891
+          ],
+          [
+            107.6058851,
+            -6.8687427
+          ],
+          [
+            107.6059107,
+            -6.8682633
+          ],
+          [
+            107.6059103,
+            -6.8682113
+          ],
+          [
+            107.6058864,
+            -6.8676479
+          ],
+          [
+            107.6058829,
+            -6.8675346
+          ],
+          [
+            107.6058819,
+            -6.8671331
+          ],
+          [
+            107.6059545,
+            -6.8666121
+          ],
+          [
+            107.6060767,
+            -6.8659161
+          ]
+        ]
+      },
+      "properties": {
+        "id": 222733919,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6060367,
+            -6.8658245
+          ],
+          [
+            107.6057919,
+            -6.8656927
+          ],
+          [
+            107.6057155,
+            -6.8656363
+          ],
+          [
+            107.6056717,
+            -6.8655988
+          ],
+          [
+            107.6056273,
+            -6.865533
+          ],
+          [
+            107.6056136,
+            -6.8654712
+          ],
+          [
+            107.6056023,
+            -6.8653707
+          ],
+          [
+            107.605564,
+            -6.8651077
+          ],
+          [
+            107.6055448,
+            -6.8650101
+          ],
+          [
+            107.6055079,
+            -6.8648828
+          ],
+          [
+            107.6054492,
+            -6.8647071
+          ],
+          [
+            107.6053285,
+            -6.8643915
+          ],
+          [
+            107.6052564,
+            -6.8641911
+          ],
+          [
+            107.6052329,
+            -6.8641277
+          ]
+        ]
+      },
+      "properties": {
+        "id": 222733920,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6041803,
+            -6.900144
+          ],
+          [
+            107.6041813,
+            -6.9001579
+          ],
+          [
+            107.604189,
+            -6.9002755
+          ],
+          [
+            107.6041992,
+            -6.9003596
+          ],
+          [
+            107.6042016,
+            -6.9003842
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292274154,
+        "avgspeed": "30",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "primary",
+        "horse": "no",
+        "lanes": "4",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6010646,
+            -6.9003568
+          ],
+          [
+            107.6010291,
+            -6.9003565
+          ],
+          [
+            107.600771,
+            -6.9003544
+          ],
+          [
+            107.6005268,
+            -6.9003545
+          ],
+          [
+            107.6003874,
+            -6.9003546
+          ],
+          [
+            107.5999891,
+            -6.9003576
+          ],
+          [
+            107.5995868,
+            -6.9003613
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292668299,
+        "alt_name": "Jalan Pasteur",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Pasteur",
+        "name:en": "Pasteur Avenue",
+        "official_name": "Jalan Pasteur",
+        "oneway": "yes",
+        "short_name": "Jalan dr. Pasteur",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039484,
+            -6.8877565
+          ],
+          [
+            107.6039743,
+            -6.8881464
+          ],
+          [
+            107.6039772,
+            -6.8881744
+          ],
+          [
+            107.6039991,
+            -6.8883924
+          ],
+          [
+            107.6040179,
+            -6.8885512
+          ],
+          [
+            107.6040214,
+            -6.8885821
+          ],
+          [
+            107.6040236,
+            -6.8886013
+          ],
+          [
+            107.6040387,
+            -6.8887215
+          ],
+          [
+            107.6040455,
+            -6.8887679
+          ],
+          [
+            107.6041808,
+            -6.8898823
+          ],
+          [
+            107.604194,
+            -6.8899911
+          ],
+          [
+            107.6041992,
+            -6.8900884
+          ],
+          [
+            107.6042179,
+            -6.8906239
+          ],
+          [
+            107.6042285,
+            -6.8909117
+          ],
+          [
+            107.6042314,
+            -6.8912099
+          ],
+          [
+            107.6042338,
+            -6.8914499
+          ],
+          [
+            107.6042355,
+            -6.8916244
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318054782,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5978766,
+            -6.9065641
+          ],
+          [
+            107.5979786,
+            -6.9065883
+          ],
+          [
+            107.5982101,
+            -6.9066424
+          ],
+          [
+            107.5983334,
+            -6.9066643
+          ],
+          [
+            107.5987941,
+            -6.906746
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318222725,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5974523,
+            -6.9006598
+          ],
+          [
+            107.5974536,
+            -6.9007224
+          ],
+          [
+            107.5974543,
+            -6.9007808
+          ],
+          [
+            107.5974649,
+            -6.9013037
+          ],
+          [
+            107.5974913,
+            -6.9019914
+          ],
+          [
+            107.5975373,
+            -6.9033184
+          ],
+          [
+            107.5975385,
+            -6.9033942
+          ],
+          [
+            107.5975276,
+            -6.9034547
+          ],
+          [
+            107.5975116,
+            -6.9035067
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318478988,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "cycleway:both": "no",
+        "destination": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5977337,
+            -6.9003863
+          ],
+          [
+            107.5976719,
+            -6.900404
+          ],
+          [
+            107.5976493,
+            -6.9004086
+          ],
+          [
+            107.5976271,
+            -6.9004144
+          ],
+          [
+            107.597606,
+            -6.9004235
+          ],
+          [
+            107.5975891,
+            -6.9004348
+          ],
+          [
+            107.5975669,
+            -6.9004529
+          ],
+          [
+            107.5975478,
+            -6.9004761
+          ],
+          [
+            107.5975307,
+            -6.9005049
+          ],
+          [
+            107.5975109,
+            -6.9005434
+          ],
+          [
+            107.5974955,
+            -6.9005724
+          ],
+          [
+            107.5974759,
+            -6.9006116
+          ],
+          [
+            107.5974523,
+            -6.9006598
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318670705,
+        "destination": "Pajajaran;Husein Sastranegara;Cicendo",
+        "destination:symbol": ";airport;;train_station",
+        "highway": "trunk_link",
+        "lanes": "1",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601582,
+            -6.9069752
+          ],
+          [
+            107.6018374,
+            -6.9069939
+          ],
+          [
+            107.6022676,
+            -6.9070278
+          ],
+          [
+            107.6024088,
+            -6.9070386
+          ],
+          [
+            107.6028154,
+            -6.9070698
+          ],
+          [
+            107.6030906,
+            -6.9070909
+          ],
+          [
+            107.6042719,
+            -6.9071615
+          ],
+          [
+            107.6043341,
+            -6.9071602
+          ],
+          [
+            107.6043882,
+            -6.9071529
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319068174,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination:lanes": "Wastukencana;Tamansari;Pasteur||Cicendo;Stasiun Bandung",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039496,
+            -6.8971371
+          ],
+          [
+            107.6039675,
+            -6.8974513
+          ],
+          [
+            107.6040028,
+            -6.8978417
+          ],
+          [
+            107.6040588,
+            -6.8985578
+          ],
+          [
+            107.6040773,
+            -6.8988321
+          ],
+          [
+            107.6040857,
+            -6.8989874
+          ],
+          [
+            107.6040897,
+            -6.899022
+          ],
+          [
+            107.6041494,
+            -6.8996569
+          ],
+          [
+            107.6041726,
+            -6.9000527
+          ],
+          [
+            107.6041743,
+            -6.9000737
+          ],
+          [
+            107.6041803,
+            -6.900144
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319083569,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042355,
+            -6.8916244
+          ],
+          [
+            107.6042345,
+            -6.8917434
+          ],
+          [
+            107.6042347,
+            -6.8922554
+          ],
+          [
+            107.6042213,
+            -6.8925111
+          ],
+          [
+            107.6041814,
+            -6.8929367
+          ],
+          [
+            107.6041718,
+            -6.8930371
+          ],
+          [
+            107.6041704,
+            -6.8930508
+          ],
+          [
+            107.6041675,
+            -6.8930723
+          ],
+          [
+            107.6041636,
+            -6.893105
+          ],
+          [
+            107.6041399,
+            -6.8936073
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319083572,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6049395,
+            -6.8832608
+          ],
+          [
+            107.6049833,
+            -6.8833306
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319083573,
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Ciumbuleuit",
+        "oneway": "yes",
+        "ref": "2125",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975702,
+            -6.9053954
+          ],
+          [
+            107.5975685,
+            -6.9053623
+          ],
+          [
+            107.5975647,
+            -6.9052979
+          ],
+          [
+            107.5975641,
+            -6.9052785
+          ],
+          [
+            107.5975561,
+            -6.9050098
+          ],
+          [
+            107.5975537,
+            -6.9049333
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331425545,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "destination:lanes:forward": "Pasteur;RSHS;Sukajadi;Djundjunan|Otten;Nijland;Curie;Abdul Rivai",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "no",
+        "surface": "asphalt",
+        "turn:lanes:forward": "through|through;right",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5988975,
+            -6.9003711
+          ],
+          [
+            107.5988453,
+            -6.9003703
+          ],
+          [
+            107.5985681,
+            -6.9003769
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331559928,
+        "alt_name": "Jalan Pasteur",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Pasteur",
+        "name:en": "Pasteur Avenue",
+        "official_name": "Jalan Pasteur",
+        "oneway": "yes",
+        "short_name": "Jalan dr. Pasteur",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;slight_right|reverse",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6046492,
+            -6.88275
+          ],
+          [
+            107.6047003,
+            -6.8827903
+          ],
+          [
+            107.6047888,
+            -6.8829786
+          ],
+          [
+            107.6048512,
+            -6.8830998
+          ],
+          [
+            107.6049395,
+            -6.8832608
+          ]
+        ]
+      },
+      "properties": {
+        "id": 339022803,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ciumbuleuit",
+        "oneway": "yes",
+        "ref": "2125",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039561,
+            -6.9125447
+          ],
+          [
+            107.603934,
+            -6.912602
+          ],
+          [
+            107.6039133,
+            -6.9126367
+          ],
+          [
+            107.603885,
+            -6.9126611
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705056733,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Cicendo",
+        "oneway": "yes",
+        "ref": "369",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975537,
+            -6.9049333
+          ],
+          [
+            107.5975448,
+            -6.904529
+          ],
+          [
+            107.5975406,
+            -6.9043005
+          ],
+          [
+            107.5975343,
+            -6.9039924
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705096867,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "destination:lanes:forward": "Pasteur;RSHS;Sukajadi;Djundjunan|Otten;Nijland;Curie;Abdul Rivai",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "turn:lanes:forward": "through|through;right",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982527,
+            -6.912368
+          ],
+          [
+            107.5981712,
+            -6.9123893
+          ],
+          [
+            107.5981013,
+            -6.9124336
+          ],
+          [
+            107.5980813,
+            -6.9124536
+          ],
+          [
+            107.5980631,
+            -6.9124827
+          ],
+          [
+            107.5980572,
+            -6.9125176
+          ],
+          [
+            107.5980576,
+            -6.912581
+          ],
+          [
+            107.5980619,
+            -6.912679
+          ],
+          [
+            107.5980673,
+            -6.9127983
+          ],
+          [
+            107.5980682,
+            -6.9128159
+          ],
+          [
+            107.5980735,
+            -6.9128984
+          ],
+          [
+            107.5980862,
+            -6.9131496
+          ],
+          [
+            107.5980866,
+            -6.9131574
+          ],
+          [
+            107.5980924,
+            -6.9133033
+          ],
+          [
+            107.5980951,
+            -6.9133446
+          ],
+          [
+            107.5980899,
+            -6.9133886
+          ],
+          [
+            107.5980724,
+            -6.9134153
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705122544,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5987941,
+            -6.906746
+          ],
+          [
+            107.5992067,
+            -6.9068065
+          ],
+          [
+            107.599567,
+            -6.9068341
+          ]
+        ]
+      },
+      "properties": {
+        "id": 770257880,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6041399,
+            -6.8936073
+          ],
+          [
+            107.6040966,
+            -6.8943213
+          ],
+          [
+            107.6040947,
+            -6.8943366
+          ],
+          [
+            107.6040642,
+            -6.8945463
+          ],
+          [
+            107.6040533,
+            -6.8946215
+          ],
+          [
+            107.6040475,
+            -6.8946762
+          ],
+          [
+            107.6040253,
+            -6.8948583
+          ],
+          [
+            107.6040077,
+            -6.8950101
+          ],
+          [
+            107.6040043,
+            -6.8950495
+          ],
+          [
+            107.6040014,
+            -6.895093
+          ],
+          [
+            107.6039768,
+            -6.8955786
+          ],
+          [
+            107.6039637,
+            -6.8957293
+          ]
+        ]
+      },
+      "properties": {
+        "id": 771226338,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6039637,
+            -6.8957293
+          ],
+          [
+            107.6039485,
+            -6.8958668
+          ],
+          [
+            107.6039451,
+            -6.8959031
+          ],
+          [
+            107.6039338,
+            -6.8960782
+          ],
+          [
+            107.6039314,
+            -6.8961372
+          ],
+          [
+            107.6039298,
+            -6.896266
+          ],
+          [
+            107.603945,
+            -6.8970293
+          ],
+          [
+            107.6039453,
+            -6.8970466
+          ],
+          [
+            107.6039496,
+            -6.8971371
+          ]
+        ]
+      },
+      "properties": {
+        "id": 826460867,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cihampelas",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981201,
+            -6.9145111
+          ],
+          [
+            107.5981205,
+            -6.9145443
+          ]
+        ]
+      },
+      "properties": {
+        "id": 826844097,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5981205,
+            -6.9145443
+          ],
+          [
+            107.5981401,
+            -6.9145877
+          ],
+          [
+            107.5981422,
+            -6.9146201
+          ],
+          [
+            107.5981394,
+            -6.9147779
+          ]
+        ]
+      },
+      "properties": {
+        "id": 858014180,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6043882,
+            -6.9071529
+          ],
+          [
+            107.6043885,
+            -6.9071772
+          ],
+          [
+            107.6043991,
+            -6.9071992
+          ],
+          [
+            107.604418,
+            -6.9072147
+          ],
+          [
+            107.6044417,
+            -6.9072201
+          ]
+        ]
+      },
+      "properties": {
+        "id": 873382134,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "369;371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6052329,
+            -6.8641277
+          ],
+          [
+            107.6051745,
+            -6.8639702
+          ],
+          [
+            107.6051188,
+            -6.8638055
+          ],
+          [
+            107.6050935,
+            -6.8637493
+          ],
+          [
+            107.6050277,
+            -6.8636331
+          ],
+          [
+            107.6049689,
+            -6.8635418
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1075268432,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.603885,
+            -6.9126611
+          ],
+          [
+            107.6038515,
+            -6.9126567
+          ],
+          [
+            107.6036069,
+            -6.9126444
+          ],
+          [
+            107.6032433,
+            -6.9126176
+          ],
+          [
+            107.6029824,
+            -6.9125986
+          ],
+          [
+            107.6029303,
+            -6.9125954
+          ],
+          [
+            107.6027169,
+            -6.9125813
+          ],
+          [
+            107.6024779,
+            -6.9125651
+          ],
+          [
+            107.6023535,
+            -6.9125612
+          ],
+          [
+            107.6022742,
+            -6.9125566
+          ],
+          [
+            107.6020122,
+            -6.91254
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374707,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6020122,
+            -6.91254
+          ],
+          [
+            107.6019305,
+            -6.9125353
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374708,
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980758,
+            -6.9134531
+          ],
+          [
+            107.5981284,
+            -6.913989
+          ],
+          [
+            107.5981313,
+            -6.9140657
+          ],
+          [
+            107.5981313,
+            -6.9141206
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374723,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5980724,
+            -6.9134153
+          ],
+          [
+            107.5980758,
+            -6.9134531
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1191374724,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975343,
+            -6.9039924
+          ],
+          [
+            107.5975116,
+            -6.9035067
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1199401349,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "destination:lanes:backward": "Otten;Nijland;Curie;Abdul Rivai|Padjadjaran;Cicendo;Andir",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "no",
+        "parking:both": "on_kerb",
+        "parking:both:orientation": "perpendicular",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042016,
+            -6.9003842
+          ],
+          [
+            107.6040928,
+            -6.9003949
+          ],
+          [
+            107.604064,
+            -6.9003966
+          ],
+          [
+            107.6038997,
+            -6.9004015
+          ],
+          [
+            107.6035222,
+            -6.9004061
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1212369195,
+        "alt_name": "Jalan Pasteur",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pasteur",
+        "name:en": "Pasteur Avenue",
+        "official_name": "Jalan Pasteur",
+        "oneway": "yes",
+        "short_name": "Jalan dr. Pasteur",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5985681,
+            -6.9003769
+          ],
+          [
+            107.5982442,
+            -6.9003802
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1212369196,
+        "alt_name": "Jalan Pasteur",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Pasteur",
+        "name:en": "Pasteur Avenue",
+        "official_name": "Jalan Pasteur",
+        "oneway": "yes",
+        "short_name": "Jalan dr. Pasteur",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5995868,
+            -6.9003613
+          ],
+          [
+            107.5988975,
+            -6.9003711
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218962514,
+        "alt_name": "Jalan Pasteur",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Pasteur",
+        "name:en": "Pasteur Avenue",
+        "official_name": "Jalan Pasteur",
+        "oneway": "yes",
+        "short_name": "Jalan dr. Pasteur",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;slight_right|reverse",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6060367,
+            -6.8658245
+          ],
+          [
+            107.6060528,
+            -6.8658046
+          ],
+          [
+            107.6060754,
+            -6.8657926
+          ],
+          [
+            107.606101,
+            -6.8657902
+          ],
+          [
+            107.6061255,
+            -6.8657979
+          ],
+          [
+            107.606145,
+            -6.8658144
+          ],
+          [
+            107.6061566,
+            -6.8658372
+          ],
+          [
+            107.6061583,
+            -6.8658626
+          ],
+          [
+            107.6061517,
+            -6.8658835
+          ],
+          [
+            107.6061385,
+            -6.865901
+          ],
+          [
+            107.6061201,
+            -6.8659131
+          ],
+          [
+            107.6060987,
+            -6.8659183
+          ],
+          [
+            107.6060767,
+            -6.8659161
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1219017459,
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6022008,
+            -6.9161702
+          ],
+          [
+            107.6023308,
+            -6.916154
+          ],
+          [
+            107.6024325,
+            -6.9161432
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1219022706,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Suniaraja",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.602282,
+            -6.9003617
+          ],
+          [
+            107.6018744,
+            -6.9003583
+          ],
+          [
+            107.6018357,
+            -6.9003585
+          ],
+          [
+            107.6014571,
+            -6.9003605
+          ],
+          [
+            107.6011427,
+            -6.9003575
+          ],
+          [
+            107.6010646,
+            -6.9003568
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1279668457,
+        "alt_name": "Jalan Pasteur",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Pasteur",
+        "name:en": "Pasteur Avenue",
+        "official_name": "Jalan Pasteur",
+        "oneway": "yes",
+        "short_name": "Jalan dr. Pasteur",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982691,
+            -6.91619
+          ],
+          [
+            107.5982712,
+            -6.9162489
+          ],
+          [
+            107.5982716,
+            -6.9162705
+          ],
+          [
+            107.5982729,
+            -6.9163191
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364573713,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982729,
+            -6.9163191
+          ],
+          [
+            107.5984551,
+            -6.9163007
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364573714,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Jati",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6046492,
+            -6.88275
+          ],
+          [
+            107.6046394,
+            -6.8827329
+          ],
+          [
+            107.6045745,
+            -6.8825992
+          ],
+          [
+            107.6044632,
+            -6.8823827
+          ],
+          [
+            107.6044008,
+            -6.8822778
+          ],
+          [
+            107.604313,
+            -6.88206
+          ],
+          [
+            107.6042565,
+            -6.881931
+          ],
+          [
+            107.6042226,
+            -6.8818521
+          ],
+          [
+            107.6041131,
+            -6.8815484
+          ],
+          [
+            107.6040603,
+            -6.8813934
+          ],
+          [
+            107.6040358,
+            -6.8813221
+          ],
+          [
+            107.6039663,
+            -6.881111
+          ],
+          [
+            107.603914,
+            -6.8809445
+          ],
+          [
+            107.6038795,
+            -6.880847
+          ],
+          [
+            107.6038314,
+            -6.8806984
+          ],
+          [
+            107.6038241,
+            -6.8806746
+          ],
+          [
+            107.6038148,
+            -6.8806505
+          ],
+          [
+            107.603801,
+            -6.8806045
+          ],
+          [
+            107.6037812,
+            -6.8805383
+          ],
+          [
+            107.6036228,
+            -6.8800643
+          ],
+          [
+            107.603606,
+            -6.8800095
+          ],
+          [
+            107.6035019,
+            -6.8796698
+          ],
+          [
+            107.6034949,
+            -6.8795381
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1387129924,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6006435,
+            -6.9124749
+          ],
+          [
+            107.6002224,
+            -6.9124495
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399243,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6002224,
+            -6.9124495
+          ],
+          [
+            107.6000202,
+            -6.912439
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399244,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6000202,
+            -6.912439
+          ],
+          [
+            107.5993874,
+            -6.9123994
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399245,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5993874,
+            -6.9123994
+          ],
+          [
+            107.5990408,
+            -6.912374
+          ],
+          [
+            107.5990132,
+            -6.912372
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399246,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5990132,
+            -6.912372
+          ],
+          [
+            107.5982527,
+            -6.912368
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399247,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601745,
+            -6.9125245
+          ],
+          [
+            107.601624,
+            -6.9125174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399248,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601624,
+            -6.9125174
+          ],
+          [
+            107.6015636,
+            -6.9125139
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399249,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6015636,
+            -6.9125139
+          ],
+          [
+            107.6010547,
+            -6.9124917
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399250,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6010547,
+            -6.9124917
+          ],
+          [
+            107.6009674,
+            -6.9124878
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399251,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6009674,
+            -6.9124878
+          ],
+          [
+            107.6007223,
+            -6.9124771
+          ],
+          [
+            107.6006435,
+            -6.9124749
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399252,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.599567,
+            -6.9068341
+          ],
+          [
+            107.5998642,
+            -6.9068525
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399269,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5998642,
+            -6.9068525
+          ],
+          [
+            107.6000477,
+            -6.9068645
+          ],
+          [
+            107.6001281,
+            -6.9068699
+          ],
+          [
+            107.6004436,
+            -6.9068911
+          ],
+          [
+            107.6006155,
+            -6.9069026
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399270,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6006155,
+            -6.9069026
+          ],
+          [
+            107.6008643,
+            -6.9069205
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399271,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6008643,
+            -6.9069205
+          ],
+          [
+            107.6009527,
+            -6.906927
+          ],
+          [
+            107.6011922,
+            -6.9069453
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399272,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6011922,
+            -6.9069453
+          ],
+          [
+            107.6012851,
+            -6.9069524
+          ],
+          [
+            107.601582,
+            -6.9069752
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399273,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "ways",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6044647,
+          -6.8753147
+        ]
+      },
+      "properties": {
+        "id": 3462094658,
+        "bus": "yes",
+        "name": "UNPAR",
+        "public_transport": "stop_position",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "endstops",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6024325,
+          -6.9161432
+        ]
+      },
+      "properties": {
+        "id": 1013407725,
+        "alt_name": "Stasiun Bandung Pintu Selatan",
+        "bus": "yes",
+        "name": "Stasiun Hall",
+        "public_transport": "stop_position",
+        "kode_jalur": "4802257",
+        "folder_sumber": "route-data/geojson/4802257",
+        "kategori_data": "endstops",
+        "nomor_trayek": "11B",
+        "nama_rute": "Ciumbuleuit → Stasiun Hall",
+        "label_jalur": "11B: Ciumbuleuit → Stasiun Hall"
+      }
+    }
+  ]
+}

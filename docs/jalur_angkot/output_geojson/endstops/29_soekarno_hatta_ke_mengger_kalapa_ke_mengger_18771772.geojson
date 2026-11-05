@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6213965,
+          -6.949255
+        ]
+      },
+      "properties": {
+        "id": 2744242982,
+        "bus": "yes",
+        "public_transport": "stop_position",
+        "kode_jalur": "18771772",
+        "folder_sumber": "route-data/geojson/18771772",
+        "kategori_data": "endstops",
+        "nomor_trayek": "29",
+        "nama_rute": "Soekarno Hatta → Mengger (Kalapa → Mengger)",
+        "label_jalur": "29: Soekarno Hatta → Mengger (Kalapa → Mengger)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6290533,
+          -6.9840869
+        ]
+      },
+      "properties": {
+        "id": 14050080720,
+        "bus": "yes",
+        "name": "SD Negeri Dayeuhkolot 08, 09, 12",
+        "public_transport": "stop_position",
+        "kode_jalur": "18771772",
+        "folder_sumber": "route-data/geojson/18771772",
+        "kategori_data": "endstops",
+        "nomor_trayek": "29",
+        "nama_rute": "Soekarno Hatta → Mengger (Kalapa → Mengger)",
+        "label_jalur": "29: Soekarno Hatta → Mengger (Kalapa → Mengger)"
+      }
+    }
+  ]
+}

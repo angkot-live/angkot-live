@@ -1,0 +1,3001 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5963629,
+            -6.9038698
+          ],
+          [
+            107.5967047,
+            -6.9039377
+          ],
+          [
+            107.5967891,
+            -6.9039548
+          ],
+          [
+            107.596855,
+            -6.9039658
+          ],
+          [
+            107.5972103,
+            -6.9039896
+          ],
+          [
+            107.5975343,
+            -6.9039924
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567636,
+        "avgspeed": "15",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dursasana",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5761151,
+            -6.9132715
+          ],
+          [
+            107.5762053,
+            -6.9133088
+          ],
+          [
+            107.5762519,
+            -6.9133265
+          ],
+          [
+            107.5765322,
+            -6.9134206
+          ],
+          [
+            107.5766744,
+            -6.9134545
+          ],
+          [
+            107.5768473,
+            -6.9134956
+          ],
+          [
+            107.5771173,
+            -6.9135481
+          ],
+          [
+            107.5772702,
+            -6.9135797
+          ],
+          [
+            107.5775341,
+            -6.9136343
+          ],
+          [
+            107.5776073,
+            -6.9136496
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4567680,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.597321,
+            -6.898017
+          ],
+          [
+            107.5973143,
+            -6.897839
+          ],
+          [
+            107.5973006,
+            -6.8973077
+          ],
+          [
+            107.5972936,
+            -6.8969114
+          ],
+          [
+            107.5972895,
+            -6.8968371
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4623260,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982533,
+            -6.8959337
+          ],
+          [
+            107.5984316,
+            -6.8951102
+          ],
+          [
+            107.5985705,
+            -6.894601
+          ],
+          [
+            107.5987172,
+            -6.8940629
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4716961,
+        "avgspeed": "20",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Sederhana",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5982533,
+            -6.8959337
+          ],
+          [
+            107.598061,
+            -6.8961075
+          ],
+          [
+            107.597854,
+            -6.8962946
+          ],
+          [
+            107.5975318,
+            -6.8966067
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4716962,
+        "avgspeed": "15",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Sederhana",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5962889,
+            -6.9064673
+          ],
+          [
+            107.5962554,
+            -6.9062596
+          ],
+          [
+            107.5962326,
+            -6.9061052
+          ],
+          [
+            107.5962205,
+            -6.9059827
+          ],
+          [
+            107.5962111,
+            -6.9058775
+          ],
+          [
+            107.5961991,
+            -6.9057391
+          ],
+          [
+            107.5961828,
+            -6.9055899
+          ],
+          [
+            107.596176,
+            -6.9054878
+          ],
+          [
+            107.596171,
+            -6.9053889
+          ],
+          [
+            107.596169,
+            -6.9052811
+          ],
+          [
+            107.5961694,
+            -6.9051897
+          ],
+          [
+            107.5961761,
+            -6.9050714
+          ],
+          [
+            107.5961881,
+            -6.9049442
+          ],
+          [
+            107.5962164,
+            -6.9046946
+          ],
+          [
+            107.5962473,
+            -6.9044716
+          ],
+          [
+            107.5962701,
+            -6.9043338
+          ],
+          [
+            107.596291,
+            -6.9042031
+          ],
+          [
+            107.5963629,
+            -6.9038698
+          ]
+        ]
+      },
+      "properties": {
+        "id": 190605657,
+        "avgspeed": "15",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "1",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Astina",
+        "oneway": "yes",
+        "parking:both": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5974073,
+            -6.9013528
+          ],
+          [
+            107.5973841,
+            -6.9009013
+          ],
+          [
+            107.597381,
+            -6.9007859
+          ],
+          [
+            107.5973772,
+            -6.900662
+          ]
+        ]
+      },
+      "properties": {
+        "id": 223676540,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "cycleway:both": "no",
+        "destination": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973503,
+            -6.8989275
+          ],
+          [
+            107.5973395,
+            -6.8985629
+          ],
+          [
+            107.5973325,
+            -6.8983576
+          ],
+          [
+            107.5973274,
+            -6.898195
+          ],
+          [
+            107.5973223,
+            -6.8980478
+          ],
+          [
+            107.597321,
+            -6.898017
+          ]
+        ]
+      },
+      "properties": {
+        "id": 247064779,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5859779,
+            -6.9071842
+          ],
+          [
+            107.5857665,
+            -6.9072225
+          ],
+          [
+            107.5856786,
+            -6.9072381
+          ],
+          [
+            107.5855372,
+            -6.9072632
+          ],
+          [
+            107.5854036,
+            -6.907287
+          ],
+          [
+            107.5852567,
+            -6.9073131
+          ],
+          [
+            107.5852174,
+            -6.9073192
+          ],
+          [
+            107.5850679,
+            -6.9073423
+          ],
+          [
+            107.5845137,
+            -6.9074213
+          ],
+          [
+            107.584189,
+            -6.9074748
+          ],
+          [
+            107.583989,
+            -6.9075077
+          ],
+          [
+            107.5838295,
+            -6.9075339
+          ],
+          [
+            107.5835821,
+            -6.9075711
+          ],
+          [
+            107.5834514,
+            -6.9075864
+          ],
+          [
+            107.5831743,
+            -6.9076187
+          ],
+          [
+            107.5830144,
+            -6.907635
+          ],
+          [
+            107.5826641,
+            -6.9076608
+          ],
+          [
+            107.5824393,
+            -6.9076623
+          ],
+          [
+            107.5822772,
+            -6.9076634
+          ],
+          [
+            107.5817406,
+            -6.9076453
+          ],
+          [
+            107.5811738,
+            -6.9075993
+          ]
+        ]
+      },
+      "properties": {
+        "id": 257232272,
+        "highway": "trunk",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
+        "oneway": "no",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5783486,
+            -6.9103499
+          ],
+          [
+            107.5782065,
+            -6.910981
+          ],
+          [
+            107.5781807,
+            -6.9110965
+          ],
+          [
+            107.5780214,
+            -6.9117553
+          ]
+        ]
+      },
+      "properties": {
+        "id": 257232273,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Garuda",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5648451,
+            -6.927117
+          ],
+          [
+            107.5656266,
+            -6.927185
+          ]
+        ]
+      },
+      "properties": {
+        "id": 306626761,
+        "highway": "tertiary",
+        "lanes": "2",
+        "oneway": "yes",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5657238,
+            -6.9266742
+          ],
+          [
+            107.5657635,
+            -6.9265863
+          ],
+          [
+            107.5658966,
+            -6.9262781
+          ],
+          [
+            107.5661673,
+            -6.9256374
+          ],
+          [
+            107.5662228,
+            -6.9255204
+          ],
+          [
+            107.566279,
+            -6.9253931
+          ],
+          [
+            107.5663253,
+            -6.9252957
+          ],
+          [
+            107.5664356,
+            -6.9251666
+          ],
+          [
+            107.5664908,
+            -6.9251326
+          ],
+          [
+            107.5666555,
+            -6.9250697
+          ],
+          [
+            107.5668126,
+            -6.9250097
+          ],
+          [
+            107.5668697,
+            -6.9249717
+          ],
+          [
+            107.5668915,
+            -6.9249552
+          ],
+          [
+            107.5670537,
+            -6.9247773
+          ],
+          [
+            107.5671209,
+            -6.9247041
+          ],
+          [
+            107.5672138,
+            -6.9246128
+          ],
+          [
+            107.5673425,
+            -6.9244992
+          ],
+          [
+            107.5674644,
+            -6.9244297
+          ],
+          [
+            107.5675149,
+            -6.9243986
+          ],
+          [
+            107.5676,
+            -6.9243532
+          ],
+          [
+            107.5676737,
+            -6.9242925
+          ],
+          [
+            107.5677268,
+            -6.9242152
+          ],
+          [
+            107.5677779,
+            -6.9241161
+          ],
+          [
+            107.5678165,
+            -6.9240414
+          ],
+          [
+            107.5679081,
+            -6.9238625
+          ],
+          [
+            107.5680252,
+            -6.9236278
+          ],
+          [
+            107.56817,
+            -6.923174
+          ],
+          [
+            107.5681801,
+            -6.9231401
+          ],
+          [
+            107.5682257,
+            -6.9229908
+          ],
+          [
+            107.5683046,
+            -6.9227279
+          ],
+          [
+            107.5683678,
+            -6.9225142
+          ],
+          [
+            107.5683839,
+            -6.9224599
+          ],
+          [
+            107.5684655,
+            -6.9221406
+          ],
+          [
+            107.5685334,
+            -6.9219723
+          ],
+          [
+            107.5685963,
+            -6.9218727
+          ],
+          [
+            107.5686467,
+            -6.9218258
+          ],
+          [
+            107.5687098,
+            -6.9217878
+          ],
+          [
+            107.5687803,
+            -6.9217774
+          ],
+          [
+            107.5688526,
+            -6.9217872
+          ],
+          [
+            107.5690228,
+            -6.9218246
+          ],
+          [
+            107.5691156,
+            -6.921845
+          ],
+          [
+            107.5692341,
+            -6.921871
+          ],
+          [
+            107.5692777,
+            -6.9218704
+          ],
+          [
+            107.5693171,
+            -6.9218595
+          ],
+          [
+            107.5693481,
+            -6.9218405
+          ],
+          [
+            107.5693702,
+            -6.9218079
+          ],
+          [
+            107.5694988,
+            -6.9214054
+          ],
+          [
+            107.5695105,
+            -6.9213687
+          ],
+          [
+            107.569557,
+            -6.9212084
+          ],
+          [
+            107.5696276,
+            -6.9209583
+          ],
+          [
+            107.5697486,
+            -6.9205542
+          ],
+          [
+            107.5698295,
+            -6.9203328
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318191421,
+        "avgspeed": "15",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Raya Cijerah",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5700698,
+            -6.9196362
+          ],
+          [
+            107.5701063,
+            -6.9195043
+          ],
+          [
+            107.5701539,
+            -6.9193649
+          ],
+          [
+            107.5702336,
+            -6.9191564
+          ],
+          [
+            107.5703003,
+            -6.91901
+          ],
+          [
+            107.570468,
+            -6.9185588
+          ],
+          [
+            107.570555,
+            -6.9183325
+          ],
+          [
+            107.5706007,
+            -6.918216
+          ],
+          [
+            107.5706066,
+            -6.9181993
+          ],
+          [
+            107.5706466,
+            -6.9180981
+          ],
+          [
+            107.57071,
+            -6.9179149
+          ],
+          [
+            107.5707288,
+            -6.9178384
+          ],
+          [
+            107.5707434,
+            -6.917782
+          ],
+          [
+            107.5707595,
+            -6.9176768
+          ],
+          [
+            107.5707809,
+            -6.9175368
+          ],
+          [
+            107.5708036,
+            -6.9174068
+          ],
+          [
+            107.5708564,
+            -6.9170528
+          ],
+          [
+            107.5708964,
+            -6.916782
+          ],
+          [
+            107.570926,
+            -6.9166096
+          ],
+          [
+            107.5709729,
+            -6.9163041
+          ],
+          [
+            107.5710128,
+            -6.9161379
+          ],
+          [
+            107.571053,
+            -6.9159991
+          ],
+          [
+            107.5711184,
+            -6.9157735
+          ],
+          [
+            107.5711273,
+            -6.9157427
+          ],
+          [
+            107.5711502,
+            -6.9156749
+          ],
+          [
+            107.571235,
+            -6.915424
+          ],
+          [
+            107.5712548,
+            -6.9153576
+          ],
+          [
+            107.5713267,
+            -6.9151148
+          ],
+          [
+            107.571449,
+            -6.9147677
+          ],
+          [
+            107.5714752,
+            -6.9147131
+          ],
+          [
+            107.5715151,
+            -6.9146659
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318193811,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Raya Cijerah",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5693569,
+            -6.9106219
+          ],
+          [
+            107.5694743,
+            -6.9106678
+          ],
+          [
+            107.569668,
+            -6.9107436
+          ],
+          [
+            107.5697302,
+            -6.910768
+          ],
+          [
+            107.5699681,
+            -6.910861
+          ],
+          [
+            107.5701462,
+            -6.9109306
+          ],
+          [
+            107.5702926,
+            -6.9109879
+          ],
+          [
+            107.5704868,
+            -6.9110639
+          ],
+          [
+            107.5705813,
+            -6.9111009
+          ],
+          [
+            107.570662,
+            -6.9111324
+          ],
+          [
+            107.5710798,
+            -6.9112958
+          ],
+          [
+            107.5715519,
+            -6.9114805
+          ],
+          [
+            107.5717818,
+            -6.9115704
+          ],
+          [
+            107.5718363,
+            -6.9115918
+          ],
+          [
+            107.5720087,
+            -6.9116592
+          ],
+          [
+            107.5723261,
+            -6.9117833
+          ],
+          [
+            107.5725782,
+            -6.9118819
+          ],
+          [
+            107.5729282,
+            -6.9120185
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318231952,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Barat",
+        "oneway": "yes",
+        "ref": "11",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973566,
+            -6.9002078
+          ],
+          [
+            107.5973521,
+            -6.9001109
+          ],
+          [
+            107.5973452,
+            -6.8999212
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318670701,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5996153,
+            -6.8908128
+          ],
+          [
+            107.5995145,
+            -6.8910995
+          ],
+          [
+            107.5992715,
+            -6.8920002
+          ],
+          [
+            107.599254,
+            -6.8920726
+          ],
+          [
+            107.5991519,
+            -6.8925236
+          ],
+          [
+            107.5990518,
+            -6.8929922
+          ],
+          [
+            107.5990034,
+            -6.8931579
+          ],
+          [
+            107.5988798,
+            -6.8935471
+          ],
+          [
+            107.5987366,
+            -6.8940012
+          ],
+          [
+            107.5987172,
+            -6.8940629
+          ]
+        ]
+      },
+      "properties": {
+        "id": 319083571,
+        "avgspeed": "20",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Sederhana",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975116,
+            -6.9035067
+          ],
+          [
+            107.5974908,
+            -6.9034505
+          ],
+          [
+            107.5974789,
+            -6.9033926
+          ],
+          [
+            107.5974727,
+            -6.9033217
+          ],
+          [
+            107.5974521,
+            -6.9026867
+          ],
+          [
+            107.5974311,
+            -6.9019145
+          ],
+          [
+            107.5974213,
+            -6.9017168
+          ],
+          [
+            107.597414,
+            -6.9015643
+          ],
+          [
+            107.5974073,
+            -6.9013528
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330736325,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "destination": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5708773,
+            -6.9135594
+          ],
+          [
+            107.5707008,
+            -6.9132508
+          ],
+          [
+            107.5705747,
+            -6.9130517
+          ],
+          [
+            107.5703429,
+            -6.9126894
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331148441,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
+        "oneway": "yes",
+        "ref": "11",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5656266,
+            -6.927185
+          ],
+          [
+            107.5656212,
+            -6.9271265
+          ],
+          [
+            107.5656199,
+            -6.927006
+          ],
+          [
+            107.5656359,
+            -6.9268882
+          ],
+          [
+            107.5656722,
+            -6.9267883
+          ],
+          [
+            107.5657238,
+            -6.9266742
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331148442,
+        "avgspeed": "15",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Raya Cijerah",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5648451,
+            -6.927117
+          ],
+          [
+            107.5647772,
+            -6.9270124
+          ],
+          [
+            107.5646768,
+            -6.9268575
+          ],
+          [
+            107.5645394,
+            -6.9266457
+          ],
+          [
+            107.5640253,
+            -6.9258624
+          ],
+          [
+            107.5639737,
+            -6.9257843
+          ],
+          [
+            107.5639271,
+            -6.9257207
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331148446,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Melong Raya",
+        "source": "Bing",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575721,
+            -6.9131092
+          ],
+          [
+            107.5758021,
+            -6.913142
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331452014,
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Barat",
+        "oneway": "yes",
+        "surface": "paved",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.588219,
+            -6.9067739
+          ],
+          [
+            107.5883657,
+            -6.9067835
+          ],
+          [
+            107.5886607,
+            -6.9068062
+          ],
+          [
+            107.5888263,
+            -6.9068235
+          ],
+          [
+            107.5889202,
+            -6.9068354
+          ],
+          [
+            107.5889933,
+            -6.9068461
+          ],
+          [
+            107.5891215,
+            -6.9068588
+          ],
+          [
+            107.5898536,
+            -6.90694
+          ],
+          [
+            107.5902634,
+            -6.9069819
+          ],
+          [
+            107.5905238,
+            -6.9070045
+          ],
+          [
+            107.5906468,
+            -6.9070144
+          ]
+        ]
+      },
+      "properties": {
+        "id": 493572012,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "width": "5",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5639271,
+            -6.9257207
+          ],
+          [
+            107.5637956,
+            -6.9255173
+          ]
+        ]
+      },
+      "properties": {
+        "id": 553462957,
+        "bridge": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Melong Raya",
+        "source": "Bing",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5637956,
+            -6.9255173
+          ],
+          [
+            107.5634078,
+            -6.9249216
+          ],
+          [
+            107.5631903,
+            -6.9245907
+          ],
+          [
+            107.5630583,
+            -6.9243887
+          ],
+          [
+            107.5628894,
+            -6.9241114
+          ],
+          [
+            107.5629011,
+            -6.9239338
+          ]
+        ]
+      },
+      "properties": {
+        "id": 553462959,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Melong Raya",
+        "source": "Bing",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5868079,
+            -6.9070295
+          ],
+          [
+            107.5868637,
+            -6.9069992
+          ],
+          [
+            107.5869339,
+            -6.9069731
+          ],
+          [
+            107.587079,
+            -6.9069435
+          ],
+          [
+            107.5873398,
+            -6.9068931
+          ],
+          [
+            107.5874941,
+            -6.9068611
+          ],
+          [
+            107.5875298,
+            -6.9068523
+          ],
+          [
+            107.5876047,
+            -6.9068318
+          ],
+          [
+            107.5876614,
+            -6.906814
+          ]
+        ]
+      },
+      "properties": {
+        "id": 553888011,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
+        "oneway": "yes",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5876614,
+            -6.906814
+          ],
+          [
+            107.5877282,
+            -6.9067939
+          ],
+          [
+            107.5877685,
+            -6.9067842
+          ]
+        ]
+      },
+      "properties": {
+        "id": 553888012,
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5959262,
+            -6.9065893
+          ],
+          [
+            107.5952568,
+            -6.9066609
+          ],
+          [
+            107.595037,
+            -6.9066943
+          ],
+          [
+            107.5945793,
+            -6.9067595
+          ],
+          [
+            107.5945435,
+            -6.9067649
+          ],
+          [
+            107.5942472,
+            -6.906822
+          ],
+          [
+            107.5941987,
+            -6.9068309
+          ],
+          [
+            107.594084,
+            -6.9068527
+          ],
+          [
+            107.5937537,
+            -6.9069123
+          ],
+          [
+            107.5936226,
+            -6.9069359
+          ],
+          [
+            107.5930436,
+            -6.9070358
+          ]
+        ]
+      },
+      "properties": {
+        "id": 556612636,
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Pajajaran",
+        "oneway": "no",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5920701,
+            -6.9071489
+          ],
+          [
+            107.5918373,
+            -6.9071242
+          ],
+          [
+            107.5916612,
+            -6.9071113
+          ],
+          [
+            107.5915994,
+            -6.9071068
+          ],
+          [
+            107.5913085,
+            -6.9070897
+          ],
+          [
+            107.5911224,
+            -6.9070825
+          ]
+        ]
+      },
+      "properties": {
+        "id": 556612637,
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Pajajaran",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5715151,
+            -6.9146659
+          ],
+          [
+            107.5714243,
+            -6.9145091
+          ],
+          [
+            107.571384,
+            -6.9144417
+          ],
+          [
+            107.5710851,
+            -6.913941
+          ],
+          [
+            107.5709375,
+            -6.9136862
+          ],
+          [
+            107.5708773,
+            -6.9135594
+          ]
+        ]
+      },
+      "properties": {
+        "id": 572938671,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
+        "oneway": "yes",
+        "ref": "11",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973772,
+            -6.900662
+          ],
+          [
+            107.5973654,
+            -6.9003949
+          ]
+        ]
+      },
+      "properties": {
+        "id": 590735036,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "destination:lanes": "Sukajadi;RSHS|Cihampelas;Cipaganti;Pasupati;Cikapayang",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;right",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5959262,
+            -6.9065893
+          ],
+          [
+            107.5960029,
+            -6.9065331
+          ],
+          [
+            107.5960368,
+            -6.9065206
+          ],
+          [
+            107.596056,
+            -6.9065146
+          ],
+          [
+            107.596066,
+            -6.9065114
+          ],
+          [
+            107.5962889,
+            -6.9064673
+          ]
+        ]
+      },
+      "properties": {
+        "id": 705122543,
+        "alt_name": "Jalan Padjadjaran",
+        "destination": "Padjadjaran;Pasir Kaliki;Cicendo",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5703429,
+            -6.9126894
+          ],
+          [
+            107.5701276,
+            -6.9123274
+          ],
+          [
+            107.5698951,
+            -6.9119365
+          ]
+        ]
+      },
+      "properties": {
+        "id": 775848651,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
+        "oneway": "yes",
+        "ref": "11",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975318,
+            -6.8966067
+          ],
+          [
+            107.5974852,
+            -6.8966564
+          ],
+          [
+            107.5974629,
+            -6.8966804
+          ]
+        ]
+      },
+      "properties": {
+        "id": 856222525,
+        "avgspeed": "15",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Sederhana",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5906651,
+            -6.9070158
+          ],
+          [
+            107.5909034,
+            -6.907037
+          ],
+          [
+            107.5909941,
+            -6.907047
+          ],
+          [
+            107.5911224,
+            -6.9070825
+          ]
+        ]
+      },
+      "properties": {
+        "id": 992188906,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5906468,
+            -6.9070144
+          ],
+          [
+            107.5906651,
+            -6.9070158
+          ]
+        ]
+      },
+      "properties": {
+        "id": 992188907,
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5698951,
+            -6.9119365
+          ],
+          [
+            107.5699632,
+            -6.911882
+          ]
+        ]
+      },
+      "properties": {
+        "id": 992205786,
+        "destination": "Elang;Garuda;Rajawali;Pajajaran",
+        "highway": "trunk_link",
+        "lanes": "2",
+        "oneway": "yes",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5699632,
+            -6.911882
+          ],
+          [
+            107.5697698,
+            -6.9115795
+          ],
+          [
+            107.5696944,
+            -6.9114612
+          ],
+          [
+            107.5694831,
+            -6.9111036
+          ],
+          [
+            107.569361,
+            -6.9109035
+          ],
+          [
+            107.5693348,
+            -6.9108606
+          ],
+          [
+            107.5692858,
+            -6.9107802
+          ],
+          [
+            107.5692724,
+            -6.9107365
+          ],
+          [
+            107.5692799,
+            -6.9106869
+          ],
+          [
+            107.5693001,
+            -6.9106543
+          ],
+          [
+            107.5693282,
+            -6.9106302
+          ],
+          [
+            107.5693569,
+            -6.9106219
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1061950618,
+        "destination": "Elang;Garuda;Rajawali;Pajajaran",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
+        "oneway": "yes",
+        "ref": "11",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973654,
+            -6.9003949
+          ],
+          [
+            107.5973566,
+            -6.9002078
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1074810489,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "destination": "Pajajaran;Husein Sastranegara;Cicendo;Stasiun Bandung",
+        "destination:symbol": ";airport;;train_station",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Pasir Kaliki",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "yes",
+        "ref": "249",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5972895,
+            -6.8968371
+          ],
+          [
+            107.5974629,
+            -6.8966804
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1115293260,
+        "highway": "primary",
+        "name": "Jalan Sederhana",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5975343,
+            -6.9039924
+          ],
+          [
+            107.5975116,
+            -6.9035067
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1199401349,
+        "alt_name": "Jalan HOS. Tjokroaminoto",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
+        "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
+        "destination:lanes:backward": "Otten;Nijland;Curie;Abdul Rivai|Padjadjaran;Cicendo;Andir",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "loc_name": "Jalan Pasir Kaliki",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
+        "oneway": "no",
+        "parking:both": "on_kerb",
+        "parking:both:orientation": "perpendicular",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5930436,
+            -6.9070358
+          ],
+          [
+            107.592893,
+            -6.9070548
+          ],
+          [
+            107.5928538,
+            -6.9070598
+          ],
+          [
+            107.5926825,
+            -6.9070846
+          ],
+          [
+            107.5925401,
+            -6.9070991
+          ],
+          [
+            107.5923942,
+            -6.9071118
+          ],
+          [
+            107.592239,
+            -6.9071272
+          ],
+          [
+            107.5920701,
+            -6.9071489
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218966648,
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Pajajaran",
+        "ref": "248",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5780214,
+            -6.9117553
+          ],
+          [
+            107.5780145,
+            -6.9117904
+          ],
+          [
+            107.578003,
+            -6.9118487
+          ],
+          [
+            107.5779564,
+            -6.9120857
+          ],
+          [
+            107.5779077,
+            -6.9123395
+          ],
+          [
+            107.5778207,
+            -6.9127137
+          ],
+          [
+            107.5778075,
+            -6.9127704
+          ],
+          [
+            107.5776241,
+            -6.9135596
+          ],
+          [
+            107.5776188,
+            -6.9135881
+          ],
+          [
+            107.5776073,
+            -6.9136496
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1221115891,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Garuda",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5729282,
+            -6.9120185
+          ],
+          [
+            107.5729439,
+            -6.9120247
+          ],
+          [
+            107.573014,
+            -6.9120524
+          ],
+          [
+            107.5733246,
+            -6.9121739
+          ],
+          [
+            107.5735241,
+            -6.9122519
+          ],
+          [
+            107.5736798,
+            -6.9123128
+          ],
+          [
+            107.5737227,
+            -6.9123296
+          ],
+          [
+            107.5741069,
+            -6.9124804
+          ],
+          [
+            107.5746597,
+            -6.9126961
+          ],
+          [
+            107.5747971,
+            -6.9127499
+          ],
+          [
+            107.5748397,
+            -6.9127665
+          ],
+          [
+            107.575213,
+            -6.9129126
+          ],
+          [
+            107.5753191,
+            -6.9129541
+          ],
+          [
+            107.5753653,
+            -6.9129722
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1221115893,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Cijerah;Holis;Cigondewah;Cimahi",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Barat",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "through|through|right",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5877685,
+            -6.9067842
+          ],
+          [
+            107.5878368,
+            -6.9067717
+          ],
+          [
+            107.5878467,
+            -6.9067699
+          ],
+          [
+            107.5879251,
+            -6.9067629
+          ],
+          [
+            107.5879557,
+            -6.9067619
+          ],
+          [
+            107.5880056,
+            -6.9067602
+          ],
+          [
+            107.5881625,
+            -6.9067702
+          ],
+          [
+            107.588219,
+            -6.9067739
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1221116579,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "width": "5",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5698295,
+            -6.9203328
+          ],
+          [
+            107.5698625,
+            -6.9202502
+          ],
+          [
+            107.5699734,
+            -6.9199722
+          ],
+          [
+            107.5699912,
+            -6.9199186
+          ],
+          [
+            107.570031,
+            -6.9197761
+          ],
+          [
+            107.5700698,
+            -6.9196362
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1233466992,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Raya Cijerah",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5753653,
+            -6.9129722
+          ],
+          [
+            107.5754115,
+            -6.9129902
+          ],
+          [
+            107.5755013,
+            -6.9130253
+          ],
+          [
+            107.575721,
+            -6.9131092
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364638661,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Cijerah;Holis;Cigondewah;Cimahi",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Barat",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "through|through|right",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973572,
+            -6.8990747
+          ],
+          [
+            107.5973543,
+            -6.8990234
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383555898,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973543,
+            -6.8990234
+          ],
+          [
+            107.5973503,
+            -6.8989275
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383555899,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973452,
+            -6.8999212
+          ],
+          [
+            107.5973408,
+            -6.8998291
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383555900,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5973408,
+            -6.8998291
+          ],
+          [
+            107.5973293,
+            -6.8994991
+          ],
+          [
+            107.5973312,
+            -6.8994022
+          ],
+          [
+            107.5973423,
+            -6.8991445
+          ],
+          [
+            107.5973572,
+            -6.8990747
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383555901,
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed:type": "ID:urban",
+        "name": "Jalan Pasir Kaliki",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-11K",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5868079,
+            -6.9070295
+          ],
+          [
+            107.5866068,
+            -6.9070674
+          ],
+          [
+            107.5863259,
+            -6.9071196
+          ],
+          [
+            107.5861621,
+            -6.9071508
+          ],
+          [
+            107.5859779,
+            -6.9071842
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1427520617,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
+        "oneway": "no",
+        "surface": "asphalt",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5783486,
+            -6.9103499
+          ],
+          [
+            107.5785563,
+            -6.9094641
+          ],
+          [
+            107.5786794,
+            -6.9089112
+          ],
+          [
+            107.5787312,
+            -6.9087166
+          ],
+          [
+            107.5787723,
+            -6.9085918
+          ],
+          [
+            107.5788134,
+            -6.9084914
+          ],
+          [
+            107.5788589,
+            -6.9083921
+          ],
+          [
+            107.5789019,
+            -6.9083181
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1444864943,
+        "check_date": "2026-01-05",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "motor_vehicle": "yes",
+        "name": "Jalan Layang Nurtanio",
+        "oneway": "no",
+        "parking:both": "no",
+        "sidewalk:both": "no",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5794204,
+            -6.9076036
+          ],
+          [
+            107.5795244,
+            -6.9075473
+          ],
+          [
+            107.5797046,
+            -6.9074852
+          ],
+          [
+            107.5797916,
+            -6.9074652
+          ],
+          [
+            107.5798841,
+            -6.9074506
+          ],
+          [
+            107.5799775,
+            -6.9074488
+          ],
+          [
+            107.5800457,
+            -6.9074531
+          ],
+          [
+            107.5802379,
+            -6.907476
+          ],
+          [
+            107.5811738,
+            -6.9075993
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1444864944,
+        "check_date": "2026-01-03",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "motor_vehicle": "yes",
+        "name": "Jalan Layang Nurtanio",
+        "oneway": "no",
+        "parking:both": "no",
+        "sidewalk:both": "no",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5789019,
+            -6.9083181
+          ],
+          [
+            107.5790202,
+            -6.9081211
+          ],
+          [
+            107.5792369,
+            -6.9077861
+          ],
+          [
+            107.5792779,
+            -6.9077322
+          ],
+          [
+            107.579326,
+            -6.9076782
+          ],
+          [
+            107.5794204,
+            -6.9076036
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1444864948,
+        "bridge": "yes",
+        "check_date": "2026-01-03",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "motor_vehicle": "yes",
+        "name": "Jalan Layang Nurtanio",
+        "oneway": "no",
+        "parking:both": "no",
+        "sidewalk:both": "no",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5758021,
+            -6.913142
+          ],
+          [
+            107.5761151,
+            -6.9132715
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1447411891,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right",
+        "kode_jalur": "4645553",
+        "folder_sumber": "route-data/geojson/4645553",
+        "kategori_data": "ways",
+        "nomor_trayek": "23",
+        "nama_rute": "Cijerah → Sederhana",
+        "label_jalur": "23: Cijerah → Sederhana"
+      }
+    }
+  ]
+}

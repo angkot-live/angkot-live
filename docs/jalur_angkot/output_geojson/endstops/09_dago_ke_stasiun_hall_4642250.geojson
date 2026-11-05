@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6212119,
+          -6.8670778
+        ]
+      },
+      "properties": {
+        "id": 3373712056,
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Terminal Dago",
+        "operator": "Angkot Kota Bandung",
+        "public_transport": "stop_position",
+        "shelter": "no",
+        "kode_jalur": "4642250",
+        "folder_sumber": "route-data/geojson/4642250",
+        "kategori_data": "endstops",
+        "nomor_trayek": "09",
+        "nama_rute": "Dago → Stasiun Hall",
+        "label_jalur": "09: Dago → Stasiun Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.604546,
+          -6.9153572
+        ]
+      },
+      "properties": {
+        "id": 11262097619,
+        "bus": "yes",
+        "name": "Stasiun Timur",
+        "public_transport": "stop_position",
+        "kode_jalur": "4642250",
+        "folder_sumber": "route-data/geojson/4642250",
+        "kategori_data": "endstops",
+        "nomor_trayek": "09",
+        "nama_rute": "Dago → Stasiun Hall",
+        "label_jalur": "09: Dago → Stasiun Hall"
+      }
+    }
+  ]
+}

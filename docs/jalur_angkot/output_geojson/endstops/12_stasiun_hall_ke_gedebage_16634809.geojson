@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6024325,
+          -6.9161432
+        ]
+      },
+      "properties": {
+        "id": 1013407725,
+        "alt_name": "Stasiun Bandung Pintu Selatan",
+        "bus": "yes",
+        "name": "Stasiun Hall",
+        "public_transport": "stop_position",
+        "kode_jalur": "16634809",
+        "folder_sumber": "route-data/geojson/16634809",
+        "kategori_data": "endstops",
+        "nomor_trayek": "12",
+        "nama_rute": "Stasiun Hall → Gedebage",
+        "label_jalur": "12: Stasiun Hall → Gedebage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6972019,
+          -6.9364151
+        ]
+      },
+      "properties": {
+        "id": 3780800108,
+        "bus": "yes",
+        "name": "Pasar Induk Gedebage",
+        "public_transport": "stop_position",
+        "kode_jalur": "16634809",
+        "folder_sumber": "route-data/geojson/16634809",
+        "kategori_data": "endstops",
+        "nomor_trayek": "12",
+        "nama_rute": "Stasiun Hall → Gedebage",
+        "label_jalur": "12: Stasiun Hall → Gedebage"
+      }
+    }
+  ]
+}

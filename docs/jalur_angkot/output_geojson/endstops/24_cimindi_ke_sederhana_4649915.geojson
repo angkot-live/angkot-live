@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5602213,
+          -6.8953145
+        ]
+      },
+      "properties": {
+        "id": 1666231924,
+        "bus": "yes",
+        "name": "Pangkalan Angkot Cimindi",
+        "public_transport": "stop_position",
+        "kode_jalur": "4649915",
+        "folder_sumber": "route-data/geojson/4649915",
+        "kategori_data": "endstops",
+        "nomor_trayek": "24",
+        "nama_rute": "Cimindi → Sederhana",
+        "label_jalur": "24: Cimindi → Sederhana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5996153,
+          -6.8908128
+        ]
+      },
+      "properties": {
+        "id": 3249461526,
+        "bus": "yes",
+        "name": "Pasar Sederhana",
+        "public_transport": "stop_position",
+        "kode_jalur": "4649915",
+        "folder_sumber": "route-data/geojson/4649915",
+        "kategori_data": "endstops",
+        "nomor_trayek": "24",
+        "nama_rute": "Cimindi → Sederhana",
+        "label_jalur": "24: Cimindi → Sederhana"
+      }
+    }
+  ]
+}
