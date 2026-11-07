@@ -8,14 +8,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { routes, vehicles } from '@/mocks/data'
-
-const stopNames: Record<string, string[]> = {
-  'r-08': ['Stasiun Hall', 'Cihampelas', 'Wastukancana', 'Simpang Dago', 'Dago'],
-  'r-05': ['Cicaheum', 'Suci', 'Gasibu', 'Simpang Dago', 'Ledeng'],
-  'r-02': ['Kalapa', 'Cikudapateuh', 'Kiaracondong', 'Antapani', 'Cicaheum'],
-  'r-16': ['Riung Bandung', 'Cimincrang', 'Mekarwangi', 'Antapani', 'Cicaheum'],
-  'r-23': ['Gunung Batu', 'Setiabudi', 'Ledeng', 'Kalapa', 'Simpang Kalapa'],
-}
+import type { RouteInfo } from '@/types'
 
 function endpointIcon(label: string, color: string) {
   return L.divIcon({
@@ -32,10 +25,12 @@ function endpointIcon(label: string, color: string) {
   })
 }
 
-function RouteMap({ polyline, color }: { polyline: [number, number][]; color: string }) {
+function RouteMap({ route }: { route: RouteInfo }) {
+  const { polyline, color, segments, endstops } = route
   const center = polyline[Math.floor(polyline.length / 2)] ?? polyline[0]
-  const first = polyline[0]
-  const last = polyline[polyline.length - 1]
+  const first = endstops?.[0]?.position ?? polyline[0]
+  const last = endstops?.[endstops.length - 1]?.position ?? polyline[polyline.length - 1]
+  const lines = segments ?? [polyline]
 
   return (
     <MapContainer
@@ -46,7 +41,13 @@ function RouteMap({ polyline, color }: { polyline: [number, number][]; color: st
       attributionControl={false}
     >
       <TileLayer url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      <Polyline positions={polyline} pathOptions={{ color, weight: 5, opacity: 0.9 }} />
+      {lines.map((line, index) => (
+        <Polyline
+          key={index}
+          positions={line}
+          pathOptions={{ color, weight: 5, opacity: 0.9 }}
+        />
+      ))}
       {first ? <Marker position={first} icon={endpointIcon('A', color)} /> : null}
       {last ? <Marker position={last} icon={endpointIcon('B', color)} /> : null}
     </MapContainer>
@@ -74,14 +75,21 @@ export function RouteDetailPage() {
   }
 
   const activeVehicles = vehicles.filter((vehicle) => vehicle.routeId === route.id)
-  const names = stopNames[route.id] ?? []
   const lastIndex = route.polyline.length - 1
   const stopIndexes = [0, 0.25, 0.5, 0.75, 1].map((ratio) => Math.round(lastIndex * ratio))
-  const stops = stopIndexes.map((index, position) => ({
-    name: names[position] ?? `Halte ${position + 1}`,
-    position: route.polyline[index] ?? route.polyline[0],
-    minutes: Math.round(position * 4),
-  }))
+  const endstops = route.endstops ?? []
+  const stops =
+    endstops.length > 0
+      ? endstops.map((stop, index) => ({
+          name: stop.name,
+          position: stop.position,
+          minutes: Math.round((index / Math.max(endstops.length - 1, 1)) * 16),
+        }))
+      : stopIndexes.map((index, position) => ({
+          name: `Titik ${position + 1}`,
+          position: route.polyline[index] ?? route.polyline[0],
+          minutes: Math.round(position * 4),
+        }))
 
   return (
     <div className="container-page py-6 md:py-10">
@@ -127,12 +135,12 @@ export function RouteDetailPage() {
       <div className="mt-6 grid gap-5 lg:grid-cols-[1fr_360px]">
         <Card className="overflow-hidden">
           <div className="h-[340px] md:h-[440px]">
-            <RouteMap polyline={route.polyline} color={route.color} />
+            <RouteMap route={route} />
           </div>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line-soft px-4 py-3 text-[11px] text-ink">
             <span className="flex items-center gap-1.5">
               <MapPin size={13} className="text-brand" />
-              {stops.length} halte utama
+              {stops.length} titik akhir
             </span>
             <span className="flex items-center gap-1.5">
               <Clock3 size={13} className="text-brand" />
@@ -152,7 +160,7 @@ export function RouteDetailPage() {
         <div className="flex flex-col gap-4">
           <Card>
             <CardContent className="p-4 md:p-5">
-              <h2 className="text-sm font-bold text-ink-strong">Halte yang dilewati</h2>
+              <h2 className="text-sm font-bold text-ink-strong">Titik akhir trayek</h2>
               <p className="mb-4 text-xs text-ink">Urutan perjalanan dari asal ke tujuan</p>
               <ol className="flex flex-col">
                 {stops.map((stop, index) => (
@@ -188,6 +196,22 @@ export function RouteDetailPage() {
             </CardContent>
           </Card>
 
+          {route.streets && route.streets.length > 0 ? (
+            <Card>
+              <CardContent className="p-4 md:p-5">
+                <h2 className="text-sm font-bold text-ink-strong">Jalan yang dilalui</h2>
+                <p className="mb-3 text-xs text-ink">{route.streets.length} ruas jalan</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {route.streets.map((street) => (
+                    <Badge key={street} variant="neutral">
+                      {street}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ) : null}
+
           <Card className="bg-leaf">
             <CardContent className="p-4 md:p-5">
               <p className="text-eyebrow text-brand-strong">Rute ini melewati</p>
@@ -198,7 +222,7 @@ export function RouteDetailPage() {
                 Tarif reguler Rp 5.000 · bayar tunai atau QRIS
               </p>
               <Button size="sm" className="mt-3" asChild>
-                <Link to="/peta">
+                <Link to={`/peta?route=${route.id}`}>
                   <Navigation size={14} />
                   Lihat angkot live
                   <ArrowRight size={14} />

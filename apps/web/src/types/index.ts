@@ -16,6 +16,12 @@ export interface User {
   avatarUrl?: string
 }
 
+export interface RouteEndstop {
+  id: string
+  name: string
+  position: [number, number]
+}
+
 export interface RouteInfo {
   id: string
   code: string
@@ -24,6 +30,9 @@ export interface RouteInfo {
   destination: string
   color: string
   polyline: [number, number][]
+  segments?: [number, number][][]
+  endstops?: RouteEndstop[]
+  streets?: string[]
 }
 
 export interface Vehicle {

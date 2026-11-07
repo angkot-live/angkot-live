@@ -1,99 +1,15 @@
+import angkotRoutes from '@/data/angkot-routes.json'
 import type { Report, RouteInfo, Vehicle, VehicleStatus } from '@/types'
 
-export const routes: RouteInfo[] = [
-  {
-    id: 'r-08',
-    code: '08',
-    name: 'Stasiun Hall — Dago',
-    origin: 'Stasiun Hall',
-    destination: 'Dago',
-    color: '#1F5C3A',
-    polyline: [
-      [-6.9147, 107.6026],
-      [-6.9125, 107.6075],
-      [-6.9092, 107.6112],
-      [-6.9054, 107.6148],
-      [-6.9011, 107.6179],
-      [-6.8974, 107.6205],
-      [-6.8935, 107.6218],
-      [-6.8896, 107.6204],
-      [-6.8854, 107.6182],
-      [-6.8818, 107.6161],
-    ],
-  },
-  {
-    id: 'r-05',
-    code: '05',
-    name: 'Cicaheum — Ledeng',
-    origin: 'Cicaheum',
-    destination: 'Ledeng',
-    color: '#325F99',
-    polyline: [
-      [-6.9024, 107.6472],
-      [-6.9048, 107.6401],
-      [-6.9069, 107.6322],
-      [-6.9088, 107.6245],
-      [-6.9112, 107.6171],
-      [-6.9128, 107.6098],
-      [-6.9136, 107.6024],
-      [-6.9121, 107.5951],
-      [-6.9098, 107.5882],
-      [-6.9062, 107.5815],
-    ],
-  },
-  {
-    id: 'r-02',
-    code: '02',
-    name: 'Kalapa — Cicaheum',
-    origin: 'Kalapa',
-    destination: 'Cicaheum',
-    color: '#B45309',
-    polyline: [
-      [-6.9182, 107.5921],
-      [-6.9164, 107.5998],
-      [-6.9148, 107.6074],
-      [-6.9131, 107.6152],
-      [-6.9114, 107.6231],
-      [-6.9092, 107.6314],
-      [-6.9066, 107.6392],
-      [-6.9034, 107.6468],
-    ],
-  },
-  {
-    id: 'r-16',
-    code: '16',
-    name: 'Riung Bandung — Cicaheum',
-    origin: 'Riung Bandung',
-    destination: 'Cicaheum',
-    color: '#7C3AED',
-    polyline: [
-      [-6.9443, 107.6531],
-      [-6.9378, 107.6489],
-      [-6.9312, 107.6448],
-      [-6.9249, 107.6409],
-      [-6.9188, 107.6371],
-      [-6.9128, 107.6335],
-      [-6.9071, 107.6302],
-    ],
-  },
-  {
-    id: 'r-23',
-    code: '23',
-    name: 'Gunung Batu — Kalapa',
-    origin: 'Gunung Batu',
-    destination: 'Kalapa',
-    color: '#BE185D',
-    polyline: [
-      [-6.8671, 107.5891],
-      [-6.8759, 107.5918],
-      [-6.8848, 107.5942],
-      [-6.8934, 107.5961],
-      [-6.9018, 107.5978],
-      [-6.9101, 107.5991],
-      [-6.9182, 107.6002],
-    ],
-  },
-]
+export const routes: RouteInfo[] = angkotRoutes.routes.map((route) => ({
+  ...route,
+  polyline: route.polyline as [number, number][],
+  segments: (route.segments as [number, number][][] | null) ?? undefined,
+  endstops: route.endstops.map((stop) => ({
+    ...stop,
+    position: stop.position as [number, number],
+  })),
+}))
 
 const driverNames = [
   'Asep Sunandar',
@@ -218,7 +134,7 @@ export const reports: Report[] = [
 
 export const publicStats = {
   activeVehicles: 1240,
-  routes: 32,
+  routes: 37,
   reportsThisMonth: 186,
   followUpRate: 92,
 }

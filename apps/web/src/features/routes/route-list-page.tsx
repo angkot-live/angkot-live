@@ -42,9 +42,13 @@ export function RouteListPage() {
 
         <div className="grid grid-cols-3 gap-2 md:gap-3">
           {[
-            { label: 'Trayek aktif', value: routes.length, icon: Route },
+            { label: 'Arah jalur', value: routes.length, icon: Route },
             { label: 'Angkot', value: vehicles.length, icon: BusFront },
-            { label: 'Halte', value: 32, icon: MapPin },
+            {
+              label: 'Ruas jalan',
+              value: new Set(routes.flatMap((route) => route.streets ?? [])).size,
+              icon: MapPin,
+            },
           ].map((stat) => (
             <div
               key={stat.label}
@@ -105,7 +109,7 @@ export function RouteListPage() {
 
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   <Badge variant="neutral">{activeVehicles.length} angkot aktif</Badge>
-                  <Badge variant="neutral">5 halte utama</Badge>
+                  <Badge variant="neutral">{route.streets?.length ?? 0} ruas jalan</Badge>
                 </div>
 
                 <div className="mt-auto flex items-center justify-between gap-2 border-t border-line-soft pt-3">

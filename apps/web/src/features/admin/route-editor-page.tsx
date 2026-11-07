@@ -60,13 +60,22 @@ function stopIcon(index: number) {
 export function RouteEditorPage() {
   const { id } = useParams()
   const route = routes.find((item) => item.id === id)
-  const [stops, setStops] = useState(
-    route?.polyline.map((_, index) => ({
+  const [stops, setStops] = useState(() => {
+    const endstops = route?.endstops ?? []
+    if (endstops.length > 0) {
+      return endstops.map((stop, index) => ({
+        id: `stop-${index}`,
+        name: stop.name,
+        distance: `${(index * 1.4).toFixed(1)} km`,
+      }))
+    }
+    const count = Math.min(8, route?.polyline.length ?? 0)
+    return Array.from({ length: count }, (_, index) => ({
       id: `stop-${index}`,
       name: stopNames[index % stopNames.length],
       distance: `${(index * 1.4).toFixed(1)} km`,
-    })) ?? [],
-  )
+    }))
+  })
   const [status, setStatus] = useState<'aktif' | 'insidental' | 'nonaktif'>('aktif')
 
   if (!route) {
@@ -83,6 +92,17 @@ export function RouteEditorPage() {
       </div>
     )
   }
+
+  const routeSegments = route.segments ?? [route.polyline]
+  const mapStops =
+    route.endstops && route.endstops.length > 0
+      ? route.endstops.map((stop) => stop.position)
+      : route.polyline
+          .filter(
+            (_, index) =>
+              index % Math.max(1, Math.floor(route.polyline.length / 8)) === 0,
+          )
+          .slice(0, 8)
 
   return (
     <div>
@@ -239,11 +259,14 @@ export function RouteEditorPage() {
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                   url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <Polyline
-                  positions={route.polyline}
-                  pathOptions={{ color: route.color, weight: 5, opacity: 0.85 }}
-                />
-                {route.polyline.map((position, index) => (
+                {routeSegments.map((segment, index) => (
+                  <Polyline
+                    key={`${route.id}-${index}`}
+                    positions={segment}
+                    pathOptions={{ color: route.color, weight: 5, opacity: 0.85 }}
+                  />
+                ))}
+                {mapStops.map((position, index) => (
                   <Marker key={`${route.id}-${index}`} position={position} icon={stopIcon(index)} />
                 ))}
               </MapContainer>

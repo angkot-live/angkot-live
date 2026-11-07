@@ -26,7 +26,7 @@ import { isVehicleStale, useLiveVehicles } from '@/features/tracking/use-live-ve
 import { routes, vehicles } from '@/mocks/data'
 import { cn } from '@/lib/cn'
 import { distanceKm, nearestRoutePoint } from '@/lib/geo'
-import type { Vehicle } from '@/types'
+import type { RouteInfo, Vehicle } from '@/types'
 
 const center: [number, number] = [-6.9039, 107.618]
 const USER_POSITION: [number, number] = [-6.9024, 107.6088]
@@ -104,6 +104,22 @@ function MapController({
     if (!positionRef.current) return
     map.flyTo(positionRef.current, Math.max(map.getZoom(), 14), { duration: 0.7 })
   }, [focusKey, map])
+
+  return null
+}
+
+function RouteBounds({ routes, filter }: { routes: RouteInfo[]; filter: string }) {
+  const map = useMap()
+
+  useEffect(() => {
+    const visible =
+      filter === 'semua'
+        ? routes
+        : routes.filter((route) => route.id === filter || route.code === filter)
+    const points = visible.flatMap((route) => route.polyline)
+    if (points.length === 0) return
+    map.fitBounds(L.latLngBounds(points), { padding: [28, 28] })
+  }, [filter, map, routes])
 
   return null
 }
@@ -250,10 +266,19 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
     [liveVehicles],
   )
 
+  const routeCodes = useMemo(() => Array.from(new Set(routes.map((route) => route.code))), [])
+  const selectedCode =
+    routeFilter === 'semua'
+      ? 'semua'
+      : (routes.find((route) => route.id === routeFilter)?.code ?? routeFilter)
+
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase()
     return availableVehicles.filter((vehicle) => {
-      const matchesRoute = routeFilter === 'semua' || vehicle.routeId === routeFilter
+      const matchesRoute =
+        routeFilter === 'semua' ||
+        vehicle.routeId === routeFilter ||
+        vehicle.routeCode === routeFilter
       const matchesQuery =
         !term ||
         vehicle.routeName.toLowerCase().includes(term) ||
@@ -372,18 +397,24 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {routes.map((route) => (
-          <Polyline
-            key={route.id}
-            positions={route.polyline}
-            pathOptions={{
-              color: route.color,
-              weight: 4,
-              opacity: routeFilter === 'semua' || routeFilter === route.id ? 0.75 : 0.15,
-              dashArray: '1 0',
-            }}
-          />
-        ))}
+        {routes.map((route) => {
+          const active =
+            routeFilter === 'semua' || routeFilter === route.id || routeFilter === route.code
+          const segments = route.segments ?? [route.polyline]
+          return segments.map((segment, index) => (
+            <Polyline
+              key={`${route.id}-${index}`}
+              positions={segment}
+              pathOptions={{
+                color: route.color,
+                weight: active && routeFilter !== 'semua' ? 5 : 3,
+                opacity: active ? 0.55 : 0.08,
+                dashArray: '1 0',
+              }}
+            />
+          ))
+        })}
+        <RouteBounds routes={routes} filter={routeFilter} />
         {filtered.map((vehicle) => (
           <Marker
             key={vehicle.id}
@@ -444,16 +475,16 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
                 <SlidersHorizontal size={12} />
                 Semua
               </Button>
-              {routes.map((route) => (
+              {routeCodes.map((code) => (
                 <Button
-                  key={route.id}
+                  key={code}
                   type="button"
                   size="sm"
-                  variant={routeFilter === route.id ? 'primary' : 'soft'}
+                  variant={selectedCode === code ? 'primary' : 'soft'}
                   className="h-8 shrink-0 px-2.5 text-[11px]"
-                  onClick={() => setRouteFilter(route.id)}
+                  onClick={() => setRouteFilter(code)}
                 >
-                  {route.code}
+                  {code}
                 </Button>
               ))}
             </div>

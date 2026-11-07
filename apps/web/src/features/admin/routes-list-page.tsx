@@ -31,6 +31,7 @@ import {
 import { Input } from '@/components/ui/input'
 import { routes } from '@/mocks/data'
 import { cn } from '@/lib/cn'
+import type { RouteInfo } from '@/types'
 
 const routeMeta: Record<
   string,
@@ -49,6 +50,18 @@ const statusMeta = {
   nonaktif: { label: 'Nonaktif', variant: 'neutral' as const },
 }
 
+function getRouteMeta(route: RouteInfo) {
+  return (
+    routeMeta[route.id] ?? {
+      length: `${(route.polyline.length * 0.02).toFixed(1)} km`,
+      stops: route.endstops?.length ?? 0,
+      vehicles: 0,
+      status: 'aktif' as const,
+      onTime: 90,
+    }
+  )
+}
+
 export function RoutesListPage() {
   const [query, setQuery] = useState('')
   const [status, setStatus] = useState<'semua' | 'aktif' | 'insidental' | 'nonaktif'>('semua')
@@ -57,7 +70,7 @@ export function RoutesListPage() {
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase()
     return routes.filter((route) => {
-      const meta = routeMeta[route.id]
+      const meta = getRouteMeta(route)
       const matchesStatus = status === 'semua' || meta?.status === status
       const matchesQuery =
         !term ||
@@ -207,7 +220,7 @@ export function RoutesListPage() {
 
           <div className="mt-1 flex flex-col gap-1.5">
             {filtered.map((route) => {
-              const meta = routeMeta[route.id]
+              const meta = getRouteMeta(route)
               const stat = statusMeta[meta.status]
               return (
                 <div
@@ -364,7 +377,8 @@ export function RoutesListPage() {
               Hapus trayek {deleting?.code}?
             </DialogTitle>
             <DialogDescription>
-              Tindakan ini berdampak operasional luas. Pindahkan {routeMeta[deleting?.id ?? '']?.vehicles ?? 0}{' '}
+              Tindakan ini berdampak operasional luas. Pindahkan{' '}
+              {deleting ? getRouteMeta(deleting).vehicles : 0}{' '}
               armada ke trayek lain sebelum menghapus permanen.
             </DialogDescription>
           </DialogHeader>
