@@ -15,7 +15,7 @@ import {
   X,
 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { MapContainer, Marker, Polyline, TileLayer, useMap } from 'react-leaflet'
+import { MapContainer, Marker, Polyline, TileLayer, useMap, useMapEvents } from 'react-leaflet'
 import { Link, useSearchParams } from 'react-router-dom'
 import { toast } from 'sonner'
 
@@ -112,15 +112,20 @@ function RouteBounds({ routes, filter }: { routes: RouteInfo[]; filter: string }
   const map = useMap()
 
   useEffect(() => {
-    const visible =
-      filter === 'semua'
-        ? routes
-        : routes.filter((route) => route.id === filter || route.code === filter)
+    if (filter === 'semua') return
+    const visible = routes.filter((route) => route.id === filter || route.code === filter)
     const points = visible.flatMap((route) => route.polyline)
     if (points.length === 0) return
     map.fitBounds(L.latLngBounds(points), { padding: [28, 28] })
   }, [filter, map, routes])
 
+  return null
+}
+
+function MapEvents({ onBackgroundClick }: { onBackgroundClick: () => void }) {
+  useMapEvents({
+    click: onBackgroundClick,
+  })
   return null
 }
 
@@ -294,6 +299,18 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
   const matchedVehicle = availableVehicles.find((vehicle) => vehicle.id === matchedVehicleId) ?? null
   const megatDistanceMeters = Math.round((userNearestRoute?.distanceKm ?? 0) * 1000)
 
+  const activeRoutes = useMemo(() => {
+    if (routeFilter !== 'semua') {
+      return routes.filter((route) => route.id === routeFilter || route.code === routeFilter)
+    }
+    if (selected) {
+      return routes.filter(
+        (route) => route.id === selected.routeId || route.code === selected.routeCode,
+      )
+    }
+    return []
+  }, [routeFilter, selected])
+
   useEffect(() => {
     if (megatMode !== 'searching') return
 
@@ -397,9 +414,13 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {routes.map((route) => {
-          const active =
-            routeFilter === 'semua' || routeFilter === route.id || routeFilter === route.code
+        <MapEvents
+          onBackgroundClick={() => {
+            setSelectedId(null)
+            setShowDetail(false)
+          }}
+        />
+        {activeRoutes.map((route) => {
           const segments = route.segments ?? [route.polyline]
           return segments.map((segment, index) => (
             <Polyline
@@ -407,8 +428,8 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
               positions={segment}
               pathOptions={{
                 color: route.color,
-                weight: active && routeFilter !== 'semua' ? 5 : 3,
-                opacity: active ? 0.55 : 0.08,
+                weight: 5,
+                opacity: 0.8,
                 dashArray: '1 0',
               }}
             />
@@ -482,7 +503,9 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
                   size="sm"
                   variant={selectedCode === code ? 'primary' : 'soft'}
                   className="h-8 shrink-0 px-2.5 text-[11px]"
-                  onClick={() => setRouteFilter(code)}
+                  onClick={() =>
+                    setRouteFilter((prev) => (prev === code ? 'semua' : code))
+                  }
                 >
                   {code}
                 </Button>
@@ -510,7 +533,13 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
 
           <div className="max-h-[38svh] overflow-y-auto rounded-lg border border-line-soft bg-surface/95 p-3 shadow-float backdrop-blur md:max-h-[calc(100svh-14rem)]">
             {showDetail && selected ? (
-              <VehicleDetail vehicle={selected} onBack={() => setShowDetail(false)} />
+              <VehicleDetail
+                vehicle={selected}
+                onBack={() => {
+                  setShowDetail(false)
+                  setSelectedId(null)
+                }}
+              />
             ) : (
               <>
                 <div className="mb-2 flex items-center justify-between px-1">

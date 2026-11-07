@@ -33,6 +33,8 @@ export interface RouteInfo {
   segments?: [number, number][][]
   endstops?: RouteEndstop[]
   streets?: string[]
+  /** Nama jalan per chain (selaras dengan `segments ?? [polyline]`), format [indeksTitikAwal, namaJalan]. */
+  streetRuns?: [number, string][][]
 }
 
 export interface Vehicle {

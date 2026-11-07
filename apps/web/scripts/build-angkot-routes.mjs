@@ -40,11 +40,16 @@ function toLatLng(coordinate) {
   return [Number(coordinate[1].toFixed(6)), Number(coordinate[0].toFixed(6))]
 }
 
+function streetNameOf(properties = {}) {
+  return properties.name ?? properties.alt_name ?? properties.ref ?? ''
+}
+
 function buildChains(features, anchor) {
-  const segments = features
+  const lineFeatures = features
     .filter((feature) => feature.geometry?.type === 'LineString')
-    .map((feature) => feature.geometry.coordinates)
-    .filter((coordinates) => coordinates.length > 1)
+    .filter((feature) => feature.geometry.coordinates.length > 1)
+  const segments = lineFeatures.map((feature) => feature.geometry.coordinates)
+  const segmentNames = lineFeatures.map((feature) => streetNameOf(feature.properties))
 
   const used = new Array(segments.length).fill(false)
   const chains = []
@@ -79,27 +84,37 @@ function buildChains(features, anchor) {
     isFirstChain = false
 
     const chain = []
+    // Run-length encoded street names: [startPointIndex, streetName]
+    const streetRuns = []
     let current = start
     while (current) {
       used[current.index] = true
       const coordinates = current.reversed
         ? [...segments[current.index]].reverse()
         : segments[current.index]
+      const name = segmentNames[current.index]
+      const runStart = Math.max(chain.length - 1, 0)
 
       for (const coordinate of coordinates) {
         const previous = chain[chain.length - 1]
         if (!previous || !samePoint(previous, coordinate)) chain.push(coordinate)
       }
 
+      const lastRun = streetRuns[streetRuns.length - 1]
+      if (name && (!lastRun || lastRun[1] !== name)) streetRuns.push([runStart, name])
+
       const endpoint = chain[chain.length - 1]
       current = findNext(endpoint)
     }
 
-    if (chain.length > 1) chains.push(chain)
+    if (chain.length > 1) chains.push({ points: chain, streetRuns })
   }
 
-  chains.sort((a, b) => b.length - a.length)
-  return chains.map((chain) => chain.map(toLatLng))
+  chains.sort((a, b) => b.points.length - a.points.length)
+  return chains.map((chain) => ({
+    points: chain.points.map(toLatLng),
+    streetRuns: chain.streetRuns,
+  }))
 }
 
 async function readJson(path) {
@@ -117,7 +132,7 @@ async function main() {
     const chains = buildChains(ways.features, anchor)
     if (chains.length === 0) continue
 
-    const polyline = chains[0]
+    const polyline = chains[0].points
     routes.push({
       id: String(entry.kode_jalur),
       code: entry.nomor_trayek,
@@ -129,7 +144,9 @@ async function main() {
         entry.nama_rute,
       color: colorFor(entry.nomor_trayek),
       polyline,
-      segments: chains.length > 1 ? chains : null,
+      segments: chains.length > 1 ? chains.map((chain) => chain.points) : null,
+      // Street runs per chain, aligned with `segments ?? [polyline]`
+      streetRuns: chains.map((chain) => chain.streetRuns),
       endstops: endstops.map((stop) => ({
         id: String(stop.id),
         name: stop.name,
