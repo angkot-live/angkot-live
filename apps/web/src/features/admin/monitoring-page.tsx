@@ -13,14 +13,14 @@ import {
 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, Marker, Polyline, TileLayer, useMap } from 'react-leaflet'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { toast } from 'sonner'
 
 import { Badge, VehicleStatusBadge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { useLiveVehicles } from '@/features/tracking/use-live-vehicles'
-import { routes, vehicles } from '@/mocks/data'
+import { routes } from '@/mocks/data'
 import { cn } from '@/lib/cn'
 import { distanceKm } from '@/lib/geo'
 import type { Vehicle } from '@/types'
@@ -76,13 +76,14 @@ function MapController({
 }
 
 export function MonitoringPage() {
-  const [selectedId, setSelectedId] = useState(vehicles[0]?.id ?? '')
-  const [routeFilter, setRouteFilter] = useState('semua')
+  const [searchParams] = useSearchParams()
+  const [selectedId, setSelectedId] = useState(searchParams.get('vehicle') ?? '')
+  const [routeFilter, setRouteFilter] = useState(searchParams.get('route') ?? 'semua')
   const [statusFilter, setStatusFilter] = useState<'semua' | Vehicle['status']>('semua')
   const [query, setQuery] = useState('')
-  const [radiusKm, setRadiusKm] = useState(5)
+  const [radiusKm, setRadiusKm] = useState(searchParams.has('vehicle') ? 15 : 5)
 
-  const liveVehicles = useLiveVehicles(vehicles)
+  const liveVehicles = useLiveVehicles()
 
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase()
@@ -192,7 +193,7 @@ export function MonitoringPage() {
           <input
             type="range"
             min={0.5}
-            max={5}
+            max={15}
             step={0.5}
             value={radiusKm}
             onChange={(event) => setRadiusKm(Number(event.target.value))}
@@ -299,7 +300,7 @@ export function MonitoringPage() {
         <div className="pointer-events-none absolute inset-x-3 top-3 z-[400] flex items-center justify-between">
           <Badge className="pointer-events-auto bg-surface/95 text-ink shadow-soft backdrop-blur">
             <span className="size-1.5 animate-pulse rounded-full bg-brand" />
-            Simulasi GPS — update tiap 3 detik · {liveVehicles.length} unit
+            Animasi contoh · {liveVehicles.length} angkot
           </Badge>
           <div className="pointer-events-auto flex gap-1.5">
             <Button
@@ -331,7 +332,7 @@ export function MonitoringPage() {
             </p>
             <h2 className="text-sm font-bold text-ink-strong">Detail armada terpilih</h2>
           </div>
-          <Badge variant="leaf">Live</Badge>
+          <Badge variant="neutral">Data contoh</Badge>
         </div>
 
         {selected ? (

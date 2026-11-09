@@ -146,7 +146,7 @@ export function PassengerDashboardPage() {
 
           <div className="grid gap-2 sm:grid-cols-3">
             {[
-              { title: 'Cari rute', detail: 'Rekomendasi jurusan + ETA', icon: Route, to: '/rute', tone: 'bg-leaf text-brand-strong' },
+              { title: 'Cari rute', detail: 'Rekomendasi jurusan + ETA', icon: Route, to: '/peta?tab=rute', tone: 'bg-leaf text-brand-strong' },
               { title: 'Buka peta', detail: 'Lihat angkot sekitar', icon: MapPin, to: '/penumpang', tone: 'bg-sky text-sky-ink' },
               { title: 'Buat laporan', detail: 'Laporkan masalah angkot', icon: FileWarning, to: '/penumpang/lapor', tone: 'bg-peach text-amber-900' },
             ].map((action) => (

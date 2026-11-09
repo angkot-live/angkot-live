@@ -58,7 +58,7 @@ const features = [
     description:
       'Temukan jurusan terdekat menuju tujuan, lengkap dengan estimasi waktu tiba dan opsi transit antar trayek.',
     link: 'Cari rute terbaik',
-    to: '/rute',
+    to: '/peta?tab=rute',
   },
   {
     icon: MessageSquareWarning,
@@ -276,7 +276,7 @@ export function LandingPage() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link to="/rute">
+                <Link to="/peta?tab=rute">
                   <Route size={17} />
                   Cari Rute
                 </Link>

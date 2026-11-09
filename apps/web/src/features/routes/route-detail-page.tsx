@@ -7,7 +7,8 @@ import { Link, useParams } from 'react-router-dom'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import { routes, vehicles } from '@/mocks/data'
+import { routes } from '@/mocks/data'
+import { useLiveVehicles } from '@/features/tracking/use-live-vehicles'
 import type { RouteInfo } from '@/types'
 
 function endpointIcon(label: string, color: string) {
@@ -56,6 +57,7 @@ function RouteMap({ route }: { route: RouteInfo }) {
 
 export function RouteDetailPage() {
   const { id } = useParams()
+  const vehicles = useLiveVehicles()
   const route = routes.find((item) => item.id === id)
 
   if (!route) {
@@ -125,7 +127,7 @@ export function RouteDetailPage() {
           </div>
         </div>
         <Button asChild>
-          <Link to="/rute">
+          <Link to={`/peta?tab=rute&to=${encodeURIComponent(route.destination)}`}>
             <Search size={15} />
             Cari rute ke sini
           </Link>

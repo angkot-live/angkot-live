@@ -38,6 +38,7 @@ export interface RouteInfo {
 }
 
 export interface Vehicle {
+  isExample?: boolean
   id: string
   plate: string
   routeId: string

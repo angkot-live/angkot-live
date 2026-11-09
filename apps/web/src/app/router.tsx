@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate, Outlet, useLocation } from 'react-router-dom'
+import { createBrowserRouter, Navigate, Outlet, useLocation, useSearchParams } from 'react-router-dom'
 
 import { AdminShell } from '@/components/layout/admin-shell'
 import { PublicShell } from '@/components/layout/public-shell'
@@ -38,7 +38,6 @@ import { ReportDetailPage } from '@/features/passenger/report-detail-page'
 import { ReportsPage } from '@/features/passenger/reports-page'
 import { HelpPage } from '@/features/public/help-page'
 import { StatisticsPage } from '@/features/public/statistics-page'
-import { SearchRoutePage } from '@/features/routing/search-route-page'
 import { RouteDetailPage } from '@/features/routes/route-detail-page'
 import { RouteListPage } from '@/features/routes/route-list-page'
 import { NotFoundPage } from '@/features/shared/not-found-page'
@@ -100,13 +99,22 @@ function PassengerMapPage() {
   return <MapScreen passengerMode />
 }
 
+function RouteRedirect() {
+  const [searchParams] = useSearchParams()
+  const params = new URLSearchParams(searchParams)
+  if (!params.has('tab')) {
+    params.set('tab', 'rute')
+  }
+  return <Navigate to={`/peta?${params.toString()}`} replace />
+}
+
 export const router = createBrowserRouter([
   {
     element: <PublicShell />,
     children: [
       { index: true, element: <LandingPage /> },
       { path: 'peta', element: <PublicMapPage /> },
-      { path: 'rute', element: <SearchRoutePage /> },
+      { path: 'rute', element: <RouteRedirect /> },
       { path: 'trayek', element: <RouteListPage /> },
       { path: 'trayek/:id', element: <RouteDetailPage /> },
       { path: 'statistik', element: <StatisticsPage /> },

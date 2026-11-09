@@ -18,15 +18,16 @@ import {
 } from 'lucide-react'
 import type { ReactNode } from 'react'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { toast } from 'sonner'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { cn } from '@/lib/cn'
+import { getCurrentLocation, locationErrorMessage } from '@/lib/geolocation'
 import type { LatLng } from '@/lib/geo'
-import { routes, vehicles } from '@/mocks/data'
+import { routes } from '@/mocks/data'
 
 import {
   landmarkPlaces,
@@ -38,8 +39,9 @@ import {
 } from './geocode'
 import { ItineraryMap } from './itinerary-map'
 import { PlaceInput } from './place-input'
+import { walkingRouter } from './walking-router'
+import { WalkingRouteNotice } from './walking-route-notice'
 import {
-  estimateNextArrival,
   planTrip,
   type Itinerary,
   type TripPlan,
@@ -81,16 +83,8 @@ function landmarkKey([lat, lng]: LatLng) {
   return `${lat.toFixed(4)},${lng.toFixed(4)}`
 }
 
-const vehiclePositionsByRoute = vehicles.reduce((map, vehicle) => {
-  const list = map.get(vehicle.routeId) ?? []
-  list.push(vehicle.position)
-  map.set(vehicle.routeId, list)
-  return map
-}, new Map<string, LatLng[]>())
-
-function nextArrival(itinerary: Itinerary) {
-  const leg = itinerary.legs[0]
-  return estimateNextArrival(leg, vehiclePositionsByRoute.get(leg.route.id) ?? [])
+function nextArrival(_itinerary: Itinerary): number | null {
+  return null
 }
 
 const examples: { from: string; to: string }[] = [
@@ -348,7 +342,7 @@ function ItineraryCard({
                 </span>
               ))}
               <span className="ml-1 flex flex-wrap gap-1.5">
-                {fastest ? <Badge variant="leaf">Tercepat</Badge> : null}
+                {fastest ? <Badge variant="leaf">Disarankan</Badge> : null}
                 <Badge variant={itinerary.transfers.length === 0 ? 'outline' : 'sky'}>
                   {itinerary.transfers.length === 0 ? (
                     <RouteIcon size={12} />
@@ -484,6 +478,16 @@ interface SearchResult {
 
 export function SearchRoutePage() {
   const [searchParams, setSearchParams] = useSearchParams()
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    const params = new URLSearchParams(searchParams)
+    if (!params.has('tab')) {
+      params.set('tab', 'rute')
+    }
+    navigate(`/peta?${params.toString()}`, { replace: true })
+  }, [navigate, searchParams])
+
   const [fromText, setFromText] = useState(searchParams.get('from') ?? '')
   const [toText, setToText] = useState(searchParams.get('to') ?? '')
   const [fromPlace, setFromPlace] = useState<Place | null>(() => {
@@ -502,7 +506,15 @@ export function SearchRoutePage() {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [filterKind, setFilterKind] = useState<'all' | 'direct' | 'transit'>('all')
   const [locating, setLocating] = useState(false)
+  const initialSearchDone = useRef(false)
   const searchToken = useRef(0)
+  const walkingSearch = useRef<AbortController | null>(null)
+  useEffect(() => () => {
+    walkingSearch.current?.abort()
+    searchToken.current += 1
+    // StrictMode runs effect cleanup/setup twice on mount. Allow auto-search to restart.
+    initialSearchDone.current = false
+  }, [])
 
   const landmarks = useTransferLandmarks(result?.plan)
 
@@ -553,6 +565,9 @@ export function SearchRoutePage() {
       return
     }
 
+    walkingSearch.current?.abort()
+    const controller = new AbortController()
+    walkingSearch.current = controller
     const token = ++searchToken.current
     setStatus('loading')
     setError(null)
@@ -574,7 +589,14 @@ export function SearchRoutePage() {
 
     // Beri kesempatan UI menampilkan status memuat sebelum perhitungan rute.
     await new Promise((resolve) => window.setTimeout(resolve, 0))
-    const plan = planTrip(routes, origin.position, destination.position)
+    const estimatedPlan = planTrip(routes, origin.position, destination.position)
+    let plan: TripPlan
+    try {
+      plan = await walkingRouter.routePlan(estimatedPlan, controller.signal)
+    } catch {
+      // Superseded searches and unmounted screens must not publish stale results.
+      return
+    }
     if (token !== searchToken.current) return
 
     setFromPlace(origin)
@@ -597,7 +619,6 @@ export function SearchRoutePage() {
   }
 
   // Jalankan pencarian otomatis bila halaman dibuka dengan parameter asal & tujuan.
-  const initialSearchDone = useRef(false)
   useEffect(() => {
     if (initialSearchDone.current) return
     initialSearchDone.current = true
@@ -616,31 +637,32 @@ export function SearchRoutePage() {
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
-    void runSearch(fromText, fromPlace, toText, toPlace)
+    const params = new URLSearchParams()
+    params.set('tab', 'rute')
+    if (fromText) params.set('from', fromText)
+    if (toText) params.set('to', toText)
+    if (fromPlace) params.set('fl', latLngParam(fromPlace.position))
+    if (toPlace) params.set('tl', latLngParam(toPlace.position))
+    navigate(`/peta?${params.toString()}`)
   }
 
-  function handleUseLocation() {
-    if (!('geolocation' in navigator)) {
-      toast.error('Perangkat tidak mendukung deteksi lokasi.')
-      return
-    }
+  async function handleUseLocation() {
+    if (locating) return
     setLocating(true)
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        setLocating(false)
-        const place = placeFromCoordinates('Lokasi saya', [
-          position.coords.latitude,
-          position.coords.longitude,
-        ])
-        setFromPlace(place)
-        setFromText(place.name)
-      },
-      () => {
-        setLocating(false)
-        toast.error('Lokasi tidak dapat diakses. Izinkan akses lokasi atau ketik titik asal.')
-      },
-      { enableHighAccuracy: true, timeout: 10000 },
-    )
+    try {
+      const position = await getCurrentLocation()
+      const place = placeFromCoordinates('Lokasi saya', [
+        position.coords.latitude,
+        position.coords.longitude,
+      ])
+      setFromPlace(place)
+      setFromText(place.name)
+      setError(null)
+    } catch (error) {
+      toast.error(locationErrorMessage(error), { duration: 10000 })
+    } finally {
+      setLocating(false)
+    }
   }
 
   function handleExample(example: { from: string; to: string }) {
@@ -650,7 +672,13 @@ export function SearchRoutePage() {
     setToText(example.to)
     setFromPlace(origin)
     setToPlace(destination)
-    void runSearch(example.from, origin, example.to, destination)
+    const params = new URLSearchParams()
+    params.set('tab', 'rute')
+    params.set('from', example.from)
+    params.set('to', example.to)
+    if (origin) params.set('fl', latLngParam(origin.position))
+    if (destination) params.set('tl', latLngParam(destination.position))
+    navigate(`/peta?${params.toString()}`)
   }
 
   return (
@@ -694,7 +722,9 @@ export function SearchRoutePage() {
                   trailing={
                     <button
                       type="button"
-                      onClick={handleUseLocation}
+                      onClick={() => void handleUseLocation()}
+                      disabled={locating}
+                      aria-busy={locating}
                       className="grid size-8 place-items-center rounded-md text-brand hover:bg-muted-strong"
                       aria-label="Gunakan lokasi saya"
                       title="Gunakan lokasi saya"
@@ -794,7 +824,7 @@ export function SearchRoutePage() {
               {
                 icon: <BusFront size={16} />,
                 title: 'Pilih kombinasi angkot',
-                text: 'Rute langsung maupun dengan transit, diurutkan dari yang tercepat.',
+                text: 'Rute langsung maupun dengan transit, diurutkan berdasarkan waktu, jalan kaki, dan transit.',
               },
               {
                 icon: <ArrowDownUp size={16} />,
@@ -833,7 +863,7 @@ export function SearchRoutePage() {
                 </h2>
                 <p className="text-xs text-ink">
                   {result.from.name} → {result.to.name} · jarak lurus{' '}
-                  {plan.straightKm.toFixed(1)} km · diurutkan dari yang tercepat
+                  {plan.straightKm.toFixed(1)} km · diurutkan berdasarkan waktu, jalan kaki, dan transit
                 </p>
               </div>
               {itineraries.length > 0 ? (
@@ -853,6 +883,8 @@ export function SearchRoutePage() {
                 </div>
               ) : null}
             </div>
+
+            <WalkingRouteNotice plan={plan} />
 
             {itineraries.length > 0 && directCount > 0 && transitCount > 0 ? (
               <div className="flex flex-wrap items-center gap-2 rounded-lg border border-line-soft bg-surface p-1.5 text-xs">

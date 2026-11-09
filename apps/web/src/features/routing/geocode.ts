@@ -1,4 +1,5 @@
 import { distanceKm, type LatLng } from '@/lib/geo'
+import { coordinateLabel, parseCoordinatePair } from '@/lib/coordinates'
 import { routes } from '@/mocks/data'
 
 /**
@@ -13,7 +14,7 @@ export interface Place {
   name: string
   detail: string
   position: LatLng
-  source: 'lokal' | 'osm' | 'gps'
+  source: 'lokal' | 'osm' | 'gps' | 'custom'
 }
 
 export interface LandmarkDefinition {
@@ -173,6 +174,8 @@ function localPlaces(): Place[] {
 }
 
 export function searchLocalPlaces(query: string, limit = 5): Place[] {
+  const coordinatePlace = placeFromCoordinateQuery(query)
+  if (coordinatePlace) return [coordinatePlace]
   const cleanTerm = query.trim().replace(/^(ke|di|dari)\s+/i, '')
   const term = normalize(cleanTerm || query)
   if (!term) return []
@@ -253,6 +256,8 @@ function featureToPlace(feature: PhotonFeature): Place | null {
 }
 
 export async function searchPlaces(query: string, signal?: AbortSignal): Promise<Place[]> {
+  const coordinatePlace = placeFromCoordinateQuery(query)
+  if (coordinatePlace) return [coordinatePlace]
   const cleanTerm = query.trim().replace(/^(ke|di|dari)\s+/i, '')
   const local = searchLocalPlaces(cleanTerm || query, 4)
   const term = cleanTerm || query.trim()
@@ -291,6 +296,8 @@ export async function searchPlaces(query: string, signal?: AbortSignal): Promise
 
 /** Ubah teks bebas menjadi satu tempat (hasil teratas). */
 export async function resolvePlace(query: string, signal?: AbortSignal) {
+  const coordinatePlace = placeFromCoordinateQuery(query)
+  if (coordinatePlace) return coordinatePlace
   const results = await searchPlaces(query, signal)
   return results[0] ?? null
 }
@@ -350,4 +357,9 @@ export function placeFromCoordinates(name: string, position: LatLng, detail = ''
     position,
     source: 'gps',
   }
+}
+
+function placeFromCoordinateQuery(query: string): Place | null {
+  const position = parseCoordinatePair(query)
+  return position ? { ...placeFromCoordinates(coordinateLabel(position), position), source: 'custom' } : null
 }

@@ -24,14 +24,14 @@ export interface NavItem {
 
 export const publicNav = [
   { label: 'Peta Live', to: '/peta' },
-  { label: 'Cari Rute', to: '/rute' },
+  { label: 'Cari Rute', to: '/peta?tab=rute' },
   { label: 'Trayek', to: '/trayek' },
   { label: 'Statistik', to: '/statistik' },
 ]
 
 export const passengerNav: NavItem[] = [
   { label: 'Peta', to: '/penumpang', icon: Map, end: true },
-  { label: 'Cari Rute', to: '/rute', icon: Search },
+  { label: 'Cari Rute', to: '/peta?tab=rute', icon: Search },
   { label: 'Riwayat', to: '/penumpang/riwayat', icon: Route },
   { label: 'Laporan', to: '/penumpang/laporan', icon: FileText },
   { label: 'Profil', to: '/penumpang/profil', icon: UserRound },

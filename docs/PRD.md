@@ -12,6 +12,8 @@
 
 ---
 
+> Keputusan terbaru: simulator GPS dan lokasi buatan dihapus. Pengujian pelacakan akan memakai GPS asli pengemudi. Pada implementasi frontend saat ini, sumber GPS pengemudi dan backend masih belum terhubung.
+
 ## 1. Ringkasan
 
 Angkot-Live adalah aplikasi web (PWA) yang menampilkan posisi angkot secara realtime di peta, membantu penumpang menemukan angkot dan jurusan yang tepat, membantu pengemudi mendapat informasi penumpang di sekitar rute, serta memberi admin/instansi alat untuk memverifikasi pengemudi, mengelola trayek, dan memantau kualitas layanan.
@@ -69,7 +71,7 @@ Subtema **Public Service Tracking**: website untuk memantau status/progres layan
 
 | Prioritas | Cakupan |
 |---|---|
-| **P0 — wajib jalan saat demo** | Auth & role, peta realtime (WebSocket), filter jurusan/radius, detail angkot + ETA, pencarian tujuan + rekomendasi jurusan langsung, mode pengemudi (kirim GPS + status), simulator GPS |
+| **P0 — wajib jalan saat demo** | Auth & role, peta realtime (WebSocket), filter jurusan/radius, detail angkot + ETA, pencarian tujuan + rekomendasi jurusan langsung, mode pengemudi (kirim GPS + status) |
 | **P1 — nilai tambah** | Verifikasi pengemudi, CRUD trayek, monitoring admin realtime, auto-ngetem 90 detik, megat angkot, dashboard ringkas tiap role, hotline laporan + tracking status, halaman statistik publik |
 | **P2 — jika waktu cukup** | Transfer 2+ angkot, tip pengemudi, inbox, dashboard analitik lengkap, monitoring kondisi kendaraan dari dokumen, heatmap permintaan |
 
@@ -192,7 +194,7 @@ Subtema **Public Service Tracking**: website untuk memantau status/progres layan
 | Database | **Supabase (PostgreSQL + PostGIS)**, relational, dinormalisasi hingga 3NF; Supabase Auth + RLS untuk role |
 | File | Supabase Storage (bucket privat) untuk dokumen dan foto kendaraan |
 | Peta/geo | Geolocation API, map matching ke polyline trayek, index geospasial (PostGIS `GIST`) |
-| Demo | **Simulator GPS** yang menjalankan beberapa angkot di trayek nyata |
+| Sumber posisi | GPS asli perangkat pengemudi selama bertugas |
 
 > Catatan: arsitektur awal rencana adalah microservices. Untuk skala lomba, modular monolith memberi hasil demo yang sama dengan biaya pengembangan dan debugging jauh lebih rendah.
 
@@ -205,7 +207,6 @@ flowchart LR
     API --> DB[("Supabase<br/>PostgreSQL + PostGIS")]
     API --> MEM[("Redis / memori<br/>posisi terkini")]
     API --> FS[("Storage dokumen")]
-    SIM["GPS Simulator"] -->|WebSocket| API
 ```
 
 | Komponen | Peran |
@@ -216,7 +217,6 @@ flowchart LR
 | Redis / memori | Posisi terkini angkot (cepat, tanpa tulis ke database tiap titik) |
 | Supabase | PostgreSQL + PostGIS, Auth, Storage, RLS |
 | Storage dokumen | File SIM, STNK, KIR, foto (akses admin saja) |
-| GPS Simulator | Angkot virtual untuk demo |
 
 ## 12. Antarmuka API & WebSocket
 
@@ -360,7 +360,7 @@ flowchart TD
 
 ## 14. Struktur repository
 
-Monorepo agar frontend, backend, simulator, dan data trayek mudah disinkronkan.
+Monorepo agar frontend, backend, dan data trayek mudah disinkronkan.
 
 ```text
 angkot-live/
@@ -418,17 +418,12 @@ angkot-live/
 │       ├── go.mod
 │       └── Dockerfile
 │
-├── tools/
-│   └── simulator/                    # GPS simulator: angkot virtual di trayek nyata
-│       ├── main.go
-│       └── scenarios/                # konfigurasi skenario demo (jumlah angkot, kecepatan)
-│
 ├── data/
 │   ├── routes/                       # GeoJSON per trayek (rute + halte)
 │   └── seed/                         # data awal: user admin, contoh pengemudi
 │
 ├── deploy/
-│   ├── docker-compose.yml            # web, api, redis, simulator
+│   ├── docker-compose.yml            # web, api, redis
 │   ├── nginx.conf                    # proxy HTTP + WebSocket
 │   └── .env.example
 │
@@ -440,7 +435,7 @@ angkot-live/
 │
 ├── .github/workflows/                # CI: lint, test, build
 ├── .gitignore
-├── Makefile                          # make dev, make seed, make simulate
+├── Makefile                          # make dev, make seed
 └── README.md
 ```
 

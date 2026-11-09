@@ -57,7 +57,11 @@ export function ItineraryMap({
   className?: string
 }) {
   const walkStyle = { color: '#707971', weight: 3, dashArray: '2 7', lineCap: 'round' as const }
-  const allPoints: LatLng[] = [origin, destination, ...itinerary.legs.flatMap((leg) => leg.path)]
+  const allPoints: LatLng[] = [
+    origin, destination, ...itinerary.legs.flatMap((leg) => leg.path),
+    ...itinerary.accessWalk.path, ...itinerary.egressWalk.path,
+    ...itinerary.transfers.flatMap((transfer) => transfer.walk.path),
+  ]
 
   return (
     <MapContainer
@@ -68,20 +72,20 @@ export function ItineraryMap({
       style={{ zIndex: 0 }}
     >
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ? <a href="https://routing.openstreetmap.de/about.html">FOSSGIS / OSRM</a> ? <a href="https://www.openstreetmap.org/fixthemap">Perbaiki peta</a>'
         url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <FitItinerary points={allPoints} fitKey={itinerary.id} />
 
-      <Polyline positions={[origin, itinerary.accessWalk.to]} pathOptions={walkStyle} />
+      <Polyline positions={itinerary.accessWalk.path} pathOptions={walkStyle} />
       {itinerary.transfers.map((transfer, index) => (
         <Polyline
           key={`walk-${index}`}
-          positions={[transfer.walk.from, transfer.walk.to]}
+          positions={transfer.walk.path}
           pathOptions={walkStyle}
         />
       ))}
-      <Polyline positions={[itinerary.egressWalk.from, destination]} pathOptions={walkStyle} />
+      <Polyline positions={itinerary.egressWalk.path} pathOptions={walkStyle} />
 
       {itinerary.legs.map((leg, index) => (
         <Polyline

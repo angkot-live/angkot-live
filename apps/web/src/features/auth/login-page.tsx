@@ -2,7 +2,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { Eye, EyeOff, Loader2, LockKeyhole, Mail, ShieldCheck, UserRound } from 'lucide-react'
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { z } from 'zod'
 
 import { Badge } from '@/components/ui/badge'
@@ -36,6 +36,7 @@ const roles: { value: Role; label: string; icon: typeof UserRound }[] = [
 export function LoginPage() {
   const login = useAuthStore((state) => state.login)
   const navigate = useNavigate()
+  const location = useLocation()
   const [role, setRole] = useState<Role>('penumpang')
   const [showPassword, setShowPassword] = useState(false)
   const [pendingDriver, setPendingDriver] = useState(false)
@@ -56,7 +57,11 @@ export function LoginPage() {
       undefined,
       role === 'pengemudi' && pendingDriver ? 'menunggu' : undefined,
     )
-    navigate(homeForRole(user.role))
+    const home = homeForRole(user.role)
+    const requested = location.state?.from as { pathname?: string; search?: string } | undefined
+    const pathname = requested?.pathname
+    navigate(pathname && (pathname === home || pathname.startsWith(`${home}/`))
+      ? `${pathname}${requested?.search ?? ''}` : home)
   }
 
   return (

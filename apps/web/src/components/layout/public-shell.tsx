@@ -1,5 +1,5 @@
 import { LogOut, Menu, ShieldCheck } from 'lucide-react'
-import { Link, NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom'
 
 import { Avatar } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
@@ -19,6 +19,21 @@ function PublicHeader() {
   const user = useAuthStore((state) => state.user)
   const logout = useAuthStore((state) => state.logout)
   const navigate = useNavigate()
+  const location = useLocation()
+
+  const searchParams = new URLSearchParams(location.search)
+  const isRuteTab =
+    searchParams.get('tab') === 'rute' || searchParams.has('from') || searchParams.has('to')
+
+  function isNavItemActive(to: string) {
+    if (to.includes('tab=rute')) {
+      return (location.pathname === '/peta' && isRuteTab) || location.pathname === '/rute'
+    }
+    if (to === '/peta') {
+      return location.pathname === '/peta' && !isRuteTab
+    }
+    return location.pathname === to || (to !== '/' && location.pathname.startsWith(to))
+  }
 
   function handleLogout() {
     logout()
@@ -31,22 +46,23 @@ function PublicHeader() {
         <Logo />
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Navigasi utama">
-          {publicNav.map((item) => (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              className={({ isActive }) =>
-                cn(
+          {publicNav.map((item) => {
+            const active = isNavItemActive(item.to)
+            return (
+              <Link
+                key={item.to}
+                to={item.to}
+                className={cn(
                   'rounded-md px-3 py-2 text-sm font-medium transition',
-                  isActive
+                  active
                     ? 'bg-brand text-white shadow-soft'
                     : 'text-ink hover:bg-muted hover:text-ink-strong',
-                )
-              }
-            >
-              {item.label}
-            </NavLink>
-          ))}
+                )}
+              >
+                {item.label}
+              </Link>
+            )
+          })}
         </nav>
 
         <div className="hidden items-center gap-2 md:flex">
@@ -89,20 +105,21 @@ function PublicHeader() {
               <SheetTitle>Menu</SheetTitle>
             </SheetHeader>
             <nav className="flex flex-col gap-1 px-4" aria-label="Navigasi mobile">
-              {publicNav.map((item) => (
-                <NavLink
-                  key={item.to}
-                  to={item.to}
-                  className={({ isActive }) =>
-                    cn(
+              {publicNav.map((item) => {
+                const active = isNavItemActive(item.to)
+                return (
+                  <Link
+                    key={item.to}
+                    to={item.to}
+                    className={cn(
                       'rounded-md px-3 py-2.5 text-sm font-medium',
-                      isActive ? 'bg-brand text-white' : 'text-ink hover:bg-muted',
-                    )
-                  }
-                >
-                  {item.label}
-                </NavLink>
-              ))}
+                      active ? 'bg-brand text-white' : 'text-ink hover:bg-muted',
+                    )}
+                  >
+                    {item.label}
+                  </Link>
+                )
+              })}
             </nav>
             <div className="mt-auto flex flex-col gap-2 border-t border-line-soft p-4">
               {user ? (
@@ -137,7 +154,7 @@ const footerColumns = [
     title: 'Layanan',
     links: [
       { label: 'Peta Live', to: '/peta' },
-      { label: 'Cari Rute', to: '/rute' },
+      { label: 'Cari Rute', to: '/peta?tab=rute' },
       { label: 'Daftar Trayek', to: '/trayek' },
       { label: 'Statistik', to: '/statistik' },
     ],

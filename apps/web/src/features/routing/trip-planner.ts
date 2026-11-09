@@ -27,6 +27,8 @@ const BOARD_WAIT_MIN = 5
 const TRANSFER_WAIT_MIN = 5
 /** Penalti kenyamanan per transit (hanya untuk pemeringkatan). */
 const TRANSFER_PENALTY_MIN = 6
+/** Penalti kenyamanan jalan kaki; tidak menambah estimasi durasi perjalanan. */
+const WALK_COST_FACTOR = 2
 /** Jarak naik minimum agar satu ruas angkot dianggap bermakna. */
 const MIN_RIDE_KM = 0.4
 /** Di bawah jarak ini, cukup jalan kaki. */
@@ -35,8 +37,13 @@ const WALK_ONLY_KM = 0.7
 const GRID_CELL_DEG = 0.004 // ≈ 440 m, lebih besar dari MAX_TRANSFER_KM
 
 const walkMinutes = (km: number) => ((km * WALK_DETOUR) / WALK_KMH) * 60
+const walkCost = (km: number) => walkMinutes(km) * WALK_COST_FACTOR
 const rideMinutes = (km: number) => (km / ANGKOT_KMH) * 60
 const RIDE_RATE = 60 / ANGKOT_KMH // menit per km
+
+export function tripScore(totalMinutes: number, walkingMinutes: number, transfers: number) {
+  return totalMinutes + walkingMinutes * (WALK_COST_FACTOR - 1) + transfers * TRANSFER_PENALTY_MIN
+}
 
 // ---- Tipe hasil ------------------------------------------------------------
 
@@ -60,6 +67,9 @@ export interface TripLeg {
 export interface TripWalk {
   from: LatLng
   to: LatLng
+  /** Geometri jaringan pejalan kaki; kosong hingga berhasil dirutekan. */
+  path: LatLng[]
+  routing: 'estimated' | 'routed' | 'unavailable'
   /** Perkiraan jarak jalan kaki (meter, sudah termasuk faktor belokan). */
   meters: number
   minutes: number
@@ -212,6 +222,8 @@ function makeWalk(from: LatLng, to: LatLng, km = fastKm(from, to)): TripWalk {
   return {
     from,
     to,
+    path: [],
+    routing: 'estimated',
     meters: Math.round((km * WALK_DETOUR * 1000) / 10) * 10,
     minutes: Math.max(1, Math.round(walkMinutes(km))),
   }
@@ -290,7 +302,7 @@ function collectAccess(network: Network, point: LatLng) {
       entries = new Map()
       byChain.set(chain.id, entries)
     }
-    entries.set(index, walkMinutes(km))
+    entries.set(index, walkCost(km))
   })
   return byChain
 }
@@ -353,7 +365,7 @@ function buildItinerary(origin: LatLng, destination: LatLng, specs: LegSpec[]): 
     totalMinutes,
     walkMinutes: walkTotal,
     rideKm: legs.reduce((total, leg) => total + leg.rideKm, 0),
-    score: totalMinutes + transfers.length * TRANSFER_PENALTY_MIN,
+    score: tripScore(totalMinutes, walkTotal, transfers.length),
   }
 }
 
@@ -432,7 +444,7 @@ export function planTrip(
           if (rideKmOf(chainB, m, alightB) < MIN_RIDE_KM) return
 
           const score =
-            arrive + walkMinutes(km) + TRANSFER_WAIT_MIN + rest + TRANSFER_PENALTY_MIN
+            arrive + walkCost(km) + TRANSFER_WAIT_MIN + rest + TRANSFER_PENALTY_MIN
           const key = `${chainA.route.code}>${chainB.route.code}`
           const current = bestPair.get(key)
           if (!current || score < current.score) {
@@ -519,7 +531,7 @@ function planTwoTransfers(
         chainA.points[k],
         MAX_TRANSFER_KM,
         (chainM, q, km) => {
-          const entry = arrive + walkMinutes(km) + TRANSFER_WAIT_MIN + TRANSFER_PENALTY_MIN
+          const entry = arrive + walkCost(km) + TRANSFER_WAIT_MIN + TRANSFER_PENALTY_MIN
           let entries = middleEntries.get(chainM.id)
           if (!entries) {
             entries = new Map()
@@ -561,7 +573,7 @@ function planTwoTransfers(
           if (rideKmOf(chainB, m, alightB) < MIN_RIDE_KM) return
 
           const score =
-            arrive + walkMinutes(km) + TRANSFER_WAIT_MIN + TRANSFER_PENALTY_MIN + rest
+            arrive + walkCost(km) + TRANSFER_WAIT_MIN + TRANSFER_PENALTY_MIN + rest
           const key = `${parent.chainA.route.code}>${chainM.route.code}>${chainB.route.code}`
           const current = bestTriple.get(key)
           if (!current || score < current.score) {
