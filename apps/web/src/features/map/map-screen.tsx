@@ -25,7 +25,7 @@ import {
   X,
 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { MapContainer, Marker, Polyline, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { MapContainer, Marker, Polyline, Circle, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import { Link, useSearchParams } from 'react-router-dom'
 import { toast } from 'sonner'
 
@@ -56,7 +56,11 @@ import { useAuthStore } from '@/features/auth/auth-store'
 import { megatStore, useMegat } from '@/features/tracking/use-megat'
 import { activeMegat, projectToRoute, MEGAT_WAIT_MS } from '@/features/tracking/megat-engine'
 import { isVehicleStale, useLiveVehicles } from '@/features/tracking/use-live-vehicles'
-import { groupRouteDirections, vehiclesForRouteSelection } from '@/features/tracking/route-directory'
+import {
+  groupRouteDirections,
+  vehiclesForRouteSelection,
+  vehiclesWithinRadius,
+} from '@/features/tracking/route-directory'
 import { routes } from '@/mocks/data'
 import { cn } from '@/lib/cn'
 import { getCurrentLocation, locationErrorMessage } from '@/lib/geolocation'
@@ -70,10 +74,20 @@ type MegatMode = 'idle' | 'walking' | 'searching' | 'matched'
 
 const radiusOptions: { label: string; value: number | null }[] = [
   { label: 'Semua', value: null },
+  { label: '100 m', value: 0.1 },
+  { label: '300 m', value: 0.3 },
+  { label: '500 m', value: 0.5 },
   { label: '1 km', value: 1 },
   { label: '3 km', value: 3 },
   { label: '5 km', value: 5 },
 ]
+
+const FALLBACK_VEHICLE_LIMIT = 5
+
+function radiusLabel(radiusKm: number | null) {
+  if (radiusKm === null) return 'Semua'
+  return radiusKm < 1 ? `${Math.round(radiusKm * 1000)} m` : `${radiusKm} km`
+}
 
 const statusColor: Record<Vehicle['status'], string> = {
   jalan: '#1F5C3A',
@@ -241,6 +255,48 @@ function FitItinerary({ points, fitKey }: { points: LatLng[]; fitKey: string }) 
   return null
 }
 
+function FocusVehicles({ points, focusKey }: { points: LatLng[]; focusKey: string }) {
+  const map = useMap()
+  const pointsRef = useRef(points)
+
+  useEffect(() => {
+    pointsRef.current = points
+  }, [points])
+
+  useEffect(() => {
+    if (pointsRef.current.length === 0) return
+    map.fitBounds(L.latLngBounds(pointsRef.current), { padding: [72, 72], maxZoom: 14 })
+  }, [focusKey, map])
+
+  return null
+}
+
+function FocusRadius({
+  center,
+  radiusKm,
+  focusKey,
+}: {
+  center: LatLng
+  radiusKm: number
+  focusKey: string
+}) {
+  const map = useMap()
+  const centerRef = useRef(center)
+  const radiusRef = useRef(radiusKm)
+
+  useEffect(() => {
+    centerRef.current = center
+    radiusRef.current = radiusKm
+  }, [center, radiusKm])
+
+  useEffect(() => {
+    const bounds = L.latLng(centerRef.current).toBounds(radiusRef.current * 1000 * 2)
+    map.fitBounds(bounds, { padding: [36, 36], maxZoom: 19 })
+  }, [focusKey, map])
+
+  return null
+}
+
 function MapEvents({ onBackgroundClick, picking, onPick }: {
   onBackgroundClick: () => void
   picking: boolean
@@ -266,10 +322,12 @@ function MapEvents({ onBackgroundClick, picking, onPick }: {
 function VehicleCard({
   vehicle,
   active,
+  distanceMeters,
   onSelect,
 }: {
   vehicle: Vehicle
   active: boolean
+  distanceMeters?: number
   onSelect: () => void
 }) {
   return (
@@ -293,6 +351,7 @@ function VehicleCard({
         <span className="block truncate text-xs font-bold text-ink-strong">{vehicle.routeName}</span>
         <span className="mt-0.5 block truncate text-[11px] text-ink">
           {vehicle.plate} · {vehicle.driverName}
+          {distanceMeters !== undefined ? ` · ${formatDistance(distanceMeters)}` : ''}
         </span>
       </span>
       <span className="flex flex-col items-end gap-1">
@@ -434,6 +493,9 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
   const [query, setQuery] = useState(searchParams.get('to') ?? '')
   const [routeFilter, setRouteFilter] = useState<string>(searchParams.get('route') ?? 'semua')
   const [radiusKm, setRadiusKm] = useState<number | null>(null)
+  const [allFocus, setAllFocus] = useState(0)
+  const [nearbyError, setNearbyError] = useState<string | null>(null)
+  const [nearbyLocating, setNearbyLocating] = useState(false)
   const [showDetail, setShowDetail] = useState(false)
   const passenger = useAuthStore((state) => state.user)
   const passengerId = passenger?.id ?? 'demo-passenger'
@@ -544,13 +606,37 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
       ? 'semua'
       : (routes.find((route) => route.id === routeFilter)?.code ?? routeFilter)
 
+  const nearbyVehicles = useMemo(
+    () => (radiusKm !== null && userPosition
+      ? vehiclesWithinRadius(availableVehicles, userPosition, radiusKm)
+      : availableVehicles),
+    [availableVehicles, radiusKm, userPosition],
+  )
+
   const filtered = useMemo(() => {
-    return vehiclesForRouteSelection(availableVehicles, routeFilter, routes).filter((vehicle) => {
-      const matchesRadius =
-        radiusKm === null || (userPosition != null && distanceKm(userPosition, vehicle.position) <= radiusKm)
-      return matchesRadius
-    })
+    const base = routeFilter === 'semua'
+      ? availableVehicles
+      : vehiclesForRouteSelection(availableVehicles, routeFilter, routes)
+    if (radiusKm === null || !userPosition) return base
+    return vehiclesWithinRadius(base, userPosition, radiusKm)
   }, [availableVehicles, radiusKm, routeFilter, userPosition])
+
+  const nearestVehicles = useMemo(() => {
+    if (!userPosition) return []
+    return availableVehicles
+      .map((vehicle) => ({
+        vehicle,
+        distanceKm: distanceKm(userPosition, vehicle.position),
+      }))
+      .sort((a, b) => a.distanceKm - b.distanceKm)
+      .slice(0, FALLBACK_VEHICLE_LIMIT)
+  }, [availableVehicles, userPosition])
+
+  const nearbyFallback = routeFilter === 'semua' && radiusKm !== null &&
+    userPosition !== null && filtered.length === 0 && nearestVehicles.length > 0
+  const displayedVehicles = nearbyFallback
+    ? nearestVehicles.map(({ vehicle }) => vehicle)
+    : filtered
 
   const selected = availableVehicles.find((vehicle) => vehicle.id === selectedId) ?? null
   const matchedVehicle = liveVehicles.find((vehicle) => vehicle.id === matchedVehicleId) ?? null
@@ -743,6 +829,44 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
     void runRouteSearch(fromText, fromPlace, toText, toPlace)
   }
 
+  async function requestNearbyLocation(focus = true) {
+    if (nearbyLocating) return null
+    setNearbyLocating(true)
+    setNearbyError(null)
+    try {
+      const position = await getCurrentLocation()
+      const next: LatLng = [position.coords.latitude, position.coords.longitude]
+      setUserLocation(next)
+      if (focus) setLocationFocus((value) => value + 1)
+      return next
+    } catch (error) {
+      setNearbyError(locationErrorMessage(error))
+      return null
+    } finally {
+      setNearbyLocating(false)
+    }
+  }
+
+  async function locateNearby() {
+    await requestNearbyLocation(radiusKm === null)
+  }
+
+  async function handleRadiusSelect(value: number | null) {
+    if (value === null) {
+      setRadiusKm(null)
+      setNearbyError(null)
+      setAllFocus((current) => current + 1)
+      return
+    }
+    if (userPosition) {
+      setRadiusKm(value)
+      setNearbyError(null)
+      return
+    }
+    const position = await requestNearbyLocation(false)
+    if (position) setRadiusKm(value)
+  }
+
   async function handleUseLocation() {
     if (locating) return
     setLocating(true)
@@ -755,7 +879,10 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
       setFromPlace(place)
       setFromText(place.name)
       setUserLocation(place.position)
-      setLocationFocus((value) => value + 1)
+      if (activeTab !== 'armada' || radiusKm === null) {
+        setLocationFocus((value) => value + 1)
+      }
+      setNearbyError(null)
       if (activeRequest?.status === 'walking') megatStore.arrive(activeRequest.id, passengerId, place.position)
       setRouteError(null)
     } catch (error) {
@@ -836,6 +963,7 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ? <a href="https://routing.openstreetmap.de/about.html">FOSSGIS / OSRM</a> ? <a href="https://www.openstreetmap.org/fixthemap">Perbaiki peta</a>'
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+          maxZoom={19}
         />
         <MapEvents
           picking={pickingPoint !== null}
@@ -985,8 +1113,22 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
           </>
         ) : null}
 
+        {activeTab === 'armada' && radiusKm !== null && userPosition ? (
+          <Circle
+            center={userPosition}
+            radius={radiusKm * 1000}
+            pathOptions={{
+              color: '#325F99',
+              weight: 2,
+              opacity: 0.85,
+              fillColor: '#325F99',
+              fillOpacity: 0.08,
+            }}
+          />
+        ) : null}
+
         {/* Live Vehicles Markers */}
-        {filtered.map((vehicle) => (
+        {displayedVehicles.map((vehicle) => (
           <Marker
             key={vehicle.id}
             position={vehicle.position}
@@ -1024,6 +1166,19 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
           position={userLocation}
           focusKey={locationFocus ? `location-${locationFocus}` : null}
         />
+        {activeTab === 'armada' && allFocus > 0 && radiusKm === null ? (
+          <FocusVehicles
+            points={availableVehicles.map((vehicle) => vehicle.position)}
+            focusKey={`all-${allFocus}`}
+          />
+        ) : null}
+        {activeTab === 'armada' && userPosition && radiusKm !== null ? (
+          <FocusRadius
+            center={userPosition}
+            radiusKm={radiusKm}
+            focusKey={`radius-${userPosition[0].toFixed(6)},${userPosition[1].toFixed(6)}-${radiusKm}`}
+          />
+        ) : null}
       </MapContainer>
 
       {pickingPoint ? (
@@ -1489,14 +1644,18 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
                       aria-label="Cari jurusan angkot"
                     />
                   </div>
-                  <p className="mt-2 text-[11px] text-ink-soft">Pilih jurusan di bawah untuk menampilkan jalur dan posisi angkotnya.</p>
+                  <p className="mt-2 text-[11px] text-ink-soft">
+                    {radiusKm !== null && userPosition
+                      ? `Angkot dalam radius ${radiusLabel(radiusKm)} dari lokasi Anda. Pilih jurusan untuk melihat jalurnya.`
+                      : 'Semua angkot contoh ditampilkan. Pilih radius untuk menyaring di sekitar lokasi Anda.'}
+                  </p>
                   <div className="mt-2 flex flex-wrap items-center gap-1">
                     <span className="mr-0.5 text-[10px] font-semibold text-ink-soft">Radius</span>
                     {radiusOptions.map((option) => (
                       <button
                         key={option.label}
                         type="button"
-                        onClick={() => setRadiusKm(option.value)}
+                        onClick={() => void handleRadiusSelect(option.value)}
                         className={cn(
                           'rounded-full px-2 py-1 text-[10px] font-semibold transition',
                           radiusKm === option.value
@@ -1508,6 +1667,20 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
                       </button>
                     ))}
                   </div>
+                  {nearbyError ? (
+                    <div className="mt-2 flex items-start gap-2 rounded-md border border-warning/40 bg-warning/10 p-2 text-[10px] text-ink">
+                      <AlertCircle size={12} className="mt-0.5 shrink-0 text-warning" />
+                      <span className="flex-1">{nearbyError}</span>
+                      <button
+                        type="button"
+                        onClick={() => void locateNearby()}
+                        disabled={nearbyLocating}
+                        className="shrink-0 font-semibold text-brand hover:underline disabled:opacity-60"
+                      >
+                        {nearbyLocating ? 'Mencari…' : 'Coba lagi'}
+                      </button>
+                    </div>
+                  ) : null}
                 </div>
 
                 <div className="max-h-[38svh] overflow-y-auto rounded-xl border border-line-soft bg-surface/95 p-3 shadow-float backdrop-blur md:max-h-[calc(100svh-14rem)]">
@@ -1521,6 +1694,50 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
                     />
                   ) : (
                     <>
+                      {routeFilter === 'semua' && radiusKm !== null && userPosition ? (
+                        <div className="mb-3 border-b border-line-soft pb-3">
+                          <div className="mb-2 flex items-center justify-between gap-2 px-1">
+                            <p className="text-xs font-bold text-ink-strong">
+                              {nearbyFallback
+                                ? `Angkot terdekat (${displayedVehicles.length})`
+                                : `Angkot dalam ${radiusLabel(radiusKm)} (${filtered.length})`}
+                            </p>
+                            <button
+                              type="button"
+                              onClick={() => void locateNearby()}
+                              disabled={nearbyLocating}
+                              className="text-[11px] font-semibold text-brand hover:underline disabled:opacity-60"
+                            >
+                              {nearbyLocating ? 'Memperbarui…' : 'Perbarui lokasi'}
+                            </button>
+                          </div>
+                          {nearbyFallback ? (
+                            <p className="mb-2 rounded-md border border-warning/40 bg-warning/10 p-2 text-[10px] text-ink">
+                              Tidak ada angkot dalam radius {radiusLabel(radiusKm)}. Menampilkan{' '}
+                              {displayedVehicles.length} angkot terdekat
+                              {nearestVehicles[0]
+                                ? ` (± ${formatDistance(Math.round(nearestVehicles[0].distanceKm * 1000))})`
+                                : ''}.
+                            </p>
+                          ) : null}
+                          <div className="flex flex-col gap-2">
+                            {displayedVehicles.map((vehicle) => (
+                              <VehicleCard
+                                key={`nearby-${vehicle.id}`}
+                                vehicle={vehicle}
+                                active={vehicle.id === selectedId}
+                                distanceMeters={Math.round(distanceKm(userPosition, vehicle.position) * 1000)}
+                                onSelect={() => handleSelect(vehicle)}
+                              />
+                            ))}
+                            {!displayedVehicles.length ? (
+                              <p className="rounded-md border border-dashed border-line-soft p-3 text-xs text-ink">
+                                Belum ada angkot di sekitar lokasi Anda.
+                              </p>
+                            ) : null}
+                          </div>
+                        </div>
+                      ) : null}
                       <div className="mb-2 flex items-center justify-between gap-2 px-1">
                         <p className="text-xs font-bold text-ink-strong">Jurusan angkot ({visibleRouteGroups.length})</p>
                         {routeFilter !== 'semua' ? <button type="button" onClick={() => selectRouteGroup(null)} className="text-[11px] font-semibold text-brand hover:underline">Hapus pilihan</button> : null}
@@ -1528,7 +1745,7 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
                       <div className="flex flex-col gap-2">
                         {visibleRouteGroups.map((group) => {
                           const active = selectedCode === group.code
-                          const count = availableVehicles.filter((vehicle) => group.directions.some((direction) => direction.id === vehicle.routeId)).length
+                          const count = nearbyVehicles.filter((vehicle) => group.directions.some((direction) => direction.id === vehicle.routeId)).length
                           return (
                             <div key={group.code} className={cn('overflow-hidden rounded-xl border bg-surface', active ? 'border-brand ring-1 ring-brand/15' : 'border-line-soft')}>
                               <button type="button" className="flex w-full items-center gap-3 p-3 text-left transition hover:bg-muted" aria-pressed={active} onClick={() => selectRouteGroup(group.code)}>
@@ -1580,10 +1797,7 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
             onClick={() => {
               const currentIndex = radiusOptions.findIndex((option) => option.value === radiusKm)
               const next = radiusOptions[(currentIndex + 1) % radiusOptions.length]
-              setRadiusKm(next.value)
-              toast.info(`Radius ${next.label}`, {
-                description: 'Filter armada di sekitar lokasi Anda.',
-              })
+              void handleRadiusSelect(next.value)
             }}
           >
             <Crosshair size={17} />
@@ -1713,7 +1927,13 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
         {/* Live Vehicles Count Badge */}
         <div className="pointer-events-none absolute right-3 bottom-20 flex items-center gap-1.5 rounded-full border border-line-soft bg-surface/90 px-3 py-1.5 text-[10px] font-medium text-ink shadow-soft backdrop-blur md:right-4 md:bottom-4">
           <Users size={12} className="text-brand" />
-          {routeFilter === 'semua' ? 'Pilih jurusan untuk melihat angkot' : `${filtered.length} angkot ditampilkan`}
+          {routeFilter === 'semua'
+            ? nearbyFallback
+              ? `${displayedVehicles.length} angkot terdekat`
+              : radiusKm !== null && userPosition
+                ? `${filtered.length} angkot dalam ${radiusLabel(radiusKm)}`
+                : `${displayedVehicles.length} angkot ditampilkan`
+            : `${filtered.length} angkot ditampilkan`}
         </div>
       </div>
 

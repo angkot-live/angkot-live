@@ -19,7 +19,7 @@ export function Logo({ to = '/', className, compact = false, tone = 'dark' }: Lo
     >
       <span
         className={cn(
-          'grid place-items-center rounded-xl bg-brand-strong text-white shadow-soft',
+          'grid place-items-center rounded-lg bg-brand-strong text-white shadow-soft',
           compact ? 'size-8' : 'size-9',
         )}
       >

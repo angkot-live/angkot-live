@@ -10,11 +10,12 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary: 'bg-brand-strong text-white shadow-soft hover:bg-brand',
-        secondary: 'bg-brand text-white shadow-soft hover:bg-brand-strong',
+        secondary: 'bg-secondary text-white shadow-soft hover:bg-secondary-strong',
+        tertiary: 'bg-leaf text-leaf-ink hover:bg-brand-soft/60',
         outline: 'border border-line bg-surface text-ink-strong shadow-soft hover:bg-muted',
         ghost: 'text-ink hover:bg-muted',
         soft: 'bg-muted text-brand-strong hover:bg-muted-strong',
-        danger: 'bg-danger text-white shadow-soft hover:bg-red-800',
+        danger: 'bg-danger text-white shadow-soft hover:bg-danger-ink',
         link: 'text-brand-strong underline-offset-4 hover:underline',
       },
       size: {

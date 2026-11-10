@@ -14,7 +14,7 @@ export function EmptyState({ icon, title, description, action, className }: Empt
   return (
     <div
       className={cn(
-        'flex flex-col items-center justify-center gap-3 rounded-lg border border-dashed border-line bg-muted/40 px-6 py-12 text-center',
+        'flex flex-col items-center justify-center gap-3 rounded-lg border-[0.5px] border-dashed border-line bg-muted/40 px-6 py-12 text-center',
         className,
       )}
     >
@@ -42,7 +42,7 @@ export function ErrorState({
   action?: ReactNode
 }) {
   return (
-    <div className="flex flex-col items-center gap-3 rounded-lg border border-danger/20 bg-danger-bg/40 px-6 py-10 text-center">
+    <div className="flex flex-col items-center gap-3 rounded-lg border-[0.5px] border-danger/20 bg-danger-bg/40 px-6 py-10 text-center">
       <h3 className="text-base font-bold text-danger">{title}</h3>
       <p className="max-w-sm text-sm text-ink">{description}</p>
       {action}

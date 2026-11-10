@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
-import { groupRouteDirections, vehiclesForRouteSelection } from '../src/features/tracking/route-directory.ts'
+import { groupRouteDirections, vehiclesForRouteSelection, vehiclesWithinRadius } from '../src/features/tracking/route-directory.ts'
 
 const routes = [
   { id: '13-out', code: '13', name: 'Sarijadi → Hall', color: '#004425' },
@@ -25,4 +25,14 @@ test('opposite directions appear as one route card while retaining their geometr
   assert.equal(groups[0].code, '13')
   assert.deepEqual(groups[0].directions.map((r) => r.id), ['13-out', '13-back'])
   assert.equal(groups[1].directions.length, 1)
+})
+
+test('radius filter keeps only vehicles within 500 meters from the current location', () => {
+  const center = [-6.9039, 107.618]
+  const inside = { id: 'near', position: [-6.905, 107.619] }
+  const outside = { id: 'far', position: [-6.92, 107.64] }
+  assert.deepEqual(
+    vehiclesWithinRadius([inside, outside], center, 0.5).map((vehicle) => vehicle.id),
+    ['near'],
+  )
 })

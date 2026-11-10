@@ -20,7 +20,7 @@ export function Input({ className, icon, trailing, invalid, ...props }: InputPro
       <input
         aria-invalid={invalid || undefined}
         className={cn(
-          'h-11 w-full rounded-md border border-transparent bg-muted px-3.5 text-sm text-ink-strong outline-none transition placeholder:text-ink-soft focus:border-brand focus:bg-surface focus:ring-2 focus:ring-brand/15 disabled:cursor-not-allowed disabled:opacity-60',
+          'h-11 w-full rounded-input border-[0.5px] border-line bg-surface px-3.5 text-sm text-ink-strong outline-none transition placeholder:text-[#94a3b8] focus:border-brand focus:ring-2 focus:ring-brand/15 disabled:cursor-not-allowed disabled:opacity-60',
           icon && 'pl-10',
           trailing && 'pr-11',
           invalid && 'border-danger bg-danger-bg/40 focus:border-danger focus:ring-danger/15',
@@ -76,7 +76,7 @@ export function Textarea({ className, ...props }: TextareaHTMLAttributes<HTMLTex
   return (
     <textarea
       className={cn(
-        'min-h-28 w-full resize-y rounded-md border border-transparent bg-muted px-3.5 py-3 text-sm text-ink-strong outline-none transition placeholder:text-ink-soft focus:border-brand focus:bg-surface focus:ring-2 focus:ring-brand/15',
+        'min-h-28 w-full resize-y rounded-input border-[0.5px] border-line bg-surface px-3.5 py-3 text-sm text-ink-strong outline-none transition placeholder:text-[#94a3b8] focus:border-brand focus:ring-2 focus:ring-brand/15',
         className,
       )}
       {...props}

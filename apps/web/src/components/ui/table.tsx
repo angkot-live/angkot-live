@@ -4,7 +4,7 @@ import { cn } from '@/lib/cn'
 
 export function Table({ className, ...props }: ComponentProps<'table'>) {
   return (
-    <div className="w-full overflow-x-auto rounded-lg border border-line-soft bg-surface">
+    <div className="w-full overflow-x-auto rounded-lg border-[0.5px] border-line bg-surface">
       <table className={cn('w-full border-collapse text-left text-sm', className)} {...props} />
     </div>
   )
@@ -15,7 +15,7 @@ export function TableHead({ className, ...props }: ComponentProps<'thead'>) {
 }
 
 export function TableBody({ className, ...props }: ComponentProps<'tbody'>) {
-  return <tbody className={cn('divide-y divide-line-soft', className)} {...props} />
+  return <tbody className={cn('divide-y-[0.5px] divide-line', className)} {...props} />
 }
 
 export function TableRow({ className, ...props }: ComponentProps<'tr'>) {
@@ -32,5 +32,5 @@ export function TableHeaderCell({ className, ...props }: ComponentProps<'th'>) {
 }
 
 export function TableCell({ className, ...props }: ComponentProps<'td'>) {
-  return <td className={cn('px-4 py-3.5 align-middle', className)} {...props} />
+  return <td className={cn('px-4 py-3 align-middle', className)} {...props} />
 }

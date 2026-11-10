@@ -5,16 +5,17 @@ import { cn } from '@/lib/cn'
 import type { DriverMode, ReportStatus, VehicleStatus } from '@/types'
 
 const badgeVariants = cva(
-  'inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold whitespace-nowrap',
+  'inline-flex items-center gap-1.5 rounded-badge border px-2.5 py-1 text-xs font-semibold whitespace-nowrap',
   {
     variants: {
       variant: {
-        neutral: 'bg-muted text-ink',
-        leaf: 'bg-leaf text-leaf-ink',
-        sky: 'bg-sky text-sky-ink',
-        peach: 'bg-peach text-amber-900',
-        danger: 'bg-danger-bg text-danger',
-        outline: 'border border-line bg-surface text-ink',
+        neutral: 'border-line bg-muted text-ink',
+        leaf: 'border-leaf-ink/15 bg-leaf text-leaf-ink',
+        sky: 'border-sky-ink/20 bg-sky text-sky-ink',
+        tertiary: 'border-tertiary/15 bg-peach text-tertiary',
+        peach: 'border-tertiary/15 bg-peach text-tertiary',
+        danger: 'border-danger/20 bg-danger-bg text-danger',
+        outline: 'border-line bg-surface text-ink',
       },
     },
     defaultVariants: { variant: 'neutral' },

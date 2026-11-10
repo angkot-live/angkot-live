@@ -50,8 +50,8 @@ function Section({
   return (
     <section className="flex flex-col gap-4 border-b border-line-soft pb-10">
       <div>
-        <h2 className="text-lg font-bold text-ink-strong">{title}</h2>
-        {description ? <p className="text-sm text-ink">{description}</p> : null}
+        <h2 className="text-h3 font-semibold text-ink-strong">{title}</h2>
+        {description ? <p className="text-body text-ink">{description}</p> : null}
       </div>
       {children}
     </section>
@@ -78,19 +78,52 @@ export function UiGalleryPage() {
       <div className="container-page flex flex-col gap-10 py-10">
         <div>
           <Badge variant="leaf">Design system</Badge>
-          <h1 className="mt-2 text-3xl font-extrabold tracking-tight text-ink-strong">
-            UI Gallery
-          </h1>
-          <p className="mt-1 max-w-2xl text-sm text-ink">
-            Referensi komponen dasar sebelum slicing halaman. Semua memakai token warna, radius,
-            dan shadow dari Figma.
+          <h1 className="mt-2 text-h1 text-ink-strong">UI Gallery</h1>
+          <p className="mt-1 max-w-2xl text-body text-ink">
+            Referensi token Civic Transit untuk warna, tipografi, radius, elevasi, dan komponen
+            dasar Angkot-Live.
           </p>
         </div>
+
+        <Section title="Palette" description="Warna utama dan fungsi status transportasi.">
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              { label: 'Primary / brand', value: '#004425', className: 'bg-brand-strong' },
+              { label: 'Secondary / rute', value: '#325F99', className: 'bg-secondary' },
+              { label: 'Tertiary / laporan', value: '#593000', className: 'bg-tertiary' },
+              { label: 'Warning / merayap', value: '#B45309', className: 'bg-warning' },
+              { label: 'Leaf / jalan', value: '#EAF3DE', className: 'bg-leaf' },
+              { label: 'Sky / ngetem', value: '#D4E3FF', className: 'bg-sky' },
+              { label: 'Peach / laporan', value: '#FFDCC0', className: 'bg-peach' },
+              { label: 'Error / darurat', value: '#BA1A1A', className: 'bg-danger' },
+            ].map((swatch) => (
+              <div key={swatch.label} className="rounded-lg border-[0.5px] border-line bg-surface p-3">
+                <div className={`h-12 rounded-md ${swatch.className}`} />
+                <p className="mt-2 text-body-sm font-semibold text-ink-strong">{swatch.label}</p>
+                <p className="text-caption text-ink-soft uppercase">{swatch.value}</p>
+              </div>
+            ))}
+          </div>
+        </Section>
+
+        <Section title="Tipografi" description="Skala Plus Jakarta Sans untuk hierarki konten.">
+          <div className="flex flex-col gap-2">
+            <p className="text-h1 text-ink-strong">H1 — 36 / 700</p>
+            <p className="text-h2 text-ink-strong">H2 — 28 / 700</p>
+            <p className="text-h3 text-ink-strong">H3 — 22 / 600</p>
+            <p className="text-h4 text-ink-strong">H4 — 18 / 600</p>
+            <p className="text-body-lg text-ink">Body Large — 16 / 400</p>
+            <p className="text-body text-ink">Body Regular — 14 / 400</p>
+            <p className="text-body-sm text-ink">Body Small — 12 / 400</p>
+            <p className="text-caption text-ink-soft uppercase">Caption — 11 / 500 / 0.5px</p>
+          </div>
+        </Section>
 
         <Section title="Button" description="Varian, ukuran, dan state disabled.">
           <div className="flex flex-wrap items-center gap-3">
             <Button>Primary</Button>
             <Button variant="secondary">Secondary</Button>
+            <Button variant="tertiary">Tertiary</Button>
             <Button variant="outline">Outline</Button>
             <Button variant="soft">Soft</Button>
             <Button variant="ghost">Ghost</Button>
@@ -105,6 +138,12 @@ export function UiGalleryPage() {
 
         <Section title="Badge status" description="Status kendaraan, mode pengemudi, dan laporan.">
           <div className="flex flex-wrap items-center gap-2">
+            <Badge variant="neutral">Neutral</Badge>
+            <Badge variant="leaf">Jalan</Badge>
+            <Badge variant="sky">Ngetem</Badge>
+            <Badge variant="tertiary">Laporan</Badge>
+            <Badge variant="danger">Darurat</Badge>
+            <Badge variant="outline">Outline</Badge>
             <VehicleStatusBadge status="jalan" />
             <VehicleStatusBadge status="merayap" />
             <VehicleStatusBadge status="ngetem" />
@@ -210,6 +249,20 @@ export function UiGalleryPage() {
                 </SheetHeader>
                 <div className="px-6 text-sm text-ink">
                   Panel samping untuk detail angkot di layar kecil.
+                </div>
+              </SheetContent>
+            </Sheet>
+
+            <Sheet>
+              <SheetTrigger asChild>
+                <Button variant="tertiary">Bottom sheet</Button>
+              </SheetTrigger>
+              <SheetContent side="bottom">
+                <SheetHeader>
+                  <SheetTitle>Pilih radius</SheetTitle>
+                </SheetHeader>
+                <div className="px-6 pb-6 text-sm text-ink">
+                  Bottom sheet dengan sudut 20px dan drag handle.
                 </div>
               </SheetContent>
             </Sheet>

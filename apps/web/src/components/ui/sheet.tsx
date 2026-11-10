@@ -23,14 +23,17 @@ export function SheetContent({
       <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-ink-strong/40 backdrop-blur-sm" />
       <DialogPrimitive.Content
         className={cn(
-          'fixed z-50 flex flex-col border-line-soft bg-surface shadow-float focus:outline-none',
-          side === 'right' && 'inset-y-0 right-0 w-full max-w-sm border-l',
-          side === 'left' && 'inset-y-0 left-0 w-full max-w-sm border-r',
-          side === 'bottom' && 'inset-x-0 bottom-0 max-h-[85svh] rounded-t-2xl border-t',
+          'fixed z-50 flex flex-col border-line bg-surface shadow-float focus:outline-none',
+          side === 'right' && 'inset-y-0 right-0 w-full max-w-sm border-l-[0.5px]',
+          side === 'left' && 'inset-y-0 left-0 w-full max-w-sm border-r-[0.5px]',
+          side === 'bottom' && 'inset-x-0 bottom-0 max-h-[85svh] rounded-t-sheet border-t-[0.5px]',
           className,
         )}
         {...props}
       >
+        {side === 'bottom' ? (
+          <div className="mx-auto mt-2 h-1 w-8 shrink-0 rounded-full bg-line" aria-hidden />
+        ) : null}
         {showClose ? (
           <DialogPrimitive.Close
             aria-label="Tutup"
