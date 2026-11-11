@@ -3,12 +3,13 @@ on: [push, pull_request]
 jobs:
   web:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     defaults:
       run:
         working-directory: apps/web
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 24
           cache: npm
@@ -20,7 +21,55 @@ jobs:
         working-directory: .
         run: node --test scripts/*.test.mjs
       - run: npm run build
-      - run: npx playwright install --with-deps chromium
+      # Chromium + dependensi sistem. Kegagalan run sebelumnya berasal dari
+      # apt-get di dalam `--with-deps` (lock unattended-upgrades / mirror lambat),
+      # bukan dari tes. Urutan di bawah membuat kegagalan itu tidak lagi menutupi
+      # hasil tes: unduh browser dulu tanpa apt, verifikasi benar-benar bisa
+      # launch, dan pasang paket sistem hanya bila memang dibutuhkan.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('apps/web/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-playwright-
+      - name: Install Chromium for browser tests
+        timeout-minutes: 15
+        run: |
+          set -uo pipefail
+          # 1) Unduh browser tanpa apt (cepat, tidak menyentuh lock dpkg).
+          downloaded=false
+          for attempt in 1 2 3; do
+            if npx --no-install playwright install chromium; then
+              downloaded=true
+              break
+            fi
+            echo "::warning::unduh Chromium gagal (percobaan $attempt)"
+            sleep 10
+          done
+          if [ "$downloaded" != true ]; then
+            echo "::error::Chromium gagal diunduh setelah 3 percobaan"
+            exit 1
+          fi
+          # 2) Bila Chromium sudah bisa launch, paket sistem tidak perlu dipasang.
+          if npm run check:browser; then
+            echo "Chromium siap tanpa paket sistem tambahan."
+            exit 0
+          fi
+          # 3) Jalur lambat: pasang dependensi sistem, bersihkan lock apt lebih dulu.
+          echo "::warning::Chromium butuh library sistem; memasang dependensi"
+          for attempt in 1 2 3; do
+            sudo systemctl stop unattended-upgrades 2>/dev/null || true
+            sudo rm -f /var/lib/apt/lists/lock /var/cache/apt/archives/lock \
+              /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock 2>/dev/null || true
+            if npx --no-install playwright install-deps chromium \
+              && npm run check:browser; then
+              exit 0
+            fi
+            echo "::warning::percobaan dependensi $attempt gagal; ulangi dalam 15 detik"
+            sleep 15
+          done
+          echo "::error::Chromium tidak dapat dijalankan setelah 3 percobaan"
+          exit 1
       - name: Browser flow integration
         env:
           VITE_SUPABASE_URL: http://127.0.0.1:9001
@@ -29,17 +78,27 @@ jobs:
           npm run dev -- --host 127.0.0.1 --strictPort > /tmp/angkot-vite.log 2>&1 &
           angkot_vite_pid=$!
           trap 'kill "$angkot_vite_pid"' EXIT
+          ready=false
           for attempt in $(seq 1 30); do
-            if curl -fsS http://127.0.0.1:5173/login > /dev/null; then break; fi
+            if curl -fsS http://127.0.0.1:5173/login > /dev/null; then
+              ready=true
+              break
+            fi
             sleep 1
           done
+          if [ "$ready" != true ]; then
+            echo "::error::Vite tidak siap di :5173 setelah 30 detik"
+            cat /tmp/angkot-vite.log
+            exit 1
+          fi
           npm run test:browser
           npm run test:landing
   api:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-go@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-go@v7
         with:
           go-version: '1.24'
           cache-dependency-path: apps/api/go.sum
@@ -47,6 +106,7 @@ jobs:
       - run: go -C apps/api test -race ./...
   database:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     services:
       postgres:
         image: postgis/postgis:16-3.4
@@ -65,5 +125,5 @@ jobs:
       PGPASSWORD: test-password
       PGDATABASE: postgres
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: cat apps/api/tests/bootstrap.sql supabase/migrations/*.sql apps/api/tests/flows.sql | psql -v ON_ERROR_STOP=1
