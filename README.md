@@ -98,7 +98,7 @@ Gunakan Wi-Fi yang sama dan IP LAN komputer, **bukan localhost**. Untuk konfigur
 
 Tekan **Ctrl+C** di terminal fleet terlebih dahulu agar akun/sesi sementara dibersihkan, kemudian di terminal frontend dan backend. Hentikan Supabase dengan `npm run local:stop`; data lokal tetap tersimpan. Jika fleet sebelumnya dimatikan paksa, jalankan `npm run demo:fleet:cleanup` setelah prosesnya berhenti.
 
-Panduan lengkap: [setup lokal](docs/setup/SETUP.md), [skenario presentasi](docs/setup/demo-script.md), [PRD](docs/resource/PRD.md), dan [rencana integrasi MVP](docs/planning/MVP_INTEGRATION_PLAN.md). Tip/pembayaran dan perjalanan transfer beberapa angkot masih di luar MVP; uji GPS/layar terkunci pada HP fisik tetap perlu dilakukan.
+Panduan lengkap: [setup lokal](docs/setup/SETUP.md), [skenario demo](docs/setup/SETUP.md#demo-aplikasi), [PRD](docs/resource/PRD.md), [status fitur dan roadmap](ROADMAP.md), dan [rencana integrasi MVP](docs/planning/MVP_INTEGRATION_PLAN.md). Tip/pembayaran dan perjalanan transfer beberapa angkot masih di luar MVP; uji GPS/layar terkunci pada HP fisik tetap perlu dilakukan.
 
 ---
 
