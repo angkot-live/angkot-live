@@ -95,7 +95,7 @@ export function CreateReportPage() {
         evidence: evidencePath ? [evidencePath] : [],
       })
       toast.success('Laporan terkirim', {
-        description: `Kode tiket ${report.code} sudah masuk antrean petugas Dishub.`,
+        description: `Kode tiket ${report.code} sudah masuk antrean peninjauan admin aplikasi.`,
       })
       navigate('/penumpang/laporan')
     } catch (e) {

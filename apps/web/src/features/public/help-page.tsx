@@ -25,7 +25,7 @@ const faqs = [
   {
     question: 'Bagaimana cara melaporkan pengemudi ugal-ugalan?',
     answer:
-      'Masuk sebagai penumpang, buka menu Lapor, pilih kendaraan dan kategori laporan, lalu tulis kronologi singkat. Laporan akan diteruskan ke petugas Dishub.',
+      'Masuk sebagai penumpang, buka menu Lapor, pilih kendaraan dan kategori laporan, lalu tulis kronologi singkat. Laporan ditinjau oleh admin aplikasi dan status tindak lanjutnya dapat dipantau.',
   },
   {
     question: 'Kenapa angkot di peta tidak bergerak?',

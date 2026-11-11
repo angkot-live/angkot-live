@@ -28,7 +28,10 @@
     "demo:audit": "node scripts/audit-runtime.mjs",
     "demo:rehearse": "npm --prefix apps/web run test:sprint45",
     "demo:performance": "npm --prefix apps/web run test:performance",
-    "demo:cleanup:rehearsal": "node scripts/cleanup-rehearsal.mjs"
+    "demo:cleanup:rehearsal": "node scripts/cleanup-rehearsal.mjs",
+    "demo:preflight": "node scripts/demo-preflight.mjs",
+    "demo:coordinates": "node scripts/demo-coordinates.mjs",
+    "demo:offline": "npm --prefix apps/web run demo:offline"
   },
   "devDependencies": {
     "supabase": "2.122.1"

@@ -5,6 +5,8 @@ export interface PublicStatistics {
   routeCodes: number
   totalVehicles: number
   activeVehicles: number
+  gpsVehicles: number
+  simulatedVehicles: number
   verifiedDrivers: number
   reports: number
   received: number

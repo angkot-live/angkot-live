@@ -20,7 +20,9 @@ export function StatisticsPage() {
               ['Arah trayek aktif', data.routes],
               ['Kode jurusan aktif', data.routeCodes],
               ['Armada terdaftar', data.totalVehicles],
-              ['Angkot dengan GPS aktif', data.activeVehicles],
+              ['Armada aktif, termasuk simulasi', data.activeVehicles],
+              ['GPS perangkat aktif', data.gpsVehicles],
+              ['Simulasi aktif', data.simulatedVehicles],
               ['Pengemudi terverifikasi', data.verifiedDrivers],
               ['Laporan masuk', data.reports],
               [
@@ -50,7 +52,7 @@ export function StatisticsPage() {
               <h2 className="font-bold">Angkot aktif per jurusan</h2>
               {Object.keys(data.activeByRoute).length === 0 ? (
                 <p className="text-sm text-ink">
-                  Belum ada kendaraan dengan GPS aktif.
+                  Belum ada kendaraan aktif.
                 </p>
               ) : (
                 <table className="w-full text-left text-sm">

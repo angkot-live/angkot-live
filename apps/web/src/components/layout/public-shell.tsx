@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { LogOut, Menu, ShieldCheck } from 'lucide-react'
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom'
 
@@ -20,6 +21,7 @@ function PublicHeader() {
   const logout = useAuthStore((state) => state.logout)
   const navigate = useNavigate()
   const location = useLocation()
+  const [menuOpen, setMenuOpen] = useState(false)
 
   function isNavItemActive(to: string) {
     return location.pathname === to || (to !== '/' && location.pathname.startsWith(to))
@@ -84,9 +86,9 @@ function PublicHeader() {
           )}
         </div>
 
-        <Sheet>
+        <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
           <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" className="md:hidden" aria-label="Buka menu">
+            <Button variant="ghost" size="icon" className="lg:hidden" aria-label="Buka menu">
               <Menu size={20} />
             </Button>
           </SheetTrigger>
@@ -94,7 +96,7 @@ function PublicHeader() {
             <SheetHeader className="border-b border-line-soft pb-4">
               <SheetTitle>Menu</SheetTitle>
             </SheetHeader>
-            <nav className="flex flex-col gap-1 px-4" aria-label="Navigasi mobile">
+            <nav className="flex flex-col gap-1 px-4" aria-label="Navigasi mobile" onClick={() => setMenuOpen(false)}>
               {publicNav.map((item) => {
                 const active = isNavItemActive(item.to)
                 return (
@@ -179,7 +181,7 @@ function PublicFooter() {
             </p>
             <div className="mt-1 flex items-center gap-2 text-xs font-medium text-brand-strong">
               <ShieldCheck size={14} />
-              Data armada terverifikasi Dishub
+              Verifikasi pengemudi melalui admin aplikasi
             </div>
           </div>
           {footerColumns.map((column) => (
@@ -203,7 +205,7 @@ function PublicFooter() {
           ))}
         </div>
         <div className="mt-8 flex flex-col gap-3 border-t border-line-soft pt-5 text-xs text-ink-soft sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 Angkot-Live. Bagian dari layanan transportasi publik kota.</p>
+          <p>© 2026 Angkot-Live · Proyek MIA 2026, Web In Action.</p>
           <div className="flex items-center gap-4">
             <Link to="/bantuan" className="hover:text-ink-strong">
               Syarat & Ketentuan

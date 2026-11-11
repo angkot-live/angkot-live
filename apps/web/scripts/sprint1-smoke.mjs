@@ -1,15 +1,10 @@
+import { demoSettings, demoOrigin } from '../../../scripts/demo-settings.mjs'
 // Real local Auth/API/Storage; no request interception or simulated GPS.
 import assert from 'node:assert/strict'
 import { chromium } from 'playwright'
 import { readFile, mkdir } from 'node:fs/promises'
-const settings = JSON.parse(
-  await readFile(
-    new URL('../../../.local/settings.json', import.meta.url),
-    'utf8',
-  ),
-)
-const origin =
-  process.env.SMOKE_ORIGIN ?? `https://${settings.host}:${settings.webPort}`
+const settings = await demoSettings()
+const origin = process.env.SMOKE_ORIGIN ?? demoOrigin(settings)
 const browser = await chromium.launch({
   headless: true,
   args: ['--no-sandbox'],

@@ -7,18 +7,18 @@ import {
   Radar,
   Route,
   ShieldCheck,
-  Users,
 } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 import { Button } from '@/components/ui/button'
 import { usePublicStatistics } from '@/features/public/use-statistics'
-import { useRoutes } from '@/features/routes/use-routes'
-import { useLiveVehicles } from '@/features/tracking/use-live-vehicles'
+import { LandingGuide } from './landing-guide'
+import { LandingMapPreview } from './landing-map-preview'
 
 const trustBadges = [
   'Tanpa perlu login',
-  'Update tiap 3 detik',
+  'ETA bila data memadai',
   'Trayek Bandung',
 ]
 
@@ -59,24 +59,24 @@ const pillars = [
     eyebrow: 'Kemudahan Komuter',
     title: 'Penumpang',
     description:
-      'Tahu angkot mana yang datang dan kapan tiba, tanpa menunggu buta di jalan.',
+      'Kenali jurusan, pantau lokasi segar dan beri tanda saat menunggu.',
     points: [
       'Pilih halte atau titik tujuan terdekat',
       'Pantau laju angkot dan estimasi tiba',
-      'Naik tepat waktu tanpa menunggu lama',
+      'Simpan perjalanan setelah konfirmasi naik',
     ],
   },
   {
     number: '2',
     tone: 'bg-sky text-sky-ink',
-    eyebrow: 'Penghasilan Stabil',
+    eyebrow: 'Informasi Sepanjang Trayek',
     title: 'Pengemudi',
     description:
       'Lihat penumpang yang menunggu di sepanjang rute dan atur status secara transparan.',
     points: [
       'Terima informasi penumpang di area rute',
       'Atur status narik, ngetem, dan istirahat',
-      'Bangun reputasi lewat layanan yang terukur',
+      'Istirahat atau Offline saat berhenti bertugas',
     ],
   },
   {
@@ -94,72 +94,26 @@ const pillars = [
   },
 ]
 
-function HeroMapPreview() {
-  const { routes } = useRoutes(),
-    vehicles = useLiveVehicles().filter((v) => !v.stale)
-  const points = routes.flatMap((r) => (r.segments ?? [r.polyline]).flat())
-  const minLat = points.length ? Math.min(...points.map((p) => p[0])) : -7,
-    maxLat = points.length ? Math.max(...points.map((p) => p[0])) : -6.8
-  const minLng = points.length ? Math.min(...points.map((p) => p[1])) : 107.5,
-    maxLng = points.length ? Math.max(...points.map((p) => p[1])) : 107.8
-  const project = (p: [number, number]) => [
-    20 + ((p[1] - minLng) / Math.max(0.001, maxLng - minLng)) * 528,
-    20 + ((maxLat - p[0]) / Math.max(0.001, maxLat - minLat)) * 476,
-  ]
-  return (
-    <div className="relative rounded-xl border border-line-soft bg-surface p-4 shadow-float">
-      <svg
-        viewBox="0 0 568 516"
-        role="img"
-        aria-label="Trayek dan GPS angkot dari layanan"
-        className="w-full rounded-lg bg-muted"
-      >
-        {routes.flatMap((r) =>
-          (r.segments ?? [r.polyline]).map((line, i) => (
-            <polyline
-              key={`${r.id}-${i}`}
-              points={line.map((p) => project(p).join(',')).join(' ')}
-              fill="none"
-              stroke={r.color}
-              strokeWidth="1.5"
-              opacity=".5"
-            />
-          )),
-        )}
-        {vehicles.map((v) => (
-          <circle
-            key={v.id}
-            cx={project(v.position)[0]}
-            cy={project(v.position)[1]}
-            r="5"
-            fill="#004425"
-          />
-        ))}
-      </svg>
-      <p className="mt-3 text-sm">
-        {vehicles.length
-          ? `${vehicles.length} angkot dengan GPS aktif`
-          : 'Belum ada angkot dengan GPS aktif.'}
-      </p>
-      <Link to="/peta" className="mt-2 block text-sm font-bold text-brand">
-        Buka peta langsung →
-      </Link>
-    </div>
-  )
-}
-
 export function LandingPage() {
-  const { data, error } = usePublicStatistics()
+  const location = useLocation()
+  useEffect(() => {
+    if (location.hash !== '#cara-kerja') return
+    const frame = requestAnimationFrame(() => document.getElementById('cara-kerja')?.scrollIntoView())
+    return () => cancelAnimationFrame(frame)
+    // Key changes even when the same hash link is clicked again.
+  }, [location.hash, location.key])
+  const { data, error, isPending, refetch } = usePublicStatistics()
   const metrics = [
+    { value: data ? data.totalVehicles.toLocaleString('id-ID') : '—', label: 'Armada terdaftar', tone: 'bg-leaf', icon: BusFront },
     {
       value: data ? data.activeVehicles.toLocaleString('id-ID') : '—',
-      label: 'Angkot terpantau aktif',
+      label: 'Armada aktif, termasuk simulasi',
       tone: 'bg-leaf',
       icon: BusFront,
     },
     {
       value: data ? String(data.routeCodes) : '—',
-      label: 'Trayek terintegrasi',
+      label: 'Kode jurusan aktif',
       tone: 'bg-sky',
       icon: Route,
     },
@@ -187,10 +141,10 @@ export function LandingPage() {
         <div className="container-page grid items-center gap-10 py-12 lg:grid-cols-2 lg:gap-8 lg:py-16">
           <div className="flex flex-col items-start">
             <h1 className="text-4xl leading-[1.15] font-extrabold tracking-tight text-ink-strong md:text-5xl">
-              Lacak Angkot,
+              Kenali Trayeknya,
               <br />
               <span className="relative inline-block text-brand">
-                Langsung dari Layar
+                Pantau Angkotnya
                 <svg
                   className="absolute -bottom-2 left-0 w-full text-brand-soft"
                   viewBox="0 0 328 12"
@@ -208,21 +162,21 @@ export function LandingPage() {
             </h1>
 
             <p className="mt-6 max-w-lg text-base leading-relaxed text-ink">
-              Pantau posisi realtime, rute aktif, dan estimasi waktu tiba
-              angkutan kota secara presisi tanpa repot menunggu di jalan.
+              Temukan jurusan yang sesuai, pantau posisi angkot dan beri tanda
+              saat Anda menunggu. Estimasi tiba tersedia bila lokasi dan arah memadai.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <Button size="lg" asChild>
                 <Link to="/peta">
-                  Mulai Pantau Sekarang
+                  Lihat Peta Live
                   <ArrowRight size={17} />
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link to="/peta">
+                <Link to="/peta?tab=rute">
                   <Route size={17} />
-                  Cari Rute
+                  Cari Trayek
                 </Link>
               </Button>
             </div>
@@ -240,17 +194,19 @@ export function LandingPage() {
             </ul>
           </div>
 
-          <HeroMapPreview />
+          <LandingMapPreview />
         </div>
       </section>
 
       <section className="border-b border-line-soft bg-surface">
-        <div className="container-page grid gap-3 py-6 md:grid-cols-3">
+        <div className="container-page grid gap-3 py-6 sm:grid-cols-2 lg:grid-cols-4">
           {error && (
             <p role="alert" className="text-sm">
-              Statistik belum dapat dimuat: {error.message}
+              Statistik belum dapat diperbarui. Angka terakhir mungkin sudah berubah.
+              <button className="ml-3 min-h-11 font-bold text-brand underline" onClick={() => void refetch()}>Muat ulang statistik</button>
             </p>
           )}
+          {isPending && <p role="status">Memuat statistik layanan…</p>}
           {metrics.map((metric) => (
             <div
               key={metric.label}
@@ -315,7 +271,7 @@ export function LandingPage() {
         </div>
       </section>
 
-      <section className="border-b border-line-soft bg-muted py-14">
+      <section id="cara-kerja" className="scroll-mt-24 border-b border-line-soft bg-muted py-14">
         <div className="container-page">
           <div className="mx-auto max-w-xl text-center">
             <p className="text-eyebrow text-brand-strong">
@@ -374,6 +330,8 @@ export function LandingPage() {
         </div>
       </section>
 
+      <LandingGuide />
+
       <section className="bg-canvas py-14">
         <div className="container-page">
           <div className="relative flex flex-col items-start justify-between gap-6 overflow-hidden rounded-lg bg-brand-strong p-8 shadow-float md:flex-row md:items-center md:p-10">
@@ -389,8 +347,8 @@ export function LandingPage() {
                 Jadikan Perjalanan Kota Lebih Pasti & Nyaman
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-white/80">
-                Tidak perlu lagi tebak-tebakan jadwal angkot. Akses seluruh
-                armada dari genggaman ponsel Anda.
+                Buka peta publik, pilih arah trayek dan periksa kesegaran lokasi.
+                Masuk untuk menggunakan Megat dan menyimpan perjalanan.
               </p>
             </div>
             <Button
@@ -400,7 +358,7 @@ export function LandingPage() {
               asChild
             >
               <Link to="/peta">
-                Mulai Pantau Sekarang
+                Lihat Peta Live
                 <ArrowRight size={17} />
               </Link>
             </Button>
@@ -411,11 +369,10 @@ export function LandingPage() {
               <MapPin size={14} className="text-brand" /> Bandung, Jawa Barat
             </span>
             <span className="inline-flex items-center gap-2">
-              <ShieldCheck size={14} className="text-brand" /> Terintegrasi data
-              Dishub
+              <ShieldCheck size={14} className="text-brand" /> Proyek MIA 2026 · Web In Action
             </span>
             <span className="inline-flex items-center gap-2">
-              <Users size={14} className="text-brand" /> Untuk penumpang dan pengemudi
+              <BusFront size={14} className="text-brand" /> Untuk penumpang dan pengemudi
             </span>
           </div>
         </div>

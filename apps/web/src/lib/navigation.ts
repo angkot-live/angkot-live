@@ -19,9 +19,12 @@ export interface NavItem {
 }
 
 export const publicNav = [
+  { label: 'Beranda', to: '/' },
   { label: 'Peta Live', to: '/peta' },
-  { label: 'Trayek', to: '/trayek' },
+  { label: 'Daftar Trayek', to: '/trayek' },
   { label: 'Statistik', to: '/statistik' },
+  { label: 'Cara Kerja', to: '/#cara-kerja' },
+  { label: 'Bantuan', to: '/bantuan' },
 ]
 
 export const passengerNav: NavItem[] = [

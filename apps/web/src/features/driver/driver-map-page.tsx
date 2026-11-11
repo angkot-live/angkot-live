@@ -110,7 +110,7 @@ export function DriverMapPage() {
           <p className="text-eyebrow text-brand">Mode pengemudi</p>
           <h1 className="text-2xl font-extrabold">Peta kerja</h1>
           <p className="mt-1 text-sm text-ink">
-            {route ? `${route.code} · ${route.name}` : 'Memuat trayek tugas…'} ·{' '}
+            {route ? `${route.code} · ${route.name}` : assignment.isPending ? 'Memuat trayek tugas…' : 'Trayek tugas belum tersedia'} ·{' '}
             {assignment.data?.vehicle?.plate}
           </p>
         </div>
@@ -119,6 +119,9 @@ export function DriverMapPage() {
       <Card className="mt-4">
         <CardContent className="space-y-3 p-4">
           <DriverTrackingStatus />
+          <p className="text-xs text-ink">Verifikasi akun: {user?.driverVerification === 'disetujui' ? 'Disetujui' : 'Periksa status verifikasi'}</p>
+          {!assignment.isPending && !assignment.error && !assignment.data?.vehicleId && <p role="alert" className="text-sm text-danger">Kendaraan belum ditugaskan. Hubungi admin sebelum mulai Narik.</p>}
+          {assignment.error && <Button variant="outline" onClick={() => void assignment.refetch()}>Muat ulang penugasan</Button>}
           {(error || assignment.error) && (
             <p role="alert" className="text-sm text-danger">
               {error ?? errorMessage(assignment.error)}
@@ -230,7 +233,8 @@ export function DriverMapPage() {
         <Card>
           <CardContent className="space-y-4 p-4">
             <h2 className="font-bold">Penumpang menunggu ({nearby.length})</h2>
-            {nearby.length === 0 && (
+            {connection !== 'connected' && <p role="status" className="text-sm text-warning">Saat koneksi putus, sinyal penumpang belum dapat dikonfirmasi.</p>}
+            {connection === 'connected' && nearby.length === 0 && (
               <p className="text-sm text-ink">
                 Belum ada penumpang menunggu dalam area trayek Anda.
               </p>
@@ -249,7 +253,7 @@ export function DriverMapPage() {
                 {r.status === 'searching' && (
                   <Button
                     size="sm"
-                    disabled={busy}
+                    disabled={busy || connection !== 'connected' || otherSession}
                     onClick={() => {
                       void respond(r.id)
                     }}

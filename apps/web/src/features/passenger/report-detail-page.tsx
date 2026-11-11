@@ -268,7 +268,7 @@ export function ReportDetailPage() {
                   {report.response}
                 </p>
                 <p className="mt-2 text-xs text-brand-strong/60">
-                  Petugas Dishub ·{' '}
+                  Admin aplikasi ·{' '}
                   {formatDate(
                     report.updates.at(-1)?.created_at ?? report.createdAt,
                   )}
