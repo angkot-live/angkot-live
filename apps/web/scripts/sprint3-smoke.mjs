@@ -1,17 +1,17 @@
+import { demoSettings, demoOrigin } from '../../../scripts/demo-settings.mjs'
 import assert from 'node:assert/strict'
 import { chromium } from 'playwright'
 import {
   client,
   connection,
-  jsonFile,
   savePrivate,
   password,
 } from '../../../scripts/demo-lib.mjs'
 const c = await connection(),
   db = client(c),
-  settings = await jsonFile('.local/settings.json')
+  settings = await demoSettings()
 const origin =
-  process.env.SMOKE_ORIGIN ?? `https://${settings.host}:${settings.webPort}`
+  process.env.SMOKE_ORIGIN ?? demoOrigin(settings)
 const auth = await db('/auth/v1/token?grant_type=password', {
   method: 'POST',
   key: c.ANON_KEY,

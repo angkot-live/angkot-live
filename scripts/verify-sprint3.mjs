@@ -1,3 +1,4 @@
+import { demoSettings, demoOrigin } from './demo-settings.mjs'
 import assert from 'node:assert/strict'
 import { chromium } from '../apps/web/node_modules/playwright/index.mjs'
 import {
@@ -11,9 +12,9 @@ import {
 // Controlled coordinates exercise the real local stack; this is not field GPS evidence.
 const c = await connection(),
   db = client(c),
-  settings = await jsonFile('.local/settings.json')
+  settings = await demoSettings()
 const origin =
-  process.env.SMOKE_ORIGIN ?? `https://${settings.host}:${settings.webPort}`
+  process.env.SMOKE_ORIGIN ?? demoOrigin(settings)
 const base = process.env.DEMO_API_URL ?? 'http://127.0.0.1:8080/api'
 async function login(email) {
   return db('/auth/v1/token?grant_type=password', {

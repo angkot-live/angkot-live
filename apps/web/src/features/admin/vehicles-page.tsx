@@ -279,7 +279,7 @@ export function VehiclesPage() {
                 sendMessage({
                   title: `Pengingat dokumen ${selected.plate}`,
                   body: `Yth. ${selected.driverName}, dokumen kendaraan ${selected.plate} perlu dilengkapi. STNK berlaku sampai ${selectedRow?.stnk ?? '-'} dan uji KIR sampai ${selectedRow?.kir ?? '-'}. Mohon segera melakukan pembaruan.`,
-                  from: 'Dishub Kota Bandung',
+                  from: 'Admin Angkot-Live',
                   role: 'Administrator',
                   kind: 'admin',
                 })

@@ -16,7 +16,7 @@ const users={
  driver:{id:'22222222-2222-4222-8222-222222222222',name:'Driver Test',email:'driver@test.local',phone:'081234567891',role:'pengemudi',driverVerification:'disetujui'},
  admin:{id:'11111111-1111-4111-8111-111111111111',name:'Admin Test',email:'admin@test.local',role:'admin'},
 }
-let user=users.passenger,request=null,trip=null,reports=[],mode='offline',session='',lastFix=null
+let user=users.passenger,request=null,trip=null,reports=[],mode='offline',session='',lastFix=null,snapshotsPaused=false
 const vehicle=()=>({id:'44444444-4444-4444-8444-444444444444',plate:'D TEST 001',routeId:route.id,routeCode:route.code,routeName:route.name,driverName:'Driver Test',position,status:'jalan',speedKph:15,heading:0,lastSeenAt:Date.now(),driverVerified:true,chain:0,offsetKm:0.1,etaMinutes:null})
 const authUser=()=>({id:user.id,aud:'authenticated',role:'authenticated',email:user.email,app_metadata:{provider:'email',providers:['email']},user_metadata:{},created_at:new Date().toISOString()})
 const token=()=>`${Buffer.from(JSON.stringify({alg:'HS256',typ:'JWT'})).toString('base64url')}.${Buffer.from(JSON.stringify({sub:user.id,exp:Math.floor(Date.now()/1000)+3600,iat:Math.floor(Date.now()/1000),role:'authenticated'})).toString('base64url')}.test-signature`
@@ -42,7 +42,7 @@ await page.route('**/api/**',async(r)=>{
 })
 await page.routeWebSocket('**/api/ws',(ws)=>{
  let interval
- function snapshot(){ws.send(JSON.stringify({type:'snapshot',data:{vehicles:[vehicle()],request:request,trip:trip?.status==='active'?trip:null,nearby:[],duty:{mode,session,vehicle:mode==='offline'?null:vehicle(),distanceKm:0,prompt:null},serverTime:Date.now()}}))}
+ function snapshot(){if(snapshotsPaused)return;ws.send(JSON.stringify({type:'snapshot',data:{vehicles:[vehicle()],request:request,trip:trip?.status==='active'?trip:null,nearby:[],duty:{mode,session,vehicle:mode==='offline'?null:vehicle(),distanceKm:0,prompt:null},serverTime:Date.now()}}))}
  ws.onMessage((raw)=>{const data=JSON.parse(String(raw));if(data.type==='auth'){snapshot();interval=setInterval(snapshot,250);intervals.add(interval)}else if(data.type==='driver:position')lastFix=data})
  ws.onClose(()=>clearInterval(interval))
 })
@@ -80,6 +80,11 @@ try{
  assert.ok(lastFix,'Driver did not publish GPS')
  await page.getByRole('button',{name:'Istirahat',exact:true}).click()
  assert.equal(mode,'istirahat')
+ // Stop fixture snapshots so the reconnect simulation is not overwritten mid-assertion.
+ snapshotsPaused=true
+ await page.waitForTimeout(350)
+ await page.evaluate(async()=>{const {useLiveStore}=await import('/src/features/tracking/live-store.ts'); useLiveStore.setState({connection:'disconnected'})})
+ await page.getByText('Saat koneksi putus, sinyal penumpang belum dapat dikonfirmasi.', { exact: true }).waitFor()
  assert.deepEqual(errors,[])
  console.log('PASS browser: login, megat, boarding, reload active trip, complete, report, driver GPS, rest; no page errors')
 }finally{for(const timer of intervals)clearInterval(timer);await browser.close()}

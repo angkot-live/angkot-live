@@ -37,7 +37,7 @@ export const useMessageStore = create<MessageState>()(
           messages: [
             {
               id: `msg-${Date.now()}`,
-              from: input.from ?? 'Dishub Kota Bandung',
+              from: input.from ?? 'Admin Angkot-Live',
               role: input.role ?? 'Administrator',
               title: input.title,
               body: input.body,

@@ -16,6 +16,9 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm test
+      - name: Local demo helper unit tests
+        working-directory: .
+        run: node --test scripts/*.test.mjs
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - name: Browser flow integration
@@ -31,6 +34,7 @@ jobs:
             sleep 1
           done
           npm run test:browser
+          npm run test:landing
   api:
     runs-on: ubuntu-latest
     steps:

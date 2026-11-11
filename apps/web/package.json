@@ -15,7 +15,9 @@
     "test:sprint2": "node scripts/sprint2-smoke.mjs",
     "test:sprint3": "node scripts/sprint3-smoke.mjs",
     "test:sprint45": "node scripts/sprint45-smoke.mjs",
-    "test:performance": "node scripts/demo-performance.mjs"
+    "test:performance": "node scripts/demo-performance.mjs",
+    "test:landing": "node scripts/landing-smoke.mjs",
+    "demo:offline": "node scripts/demo-offline.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^7.0.1",

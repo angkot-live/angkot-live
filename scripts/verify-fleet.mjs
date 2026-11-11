@@ -1,3 +1,4 @@
+import { demoSettings } from './demo-settings.mjs'
 // Run while demo:fleet is active. Only a disposable passenger and its own trip
 // are written; driver sessions and demo passengers are never modified here.
 import assert from 'node:assert/strict'
@@ -7,7 +8,7 @@ import { connection, client, jsonFile, savePrivate } from './demo-lib.mjs'
 import { loopbackURL, distance } from './fleet-simulator.mjs'
 
 const c = await connection(), db = client(c)
-const settings = await jsonFile('.local/settings.json')
+const settings = await demoSettings()
 const base = loopbackURL(process.env.DEMO_API_URL ?? `http://127.0.0.1:${settings.apiPort}/api`).href.replace(/\/$/, '')
 const origin = `${settings.https ? 'https' : 'http'}://${settings.host}:${settings.webPort}`
 const manifest = await jsonFile('.local/fleet-manifest.json')

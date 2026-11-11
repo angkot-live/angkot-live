@@ -1,3 +1,4 @@
+import { demoSettings, demoOrigin } from '../../../scripts/demo-settings.mjs'
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import { chromium } from 'playwright'
@@ -5,14 +6,13 @@ import {
   connection,
   client,
   password,
-  jsonFile,
   savePrivate,
 } from '../../../scripts/demo-lib.mjs'
 const c = await connection(),
   db = client(c),
-  settings = await jsonFile('.local/settings.json')
+  settings = await demoSettings()
 const origin =
-    process.env.SMOKE_ORIGIN ?? `https://${settings.host}:${settings.webPort}`,
+    process.env.SMOKE_ORIGIN ?? demoOrigin(settings),
   base = process.env.DEMO_API_URL ?? 'http://127.0.0.1:8080/api'
 const runs = Number(process.env.DEMO_REHEARSAL_RUNS ?? 3),
   withNgetem = process.env.DEMO_NGETEM !== 'false'

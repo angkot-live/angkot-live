@@ -568,6 +568,19 @@ export function MapScreen({ passengerMode = false }: { passengerMode?: boolean }
     // StrictMode runs effect cleanup/setup twice on mount. Allow auto-search to restart.
     initialSearchDone.current = false
   }, [])
+  const routeTabHandled = useRef(false)
+  useEffect(() => {
+    if (routeTabHandled.current) return
+    routeTabHandled.current = true
+    if (searchParams.get('tab') !== 'rute') return
+    setSearchParams((previous) => {
+      const next = new URLSearchParams(previous)
+      next.delete('tab')
+      return next
+    }, { replace: true })
+    // Focus after the panel renders with the URL parameter removed.
+    window.setTimeout(() => document.getElementById('armada-destination')?.focus(), 0)
+  }, [searchParams, setSearchParams])
 
   const landmarks = useTransferLandmarks(tripResult?.plan)
 

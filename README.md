@@ -15,9 +15,9 @@ Angkot-Live adalah aplikasi web (PWA) yang menampilkan posisi angkot secara real
 
 | Lapisan | Teknologi |
 |---|---|
-| Frontend | React + Vite (SPA/PWA), Leaflet / MapLibre |
+| Frontend | React + Vite (SPA/PWA), Leaflet + React Leaflet |
 | Backend | Go + Fiber (modular monolith) |
-| Realtime | WebSocket (hub per jurusan) |
+| Realtime | WebSocket (snapshot sesuai peran) |
 | Database | Supabase (PostgreSQL + PostGIS), Supabase Auth + RLS |
 
 ---
@@ -34,6 +34,8 @@ Angkot-Live adalah aplikasi web (PWA) yang menampilkan posisi angkot secara real
 ## Cara menjalankan
 
 Prasyarat: **Node.js 24+, Go 1.24+, Docker aktif**, serta OpenSSL untuk HTTPS. Docker hanya dipakai untuk Supabase lokal; backend dan frontend berjalan langsung di komputer. Semua perintah berikut dijalankan dari **root proyek**.
+
+> **Butuh demo sekarang tanpa Docker/Supabase?** Jalankan `npm run demo:offline`. Satu perintah membuka dua jendela (penumpang dan pengemudi) dengan API/WebSocket tiruan dan label **DEMO FIXTURE**. Lihat [demo kilat](docs/demo/OFFLINE_DEMO.md). Ini bukan bukti integrasi nyata.
 
 **1. Setup pertama kali**
 
@@ -71,7 +73,7 @@ npm run demo:fleet
 
 Seluruh **14 angkot seeder** bergerak mengikuti trayek melalui backend/WebSocket dan tampil berlabel **SIMULASI**. Kendaraan yang sedang dikendalikan manual dilewati. Pilih semua jurusan/perluas radius jika marker tidak terlihat.
 
-Buka `/login`, lalu pilih tombol **Quick Login**. Gunakan browser/profil berbeda atau incognito agar sesi antar-role terpisah.
+Buka `/login`, lalu pilih **Penumpang**, **Pengemudi**, atau **Admin** pada bagian **Masuk cepat demo lokal**. Gunakan browser/profil berbeda atau incognito agar sesi antar-role terpisah.
 
 | Role | Email | Halaman |
 |---|---|---|
@@ -90,6 +92,10 @@ Alur demo singkat:
 
 Pengujian demo otomatis: `npm run demo:verify:fleet` saat armada aktif. Untuk rehearsal tiga perjalanan dengan GPS penumpang terkontrol, hentikan fleet terlebih dahulu, lalu jalankan `npm run demo:rehearse`. Pengujian browser memerlukan Chromium Playwright; instal sekali dengan `cd apps/web` lalu `npx playwright install chromium`, setelah itu kembali ke root proyek.
 
+## Panduan kompetisi
+
+Baca [indeks demo](docs/demo/README.md) untuk setup pemula, demo dua role, naskah sembilan menit, checklist, hasil pengujian dan recovery. Jalankan `npm run demo:preflight` sebelum latihan; `npm run demo:coordinates` menampilkan titik awal trayek untuk emulasi lokasi penumpang pada browser lokal.
+
 ## Akses dari HP
 
 Gunakan Wi-Fi yang sama dan IP LAN komputer, **bukan localhost**. Untuk konfigurasi HTTPS demo port 5180, contoh alamatnya **`https://192.168.1.7:5180`**; sesuaikan dengan IP komputer. Instal `.local/tls/ca.crt` sebagai CA terpercaya di HP agar GPS dapat digunakan. Konfigurasi sertifikat/IP dan firewall dijelaskan di [panduan HTTPS perangkat kedua](docs/setup/SETUP.md#https-dan-perangkat-kedua).
@@ -98,7 +104,7 @@ Gunakan Wi-Fi yang sama dan IP LAN komputer, **bukan localhost**. Untuk konfigur
 
 Tekan **Ctrl+C** di terminal fleet terlebih dahulu agar akun/sesi sementara dibersihkan, kemudian di terminal frontend dan backend. Hentikan Supabase dengan `npm run local:stop`; data lokal tetap tersimpan. Jika fleet sebelumnya dimatikan paksa, jalankan `npm run demo:fleet:cleanup` setelah prosesnya berhenti.
 
-Panduan lengkap: [setup lokal](docs/setup/SETUP.md), [skenario demo](docs/setup/SETUP.md#demo-aplikasi), [PRD](docs/resource/PRD.md), [status fitur dan roadmap](ROADMAP.md), dan [rencana integrasi MVP](docs/planning/MVP_INTEGRATION_PLAN.md). Tip/pembayaran dan perjalanan transfer beberapa angkot masih di luar MVP; uji GPS/layar terkunci pada HP fisik tetap perlu dilakukan.
+Panduan lengkap: [setup lokal](docs/setup/SETUP.md), [skenario demo](docs/setup/SETUP.md#demo-aplikasi), [PRD](docs/resource/PRD.md), [status fitur dan roadmap](docs/ROADMAP.md), dan [rencana integrasi MVP](docs/planning/MVP_INTEGRATION_PLAN.md). Tip/pembayaran dan perjalanan transfer beberapa angkot masih di luar MVP; uji GPS/layar terkunci pada HP fisik tetap perlu dilakukan.
 
 ---
 

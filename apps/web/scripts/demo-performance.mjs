@@ -1,9 +1,10 @@
+import { demoSettings, demoOrigin } from '../../../scripts/demo-settings.mjs'
 import assert from 'node:assert/strict'
 import { chromium } from 'playwright'
-import { jsonFile, savePrivate } from '../../../scripts/demo-lib.mjs'
-const settings = await jsonFile('.local/settings.json'),
+import { savePrivate } from '../../../scripts/demo-lib.mjs'
+const settings = await demoSettings(),
   origin =
-    process.env.SMOKE_ORIGIN ?? `https://${settings.host}:${settings.webPort}`
+    process.env.SMOKE_ORIGIN ?? demoOrigin(settings)
 const routes = await (await fetch('http://127.0.0.1:8080/api/routes')).json()
 const browser = await chromium.launch({
   headless: true,

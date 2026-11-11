@@ -53,6 +53,15 @@ export function DriverTrackingStatus() {
             : 'Biarkan halaman terlihat dan layar menyala'}
         </p>
       )}
+      {active && !fresh && connection !== 'connected' && (
+        <p className="text-xs text-warning">Koneksi terputus. Sampel lokasi belum dapat dikonfirmasi; tunggu penyambungan ulang sebelum menyimpulkan GPS gagal.</p>
+      )}
+      {active && !fresh && connection === 'connected' && simulated && (
+        <p className="text-xs text-ink">Simulasi belum mengirim sampel yang diakui server. Periksa sumber posisi dan pengaturan simulasi.</p>
+      )}
+      {active && !fresh && connection === 'connected' && !simulated && (
+        <p className="text-xs text-ink">Periksa izin lokasi dan HTTPS. Biarkan tab terlihat; bila GPS tetap gagal, pilih Offline sebelum memulai ulang.</p>
+      )}
       {active && (deviceGpsError || gpsError) && (
         <p role="alert" className="text-danger">
           {deviceGpsError ?? gpsError}
