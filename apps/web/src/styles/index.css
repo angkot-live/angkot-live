@@ -3,13 +3,30 @@
 @theme {
   --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
 
+  /* Minimum UI text is 14px; body copy and controls use 16px. */
+  --text-xs: 0.875rem;
+  --text-xs--line-height: 1.5;
+  --text-sm: 1rem;
+  --text-sm--line-height: 1.5;
+
+  /* Surface scale — mengikuti token DESIGN.md. */
   --color-canvas: #f6fbf5;
+  --color-background: #f6fbf5;
+  --color-on-background: #181d1a;
   --color-surface: #ffffff;
+  --color-surface-bright: #f6fbf5;
+  --color-surface-dim: #d7dbd6;
+  --color-surface-container-lowest: #ffffff;
   --color-muted: #f0f5ef;
-  --color-muted-strong: #ebefea;
   --color-surface-low: #f0f5ef;
+  --color-muted-strong: #ebefea;
+  --color-surface-container: #ebefea;
   --color-surface-high: #e5e9e4;
   --color-surface-highest: #dfe4de;
+  --color-surface-variant: #dfe4de;
+  --color-inverse-surface: #2c322e;
+  --color-inverse-on-surface: #edf2ed;
+  --color-surface-tint: #2e6a46;
 
   --color-ink: #404942;
   --color-ink-strong: #181d1a;
@@ -18,15 +35,33 @@
   --color-brand: #1f5c3a;
   --color-brand-strong: #004425;
   --color-brand-soft: #b1f1c4;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #1f5c3a;
+  --color-on-primary-container: #94d2a7;
+  --color-inverse-primary: #96d4a9;
+  --color-primary-fixed: #b1f1c4;
+  --color-primary-fixed-dim: #96d4a9;
+  --color-on-primary-fixed: #00210f;
+  --color-on-primary-fixed-variant: #115130;
 
   --color-secondary: #325f99;
   --color-secondary-strong: #194c84;
-  --color-secondary-container: #d4e3ff;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #93bdfd;
   --color-on-secondary-container: #194c84;
+  --color-secondary-fixed: #d4e3ff;
+  --color-secondary-fixed-dim: #a5c8ff;
+  --color-on-secondary-fixed: #001c3a;
+  --color-on-secondary-fixed-variant: #124780;
 
   --color-tertiary: #593000;
-  --color-tertiary-container: #ffdcc0;
-  --color-on-tertiary-container: #2d1600;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #744615;
+  --color-on-tertiary-container: #f8b77b;
+  --color-tertiary-fixed: #ffdcc0;
+  --color-tertiary-fixed-dim: #fab97e;
+  --color-on-tertiary-fixed: #2d1600;
+  --color-on-tertiary-fixed-variant: #683c0a;
 
   --color-line: #e2e8f0;
   --color-line-soft: #e5e9e4;
@@ -39,12 +74,22 @@
   --color-sky-ink: #325f99;
   --color-peach: #ffdcc0;
   --color-peach-ink: #2d1600;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
   --color-danger-bg: #ffdad6;
   --color-danger: #ba1a1a;
   --color-danger-ink: #93000a;
   --color-warning: #b45309;
   --color-warning-bg: #fef3c7;
   --color-info: #2563eb;
+
+  /* Gutter 16px, margin mobile 20px. Hindari nama xs/sm/md/lg/xl
+     karena bertabrakan dengan skala max-w-* milik Tailwind. */
+  --spacing-gutter: 1rem;
+  --spacing-margin: 1.25rem;
+  --spacing-page: 2rem;
 
   --radius-xs: 6px;
   --radius-sm: 8px;
@@ -61,41 +106,46 @@
   --shadow-float: 0 8px 10px -6px rgba(0, 0, 0, 0.1), 0 20px 25px -5px rgba(0, 0, 0, 0.1);
   --shadow-footer: 0 -1px 6px 0 rgba(0, 0, 0, 0.03);
 
-  --text-h1: 36px;
+  --text-h1: 38px;
   --text-h1--line-height: 1.2;
   --text-h1--font-weight: 700;
   --text-h1--letter-spacing: -0.02em;
 
-  --text-h2: 28px;
+  --text-h2: 30px;
   --text-h2--line-height: 1.3;
   --text-h2--font-weight: 700;
   --text-h2--letter-spacing: -0.02em;
 
-  --text-h3: 22px;
+  --text-h3: 24px;
   --text-h3--line-height: 1.4;
   --text-h3--font-weight: 600;
   --text-h3--letter-spacing: -0.01em;
 
-  --text-h4: 18px;
+  --text-h4: 20px;
   --text-h4--line-height: 1.4;
   --text-h4--font-weight: 600;
 
-  --text-body-lg: 16px;
+  --text-body-lg: 1.125rem;
   --text-body-lg--line-height: 1.5;
   --text-body-lg--font-weight: 400;
 
-  --text-body: 14px;
+  --text-body: 1rem;
   --text-body--line-height: 1.5;
   --text-body--font-weight: 400;
 
-  --text-body-sm: 12px;
-  --text-body-sm--line-height: 1.4;
+  --text-body-sm: 1rem;
+  --text-body-sm--line-height: 1.5;
   --text-body-sm--font-weight: 400;
 
-  --text-caption: 11px;
-  --text-caption--line-height: 1.2;
+  --text-caption: 0.875rem;
+  --text-caption--line-height: 1.5;
   --text-caption--font-weight: 500;
   --text-caption--letter-spacing: 0.05em;
+
+  --text-4xl: 2.375rem;
+  --text-4xl--line-height: 1.15;
+  --text-5xl: 3.25rem;
+  --text-5xl--line-height: 1.1;
 
   --animate-marker-pulse: marker-pulse 2.4s ease-out infinite;
 
@@ -128,8 +178,8 @@
     background-color: var(--color-canvas);
     color: var(--color-ink);
     font-family: var(--font-sans);
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -181,16 +231,29 @@
   width: 100%;
   max-width: 1280px;
   margin-inline: auto;
-  padding-inline: 1.25rem;
+  padding-inline: var(--spacing-margin);
 
   @media (min-width: 768px) {
-    padding-inline: 2rem;
+    padding-inline: var(--spacing-page);
+  }
+}
+
+/* Fluid grid: 4 kolom di mobile, 12 kolom di desktop. */
+@utility grid-page {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--spacing-gutter);
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 }
 
 .leaflet-container {
   background: #eef3ec;
   font-family: var(--font-sans);
+  font-size: var(--text-body-sm);
+  line-height: var(--text-body-sm--line-height);
 }
 
 .leaflet-tile-pane {
@@ -203,9 +266,9 @@
 }
 
 @utility text-eyebrow {
-  font-size: 11px;
+  font-size: var(--text-caption);
   font-weight: 500;
-  line-height: 14px;
+  line-height: var(--text-caption--line-height);
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }

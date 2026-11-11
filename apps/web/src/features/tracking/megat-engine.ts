@@ -1,6 +1,5 @@
 import { distanceKm, type LatLng } from '../../lib/geo.ts'
 import type { RouteInfo, Vehicle } from '../../types/index.ts'
-import { routeLine } from './route-geometry.ts'
 import { STALE_GPS_MS } from './tracking-state.ts'
 
 export const MEGAT_WAIT_MS = 60000
@@ -29,23 +28,21 @@ export interface MegatState {
 }
 
 export function projectToRoute(position: LatLng, route: RouteInfo) {
-  const line = routeLine(route)
-  let nearest = { point: line.points[0], distanceKm: Infinity, offsetKm: 0 }
+  const lines = route.segments ?? [route.polyline]
+  let nearest = { point: route.polyline[0], distanceKm: Infinity, offsetKm: 0, chain: 0 }
   const scale = Math.cos(position[0] * Math.PI / 180)
-  for (let index = 0; index < line.points.length - 1; index++) {
-    const a = line.points[index]
-    const b = line.points[index + 1]
-    const dx = (b[1] - a[1]) * scale
-    const dy = b[0] - a[0]
-    const denominator = dx * dx + dy * dy
-    const fraction = denominator ? Math.max(0, Math.min(1,
-      (((position[1] - a[1]) * scale * dx) + (position[0] - a[0]) * dy) / denominator,
-    )) : 0
-    const point: LatLng = [a[0] + fraction * (b[0] - a[0]), a[1] + fraction * (b[1] - a[1])]
-    const km = distanceKm(position, point)
-    if (km < nearest.distanceKm) nearest = {
-      point, distanceKm: km,
-      offsetKm: line.cumulative[index] + fraction * (line.cumulative[index + 1] - line.cumulative[index]),
+  for (let chain = 0; chain < lines.length; chain++) {
+    let offset = 0
+    const line = lines[chain]
+    for (let index = 1; index < line.length; index++) {
+      const a = line[index - 1], b = line[index]
+      const dx = (b[1] - a[1]) * scale, dy = b[0] - a[0]
+      const denominator = dx * dx + dy * dy
+      const fraction = denominator ? Math.max(0, Math.min(1, ((position[1] - a[1]) * scale * dx + (position[0] - a[0]) * dy) / denominator)) : 0
+      const point: LatLng = [a[0] + fraction * (b[0] - a[0]), a[1] + fraction * (b[1] - a[1])]
+      const km = distanceKm(position, point), segment = distanceKm(a, b)
+      if (km < nearest.distanceKm) nearest = { point, distanceKm: km, offsetKm: offset + fraction * segment, chain }
+      offset += segment
     }
   }
   return nearest
@@ -78,7 +75,7 @@ export function canSeeMegat(request: MegatRequest, vehicle: Vehicle, route: Rout
       vehicle.lastSeenAt === undefined || now - vehicle.lastSeenAt > STALE_GPS_MS) return false
   const passenger = projectToRoute(request.position, route)
   const driver = projectToRoute(vehicle.position, route)
-  return passenger.distanceKm <= MEGAT_ROUTE_RADIUS_KM && driver.distanceKm <= MEGAT_ROUTE_RADIUS_KM &&
+  return passenger.chain === driver.chain && passenger.distanceKm <= MEGAT_ROUTE_RADIUS_KM && driver.distanceKm <= MEGAT_ROUTE_RADIUS_KM &&
     distanceKm(vehicle.position, request.pickup) <= radiusKm &&
     // The vehicle must not already have passed the waiting point in this direction.
     driver.offsetKm <= passenger.offsetKm + 0.05

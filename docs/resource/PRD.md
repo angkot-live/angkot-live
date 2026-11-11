@@ -12,7 +12,9 @@
 
 ---
 
-> Keputusan terbaru: simulator GPS dan lokasi buatan dihapus. Pengujian pelacakan akan memakai GPS asli pengemudi. Pada implementasi frontend saat ini, sumber GPS pengemudi dan backend masih belum terhubung.
+> Pembaruan Sprint 3, 11 November 2026: GPS perangkat terhubung ke backend sebagai sumber default. Sesuai permintaan terbaru pengguna, simulator pengemudi opsional tersedia khusus pengujian Supabase lokal agar pengujian dua Android tidak membutuhkan perjalanan fisik. Posisi/sesi simulasi diberi label dan provenance; simulator tidak menjadi seed atau fallback otomatis. Acceptance GPS asli dua Android tetap diperiksa terpisah.
+
+> Tambahan demo armada: `npm run demo:fleet` dapat menjalankan seluruh 14 kendaraan dari seeder secara bersamaan melalui Auth/API/WebSocket lokal. Kendaraan mengikuti trayek database dan tetap berlabel simulasi; sesi manual tidak diambil alih. Akun pengemudi tambahan hanya sementara selama command berjalan. Mode ini tidak mengubah GPS default atau menjadi fallback animasi frontend.
 
 ## 1. Ringkasan
 

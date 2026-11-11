@@ -1,6 +1,8 @@
 import { distanceKm, type LatLng } from '@/lib/geo'
 import { coordinateLabel, parseCoordinatePair } from '@/lib/coordinates'
-import { routes } from '@/mocks/data'
+import type { RouteInfo } from '@/types'
+let placeRoutes: RouteInfo[] = []
+export function setPlaceRoutes(routes: RouteInfo[]) {placeRoutes=routes;localPlacesCache=null}
 
 /**
  * Pencarian tempat (geocoding) untuk wilayah Bandung Raya.
@@ -156,7 +158,7 @@ function localPlaces(): Place[] {
   if (localPlacesCache) return localPlacesCache
   const byName = new Map<string, Place>()
   for (const place of landmarkPlaces) byName.set(normalize(place.name), place)
-  for (const route of routes) {
+  for (const route of placeRoutes) {
     for (const stop of route.endstops ?? []) {
       const key = normalize(stop.name)
       if (byName.has(key)) continue
@@ -271,7 +273,8 @@ export async function searchPlaces(query: string, signal?: AbortSignal): Promise
       lon: String(BANDUNG_CENTER[1]),
       bbox: BANDUNG_BBOX,
     })
-    const response = await fetch(`${PHOTON_URL}/api/?${params}`, { signal })
+    const timeout = AbortSignal.timeout(8000)
+    const response = await fetch(`${PHOTON_URL}/api/?${params}`, { signal: signal ? AbortSignal.any([signal, timeout]) : timeout })
     if (!response.ok) return local
     const data = (await response.json()) as { features?: PhotonFeature[] }
     const remote = (data.features ?? [])
@@ -289,7 +292,7 @@ export async function searchPlaces(query: string, signal?: AbortSignal): Promise
     }
     return merged.slice(0, 7)
   } catch (error) {
-    if ((error as Error).name === 'AbortError') throw error
+    if (signal?.aborted) throw error
     return local
   }
 }

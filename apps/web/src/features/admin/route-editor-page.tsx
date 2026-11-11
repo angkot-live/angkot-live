@@ -1,387 +1,433 @@
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import {
-  ArrowLeft,
-  BusFront,
-  CheckCircle2,
-  GripVertical,
-  MapPin,
-  Plus,
-  Route,
-  Save,
-  Trash2,
-} from 'lucide-react'
 import { useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import { MapContainer, Marker, Polyline, TileLayer } from 'react-leaflet'
-import { toast } from 'sonner'
-
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent } from '@/components/ui/card'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import {
-  Dialog,
-  DialogContent,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog'
-import { Input } from '@/components/ui/input'
-import { routes } from '@/mocks/data'
-import { cn } from '@/lib/cn'
+  MapContainer,
+  Marker,
+  Polyline,
+  TileLayer,
+  useMapEvents,
+} from 'react-leaflet'
+import { useQueryClient } from '@tanstack/react-query'
+import { toast } from 'sonner'
+import { Button } from '@/components/ui/button'
+import { Field, Input } from '@/components/ui/input'
+import { Card, CardContent } from '@/components/ui/card'
+import { useRoutes } from '@/features/routes/use-routes'
+import { RouteLoadState } from '@/features/routes/route-load-state'
+import { api, errorMessage } from '@/lib/api'
+import type { RouteInfo, RouteEndstop } from '@/types'
 
-const stopNames = [
-  'Terminal Stasiun Hall',
-  'Simpang Dago',
-  'Halte Jl. Merdeka',
-  'Halte Cihampelas',
-  'Terminal Dago',
-  'Halte Dipatiukur',
-  'Halte Ir. H. Juanda',
-  'Halte Pasar Simpang',
-  'Halte Sukajadi',
-  'Terminal Ledeng',
-]
-
-function stopIcon(index: number) {
+type Point = [number, number]
+const newRoute: RouteInfo = {
+  id: '',
+  code: '',
+  name: '',
+  origin: '',
+  destination: '',
+  color: '#1F5C3A',
+  polyline: [],
+  segments: [[]],
+  endstops: [],
+  isActive: true,
+  fareStandard: 5000,
+  fareStudent: 3000,
+}
+function icon(label: string, color: string) {
   return L.divIcon({
     className: 'angkot-marker',
-    iconSize: [0, 0],
-    iconAnchor: [0, 0],
-    html: `
-      <div style="display:flex;align-items:center;justify-content:center;transform:translate(-50%,-50%);width:22px;height:22px;border-radius:9999px;background:#004425;color:#fff;font-size:10px;font-weight:700;border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25)">
-        ${index + 1}
-      </div>
-    `,
+    html: `<div style="background:${color};color:white;border:2px solid white;border-radius:50%;width:24px;height:24px;text-align:center;font-size:12px">${label}</div>`,
+    iconSize: [24, 24],
+    iconAnchor: [12, 12],
   })
 }
-
+function MapClick({ onPoint }: { onPoint: (point: Point) => void }) {
+  useMapEvents({ click: (e) => onPoint([e.latlng.lat, e.latlng.lng]) })
+  return null
+}
 export function RouteEditorPage() {
-  const { id } = useParams()
-  const route = routes.find((item) => item.id === id)
-  const [stops, setStops] = useState(() => {
-    const endstops = route?.endstops ?? []
-    if (endstops.length > 0) {
-      return endstops.map((stop, index) => ({
-        id: `stop-${index}`,
-        name: stop.name,
-        distance: `${(index * 1.4).toFixed(1)} km`,
-      }))
+  const { id } = useParams(),
+    { routes, isPending, error } = useRoutes(true)
+  if (!id || id === 'baru') return <RouteForm key="new" initial={newRoute} />
+  const route = routes.find((r) => r.id === id)
+  if (isPending || error)
+    return <RouteLoadState pending={isPending} error={error} />
+  return route ? (
+    <RouteForm key={id} initial={route} />
+  ) : (
+    <p role="alert">Trayek tidak ditemukan.</p>
+  )
+}
+function RouteForm({ initial }: { initial: RouteInfo }) {
+  const [draft, setDraft] = useState<RouteInfo>(() => structuredClone(initial)),
+    [busy, setBusy] = useState(false)
+  const [mode, setMode] = useState<'view' | 'point' | 'stop'>('view'),
+    [chain, setChain] = useState(0)
+  const client = useQueryClient(),
+    navigate = useNavigate()
+  const segments = draft.segments ?? [draft.polyline],
+    stops = draft.endstops ?? [],
+    allPoints = segments.flat()
+  const set = (values: Partial<RouteInfo>) =>
+    setDraft((d) => ({ ...d, ...values }))
+  function setLine(line: Point[]) {
+    set({
+      segments: segments.map((s, i) => (i === chain ? line : s)),
+      streetRuns: [],
+      streets: [],
+    })
+  }
+  function setStop(index: number, values: Partial<RouteEndstop>) {
+    set({
+      endstops: stops.map((s, i) => (i === index ? { ...s, ...values } : s)),
+    })
+  }
+  function reorder(index: number, delta: number) {
+    const list = [...stops]
+    ;[list[index], list[index + delta]] = [list[index + delta], list[index]]
+    set({ endstops: list })
+  }
+  function addPoint(point: Point) {
+    if (mode === 'point') setLine([...(segments[chain] ?? []), point])
+    if (mode === 'stop')
+      set({
+        endstops: [
+          ...stops,
+          {
+            id: crypto.randomUUID(),
+            name: `Halte ${stops.length + 1}`,
+            position: point,
+            isTerminal: false,
+          },
+        ],
+      })
+  }
+  async function save(e: React.FormEvent) {
+    e.preventDefault()
+    setBusy(true)
+    try {
+      const result = await api<RouteInfo>(
+        draft.id ? `/admin/routes/${draft.id}` : '/admin/routes',
+        {
+          method: draft.id ? 'PATCH' : 'POST',
+          body: JSON.stringify({ ...draft, segments }),
+        },
+      )
+      setDraft(result)
+      await client.invalidateQueries({ queryKey: ['route-catalog'] })
+      await client.invalidateQueries({ queryKey: ['public-stats'] })
+      await client.invalidateQueries({ queryKey: ['admin-dashboard'] })
+      toast.success('Trayek tersimpan.')
+      if (!draft.id) navigate(`/admin/trayek/${result.id}`, { replace: true })
+    } catch (e) {
+      toast.error(errorMessage(e))
+    } finally {
+      setBusy(false)
     }
-    const count = Math.min(8, route?.polyline.length ?? 0)
-    return Array.from({ length: count }, (_, index) => ({
-      id: `stop-${index}`,
-      name: stopNames[index % stopNames.length],
-      distance: `${(index * 1.4).toFixed(1)} km`,
-    }))
-  })
-  const [status, setStatus] = useState<'aktif' | 'insidental' | 'nonaktif'>('aktif')
-
-  if (!route) {
-    return (
-      <div className="flex min-h-[50vh] flex-col items-center justify-center gap-3 text-center">
-        <Route size={30} className="text-ink-soft" />
-        <h1 className="text-xl font-bold text-ink-strong">Trayek tidak ditemukan</h1>
-        <Button asChild>
-          <Link to="/admin/trayek">
-            <ArrowLeft size={15} />
-            Kembali ke daftar trayek
-          </Link>
+  }
+  return (
+    <form onSubmit={save} className="space-y-5">
+      <Link to="/admin/trayek" className="text-sm text-brand">
+        ← Kembali ke daftar trayek
+      </Link>
+      <div className="flex flex-wrap justify-between gap-3">
+        <h1 className="text-2xl font-extrabold">
+          {draft.id ? `Editor trayek ${draft.code}` : 'Tambah trayek'}
+        </h1>
+        <Button disabled={busy}>
+          {busy ? 'Menyimpan…' : 'Simpan perubahan'}
         </Button>
       </div>
-    )
-  }
-
-  const routeSegments = route.segments ?? [route.polyline]
-  const mapStops =
-    route.endstops && route.endstops.length > 0
-      ? route.endstops.map((stop) => stop.position)
-      : route.polyline
-          .filter(
-            (_, index) =>
-              index % Math.max(1, Math.floor(route.polyline.length / 8)) === 0,
-          )
-          .slice(0, 8)
-
-  return (
-    <div>
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <Link
-          to="/admin/trayek"
-          className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-3 py-2 text-xs font-semibold text-ink hover:bg-muted"
-        >
-          <ArrowLeft size={14} />
-          Kembali ke daftar trayek
-        </Link>
-        <div className="flex items-center gap-2">
-          <Badge variant="peach">Mode edit</Badge>
-          <Button
-            size="sm"
-            onClick={() => toast.success('Perubahan trayek disimpan', { description: `${route.code} · ${route.name}` })}
-          >
-            <Save size={14} />
-            Simpan perubahan
-          </Button>
-        </div>
-      </div>
-
-      <div className="mt-3">
-        <p className="text-[10px] text-ink-soft">Manajemen trayek / editor jalur</p>
-        <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-ink-strong">
-          Editor trayek {route.code}
-        </h1>
-        <p className="mt-1 text-sm text-ink">
-          Atur jalur, titik halte, dan status operasional trayek {route.name}.
-        </p>
-      </div>
-
-      <div className="mt-4 grid gap-4 xl:grid-cols-[380px_1fr]">
-        <div className="flex flex-col gap-3">
-          <Card>
-            <CardContent className="p-4">
-              <h2 className="flex items-center gap-1.5 text-sm font-bold text-ink-strong">
-                <Route size={15} className="text-brand" />
-                Informasi trayek
-              </h2>
-              <div className="mt-3 flex flex-col gap-3">
-                <div className="grid grid-cols-[80px_1fr] gap-2">
-                  <div>
-                    <label htmlFor="route-code" className="text-[10px] font-semibold text-ink">
-                      Kode
-                    </label>
-                    <Input id="route-code" defaultValue={route.code} className="mt-1" />
-                  </div>
-                  <div>
-                    <label htmlFor="route-name" className="text-[10px] font-semibold text-ink">
-                      Nama trayek
-                    </label>
-                    <Input id="route-name" defaultValue={route.name} className="mt-1" />
-                  </div>
-                </div>
-                <div className="grid grid-cols-2 gap-2">
-                  <div>
-                    <label htmlFor="route-origin" className="text-[10px] font-semibold text-ink">
-                      Titik awal
-                    </label>
-                    <Input id="route-origin" defaultValue={route.origin} className="mt-1" />
-                  </div>
-                  <div>
-                    <label htmlFor="route-destination" className="text-[10px] font-semibold text-ink">
-                      Titik akhir
-                    </label>
-                    <Input id="route-destination" defaultValue={route.destination} className="mt-1" />
-                  </div>
-                </div>
-                <div className="grid grid-cols-2 gap-2">
-                  <div>
-                    <label htmlFor="route-color" className="text-[10px] font-semibold text-ink">
-                      Warna jalur
-                    </label>
-                    <div className="mt-1 flex items-center gap-2">
-                      <span className="size-9 rounded-md border border-line" style={{ backgroundColor: route.color }} />
-                      <Input id="route-color" defaultValue={route.color} className="font-mono" />
-                    </div>
-                  </div>
-                  <div>
-                    <label htmlFor="route-status" className="text-[10px] font-semibold text-ink">
-                      Status operasional
-                    </label>
-                    <select
-                      id="route-status"
-                      value={status}
-                      onChange={(event) => setStatus(event.target.value as typeof status)}
-                      className="mt-1 h-11 w-full rounded-md border border-line bg-surface px-3 text-xs font-semibold text-ink-strong outline-none focus:border-brand"
-                    >
-                      <option value="aktif">Aktif</option>
-                      <option value="insidental">Insidental</option>
-                      <option value="nonaktif">Nonaktif</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-4">
-              <div className="flex items-center justify-between">
-                <h2 className="flex items-center gap-1.5 text-sm font-bold text-ink-strong">
-                  <BusFront size={15} className="text-brand" />
-                  Ringkasan
-                </h2>
-                <Badge variant="leaf">{stops.length} halte</Badge>
-              </div>
-              <div className="mt-2 grid grid-cols-2 gap-2">
-                <div className="rounded-md bg-muted p-2">
-                  <p className="text-[9px] text-ink-soft">Panjang jalur</p>
-                  <p className="text-sm font-extrabold text-ink-strong">12,4 km</p>
-                </div>
-                <div className="rounded-md bg-muted p-2">
-                  <p className="text-[9px] text-ink-soft">Estimasi tempuh</p>
-                  <p className="text-sm font-extrabold text-ink-strong">38 menit</p>
-                </div>
-                <div className="rounded-md bg-muted p-2">
-                  <p className="text-[9px] text-ink-soft">Armada aktif</p>
-                  <p className="text-sm font-extrabold text-ink-strong">24 unit</p>
-                </div>
-                <div className="rounded-md bg-muted p-2">
-                  <p className="text-[9px] text-ink-soft">Halte resmi</p>
-                  <p className="text-sm font-extrabold text-ink-strong">{stops.length} titik</p>
-                </div>
-              </div>
-              <p className="mt-2 flex items-center gap-1 text-[10px] text-brand-strong">
-                <CheckCircle2 size={11} />
-                Jalur terhubung dengan 4 trayek lain
-              </p>
-            </CardContent>
-          </Card>
-        </div>
-
-        <div className="flex flex-col gap-3">
-          <Card className="overflow-hidden">
-            <div className="flex items-center justify-between border-b border-line-soft p-3">
-              <div>
-                <p className="text-xs font-bold text-ink-strong">Pratinjau jalur</p>
-                <p className="text-[10px] text-ink">Klik peta untuk menambah titik halte baru.</p>
-              </div>
-              <Badge variant="sky">OpenStreetMap</Badge>
-            </div>
-            <div className="h-[360px] w-full">
-              <MapContainer
-                bounds={route.polyline}
-                boundsOptions={{ padding: [24, 24] }}
-                zoomControl={false}
-                scrollWheelZoom
-                className="h-full w-full"
-              >
-                <TileLayer
-                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                  url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                {routeSegments.map((segment, index) => (
+      <Card>
+        <CardContent className="grid gap-4 p-4 sm:grid-cols-2 lg:grid-cols-3">
+          {(
+            [
+              ['code', 'Kode'],
+              ['name', 'Nama trayek'],
+              ['origin', 'Titik awal'],
+              ['destination', 'Titik akhir'],
+            ] as const
+          ).map(([key, label]) => (
+            <Field key={key} label={label}>
+              <Input
+                required
+                value={draft[key]}
+                onChange={(e) => set({ [key]: e.target.value })}
+              />
+            </Field>
+          ))}
+          <Field label="Warna jalur">
+            <Input
+              type="color"
+              value={draft.color}
+              onChange={(e) => set({ color: e.target.value })}
+            />
+          </Field>
+          <Field label="Status operasional">
+            <select
+              value={draft.isActive ? 'aktif' : 'nonaktif'}
+              onChange={(e) => set({ isActive: e.target.value === 'aktif' })}
+              className="h-11 rounded-md border border-line px-3"
+            >
+              <option value="aktif">Aktif</option>
+              <option value="nonaktif">Nonaktif</option>
+            </select>
+          </Field>
+          <Field label="Tarif umum">
+            <Input
+              type="number"
+              required
+              min="0"
+              value={draft.fareStandard ?? 5000}
+              onChange={(e) => set({ fareStandard: Number(e.target.value) })}
+            />
+          </Field>
+          <Field label="Tarif pelajar">
+            <Input
+              type="number"
+              required
+              min="0"
+              value={draft.fareStudent ?? 3000}
+              onChange={(e) => set({ fareStudent: Number(e.target.value) })}
+            />
+          </Field>
+          <p className="text-sm">
+            {segments.length} segmen · {stops.length} halte ·{' '}
+            {draft.registeredVehicles ?? 0} armada terdaftar
+          </p>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardContent className="space-y-3 p-4">
+          <h2 className="font-bold">Jalur dan halte</h2>
+          <div className="flex flex-wrap gap-2">
+            <select
+              aria-label="Mode edit peta"
+              className="rounded-md border border-line p-2"
+              value={mode}
+              onChange={(e) => setMode(e.target.value as typeof mode)}
+            >
+              <option value="view">Lihat peta</option>
+              <option value="point">Edit titik jalur</option>
+              <option value="stop">Tambah halte pada peta</option>
+            </select>
+            <select
+              aria-label="Segmen jalur"
+              className="rounded-md border border-line p-2"
+              value={chain}
+              onChange={(e) => setChain(Number(e.target.value))}
+            >
+              {segments.map((s, i) => (
+                <option key={i} value={i}>
+                  Segmen {i + 1} · {s.length} titik
+                </option>
+              ))}
+            </select>
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => {
+                set({
+                  segments: [...segments, []],
+                  streetRuns: [],
+                  streets: [],
+                })
+                setChain(segments.length)
+                setMode('point')
+              }}
+            >
+              Tambah segmen
+            </Button>
+            <Button
+              type="button"
+              variant="outline"
+              disabled={!segments[chain]?.length}
+              onClick={() => setLine(segments[chain].slice(0, -1))}
+            >
+              Hapus titik terakhir
+            </Button>
+            <Button
+              type="button"
+              variant="outline"
+              disabled={segments.length === 1}
+              onClick={() => {
+                set({
+                  segments: segments.filter((_, i) => i !== chain),
+                  streetRuns: [],
+                  streets: [],
+                })
+                setChain(0)
+              }}
+            >
+              Hapus segmen
+            </Button>
+          </div>
+          <p className="text-sm">
+            Mode edit jalur: klik peta untuk menambah titik, seret penanda untuk
+            memindahkan, klik kanan penanda untuk menghapus. Setiap segmen
+            mengikuti arah urutan titik dan tidak disambung ke segmen lain. Mode
+            halte menambah penanda yang dapat diseret.
+          </p>
+          <div className="h-[440px]">
+            <MapContainer
+              bounds={allPoints.length > 1 ? allPoints : undefined}
+              center={allPoints.length < 2 ? [-6.9147, 107.6098] : undefined}
+              zoom={allPoints.length < 2 ? 13 : undefined}
+              className="h-full w-full"
+              boundsOptions={{ padding: [20, 20] }}
+            >
+              <TileLayer
+                attribution="© OpenStreetMap"
+                url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+              />
+              <MapClick onPoint={addPoint} />
+              {segments
+                .filter((s) => s.length > 1)
+                .map((s, i) => (
                   <Polyline
-                    key={`${route.id}-${index}`}
-                    positions={segment}
-                    pathOptions={{ color: route.color, weight: 5, opacity: 0.85 }}
+                    key={i}
+                    positions={s}
+                    pathOptions={{ color: draft.color, weight: 5 }}
                   />
                 ))}
-                {mapStops.map((position, index) => (
-                  <Marker key={`${route.id}-${index}`} position={position} icon={stopIcon(index)} />
+              {mode === 'point' &&
+                (segments[chain] ?? []).map((p, i) => (
+                  <Marker
+                    key={`point-${chain}-${i}`}
+                    position={p}
+                    title={`Titik jalur ${i + 1}`}
+                    draggable
+                    icon={icon(String(i + 1), '#58635c')}
+                    eventHandlers={{
+                      dragend: (e) => {
+                        const p = e.target.getLatLng()
+                        setLine(
+                          segments[chain].map((v, n) =>
+                            n === i ? [p.lat, p.lng] : v,
+                          ),
+                        )
+                      },
+                      contextmenu: () =>
+                        setLine(segments[chain].filter((_, n) => n !== i)),
+                    }}
+                  />
                 ))}
-              </MapContainer>
+              {stops.map((s, i) => (
+                <Marker
+                  key={s.id}
+                  position={s.position}
+                  title={s.name}
+                  draggable
+                  icon={icon(String(i + 1), '#1F5C3A')}
+                  eventHandlers={{
+                    dragend: (e) => {
+                      const p = e.target.getLatLng()
+                      setStop(i, { position: [p.lat, p.lng] })
+                    },
+                  }}
+                />
+              ))}
+            </MapContainer>
+          </div>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardContent className="space-y-3 p-4">
+          <h2 className="font-bold">Urutan halte</h2>
+          {stops.length === 0 && (
+            <p className="text-sm">Pilih mode tambah halte lalu klik peta.</p>
+          )}
+          {stops.map((stop, index) => (
+            <div
+              key={stop.id}
+              className="grid items-end gap-2 rounded-md border border-line-soft p-3 sm:grid-cols-6"
+            >
+              <Field label={`Nama halte ${index + 1}`}>
+                <Input
+                  required
+                  value={stop.name}
+                  onChange={(e) => setStop(index, { name: e.target.value })}
+                />
+              </Field>
+              <Field label={`Latitude halte ${index + 1}`}>
+                <Input
+                  type="number"
+                  step="any"
+                  min="-90"
+                  max="90"
+                  required
+                  value={stop.position[0]}
+                  onChange={(e) =>
+                    setStop(index, {
+                      position: [Number(e.target.value), stop.position[1]],
+                    })
+                  }
+                />
+              </Field>
+              <Field label={`Longitude halte ${index + 1}`}>
+                <Input
+                  type="number"
+                  step="any"
+                  min="-180"
+                  max="180"
+                  required
+                  value={stop.position[1]}
+                  onChange={(e) =>
+                    setStop(index, {
+                      position: [stop.position[0], Number(e.target.value)],
+                    })
+                  }
+                />
+              </Field>
+              <label className="text-sm">
+                <input
+                  type="checkbox"
+                  checked={!!stop.isTerminal}
+                  onChange={(e) =>
+                    setStop(index, { isTerminal: e.target.checked })
+                  }
+                />{' '}
+                Terminal
+              </label>
+              <div className="flex gap-1">
+                <Button
+                  type="button"
+                  variant="outline"
+                  disabled={index === 0}
+                  aria-label={`Naikkan halte ${index + 1}`}
+                  onClick={() => reorder(index, -1)}
+                >
+                  ↑
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  disabled={index === stops.length - 1}
+                  aria-label={`Turunkan halte ${index + 1}`}
+                  onClick={() => reorder(index, 1)}
+                >
+                  ↓
+                </Button>
+              </div>
+              <Button
+                type="button"
+                variant="ghost"
+                onClick={() =>
+                  set({ endstops: stops.filter((_, i) => i !== index) })
+                }
+              >
+                Hapus halte {index + 1}
+              </Button>
             </div>
-          </Card>
-
-          <Card>
-            <CardContent className="p-4">
-              <div className="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <h2 className="text-sm font-bold text-ink-strong">Urutan halte</h2>
-                  <p className="text-[10px] text-ink">
-                    Seret untuk mengubah urutan. Perubahan langsung terlihat di peta.
-                  </p>
-                </div>
-                <Dialog>
-                  <DialogTrigger asChild>
-                    <Button size="sm" variant="soft">
-                      <Plus size={13} />
-                      Tambah halte
-                    </Button>
-                  </DialogTrigger>
-                  <DialogContent>
-                    <DialogHeader>
-                      <DialogTitle>Tambah halte baru</DialogTitle>
-                    </DialogHeader>
-                    <div className="flex flex-col gap-3">
-                      <div>
-                        <label htmlFor="stop-name" className="text-[11px] font-semibold text-ink">
-                          Nama halte
-                        </label>
-                        <Input id="stop-name" placeholder="Contoh: Halte Simpang Dago" className="mt-1" />
-                      </div>
-                      <div className="grid grid-cols-2 gap-2">
-                        <div>
-                          <label htmlFor="stop-lat" className="text-[11px] font-semibold text-ink">
-                            Latitude
-                          </label>
-                          <Input id="stop-lat" placeholder="-6.8854" className="mt-1" />
-                        </div>
-                        <div>
-                          <label htmlFor="stop-lng" className="text-[11px] font-semibold text-ink">
-                            Longitude
-                          </label>
-                          <Input id="stop-lng" placeholder="107.6182" className="mt-1" />
-                        </div>
-                      </div>
-                    </div>
-                    <DialogFooter>
-                      <Button
-                        onClick={() => {
-                          setStops((current) => [
-                            ...current,
-                            {
-                              id: `stop-new-${current.length}`,
-                              name: `Halte baru ${current.length + 1}`,
-                              distance: `${(current.length * 1.4).toFixed(1)} km`,
-                            },
-                          ])
-                          toast.success('Halte ditambahkan')
-                        }}
-                      >
-                        Tambah halte
-                      </Button>
-                    </DialogFooter>
-                  </DialogContent>
-                </Dialog>
-              </div>
-
-              <div className="mt-3 flex flex-col gap-1.5">
-                {stops.map((stop, index) => (
-                  <div
-                    key={stop.id}
-                    className="flex items-center gap-2 rounded-md border border-line-soft p-2"
-                  >
-                    <GripVertical size={14} className="text-ink-soft" />
-                    <span className="grid size-6 shrink-0 place-items-center rounded-full bg-brand text-[10px] font-bold text-white">
-                      {index + 1}
-                    </span>
-                    <div className="min-w-0 flex-1">
-                      <p className="truncate text-[11px] font-semibold text-ink-strong">{stop.name}</p>
-                      <p className="text-[9px] text-ink-soft">
-                        {stop.distance} dari titik awal
-                      </p>
-                    </div>
-                    <Badge variant={index === 0 || index === stops.length - 1 ? 'leaf' : 'neutral'}>
-                      {index === 0 ? 'Awal' : index === stops.length - 1 ? 'Akhir' : 'Transit'}
-                    </Badge>
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      className="size-7 text-danger"
-                      aria-label={`Hapus ${stop.name}`}
-                      onClick={() => {
-                        setStops((current) => current.filter((item) => item.id !== stop.id))
-                        toast.success('Halte dihapus dari daftar')
-                      }}
-                    >
-                      <Trash2 size={12} />
-                    </Button>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-3 flex items-center gap-2 rounded-md bg-leaf/50 p-2.5 text-[10px] text-ink">
-                <MapPin size={13} className="text-brand" />
-                Titik halte ditampilkan sebagai penanda bernomor pada peta.
-                <span className={cn('ml-auto font-semibold', status === 'aktif' ? 'text-brand-strong' : 'text-warning')}>
-                  {status === 'aktif' ? 'Beroperasi normal' : 'Perlu peninjauan'}
-                </span>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </div>
-    </div>
+          ))}
+          <p className="text-sm">
+            Perubahan disimpan bersama jalur. Menonaktifkan trayek atau mengubah
+            geometri mengakhiri tugas driver dan request menunggu pada arah ini.
+            Geometri tidak dapat diubah selama ada trip aktif.
+          </p>
+        </CardContent>
+      </Card>
+    </form>
   )
 }

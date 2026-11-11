@@ -8,8 +8,8 @@ import {
   Send,
   Wrench,
 } from 'lucide-react'
-import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useRef, useState } from 'react'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { toast } from 'sonner'
 
 import { Badge } from '@/components/ui/badge'
@@ -17,7 +17,8 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input, Textarea } from '@/components/ui/input'
 import { useReportStore } from '@/features/reports/report-store'
-import { vehicles } from '@/mocks/data'
+import { useLiveVehicles } from '@/features/tracking/use-live-vehicles'
+import { upload, errorMessage } from '@/lib/api'
 import { cn } from '@/lib/cn'
 import type { ReportCategory } from '@/types'
 
@@ -55,8 +56,14 @@ const categories: {
 
 export function CreateReportPage() {
   const navigate = useNavigate()
+  const [params] = useSearchParams()
+  const vehicles = useLiveVehicles()
+  const [plate, setPlate] = useState('')
+  const [busy, setBusy] = useState(false)
+  const reportKey = useRef(crypto.randomUUID())
+  const [evidencePath, setEvidencePath] = useState<string | null>(null)
   const addReport = useReportStore((state) => state.addReport)
-  const [vehicleId, setVehicleId] = useState(vehicles[0]?.id ?? '')
+  const [vehicleId, setVehicleId] = useState(params.get('vehicle') ?? '')
   const [category, setCategory] = useState<ReportCategory>('pengemudi')
   const [subject, setSubject] = useState('')
   const [description, setDescription] = useState('')
@@ -65,24 +72,37 @@ export function CreateReportPage() {
 
   const selectedVehicle = vehicles.find((vehicle) => vehicle.id === vehicleId)
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
     if (description.trim().length < 20) {
-      setError('Ceritakan kronologi minimal 20 karakter agar petugas mudah menindaklanjuti.')
+      setError(
+        'Ceritakan kronologi minimal 20 karakter agar petugas mudah menindaklanjuti.',
+      )
       return
     }
     setError('')
-    const label = categories.find((item) => item.value === category)?.label ?? 'Lainnya'
-    const report = addReport({
-      category,
-      subject: subject.trim() || `Laporan ${label}`,
-      description: description.trim(),
-      plate: selectedVehicle?.plate,
-    })
-    toast.success('Laporan terkirim', {
-      description: `Kode tiket ${report.code} sudah masuk antrean petugas Dishub.`,
-    })
-    navigate('/penumpang/laporan')
+    const label =
+      categories.find((item) => item.value === category)?.label ?? 'Lainnya'
+    setBusy(true)
+    try {
+      const report = await addReport({
+        key: reportKey.current,
+        category,
+        subject: subject.trim() || `Laporan ${label}`,
+        description: description.trim(),
+        plate: selectedVehicle?.plate ?? plate,
+        vehicleId: vehicleId || undefined,
+        evidence: evidencePath ? [evidencePath] : [],
+      })
+      toast.success('Laporan terkirim', {
+        description: `Kode tiket ${report.code} sudah masuk antrean petugas Dishub.`,
+      })
+      navigate('/penumpang/laporan')
+    } catch (e) {
+      setError(errorMessage(e))
+    } finally {
+      setBusy(false)
+    }
   }
 
   return (
@@ -101,37 +121,64 @@ export function CreateReportPage() {
           Buat laporan baru
         </h1>
         <p className="mt-1 text-sm text-ink">
-          Sertakan detail kejadian dan kendaraan. Identitas pelapor tidak ditampilkan ke pengemudi.
+          Sertakan detail kejadian dan kendaraan. Identitas pelapor tidak
+          ditampilkan ke pengemudi.
         </p>
       </div>
 
       <form onSubmit={handleSubmit} className="mt-6 grid max-w-2xl gap-4">
         <Card>
           <CardContent className="p-4 md:p-5">
-            <h2 className="text-sm font-bold text-ink-strong">Kendaraan yang dilaporkan</h2>
-            <p className="text-xs text-ink">Pilih angkot berdasarkan pelat atau jurusan.</p>
+            <h2 className="text-sm font-bold text-ink-strong">
+              Kendaraan yang dilaporkan
+            </h2>
+            <p className="text-xs text-ink">
+              Pilih angkot berdasarkan pelat atau jurusan.
+            </p>
             <div className="mt-3 flex flex-col gap-1.5">
-              <label htmlFor="report-vehicle" className="text-xs font-semibold text-ink-strong">
+              <label
+                htmlFor="report-vehicle"
+                className="text-xs font-semibold text-ink-strong"
+              >
                 Angkot
               </label>
               <select
                 id="report-vehicle"
                 value={vehicleId}
                 onChange={(event) => setVehicleId(event.target.value)}
-                className="h-11 w-full rounded-md border border-transparent bg-muted px-3.5 text-sm text-ink-strong outline-none focus:border-brand focus:bg-surface focus:ring-2 focus:ring-brand/15"
+                className="h-11 w-full rounded-md border-[0.5px] border-transparent bg-muted px-3.5 text-sm text-ink-strong outline-none focus:border-brand focus:bg-surface focus:ring-2 focus:ring-brand/15"
               >
+                <option value="">Isi plat kendaraan secara manual</option>
+                {vehicleId && !selectedVehicle && (
+                  <option value={vehicleId}>Kendaraan dari perjalanan</option>
+                )}
                 {vehicles.map((vehicle) => (
                   <option key={vehicle.id} value={vehicle.id}>
-                    {vehicle.plate} · Jurusan {vehicle.routeCode} ({vehicle.routeName})
+                    {vehicle.plate} · Jurusan {vehicle.routeCode} (
+                    {vehicle.routeName})
                   </option>
                 ))}
               </select>
             </div>
+            {!selectedVehicle && (
+              <label className="mt-3 block text-xs">
+                Plat kendaraan
+                <Input
+                  className="mt-1"
+                  value={plate}
+                  onChange={(e) => setPlate(e.target.value)}
+                  placeholder="D 1234 AB"
+                  required={!vehicleId}
+                />
+              </label>
+            )}
             {selectedVehicle ? (
-              <div className="mt-3 flex flex-wrap items-center gap-2 text-[11px] text-ink">
+              <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-ink">
                 <Badge variant="leaf">{selectedVehicle.routeCode}</Badge>
                 <span>{selectedVehicle.routeName}</span>
-                <span className="text-ink-soft">· Pengemudi {selectedVehicle.driverName}</span>
+                <span className="text-ink-soft">
+                  · Pengemudi {selectedVehicle.driverName}
+                </span>
               </div>
             ) : null}
           </CardContent>
@@ -139,7 +186,9 @@ export function CreateReportPage() {
 
         <Card>
           <CardContent className="p-4 md:p-5">
-            <h2 className="text-sm font-bold text-ink-strong">Kategori laporan</h2>
+            <h2 className="text-sm font-bold text-ink-strong">
+              Kategori laporan
+            </h2>
             <div className="mt-3 grid gap-2 sm:grid-cols-2">
               {categories.map((item) => (
                 <button
@@ -164,8 +213,10 @@ export function CreateReportPage() {
                     <item.icon size={15} />
                   </span>
                   <span>
-                    <span className="block text-xs font-bold text-ink-strong">{item.label}</span>
-                    <span className="mt-0.5 block text-[10px] leading-relaxed text-ink">
+                    <span className="block text-xs font-bold text-ink-strong">
+                      {item.label}
+                    </span>
+                    <span className="mt-0.5 block text-xs leading-relaxed text-ink">
                       {item.description}
                     </span>
                   </span>
@@ -178,8 +229,12 @@ export function CreateReportPage() {
         <Card>
           <CardContent className="flex flex-col gap-4 p-4 md:p-5">
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="report-subject" className="text-xs font-semibold text-ink-strong">
-                Judul singkat <span className="font-normal text-ink-soft">(opsional)</span>
+              <label
+                htmlFor="report-subject"
+                className="text-xs font-semibold text-ink-strong"
+              >
+                Judul singkat{' '}
+                <span className="font-normal text-ink-soft">(opsional)</span>
               </label>
               <Input
                 id="report-subject"
@@ -190,7 +245,10 @@ export function CreateReportPage() {
             </div>
 
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="report-description" className="text-xs font-semibold text-ink-strong">
+              <label
+                htmlFor="report-description"
+                className="text-xs font-semibold text-ink-strong"
+              >
                 Kronologi kejadian
               </label>
               <Textarea
@@ -203,43 +261,64 @@ export function CreateReportPage() {
                 placeholder="Ceritakan waktu, lokasi, dan kejadian secara singkat."
                 aria-invalid={Boolean(error) || undefined}
               />
-              <div className="flex items-center justify-between text-[11px]">
-                <span className={error ? 'font-medium text-danger' : 'text-ink-soft'}>
+              <div className="flex items-center justify-between text-xs">
+                <span
+                  className={
+                    error ? 'font-medium text-danger' : 'text-ink-soft'
+                  }
+                >
                   {error || 'Minimal 20 karakter.'}
                 </span>
-                <span className="text-ink-soft">{description.length} karakter</span>
+                <span className="text-ink-soft">
+                  {description.length} karakter
+                </span>
               </div>
             </div>
 
             <div className="flex flex-col gap-1.5">
-              <span className="text-xs font-semibold text-ink-strong">Bukti foto (opsional)</span>
+              <span className="text-xs font-semibold text-ink-strong">
+                Bukti foto/PDF (opsional)
+              </span>
               <input
                 id="report-evidence"
                 type="file"
-                accept="image/*"
+                accept="image/jpeg,image/png,application/pdf"
                 className="hidden"
-                onChange={(event) => setEvidence(event.target.files?.[0]?.name ?? '')}
+                onChange={(event) => {
+                  const file = event.target.files?.[0]
+                  if (!file) return
+                  setBusy(true)
+                  void upload(file, 'evidence')
+                    .then((result) => {
+                      setEvidence(file.name)
+                      setEvidencePath(result.path)
+                    })
+                    .catch((e) => setError(errorMessage(e)))
+                    .finally(() => setBusy(false))
+                }}
               />
               <label
                 htmlFor="report-evidence"
-                className="flex cursor-pointer items-center gap-2 rounded-md border border-dashed border-line bg-muted/50 px-3 py-3 text-xs text-ink hover:border-brand/40"
+                className="flex cursor-pointer items-center gap-2 rounded-md border-[0.5px] border-dashed border-line bg-muted/50 px-3 py-3 text-xs text-ink hover:border-brand/40"
               >
                 <Camera size={16} className="text-brand" />
-                {evidence || 'Tambahkan foto kejadian atau pelat kendaraan'}
+                {evidence ||
+                  'Tambahkan foto kejadian, pelat kendaraan, atau PDF'}
               </label>
             </div>
           </CardContent>
         </Card>
 
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <p className="max-w-xs text-[11px] leading-relaxed text-ink-soft">
-            Dengan mengirim laporan, kamu menyatakan informasi yang diberikan benar.
+          <p className="max-w-xs text-xs leading-relaxed text-ink-soft">
+            Dengan mengirim laporan, kamu menyatakan informasi yang diberikan
+            benar.
           </p>
           <div className="flex gap-2">
             <Button type="button" variant="outline" asChild>
               <Link to="/penumpang/laporan">Batal</Link>
             </Button>
-            <Button type="submit">
+            <Button disabled={busy} type="submit">
               <Send size={15} />
               Kirim laporan
             </Button>

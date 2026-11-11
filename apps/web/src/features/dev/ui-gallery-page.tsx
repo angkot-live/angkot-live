@@ -23,6 +23,14 @@ import {
 } from '@/components/ui/dialog'
 import { EmptyState, ErrorState } from '@/components/ui/empty-state'
 import { Field, Input, Textarea } from '@/components/ui/input'
+import {
+  List,
+  ListItem,
+  ListItemDescription,
+  ListItemIcon,
+  ListItemText,
+  ListItemTitle,
+} from '@/components/ui/list'
 import { Logo } from '@/components/ui/logo'
 import { Select } from '@/components/ui/select'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
@@ -77,8 +85,7 @@ export function UiGalleryPage() {
 
       <div className="container-page flex flex-col gap-10 py-10">
         <div>
-          <Badge variant="leaf">Design system</Badge>
-          <h1 className="mt-2 text-h1 text-ink-strong">UI Gallery</h1>
+          <h1 className="text-h1 text-ink-strong">UI Gallery</h1>
           <p className="mt-1 max-w-2xl text-body text-ink">
             Referensi token Civic Transit untuk warna, tipografi, radius, elevasi, dan komponen
             dasar Angkot-Live.
@@ -108,14 +115,14 @@ export function UiGalleryPage() {
 
         <Section title="Tipografi" description="Skala Plus Jakarta Sans untuk hierarki konten.">
           <div className="flex flex-col gap-2">
-            <p className="text-h1 text-ink-strong">H1 — 36 / 700</p>
-            <p className="text-h2 text-ink-strong">H2 — 28 / 700</p>
-            <p className="text-h3 text-ink-strong">H3 — 22 / 600</p>
-            <p className="text-h4 text-ink-strong">H4 — 18 / 600</p>
-            <p className="text-body-lg text-ink">Body Large — 16 / 400</p>
-            <p className="text-body text-ink">Body Regular — 14 / 400</p>
-            <p className="text-body-sm text-ink">Body Small — 12 / 400</p>
-            <p className="text-caption text-ink-soft uppercase">Caption — 11 / 500 / 0.5px</p>
+            <p className="text-h1 text-ink-strong">H1 — 38 / 700</p>
+            <p className="text-h2 text-ink-strong">H2 — 30 / 700</p>
+            <p className="text-h3 text-ink-strong">H3 — 24 / 600</p>
+            <p className="text-h4 text-ink-strong">H4 — 20 / 600</p>
+            <p className="text-body-lg text-ink">Body Large — 18 / 400</p>
+            <p className="text-body text-ink">Body Regular — 16 / 400</p>
+            <p className="text-body-sm text-ink">Body Small — 16 / 400</p>
+            <p className="text-caption text-ink-soft uppercase">Caption — 14 / 500 / 0.05em</p>
           </div>
         </Section>
 
@@ -309,6 +316,31 @@ export function UiGalleryPage() {
               ))}
             </TableBody>
           </Table>
+        </Section>
+
+        <Section title="List" description="Daftar rapat dengan divider 0.5px dan ikon kiri.">
+          <List className="max-w-lg">
+            <ListItem>
+              <ListItemIcon>
+                <BusFront size={18} />
+              </ListItemIcon>
+              <ListItemText>
+                <ListItemTitle>Angkot 01A — Abdul Muis</ListItemTitle>
+                <ListItemDescription>Jalan · 6 menit lagi</ListItemDescription>
+              </ListItemText>
+              <Badge variant="leaf">Jalan</Badge>
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <MapPin size={18} />
+              </ListItemIcon>
+              <ListItemText>
+                <ListItemTitle>Halte Gedung Sate</ListItemTitle>
+                <ListItemDescription>200 m dari lokasi Anda</ListItemDescription>
+              </ListItemText>
+              <ArrowRight size={16} className="text-ink-soft" />
+            </ListItem>
+          </List>
         </Section>
 
         <Section title="Empty, error, skeleton">

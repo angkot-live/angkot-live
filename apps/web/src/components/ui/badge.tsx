@@ -14,6 +14,7 @@ const badgeVariants = cva(
         sky: 'border-sky-ink/20 bg-sky text-sky-ink',
         tertiary: 'border-tertiary/15 bg-peach text-tertiary',
         peach: 'border-tertiary/15 bg-peach text-tertiary',
+        warning: 'border-warning/25 bg-warning-bg text-warning',
         danger: 'border-danger/20 bg-danger-bg text-danger',
         outline: 'border-line bg-surface text-ink',
       },
@@ -40,7 +41,7 @@ const statusLabel: Record<VehicleStatus, string> = {
 
 const statusVariant: Record<VehicleStatus, BadgeProps['variant']> = {
   jalan: 'leaf',
-  merayap: 'peach',
+  merayap: 'warning',
   ngetem: 'sky',
   istirahat: 'neutral',
   offline: 'neutral',

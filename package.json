@@ -1,0 +1,36 @@
+{
+  "name": "angkot-live",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "local:start": "node scripts/local.mjs start",
+    "local:status": "node scripts/local.mjs status",
+    "local:stop": "node scripts/local.mjs stop",
+    "local:env": "node scripts/local.mjs env",
+    "local:cert": "node scripts/local.mjs cert",
+    "db:migrate": "node scripts/local.mjs migrate",
+    "db:types": "node scripts/local.mjs types",
+    "demo:export": "node scripts/export-demo-fixtures.mjs",
+    "demo:seed": "node scripts/seed-demo.mjs",
+    "demo:fleet": "node scripts/demo-fleet.mjs",
+    "demo:fleet:cleanup": "node scripts/demo-fleet.mjs --cleanup",
+    "demo:verify:fleet": "node scripts/verify-fleet.mjs",
+    "demo:reset": "node scripts/local.mjs reset",
+    "demo:verify": "node scripts/verify-demo.mjs",
+    "dev:api": "node scripts/local.mjs api",
+    "dev:web": "node scripts/local.mjs web",
+    "test:sprint1": "node --test scripts/*.test.mjs",
+    "demo:browser": "npm --prefix apps/web run test:sprint1",
+    "demo:verify:sprint2": "node scripts/verify-sprint2.mjs",
+    "demo:browser:sprint2": "npm --prefix apps/web run test:sprint2",
+    "demo:verify:sprint3": "node scripts/verify-sprint3.mjs",
+    "demo:browser:sprint3": "npm --prefix apps/web run test:sprint3",
+    "demo:audit": "node scripts/audit-runtime.mjs",
+    "demo:rehearse": "npm --prefix apps/web run test:sprint45",
+    "demo:performance": "npm --prefix apps/web run test:performance",
+    "demo:cleanup:rehearsal": "node scripts/cleanup-rehearsal.mjs"
+  },
+  "devDependencies": {
+    "supabase": "2.122.1"
+  }
+}

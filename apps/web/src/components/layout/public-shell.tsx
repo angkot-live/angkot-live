@@ -21,22 +21,12 @@ function PublicHeader() {
   const navigate = useNavigate()
   const location = useLocation()
 
-  const searchParams = new URLSearchParams(location.search)
-  const isRuteTab =
-    searchParams.get('tab') === 'rute' || searchParams.has('from') || searchParams.has('to')
-
   function isNavItemActive(to: string) {
-    if (to.includes('tab=rute')) {
-      return (location.pathname === '/peta' && isRuteTab) || location.pathname === '/rute'
-    }
-    if (to === '/peta') {
-      return location.pathname === '/peta' && !isRuteTab
-    }
     return location.pathname === to || (to !== '/' && location.pathname.startsWith(to))
   }
 
-  function handleLogout() {
-    logout()
+  async function handleLogout() {
+    await logout()
     navigate('/')
   }
 
@@ -75,7 +65,7 @@ function PublicHeader() {
                 <Avatar name={user.name} size="sm" />
                 <span className="flex flex-col leading-tight">
                   <span className="text-xs font-semibold text-ink-strong">{user.name}</span>
-                  <span className="text-[11px] text-ink-soft">{roleLabel[user.role]}</span>
+                  <span className="text-xs text-ink-soft">{roleLabel[user.role]}</span>
                 </span>
               </Link>
               <Button variant="ghost" size="icon" aria-label="Keluar" onClick={handleLogout}>
@@ -154,7 +144,6 @@ const footerColumns = [
     title: 'Layanan',
     links: [
       { label: 'Peta Live', to: '/peta' },
-      { label: 'Cari Rute', to: '/peta?tab=rute' },
       { label: 'Daftar Trayek', to: '/trayek' },
       { label: 'Statistik', to: '/statistik' },
     ],
@@ -230,13 +219,17 @@ function PublicFooter() {
 }
 
 export function PublicShell() {
+  const { pathname } = useLocation()
+  // Footer lengkap hanya untuk landing page; halaman publik lain fokus ke konten.
+  const showFooter = pathname === '/'
+
   return (
     <div className="flex min-h-svh flex-col bg-canvas">
       <PublicHeader />
       <main className="flex-1">
         <Outlet />
       </main>
-      <PublicFooter />
+      {showFooter ? <PublicFooter /> : null}
     </div>
   )
 }

@@ -1,0 +1,32 @@
+BEGIN;
+DO $$
+DECLARE pax uuid; admin_id uuid; rep jsonb; retry jsonb; prefs jsonb; n integer; own_evidence text; blocked boolean;
+BEGIN
+ SELECT id INTO pax FROM public.profiles WHERE role='penumpang' LIMIT 1;
+ SELECT id INTO admin_id FROM public.profiles WHERE role='admin' LIMIT 1;
+ ASSERT NOT has_table_privilege('authenticated','public.notification_preferences','UPDATE');
+ prefs:=public.flow_command(pax,'preferences','{}');ASSERT prefs ? 'report_updates';
+ PERFORM public.flow_command(pax,'preferences_update','{"report_updates":false}');
+ ASSERT NOT (public.flow_command(pax,'preferences','{}')->>'report_updates')::boolean;
+ blocked:=false; BEGIN PERFORM public.flow_command(pax,'preferences_update','{"report_updates":true,"profile_id":"other"}');EXCEPTION WHEN OTHERS THEN blocked:=true;END;ASSERT blocked;
+ blocked:=false; BEGIN PERFORM public.flow_command(pax,'report',jsonb_build_object('description','Laporan fixture dengan bukti yang tidak ada','subject','SQL S45','category','pengemudi','evidence',jsonb_build_array(pax||'/'||gen_random_uuid())));EXCEPTION WHEN OTHERS THEN blocked:=true;END;ASSERT blocked,'Missing object accepted';
+ own_evidence:=pax||'/'||gen_random_uuid();
+ INSERT INTO storage.objects(bucket_id,name) VALUES('report-evidence',own_evidence);
+ rep:=public.flow_command(pax,'report',jsonb_build_object('key','s45-report','category','pengemudi','subject','SQL S45','description','Pengemudi berhenti terlalu lama di jalur jalan.','evidence',jsonb_build_array(own_evidence)));
+ retry:=public.flow_command(pax,'report','{"key":"s45-report"}');ASSERT retry->>'id'=rep->>'id';
+ blocked:=false;BEGIN PERFORM public.flow_command(pax,'report_update',jsonb_build_object('id',rep->>'id','status','diproses','response','Akses palsu'));EXCEPTION WHEN OTHERS THEN blocked:=true;END;ASSERT blocked;
+ SELECT count(*) INTO n FROM public.messages WHERE recipient_id=pax;
+ PERFORM public.flow_command(admin_id,'report_update',jsonb_build_object('key','s45-update','id',rep->>'id','expectedStatus','diterima','status','diproses','response','Sedang diperiksa petugas'));
+ PERFORM public.flow_command(admin_id,'report_update',jsonb_build_object('key','s45-update','id',rep->>'id','expectedStatus','diterima','status','diproses','response','Sedang diperiksa petugas'));
+ ASSERT (SELECT count(*) FROM public.report_updates WHERE report_id=(rep->>'id')::uuid)=1,'Retry duplicated timeline';
+ ASSERT (SELECT count(*) FROM public.messages WHERE recipient_id=pax)=n,'Preference ignored';
+ blocked:=false;BEGIN PERFORM public.flow_command(admin_id,'report_update',jsonb_build_object('id',rep->>'id','expectedStatus','diterima','status','selesai','response','Versi lama'));EXCEPTION WHEN OTHERS THEN blocked:=true;END;ASSERT blocked,'Stale editor accepted';
+ blocked:=false;BEGIN PERFORM public.flow_command(admin_id,'report_update',jsonb_build_object('id',rep->>'id','status','diterima','response','Mundur status'));EXCEPTION WHEN OTHERS THEN blocked:=true;END;ASSERT blocked,'Reverse status accepted';
+ PERFORM public.flow_command(pax,'preferences_update','{"report_updates":true}');
+ PERFORM public.flow_command(admin_id,'report_update',jsonb_build_object('id',rep->>'id','status','selesai','expectedStatus','diproses','response','Sudah ditindaklanjuti petugas'));
+ ASSERT EXISTS(SELECT 1 FROM public.messages WHERE recipient_id=pax AND kind='report' AND related_report_id=(rep->>'id')::uuid AND NOT is_read);
+ PERFORM public.flow_command(pax,'message_read',jsonb_build_object('id',(SELECT id FROM public.messages WHERE recipient_id=pax AND related_report_id=(rep->>'id')::uuid LIMIT 1)));
+ ASSERT NOT EXISTS(SELECT 1 FROM public.messages WHERE recipient_id=pax AND related_report_id=(rep->>'id')::uuid AND NOT is_read);
+ RAISE NOTICE 'PASS Sprint 4/5 SQL: durable preferences, real evidence, report ownership/idempotency/status/concurrency, notification preference/read';
+END $$;
+ROLLBACK;

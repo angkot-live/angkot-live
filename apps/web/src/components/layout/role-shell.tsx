@@ -18,8 +18,8 @@ export function RoleShell({ nav, home }: RoleShellProps) {
   const logout = useAuthStore((state) => state.logout)
   const navigate = useNavigate()
 
-  function handleLogout() {
-    logout()
+  async function handleLogout() {
+    await logout()
     navigate('/login')
   }
 
@@ -62,7 +62,7 @@ export function RoleShell({ nav, home }: RoleShellProps) {
                 <Avatar name={user.name} size="sm" />
                 <div className="hidden flex-col leading-tight sm:flex">
                   <span className="text-xs font-semibold text-ink-strong">{user.name}</span>
-                  <span className="text-[11px] text-ink-soft">{user.role}</span>
+                  <span className="text-xs text-ink-soft">{user.role}</span>
                 </div>
               </div>
             ) : null}
@@ -94,7 +94,7 @@ export function RoleShell({ nav, home }: RoleShellProps) {
             end={item.end}
             className={({ isActive }) =>
               cn(
-                'flex flex-1 flex-col items-center gap-1 py-2.5 text-[10px] font-semibold transition',
+                'flex flex-1 flex-col items-center gap-1 py-2.5 text-xs font-semibold transition',
                 isActive ? 'text-brand-strong' : 'text-ink-soft',
               )
             }

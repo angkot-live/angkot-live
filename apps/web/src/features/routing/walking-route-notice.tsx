@@ -4,7 +4,7 @@ import { hasUnavailableWalks } from './walking-router'
 export function WalkingRouteNotice({ plan }: { plan: TripPlan }) {
   if (!plan.itineraries.length && !plan.walkOnly) return null
   return (
-    <div className="space-y-1 text-[11px] text-ink-soft">
+    <div className="space-y-1 text-xs text-ink-soft">
       {hasUnavailableWalks(plan) ? (
         <p role="status" className="text-danger">
           Sebagian jalur jalan kaki belum tersedia. Garisnya tidak ditampilkan; jarak dan waktu

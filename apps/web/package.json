@@ -8,7 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "routes:build": "node scripts/build-angkot-routes.mjs"
+    "routes:build": "node scripts/build-angkot-routes.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "test:browser": "node scripts/flow-smoke.mjs",
+    "test:sprint1": "node scripts/sprint1-smoke.mjs",
+    "test:sprint2": "node scripts/sprint2-smoke.mjs",
+    "test:sprint3": "node scripts/sprint3-smoke.mjs",
+    "test:sprint45": "node scripts/sprint45-smoke.mjs",
+    "test:performance": "node scripts/demo-performance.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^7.0.1",

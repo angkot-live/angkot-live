@@ -111,13 +111,13 @@ export function VehiclesPage() {
           <Card key={stat.label}>
             <CardContent className="p-4">
               <div className="flex items-start justify-between">
-                <p className="text-[11px] font-semibold text-ink">{stat.label}</p>
+                <p className="text-xs font-semibold text-ink">{stat.label}</p>
                 <span className={cn('grid size-8 place-items-center rounded-md', stat.tone)}>
                   <stat.icon size={15} />
                 </span>
               </div>
               <p className="mt-2 text-2xl leading-none font-extrabold text-ink-strong">{stat.value}</p>
-              <p className="mt-1 text-[10px] text-ink-soft">{stat.note}</p>
+              <p className="mt-1 text-xs text-ink-soft">{stat.note}</p>
             </CardContent>
           </Card>
         ))}
@@ -137,7 +137,7 @@ export function VehiclesPage() {
                 type="button"
                 onClick={() => setFilter(item.value as typeof filter)}
                 className={cn(
-                  'rounded-md px-3 py-2 text-[11px] font-semibold transition',
+                  'rounded-md px-3 py-2 text-xs font-semibold transition',
                   filter === item.value ? 'bg-brand-strong text-white' : 'text-ink hover:bg-muted',
                 )}
               >
@@ -156,7 +156,7 @@ export function VehiclesPage() {
             </div>
           </div>
 
-          <div className="mt-3 hidden grid-cols-[120px_1fr_150px_110px_110px_130px_110px_90px] gap-2 px-2 text-[9px] font-bold tracking-wide text-ink-soft uppercase lg:grid">
+          <div className="mt-3 hidden grid-cols-[120px_1fr_150px_110px_110px_130px_110px_90px] gap-2 px-2 text-xs font-bold tracking-wide text-ink-soft uppercase lg:grid">
             <span>Plat nomor</span>
             <span>Kendaraan / pengemudi</span>
             <span>Trayek</span>
@@ -173,31 +173,31 @@ export function VehiclesPage() {
               return (
                 <div
                   key={row.vehicle.id}
-                  className="grid gap-2 rounded-md border border-line-soft p-3 transition hover:border-brand/40 hover:bg-muted/30 lg:grid-cols-[120px_1fr_150px_110px_110px_130px_110px_90px] lg:items-center"
+                  className="grid gap-2 rounded-md border-[0.5px] border-line-soft p-3 transition hover:border-brand/40 hover:bg-muted/30 lg:grid-cols-[120px_1fr_150px_110px_110px_130px_110px_90px] lg:items-center"
                 >
                   <div>
                     <p className="text-xs font-extrabold text-ink-strong">{row.vehicle.plate}</p>
-                    <p className="text-[9px] text-ink-soft">Angkot kota</p>
+                    <p className="text-xs text-ink-soft">Angkot kota</p>
                   </div>
                   <div className="min-w-0">
-                    <p className="truncate text-[11px] font-semibold text-ink-strong">{row.model}</p>
-                    <p className="truncate text-[10px] text-ink">{row.vehicle.driverName}</p>
+                    <p className="truncate text-xs font-semibold text-ink-strong">{row.model}</p>
+                    <p className="truncate text-xs text-ink">{row.vehicle.driverName}</p>
                   </div>
                   <div>
-                    <p className="text-[10px] text-ink-soft">Trayek</p>
-                    <p className="text-[11px] font-semibold text-ink-strong">
+                    <p className="text-xs text-ink-soft">Trayek</p>
+                    <p className="text-xs font-semibold text-ink-strong">
                       {row.vehicle.routeCode} · {row.vehicle.routeName}
                     </p>
                   </div>
                   <div>
-                    <p className="text-[10px] text-ink-soft">STNK</p>
-                    <p className={cn('text-[11px] font-semibold', row.state === 'hampir' ? 'text-warning' : 'text-ink-strong')}>
+                    <p className="text-xs text-ink-soft">STNK</p>
+                    <p className={cn('text-xs font-semibold', row.state === 'hampir' ? 'text-warning' : 'text-ink-strong')}>
                       {row.stnk}
                     </p>
                   </div>
                   <div>
-                    <p className="text-[10px] text-ink-soft">Uji KIR</p>
-                    <p className={cn('text-[11px] font-semibold', row.state === 'perbaikan' ? 'text-danger' : 'text-ink-strong')}>
+                    <p className="text-xs text-ink-soft">Uji KIR</p>
+                    <p className={cn('text-xs font-semibold', row.state === 'perbaikan' ? 'text-danger' : 'text-ink-strong')}>
                       {row.kir}
                     </p>
                   </div>
@@ -236,7 +236,7 @@ export function VehiclesPage() {
             <div className="text-center">
               <BusFront size={42} className="mx-auto opacity-90" />
               <p className="mt-1 text-sm font-extrabold">{selected?.plate}</p>
-              <p className="text-[10px] text-white/80">{selectedRow?.model}</p>
+              <p className="text-xs text-white/80">{selectedRow?.model}</p>
             </div>
           </div>
 
@@ -246,12 +246,12 @@ export function VehiclesPage() {
               { label: 'Buku uji KIR', value: selectedRow?.kir ?? '-', icon: ShieldCheck },
               { label: 'Pemeriksaan terakhir', value: selectedRow?.lastCheck ?? '-', icon: CalendarClock },
             ].map((doc) => (
-              <div key={doc.label} className="flex items-center gap-2 rounded-md border border-line-soft p-3">
+              <div key={doc.label} className="flex items-center gap-2 rounded-md border-[0.5px] border-line-soft p-3">
                 <span className="grid size-8 place-items-center rounded-md bg-leaf text-brand-strong">
                   <doc.icon size={15} />
                 </span>
                 <div className="flex-1">
-                  <p className="text-[10px] text-ink-soft">{doc.label}</p>
+                  <p className="text-xs text-ink-soft">{doc.label}</p>
                   <p className="text-xs font-semibold text-ink-strong">{doc.value}</p>
                 </div>
                 <Badge variant={selectedRow?.state === 'perbaikan' ? 'danger' : 'leaf'}>
@@ -261,7 +261,7 @@ export function VehiclesPage() {
             ))}
 
             {selectedRow?.state !== 'layak' ? (
-              <div className="flex items-start gap-2 rounded-md bg-peach/50 p-3 text-[10px] text-ink">
+              <div className="flex items-start gap-2 rounded-md bg-peach/50 p-3 text-xs text-ink">
                 <AlertTriangle size={14} className="mt-0.5 shrink-0 text-warning" />
                 Kendaraan perlu melengkapi dokumen sebelum dapat beroperasi kembali. Kirim pengingat
                 kepada pengemudi melalui menu pesan.

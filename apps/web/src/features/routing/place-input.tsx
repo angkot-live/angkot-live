@@ -16,6 +16,8 @@ interface PlaceInputProps {
   trailing?: ReactNode
   placeholder?: string
   invalid?: boolean
+  /** Dipanggil saat Enter ditekan tanpa memilih saran. */
+  onSubmit?: () => void
 }
 
 /** Kolom pencarian tempat dengan saran otomatis (pola ARIA combobox). */
@@ -28,6 +30,7 @@ export function PlaceInput({
   trailing,
   placeholder,
   invalid,
+  onSubmit,
 }: PlaceInputProps) {
   const listId = useId()
   const [open, setOpen] = useState(false)
@@ -75,6 +78,11 @@ export function PlaceInput({
   function handleKeyDown(event: React.KeyboardEvent<HTMLInputElement>) {
     if (!open || suggestions.length === 0) {
       if (event.key === 'ArrowDown' && suggestions.length > 0) setOpen(true)
+      if (event.key === 'Enter' && onSubmit && value.trim()) {
+        event.preventDefault()
+        setOpen(false)
+        onSubmit()
+      }
       return
     }
     if (event.key === 'ArrowDown') {
@@ -86,6 +94,10 @@ export function PlaceInput({
     } else if (event.key === 'Enter' && activeIndex >= 0) {
       event.preventDefault()
       choose(suggestions[activeIndex])
+    } else if (event.key === 'Enter' && onSubmit && value.trim()) {
+      event.preventDefault()
+      setOpen(false)
+      onSubmit()
     } else if (event.key === 'Escape') {
       setOpen(false)
     }
@@ -133,7 +145,7 @@ export function PlaceInput({
         <ul
           id={listId}
           role="listbox"
-          className="absolute top-full right-0 left-0 z-[1100] mt-1.5 max-h-80 overflow-y-auto rounded-md border border-line-soft bg-surface p-1 shadow-lg"
+          className="absolute top-full right-0 left-0 z-[1100] mt-1.5 max-h-80 overflow-y-auto rounded-md border-[0.5px] border-line-soft bg-surface p-1 shadow-lg"
         >
           {suggestions.length === 0 ? (
             <li className="px-3 py-2.5 text-xs text-ink-soft">
@@ -161,7 +173,7 @@ export function PlaceInput({
                   <span className="block truncate text-sm font-semibold text-ink-strong">
                     {place.name}
                   </span>
-                  <span className="block truncate text-[11px] text-ink">{place.detail}</span>
+                  <span className="block truncate text-xs text-ink">{place.detail}</span>
                 </span>
               </li>
             ))

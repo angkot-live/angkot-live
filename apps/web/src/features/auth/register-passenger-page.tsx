@@ -13,6 +13,8 @@ import {
   UserRound,
 } from 'lucide-react'
 import { useState } from 'react'
+import { toast } from 'sonner'
+import { errorMessage } from '@/lib/api'
 import { useForm } from 'react-hook-form'
 import { Link, useNavigate } from 'react-router-dom'
 import { z } from 'zod'
@@ -62,7 +64,7 @@ function passwordStrength(password: string) {
 }
 
 export function RegisterPassengerPage() {
-  const login = useAuthStore((state) => state.login)
+  const registerAccount = useAuthStore((state) => state.register)
   const navigate = useNavigate()
   const [showPassword, setShowPassword] = useState(false)
 
@@ -80,15 +82,17 @@ export function RegisterPassengerPage() {
   const strength = passwordStrength(password)
   const strengthLabel = strength >= 4 ? 'Sangat kuat' : strength >= 3 ? 'Kuat' : strength >= 2 ? 'Cukup' : 'Lemah'
 
-  function onSubmit(values: FormValues) {
-    const user = login('penumpang', values.email, values.name)
-    navigate('/penumpang', { replace: true })
-    void user
+  async function onSubmit(values: FormValues) {
+    try {
+      const user = await registerAccount({ ...values, phone: `+62${values.phone}`, role: 'penumpang' })
+      if (user) navigate('/penumpang', { replace: true })
+      else { toast.success('Akun dibuat. Periksa email untuk konfirmasi sebelum login.'); navigate('/login') }
+    } catch (e) { toast.error(errorMessage(e)) }
   }
 
   return (
     <div className="min-h-svh bg-canvas px-4 py-8 md:px-8 md:py-12">
-      <div className="mx-auto grid max-w-5xl overflow-hidden rounded-xl border border-line-soft bg-surface shadow-float lg:grid-cols-[460px_1fr]">
+      <div className="mx-auto grid max-w-5xl overflow-hidden rounded-lg border-[0.5px] border-line-soft bg-surface shadow-float lg:grid-cols-[460px_1fr]">
         <aside className="relative hidden flex-col justify-between overflow-hidden border-r border-line-soft bg-muted p-9 lg:flex">
           <div
             className="pointer-events-none absolute -top-20 -right-16 size-64 rounded-full bg-brand-soft/30 blur-3xl"
@@ -101,12 +105,12 @@ export function RegisterPassengerPage() {
               </span>
               <div>
                 <p className="text-sm font-bold text-ink-strong">Akun Penumpang</p>
-                <p className="text-[11px] text-ink-soft">Angkot-Live</p>
+                <p className="text-xs text-ink-soft">Angkot-Live</p>
               </div>
             </div>
 
             <div>
-              <h1 className="text-[26px] leading-tight font-extrabold tracking-tight text-brand-strong">
+              <h1 className="text-h3 leading-tight font-extrabold tracking-tight text-brand-strong">
                 Perjalanan kota jadi lebih pasti.
               </h1>
               <p className="mt-2 text-sm leading-relaxed text-ink">
@@ -114,7 +118,7 @@ export function RegisterPassengerPage() {
               </p>
             </div>
 
-            <div className="rounded-lg border border-line-soft bg-surface p-4 shadow-soft">
+            <div className="rounded-lg border-[0.5px] border-line-soft bg-surface p-4 shadow-card">
               <ul className="flex flex-col gap-3">
                 {benefits.map((benefit) => (
                   <li key={benefit} className="flex items-start gap-2 text-xs text-ink-strong">
@@ -126,18 +130,18 @@ export function RegisterPassengerPage() {
             </div>
 
             <div className="grid grid-cols-2 gap-2">
-              <div className="rounded-lg bg-surface p-3 text-center shadow-soft">
+              <div className="rounded-lg bg-surface p-3 text-center shadow-card">
                 <p className="text-lg font-extrabold text-ink-strong">1.240+</p>
-                <p className="text-[10px] text-ink">Angkot aktif</p>
+                <p className="text-xs text-ink">Angkot aktif</p>
               </div>
-              <div className="rounded-lg bg-surface p-3 text-center shadow-soft">
+              <div className="rounded-lg bg-surface p-3 text-center shadow-card">
                 <p className="text-lg font-extrabold text-ink-strong">32</p>
-                <p className="text-[10px] text-ink">Trayek</p>
+                <p className="text-xs text-ink">Trayek</p>
               </div>
             </div>
           </div>
 
-          <div className="relative mt-6 flex items-start gap-2 rounded-md bg-surface/70 p-3 text-[11px] leading-relaxed text-ink backdrop-blur">
+          <div className="relative mt-6 flex items-start gap-2 rounded-md bg-surface/70 p-3 text-xs leading-relaxed text-ink backdrop-blur">
             <ShieldCheck size={14} className="mt-0.5 shrink-0 text-brand" />
             Data pribadi Anda hanya dipakai untuk layanan transportasi dan tidak dijual ke pihak
             ketiga.
@@ -269,7 +273,7 @@ export function RegisterPassengerPage() {
             </div>
 
             <div className="rounded-md bg-muted p-3">
-              <div className="flex items-center justify-between text-[11px]">
+              <div className="flex items-center justify-between text-xs">
                 <span className="font-medium text-ink">Kekuatan kata sandi</span>
                 <span
                   className={cn(
@@ -297,7 +301,7 @@ export function RegisterPassengerPage() {
                   />
                 ))}
               </div>
-              <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[10px] text-ink">
+              <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-xs text-ink">
                 {[
                   { label: '8+ karakter', ok: password.length >= 8 },
                   { label: 'Huruf besar', ok: /[A-Z]/.test(password) },

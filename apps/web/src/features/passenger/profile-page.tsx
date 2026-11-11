@@ -1,7 +1,18 @@
-import { Bell, KeyRound, LogOut, Save, ShieldCheck, Smartphone, UserRound } from 'lucide-react'
+import { ReportPreferences } from '@/features/preferences/report-preferences'
+import {
+  Bell,
+  KeyRound,
+  LogOut,
+  Save,
+  ShieldCheck,
+  Smartphone,
+  UserRound,
+} from 'lucide-react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'sonner'
+import { errorMessage } from '@/lib/api'
+import { supabase } from '@/lib/supabase'
 
 import { Avatar } from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
@@ -18,37 +29,6 @@ import {
 import { Input } from '@/components/ui/input'
 import { useAuthStore } from '@/features/auth/auth-store'
 
-function ToggleRow({
-  title,
-  description,
-  checked,
-  onChange,
-}: {
-  title: string
-  description: string
-  checked: boolean
-  onChange: (value: boolean) => void
-}) {
-  return (
-    <label className="flex cursor-pointer items-start justify-between gap-4 py-3">
-      <span>
-        <span className="block text-xs font-semibold text-ink-strong">{title}</span>
-        <span className="mt-0.5 block text-[11px] leading-relaxed text-ink">{description}</span>
-      </span>
-      <span className="relative mt-0.5 inline-flex shrink-0">
-        <input
-          type="checkbox"
-          checked={checked}
-          onChange={(event) => onChange(event.target.checked)}
-          className="peer sr-only"
-        />
-        <span className="h-5 w-9 rounded-full bg-line transition peer-checked:bg-brand" />
-        <span className="absolute top-0.5 left-0.5 size-4 rounded-full bg-white shadow-sm transition peer-checked:translate-x-4" />
-      </span>
-    </label>
-  )
-}
-
 export function PassengerProfilePage() {
   const user = useAuthStore((state) => state.user)
   const updateProfile = useAuthStore((state) => state.updateProfile)
@@ -58,30 +38,37 @@ export function PassengerProfilePage() {
   const [name, setName] = useState(user?.name ?? '')
   const [email, setEmail] = useState(user?.email ?? '')
   const [phone, setPhone] = useState(user?.phone ?? '')
-  const [tripNotif, setTripNotif] = useState(true)
-  const [reportNotif, setReportNotif] = useState(true)
-  const [promoNotif, setPromoNotif] = useState(false)
   const [passwordOpen, setPasswordOpen] = useState(false)
   const [currentPassword, setCurrentPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
 
-  function handleSave(event: React.FormEvent<HTMLFormElement>) {
+  async function handleSave(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
     if (!name.trim() || !email.trim()) {
       toast.error('Nama dan email wajib diisi.')
       return
     }
-    updateProfile({ name: name.trim(), email: email.trim(), phone: phone.trim() })
-    toast.success('Profil diperbarui', { description: 'Perubahan data berhasil disimpan.' })
+    try {
+      await updateProfile({
+        name: name.trim(),
+        email: email.trim(),
+        phone: phone.trim(),
+      })
+      toast.success('Profil diperbarui', {
+        description: 'Perubahan data berhasil disimpan.',
+      })
+    } catch (e) {
+      toast.error(errorMessage(e))
+    }
   }
 
-  function handleLogout() {
-    logout()
+  async function handleLogout() {
+    await logout()
     navigate('/login')
   }
 
-  function handlePasswordChange(event: React.FormEvent<HTMLFormElement>) {
+  async function handlePasswordChange(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
     if (!currentPassword) {
       toast.error('Masukkan password saat ini.')
@@ -93,6 +80,21 @@ export function PassengerProfilePage() {
     }
     if (newPassword !== confirmPassword) {
       toast.error('Konfirmasi password tidak cocok.')
+      return
+    }
+    const { error: loginError } = await supabase.auth.signInWithPassword({
+      email: user?.email ?? '',
+      password: currentPassword,
+    })
+    if (loginError) {
+      toast.error('Password saat ini tidak sesuai.')
+      return
+    }
+    const { error: passwordError } = await supabase.auth.updateUser({
+      password: newPassword,
+    })
+    if (passwordError) {
+      toast.error(passwordError.message)
       return
     }
     setPasswordOpen(false)
@@ -111,7 +113,9 @@ export function PassengerProfilePage() {
         <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-ink-strong md:text-3xl">
           Profil penumpang
         </h1>
-        <p className="mt-1 text-sm text-ink">Kelola data pribadi, keamanan, dan notifikasi.</p>
+        <p className="mt-1 text-sm text-ink">
+          Kelola data pribadi, keamanan, dan notifikasi.
+        </p>
       </div>
 
       <div className="mt-6 grid gap-5 lg:grid-cols-[1fr_300px]">
@@ -121,8 +125,12 @@ export function PassengerProfilePage() {
               <div className="flex items-center gap-3">
                 <Avatar name={name || 'Penumpang'} size="lg" />
                 <div>
-                  <p className="text-sm font-bold text-ink-strong">{name || 'Penumpang'}</p>
-                  <p className="text-xs text-ink">{email || 'Belum ada email'}</p>
+                  <p className="text-sm font-bold text-ink-strong">
+                    {name || 'Penumpang'}
+                  </p>
+                  <p className="text-xs text-ink">
+                    {email || 'Belum ada email'}
+                  </p>
                   <Badge variant="leaf" className="mt-1">
                     Akun terverifikasi
                   </Badge>
@@ -132,7 +140,10 @@ export function PassengerProfilePage() {
               <form onSubmit={handleSave} className="mt-5 flex flex-col gap-4">
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div className="flex flex-col gap-1.5">
-                    <label htmlFor="profile-name" className="text-xs font-semibold text-ink-strong">
+                    <label
+                      htmlFor="profile-name"
+                      className="text-xs font-semibold text-ink-strong"
+                    >
                       Nama lengkap
                     </label>
                     <Input
@@ -143,7 +154,10 @@ export function PassengerProfilePage() {
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
-                    <label htmlFor="profile-phone" className="text-xs font-semibold text-ink-strong">
+                    <label
+                      htmlFor="profile-phone"
+                      className="text-xs font-semibold text-ink-strong"
+                    >
                       Nomor telepon
                     </label>
                     <Input
@@ -157,7 +171,10 @@ export function PassengerProfilePage() {
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label htmlFor="profile-email" className="text-xs font-semibold text-ink-strong">
+                  <label
+                    htmlFor="profile-email"
+                    className="text-xs font-semibold text-ink-strong"
+                  >
                     Email
                   </label>
                   <Input
@@ -166,8 +183,8 @@ export function PassengerProfilePage() {
                     value={email}
                     onChange={(event) => setEmail(event.target.value)}
                   />
-                  <p className="text-[10px] text-ink-soft">
-                    Email dipakai untuk masuk dan menerima tanggapan laporan.
+                  <p className="text-xs text-ink-soft">
+                    Email dipakai untuk masuk dan pemulihan akun.
                   </p>
                 </div>
 
@@ -185,38 +202,29 @@ export function PassengerProfilePage() {
             <CardContent className="p-4 md:p-5">
               <div className="flex items-center gap-2">
                 <Bell size={16} className="text-brand" />
-                <h2 className="text-sm font-bold text-ink-strong">Preferensi notifikasi</h2>
+                <h2 className="text-sm font-bold text-ink-strong">
+                  Preferensi notifikasi
+                </h2>
               </div>
-              <div className="mt-2 divide-y divide-line-soft">
-                <ToggleRow
-                  title="Perjalanan"
-                  description="Angkot mendekat, perjalanan dimulai, dan ETA turun."
-                  checked={tripNotif}
-                  onChange={setTripNotif}
-                />
-                <ToggleRow
-                  title="Status laporan"
-                  description="Update saat laporan diproses atau selesai."
-                  checked={reportNotif}
-                  onChange={setReportNotif}
-                />
-                <ToggleRow
-                  title="Info dan promo"
-                  description="Kabar layanan baru dan program Dishub."
-                  checked={promoNotif}
-                  onChange={setPromoNotif}
-                />
-              </div>
+              <ReportPreferences />
             </CardContent>
           </Card>
 
           <Card>
             <CardContent className="flex flex-wrap items-center justify-between gap-3 p-4 md:p-5">
               <div>
-                <h2 className="text-sm font-bold text-ink-strong">Keamanan akun</h2>
-                <p className="text-xs text-ink">Ganti password secara berkala.</p>
+                <h2 className="text-sm font-bold text-ink-strong">
+                  Keamanan akun
+                </h2>
+                <p className="text-xs text-ink">
+                  Ganti password secara berkala.
+                </p>
               </div>
-              <Button variant="outline" size="sm" onClick={() => setPasswordOpen(true)}>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setPasswordOpen(true)}
+              >
                 <KeyRound size={14} />
                 Ubah password
               </Button>
@@ -232,7 +240,9 @@ export function PassengerProfilePage() {
                 <p className="text-sm font-bold">Privasi terjaga</p>
               </div>
               <p className="mt-1 text-xs leading-relaxed text-brand-strong/75">
-                Data lokasi hanya dipakai selama perjalanan aktif dan tidak dibagikan ke pengemudi.
+                Lokasi megat hanya terlihat oleh pengemudi yang sesuai selama
+                permintaan aktif. Riwayat perjalanan dan identitas laporan hanya
+                dapat diakses oleh akun yang berwenang.
               </p>
             </CardContent>
           </Card>
@@ -240,8 +250,15 @@ export function PassengerProfilePage() {
           <Card>
             <CardContent className="p-4 md:p-5">
               <h2 className="text-sm font-bold text-ink-strong">Sesi akun</h2>
-              <p className="mt-1 text-xs text-ink">Keluar dari perangkat ini.</p>
-              <Button variant="danger" size="sm" className="mt-3 w-full" onClick={handleLogout}>
+              <p className="mt-1 text-xs text-ink">
+                Keluar dari perangkat ini.
+              </p>
+              <Button
+                variant="danger"
+                size="sm"
+                className="mt-3 w-full"
+                onClick={handleLogout}
+              >
                 <LogOut size={14} />
                 Keluar akun
               </Button>
@@ -260,7 +277,10 @@ export function PassengerProfilePage() {
           </DialogHeader>
           <form onSubmit={handlePasswordChange} className="flex flex-col gap-3">
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="current-password" className="text-xs font-semibold text-ink-strong">
+              <label
+                htmlFor="current-password"
+                className="text-xs font-semibold text-ink-strong"
+              >
                 Password saat ini
               </label>
               <Input
@@ -272,7 +292,10 @@ export function PassengerProfilePage() {
               />
             </div>
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="new-password" className="text-xs font-semibold text-ink-strong">
+              <label
+                htmlFor="new-password"
+                className="text-xs font-semibold text-ink-strong"
+              >
                 Password baru
               </label>
               <Input
@@ -284,7 +307,10 @@ export function PassengerProfilePage() {
               />
             </div>
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="confirm-password" className="text-xs font-semibold text-ink-strong">
+              <label
+                htmlFor="confirm-password"
+                className="text-xs font-semibold text-ink-strong"
+              >
                 Ulangi password baru
               </label>
               <Input
@@ -296,7 +322,11 @@ export function PassengerProfilePage() {
               />
             </div>
             <DialogFooter>
-              <Button type="button" variant="outline" onClick={() => setPasswordOpen(false)}>
+              <Button
+                type="button"
+                variant="outline"
+                onClick={() => setPasswordOpen(false)}
+              >
                 Batal
               </Button>
               <Button type="submit">Simpan password</Button>

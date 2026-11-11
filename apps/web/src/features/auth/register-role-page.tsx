@@ -64,8 +64,7 @@ export function RegisterRolePage() {
         </header>
 
         <section className="mx-auto flex max-w-3xl flex-col items-center py-10 text-center">
-          <Badge variant="leaf">Pendaftaran akun</Badge>
-          <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-ink-strong md:text-4xl">
+          <h1 className="text-3xl font-extrabold tracking-tight text-ink-strong md:text-4xl">
             Pilih jenis akun Anda
           </h1>
           <p className="mt-2 max-w-lg text-sm leading-relaxed text-ink">
@@ -78,7 +77,7 @@ export function RegisterRolePage() {
           {roles.map((role) => (
             <article
               key={role.id}
-              className="flex flex-col rounded-lg border border-line-soft bg-surface p-7 shadow-soft"
+              className="flex flex-col rounded-lg border-[0.5px] border-line-soft bg-surface p-7 shadow-card"
             >
               <div className="flex items-center justify-between">
                 <span className={`grid size-14 place-items-center rounded-lg ${role.tone}`}>
@@ -106,7 +105,7 @@ export function RegisterRolePage() {
               </ul>
 
               {role.note ? (
-                <div className="mt-5 flex items-start gap-2 rounded-md bg-peach/60 p-3 text-[11px] leading-relaxed text-amber-900">
+                <div className="mt-5 flex items-start gap-2 rounded-md bg-peach/60 p-3 text-xs leading-relaxed text-amber-900">
                   <Info size={14} className="mt-0.5 shrink-0" />
                   {role.note}
                 </div>
@@ -138,7 +137,7 @@ export function RegisterRolePage() {
               Masuk di sini
             </Link>
           </p>
-          <p className="flex items-center gap-1.5 text-[11px] text-ink-soft">
+          <p className="flex items-center gap-1.5 text-xs text-ink-soft">
             <ShieldCheck size={13} className="text-brand" />
             Pendaftaran gratis dan data Anda dilindungi.
           </p>

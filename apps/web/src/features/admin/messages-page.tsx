@@ -11,7 +11,6 @@ import {
 import { useState } from 'react'
 import { toast } from 'sonner'
 
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input, Textarea } from '@/components/ui/input'
@@ -65,10 +64,6 @@ export function MessagesPage() {
             Kirim pengumuman, pengingat dokumen, atau peringatan resmi kepada pengemudi angkot.
           </p>
         </div>
-        <Badge variant="leaf">
-          <span className="size-1.5 animate-pulse rounded-full bg-brand" />
-          Gateway aktif
-        </Badge>
       </div>
 
       <div className="mt-4 grid gap-3 sm:grid-cols-3">
@@ -83,9 +78,9 @@ export function MessagesPage() {
                 <stat.icon size={17} />
               </span>
               <div>
-                <p className="text-[10px] text-ink">{stat.label}</p>
+                <p className="text-xs text-ink">{stat.label}</p>
                 <p className="text-xl leading-none font-extrabold text-ink-strong">{stat.value}</p>
-                <p className="text-[9px] text-ink-soft">{stat.note}</p>
+                <p className="text-xs text-ink-soft">{stat.note}</p>
               </div>
             </CardContent>
           </Card>
@@ -101,7 +96,7 @@ export function MessagesPage() {
             </h2>
 
             <div className="mt-3">
-              <p className="text-[10px] font-semibold text-ink">Penerima</p>
+              <p className="text-xs font-semibold text-ink">Penerima</p>
               <div className="mt-1.5 flex flex-col gap-1.5">
                 {recipients.map((item) => (
                   <label
@@ -120,17 +115,17 @@ export function MessagesPage() {
                       onChange={() => setRecipient(item.id)}
                       className="size-3.5 accent-[#004425]"
                     />
-                    <span className="flex-1 text-[11px] font-semibold text-ink-strong">
+                    <span className="flex-1 text-xs font-semibold text-ink-strong">
                       {item.label}
                     </span>
-                    <span className="text-[9px] text-ink-soft">{item.detail}</span>
+                    <span className="text-xs text-ink-soft">{item.detail}</span>
                   </label>
                 ))}
               </div>
             </div>
 
             <div className="mt-3">
-              <label htmlFor="message-title" className="text-[10px] font-semibold text-ink">
+              <label htmlFor="message-title" className="text-xs font-semibold text-ink">
                 Judul pesan
               </label>
               <Input
@@ -143,10 +138,10 @@ export function MessagesPage() {
 
             <div className="mt-3">
               <div className="flex items-center justify-between">
-                <label htmlFor="message-body" className="text-[10px] font-semibold text-ink">
+                <label htmlFor="message-body" className="text-xs font-semibold text-ink">
                   Isi pesan
                 </label>
-                <span className="text-[9px] text-ink-soft">{body.length}/320 karakter</span>
+                <span className="text-xs text-ink-soft">{body.length}/320 karakter</span>
               </div>
               <Textarea
                 id="message-body"
@@ -157,7 +152,7 @@ export function MessagesPage() {
             </div>
 
             <div className="mt-3">
-              <p className="text-[10px] font-semibold text-ink">Template cepat</p>
+              <p className="text-xs font-semibold text-ink">Template cepat</p>
               <div className="mt-1.5 grid gap-1.5 sm:grid-cols-3">
                 {templates.map((template) => (
                   <button
@@ -167,12 +162,12 @@ export function MessagesPage() {
                       setTitle(template.title)
                       setBody(template.body)
                     }}
-                    className="rounded-md border border-line-soft p-2 text-left transition hover:border-brand/40 hover:bg-muted/40"
+                    className="rounded-md border-[0.5px] border-line-soft p-2 text-left transition hover:border-brand/40 hover:bg-muted/40"
                   >
-                    <span className={cn('inline-flex rounded-full px-1.5 py-0.5 text-[8px] font-bold', template.tone)}>
+                    <span className={cn('inline-flex rounded-full px-1.5 py-0.5 text-xs font-bold', template.tone)}>
                       Template
                     </span>
-                    <span className="mt-1 block text-[10px] font-semibold text-ink-strong">
+                    <span className="mt-1 block text-xs font-semibold text-ink-strong">
                       {template.title}
                     </span>
                   </button>
@@ -181,7 +176,7 @@ export function MessagesPage() {
             </div>
 
             <div className="mt-3 flex flex-wrap items-center gap-3">
-              <label className="flex cursor-pointer items-center gap-1.5 text-[10px] text-ink">
+              <label className="flex cursor-pointer items-center gap-1.5 text-xs text-ink">
                 <input
                   type="checkbox"
                   checked={channels.app}
@@ -191,7 +186,7 @@ export function MessagesPage() {
                 <BellRing size={12} className="text-brand" />
                 Notifikasi aplikasi
               </label>
-              <label className="flex cursor-pointer items-center gap-1.5 text-[10px] text-ink">
+              <label className="flex cursor-pointer items-center gap-1.5 text-xs text-ink">
                 <input
                   type="checkbox"
                   checked={channels.sms}
@@ -238,14 +233,14 @@ export function MessagesPage() {
                     <BellRing size={14} />
                   </span>
                   <div>
-                    <p className="text-[10px] font-bold text-ink-strong">Angkot-Live</p>
-                    <p className="text-[8px] text-ink-soft">Sekarang · notifikasi</p>
+                    <p className="text-xs font-bold text-ink-strong">Angkot-Live</p>
+                    <p className="text-xs text-ink-soft">Sekarang · notifikasi</p>
                   </div>
                 </div>
-                <p className="mt-2 text-[11px] font-bold text-ink-strong">{title}</p>
-                <p className="mt-1 text-[10px] leading-relaxed text-ink">{body}</p>
+                <p className="mt-2 text-xs font-bold text-ink-strong">{title}</p>
+                <p className="mt-1 text-xs leading-relaxed text-ink">{body}</p>
               </div>
-              <p className="mt-2 flex items-center gap-1 text-[9px] text-ink-soft">
+              <p className="mt-2 flex items-center gap-1 text-xs text-ink-soft">
                 <CheckCircle2 size={10} className="text-brand" />
                 Pesan akan tampil di inbox pengemudi
               </p>
@@ -261,9 +256,9 @@ export function MessagesPage() {
                   { title: 'Pengingat KIR', date: '25 Okt 2026', count: '12 penerima' },
                   { title: 'Perubahan tarif resmi', date: '18 Okt 2026', count: '124 penerima' },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-md border border-line-soft p-2.5">
-                    <p className="text-[10px] font-semibold text-ink-strong">{item.title}</p>
-                    <p className="text-[9px] text-ink-soft">
+                  <div key={item.title} className="rounded-md border-[0.5px] border-line-soft p-2.5">
+                    <p className="text-xs font-semibold text-ink-strong">{item.title}</p>
+                    <p className="text-xs text-ink-soft">
                       {item.date} · {item.count}
                     </p>
                   </div>
@@ -272,7 +267,7 @@ export function MessagesPage() {
             </CardContent>
           </Card>
 
-          <div className="flex items-start gap-2 rounded-md border border-warning/30 bg-peach/40 p-3 text-[10px] text-ink">
+          <div className="flex items-start gap-2 rounded-md border-[0.5px] border-warning/30 bg-peach/40 p-3 text-xs text-ink">
             <AlertTriangle size={14} className="mt-0.5 shrink-0 text-warning" />
             Pesan peringatan resmi akan tercatat pada riwayat pembinaan pengemudi.
           </div>

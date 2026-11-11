@@ -8,7 +8,7 @@ export function NotFoundPage({ code = '404', title = 'Halaman tidak ditemukan' }
   return (
     <div className="flex min-h-svh flex-col items-center justify-center bg-canvas px-4 py-12">
       <Logo className="mb-10" />
-      <div className="w-full max-w-md rounded-xl border border-line-soft bg-surface p-8 text-center shadow-soft">
+      <div className="w-full max-w-md rounded-lg border-[0.5px] border-line-soft bg-surface p-8 text-center shadow-card">
         <span className="mx-auto grid size-14 place-items-center rounded-lg bg-leaf text-brand-strong">
           <Compass size={26} />
         </span>

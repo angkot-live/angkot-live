@@ -27,7 +27,7 @@ export function Logo({ to = '/', className, compact = false, tone = 'dark' }: Lo
       </span>
       <span
         className={cn(
-          'text-[17px] font-extrabold tracking-tight',
+          'text-lg font-extrabold tracking-tight',
           tone === 'light' ? 'text-white' : 'text-ink-strong',
         )}
       >

@@ -1,9 +1,8 @@
-import { Bell, LogOut, Menu, Search } from 'lucide-react'
+import { LogOut, Menu } from 'lucide-react'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 
 import { Avatar } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
 import { Logo } from '@/components/ui/logo'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { useAuthStore } from '@/features/auth/auth-store'
@@ -42,7 +41,7 @@ function SidebarContent() {
       <div className="flex flex-col gap-6">
         <SidebarNav items={adminNav} />
         <div className="flex flex-col gap-2">
-          <p className="px-3 text-[10px] font-bold tracking-wider text-ink-soft uppercase">
+          <p className="px-3 text-xs font-bold tracking-wider text-ink-soft uppercase">
             Publik
           </p>
           <SidebarNav items={adminSecondaryNav} />
@@ -50,8 +49,8 @@ function SidebarContent() {
       </div>
       <div className="mt-auto rounded-lg bg-leaf p-3">
         <p className="text-xs font-semibold text-brand-strong">Mode Demo</p>
-        <p className="mt-1 text-[11px] leading-relaxed text-ink">
-          Data kendaraan dan laporan disimulasikan untuk kebutuhan demo.
+        <p className="mt-1 text-xs leading-relaxed text-ink">
+          Lokasi armada berasal dari pengemudi. Posisi simulator lokal diberi label SIMULASI.
         </p>
       </div>
     </div>
@@ -63,8 +62,8 @@ export function AdminShell() {
   const logout = useAuthStore((state) => state.logout)
   const navigate = useNavigate()
 
-  function handleLogout() {
-    logout()
+  async function handleLogout() {
+    await logout()
     navigate('/login')
   }
 
@@ -91,28 +90,13 @@ export function AdminShell() {
               </SheetContent>
             </Sheet>
 
-            <div className="relative hidden max-w-sm flex-1 md:block">
-              <Search
-                size={16}
-                className="pointer-events-none absolute top-1/2 left-3.5 -translate-y-1/2 text-ink-soft"
-              />
-              <Input
-                placeholder="Cari trayek, pengemudi, laporan..."
-                className="h-10 pl-10"
-                aria-label="Pencarian admin"
-              />
-            </div>
-
             <div className="ml-auto flex items-center gap-2">
-              <Button variant="soft" size="icon" aria-label="Notifikasi">
-                <Bell size={18} />
-              </Button>
               {user ? (
                 <div className="flex items-center gap-2 rounded-md py-1 pr-2 pl-1">
                   <Avatar name={user.name} size="sm" />
                   <div className="hidden flex-col leading-tight sm:flex">
                     <span className="text-xs font-semibold text-ink-strong">{user.name}</span>
-                    <span className="text-[11px] text-ink-soft">Administrator</span>
+                    <span className="text-xs text-ink-soft">Administrator</span>
                   </div>
                 </div>
               ) : null}

@@ -1,5 +1,5 @@
 import type { InputHTMLAttributes, ReactNode, TextareaHTMLAttributes } from 'react'
-import { useId } from 'react'
+import { Children, cloneElement, isValidElement, useId } from 'react'
 
 import { cn } from '@/lib/cn'
 
@@ -55,14 +55,16 @@ export function Field({
   htmlFor,
 }: FieldProps) {
   const fallbackId = useId()
-  const id = htmlFor ?? fallbackId
+  const fields = Children.toArray(children)
+  const first = fields.find((child) => isValidElement<{ id?: string }>(child))
+  const id = htmlFor ?? (isValidElement<{ id?: string }>(first) ? first.props.id : undefined) ?? fallbackId
   return (
     <div className={cn('flex flex-col gap-1.5', className)}>
       <label htmlFor={id} className="text-sm font-semibold text-ink-strong">
         {label}
         {required ? <span className="text-danger"> *</span> : null}
       </label>
-      {children}
+      {fields.map((child) => child === first && isValidElement<{ id?: string }>(child) ? cloneElement(child, { id }) : child)}
       {error ? (
         <p className="text-xs font-medium text-danger">{error}</p>
       ) : hint ? (

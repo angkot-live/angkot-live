@@ -93,13 +93,13 @@ export function UsersPage() {
           <Card key={stat.label}>
             <CardContent className="p-4">
               <div className="flex items-start justify-between">
-                <p className="text-[11px] font-semibold text-ink">{stat.label}</p>
+                <p className="text-xs font-semibold text-ink">{stat.label}</p>
                 <span className={cn('grid size-8 place-items-center rounded-md', stat.tone)}>
                   <stat.icon size={15} />
                 </span>
               </div>
               <p className="mt-2 text-2xl leading-none font-extrabold text-ink-strong">{stat.value}</p>
-              <p className="mt-1 text-[10px] text-ink-soft">{stat.note}</p>
+              <p className="mt-1 text-xs text-ink-soft">{stat.note}</p>
             </CardContent>
           </Card>
         ))}
@@ -119,7 +119,7 @@ export function UsersPage() {
                 type="button"
                 onClick={() => setRole(item.value as typeof role)}
                 className={cn(
-                  'rounded-md px-3 py-2 text-[11px] font-semibold transition',
+                  'rounded-md px-3 py-2 text-xs font-semibold transition',
                   role === item.value ? 'bg-brand-strong text-white' : 'text-ink hover:bg-muted',
                 )}
               >
@@ -144,13 +144,13 @@ export function UsersPage() {
               return (
                 <div
                   key={user.id}
-                  className="grid gap-2 rounded-md border border-line-soft p-3 transition hover:border-brand/40 hover:bg-muted/30 lg:grid-cols-[1fr_180px_140px_130px_100px] lg:items-center"
+                  className="grid gap-2 rounded-md border-[0.5px] border-line-soft p-3 transition hover:border-brand/40 hover:bg-muted/30 lg:grid-cols-[1fr_180px_140px_130px_100px] lg:items-center"
                 >
                   <div className="flex items-center gap-2.5">
                     <Avatar name={user.name} size="sm" />
                     <div className="min-w-0">
                       <p className="truncate text-xs font-bold text-ink-strong">{user.name}</p>
-                      <p className="truncate text-[10px] text-ink">{user.email}</p>
+                      <p className="truncate text-xs text-ink">{user.email}</p>
                     </div>
                   </div>
                   <div>
@@ -160,12 +160,12 @@ export function UsersPage() {
                     </Badge>
                   </div>
                   <div>
-                    <p className="text-[10px] text-ink-soft">Terdaftar</p>
-                    <p className="text-[10px] font-semibold text-ink-strong">{user.joinedAt}</p>
+                    <p className="text-xs text-ink-soft">Terdaftar</p>
+                    <p className="text-xs font-semibold text-ink-strong">{user.joinedAt}</p>
                   </div>
                   <div>
-                    <p className="text-[10px] text-ink-soft">Terakhir aktif</p>
-                    <p className="text-[10px] font-semibold text-ink-strong">{user.lastActive}</p>
+                    <p className="text-xs text-ink-soft">Terakhir aktif</p>
+                    <p className="text-xs font-semibold text-ink-strong">{user.lastActive}</p>
                   </div>
                   <div className="flex items-center justify-between gap-2">
                     <Badge variant={user.status === 'aktif' ? 'leaf' : 'danger'}>

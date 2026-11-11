@@ -1,0 +1,21 @@
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: apps/api/Dockerfile
+    env_file: ../apps/api/.env
+    environment:
+      ROUTES_FILE: /app/routes.json
+      API_ADDR: :8080
+    restart: unless-stopped
+  web:
+    build:
+      context: ..
+      dockerfile: apps/web/Dockerfile
+      args:
+        VITE_SUPABASE_URL: ${VITE_SUPABASE_URL:?Set VITE_SUPABASE_URL}
+        VITE_SUPABASE_ANON_KEY: ${VITE_SUPABASE_ANON_KEY:?Set VITE_SUPABASE_ANON_KEY}
+    ports:
+      - "127.0.0.1:8088:80"
+    depends_on: [api]
+    restart: unless-stopped

@@ -2,43 +2,24 @@ import {
   ArrowRight,
   BusFront,
   CheckCircle2,
-  Clock3,
-  Compass,
   MapPin,
   MessageSquareWarning,
   Radar,
   Route,
   ShieldCheck,
-  Sparkles,
   Users,
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { publicStats } from '@/mocks/data'
+import { usePublicStatistics } from '@/features/public/use-statistics'
+import { useRoutes } from '@/features/routes/use-routes'
+import { useLiveVehicles } from '@/features/tracking/use-live-vehicles'
 
-const trustBadges = ['Tanpa perlu login', 'Update tiap 3 detik', 'Data Dishub']
-
-const metrics = [
-  {
-    value: `${publicStats.activeVehicles.toLocaleString('id-ID')}+`,
-    label: 'Angkot terpantau aktif',
-    tone: 'bg-leaf',
-    icon: BusFront,
-  },
-  {
-    value: `${publicStats.routes}`,
-    label: 'Trayek terintegrasi',
-    tone: 'bg-sky',
-    icon: Route,
-  },
-  {
-    value: `${publicStats.followUpRate}%`,
-    label: 'Laporan ditindaklanjuti',
-    tone: 'bg-peach',
-    icon: ShieldCheck,
-  },
+const trustBadges = [
+  'Tanpa perlu login',
+  'Update tiap 3 detik',
+  'Trayek Bandung',
 ]
 
 const features = [
@@ -47,18 +28,18 @@ const features = [
     tone: 'bg-brand-soft text-brand-strong',
     title: 'Posisi Realtime',
     description:
-      'GPS tracking angkot dengan akurasi tinggi dan radar pergerakan armada langsung di layar tanpa jeda waktu.',
+      'Pantau posisi terbaru pengemudi, status kendaraan dan kesegaran sampel lokasi melalui peta realtime.',
     link: 'Lihat sebaran armada',
     to: '/peta',
   },
   {
     icon: Route,
     tone: 'bg-sky text-sky-ink',
-    title: 'Cari Rute & Transit',
+    title: 'Cari Jurusan Langsung',
     description:
-      'Temukan jurusan terdekat menuju tujuan, lengkap dengan estimasi waktu tiba dan opsi transit antar trayek.',
+      'Temukan jurusan langsung sesuai arah trayek, titik naik/turun dan petunjuk jalan kaki.',
     link: 'Cari rute terbaik',
-    to: '/peta?tab=rute',
+    to: '/peta',
   },
   {
     icon: MessageSquareWarning,
@@ -77,7 +58,8 @@ const pillars = [
     tone: 'bg-leaf text-leaf-ink',
     eyebrow: 'Kemudahan Komuter',
     title: 'Penumpang',
-    description: 'Tahu angkot mana yang datang dan kapan tiba, tanpa menunggu buta di jalan.',
+    description:
+      'Tahu angkot mana yang datang dan kapan tiba, tanpa menunggu buta di jalan.',
     points: [
       'Pilih halte atau titik tujuan terdekat',
       'Pantau laju angkot dan estimasi tiba',
@@ -89,7 +71,8 @@ const pillars = [
     tone: 'bg-sky text-sky-ink',
     eyebrow: 'Penghasilan Stabil',
     title: 'Pengemudi',
-    description: 'Lihat penumpang yang menunggu di sepanjang rute dan atur status secara transparan.',
+    description:
+      'Lihat penumpang yang menunggu di sepanjang rute dan atur status secara transparan.',
     points: [
       'Terima informasi penumpang di area rute',
       'Atur status narik, ngetem, dan istirahat',
@@ -101,7 +84,8 @@ const pillars = [
     tone: 'bg-peach text-amber-900',
     eyebrow: 'Pengawasan Cepat',
     title: 'Admin / Pengawas',
-    description: 'Verifikasi pengemudi, kelola trayek, dan pantau kualitas layanan dari satu dashboard.',
+    description:
+      'Verifikasi pengemudi, kelola trayek, dan pantau kualitas layanan dari satu dashboard.',
     points: [
       'Verifikasi dokumen pengemudi',
       'Kelola trayek dan titik halte',
@@ -111,119 +95,84 @@ const pillars = [
 ]
 
 function HeroMapPreview() {
-  const markers = [
-    { code: '08', top: '24%', left: '22%', tone: 'bg-brand-strong text-white' },
-    { code: '05', top: '58%', left: '44%', tone: 'bg-sky-ink text-white' },
-    { code: '02', top: '16%', left: '68%', tone: 'bg-surface text-ink-strong' },
-    { code: '16', top: '70%', left: '18%', tone: 'bg-sky text-sky-ink' },
+  const { routes } = useRoutes(),
+    vehicles = useLiveVehicles().filter((v) => !v.stale)
+  const points = routes.flatMap((r) => (r.segments ?? [r.polyline]).flat())
+  const minLat = points.length ? Math.min(...points.map((p) => p[0])) : -7,
+    maxLat = points.length ? Math.max(...points.map((p) => p[0])) : -6.8
+  const minLng = points.length ? Math.min(...points.map((p) => p[1])) : 107.5,
+    maxLng = points.length ? Math.max(...points.map((p) => p[1])) : 107.8
+  const project = (p: [number, number]) => [
+    20 + ((p[1] - minLng) / Math.max(0.001, maxLng - minLng)) * 528,
+    20 + ((maxLat - p[0]) / Math.max(0.001, maxLat - minLat)) * 476,
   ]
-
   return (
-    <div className="relative rounded-xl border border-line-soft bg-surface p-3 shadow-float">
-      <div className="relative aspect-[568/516] overflow-hidden rounded-lg bg-muted">
-        <svg
-          viewBox="0 0 568 516"
-          className="absolute inset-0 size-full"
-          role="img"
-          aria-label="Pratinjau peta sebaran angkot"
-        >
-          <defs>
-            <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-              <path d="M44 0H0V44" fill="none" stroke="#DCE5DA" strokeWidth="1" />
-            </pattern>
-            <pattern id="grid-lg" width="176" height="176" patternUnits="userSpaceOnUse">
-              <rect width="176" height="176" fill="url(#grid)" />
-              <path d="M176 0H0V176" fill="none" stroke="#CBD8C8" strokeWidth="1.4" />
-            </pattern>
-          </defs>
-          <rect width="568" height="516" fill="#EEF3EC" />
-          <rect width="568" height="516" fill="url(#grid-lg)" />
-          <path
-            d="M-20 380 C 90 330, 120 250, 230 250 S 400 300, 588 180"
-            fill="none"
-            stroke="#C3D3C0"
-            strokeWidth="16"
-            strokeLinecap="round"
+    <div className="relative rounded-xl border border-line-soft bg-surface p-4 shadow-float">
+      <svg
+        viewBox="0 0 568 516"
+        role="img"
+        aria-label="Trayek dan GPS angkot dari layanan"
+        className="w-full rounded-lg bg-muted"
+      >
+        {routes.flatMap((r) =>
+          (r.segments ?? [r.polyline]).map((line, i) => (
+            <polyline
+              key={`${r.id}-${i}`}
+              points={line.map((p) => project(p).join(',')).join(' ')}
+              fill="none"
+              stroke={r.color}
+              strokeWidth="1.5"
+              opacity=".5"
+            />
+          )),
+        )}
+        {vehicles.map((v) => (
+          <circle
+            key={v.id}
+            cx={project(v.position)[0]}
+            cy={project(v.position)[1]}
+            r="5"
+            fill="#004425"
           />
-          <path
-            d="M-20 380 C 90 330, 120 250, 230 250 S 400 300, 588 180"
-            fill="none"
-            stroke="#F6FBF5"
-            strokeWidth="9"
-            strokeLinecap="round"
-          />
-          <path
-            d="M90 520 C 130 410, 210 380, 300 330 S 430 220, 500 -20"
-            fill="none"
-            stroke="#C3D3C0"
-            strokeWidth="12"
-            strokeLinecap="round"
-          />
-          <path
-            d="M90 520 C 130 410, 210 380, 300 330 S 430 220, 500 -20"
-            fill="none"
-            stroke="#F6FBF5"
-            strokeWidth="7"
-            strokeLinecap="round"
-          />
-          <path
-            d="M30 140 C 140 170, 220 120, 330 160 S 470 210, 560 150"
-            fill="none"
-            stroke="#1F5C3A"
-            strokeWidth="4"
-            strokeDasharray="10 8"
-            strokeLinecap="round"
-            opacity="0.55"
-          />
-        </svg>
-
-        <div className="absolute top-4 left-4 flex items-center gap-2 rounded-full border border-white/70 bg-white/90 px-3 py-1.5 text-[11px] font-semibold text-brand-strong shadow-soft backdrop-blur">
-          <span className="relative flex size-2">
-            <span className="absolute inline-flex size-full animate-ping rounded-full bg-brand opacity-60" />
-            <span className="relative inline-flex size-2 rounded-full bg-brand" />
-          </span>
-          Live Bandung
-        </div>
-        <div className="absolute top-4 right-4 flex items-center gap-1.5 rounded-full bg-white/90 px-3 py-1.5 text-[11px] font-medium text-ink shadow-soft backdrop-blur">
-          <ShieldCheck size={13} className="text-brand" />
-          GPS presisi 4 m
-        </div>
-
-        {markers.map((marker) => (
-          <div
-            key={marker.code}
-            className="absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-1"
-            style={{ top: marker.top, left: marker.left }}
-          >
-            <span
-              className={`rounded-full px-2.5 py-1 text-[11px] font-bold shadow-float ${marker.tone}`}
-            >
-              {marker.code}
-            </span>
-            <span className="size-1.5 rounded-full bg-brand-strong/70" />
-          </div>
         ))}
-
-        <div className="absolute bottom-4 left-4 flex items-center gap-3 rounded-lg bg-white/95 p-3 shadow-float backdrop-blur">
-          <span className="grid size-10 place-items-center rounded-md bg-leaf text-brand-strong">
-            <Clock3 size={18} />
-          </span>
-          <div>
-            <p className="text-[10px] font-medium text-ink-soft">Angkot 08 menuju Dago</p>
-            <p className="text-sm font-bold text-ink-strong">Tiba 3 menit lagi</p>
-          </div>
-        </div>
-
-        <div className="absolute right-4 bottom-4 flex items-center gap-2 rounded-lg bg-white/95 px-3 py-2 shadow-float backdrop-blur">
-          <Compass size={16} className="text-brand" />
-          <span className="text-[11px] font-semibold text-ink">Ikuti lokasi</span>
-        </div>
-      </div>
+      </svg>
+      <p className="mt-3 text-sm">
+        {vehicles.length
+          ? `${vehicles.length} angkot dengan GPS aktif`
+          : 'Belum ada angkot dengan GPS aktif.'}
+      </p>
+      <Link to="/peta" className="mt-2 block text-sm font-bold text-brand">
+        Buka peta langsung →
+      </Link>
     </div>
   )
 }
 
 export function LandingPage() {
+  const { data, error } = usePublicStatistics()
+  const metrics = [
+    {
+      value: data ? data.activeVehicles.toLocaleString('id-ID') : '—',
+      label: 'Angkot terpantau aktif',
+      tone: 'bg-leaf',
+      icon: BusFront,
+    },
+    {
+      value: data ? String(data.routeCodes) : '—',
+      label: 'Trayek terintegrasi',
+      tone: 'bg-sky',
+      icon: Route,
+    },
+    {
+      value: data
+        ? `${data.reports ? Math.round(((data.processing + data.resolved) / data.reports) * 100) : 0}%`
+        : '—',
+      label: 'Laporan ditindaklanjuti',
+      tone: 'bg-peach',
+      icon: ShieldCheck,
+    },
+  ]
+
   return (
     <>
       <section className="relative overflow-hidden border-b border-line-soft/60 bg-gradient-to-b from-canvas via-muted to-canvas">
@@ -237,12 +186,7 @@ export function LandingPage() {
         />
         <div className="container-page grid items-center gap-10 py-12 lg:grid-cols-2 lg:gap-8 lg:py-16">
           <div className="flex flex-col items-start">
-            <Badge variant="leaf" className="gap-2 py-1.5">
-              <Sparkles size={13} />
-              Sistem Informasi Transportasi Publik
-            </Badge>
-
-            <h1 className="mt-6 text-4xl leading-[1.15] font-extrabold tracking-tight text-ink-strong md:text-5xl">
+            <h1 className="text-4xl leading-[1.15] font-extrabold tracking-tight text-ink-strong md:text-5xl">
               Lacak Angkot,
               <br />
               <span className="relative inline-block text-brand">
@@ -264,8 +208,8 @@ export function LandingPage() {
             </h1>
 
             <p className="mt-6 max-w-lg text-base leading-relaxed text-ink">
-              Pantau posisi realtime, rute aktif, dan estimasi waktu tiba angkutan kota secara
-              presisi tanpa repot menunggu di jalan.
+              Pantau posisi realtime, rute aktif, dan estimasi waktu tiba
+              angkutan kota secara presisi tanpa repot menunggu di jalan.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center gap-3">
@@ -276,7 +220,7 @@ export function LandingPage() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link to="/peta?tab=rute">
+                <Link to="/peta">
                   <Route size={17} />
                   Cari Rute
                 </Link>
@@ -302,12 +246,19 @@ export function LandingPage() {
 
       <section className="border-b border-line-soft bg-surface">
         <div className="container-page grid gap-3 py-6 md:grid-cols-3">
+          {error && (
+            <p role="alert" className="text-sm">
+              Statistik belum dapat dimuat: {error.message}
+            </p>
+          )}
           {metrics.map((metric) => (
             <div
               key={metric.label}
               className="flex items-center gap-4 rounded-lg bg-muted p-3 md:bg-transparent md:p-0"
             >
-              <span className={`grid size-12 shrink-0 place-items-center rounded-lg ${metric.tone}`}>
+              <span
+                className={`grid size-12 shrink-0 place-items-center rounded-lg ${metric.tone}`}
+              >
                 <metric.icon size={20} className="text-brand-strong" />
               </span>
               <div>
@@ -329,7 +280,8 @@ export function LandingPage() {
               Dirancang untuk Mobilitas Harian Warga
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-ink">
-              Efisiensi waktu perjalanan Anda dimulai dari transparansi data armada angkutan umum.
+              Efisiensi waktu perjalanan Anda dimulai dari transparansi data
+              armada angkutan umum.
             </p>
           </div>
 
@@ -337,12 +289,16 @@ export function LandingPage() {
             {features.map((feature) => (
               <article
                 key={feature.title}
-                className="flex flex-col rounded-lg border border-line-soft bg-surface p-6 shadow-soft"
+                className="flex flex-col rounded-lg border-[0.5px] border-line-soft bg-surface p-4 shadow-card"
               >
-                <span className={`grid size-12 place-items-center rounded-lg ${feature.tone}`}>
+                <span
+                  className={`grid size-12 place-items-center rounded-lg ${feature.tone}`}
+                >
                   <feature.icon size={22} />
                 </span>
-                <h3 className="mt-4 text-lg font-bold text-ink-strong">{feature.title}</h3>
+                <h3 className="mt-4 text-lg font-bold text-ink-strong">
+                  {feature.title}
+                </h3>
                 <p className="mt-1.5 flex-1 text-sm leading-relaxed text-ink">
                   {feature.description}
                 </p>
@@ -362,12 +318,15 @@ export function LandingPage() {
       <section className="border-b border-line-soft bg-muted py-14">
         <div className="container-page">
           <div className="mx-auto max-w-xl text-center">
-            <p className="text-eyebrow text-brand-strong">Ekosistem Terintegrasi</p>
+            <p className="text-eyebrow text-brand-strong">
+              Ekosistem Terintegrasi
+            </p>
             <h2 className="mt-1 text-3xl font-bold tracking-tight text-ink-strong">
               Cara Kerja Angkot-Live
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-ink">
-              Sinergi antara pengguna jalan, pengemudi angkot, dan pengawas transportasi kota.
+              Sinergi antara pengguna jalan, pengemudi angkot, dan pengawas
+              transportasi kota.
             </p>
           </div>
 
@@ -375,7 +334,7 @@ export function LandingPage() {
             {pillars.map((pillar) => (
               <article
                 key={pillar.title}
-                className="rounded-lg border border-line-soft bg-surface p-6 shadow-soft"
+                className="rounded-lg border-[0.5px] border-line-soft bg-surface p-4 shadow-card"
               >
                 <div className="flex items-center gap-3">
                   <span
@@ -384,17 +343,27 @@ export function LandingPage() {
                     {pillar.number}
                   </span>
                   <div>
-                    <h3 className="text-base font-bold text-ink-strong">{pillar.title}</h3>
-                    <p className="text-[11px] font-medium tracking-wide text-ink-soft uppercase">
+                    <h3 className="text-base font-bold text-ink-strong">
+                      {pillar.title}
+                    </h3>
+                    <p className="text-xs font-medium tracking-wide text-ink-soft uppercase">
                       {pillar.eyebrow}
                     </p>
                   </div>
                 </div>
-                <p className="mt-4 text-sm leading-relaxed text-ink">{pillar.description}</p>
+                <p className="mt-4 text-sm leading-relaxed text-ink">
+                  {pillar.description}
+                </p>
                 <ul className="mt-4 flex flex-col gap-2.5">
                   {pillar.points.map((point) => (
-                    <li key={point} className="flex items-start gap-2 text-xs text-ink-strong">
-                      <CheckCircle2 size={14} className="mt-0.5 shrink-0 text-brand" />
+                    <li
+                      key={point}
+                      className="flex items-start gap-2 text-xs text-ink-strong"
+                    >
+                      <CheckCircle2
+                        size={14}
+                        className="mt-0.5 shrink-0 text-brand"
+                      />
                       {point}
                     </li>
                   ))}
@@ -407,19 +376,21 @@ export function LandingPage() {
 
       <section className="bg-canvas py-14">
         <div className="container-page">
-          <div className="relative flex flex-col items-start justify-between gap-6 overflow-hidden rounded-xl bg-brand-strong p-8 shadow-float md:flex-row md:items-center md:p-10">
+          <div className="relative flex flex-col items-start justify-between gap-6 overflow-hidden rounded-lg bg-brand-strong p-8 shadow-float md:flex-row md:items-center md:p-10">
             <div
               className="pointer-events-none absolute -top-16 right-24 size-80 rounded-full bg-brand/40 blur-2xl"
               aria-hidden
             />
             <div className="relative max-w-xl">
-              <p className="text-eyebrow text-brand-soft">Siap berangkat sekarang?</p>
+              <p className="text-eyebrow text-brand-soft">
+                Siap berangkat sekarang?
+              </p>
               <h2 className="mt-1 text-3xl font-bold tracking-tight text-white">
                 Jadikan Perjalanan Kota Lebih Pasti & Nyaman
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-white/80">
-                Tidak perlu lagi tebak-tebakan jadwal angkot. Akses seluruh armada dari genggaman
-                ponsel Anda.
+                Tidak perlu lagi tebak-tebakan jadwal angkot. Akses seluruh
+                armada dari genggaman ponsel Anda.
               </p>
             </div>
             <Button
@@ -440,10 +411,11 @@ export function LandingPage() {
               <MapPin size={14} className="text-brand" /> Bandung, Jawa Barat
             </span>
             <span className="inline-flex items-center gap-2">
-              <ShieldCheck size={14} className="text-brand" /> Terintegrasi data Dishub
+              <ShieldCheck size={14} className="text-brand" /> Terintegrasi data
+              Dishub
             </span>
             <span className="inline-flex items-center gap-2">
-              <Users size={14} className="text-brand" /> Digunakan warga harian
+              <Users size={14} className="text-brand" /> Untuk penumpang dan pengemudi
             </span>
           </div>
         </div>

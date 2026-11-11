@@ -20,9 +20,16 @@ export interface RouteEndstop {
   id: string
   name: string
   position: [number, number]
+  isTerminal?: boolean
 }
 
 export interface RouteInfo {
+  isActive?: boolean
+  updatedAt?: string
+  fareStandard?: number
+  fareStudent?: number
+  lengthKm?: number
+  registeredVehicles?: number
   id: string
   code: string
   name: string
@@ -38,7 +45,12 @@ export interface RouteInfo {
 }
 
 export interface Vehicle {
+  accuracy?:number
+  telemetrySource?: 'gps' | 'simulation'
   isExample?: boolean
+  stale?: boolean
+  offsetKm?: number
+  chain?: number
   id: string
   plate: string
   routeId: string
@@ -49,8 +61,8 @@ export interface Vehicle {
   position: [number, number]
   heading: number
   speedKph: number
-  etaMinutes: number
-  seatsAvailable: number
+  etaMinutes: number | null
+  seatsAvailable?: number
   driverVerified?: boolean
   lastSeenAt?: number
 }

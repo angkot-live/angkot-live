@@ -1,26 +1,30 @@
+import { toast } from 'sonner'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import {
   BusFront,
   Crosshair,
   Gauge,
-  History,
   LocateFixed,
-  MessageSquare,
   Search,
   Signal,
-  Users,
 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { MapContainer, Marker, Polyline, TileLayer, useMap } from 'react-leaflet'
-import { Link, useSearchParams } from 'react-router-dom'
-import { toast } from 'sonner'
+import {
+  MapContainer,
+  Marker,
+  Polyline,
+  TileLayer,
+  useMap,
+} from 'react-leaflet'
+import { useSearchParams } from 'react-router-dom'
 
 import { Badge, VehicleStatusBadge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { useLiveVehicles } from '@/features/tracking/use-live-vehicles'
-import { routes } from '@/mocks/data'
+import { useLiveStore } from '@/features/tracking/live-store'
+import { useRoutes } from '@/features/routes/use-routes'
 import { cn } from '@/lib/cn'
 import { distanceKm } from '@/lib/geo'
 import type { Vehicle } from '@/types'
@@ -43,8 +47,8 @@ function markerIcon(vehicle: Vehicle, selected: boolean) {
     iconAnchor: [0, 0],
     html: `
       <div style="display:flex;flex-direction:column;align-items:center;transform:translate(-50%,-100%);pointer-events:auto">
-        <span style="background:${color};color:#fff;border-radius:9999px;padding:4px 8px;font-size:10px;font-weight:700;line-height:1;box-shadow:0 4px 12px rgba(0,0,0,.22);white-space:nowrap;border:2px solid ${selected ? '#fff' : 'transparent'}">
-          ${vehicle.plate.replace('D ', '')}
+        <span style="background:${color};color:#fff;border-radius:9999px;padding:4px 8px;font-size:var(--text-caption);font-weight:700;line-height:1;box-shadow:0 4px 12px rgba(0,0,0,.22);white-space:nowrap;border:2px solid ${selected ? '#fff' : 'transparent'}">
+          ${vehicle.plate.replace('D ', '')}${vehicle.telemetrySource === 'simulation' ? ' · SIMULASI' : ''}
         </span>
         <span style="width:2px;height:6px;background:${color}"></span>
         <span style="width:7px;height:7px;border-radius:9999px;background:${color};box-shadow:0 0 0 3px rgba(255,255,255,.6)"></span>
@@ -69,27 +73,40 @@ function MapController({
 
   useEffect(() => {
     if (!positionRef.current) return
-    map.flyTo(positionRef.current, Math.max(map.getZoom(), 14), { duration: 0.6 })
+    map.flyTo(positionRef.current, Math.max(map.getZoom(), 14), {
+      duration: 0.6,
+    })
   }, [focusKey, map])
 
   return null
 }
 
 export function MonitoringPage() {
+  const { routes, error: routeError, isPending: routesPending } = useRoutes()
   const [searchParams] = useSearchParams()
-  const [selectedId, setSelectedId] = useState(searchParams.get('vehicle') ?? '')
-  const [routeFilter, setRouteFilter] = useState(searchParams.get('route') ?? 'semua')
-  const [statusFilter, setStatusFilter] = useState<'semua' | Vehicle['status']>('semua')
+  const [selectedId, setSelectedId] = useState(
+    searchParams.get('vehicle') ?? '',
+  )
+  const [routeFilter, setRouteFilter] = useState(
+    searchParams.get('route') ?? 'semua',
+  )
+  const [statusFilter, setStatusFilter] = useState<'semua' | Vehicle['status']>(
+    'semua',
+  )
   const [query, setQuery] = useState('')
   const [radiusKm, setRadiusKm] = useState(searchParams.has('vehicle') ? 15 : 5)
 
   const liveVehicles = useLiveVehicles()
+  const serverTime = useLiveStore((s) => s.serverTime)
+  const connection = useLiveStore((s) => s.connection)
 
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase()
     return liveVehicles.filter((vehicle) => {
-      const matchesRoute = routeFilter === 'semua' || vehicle.routeId === routeFilter
-      const matchesStatus = statusFilter === 'semua' || vehicle.status === statusFilter
+      const matchesRoute =
+        routeFilter === 'semua' || vehicle.routeId === routeFilter
+      const matchesStatus =
+        statusFilter === 'semua' || vehicle.status === statusFilter
       const matchesQuery =
         !term ||
         vehicle.plate.toLowerCase().includes(term) ||
@@ -100,7 +117,8 @@ export function MonitoringPage() {
     })
   }, [liveVehicles, query, radiusKm, routeFilter, statusFilter])
 
-  const selected = liveVehicles.find((vehicle) => vehicle.id === selectedId) ?? liveVehicles[0]
+  const selected =
+    liveVehicles.find((vehicle) => vehicle.id === selectedId) ?? liveVehicles[0]
 
   const counts = {
     jalan: liveVehicles.filter((item) => item.status === 'jalan').length,
@@ -111,7 +129,7 @@ export function MonitoringPage() {
 
   return (
     <div className="grid gap-3 xl:h-[calc(100svh-8rem)] xl:grid-cols-[320px_minmax(0,1fr)_340px]">
-      <aside className="order-2 flex flex-col gap-3 overflow-y-auto rounded-lg border border-line-soft bg-surface p-3 shadow-soft xl:order-1">
+      <aside className="order-2 flex flex-col gap-3 overflow-y-auto rounded-lg border-[0.5px] border-line-soft bg-surface p-3 shadow-card xl:order-1">
         <div className="flex items-center justify-between">
           <h1 className="flex items-center gap-1.5 text-sm font-bold text-ink-strong">
             <Crosshair size={15} className="text-brand" />
@@ -120,14 +138,29 @@ export function MonitoringPage() {
           <Badge variant="leaf">{liveVehicles.length} unit</Badge>
         </div>
 
+        {routesPending && (
+          <p role="status" className="text-xs">
+            Memuat trayek…
+          </p>
+        )}
+        {routeError && (
+          <p role="alert" className="text-xs text-danger">
+            {routeError.message}
+          </p>
+        )}
+        <p role="status" className="text-xs">
+          {connection === 'connected'
+            ? 'Realtime tersambung'
+            : 'Realtime terputus / menyambungkan ulang'}
+        </p>
         <div>
-          <p className="text-[10px] font-semibold text-ink">Jurusan trayek aktif</p>
+          <p className="text-xs font-semibold text-ink">Jurusan trayek aktif</p>
           <div className="mt-1.5 flex flex-wrap gap-1">
             <button
               type="button"
               onClick={() => setRouteFilter('semua')}
               className={cn(
-                'rounded-md px-2 py-1.5 text-[10px] font-bold transition',
+                'rounded-md px-2 py-1.5 text-xs font-bold transition',
                 routeFilter === 'semua'
                   ? 'bg-brand text-white'
                   : 'bg-muted text-ink hover:bg-muted-strong',
@@ -141,7 +174,7 @@ export function MonitoringPage() {
                 type="button"
                 onClick={() => setRouteFilter(route.id)}
                 className={cn(
-                  'rounded-md px-2 py-1.5 text-[10px] font-bold transition',
+                  'rounded-md px-2 py-1.5 text-xs font-bold transition',
                   routeFilter === route.id
                     ? 'bg-brand text-white'
                     : 'bg-muted text-ink hover:bg-muted-strong',
@@ -154,26 +187,44 @@ export function MonitoringPage() {
         </div>
 
         <div>
-          <p className="text-[10px] font-semibold text-ink">Status operasional</p>
+          <p className="text-xs font-semibold text-ink">Status operasional</p>
           <div className="mt-1.5 grid grid-cols-2 gap-1.5">
             {[
-              { key: 'jalan', label: 'Jalan', tone: 'bg-leaf text-brand-strong', value: counts.jalan },
-              { key: 'ngetem', label: 'Ngetem', tone: 'bg-sky text-sky-ink', value: counts.ngetem },
-              { key: 'merayap', label: 'Merayap', tone: 'bg-peach text-amber-900', value: counts.merayap },
-              { key: 'offline', label: 'Offline', tone: 'bg-muted text-ink', value: counts.offline },
+              {
+                key: 'jalan',
+                label: 'Jalan',
+                tone: 'bg-leaf text-brand-strong',
+                value: counts.jalan,
+              },
+              {
+                key: 'ngetem',
+                label: 'Ngetem',
+                tone: 'bg-sky text-sky-ink',
+                value: counts.ngetem,
+              },
+              {
+                key: 'merayap',
+                label: 'Merayap',
+                tone: 'bg-peach text-amber-900',
+                value: counts.merayap,
+              },
             ].map((item) => (
               <button
                 key={item.key}
                 type="button"
                 onClick={() =>
                   setStatusFilter(
-                    statusFilter === item.key ? 'semua' : (item.key as Vehicle['status']),
+                    statusFilter === item.key
+                      ? 'semua'
+                      : (item.key as Vehicle['status']),
                   )
                 }
                 className={cn(
-                  'flex items-center justify-between rounded-md px-2.5 py-2 text-[10px] font-semibold transition',
+                  'flex items-center justify-between rounded-md px-2.5 py-2 text-xs font-semibold transition',
                   item.tone,
-                  statusFilter === item.key ? 'ring-2 ring-brand-strong ring-offset-1' : '',
+                  statusFilter === item.key
+                    ? 'ring-2 ring-brand-strong ring-offset-1'
+                    : '',
                 )}
               >
                 {item.label}
@@ -185,8 +236,8 @@ export function MonitoringPage() {
 
         <div>
           <div className="flex items-center justify-between">
-            <p className="text-[10px] font-semibold text-ink">Radius pantauan</p>
-            <span className="text-[10px] font-bold text-brand-strong">
+            <p className="text-xs font-semibold text-ink">Radius pantauan</p>
+            <span className="text-xs font-bold text-brand-strong">
               {radiusKm.toFixed(1).replace('.', ',')} km
             </span>
           </div>
@@ -200,7 +251,7 @@ export function MonitoringPage() {
             className="mt-2 w-full accent-[#004425]"
             aria-label="Radius pantauan"
           />
-          <div className="flex justify-between text-[9px] text-ink-soft">
+          <div className="flex justify-between text-xs text-ink-soft">
             <span>0,5 km</span>
             <span>5,0 km</span>
           </div>
@@ -216,10 +267,10 @@ export function MonitoringPage() {
         />
 
         <div className="flex items-center justify-between">
-          <p className="text-[10px] font-semibold text-ink">
+          <p className="text-xs font-semibold text-ink">
             Hasil pencarian ({filtered.length})
           </p>
-          <span className="text-[9px] text-ink-soft">Urut: kecepatan</span>
+          <span className="text-xs text-ink-soft">Urut: kecepatan</span>
         </div>
 
         <div className="flex flex-col gap-1.5">
@@ -236,34 +287,41 @@ export function MonitoringPage() {
               )}
             >
               <span
-                className="grid size-8 shrink-0 place-items-center rounded-md text-[10px] font-extrabold text-white"
+                className="grid size-8 shrink-0 place-items-center rounded-md text-xs font-extrabold text-white"
                 style={{ backgroundColor: statusColor[vehicle.status] }}
               >
                 <BusFront size={14} />
               </span>
               <span className="min-w-0 flex-1">
-                <span className="block truncate text-[11px] font-bold text-ink-strong">
+                <span className="block truncate text-xs font-bold text-ink-strong">
                   {vehicle.plate}
                 </span>
-                <span className="block truncate text-[9px] text-ink">
+                {vehicle.telemetrySource === 'simulation' && (
+                  <span className="block text-xs font-semibold text-warning">
+                    Simulasi pengujian
+                  </span>
+                )}
+                <span className="block truncate text-xs text-ink">
                   {vehicle.driverName} · {vehicle.routeCode}
                 </span>
               </span>
               <span className="flex flex-col items-end">
                 <VehicleStatusBadge status={vehicle.status} />
-                <span className="text-[9px] font-semibold text-ink">
+                <span className="text-xs font-semibold text-ink">
                   {vehicle.speedKph} km/j
                 </span>
               </span>
             </button>
           ))}
           {filtered.length === 0 ? (
-            <p className="py-4 text-center text-[10px] text-ink">Tidak ada armada cocok.</p>
+            <p className="py-4 text-center text-xs text-ink">
+              Tidak ada armada cocok.
+            </p>
           ) : null}
         </div>
       </aside>
 
-      <div className="relative order-1 h-[52svh] min-h-[320px] overflow-hidden rounded-lg border border-line-soft shadow-soft xl:order-2 xl:h-full">
+      <div className="relative order-1 h-[52svh] min-h-[320px] overflow-hidden rounded-lg border-[0.5px] border-line-soft shadow-card xl:order-2 xl:h-full">
         <MapContainer
           center={center}
           zoom={13}
@@ -282,7 +340,10 @@ export function MonitoringPage() {
               pathOptions={{
                 color: route.color,
                 weight: 3,
-                opacity: routeFilter === 'semua' || routeFilter === route.id ? 0.65 : 0.12,
+                opacity:
+                  routeFilter === 'semua' || routeFilter === route.id
+                    ? 0.65
+                    : 0.12,
               }}
             />
           ))}
@@ -294,13 +355,16 @@ export function MonitoringPage() {
               eventHandlers={{ click: () => setSelectedId(vehicle.id) }}
             />
           ))}
-          <MapController position={selected?.position ?? null} focusKey={selectedId} />
+          <MapController
+            position={selected?.position ?? null}
+            focusKey={selectedId}
+          />
         </MapContainer>
 
         <div className="pointer-events-none absolute inset-x-3 top-3 z-[400] flex items-center justify-between">
           <Badge className="pointer-events-auto bg-surface/95 text-ink shadow-soft backdrop-blur">
             <span className="size-1.5 animate-pulse rounded-full bg-brand" />
-            Animasi contoh · {liveVehicles.length} angkot
+            GPS pengemudi · {liveVehicles.length} angkot
           </Badge>
           <div className="pointer-events-auto flex gap-1.5">
             <Button
@@ -308,29 +372,37 @@ export function MonitoringPage() {
               size="icon"
               className="size-9 bg-surface/95 backdrop-blur"
               aria-label="Pusatkan peta"
-              onClick={() => toast('Peta dipusatkan', { description: 'Koridor Bandung Utara' })}
+              onClick={() =>
+                toast('Peta dipusatkan', {
+                  description: 'Koridor Bandung Utara',
+                })
+              }
             >
               <LocateFixed size={15} />
             </Button>
           </div>
         </div>
 
-        <div className="pointer-events-none absolute inset-x-3 bottom-3 z-[400] flex items-center justify-between rounded-md border border-line-soft bg-surface/90 px-3 py-2 shadow-float backdrop-blur">
-          <span className="text-[10px] text-ink">
+        <div className="pointer-events-none absolute inset-x-3 bottom-3 z-[400] flex items-center justify-between rounded-md border-[0.5px] border-line-soft bg-surface/90 px-3 py-2 shadow-float backdrop-blur">
+          <span className="text-xs text-ink">
             Kecepatan rata-rata koridor:{' '}
             <strong className="text-ink-strong">24,6 km/jam</strong>
           </span>
-          <span className="hidden text-[10px] text-ink-soft sm:block">Bandung Utara</span>
+          <span className="hidden text-xs text-ink-soft sm:block">
+            Bandung Utara
+          </span>
         </div>
       </div>
 
-      <aside className="order-3 flex flex-col gap-3 overflow-y-auto rounded-lg border border-line-soft bg-surface p-3 shadow-soft">
+      <aside className="order-3 flex flex-col gap-3 overflow-y-auto rounded-lg border-[0.5px] border-line-soft bg-surface p-3 shadow-card">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-[9px] font-bold tracking-wider text-ink-soft uppercase">
+            <p className="text-xs font-bold tracking-wider text-ink-soft uppercase">
               Telemetri unit
             </p>
-            <h2 className="text-sm font-bold text-ink-strong">Detail armada terpilih</h2>
+            <h2 className="text-sm font-bold text-ink-strong">
+              Detail armada terpilih
+            </h2>
           </div>
           <Badge variant="neutral">Data contoh</Badge>
         </div>
@@ -343,9 +415,16 @@ export function MonitoringPage() {
                   <BusFront size={24} />
                 </span>
                 <div>
-                  <p className="text-base font-extrabold text-ink-strong">{selected.plate}</p>
-                  <p className="text-[10px] text-ink">{selected.driverName}</p>
-                  <p className="text-[9px] text-ink-soft">
+                  <p className="text-base font-extrabold text-ink-strong">
+                    {selected.plate}
+                  </p>
+                  <p className="text-xs text-ink">{selected.driverName}</p>
+                  {selected.telemetrySource === 'simulation' && (
+                    <p className="text-xs font-semibold text-warning">
+                      Simulasi pengujian · bukan GPS perangkat
+                    </p>
+                  )}
+                  <p className="text-xs text-ink-soft">
                     Trayek {selected.routeCode} · {selected.routeName}
                   </p>
                 </div>
@@ -353,14 +432,14 @@ export function MonitoringPage() {
             </div>
 
             <div className="grid grid-cols-2 gap-1.5">
-              <div className="rounded-md border border-line-soft p-2.5">
-                <p className="text-[9px] text-ink-soft">Status operasi</p>
+              <div className="rounded-md border-[0.5px] border-line-soft p-2.5">
+                <p className="text-xs text-ink-soft">Status operasi</p>
                 <div className="mt-1">
                   <VehicleStatusBadge status={selected.status} />
                 </div>
               </div>
-              <div className="rounded-md border border-line-soft p-2.5">
-                <p className="text-[9px] text-ink-soft">Kecepatan terkini</p>
+              <div className="rounded-md border-[0.5px] border-line-soft p-2.5">
+                <p className="text-xs text-ink-soft">Kecepatan terkini</p>
                 <p className="mt-0.5 flex items-center gap-1 text-sm font-extrabold text-ink-strong">
                   <Gauge size={12} className="text-brand" />
                   {selected.speedKph} km/j
@@ -368,72 +447,25 @@ export function MonitoringPage() {
               </div>
             </div>
 
-            <div className="rounded-md border border-brand/20 bg-leaf/50 p-2.5">
-              <p className="flex items-center gap-1 text-[10px] font-semibold text-brand-strong">
+            <div className="rounded-md border-[0.5px] border-brand/20 bg-leaf/50 p-2.5">
+              <p className="flex items-center gap-1 text-xs font-semibold text-brand-strong">
                 <Signal size={12} />
-                Sinyal GPS optimal
+                {selected.stale
+                  ? 'GPS tertunda'
+                  : selected.telemetrySource === 'simulation'
+                    ? 'Sampel simulasi pengujian'
+                    : 'Sampel GPS terbaru'}
               </p>
-              <p className="mt-0.5 text-[9px] text-ink">
-                Update terakhir: 2 detik lalu · Akurasi ±3 meter
+              <p className="mt-0.5 text-xs text-ink">
+                Update terakhir:{' '}
+                {selected.lastSeenAt
+                  ? `${Math.max(0, Math.round((serverTime - selected.lastSeenAt) / 1000))} detik lalu`
+                  : 'belum tersedia'}{' '}
+                ·{' '}
+                {selected.accuracy
+                  ? `Akurasi ±${Math.round(selected.accuracy)} meter`
+                  : 'Akurasi belum tersedia'}
               </p>
-            </div>
-
-            <div className="rounded-md border border-line-soft p-2.5">
-              <div className="flex items-center justify-between">
-                <p className="text-[10px] font-semibold text-ink">Permintaan penumpang</p>
-                <Badge variant="sky">Potensi tinggi</Badge>
-              </div>
-              <p className="mt-2 flex items-center gap-2 text-[11px] font-bold text-ink-strong">
-                <Users size={16} className="text-brand" />
-                3 calon penumpang terdeteksi
-              </p>
-              <p className="text-[9px] text-ink">Menunggu di halte sekitar radius 300 m.</p>
-            </div>
-
-            <div className="rounded-md border border-line-soft p-2.5">
-              <div className="flex items-center justify-between text-[9px]">
-                <span className="font-semibold text-ink">Progres trayek aktif</span>
-                <span className="font-bold text-brand-strong">Rit ke-4 · 65%</span>
-              </div>
-              <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-muted">
-                <div className="h-full w-[65%] rounded-full bg-brand" />
-              </div>
-              <div className="mt-1.5 flex justify-between text-[8px] text-ink-soft">
-                <span>Stasiun Hall</span>
-                <span>Jl. Merdeka</span>
-                <span>Dago</span>
-              </div>
-            </div>
-
-            <div className="rounded-md border border-line-soft p-2.5">
-              <p className="text-[9px] font-semibold text-ink">Identifikasi teknis</p>
-              <div className="mt-1.5 grid grid-cols-2 gap-1.5 text-[9px]">
-                <div>
-                  <p className="text-ink-soft">Merk / model</p>
-                  <p className="font-semibold text-ink-strong">Suzuki Carry 2021</p>
-                </div>
-                <div>
-                  <p className="text-ink-soft">Kapasitas</p>
-                  <p className="font-semibold text-ink-strong">12 penumpang</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-auto flex flex-col gap-1.5">
-              <Button size="sm" asChild>
-                <Link to="/admin/pesan">
-                  <MessageSquare size={13} />
-                  Kirim pesan ke pengemudi
-                </Link>
-              </Button>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => toast.info('Riwayat perjalanan dibuka')}
-              >
-                <History size={13} />
-                Lihat riwayat perjalanan
-              </Button>
             </div>
           </>
         ) : (

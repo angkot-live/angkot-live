@@ -44,17 +44,17 @@ export function CustomPlaceControls({
           setEditing(!editing)
         }}>Input koordinat {label}</Button>
       </div>
-      {place ? <p className="text-[11px] text-ink-soft">Koordinat {label}: {coordinateLabel(place.position)}</p> : null}
+      {place ? <p className="text-xs text-ink-soft">Koordinat {label}: {coordinateLabel(place.position)}</p> : null}
       {editing ? (
-        <div className="space-y-2 rounded-md border border-line-soft bg-muted/50 p-2.5" onKeyDown={(event) => {
+        <div className="space-y-2 rounded-md border-[0.5px] border-line-soft bg-muted/50 p-2.5" onKeyDown={(event) => {
           if (event.key === 'Enter') { event.preventDefault(); apply() }
         }}>
           <div className="grid grid-cols-2 gap-2">
-            <label className="space-y-1 text-[11px] font-semibold">
+            <label className="space-y-1 text-xs font-semibold">
               <span>Latitude {label}</span>
               <Input inputMode="decimal" value={latitude} onChange={(event) => setLatitude(event.target.value)} placeholder="-6.871300" invalid={Boolean(error)} />
             </label>
-            <label className="space-y-1 text-[11px] font-semibold">
+            <label className="space-y-1 text-xs font-semibold">
               <span>Longitude {label}</span>
               <Input inputMode="decimal" value={longitude} onChange={(event) => setLongitude(event.target.value)} placeholder="107.580400" invalid={Boolean(error)} />
             </label>

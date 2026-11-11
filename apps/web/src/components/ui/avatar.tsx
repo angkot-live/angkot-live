@@ -8,7 +8,7 @@ interface AvatarProps {
 }
 
 const sizes = {
-  sm: 'size-8 text-[11px]',
+  sm: 'size-8 text-xs',
   md: 'size-10 text-xs',
   lg: 'size-14 text-base',
 }

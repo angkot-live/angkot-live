@@ -1,0 +1,1712 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Angkot-Live API",
+    "version": "0.5.0"
+  },
+  "servers": [
+    {
+      "url": "/api"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "operationId": "get_health",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        }
+      }
+    },
+    "/auth/register": {
+      "post": {
+        "operationId": "post_auth_register",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Register"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/login": {
+      "post": {
+        "operationId": "post_auth_login",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/refresh": {
+      "post": {
+        "operationId": "post_auth_refresh",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/auth/recover": {
+      "post": {
+        "operationId": "post_auth_recover",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/routes": {
+      "get": {
+        "operationId": "get_routes",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        }
+      }
+    },
+    "/routes/{id}": {
+      "get": {
+        "operationId": "get_routes_id",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/vehicles": {
+      "get": {
+        "operationId": "get_vehicles",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        }
+      }
+    },
+    "/search/route": {
+      "get": {
+        "operationId": "get_search_route",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "parameters": [
+          {
+            "name": "from",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "-6.9,107.6"
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "-6.9,107.6"
+          }
+        ],
+        "description": "Canonical directed direct recommendations: route, board, alight, rideKm, minutes, chain, boardOffsetKm and alightOffsetKm. Disconnected chains are never joined."
+      }
+    },
+    "/stats/public": {
+      "get": {
+        "operationId": "get_stats_public",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        }
+      }
+    },
+    "/auth/logout": {
+      "post": {
+        "operationId": "post_auth_logout",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/me": {
+      "get": {
+        "operationId": "get_me",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "patch": {
+        "operationId": "patch_me",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driver/onboarding": {
+      "get": {
+        "operationId": "get_driver_onboarding",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "patch": {
+        "operationId": "patch_driver_onboarding",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driver/assignment": {
+      "get": {
+        "operationId": "get_driver_assignment",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/driver/verification": {
+      "get": {
+        "operationId": "get_driver_verification",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/driver/submissions": {
+      "post": {
+        "operationId": "post_driver_submissions",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driver/duty": {
+      "get": {
+        "operationId": "get_driver_duty",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "post": {
+        "operationId": "post_driver_duty",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Duty"
+              }
+            }
+          }
+        }
+      },
+      "patch": {
+        "operationId": "patch_driver_duty",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Duty"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driver/requests/respond": {
+      "post": {
+        "operationId": "post_driver_requests_respond",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/passenger/requests": {
+      "post": {
+        "operationId": "post_passenger_requests",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Megat"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/passenger/requests/current": {
+      "get": {
+        "operationId": "get_passenger_requests_current",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/passenger/requests/cancel": {
+      "post": {
+        "operationId": "post_passenger_requests_cancel",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/passenger/trips": {
+      "get": {
+        "operationId": "get_passenger_trips",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "post": {
+        "operationId": "post_passenger_trips",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/passenger/trips/active": {
+      "get": {
+        "operationId": "get_passenger_trips_active",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/passenger/trips/complete": {
+      "post": {
+        "operationId": "post_passenger_trips_complete",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/reports": {
+      "get": {
+        "operationId": "get_reports",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "post": {
+        "operationId": "post_reports",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/admin/reports": {
+      "get": {
+        "operationId": "get_admin_reports",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      },
+      "patch": {
+        "operationId": "patch_admin_reports",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "description": "Admin-only. id, status, response, expectedStatus, key. Urutan diterima \u2192 diproses \u2192 selesai; 409 untuk versi status lama. Retry key sama mengembalikan hasil yang tersimpan tanpa duplikasi timeline/notifikasi."
+      }
+    },
+    "/admin/drivers": {
+      "get": {
+        "operationId": "get_admin_drivers",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/drivers/verify": {
+      "patch": {
+        "operationId": "patch_admin_drivers_verify",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driver/dashboard": {
+      "get": {
+        "operationId": "get_driver_dashboard",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/uploads": {
+      "post": {
+        "operationId": "post_uploads",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "file",
+                  "type"
+                ],
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "sim",
+                      "stnk",
+                      "kir",
+                      "foto_kendaraan",
+                      "ktp",
+                      "evidence"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/documents/url": {
+      "post": {
+        "operationId": "post_documents_url",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/messages": {
+      "get": {
+        "operationId": "get_messages",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/messages/read": {
+      "post": {
+        "operationId": "post_messages_read",
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation or lifecycle error"
+          },
+          "401": {
+            "description": "Missing or expired session"
+          },
+          "403": {
+            "description": "Role or origin denied"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/demo/config": {
+      "get": {
+        "operationId": "get_local_demo_config",
+        "description": "Enabled only with ENABLE_DEMO_LOGIN=true against loopback Supabase. Returns public local demo accounts; login still uses Auth password flow.",
+        "responses": {
+          "200": {
+            "description": "Local demo account selector"
+          },
+          "404": {
+            "description": "Demo disabled or Supabase is not local"
+          }
+        }
+      }
+    },
+    "/admin/routes": {
+      "get": {
+        "operationId": "get_admin_routes",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation failed"
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Admin role required"
+          },
+          "409": {
+            "description": "Version conflict, active trip or referenced history prevents mutation"
+          }
+        }
+      },
+      "post": {
+        "operationId": "post_admin_routes",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation failed"
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Admin role required"
+          },
+          "409": {
+            "description": "Version conflict, active trip or referenced history prevents mutation"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Route"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/admin/routes/{id}": {
+      "get": {
+        "operationId": "get_admin_routes_id",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation failed"
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Admin role required"
+          },
+          "409": {
+            "description": "Version conflict, active trip or referenced history prevents mutation"
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "patch": {
+        "operationId": "patch_admin_routes_id",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation failed"
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Admin role required"
+          },
+          "409": {
+            "description": "Version conflict, active trip or referenced history prevents mutation"
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Route"
+              }
+            }
+          }
+        },
+        "description": "Requires updatedAt from the latest route DTO. Geometry/status changes stop duties and waiting requests. Active trips prevent geometry changes."
+      },
+      "delete": {
+        "operationId": "delete_admin_routes_id",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation failed"
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Admin role required"
+          },
+          "409": {
+            "description": "Version conflict, active trip or referenced history prevents mutation"
+          }
+        },
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "updatedAt"
+                ],
+                "properties": {
+                  "updatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/admin/dashboard": {
+      "get": {
+        "operationId": "get_admin_dashboard",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful JSON response"
+          },
+          "400": {
+            "description": "Validation failed"
+          },
+          "401": {
+            "description": "Authentication required"
+          },
+          "403": {
+            "description": "Admin role required"
+          },
+          "409": {
+            "description": "Version conflict, active trip or referenced history prevents mutation"
+          }
+        }
+      }
+    },
+    "/tracking/config": {
+      "get": {
+        "operationId": "get_tracking_config",
+        "summary": "Local tracking thresholds and opt-in simulator capability",
+        "responses": {
+          "200": {
+            "description": "publishMs, staleMs, removeMs, dutyTimeoutMs, maxAccuracy, simulationEnabled"
+          }
+        }
+      }
+    },
+    "/preferences": {
+      "get": {
+        "operationId": "get_preferences",
+        "summary": "Preferensi notifikasi laporan milik penumpang yang login",
+        "responses": {
+          "200": {
+            "description": "report_updates boolean; updated_at timestamp"
+          },
+          "401": {
+            "description": "Sesi diperlukan"
+          },
+          "400": {
+            "description": "Role penumpang diperlukan"
+          }
+        }
+      },
+      "patch": {
+        "operationId": "update_preferences",
+        "summary": "Simpan report_updates boolean; pengaturan lain ditolak",
+        "responses": {
+          "200": {
+            "description": "Preferensi persisten"
+          },
+          "400": {
+            "description": "Payload/role tidak valid"
+          },
+          "401": {
+            "description": "Sesi diperlukan"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "report_updates"
+                ],
+                "properties": {
+                  "report_updates": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    },
+    "schemas": {
+      "GPS": {
+        "type": "object",
+        "required": [
+          "position",
+          "accuracy",
+          "sampledAt"
+        ],
+        "properties": {
+          "position": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "accuracy": {
+            "type": "number",
+            "minimum": 0,
+            "exclusiveMinimum": true,
+            "maximum": 50
+          },
+          "sampledAt": {
+            "type": "integer",
+            "description": "Unix milliseconds, at most 15 seconds old"
+          }
+        }
+      },
+      "Duty": {
+        "type": "object",
+        "required": [
+          "mode",
+          "session"
+        ],
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": [
+              "narik",
+              "ngetem",
+              "istirahat",
+              "offline"
+            ]
+          },
+          "session": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 100
+          },
+          "telemetrySource": {
+            "type": "string",
+            "enum": [
+              "gps",
+              "simulation"
+            ],
+            "default": "gps",
+            "description": "Sumber posisi. simulation hanya diterima ketika demo Supabase lokal aktif."
+          }
+        }
+      },
+      "Megat": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/GPS"
+          },
+          {
+            "type": "object",
+            "required": [
+              "routeId",
+              "destination",
+              "key"
+            ],
+            "properties": {
+              "routeId": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              },
+              "key": {
+                "type": "string"
+              }
+            }
+          }
+        ]
+      },
+      "Register": {
+        "type": "object",
+        "required": [
+          "name",
+          "email",
+          "phone",
+          "password",
+          "role"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        }
+      },
+      "Route": {
+        "type": "object",
+        "required": [
+          "code",
+          "name",
+          "origin",
+          "destination",
+          "color",
+          "segments"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "origin": {
+            "type": "string"
+          },
+          "destination": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "segments": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {
+                  "type": "number"
+                },
+                "description": "[latitude, longitude]"
+              }
+            }
+          },
+          "endstops": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "position"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "position": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": {
+                    "type": "number"
+                  },
+                  "description": "[latitude, longitude]"
+                },
+                "isTerminal": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "fareStandard": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "fareStudent": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  },
+  "x-tracking": {
+    "publishMs": 3000,
+    "staleMs": 15000,
+    "removeMs": 30000,
+    "dutyTimeoutMs": 60000,
+    "snapshotMs": 1000,
+    "browserWatchdogMs": 8000,
+    "telemetrySource": [
+      "gps",
+      "simulation"
+    ],
+    "simulator": "Only explicit demo mode with loopback Supabase. Approval, duty/session, rate and GPS validation still apply. Vehicle and history retain provenance. GPS remains the default.",
+    "websocketAck": "type=ack, id, serverTime, sampledAt. Errors preserve the request id.",
+    "jwtRefresh": "Browser reconnects with fresh Auth token. Expiry of an old socket cannot stop a newer authenticated publisher."
+  },
+  "x-demo-completion": {
+    "tripFare": "Snapshot routes.fare_standard at first boarding, stable on retry.",
+    "tripProvenance": "passenger_trips.telemetry_source preserves gps/simulation.",
+    "reportEvidence": "Owner and Storage object existence required; up to five objects.",
+    "notifications": "kind=report and related_report_id. report_updates preference controls future messages only.",
+    "privateFiles": "Signed URL 120s; no API/Auth/Storage/token caching in service worker."
+  }
+}

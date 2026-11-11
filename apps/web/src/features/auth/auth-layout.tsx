@@ -12,7 +12,7 @@ const highlights = [
 
 function TransitScene() {
   return (
-    <div className="relative rounded-lg border border-white/70 bg-white/80 p-4 shadow-soft backdrop-blur">
+    <div className="relative rounded-lg border border-white/70 bg-white/80 p-4 shadow-card backdrop-blur">
       <div className="relative h-40 overflow-hidden rounded-md bg-muted">
         <svg viewBox="0 0 400 160" className="absolute inset-0 size-full" aria-hidden>
           <defs>
@@ -45,19 +45,19 @@ function TransitScene() {
             opacity="0.5"
           />
         </svg>
-        <span className="absolute top-4 left-5 rounded-full bg-brand-strong px-2.5 py-1 text-[10px] font-bold text-white shadow-float">
+        <span className="absolute top-4 left-5 rounded-full bg-brand-strong px-2.5 py-1 text-xs font-bold text-white shadow-float">
           08
         </span>
-        <span className="absolute top-14 right-10 rounded-full bg-sky-ink px-2.5 py-1 text-[10px] font-bold text-white shadow-float">
+        <span className="absolute top-14 right-10 rounded-full bg-sky-ink px-2.5 py-1 text-xs font-bold text-white shadow-float">
           05
         </span>
-        <span className="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full bg-white px-2.5 py-1 text-[10px] font-bold text-ink-strong shadow-float">
+        <span className="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full bg-white px-2.5 py-1 text-xs font-bold text-ink-strong shadow-float">
           02
         </span>
       </div>
       <div className="mt-3 flex items-center justify-between rounded-md bg-leaf px-3 py-2">
         <div>
-          <p className="text-[10px] font-medium text-brand-strong/70">Angkot 08 menuju Dago</p>
+          <p className="text-xs font-medium text-brand-strong/70">Angkot 08 menuju Dago</p>
           <p className="text-xs font-bold text-brand-strong">Tiba 3 menit lagi</p>
         </div>
         <Sparkles size={16} className="text-brand" />
@@ -69,7 +69,7 @@ function TransitScene() {
 export function AuthLayout({ children }: { children: ReactNode }) {
   return (
     <div className="flex min-h-svh items-center justify-center bg-canvas px-4 py-8 md:px-8 md:py-12">
-      <div className="grid w-full max-w-6xl overflow-hidden rounded-xl border border-line-soft bg-surface shadow-float lg:grid-cols-2">
+      <div className="grid w-full max-w-6xl overflow-hidden rounded-lg border-[0.5px] border-line-soft bg-surface shadow-float lg:grid-cols-2">
         <section className="relative hidden flex-col justify-between overflow-hidden bg-gradient-to-br from-leaf via-muted to-line-soft p-10 lg:flex xl:p-14">
           <svg className="absolute inset-0 size-full opacity-20" aria-hidden>
             <defs>
@@ -93,7 +93,7 @@ export function AuthLayout({ children }: { children: ReactNode }) {
               <Logo />
             </div>
             <div className="pt-3">
-              <h1 className="max-w-md text-[28px] leading-[1.25] font-extrabold tracking-tight text-brand-strong">
+              <h1 className="max-w-md text-h2 leading-[1.25] font-extrabold tracking-tight text-brand-strong">
                 Tahu angkot kamu di mana,
                 <br />
                 kapan tiba.
@@ -113,7 +113,7 @@ export function AuthLayout({ children }: { children: ReactNode }) {
             {highlights.map((item) => (
               <li
                 key={item.label}
-                className="inline-flex items-center gap-2 rounded-md bg-white/70 px-2.5 py-2 text-[11px] font-semibold text-ink-strong backdrop-blur"
+                className="inline-flex items-center gap-2 rounded-md bg-white/70 px-2.5 py-2 text-xs font-semibold text-ink-strong backdrop-blur"
               >
                 <span className={`grid size-6 place-items-center rounded ${item.tone}`}>
                   <item.icon size={13} className="text-brand-strong" />
@@ -134,7 +134,7 @@ export function AuthLayout({ children }: { children: ReactNode }) {
         </section>
       </div>
 
-      <p className="fixed inset-x-0 bottom-3 text-center text-[11px] text-ink-soft">
+      <p className="fixed inset-x-0 bottom-3 text-center text-xs text-ink-soft">
         © 2026 Angkot-Live · <Link to="/bantuan" className="hover:text-ink">Bantuan</Link> ·{' '}
         <Link to="/bantuan" className="hover:text-ink">Privasi</Link>
       </p>

@@ -1,1 +1,9 @@
 opencode.json
+.env
+.env.*
+!**/.env.example
+apps/api/angkot-api
+node_modules/
+supabase/.temp/
+supabase/.branches/
+.local/

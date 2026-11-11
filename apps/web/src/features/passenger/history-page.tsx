@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import { trips } from '@/mocks/passenger'
+import { useTrips } from '@/features/trips/use-trips'
 import { cn } from '@/lib/cn'
 
 const filters = [
@@ -43,20 +43,30 @@ function formatTime(value: string) {
 }
 
 export function HistoryPage() {
+  const { trips, error, isPending } = useTrips()
   const [filter, setFilter] = useState<Filter>('semua')
   const [expandedId, setExpandedId] = useState<string | null>(null)
 
   const filtered = useMemo(
     () => trips.filter((trip) => filter === 'semua' || trip.status === filter),
-    [filter],
+    [filter, trips],
   )
 
   const completed = trips.filter((trip) => trip.status === 'selesai')
-  const totalDistance = completed.reduce((total, trip) => total + trip.distanceKm, 0)
+  const totalDistance = completed.reduce(
+    (total, trip) => total + trip.distanceKm,
+    0,
+  )
   const totalFare = completed.reduce((total, trip) => total + trip.fare, 0)
 
   return (
     <div className="container-page py-6 md:py-10">
+      {isPending && <p role="status">Memuat riwayat perjalanan…</p>}
+      {error && (
+        <p role="alert" className="text-danger">
+          {error.message}
+        </p>
+      )}
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
           <p className="text-eyebrow text-brand">Aktivitas</p>
@@ -85,7 +95,11 @@ export function HistoryPage() {
 
       <div className="mt-6 grid gap-3 sm:grid-cols-3">
         {[
-          { label: 'Perjalanan selesai', value: completed.length.toString(), icon: Route },
+          {
+            label: 'Perjalanan selesai',
+            value: completed.length.toString(),
+            icon: Route,
+          },
           {
             label: 'Total jarak',
             value: `${totalDistance.toFixed(1)} km`,
@@ -103,8 +117,10 @@ export function HistoryPage() {
                 <stat.icon size={16} />
               </span>
               <div>
-                <p className="text-lg leading-none font-extrabold text-ink-strong">{stat.value}</p>
-                <p className="mt-1 text-[11px] text-ink">{stat.label}</p>
+                <p className="text-lg leading-none font-extrabold text-ink-strong">
+                  {stat.value}
+                </p>
+                <p className="mt-1 text-xs text-ink">{stat.label}</p>
               </div>
             </CardContent>
           </Card>
@@ -146,105 +162,137 @@ export function HistoryPage() {
           ]
 
           return (
-          <Card key={trip.id}>
-            <CardContent className="p-4 md:p-5">
-              <div className="flex flex-wrap items-start justify-between gap-2">
-                <div className="flex items-start gap-3">
-                  <span className="grid size-10 shrink-0 place-items-center rounded-md bg-brand-strong text-xs font-extrabold text-white">
-                    {trip.routeCode}
+            <Card key={trip.id}>
+              <CardContent className="p-4 md:p-5">
+                <div className="flex flex-wrap items-start justify-between gap-2">
+                  <div className="flex items-start gap-3">
+                    <span className="grid size-10 shrink-0 place-items-center rounded-md bg-brand-strong text-xs font-extrabold text-white">
+                      {trip.routeCode}
+                    </span>
+                    <div>
+                      <p className="text-sm font-bold text-ink-strong">
+                        {trip.routeName}
+                      </p>
+                      {trip.telemetrySource === 'simulation' && (
+                        <p className="text-xs text-warning">
+                          Perjalanan simulasi pengujian
+                        </p>
+                      )}
+                      <p className="text-xs text-ink">
+                        {trip.from} → {trip.to}
+                      </p>
+                      <p className="mt-0.5 flex items-center gap-1 text-xs text-ink-soft">
+                        <CalendarDays size={11} />
+                        {formatDate(trip.date)} · {formatTime(trip.date)}
+                      </p>
+                    </div>
+                  </div>
+                  <Badge
+                    variant={trip.status === 'selesai' ? 'leaf' : 'neutral'}
+                  >
+                    {trip.status === 'selesai' ? 'Selesai' : 'Dibatalkan'}
+                  </Badge>
+                </div>
+
+                <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line-soft pt-3 text-xs text-ink">
+                  <span className="flex items-center gap-1.5">
+                    <Clock3 size={12} className="text-brand" />
+                    {trip.status === 'selesai'
+                      ? `${trip.durationMinutes} menit`
+                      : 'Tidak berjalan'}
                   </span>
-                  <div>
-                    <p className="text-sm font-bold text-ink-strong">{trip.routeName}</p>
-                    <p className="text-[11px] text-ink">
-                      {trip.from} → {trip.to}
-                    </p>
-                    <p className="mt-0.5 flex items-center gap-1 text-[10px] text-ink-soft">
-                      <CalendarDays size={11} />
-                      {formatDate(trip.date)} · {formatTime(trip.date)}
-                    </p>
-                  </div>
+                  <span className="flex items-center gap-1.5">
+                    <Footprints size={12} className="text-brand" />
+                    {trip.distanceKm.toFixed(1)} km
+                  </span>
+                  <span className="flex items-center gap-1.5">
+                    <Wallet size={12} className="text-brand" />
+                    Rp {trip.fare.toLocaleString('id-ID')}
+                  </span>
+                  <span className="ml-auto text-ink-soft">{trip.code}</span>
                 </div>
-                <Badge variant={trip.status === 'selesai' ? 'leaf' : 'neutral'}>
-                  {trip.status === 'selesai' ? 'Selesai' : 'Dibatalkan'}
-                </Badge>
-              </div>
 
-              <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line-soft pt-3 text-[11px] text-ink">
-                <span className="flex items-center gap-1.5">
-                  <Clock3 size={12} className="text-brand" />
-                  {trip.status === 'selesai' ? `${trip.durationMinutes} menit` : 'Tidak berjalan'}
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <Footprints size={12} className="text-brand" />
-                  {trip.distanceKm.toFixed(1)} km
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <Wallet size={12} className="text-brand" />
-                  Rp {trip.fare.toLocaleString('id-ID')}
-                </span>
-                <span className="ml-auto text-ink-soft">{trip.code}</span>
-              </div>
-
-              {expanded ? (
-                <div className="mt-3 rounded-md border border-line-soft bg-muted/40 p-3">
-                  <p className="text-[10px] font-semibold text-ink-strong">Rincian perjalanan</p>
-                  <div className="mt-2 flex flex-col gap-2">
-                    {legs.map((leg, index) => (
-                      <div
-                        key={`${leg.routeCode}-${index}`}
-                        className="flex flex-wrap items-start gap-2 rounded-md bg-surface p-2.5"
-                      >
-                        <span className="grid size-7 shrink-0 place-items-center rounded bg-brand-strong text-[10px] font-extrabold text-white">
-                          {leg.routeCode}
-                        </span>
-                        <div className="min-w-0 flex-1">
-                          <p className="text-[11px] font-semibold text-ink-strong">
-                            {leg.routeName}
-                          </p>
-                          <p className="text-[10px] text-ink">
-                            Naik di {leg.boardAt} -&gt; turun di {leg.alightAt}
-                          </p>
+                {expanded ? (
+                  <div className="mt-3 rounded-md border-[0.5px] border-line-soft bg-muted/40 p-3">
+                    <p className="text-xs font-semibold text-ink-strong">
+                      Rincian perjalanan
+                    </p>
+                    <div className="mt-2 flex flex-col gap-2">
+                      {legs.map((leg, index) => (
+                        <div
+                          key={`${leg.routeCode}-${index}`}
+                          className="flex flex-wrap items-start gap-2 rounded-md bg-surface p-2.5"
+                        >
+                          <span className="grid size-7 shrink-0 place-items-center rounded bg-brand-strong text-xs font-extrabold text-white">
+                            {leg.routeCode}
+                          </span>
+                          <div className="min-w-0 flex-1">
+                            <p className="text-xs font-semibold text-ink-strong">
+                              {leg.routeName}
+                            </p>
+                            <p className="text-xs text-ink">
+                              Naik di {leg.boardAt} -&gt; turun di{' '}
+                              {leg.alightAt}
+                            </p>
+                          </div>
+                          <div className="text-right text-xs text-ink">
+                            <p className="font-semibold text-ink-strong">
+                              {leg.durationMinutes} menit
+                            </p>
+                            <p>Rp {leg.fare.toLocaleString('id-ID')}</p>
+                          </div>
                         </div>
-                        <div className="text-right text-[10px] text-ink">
-                          <p className="font-semibold text-ink-strong">
-                            {leg.durationMinutes} menit
-                          </p>
-                          <p>Rp {leg.fare.toLocaleString('id-ID')}</p>
-                        </div>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ) : null}
+                ) : null}
 
-              <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
-                <Button
-                  size="sm"
-                  variant="ghost"
-                  onClick={() => setExpandedId(expanded ? null : trip.id)}
-                >
-                  {expanded ? <ChevronUp size={13} /> : <ChevronDown size={13} />}
-                  {expanded ? 'Tutup detail' : 'Detail perjalanan'}
-                </Button>
-                <Button size="sm" variant="ghost" asChild>
-                  <Link to="/penumpang/lapor">
-                    Laporkan perjalanan ini
-                    <ArrowRight size={13} />
-                  </Link>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+                <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
+                  <Button
+                    size="sm"
+                    variant="ghost"
+                    onClick={() => setExpandedId(expanded ? null : trip.id)}
+                  >
+                    {expanded ? (
+                      <ChevronUp size={13} />
+                    ) : (
+                      <ChevronDown size={13} />
+                    )}
+                    {expanded ? 'Tutup detail' : 'Detail perjalanan'}
+                  </Button>
+                  <Button size="sm" variant="ghost" asChild>
+                    <Link
+                      to={
+                        trip.vehicleId
+                          ? `/penumpang/lapor?vehicle=${trip.vehicleId}`
+                          : '/penumpang/lapor'
+                      }
+                    >
+                      Laporkan perjalanan ini
+                      <ArrowRight size={13} />
+                    </Link>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
           )
         })}
 
-        {filtered.length === 0 ? (
+        {!isPending && !error && filtered.length === 0 ? (
           <Card>
             <CardContent className="flex flex-col items-center gap-2 p-8 text-center">
               <Route size={26} className="text-ink-soft" />
-              <p className="text-sm font-semibold text-ink-strong">Belum ada perjalanan</p>
-              <p className="text-xs text-ink">Coba pilih filter lain atau mulai naik angkot.</p>
-              <Button size="sm" variant="outline" onClick={() => setFilter('semua')}>
+              <p className="text-sm font-semibold text-ink-strong">
+                Belum ada perjalanan
+              </p>
+              <p className="text-xs text-ink">
+                Coba pilih filter lain atau mulai naik angkot.
+              </p>
+              <Button
+                size="sm"
+                variant="outline"
+                onClick={() => setFilter('semua')}
+              >
                 Reset filter
               </Button>
             </CardContent>

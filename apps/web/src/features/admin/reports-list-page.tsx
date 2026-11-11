@@ -65,6 +65,8 @@ function formatDate(value: string) {
 
 export function ReportsListPage() {
   const reports = useReportStore((state) => state.reports)
+  const loaded=useReportStore(s=>s.loaded)
+  const loadError = useReportStore((state) => state.error)
   const [status, setStatus] = useState<ReportStatus | 'semua'>('semua')
   const [category, setCategory] = useState<ReportCategory | 'semua'>('semua')
   const [query, setQuery] = useState('')
@@ -88,7 +90,9 @@ export function ReportsListPage() {
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <p className="text-eyebrow text-brand">Pusat pengaduan masyarakat</p>
-          <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-ink-strong md:text-3xl">
+          {!loaded&&!loadError&&<p role="status">Memuat laporan…</p>}
+      {loadError && <p role="alert" className="text-danger">{loadError}</p>}
+        <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-ink-strong md:text-3xl">
             Daftar laporan penumpang
           </h1>
           <p className="mt-1 max-w-2xl text-sm text-ink">
@@ -144,7 +148,7 @@ export function ReportsListPage() {
           <Card key={stat.label}>
             <CardContent className="p-4">
               <div className="flex items-start justify-between">
-                <p className="text-[11px] font-semibold text-ink">{stat.label}</p>
+                <p className="text-xs font-semibold text-ink">{stat.label}</p>
                 <span className={cn('grid size-8 place-items-center rounded-md', stat.tone)}>
                   <stat.icon size={15} />
                 </span>
@@ -152,7 +156,7 @@ export function ReportsListPage() {
               <p className="mt-2 text-2xl leading-none font-extrabold text-ink-strong">
                 {stat.value}
               </p>
-              <p className="mt-1 text-[10px] text-ink-soft">{stat.note}</p>
+              <p className="mt-1 text-xs text-ink-soft">{stat.note}</p>
             </CardContent>
           </Card>
         ))}
@@ -167,7 +171,7 @@ export function ReportsListPage() {
                 type="button"
                 onClick={() => setStatus(item.value)}
                 className={cn(
-                  'rounded-md px-3 py-2 text-[11px] font-semibold transition',
+                  'rounded-md px-3 py-2 text-xs font-semibold transition',
                   status === item.value
                     ? 'bg-brand-strong text-white'
                     : 'text-ink hover:bg-muted',
@@ -192,7 +196,7 @@ export function ReportsListPage() {
                     setCategory(event.target.value as ReportCategory | 'semua')
                   }
                   aria-label="Filter kategori"
-                  className="h-9 appearance-none rounded-md border border-line bg-surface pr-8 pl-3 text-xs font-semibold text-ink-strong outline-none focus:border-brand"
+                  className="h-9 appearance-none rounded-md border-[0.5px] border-line bg-surface pr-8 pl-3 text-xs font-semibold text-ink-strong outline-none focus:border-brand"
                 >
                   <option value="semua">Semua kategori</option>
                   <option value="pengemudi">Perilaku pengemudi</option>
@@ -215,17 +219,17 @@ export function ReportsListPage() {
               return (
                 <div
                   key={report.id}
-                  className="grid gap-2 rounded-md border border-line-soft p-3 transition hover:border-brand/40 hover:bg-muted/30 lg:grid-cols-[110px_1fr_150px_130px_150px_90px] lg:items-center"
+                  className="grid gap-2 rounded-md border-[0.5px] border-line-soft p-3 transition hover:border-brand/40 hover:bg-muted/30 lg:grid-cols-[110px_1fr_150px_130px_150px_90px] lg:items-center"
                 >
                   <div>
-                    <p className="text-[10px] text-ink-soft">Kode</p>
+                    <p className="text-xs text-ink-soft">Kode</p>
                     <p className="text-xs font-extrabold text-brand-strong">{report.code}</p>
                   </div>
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-1.5">
                       <span
                         className={cn(
-                          'inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[9px] font-bold',
+                          'inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-bold',
                           cat.className,
                         )}
                       >
@@ -237,21 +241,21 @@ export function ReportsListPage() {
                     <p className="mt-1 truncate text-xs font-bold text-ink-strong">
                       {report.subject}
                     </p>
-                    <p className="truncate text-[10px] text-ink">{report.description}</p>
+                    <p className="truncate text-xs text-ink">{report.description}</p>
                   </div>
                   <div>
-                    <p className="text-[10px] text-ink-soft">Kendaraan / trayek</p>
-                    <p className="flex items-center gap-1 text-[11px] font-semibold text-ink-strong">
+                    <p className="text-xs text-ink-soft">Kendaraan / trayek</p>
+                    <p className="flex items-center gap-1 text-xs font-semibold text-ink-strong">
                       <BusFront size={11} className="text-brand" />
                       {report.plate ?? 'Tidak diketahui'}
                     </p>
                   </div>
                   <div>
-                    <p className="text-[10px] text-ink-soft">Pelapor</p>
-                    <p className="text-[11px] font-semibold text-ink-strong">
+                    <p className="text-xs text-ink-soft">Pelapor</p>
+                    <p className="text-xs font-semibold text-ink-strong">
                       {reporters[index % reporters.length]}
                     </p>
-                    <p className="text-[9px] text-ink-soft">{formatDate(report.createdAt)}</p>
+                    <p className="text-xs text-ink-soft">{formatDate(report.createdAt)}</p>
                   </div>
                   <div className="flex items-center gap-1.5">
                     <span
@@ -264,7 +268,7 @@ export function ReportsListPage() {
                             : 'bg-brand',
                       )}
                     />
-                    <span className="text-[10px] text-ink">
+                    <span className="text-xs text-ink">
                       {report.status === 'diterima'
                         ? 'Belum ditugaskan'
                         : report.status === 'diproses'
@@ -281,7 +285,7 @@ export function ReportsListPage() {
                 </div>
               )
             })}
-            {filtered.length === 0 ? (
+            {loaded && !loadError && filtered.length === 0 ? (
               <div className="py-10 text-center">
                 <Flag size={24} className="mx-auto text-ink-soft" />
                 <p className="mt-2 text-sm font-semibold text-ink-strong">
@@ -292,9 +296,9 @@ export function ReportsListPage() {
             ) : null}
           </div>
 
-          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-line-soft pt-3 text-[10px] text-ink">
+          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-line-soft pt-3 text-xs text-ink">
             <span>
-              Menampilkan {filtered.length} dari {reports.length} laporan contoh
+              Menampilkan {filtered.length} dari {reports.length} laporan tercatat
             </span>
             <div className="flex gap-1">
               <Button variant="outline" size="sm" disabled>

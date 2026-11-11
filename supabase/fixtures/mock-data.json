@@ -1,0 +1,544 @@
+{
+  "version": 1,
+  "referenceDate": "2026-11-11",
+  "sources": {
+    "apps/web/src/mocks/data.ts": "970e09fdc31ef60b6904ee3d136d54b432398a026251d7bf5a468f2ce439259a",
+    "apps/web/src/mocks/admin.ts": "03e52a300669634c3d471bf1cc456625e6feba6bc3d5ce7b1613d41714c1dac1",
+    "apps/web/src/mocks/passenger.ts": "fc50d088f88096c46e2b893a50e23c4efc381b6f19e2f0780461d392b783068a",
+    "apps/web/src/mocks/driver.ts": "f391654dbdf7122a3e782e9d9684eb931681c8d6e4cc1ccc6601825aa2738933"
+  },
+  "data": {
+    "reports": [
+      {
+        "id": "rep-1",
+        "code": "LPR-1042",
+        "category": "pengemudi",
+        "subject": "Pengemudi ugal-ugalan",
+        "description": "Angkot melaju melebihi batas kecepatan di Jalan Dago.",
+        "status": "diproses",
+        "createdAt": "2026-10-28T08:20:00+07:00",
+        "plate": "D 1024 AB",
+        "response": "Laporan diteruskan ke petugas pengawas trayek."
+      },
+      {
+        "id": "rep-2",
+        "code": "LPR-1038",
+        "category": "fasilitas",
+        "subject": "Lampu kabin mati",
+        "description": "Lampu penerangan dalam angkot tidak menyala saat malam.",
+        "status": "selesai",
+        "createdAt": "2026-10-21T19:05:00+07:00",
+        "plate": "D 1098 AB",
+        "response": "Kendaraan sudah diperiksa dan lampu diganti."
+      },
+      {
+        "id": "rep-3",
+        "code": "LPR-1051",
+        "category": "tarif",
+        "subject": "Tarif tidak sesuai",
+        "description": "Pengemudi meminta tarif lebih tinggi dari ketentuan.",
+        "status": "diterima",
+        "createdAt": "2026-10-31T06:40:00+07:00",
+        "plate": "D 1135 AB"
+      },
+      {
+        "id": "rep-4",
+        "code": "LPR-1049",
+        "category": "fasilitas",
+        "subject": "Pintu angkot tidak bisa ditutup",
+        "description": "Pintu belakang macet sehingga penumpang berisiko terjatuh saat kendaraan berjalan.",
+        "status": "diproses",
+        "createdAt": "2026-10-30T16:12:00+07:00",
+        "plate": "D 1172 AB",
+        "response": "Tim teknis dijadwalkan memeriksa kendaraan pada 1 November 2026."
+      },
+      {
+        "id": "rep-5",
+        "code": "LPR-1046",
+        "category": "pengemudi",
+        "subject": "Mengetem terlalu lama di halte",
+        "description": "Angkot menunggu penumpang lebih dari 15 menit dan menyebabkan antrean panjang.",
+        "status": "selesai",
+        "createdAt": "2026-10-27T11:35:00+07:00",
+        "plate": "D 1061 AB",
+        "response": "Pengemudi sudah diberikan pembinaan oleh koordinator trayek."
+      },
+      {
+        "id": "rep-6",
+        "code": "LPR-1044",
+        "category": "lainnya",
+        "subject": "Suara knalpot mengganggu",
+        "description": "Knalpot kendaraan mengeluarkan suara bising di kawasan permukiman.",
+        "status": "diterima",
+        "createdAt": "2026-10-26T07:10:00+07:00",
+        "plate": "D 1208 AB"
+      },
+      {
+        "id": "rep-7",
+        "code": "LPR-1040",
+        "category": "fasilitas",
+        "subject": "Kursi penumpang rusak",
+        "description": "Busana kursi baris ketiga sobek dan rangka kursi menonjol.",
+        "status": "selesai",
+        "createdAt": "2026-10-23T13:55:00+07:00",
+        "plate": "D 1098 AB",
+        "response": "Kursi sudah diganti oleh pemilik kendaraan."
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "v-1",
+        "plate": "D 1000 AB",
+        "routeId": "3415464",
+        "driverName": "Asep Sunandar"
+      },
+      {
+        "id": "v-2",
+        "plate": "D 1037 AB",
+        "routeId": "4635390",
+        "driverName": "Dadan Ramdani"
+      },
+      {
+        "id": "v-3",
+        "plate": "D 1074 AB",
+        "routeId": "4636155",
+        "driverName": "Eko Saputra"
+      },
+      {
+        "id": "v-4",
+        "plate": "D 1111 AB",
+        "routeId": "4635842",
+        "driverName": "Yayan Suryana"
+      },
+      {
+        "id": "v-5",
+        "plate": "D 1148 AB",
+        "routeId": "4643111",
+        "driverName": "Rudi Hartono"
+      },
+      {
+        "id": "v-6",
+        "plate": "D 1185 AB",
+        "routeId": "4643109",
+        "driverName": "Iwan Setiawan"
+      },
+      {
+        "id": "v-7",
+        "plate": "D 1222 AB",
+        "routeId": "4308300",
+        "driverName": "Dedi Kurnia"
+      },
+      {
+        "id": "v-8",
+        "plate": "D 1259 AB",
+        "routeId": "4636013",
+        "driverName": "Ujang Solihin"
+      },
+      {
+        "id": "v-9",
+        "plate": "D 1296 AB",
+        "routeId": "4294191",
+        "driverName": "Asep Sunandar"
+      },
+      {
+        "id": "v-10",
+        "plate": "D 1333 AB",
+        "routeId": "4647871",
+        "driverName": "Dadan Ramdani"
+      },
+      {
+        "id": "v-11",
+        "plate": "D 1370 AB",
+        "routeId": "4291047",
+        "driverName": "Eko Saputra"
+      },
+      {
+        "id": "v-12",
+        "plate": "D 1407 AB",
+        "routeId": "4637081",
+        "driverName": "Yayan Suryana"
+      },
+      {
+        "id": "v-13",
+        "plate": "D 1444 AB",
+        "routeId": "4291189",
+        "driverName": "Rudi Hartono"
+      },
+      {
+        "id": "v-14",
+        "plate": "D 1481 AB",
+        "routeId": "4637686",
+        "driverName": "Iwan Setiawan"
+      }
+    ],
+    "adminUsers": [
+      {
+        "id": "usr-1",
+        "name": "Sari Wulandari",
+        "email": "sari@angkot-live.id",
+        "role": "Penumpang",
+        "status": "aktif",
+        "joinedAt": "12 Sep 2026",
+        "lastActive": "Hari ini, 09.12"
+      },
+      {
+        "id": "usr-2",
+        "name": "Asep Sunandar",
+        "email": "asep@angkot-live.id",
+        "role": "Pengemudi",
+        "status": "aktif",
+        "joinedAt": "03 Agu 2026",
+        "lastActive": "Hari ini, 08.40"
+      },
+      {
+        "id": "usr-3",
+        "name": "Budi Santoso",
+        "email": "budi@dishub.bandung.go.id",
+        "role": "Admin",
+        "status": "aktif",
+        "joinedAt": "01 Jan 2026",
+        "lastActive": "Hari ini, 10.02"
+      },
+      {
+        "id": "usr-4",
+        "name": "Rina Marlina",
+        "email": "rina@angkot-live.id",
+        "role": "Penumpang",
+        "status": "aktif",
+        "joinedAt": "20 Okt 2026",
+        "lastActive": "Kemarin, 18.22"
+      },
+      {
+        "id": "usr-5",
+        "name": "Dedi Kurnia",
+        "email": "dedi@angkot-live.id",
+        "role": "Pengemudi",
+        "status": "ditangguhkan",
+        "joinedAt": "15 Jul 2026",
+        "lastActive": "28 Okt 2026, 11.05"
+      }
+    ],
+    "driverApplicants": [
+      {
+        "id": "app-1",
+        "name": "Pak Supriatna",
+        "nik": "3273109140790002",
+        "wa": "+62 812-3456-7890",
+        "plate": "D 1982 AC",
+        "model": "Suzuki Carry 1.5 Futura",
+        "year": "2018",
+        "color": "Hijau Kuning Gading",
+        "routeId": "r-08",
+        "routeCode": "08",
+        "routeName": "Stasiun Hall — Dago",
+        "registeredAt": "2026-10-24T08:42:00+07:00",
+        "docsComplete": 5,
+        "docsTotal": 5,
+        "status": "menunggu",
+        "koperasi": "Kopamas Unit Cicaheum",
+        "address": "Jl. Babakan Tarogong No. 42, Bojongloa Kaler, Bandung",
+        "sim": "3271-9204-00418",
+        "simExpiry": "18 Agu 2027",
+        "experience": "11 tahun",
+        "simValid": true,
+        "stnkValid": true,
+        "kirValid": true
+      },
+      {
+        "id": "app-2",
+        "name": "Kang Asep Hidayat",
+        "nik": "3273180205850001",
+        "wa": "+62 857-2201-9988",
+        "plate": "D 1433 BZ",
+        "model": "Daihatsu Gran Max 1.3",
+        "year": "2020",
+        "color": "Biru Cerah Strip Putih",
+        "routeId": "r-05",
+        "routeCode": "05",
+        "routeName": "Cicaheum — Ledeng",
+        "registeredAt": "2026-10-24T09:15:00+07:00",
+        "docsComplete": 5,
+        "docsTotal": 5,
+        "status": "menunggu",
+        "koperasi": "Kobanter Baru",
+        "address": "Jl. Cicaheum Raya No. 12, Bandung",
+        "sim": "3271-1180-88231",
+        "simExpiry": "02 Feb 2028",
+        "experience": "6 tahun",
+        "simValid": true,
+        "stnkValid": true,
+        "kirValid": true
+      },
+      {
+        "id": "app-3",
+        "name": "Pak Dadang Hermawan",
+        "nik": "3273061211720003",
+        "wa": "+62 813-8821-4432",
+        "plate": "D 1754 YU",
+        "model": "Mitsubishi Colt T120SS",
+        "year": "2017",
+        "color": "Cokelat Strip Krem",
+        "routeId": "r-02",
+        "routeCode": "02",
+        "routeName": "Kalapa — Cicaheum",
+        "registeredAt": "2026-10-24T10:04:00+07:00",
+        "docsComplete": 5,
+        "docsTotal": 5,
+        "status": "menunggu",
+        "koperasi": "Kopamas Unit Cicaheum",
+        "address": "Jl. Kiaracondong No. 88, Bandung",
+        "sim": "3271-5501-99210",
+        "simExpiry": "14 Des 2026",
+        "experience": "9 tahun",
+        "simValid": true,
+        "stnkValid": true,
+        "kirValid": true
+      },
+      {
+        "id": "app-4",
+        "name": "Kang Cecep Rusli",
+        "nik": "327310509890007",
+        "wa": "+62 821-1409-7711",
+        "plate": "D 1801 KL",
+        "model": "Suzuki Carry Futura 1.5",
+        "year": "2019",
+        "color": "Hijau Daun List Merah",
+        "routeId": "r-16",
+        "routeCode": "16",
+        "routeName": "Riung Bandung — Cicaheum",
+        "registeredAt": "2026-10-24T10:48:00+07:00",
+        "docsComplete": 4,
+        "docsTotal": 5,
+        "status": "menunggu",
+        "koperasi": "Kobanter Baru",
+        "address": "Jl. Riung Bandung No. 7, Bandung",
+        "sim": "3271-7730-11209",
+        "simExpiry": "30 Jun 2027",
+        "experience": "4 tahun",
+        "simValid": true,
+        "stnkValid": true,
+        "kirValid": false
+      },
+      {
+        "id": "app-5",
+        "name": "Pak Iwan Setiawan",
+        "nik": "3273112203910004",
+        "wa": "+62 822-5510-8833",
+        "plate": "D 2210 QA",
+        "model": "Suzuki Carry 1.5",
+        "year": "2021",
+        "color": "Hijau Stabilo",
+        "routeId": "r-23",
+        "routeCode": "23",
+        "routeName": "Gunung Batu — Kalapa",
+        "registeredAt": "2026-10-23T14:20:00+07:00",
+        "docsComplete": 5,
+        "docsTotal": 5,
+        "status": "ditolak",
+        "koperasi": "Kopamas Unit Cicaheum",
+        "address": "Jl. Setiabudi No. 210, Bandung",
+        "sim": "3271-9902-33418",
+        "simExpiry": "11 Nov 2025",
+        "experience": "7 tahun",
+        "simValid": false,
+        "stnkValid": true,
+        "kirValid": true
+      }
+    ],
+    "notifications": [
+      {
+        "id": "notif-1",
+        "title": "Laporan LPR-1042 diproses",
+        "body": "Laporan pengemudi ugal-ugalan sudah diteruskan ke petugas pengawas trayek.",
+        "time": "Hari ini, 09.14",
+        "kind": "report",
+        "unread": true
+      },
+      {
+        "id": "notif-2",
+        "title": "Angkot 08 mendekat",
+        "body": "Angkot D 1024 AB berjarak 2 halte dari Halte Stasiun Hall.",
+        "time": "Kemarin, 07.38",
+        "kind": "trip",
+        "unread": true
+      },
+      {
+        "id": "notif-3",
+        "title": "Perjalanan selesai",
+        "body": "Terima kasih sudah naik angkot 05. Perjalanan 22 menit tercatat di riwayat.",
+        "time": "30 Okt, 17.37",
+        "kind": "trip",
+        "unread": false
+      },
+      {
+        "id": "notif-4",
+        "title": "Laporan LPR-1038 selesai",
+        "body": "Lampu kabin angkot D 1098 AB sudah diperbaiki. Terima kasih atas laporanmu.",
+        "time": "22 Okt, 10.02",
+        "kind": "report",
+        "unread": false
+      },
+      {
+        "id": "notif-5",
+        "title": "Jadwal trayek diperbarui",
+        "body": "Trayek 23 kini beroperasi sampai pukul 20.00 WIB setiap hari.",
+        "time": "20 Okt, 08.00",
+        "kind": "system",
+        "unread": false
+      }
+    ],
+    "trips": [
+      {
+        "id": "trip-1",
+        "code": "TRP-2091",
+        "date": "2026-10-31T07:42:00+07:00",
+        "routeCode": "08",
+        "routeName": "Stasiun Hall — Dago",
+        "from": "Stasiun Hall",
+        "to": "Simpang Dago",
+        "durationMinutes": 14,
+        "distanceKm": 5.8,
+        "fare": 5000,
+        "status": "selesai",
+        "legs": [
+          {
+            "routeCode": "08",
+            "routeName": "Stasiun Hall - Dago",
+            "from": "Stasiun Hall",
+            "to": "Simpang Dago",
+            "durationMinutes": 14,
+            "fare": 5000,
+            "boardAt": "Halte Stasiun Hall",
+            "alightAt": "Halte Simpang Dago"
+          }
+        ]
+      },
+      {
+        "id": "trip-2",
+        "code": "TRP-2077",
+        "date": "2026-10-30T17:15:00+07:00",
+        "routeCode": "05",
+        "routeName": "Cicaheum — Ledeng",
+        "from": "Gasibu",
+        "to": "Ledeng",
+        "durationMinutes": 22,
+        "distanceKm": 8.4,
+        "fare": 5000,
+        "status": "selesai",
+        "legs": [
+          {
+            "routeCode": "05",
+            "routeName": "Cicaheum - Ledeng",
+            "from": "Gasibu",
+            "to": "Ledeng",
+            "durationMinutes": 22,
+            "fare": 5000,
+            "boardAt": "Halte Gasibu",
+            "alightAt": "Halte Ledeng"
+          }
+        ]
+      },
+      {
+        "id": "trip-3",
+        "code": "TRP-2054",
+        "date": "2026-10-28T06:58:00+07:00",
+        "routeCode": "02",
+        "routeName": "Kalapa — Cicaheum",
+        "from": "Kalapa",
+        "to": "Kiaracondong",
+        "durationMinutes": 18,
+        "distanceKm": 6.1,
+        "fare": 5000,
+        "status": "selesai"
+      },
+      {
+        "id": "trip-4",
+        "code": "TRP-2038",
+        "date": "2026-10-26T19:22:00+07:00",
+        "routeCode": "16",
+        "routeName": "Riung Bandung — Cicaheum",
+        "from": "Riung Bandung",
+        "to": "Antapani",
+        "durationMinutes": 0,
+        "distanceKm": 0,
+        "fare": 0,
+        "status": "dibatalkan"
+      },
+      {
+        "id": "trip-5",
+        "code": "TRP-2011",
+        "date": "2026-10-24T08:05:00+07:00",
+        "routeCode": "08",
+        "routeName": "Stasiun Hall — Dago",
+        "from": "Cihampelas",
+        "to": "Dago",
+        "durationMinutes": 11,
+        "distanceKm": 3.9,
+        "fare": 5000,
+        "status": "selesai"
+      }
+    ],
+    "driverMessages": [
+      {
+        "id": "msg-1",
+        "from": "Dishub Kota Bandung",
+        "role": "Administrator",
+        "title": "Pengingat uji KIR kendaraan",
+        "body": "Yth. Asep Sunandar, masa berlaku uji KIR kendaraan D 1037 AB akan berakhir dalam 14 hari. Mohon segera melakukan uji ulang di Kantor Dishub Kota Bandung. Bawa STNK asli dan kartu uji lama.",
+        "time": "Hari ini, 09.12",
+        "kind": "admin",
+        "unread": true
+      },
+      {
+        "id": "msg-2",
+        "from": "Sistem Angkot-Live",
+        "role": "Notifikasi otomatis",
+        "title": "Perjalanan hari ini tercatat",
+        "body": "Kamu telah menyelesaikan 6 rit perjalanan dengan total jarak 42,8 km. Pendapatan tip hari ini Rp 18.000. Terima kasih sudah menjaga keselamatan penumpang.",
+        "time": "Hari ini, 07.45",
+        "kind": "system",
+        "unread": true
+      },
+      {
+        "id": "msg-3",
+        "from": "Koordinator Trayek 08",
+        "role": "Petugas lapangan",
+        "title": "Pembinaan pengemudi Jumat",
+        "body": "Diberitahukan bahwa akan dilaksanakan pembinaan pengemudi trayek 08 pada Jumat, 6 November 2026 pukul 09.00 di Aula Dishub Kota Bandung. Kehadiran bersifat wajib.",
+        "time": "Kemarin, 16.20",
+        "kind": "admin",
+        "unread": false
+      },
+      {
+        "id": "msg-4",
+        "from": "Sistem Angkot-Live",
+        "role": "Notifikasi otomatis",
+        "title": "Laporan penumpang ditindaklanjuti",
+        "body": "Laporan LPR-1042 terkait kecepatan kendaraan di Jalan Dago sudah diverifikasi petugas. Mohon mematuhi batas kecepatan dan rambu lalu lintas.",
+        "time": "29 Okt, 11.05",
+        "kind": "report",
+        "unread": false
+      },
+      {
+        "id": "msg-5",
+        "from": "Dishub Kota Bandung",
+        "role": "Administrator",
+        "title": "Verifikasi akun disetujui",
+        "body": "Selamat! Akun pengemudi kamu telah disetujui. Kamu dapat mulai menerima penumpang melalui aplikasi Angkot-Live. Pastikan selalu mengaktifkan GPS saat bertugas.",
+        "time": "20 Okt, 08.30",
+        "kind": "system",
+        "unread": false
+      },
+      {
+        "id": "msg-6",
+        "from": "Sistem Angkot-Live",
+        "role": "Notifikasi otomatis",
+        "title": "Pengingat istirahat",
+        "body": "Kamu sudah bertugas lebih dari 4 jam. Ambil waktu istirahat minimal 15 menit untuk menjaga konsentrasi berkendara.",
+        "time": "18 Okt, 14.10",
+        "kind": "system",
+        "unread": false
+      }
+    ]
+  }
+}

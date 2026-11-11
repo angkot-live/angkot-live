@@ -1,18 +1,12 @@
 import {
   ArrowRight,
-  BookOpen,
   ChevronDown,
-  Mail,
-  MapPin,
-  MessageSquare,
-  Phone,
   Search,
   ShieldCheck,
 } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -41,33 +35,12 @@ const faqs = [
   {
     question: 'Bagaimana cara mendaftar sebagai pengemudi?',
     answer:
-      'Pilih Daftar lalu Pengemudi. Siapkan NIK, SIM, STNK, KIR, dan foto kendaraan. Verifikasi biasanya selesai dalam 1–3 hari kerja.',
+      'Pilih Daftar lalu Pengemudi. Siapkan NIK, SIM, STNK, KIR, dan foto kendaraan. Status pemeriksaan dan alasan perbaikan tampil di halaman verifikasi.',
   },
   {
     question: 'Apakah data lokasi saya disimpan?',
     answer:
-      'Lokasi hanya dipakai selama perjalanan aktif untuk menghitung ETA dan menampilkan angkot terdekat. Riwayat lokasi tidak dibagikan ke pihak ketiga.',
-  },
-]
-
-const contacts = [
-  {
-    icon: Phone,
-    title: 'Call center Dishub',
-    detail: '(022) 123-4567',
-    note: 'Senin–Jumat, 08.00–16.00',
-  },
-  {
-    icon: Mail,
-    title: 'Email pengaduan',
-    detail: 'halo@angkot-live.id',
-    note: 'Dibalas maksimal 2 hari kerja',
-  },
-  {
-    icon: MessageSquare,
-    title: 'WhatsApp layanan',
-    detail: '0812-3456-7890',
-    note: 'Chatbot 24 jam',
+      'Lokasi membantu pencarian angkot dan perjalanan. Saat megat aktif, lokasi menunggu dapat terlihat oleh pengemudi sesuai arah dan radius. Riwayat perjalanan hanya tersedia untuk akun yang berwenang.',
   },
 ]
 
@@ -86,11 +59,7 @@ export function HelpPage() {
   return (
     <div className="container-page py-8 md:py-10">
       <div className="max-w-2xl">
-        <Badge variant="leaf" className="gap-1.5">
-          <BookOpen size={13} />
-          Pusat bantuan
-        </Badge>
-        <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-ink-strong md:text-4xl">
+        <h1 className="text-3xl font-extrabold tracking-tight text-ink-strong md:text-4xl">
           Ada yang bisa kami bantu?
         </h1>
         <p className="mt-2 text-sm leading-relaxed text-ink">
@@ -117,7 +86,7 @@ export function HelpPage() {
           {filteredFaqs.map((faq) => (
             <details
               key={faq.question}
-              className="group rounded-md border border-line-soft bg-surface p-4 open:border-brand/30 open:bg-leaf/30"
+              className="group rounded-md border-[0.5px] border-line-soft bg-surface p-4 open:border-brand/30 open:bg-leaf/30"
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-semibold text-ink-strong [&::-webkit-details-marker]:hidden">
                 {faq.question}
@@ -145,26 +114,6 @@ export function HelpPage() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <Card>
-            <CardContent className="p-4 md:p-5">
-              <h2 className="text-sm font-bold text-ink-strong">Hubungi kami</h2>
-              <div className="mt-3 flex flex-col gap-3">
-                {contacts.map((contact) => (
-                  <div key={contact.title} className="flex items-start gap-3">
-                    <span className="grid size-8 shrink-0 place-items-center rounded-md bg-leaf text-brand-strong">
-                      <contact.icon size={15} />
-                    </span>
-                    <div>
-                      <p className="text-xs font-semibold text-ink-strong">{contact.title}</p>
-                      <p className="text-xs text-brand-strong">{contact.detail}</p>
-                      <p className="text-[10px] text-ink">{contact.note}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-
           <Card className="bg-leaf">
             <CardContent className="p-4 md:p-5">
               <div className="flex items-center gap-2 text-brand-strong">
@@ -183,19 +132,7 @@ export function HelpPage() {
             </CardContent>
           </Card>
 
-          <Card>
-            <CardContent className="p-4 md:p-5">
-              <div className="flex items-center gap-2 text-ink-strong">
-                <MapPin size={15} className="text-brand" />
-                <p className="text-sm font-bold">Kantor Dishub</p>
-              </div>
-              <p className="mt-1 text-xs leading-relaxed text-ink">
-                Jl. Sukajadi No. 1, Bandung
-                <br />
-                Senin–Jumat, 08.00–16.00 WIB
-              </p>
-            </CardContent>
-          </Card>
+
         </div>
       </div>
     </div>

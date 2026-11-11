@@ -18,7 +18,7 @@ function pinIcon(label: string, color: string, prefixIcon = '') {
     iconAnchor: [0, 0],
     html: `
       <div style="display:flex;flex-direction:column;align-items:center;transform:translate(-50%,-100%);pointer-events:auto;cursor:pointer">
-        <span style="background:${color};color:#fff;border-radius:9999px;padding:4px 9px;font-size:10px;font-weight:800;line-height:1;box-shadow:0 4px 12px rgba(0,0,0,.25);white-space:nowrap;border:2px solid #fff;display:inline-flex;align-items:center;gap:4px">
+        <span style="background:${color};color:#fff;border-radius:9999px;padding:4px 9px;font-size:var(--text-caption);font-weight:800;line-height:1;box-shadow:0 4px 12px rgba(0,0,0,.25);white-space:nowrap;border:2px solid #fff;display:inline-flex;align-items:center;gap:4px">
           ${prefixIcon ? `<span>${prefixIcon}</span>` : ''}${label}
         </span>
         <span style="width:2px;height:6px;background:${color}"></span>

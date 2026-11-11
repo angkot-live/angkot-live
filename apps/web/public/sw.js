@@ -1,4 +1,4 @@
-const CACHE_NAME = 'angkot-live-v1'
+const CACHE_NAME = 'angkot-live-v3'
 const APP_SHELL = ['/', '/index.html', '/favicon.svg', '/manifest.webmanifest']
 
 self.addEventListener('install', (event) => {
@@ -21,6 +21,8 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const request = event.request
   if (request.method !== 'GET') return
+  const url = new URL(request.url)
+  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/supabase/') || url.pathname.startsWith('/auth/') || url.pathname.startsWith('/storage/') || request.headers.has('Authorization') || url.searchParams.has('token')) return
 
   if (request.mode === 'navigate') {
     event.respondWith(
@@ -35,7 +37,9 @@ self.addEventListener('fetch', (event) => {
     return
   }
 
-  if (new URL(request.url).origin !== self.location.origin) return
+  if (url.origin !== self.location.origin) return
+  // Cache only public shell assets; signed/private documents are never offline assets.
+  if (!url.pathname.startsWith('/assets/') && !url.pathname.startsWith('/icons/') && !APP_SHELL.includes(url.pathname)) return
 
   event.respondWith(
     caches.match(request).then((cached) => {

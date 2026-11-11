@@ -1,66 +1,211 @@
-import { createBrowserRouter, Navigate, Outlet, useLocation, useSearchParams } from 'react-router-dom'
+import { lazy } from 'react'
+import {
+  createBrowserRouter,
+  Navigate,
+  Outlet,
+  useLocation,
+} from 'react-router-dom'
 
 import { AdminShell } from '@/components/layout/admin-shell'
 import { PublicShell } from '@/components/layout/public-shell'
-import { AdminDashboardPage } from '@/features/admin/dashboard-page'
-import { MessagesPage } from '@/features/admin/messages-page'
-import { MonitoringPage } from '@/features/admin/monitoring-page'
-import { ReportDetailPage as AdminReportDetailPage } from '@/features/admin/report-detail-page'
-import { RouteEditorPage } from '@/features/admin/route-editor-page'
-import { RoutesListPage } from '@/features/admin/routes-list-page'
-import { UsersPage } from '@/features/admin/users-page'
-import { VehiclesPage } from '@/features/admin/vehicles-page'
-import { ReportsListPage } from '@/features/admin/reports-list-page'
-import { VerificationDetailPage } from '@/features/admin/verification-detail-page'
-import { VerificationQueuePage } from '@/features/admin/verification-queue-page'
+const AdminDashboardPage = lazy(() =>
+  import('@/features/admin/dashboard-page').then((m) => ({
+    default: m.AdminDashboardPage,
+  })),
+)
+const MonitoringPage = lazy(() =>
+  import('@/features/admin/monitoring-page').then((m) => ({
+    default: m.MonitoringPage,
+  })),
+)
+const AdminReportDetailPage = lazy(() =>
+  import('@/features/admin/report-detail-page').then((m) => ({
+    default: m.ReportDetailPage,
+  })),
+)
+const RouteEditorPage = lazy(() =>
+  import('@/features/admin/route-editor-page').then((m) => ({
+    default: m.RouteEditorPage,
+  })),
+)
+const RoutesListPage = lazy(() =>
+  import('@/features/admin/routes-list-page').then((m) => ({
+    default: m.RoutesListPage,
+  })),
+)
+const ReportsListPage = lazy(() =>
+  import('@/features/admin/reports-list-page').then((m) => ({
+    default: m.ReportsListPage,
+  })),
+)
+const VerificationDetailPage = lazy(() =>
+  import('@/features/admin/verification-detail-page').then((m) => ({
+    default: m.VerificationDetailPage,
+  })),
+)
+const VerificationQueuePage = lazy(() =>
+  import('@/features/admin/verification-queue-page').then((m) => ({
+    default: m.VerificationQueuePage,
+  })),
+)
 import { RoleShell } from '@/components/layout/role-shell'
-import { ForgotPasswordPage } from '@/features/auth/forgot-password-page'
-import { LoginPage } from '@/features/auth/login-page'
-import { RegisterPassengerPage } from '@/features/auth/register-passenger-page'
-import { RegisterRolePage } from '@/features/auth/register-role-page'
+import {
+  ForgotPasswordPage,
+  ResetPasswordPage,
+} from '@/features/auth/forgot-password-page'
+const LoginPage = lazy(() =>
+  import('@/features/auth/login-page').then((m) => ({ default: m.LoginPage })),
+)
+const RegisterPassengerPage = lazy(() =>
+  import('@/features/auth/register-passenger-page').then((m) => ({
+    default: m.RegisterPassengerPage,
+  })),
+)
+const RegisterRolePage = lazy(() =>
+  import('@/features/auth/register-role-page').then((m) => ({
+    default: m.RegisterRolePage,
+  })),
+)
 import { homeForRole, useAuthStore } from '@/features/auth/auth-store'
-import { UiGalleryPage } from '@/features/dev/ui-gallery-page'
-import { DriverDashboardPage } from '@/features/driver/driver-dashboard-page'
-import { DriverInboxPage } from '@/features/driver/inbox-page'
-import { DriverMapPage } from '@/features/driver/driver-map-page'
-import { DriverOnboardingPage } from '@/features/driver/driver-onboarding-page'
-import { DriverProfilePage } from '@/features/driver/profile-page'
-import { DriverVerificationPage } from '@/features/driver/driver-verification-page'
-import { LandingPage } from '@/features/landing/landing-page'
-import { MapScreen } from '@/features/map/map-screen'
-import { ActiveTripPage } from '@/features/passenger/active-trip-page'
-import { CreateReportPage } from '@/features/passenger/create-report-page'
-import { PassengerDashboardPage } from '@/features/passenger/dashboard-page'
-import { HistoryPage } from '@/features/passenger/history-page'
-import { NotificationsPage } from '@/features/passenger/notifications-page'
-import { PassengerProfilePage } from '@/features/passenger/profile-page'
-import { ReportDetailPage } from '@/features/passenger/report-detail-page'
-import { ReportsPage } from '@/features/passenger/reports-page'
-import { HelpPage } from '@/features/public/help-page'
-import { StatisticsPage } from '@/features/public/statistics-page'
-import { RouteDetailPage } from '@/features/routes/route-detail-page'
-import { RouteListPage } from '@/features/routes/route-list-page'
-import { NotFoundPage } from '@/features/shared/not-found-page'
+const DriverDashboardPage = lazy(() =>
+  import('@/features/driver/driver-dashboard-page').then((m) => ({
+    default: m.DriverDashboardPage,
+  })),
+)
+const DriverInboxPage = lazy(() =>
+  import('@/features/driver/inbox-page').then((m) => ({
+    default: m.DriverInboxPage,
+  })),
+)
+const DriverMapPage = lazy(() =>
+  import('@/features/driver/driver-map-page').then((m) => ({
+    default: m.DriverMapPage,
+  })),
+)
+const DriverOnboardingPage = lazy(() =>
+  import('@/features/driver/driver-onboarding-page').then((m) => ({
+    default: m.DriverOnboardingPage,
+  })),
+)
+const DriverProfilePage = lazy(() =>
+  import('@/features/driver/profile-page').then((m) => ({
+    default: m.DriverProfilePage,
+  })),
+)
+const DriverVerificationPage = lazy(() =>
+  import('@/features/driver/driver-verification-page').then((m) => ({
+    default: m.DriverVerificationPage,
+  })),
+)
+const LandingPage = lazy(() =>
+  import('@/features/landing/landing-page').then((m) => ({
+    default: m.LandingPage,
+  })),
+)
+const MapScreen = lazy(() =>
+  import('@/features/map/map-screen').then((m) => ({ default: m.MapScreen })),
+)
+const ActiveTripPage = lazy(() =>
+  import('@/features/passenger/active-trip-page').then((m) => ({
+    default: m.ActiveTripPage,
+  })),
+)
+const CreateReportPage = lazy(() =>
+  import('@/features/passenger/create-report-page').then((m) => ({
+    default: m.CreateReportPage,
+  })),
+)
+const PassengerDashboardPage = lazy(() =>
+  import('@/features/passenger/dashboard-page').then((m) => ({
+    default: m.PassengerDashboardPage,
+  })),
+)
+const HistoryPage = lazy(() =>
+  import('@/features/passenger/history-page').then((m) => ({
+    default: m.HistoryPage,
+  })),
+)
+const NotificationsPage = lazy(() =>
+  import('@/features/passenger/notifications-page').then((m) => ({
+    default: m.NotificationsPage,
+  })),
+)
+const PassengerProfilePage = lazy(() =>
+  import('@/features/passenger/profile-page').then((m) => ({
+    default: m.PassengerProfilePage,
+  })),
+)
+const ReportDetailPage = lazy(() =>
+  import('@/features/passenger/report-detail-page').then((m) => ({
+    default: m.ReportDetailPage,
+  })),
+)
+const ReportsPage = lazy(() =>
+  import('@/features/passenger/reports-page').then((m) => ({
+    default: m.ReportsPage,
+  })),
+)
+const HelpPage = lazy(() =>
+  import('@/features/public/help-page').then((m) => ({ default: m.HelpPage })),
+)
+const StatisticsPage = lazy(() =>
+  import('@/features/public/statistics-page').then((m) => ({
+    default: m.StatisticsPage,
+  })),
+)
+const RouteDetailPage = lazy(() =>
+  import('@/features/routes/route-detail-page').then((m) => ({
+    default: m.RouteDetailPage,
+  })),
+)
+const RouteListPage = lazy(() =>
+  import('@/features/routes/route-list-page').then((m) => ({
+    default: m.RouteListPage,
+  })),
+)
+const NotFoundPage = lazy(() =>
+  import('@/features/shared/not-found-page').then((m) => ({
+    default: m.NotFoundPage,
+  })),
+)
 import { driverNav, passengerNav } from '@/lib/navigation'
 import type { Role } from '@/types'
 
-function RequireRole({ role, children }: { role: Role; children: React.ReactNode }) {
+function RequireRole({
+  role,
+  children,
+}: {
+  role: Role
+  children: React.ReactNode
+}) {
   const user = useAuthStore((state) => state.user)
+  const initialized = useAuthStore((state) => state.initialized)
   const location = useLocation()
 
+  if (!initialized)
+    return (
+      <p role="status" className="p-8">
+        Memulihkan sesi…
+      </p>
+    )
+
   if (!user) {
-    return <Navigate to="/login" replace state={{ from: location.pathname }} />
+    return (
+      <Navigate
+        to="/login"
+        replace
+        state={{
+          from: { pathname: location.pathname, search: location.search },
+        }}
+      />
+    )
   }
 
   if (user.role !== role) {
     return <Navigate to={homeForRole(user.role)} replace />
   }
 
-  if (
-    role === 'pengemudi' &&
-    user.driverVerification &&
-    user.driverVerification !== 'disetujui'
-  ) {
+  if (role === 'pengemudi' && user.driverVerification !== 'disetujui') {
     return <Navigate to="/pengemudi/verifikasi" replace />
   }
 
@@ -99,22 +244,12 @@ function PassengerMapPage() {
   return <MapScreen passengerMode />
 }
 
-function RouteRedirect() {
-  const [searchParams] = useSearchParams()
-  const params = new URLSearchParams(searchParams)
-  if (!params.has('tab')) {
-    params.set('tab', 'rute')
-  }
-  return <Navigate to={`/peta?${params.toString()}`} replace />
-}
-
 export const router = createBrowserRouter([
   {
     element: <PublicShell />,
     children: [
       { index: true, element: <LandingPage /> },
       { path: 'peta', element: <PublicMapPage /> },
-      { path: 'rute', element: <RouteRedirect /> },
       { path: 'trayek', element: <RouteListPage /> },
       { path: 'trayek/:id', element: <RouteDetailPage /> },
       { path: 'statistik', element: <StatisticsPage /> },
@@ -126,12 +261,9 @@ export const router = createBrowserRouter([
   { path: 'register', element: <RegisterRolePage /> },
   { path: 'register/penumpang', element: <RegisterPassengerPage /> },
   { path: 'lupa-password', element: <ForgotPasswordPage /> },
+  { path: 'reset-password', element: <ResetPasswordPage /> },
   { path: 'pengemudi/daftar', element: <DriverOnboardingPage /> },
   { path: 'pengemudi/verifikasi', element: <DriverVerificationPage /> },
-  {
-    path: 'dev/ui',
-    element: <UiGalleryPage />,
-  },
   {
     element: <PassengerLayout />,
     children: [
@@ -165,11 +297,8 @@ export const router = createBrowserRouter([
       { path: 'admin/pengemudi/:id', element: <VerificationDetailPage /> },
       { path: 'admin/trayek', element: <RoutesListPage /> },
       { path: 'admin/trayek/:id', element: <RouteEditorPage /> },
-      { path: 'admin/kendaraan', element: <VehiclesPage /> },
       { path: 'admin/laporan', element: <ReportsListPage /> },
       { path: 'admin/laporan/:id', element: <AdminReportDetailPage /> },
-      { path: 'admin/pesan', element: <MessagesPage /> },
-      { path: 'admin/pengguna', element: <UsersPage /> },
     ],
   },
   {
