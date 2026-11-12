@@ -44,6 +44,9 @@ func (s *Server) ReloadRoutes() error {
 	_, err := s.catalog(true)
 	return err
 }
+func (s *Server) RoutesCatalog(all bool) ([]geo.Route, error) {
+	return s.catalog(all)
+}
 func (s *Server) manageRoute(c *fiber.Ctx, u platform.User) error {
 	if u.Role != "admin" {
 		return c.Status(403).JSON(Row{"error": "Akses admin diperlukan"})

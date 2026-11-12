@@ -44,9 +44,9 @@ func main() {
 		}
 	}
 	db := platform.New(os.Getenv("SUPABASE_URL"), os.Getenv("SUPABASE_SERVICE_ROLE_KEY"), os.Getenv("SUPABASE_ANON_KEY"))
-	dataPath := ""
-	if *importData {
-		dataPath = env("ROUTES_FILE", "../web/src/data/angkot-routes.json")
+	dataPath := env("ROUTES_FILE", "../web/src/data/angkot-routes.json")
+	if _, err := os.Stat(dataPath); err != nil {
+		dataPath = ""
 	}
 	app, err := httpapi.New(db, dataPath, env("WEB_ORIGIN", "http://localhost:5173"))
 	if err != nil {
@@ -62,6 +62,15 @@ func main() {
 	app.DatabaseRoutes = true
 	if err := app.ReloadRoutes(); err != nil {
 		log.Fatalf("Trayek database gagal dimuat: %v", err)
+	}
+	if catalog, err := app.RoutesCatalog(true); err == nil && len(catalog) == 0 && len(app.Routes) > 0 {
+		log.Printf("Tabel routes kosong, mengimpor %d rute otomatis...", len(app.Routes))
+		if err := app.ImportRoutes(); err != nil {
+			log.Printf("Peringatan: Gagal impor rute otomatis: %v", err)
+		} else {
+			log.Printf("Berhasil mengimpor %d rute ke database", len(app.Routes))
+			_ = app.ReloadRoutes()
+		}
 	}
 	app.Origins = strings.Split(os.Getenv("WEB_ORIGINS"), ",")
 	app.PublicSupabaseURL = os.Getenv("SUPABASE_PUBLIC_URL")
