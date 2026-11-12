@@ -2,6 +2,7 @@ opencode.json
 .env
 .env.*
 !**/.env.example
+!apps/web/.env.production
 apps/api/angkot-api
 node_modules/
 supabase/.temp/
