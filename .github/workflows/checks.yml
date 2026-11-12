@@ -55,12 +55,10 @@ jobs:
             echo "Chromium siap tanpa paket sistem tambahan."
             exit 0
           fi
-          # 3) Jalur lambat: pasang dependensi sistem, bersihkan lock apt lebih dulu.
+          # 3) Jalur lambat: pasang dependensi sistem, pertahankan lock apt agar tidak bertabrakan dengan proses lain.
           echo "::warning::Chromium butuh library sistem; memasang dependensi"
           for attempt in 1 2 3; do
-            sudo systemctl stop unattended-upgrades 2>/dev/null || true
-            sudo rm -f /var/lib/apt/lists/lock /var/cache/apt/archives/lock \
-              /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock 2>/dev/null || true
+            # Jangan hapus lock: proses apt lain mungkin masih memegang inode tersebut.
             if npx --no-install playwright install-deps chromium \
               && npm run check:browser; then
               exit 0

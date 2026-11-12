@@ -48,3 +48,16 @@ Screenshot landing desktop/mobile tersimpan pada sesi ini di `/tmp/angkot-screen
 Semua berikut **NOT RUN**: GPS dua Android, trust CA, WSS LAN, izin lokasi, refresh token setelah sesi lama, jaringan 4G, layar terkunci/background, wake lock, baterai, screen reader dan audit kontras penuh. Tidak ada perangkat Android yang diuji dalam sesi ini.
 
 Untuk setiap pengujian perangkat, catat tanggal, model, OS/browser, langkah, expected, actual, PASS/FAIL dan bukti. Pengujian emulator/Playwright tidak menggantikan penerimaan tersebut.
+
+
+## Verifikasi ulang — 12 November 2026
+
+Workspace memuat commit `e851707` dan perbaikan review sesudahnya. Lingkungan Node/Go tetap sama. Log sementara terbaru berada di `/tmp/angkot-final/`; log sesi sebelumnya tidak tersedia setelah pergantian lingkungan.
+
+- **PASS:** 50 unit frontend, 7 unit root, TypeScript/Vite build, Go vet dan Go race. Lint exit 0 dengan tiga warning existing.
+- **PASS fixture:** landing smoke pada 390/768/900/1024/1280/1440 px, hash Cara Kerja, fokus CTA pencarian, label simulasi dan retry statistik; flow browser lengkap.
+- **PASS fixture:** `LOCAL_HTTPS=true DEMO_SMOKE=1 npm run demo:offline` setelah perbaikan review. Harness tetap memakai HTTP loopback, alur dua role selesai dan halaman Statistik terbuka setelah Offline dengan state armada kosong.
+- **Regression teramati:** smoke statistik sebelum perbaikan memunculkan error `StatisticsPage` karena `activeByRoute` tidak tersedia. Fixture kini mengisi seluruh kontrak agregat dan menghitung armada aktif dari duty.
+- **PASS:** audit imports runtime 87 modul dan `git diff --check`.
+- **Review independen:** tiga temuan ditangani: penghapusan lock apt/dpkg di CI dihilangkan; harness mengesampingkan LOCAL_HTTPS konfigurasi normal; statistik fixture dilengkapi. Workflow GitHub Actions belum dijalankan ulang pada runner hosted dalam sesi ini.
+- **BLOCKED/NOT RUN tetap berlaku:** integrasi Supabase/PostGIS nyata, rehearsal database dan penerimaan Android. Tidak ada klaim baru kesiapan produksi.

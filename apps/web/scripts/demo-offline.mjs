@@ -163,6 +163,7 @@ async function startVite(port) {
         VITE_SUPABASE_URL: 'http://127.0.0.1:9001',
         VITE_SUPABASE_ANON_KEY: 'test-anon',
         VITE_API_URL: '/api',
+        LOCAL_HTTPS: 'false',
       },
       stdio: ['ignore', 'inherit', 'inherit'],
     },
@@ -274,11 +275,15 @@ async function prepare(browser, role, viewport) {
         routes: routes.length,
         routeCodes: new Set(routes.map((item) => item.code)).size,
         totalVehicles: 14,
-        activeVehicles: 1,
+        activeVehicles: ['narik', 'ngetem'].includes(state.mode) ? 1 : 0,
         gpsVehicles: 0,
-        simulatedVehicles: 1,
+        simulatedVehicles: ['narik', 'ngetem'].includes(state.mode) ? 1 : 0,
         verifiedDrivers: 4,
         reports: 2,
+        received: 0,
+        activeByRoute: ['narik', 'ngetem'].includes(state.mode) ? { [route.code]: 1 } : {},
+        activeByDirection: ['narik', 'ngetem'].includes(state.mode) ? { [route.id]: 1 } : {},
+        vehicleStatuses: ['narik', 'ngetem'].includes(state.mode) ? { jalan: 1 } : {},
         processing: 1,
         resolved: 1,
       }
@@ -577,6 +582,10 @@ Ctrl+C untuk menutup kedua jendela dan server.
     await driverPage.waitForFunction(() =>
       document.body.textContent?.includes('GPS tidak dibagikan'),
     )
+    await passengerPage.goto(new URL('/statistik', passengerPage.url()).href)
+    await passengerPage.getByRole('heading', { name: 'Statistik transparansi layanan' }).waitFor()
+    await passengerPage.getByRole('heading', { name: 'Angkot aktif per jurusan' }).waitFor()
+    await passengerPage.getByText('Belum ada kendaraan aktif.', { exact: true }).waitFor()
     console.log('[demo] SMOKE PASS: Narik → Megat → respons → naik → reload → selesai → Offline')
     await shutdown(0)
   }

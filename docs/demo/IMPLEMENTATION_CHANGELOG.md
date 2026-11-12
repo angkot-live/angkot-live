@@ -52,3 +52,12 @@ Tanggal: 11 November 2026. Branch kerja: `feat/competition-demo-readiness`. Peru
 Lihat [TEST_RESULTS](TEST_RESULTS.md): unit frontend 50 lulus, root 7 lulus, Go race/vet lulus, build/lint, flow smoke tiga kali dan landing smoke lulus. Integrasi Supabase, SQL, rehearsal nyata serta Android masih terhalang atau belum dijalankan.
 
 Tidak ada reset destruktif, data perjalanan palsu, secret frontend, dependency upgrade atau deployment. Penerimaan final kompetisi memerlukan stack lokal siap dan rehearsal nyata berhasil. Gap fitur roadmap tetap berlaku.
+
+
+## Perbaikan review — 12 November 2026
+
+- `.github/workflows/checks.yml`: hapus penghentian layanan dan penghapusan file lock paket; pertahankan mekanisme retry instalasi dependensi. Lock yang masih dipegang proses lain tidak boleh dilewati dengan menghapus inode.
+- `apps/web/scripts/demo-offline.mjs`: paksa `LOCAL_HTTPS=false` hanya pada child Vite fixture agar environment HTTPS aplikasi normal tidak menggagalkan polling HTTP harness.
+- Lengkapi fixture statistik dengan received, activeByRoute, activeByDirection dan vehicleStatuses. Total aktif/simulasi mengikuti duty; Offline tidak lagi menghitung satu kendaraan aktif.
+- Smoke fixture kini membuka Statistik setelah Offline dan memeriksa state kosong. Regression gagal sebelum perbaikan, lalu lulus dengan inherited LOCAL_HTTPS=true.
+- Verifikasi ulang seluruh pemeriksaan lokal tercatat di TEST_RESULTS. Review hosted CI, Supabase nyata dan Android tetap belum dilakukan.

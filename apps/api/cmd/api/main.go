@@ -20,6 +20,21 @@ func env(key, fallback string) string {
 	}
 	return fallback
 }
+func listenAddr() string {
+	if a := os.Getenv("API_ADDR"); a != "" {
+		if !strings.HasPrefix(a, ":") && !strings.Contains(a, ":") {
+			return ":" + a
+		}
+		return a
+	}
+	if p := os.Getenv("PORT"); p != "" {
+		if !strings.HasPrefix(p, ":") {
+			return ":" + p
+		}
+		return p
+	}
+	return ":8080"
+}
 func main() {
 	importData := flag.Bool("import-routes", false, "Import canonical routes then exit")
 	flag.Parse()
@@ -57,7 +72,7 @@ func main() {
 	trackingContext, stopTracking := context.WithCancel(context.Background())
 	defer stopTracking()
 	go app.RunTracking(trackingContext)
-	server := &http.Server{Addr: env("API_ADDR", ":8080"), Handler: app.Handler(), ReadHeaderTimeout: 5 * time.Second, IdleTimeout: 60 * time.Second}
+	server := &http.Server{Addr: listenAddr(), Handler: app.Handler(), ReadHeaderTimeout: 5 * time.Second, IdleTimeout: 60 * time.Second}
 	go func() {
 		log.Printf("API mendengarkan %s", server.Addr)
 		if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {

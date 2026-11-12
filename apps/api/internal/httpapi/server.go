@@ -142,6 +142,9 @@ func (s *Server) Handler() http.Handler {
 		}
 		return c.Next()
 	})
+	app.Get("/healthz", func(c *fiber.Ctx) error {
+		return c.JSON(fiber.Map{"ok": true})
+	})
 	app.Get("/api/health", func(c *fiber.Ctx) error {
 		rows, err := s.catalog(false)
 		if err != nil {
